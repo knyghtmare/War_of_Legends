@@ -1,0 +1,10 @@
+fai 'cursed_move.fai'
+
+def furthest_loc(moves, unit)
+    choose(moves, distance_between(unit.loc, self));
+
+move(me.loc, furthest_loc(villages, me))
+
+where villages = filter(unit_moves(me.loc), is_village(map,x,y))
+
+faiend

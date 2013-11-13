@@ -1,0 +1,17 @@
+fai 'cursed_eval.fai'
+
+if(size(filter(unit_moves(me.loc), is_village(map,x,y))) != 0,
+    {AI_CA_HEALING_SCORE} + 100 +
+        # Make sure units get healed from poison before curse. #
+        if( index_of('poisoned', keys(me.states)) != -1, 
+        	if( me.hitpoints < 6, 0, 1000), 
+                0
+        ) +
+        if( index_of('cursed', keys(me.states)) != -1, 500, 0 ) +
+        600 / size(filter(unit_moves(me.loc), is_village(map,x,y))) +
+        if(me.hitpoints > (me.max_hitpoints-8), -200, 0)
+    , -1
+)
+
+faiend
+

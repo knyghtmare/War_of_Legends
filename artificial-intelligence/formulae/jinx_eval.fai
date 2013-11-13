@@ -1,0 +1,30 @@
+fai 'jinx_eval.fai'
+
+{AI_CA_COMBAT_SCORE} + 1000 +
+# units next to healers/curers are also bad targets #
+min(	map(	
+		filter( 
+			map( adjacent_locs(target.loc), 
+				unit_at(self) 
+			), 
+			'unit', index_of(unit.side, enemies) != -1 and unit.abilities
+		), 'unit_with_sp',
+		if( index_of('curing',unit_with_sp.abilities) != -1, -500, 0 )
+	)
+) +
+#leader is always a good target! #
+if( target.leader, 500, 0 ) +
+# consider target abilities if needed #
+if( target.abilities,
+	if( index_of('healing', target.abilities) != -1, 100, 0 ) +
+		if( index_of('curing', target.abilities) != -1, 100, 0 ) +
+		if( index_of('leadership', target.abilities) != -1, 150, 0 ),
+	0
+) +
+# hit the units on high defense first #
+defense_on(target, target.loc)
+# taking into account the potential retaliation. Factor 6 is to counter the weigth of defense bonus and abilities #
+- 6 * max_possible_damage_with_retaliation(me, target)[values(filter(['melee' -> 2, 'ranged' -> 3], key=me.attacks[index_of(['magical','jinx'],map(me.attacks,special))].range))[0]]
+
+faiend
+
