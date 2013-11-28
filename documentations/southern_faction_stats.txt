@@ -1,0 +1,215 @@
+This is a document where I have written the ideas I had for the Southerners faction, which is momentarily unbalanced.
+
+Faction name stays the same.
+
+Rename the southern elf race to 'desert elf.' Southernern Elf was too long.
+
+Units:
+
+Level 1           Level 2             Level 3
+
+Desert Hunter --> Desert Warrior   --> Desert Champion/Swordsmaster/Elite Warrior
+             \--> Desert Chieftain --> Desert Great Chieftain
+
+Desert Archer --> Desert Marksman  --> Desert Sharpshooter
+
+Desert Guardsman --> Desert Sentinel
+
+Carapace -->     Gallant Carapace --> Warrior Carapace
+
+Dust Devil --> custom advancements
+
+             /--> Desert Druid
+Desert Mystic --> Desert Sun Enchantress --> Desert Sun Sorceress
+             \--> Desert Moon Priestess --> Desert Moon Shyde
+
+Faction Info:
+
+It is a coalition of the southern nations of Arkenova, excluding the dwarves, minotaurs, mermen and wood elves. The faction is based on both offensive & defensive tactics, making it capable of standing a fair chance against any faction.
+
+Unit Statistics:
+
+All desert elves receive 50% defence in sand and forest terrain and the movement penalty is one. They are slower and more vulnerable in icy/snowy terrain, but more agile and better adapted for cave crawling. The dexterous trait is not available to them, but the traits strong, resilient, intelligent, quick, and healthy are observed. Since they are elves, they have a -10% resistance to arcane damage.
+
+1. Desert Hunter:
+
+alignment: lawful
+movement: 5
+hitpoints: 34
+experience: 44
+usage: fighter
+cost: 15
+attacks: 5-4 melee blade sword, 4-2 ranged impact bolas (slow)
+
+2. Desert Warrior:
+
+alignment: lawful
+hitpoints: 55
+movement: 5
+experience: 85
+usage: fighter
+cost: 30
+attacks: 6-5 melee blade sword, 6-2 ranged impact bolas (slow)
+
+3. Desert Champion/Swordsmaster/Elite Warrior: (Still need to decide the name for this one)
+
+alignment: lawful
+hitpoints: 70
+experience: 150
+movement: 5
+usage: fighter
+cost: 46
+attacks: 7-6 melee blade sword, 8-2 ranged impact bolas (slow)
+
+4. Desert Chieftain:
+
+alignment: lawful
+hitpoints: 52
+movement: 5
+experience: 85
+usage: fighter
+cost: 32
+attacks: 8-4 melee blade sword
+abilities: leadership
+
+5. Desert High Chieftain:
+
+alignment: lawful
+hitpoints: 64
+movement: 5
+experience: 85
+usage: fighter
+cost: 47
+attacks: 10-4 melee blade sword
+abilities: leadership
+
+6. Desert Archer:
+
+alignment: lawful
+hitpoints: 31
+experience: 48
+movement: 5
+usage: archer
+cost: 17
+attacks: 3-3 melee blade short-sword, 5-4 ranged pierce
+
+7. Desert Marksman:
+
+alignment: lawful
+hitpoints: 45
+experience: 88
+usage: archer
+movement: 5
+cost: 32
+attacks: 4-3 melee blade short-sword, 8-4 ranged pierce (precision)
+
+8. Desert Sharpshooter:
+
+alignment: lawful
+hitpoints: 54
+experience: 48
+movement: 5
+usage: archer
+cost: 47
+attacks: 5-3 melee blade short-sword, 10-5 ranged pierce (precision)
+
+8. Desert Mystic:
+
+alignment: neutral
+hitpoints: 26
+experience: 40
+movement: 5
+usage: healer/archer
+cost: 16
+attacks: 5-1 melee impact staff, 7-2 ranged arcane aura-blast
+abilities: heals +4
+
+9. Desert Druid:
+
+alignment: neutral
+hitpoints: 34
+movement: 5
+experience: 100
+usage: healer
+cost: 35
+attacks: 7-1 melee impact staff, 7-3 ranged arcane aura-blast
+abilities: heals +8, cures
+
+10. Desert Moon Priestess:
+
+alignment: chaotic
+hitpoints: 38
+movement: 5
+experience: 80
+usage: archer/mixed fighter
+cost: 35
+attacks: 7-2 melee blade glaive, 7-4 ranged cold northern-wind (marksman + slow)
+resistances: +10% cold
+
+11. Desert Moon Shyde:
+
+alignment: chaotic
+hitpoints: 50
+experience: 150
+movement: 6
+usage: archer/mixed fighter
+cost: 48
+attacks: 7-3 melee blade glaive, 9-4 ranged cold northern-wind (marksman + slow)
+abilities: can fly over most impediments
+resistances: +20% cold
+
+12. Desert Sun Enchantress:
+
+alignment: lawful
+hitpoints: 38
+experience: 80
+movement: 5
+usage: archer/mixed fighter
+cost: 35
+attacks: 7-2 melee impact staff, 7-4 ranged fire fire-blast (magical)
+resistances: +10% fire
+
+13. Desert Sun Sorceress:
+
+alignment: chaotic
+hitpoints: 50
+movement: 5
+experience: 150
+usage: archer/mixed fighter
+cost: 48
+attacks: 7-3 melee impact staff, 9-4 ranged fire fire-blast (magical)
+abilities: sustenance (+20% resistances during lawful hours)
+resistances: +20% fire
+
+14. Desert Guardsman:
+
+alignment: neutral
+hitpoints: 38
+experience: 49
+movement: 4
+usage: fighter/tank
+cost: 19
+attacks: 10-2 melee blade sword
+abilities: steadfast
+resistances: +10% blade, +10% pierce, +10% impact
+
+15. Desert Sentinel:
+
+alignment: neutral
+hitpoints: 50
+experience: 100
+movement: 4
+usage: fighter/tank
+cost: 40
+attacks: 13-2 melee blade sword
+abilities: steadfast, protection (adjacent units gain +20% resistances, depending on level)
+resistances: +20% blade, +10% pierce, +10% impact , +10% cold, +10% fire
+
+16. Dust Devil:
+
+No adjustments made to the unit from War of Legends era.
+
+17. Carapace:
+
+No adjustments made to this unit or its advancements from War of Legends era
+On a side note, I feel that despite being slow, it's kinda strong and rather hard to kill. Should I weaken him?
