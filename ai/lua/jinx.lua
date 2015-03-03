@@ -1,5 +1,5 @@
 local helper = wesnoth.require "lua/helper.lua"
-local utils = wesnoth.require "~add-ons/War_of_Legends/artificial-intelligence/lua/utils.lua"
+local utils = wesnoth.require "~add-ons/War_of_Legends/ai/lua/utils.lua"
 
 local jinx = { }
 
