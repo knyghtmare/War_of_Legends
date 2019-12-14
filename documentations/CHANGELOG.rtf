@@ -1,6 +1,7 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
-{\fonttbl\f0\fnil\fcharset0 Zapfino;\f1\fswiss\fcharset0 Helvetica;\f2\fnil\fcharset0 Chalkboard;
-}
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Zapfino;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fswiss\fcharset0 Helvetica-BoldOblique;
+\f3\fmodern\fcharset0 Courier;\f4\fnil\fcharset0 Chalkboard;\f5\fswiss\fcharset0 Helvetica;
+\f6\fswiss\fcharset0 Helvetica-Oblique;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \paperw11900\paperh16840\margl1440\margr1440\vieww24600\viewh14820\viewkind0
@@ -9,12 +10,28 @@
 \f0\fs40 \cf0 War of Legends
 \f1\b\fs24 \
 
-\i Change-Log v1.1.9\
+\f2\i Change-Log v1.2.0\
+\
+version v1.2.0\
+\
+
+\f3\i0\b0 Units:\
+--> Removed/replaced all deprecated macros that were removed in 1.15.x\
+\
+Eras and Factions:\
+--> Corrected random leader types and random lists for most/all factions\
+\
+AMLA:\
+--> Removed the last two AMLA's for Jahin in HoI since the new Leadership macro won't allow leadership abilities for levels 4 and 5\
+\
+Ported to 1.15.x server.\
+
+\f2\i\b \
 \
 version v1.1.9\
 \
 
-\f2\i0\b0 Ported to 1.14.x\
+\f4\i0\b0 Ported to 1.14.x\
 \
 Windsong:\
 ---> Heretic: +10% fire and cold resistance, +1 sword damage, +enchanted (always 60% chance to hit) ranged, +5 HP, +10% defence on castle/keep\
@@ -43,23 +60,23 @@ Windsong:\
 Undead Hordes:\
 ---> Fixed an incorrect ID in the faction leaderlist and random_leaders\
 
-\f1\i\b \
+\f2\i\b \
 \
 version v1.1.8\
 \
 
-\f2\i0\b0 Undead:\
+\f4\i0\b0 Undead:\
 ---> Death Baron: HP 52 --> 45\
 ---> Fixed advancement path: Deathmaster -> Lich Lord (Why didn't anyone even report this?)\
 ---> Added descriptions for the elemental traits\
 ---> Removed Blue Falcon\
 ---> Minotaurs can now recruit Mermaid Initiates
-\f1\i\b \
+\f2\i\b \
 \
 version v1.1.7\
 \
 
-\f2\i0\b0 Misc:\
+\f4\i0\b0 Misc:\
 ---> Dwarven Marksman and Dwarven Arbalestier:  -1 MP \
 ---> ID of lvl 1 Warrior changed to Soldier\
 ---> ID of lvl 2 Captain changed to Warrior\
@@ -105,16 +122,16 @@ Undead:\
 ---> Changed the ID of Dread Lich to Elder Lich Lord\
 ---> Added new animations for the Elder Lich Lord\
 
-\f1\i\b \
+\f2\i\b \
 version v1.1.6\
 \
 
-\f2\i0\b0 Dark Legion:\
+\f4\i0\b0 Dark Legion:\
 ---> prefix of all units changed from 'Dark' to
-\f1\i\b  
-\i0\b0 'Legion'\
+\f2\i\b  
+\f5\i0\b0 'Legion'\
 
-\f2 ---> Applied the new 1.12 animation syntax to all units\
+\f4 ---> Applied the new 1.12 animation syntax to all units\
 ---> Changed IDs of most units: (remember the suffix when including them in scenarios)\
 \
 Archer ---> Crossbowman ---> Arbalastier\
@@ -146,18 +163,18 @@ Human Alliance:\
 ---> Crusader: -2 damage, +1 melee strike, added heals +4\
 \
 
-\f1\i\b \
+\f2\i\b \
 version v1.1.5.1\
 \
 
-\i0\b0 Eras:\
+\f5\i0\b0 Eras:\
 \
 ---> Fixed a typing error.\
 ---> Fixed a number of bugs in Empowered Legend Era
-\i\b \
+\f2\i\b \
 \
 
-\i0\b0 Southerners:\
+\f5\i0\b0 Southerners:\
 \
 ---> Removed a misleading \{SPECIAL_NOTES_ARCANE\} from the Dust Devil's description.\
 ---> Fixed the causes of a deprecated description warning from the Dust Devil.\
@@ -194,10 +211,10 @@ Human Alliance:\
 ---> Added the Custodian\
 ---> Glaiver is now renamed to Sentry.\
 ---> Sentries can now advance to Custodians
-\i\b \
+\f2\i\b \
 \
 
-\i0\b0 SP only:\
+\f5\i0\b0 SP only:\
 \
 ---> Added Dwarven units armed with Crossbows.\
 ---> Infantry Commander renamed to Custodian\
@@ -208,29 +225,29 @@ Human Alliance:\
 ---> Removed Cavalry Archer\
 ---> Removed the Archer Knight\
 ---> Added the Mounted Bowman as an alternate advancement for the Cavalryman. This unit is unlocked in SP by including a special macro in the extra defines inside the [campaign] tags.
-\i\b \
+\f2\i\b \
 \
 version v1.1.4\
 \
 
-\i0\b0 Human Alliance:\
+\f5\i0\b0 Human Alliance:\
 \
 ---> Adept of Light: decreased HP by 2, increased XP by 3, changed
-\i  magical
-\i0  to 
-\i enchanted
-\i0 .\
+\f6\i  magical
+\f5\i0  to 
+\f6\i enchanted
+\f5\i0 .\
 ---> Infantryman: increased HP by 2.\
 ---> Cleric: decreased cost by 1, reduced melee damage by 1, increased XP by 2, changed
-\i  magical
-\i0  to 
-\i enchanted
-\i0 .\
+\f6\i  magical
+\f5\i0  to 
+\f6\i enchanted
+\f5\i0 .\
 ---> Prophetess of Light: decreased cost by 3, reduced melee damage by 1, decreased ranged damage of sacred fire by 1, changed magical special of sacred fire to enchanted.
-\i\b \
+\f2\i\b \
 \
 
-\i0\b0 Dark Legion:\
+\f5\i0\b0 Dark Legion:\
 \
 ---> Reduced the melee damage of the Naga Guardian from 7-3 to 8-2\
 ---> Reduced the melee damage of the Naga Sentinel from 10-4 to 13-3\
@@ -295,18 +312,18 @@ Misc:\
 ---> Added new weapon special Enchanted (slightly weaker variation of magical - always has a 60% chance to hit), accessible using WEAPON_SPECIAL_ENCHANTED and SPECIAL_NOTES_ENCHANTED\
 ---> Removed Jahin's avatar for Hero Of Irdya. I have decided to make him stay human for the course of the campaign.\
 
-\i\b \
+\f2\i\b \
 \
 version v1.1.3\
 
-\i0\b0 \
+\f5\i0\b0 \
 Overall:-\
 \
 ---> Added special macros that separates SP only units from the MP units, which happen to be in the same folder.\
 
-\i\b \
+\f2\i\b \
 
-\i0\b0 Sylvans:\
+\f5\i0\b0 Sylvans:\
 \
 ----> Removed Wose Shaman as a recruitable unit from the Empowered Legend Era faction.\
 ----> Added the Elvish Prowler and Elvish Trapper - restoring the Hunter's advancement lines\
@@ -316,14 +333,14 @@ Human Alliance:-\
 \
 ---> Changed damage type of Chevalier, and Crusader from fire to arcane\
 ---> Changed attack of Divine Lightning to Lightning for Prophetess
-\i\b \
+\f2\i\b \
 \
 
-\i0\b0 Elementals:-\
+\f5\i0\b0 Elementals:-\
 
-\i\b \
+\f2\i\b \
 
-\i0\b0 ---> Reduced HP of Razorbird from 32 to 28\
+\f5\i0\b0 ---> Reduced HP of Razorbird from 32 to 28\
 ---> Reduced HP of Thunderbird from 44 to 40\
 ---> Reduced HP of Sylph from 36 to 32\
 ---> Reduced HP of Zephyr from 48 to 44\
@@ -351,129 +368,129 @@ Dark Legion:\
 Woses:\
 \
 ---> Converted to Single Player only
-\i\b \
+\f2\i\b \
 \
 version v1.1.2\
 \
 
-\i0\b0 General:\
+\f5\i0\b0 General:\
 \
 ---> Removed a misplaced 'binary path' tag to its correct position. This was the cause of the issues of Unknown scenarios faced by other add-ons (namely 
-\i Legend of the Invincibles 
-\i0 and 
-\i After the Storm
-\i0 ). I sincerely apologised for any inconvenience caused (I expect no forgiveness but, I made an apology anyway...). (Thank you Dugi for pointing out that I was causing this sort of disaster :-P)
-\i\b \
+\f6\i Legend of the Invincibles 
+\f5\i0 and 
+\f6\i After the Storm
+\f5\i0 ). I sincerely apologised for any inconvenience caused (I expect no forgiveness but, I made an apology anyway...). (Thank you Dugi for pointing out that I was causing this sort of disaster :-P)
+\f2\i\b \
 \
 
-\i0\b0 Language:\
+\f5\i0\b0 Language:\
 \
 ---> Gave Windsong units their own names...
-\i\b \
+\f2\i\b \
 \
 version 1.1.1\
 \
 
-\i0\b0 Abilities and Weapon Specials:\
+\f5\i0\b0 Abilities and Weapon Specials:\
 \
 ---> Added and integrated special macros from After the Storm (thank you Shadow Master) to fix the outstanding issue of the deprecated description format in 1.11.x
-\i\b \
+\f2\i\b \
 \
 version 1.1.0\
 \
 
-\i0\b0 Eras:-\
+\f5\i0\b0 Eras:-\
 \
 ---> New era: Core Legends Era (for the six original factions of Great Legend Era)\
 
-\i\b \
+\f2\i\b \
 
-\i0\b0 Aragwaithi:-\
+\f5\i0\b0 Aragwaithi:-\
 \
 ---> New updated graphics.
-\i\b \
+\f2\i\b \
 \
 
-\i0\b0 Sylvans:-\
+\f5\i0\b0 Sylvans:-\
 \
 ---> +1 MP for Faerie Sprite/Fire Faerie/Faerie Dryad/Faerie Spirit\
 ---> alignment of Faerie Spirit changed from lawful to neutral.
-\i\b \
+\f2\i\b \
 \
 
-\i0\b0 Undead:-\
+\f5\i0\b0 Undead:-\
 \
 ---> New portrait and base image for the Dread Lich (courtesy of Sleepwalker)\
 ---> New portrait for Demi-lich (Thanks Valkier!) \
 ---> Death Baron +3 cost
-\i\b \
+\f2\i\b \
 \
 
-\i0\b0 Misc:-\
+\f5\i0\b0 Misc:-\
 \
 ---> New Portrait for Warrior/Captain/Warmaster\
 ---> Fixed typing errors in various files\
 ---> Fixed cursed image status and overlay not showing in game.\
 ---> Added AI functions to allow better usage of jinx weapon special
-\i\b \
+\f2\i\b \
 \
 version 1.0.8\
 \
 
-\i0 Outlaws:-\
+\f1\i0 Outlaws:-\
 \
 
-\b0 ---> Naga Hunter ranged attack -poison +precision\
+\f5\b0 ---> Naga Hunter ranged attack -poison +precision\
 ---> Naga Marksman ranged attack -poison +precision\
 \
 
-\b Dark Legion:-\
+\f1\b Dark Legion:-\
 \
 
-\b0 ---> Added Naga-Guardian line as recruits instead of Naga Fighter line\
+\f5\b0 ---> Added Naga-Guardian line as recruits instead of Naga Fighter line\
 ---> Dark Bowman +1 cost\
 \
 
-\b Aragwaithi\
+\f1\b Aragwaithi\
 \
 
-\b0 ---> Guard +10% blade resistance\
+\f5\b0 ---> Guard +10% blade resistance\
 ---> Shield Guard +10% blade and pierce resistance\
 \
 
-\b Campaigns:-\
+\f1\b Campaigns:-\
 
-\b0 ---> Added the Orcish Nightblade from 
-\i The Legend Begins (made by sleepwalker)\
+\f5\b0 ---> Added the Orcish Nightblade from 
+\f6\i The Legend Begins (made by sleepwalker)\
 ---> 
-\i0 Added Nagini Mage. (From Skyone's Return of the Monster)\
+\f5\i0 Added Nagini Mage. (From Skyone's Return of the Monster)\
 
-\i\b \
+\f2\i\b \
 
-\i0 Misc:-\
+\f1\i0 Misc:-\
 \
 
-\b0 ---> Updated CREDITS
-\i\b \
+\f5\b0 ---> Updated CREDITS
+\f2\i\b \
 \
 
-\i0 version 1.0.6\
+\f1\i0 version 1.0.6\
 \
 Eras:-
-\b0 \
+\f5\b0 \
 \
 ---> Fixed up some factions being able to recruit lvl 3s\
 ---> Removed Warrior as leader in RPG era.\
 
-\b \
+\f1\b \
 Minotaurs:-
-\b0 \
+\f5\b0 \
 \
 ---> Fixed animations for Elder's Fireball attack.
-\b \
+\f1\b \
 \
 Human Alliance:-
-\b0 \
+\f5\b0 \
 \
 ---> New Graphics for the Adept-of-Light and successive units.\
 ---> Fixed image path for various units\
@@ -483,14 +500,14 @@ Human Alliance:-
 ---> Crusader +10% arcane resistance\
 \
 
-\b Outlaws:-
-\b0 \
+\f1\b Outlaws:-
+\f5\b0 \
 \
 ---> New base images for tracker-line
-\b \
+\f1\b \
 \
 Windsong:-
-\b0 \
+\f5\b0 \
 \
 ---> Added Harbinger\
 ---> Harbinger ID changed to Warmonger\
@@ -499,8 +516,8 @@ Windsong:-
 ---> Heretic -1 melee damage\
 \
 
-\b Southerners:-
-\b0 \
+\f1\b Southerners:-
+\f5\b0 \
 \
 ---> All southern-elf units:  -10 sand defense, -1 hill MP cost\
 ---> Dust Devil +1HP\
@@ -531,43 +548,43 @@ Mountains=00\
 ---> Guard +steadfast\
 \
 
-\b Elementals:-
-\b0 \
+\f1\b Elementals:-
+\f5\b0 \
 \
 Fixed faction image in RPG era.\
 Fixed a typo\
 Corrected Spelling of 
-\b revitalisation
-\b0  in ability.\
+\f1\b revitalisation
+\f5\b0  in ability.\
 \
 
-\b Vampires:-
-\b0 \
+\f1\b Vampires:-
+\f5\b0 \
 \
 Blood Hulk +2 cost
-\i\b \
+\f2\i\b \
 \
 
-\i0 Misc:-
-\b0 \
+\f1\i0 Misc:-
+\f5\b0 \
 \
 ---> Removed deprecated file (Campaign authors using the old IDs should adapt now.)\
 ---> Fixes a typo in weapons special notes\
 ---> Fixed image paths for certain units\
 ---> Added selected units from 
-\i Nightmares of Meloen
-\i0  (only used in campaigns)\
+\f6\i Nightmares of Meloen
+\f5\i0  (only used in campaigns)\
 ---> Updated credits\
 ---> Cleaned up _main.cfg file. \
 ---> Cleaned up units/humans/ folder (separated into 4 directories - aragwaithi, mages, loyalists, and campaigns)\
 ---> Campaign only units no-longer loaded in MP.
-\i\b \
+\f2\i\b \
 \
 
-\i0 version 1.0.5\
+\f1\i0 version 1.0.5\
 \
 
-\b0 Attacks:-\
+\f5\b0 Attacks:-\
 ---> New attack icons:- Nature Flare, Divine Lighting, Aura Blast, Sandstorm, Tornado, Northern Wind, Ravage, Chaos Missile, Dementia Gaze\
 \
 Portraits:-\
@@ -582,10 +599,10 @@ Eras:-\
 ---> Cleaned up era files.\
 ---> Added random leaders for all existing eras\
 ---> Removed Naga Fighter from Outlaws recruit list
-\b \
+\f1\b \
 \
 
-\b0 Elementals:-\
+\f5\b0 Elementals:-\
 ---> Renamed most units.\
 ---> Fire Wisp -1 melee\
 ---> Fire Wisp -1 range\
@@ -601,10 +618,10 @@ Living Furnace = Furnace Beast\
 Lava Beast = Lava Giant\
 Living Volcano = Lava Behemoth\
 Tempest Spirit = Nymph
-\b \
+\f1\b \
 \
 
-\b0 Dark Legion:-\
+\f5\b0 Dark Legion:-\
 ---> Soldier +4 XP\
 ---> Advanced Crossbowman renamed to Arbalestier\
 \
@@ -612,13 +629,13 @@ Southern Elves:-\
 ---> Mystic-line rebalanced.\
 ---> Mystic +1 cost.\
 ---> Added slow to the Mystic's ranged attack. Removed magical.
-\b \
+\f1\b \
 \
 
-\b0 Humans:
-\b \
+\f5\b0 Humans:
+\f1\b \
 
-\b0 ---> Gave Chevalier / Duke a weak ranged attack. (This differentiates them further from the Swordsman and Royal Guard)\
+\f5\b0 ---> Gave Chevalier / Duke a weak ranged attack. (This differentiates them further from the Swordsman and Royal Guard)\
 ---> Chevalier +2 cost\
 ---> Duke +4 cost\
 ---> Bladesman ID changed to Infantryman\
@@ -626,27 +643,27 @@ Southern Elves:-\
 \
 Vampires:-\
 ---> Thin Bloods get the vampire trait now.
-\b \
+\f1\b \
 \
 
-\b0 Campaign Specifics:\
+\f5\b0 Campaign Specifics:\
 ---> New Graphics for Warrior / Captain / Warmaster (Taken and edited from 
-\i Status of Loyalist Baseframes 
-\i0 in 
-\i Art Developent
-\i0 )\
+\f6\i Status of Loyalist Baseframes 
+\f5\i0 in 
+\f6\i Art Developent
+\f5\i0 )\
 ---> Removed Troll Fighter (TLB adapts by using a custom Troll Whelp)\
 ---> Added an extra file, to make era usable with campaigns that use it (other than my own)\
 \
 Misc:-\
 ---> Updated Credits
-\i\b \
+\f2\i\b \
 \
 
-\i0 version 1.0.4\
+\f1\i0 version 1.0.4\
 \
 
-\b0 Elementals:\
+\f5\b0 Elementals:\
 ---> Fire Ghosts and Fire Wisps receive 50% defense in caves.\
 \
 Vampires:\
@@ -658,19 +675,19 @@ Aragwaith\
 Sylvans:\
 ---> Cost of Acolyte Increased by 1.\
 
-\i\b \
+\f2\i\b \
 
-\i0 version 1.0.3\
+\f1\i0 version 1.0.3\
 
-\i \
+\f2\i \
 
-\i0\b0 Sylvans:\
+\f5\i0\b0 Sylvans:\
 ---> New base images for Elvish Acolyte-line.\
 \
 Outlaws:\
 ----> Formerly named 
-\i Wesfolk
-\i0  now changed to this...\
+\f6\i Wesfolk
+\f5\i0  now changed to this...\
 ----> Image directory also changed.\
 \
 Campaign Specifics:\
@@ -680,60 +697,60 @@ Overall:-\
 ---> Reverted all changes related to project WTF!.\
 Project WTF! was an operation that substituted the mainline lava terrain to one that allowed Brazier Creations and units with furnacefoot movement type to walk on it, while maintaining the properties of the properties lava terrain.\
 But, when I tried editing the terrain graphics, I was blown away. Having tried numerous times, i give up!!!! This project will never be completed as this too complex!
-\i\b \
+\f2\i\b \
 \
 
-\i0 version 1.0.2\
+\f1\i0 version 1.0.2\
 
-\b0 \
+\f5\b0 \
 Sylvans:\
 ---> New base images for Faerie Sprite-line.
-\i\b \
+\f2\i\b \
 \
 
-\i0 version 1.0.1\
+\f1\i0 version 1.0.1\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf0 \ul \ulc0 \
 
-\b0 Misc:\
+\f5\b0 Misc:\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf0 \ulnone ---> Fixed the textdomain of all files.\
 ---> Edited movement_types to fit the ones in core. (Removed things like 
-\i impassable=100 
-\i0 or
-\i  impassable=\{UNREACHABLE\}
-\i0 )\
+\f6\i impassable=100 
+\f5\i0 or
+\f6\i  impassable=\{UNREACHABLE\}
+\f5\i0 )\
 ---> 
-\i War of Ancients 
-\i0 (AoH version of WOL) added.\
+\f6\i War of Ancients 
+\f5\i0 (AoH version of WOL) added.\
 ---> Removed Energy-beam
-\b \ul  
-\b0 \ulnone projectiles.\
+\f1\b \ul  
+\f5\b0 \ulnone projectiles.\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\b \cf0 \ul \
+\f1\b \cf0 \ul \
 
-\b0 Southerners:
-\b \ulnone \
+\f5\b0 Southerners:
+\f1\b \ulnone \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\b0 \cf0 ---> Fixed level of Moon Enchantress to 3.\
+\f5\b0 \cf0 ---> Fixed level of Moon Enchantress to 3.\
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf0 \ul Elementals:\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf0 \ulnone ---> Disabled advancement of Lava Beast to Living Volcano. The advancement is enabled by 
-\b ENABLE_LIVING_VOLCANO
-\b0  in campaign 
-\i extra_defines. 
-\i0 This is used in 
-\i The Legend Begins: Episode 1.
-\i0  
-\i \
+\f1\b ENABLE_LIVING_VOLCANO
+\f5\b0  in campaign 
+\f6\i extra_defines. 
+\f5\i0 This is used in 
+\f6\i The Legend Begins: Episode 1.
+\f5\i0  
+\f6\i \
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\i0 \cf0 \ul Vampires:\
+\f5\i0 \cf0 \ul Vampires:\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf0 \ulnone ---> Fixed advancement path for Bloodborn.\
 \
@@ -749,45 +766,45 @@ Sylvans:\
 ---> New animations for the Wose Shaman.\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\b \cf0 \
+\f1\b \cf0 \
 version 1.0.0\
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\b0 \cf0 Merged Great Legend Era and GLE_Extended\
+\f5\b0 \cf0 Merged Great Legend Era and GLE_Extended\
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf0 \ul Abilities and Specials:-\
    \ulnone * New ability 
-\i recovery (
-\i0 regenerates +4)
-\i  
-\i0 added. \
+\f6\i recovery (
+\f5\i0 regenerates +4)
+\f6\i  
+\f5\i0 added. \
    * New ability 
-\i swamp prowl 
-\i0 added.\
+\f6\i swamp prowl 
+\f5\i0 added.\
    * WEAPON_SPECIAL_PRECISION_ALT is now WEAPON_SPECIAL_PRECISION\
    * SPECIAL_NOTES_PRECISION_ALT is now SPECIAL_NOTES_PRECISION \
 \
 \ul Minotaurs and Gnolls:-\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf0 \ulnone    * All units removed 
-\i divine health 
-\i0 ability\
+\f6\i divine health 
+\f5\i0 ability\
    * Fixed animation bugs.\
    * All units 
-\i +recovery
-\i0 \ul \
+\f6\i +recovery
+\f5\i0 \ul \
 \ulnone    * Changed advancement path:-\
       Gnoll --> Gnoll Marksman --> Gnoll Deadeye\
    * Removed 
-\i rage
-\i0  special\
+\f6\i rage
+\f5\i0  special\
    * Behemoth 
-\i -rage +berserk\
+\f6\i -rage +berserk\
    * Ancient Behemoth -rage +berserk\
    * Mystic receives 40% defense in most terrain.
-\i0 \
+\f5\i0 \
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf0 \ul Windsong:-\
@@ -800,8 +817,8 @@ version 1.0.0\
     * Pathfinder +1 melee\
     * Rune Forger ID changed\
     * Rune Forger 
-\i death 
-\i0 ranged attack changed to 21-2\
+\f6\i death 
+\f5\i0 ranged attack changed to 21-2\
 \
 \ul Human Alliance:-\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
@@ -817,15 +834,15 @@ version 1.0.0\
 \cf0 \ul Elementals:\ulnone \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\i \cf0     * New attack icons for various attacks.\
+\f6\i \cf0     * New attack icons for various attacks.\
     * Fixed attack animation of the Ethereal Orb\
 
-\i0 \
+\f5\i0 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf0 \ul Aragwaithi:\ulnone \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\i \cf0     * Ancient Banner abilities: +leadership, -protection, -steadfast\
+\f6\i \cf0     * Ancient Banner abilities: +leadership, -protection, -steadfast\
     * Ancient banner resistances: impact 10% -> 20%\
     * Ancient banner stats: HP 55 -> 58, MP 4 -> 5\
     * Ancient banner attacks: sword renamed to scythe\
@@ -889,8 +906,8 @@ version 1.0.0\
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\i0 \cf0 \ul Wesfolk:-
-\i \ulnone \
+\f5\i0 \cf0 \ul Wesfolk:-
+\f6\i \ulnone \
     * IDs of Wesfolk Outcast changed to:-\
        Tracker -> Nightwatch -> Prowler\
     * IDs of Wesfolk Mage changed to:-\
@@ -900,29 +917,29 @@ version 1.0.0\
     * Prowler -2 ranged damage +1 ranged strikes\
 \
 
-\i0 \ul Orcish Union:-\
+\f5\i0 \ul Orcish Union:-\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\i \cf0 \ulnone    * Faction name changed from Orcish Alliance to Orcish Union\
+\f6\i \cf0 \ulnone    * Faction name changed from Orcish Alliance to Orcish Union\
    * Increased XP of Shaman from 33 to 48.\
    * Shaman +1 cost\
    * Naga Marksman +2 cost\
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\i0 \cf0 \ul Southern Elves:-\
+\f5\i0 \cf0 \ul Southern Elves:-\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\i \cf0 \ulnone    * Advancement icons for the Dust Devil.\
+\f6\i \cf0 \ulnone    * Advancement icons for the Dust Devil.\
    * Total reconstruction of faction.\
    * Gave all units the liminal alignment (with the exception of the South Elven Mystic tree)\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\i0 \cf0 \ul \
+\f5\i0 \cf0 \ul \
 Vampires
-\i \ulnone \
+\f6\i \ulnone \
    
-\i0 * ID change of Thinblood to Thin Blood.\
+\f5\i0 * ID change of Thinblood to Thin Blood.\
    * ID change of Halfblood to Half Blood.\
    * Added Dauntless ability to Gargoyle.\
    * Added Dauntless ability to Marlgoyle.\
@@ -931,8 +948,8 @@ Vampires
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\i \cf0 \ul Sylvans:-
-\i0 \ulnone \
+\f6\i \cf0 \ul Sylvans:-
+\f5\i0 \ulnone \
    * Decreased HP of Elvish Avatar from 66 to 62.\
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
@@ -947,13 +964,13 @@ Vampires
    * Dark FIghter +5 cost\
    * Dark Commander -1 melee\
 
-\i \
+\f6\i \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\i0 \cf0 \ul Campaign Specifics:-\
+\f5\i0 \cf0 \ul Campaign Specifics:-\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\i \cf0 \ulnone    * Increased XP required for Ogre -> Great Ogre to 90\
+\f6\i \cf0 \ulnone    * Increased XP required for Ogre -> Great Ogre to 90\
    * Removed Champion.\
    * New base frame for Warmaster.\
    * New base frame for Captain.\
