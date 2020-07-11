@@ -1,0 +1,767 @@
+War of Legends
+Change-Log v1.2.1
+
+version v1.2.1
+Units:
+--> Soldier: +1 shield damage, +2 cost--> Warrior: +1 shield damage, -2 cost, -leadership, +steadfast--> Warmaster: +1 shield damage, -leadership, +steadfast--> Black Cat-line: removed broken ability jinx until I fix it--> Fixed Jahin's custom AMLAs--> Legion Archer: +1 melee damage--> Legion Longbowman: +1 melee damage--> Legion Elite Longbowman: +1 melee damage, +1 ranged damage (main attack)--> Adept of Light: +1 melee damage--> Cleric: +1 melee damage--> Prophetess of Light: +1 melee damage, +1 ranged damage --> Windsong: Added Librarian (lvl 4 to Arbiter)--> Windsong: Added Farstrider (lvl 3 to Pathfinder)
+version v1.2.0
+
+Units:
+--> Removed/replaced all deprecated macros that were removed in 1.15.x
+
+Eras and Factions:
+--> Corrected random leader types and random lists for most/all factions
+
+AMLA:
+--> Removed the last two AMLA's for Jahin in HoI since the new Leadership macro won't allow leadership abilities for levels 4 and 5
+
+Ported to 1.15.x server.
+
+
+version v1.1.9
+
+Ported to 1.14.x
+
+Windsong:
+---> Heretic: +10% fire and cold resistance, +1 sword damage, +enchanted (always 60% chance to hit) ranged, +5 HP, +10% defence on castle/keep
+---> Warmonger: +10% fire and cold resistance, +5 HP, +3 sword damage, +1 frenzy damage, +enchanted ranged, +10% defence on castle/keep
+---> Lorekeeper: +steadfast
+---> Oathkeeper: +steadfast
+---> Courier: +4 HP, +1 cost, +2 crush damage, +3 ranged damage
+---> Emissary: +5 HP, +2 sword damage, +3 ranged damage, +1 cost
+---> Reaver: +4 HP, +3 ranged damage, +2 melee damage
+---> Dreadnought: +2 melee damage, +3 ranged damage, +16 cost (it had the same cost as the Reaver...)
+---> Courier-line: improved defences on most terrain-types.
+---> Seeker-line: improved defences on most terrain-types.
+---> Seeker: +2 HP, +1 MP, + melee damage, ranged attack changed from 8-1 to 5-2
+---> Skyrunner: +6 HP, +1 MP, +10% impact resistance, +2 melee damage, +2 ranged damage
+---> Stormbringer: +1 MP, +1 melee damage, +1 ranged damage
+---> Pathfinder: +5 HP, +1 MP, +2 melee damage, ranged attack changed from 13-1 to 8-2
+---> Sribe-line: +1 damage to all attacks
+---> Rune Forger: All attacks are now 'magical'
+---> Sky Shard-line: +1 melee damage
+---> Weaver: +1 melee damage
+---> Envoy: heals+4 ability, +1 ranged damage, +marksman ranged
+---> Herald: heals+4 ability, +2 ranged damage, +marksman ranged
+---> Prophetess: +protection, -leadership, +2 melee damage, +ranged attack
+---> Ascendant: +protection, -leadership, +3 melee damage, +ranged attack
+
+Undead Hordes:
+---> Fixed an incorrect ID in the faction leaderlist and random_leaders
+
+
+version v1.1.8
+
+Undead:
+---> Death Baron: HP 52 --> 45
+---> Fixed advancement path: Deathmaster -> Lich Lord (Why didn't anyone even report this?)
+---> Added descriptions for the elemental traits
+---> Removed Blue Falcon
+---> Minotaurs can now recruit Mermaid Initiates
+
+version v1.1.7
+
+Misc:
+---> Dwarven Marksman and Dwarven Arbalestier:  -1 MP 
+---> ID of lvl 1 Warrior changed to Soldier
+---> ID of lvl 2 Captain changed to Warrior
+---> Soldier: new attack 7-2 shield melee (impact/slows)
+---> Warrior: new attack 10-2 shield melee (impact/slows)
+---> Warmaster: new attack 13-2 shield melee (impact/slows)
+---> Removed Troll Warmonger and Troll Warlord
+---> Added the Troll Warmonger (not the previous one!) as an advancement for the Troll Warrior.
+      It's my variant for the Siege Troll, but without the spiked gauntlet attack.
+---> Removed the Death Squire, since I don't see why undead units have to wield swords, when they are proficient in axes/battle-axes.
+---> Removed the Troll Mystic (obsolete unit)
+
+Vampires:
+---> Vampire units are susceptible to drain and poison attacks
+
+Sylvans:
+---> Forest Spirits are now susceptible to the drain weapon special
+
+Aragwaithi:
+---> Movement costs: forests +1 for all units, mountains +1 for all units
+---> Guard: -1 cost
+---> Ancient Banner: +10% resistance to fire and cold
+---> all unit animations updated to the 1.12 syntax. Special thanks to the Era of Chaos development team.
+
+Outlaws:
+---> Changed alignment of Shaman-line from chaotic to neutral
+---> Shaman: +1 ranged damage, -1 ranged attack
+---> New unit-line: Shadow Initiate --> Shadow Mage --> Shadow Lord
+---> Shadow Initiate line no longer has leadership, but has arcane ranged damage. 
+
+Minotaurs:
+---> Removed the lvl 2 Roc
+---> Added the lvl 0 Blue Falcon (a magical bird capable of using lightning magic)
+
+Orcish Union:
+---> Added the Goblin Cavalry unit line from TLB (modified stats).
+---> Replaced the Wolf Rider with the Goblin Cavalry in faction recruit lists
+---> Replaced the Goblin Knight and Goblin Pillager with the Goblin Lancer in faction recruit lists.
+---> Removed the Orcish Nightblade, since it is now in core.
+
+Undead:
+---> Changed the ID of Demilich to Lich Lord
+---> Changed the ID of Dread Lich to Elder Lich Lord
+---> Added new animations for the Elder Lich Lord
+
+version v1.1.6
+
+Dark Legion:
+---> prefix of all units changed from 'Dark' to 'Legion'
+---> Applied the new 1.12 animation syntax to all units
+---> Changed IDs of most units: (remember the suffix when including them in scenarios)
+
+Archer ---> Crossbowman ---> Arbalastier
+      \---> Longbowman ---> Elite Longbowman
+
+       /---> Berserker
+Soldier ---> Subaltern ---> Commander
+       \---> Swordsman ---> Champion
+
+Spearman ---> Halberdier ---> Executioner
+        \---> Gunner ---> Enforcer
+
+Trooper ---> Guardian ---> Sentinel
+       \---> Crusher
+
+Horseman ---> Knight ---> Cavalier
+        \---> Pillager
+
+Subaltern: -1 ranged damage, -1 MP, +2 HP
+Commander: -1 ranged damage, -1 MP
+Gunner: 11-2 ranged changed to 28-1 ranged
+Enforcer: 16-2 ranged changed to 40-1 ranged
+
+Elementals:
+---> Fire Wisp: +1 ranged damage, +1 cost
+
+Human Alliance:
+---> Chevalier: -1 damage, +1 melee strike, added heals +4, +1 cost
+---> Crusader: -2 damage, +1 melee strike, added heals +4
+
+
+version v1.1.5.1
+
+Eras:
+
+---> Fixed a typing error.
+---> Fixed a number of bugs in Empowered Legend Era
+
+Southerners:
+
+---> Removed a misleading {SPECIAL_NOTES_ARCANE} from the Dust Devil's description.
+---> Fixed the causes of a deprecated description warning from the Dust Devil.
+---> ID part of 'South Elven' changed to 'Southern'
+---> New units: Southern Captain, Southern Chieftain, Empyrean Druid (Faction is now complete)
+---> Guard-line now has 50% defence on sand/desert terrain.
+---> Fixed a animation glitch for the Empyrean Druid
+
+Elementals:
+
+---> Brazier Imp: +1 melee damage, +1 HP
+---> Furnace Beast: +3 HP, +2 melee damage, -22 XP
+---> Lava Giant: +3 melee damage, +2 cost
+---> Lava Behemoth: +4 melee damage
+---> Fire Wisp: +marksman ranged, -1 cost
+---> Fire Ghost: +marksman ranged, +1 ranged damage, +6 cost
+---> Ethereal Orb: +3 cost, +3 HP
+---> Sylph: -1 melee damage, -1 cost
+---> Zephyr: -3 cost
+---> Djinn: -6 cost, -1 melee damage
+---> Razorbird: +3 HP, +1 melee damage, -1 cost 
+---> Thunderbird: +4 HP, +1 melee damage, -6 cost, +enchanted lightning, lightning changed from 7-4 to 15-2
+---> Kobold: +7 HP
+---> Stone Golem: -4 XP, + 5 HP, +1 melee damage
+---> Stone Titan: +1 fist damage, -2 stone blade damage, -6 cost, +1 HP
+---> Vine Beast: -2 cost
+---> Vine Tiger: +1 melee damage, +1 thorns damage, +2 damage and -1 strikes ensnare
+---> Ice Crab: +2 cost
+---> Ice Shell: +1 melee damage, -2 ranged damage & +1 ranged strikes, +3 cost
+---> Fixed the problem with the elemental regenerative abilities. They were deprecated, but I have updated them.
+
+Human Alliance:
+
+---> Added the Custodian
+---> Glaiver is now renamed to Sentry.
+---> Sentries can now advance to Custodians
+
+SP only:
+
+---> Added Dwarven units armed with Crossbows.
+---> Infantry Commander renamed to Custodian
+---> Defence animation for the Titanium Decimator (credits to ChaosRider)
+---> Introduced a Level 4 advancement to the Iron Mauler: the Titanium Decimator. This unit is unlocked in SP by including a special macro in the extra defines inside the [campaign] tags.
+---> Increased the Iron Mauler's XP requirements from 198 to 215
+---> Fixed a glitch with the animations of Elvish Trapper and Elvish Prowler
+---> Removed Cavalry Archer
+---> Removed the Archer Knight
+---> Added the Mounted Bowman as an alternate advancement for the Cavalryman. This unit is unlocked in SP by including a special macro in the extra defines inside the [campaign] tags.
+
+version v1.1.4
+
+Human Alliance:
+
+---> Adept of Light: decreased HP by 2, increased XP by 3, changed magical to enchanted.
+---> Infantryman: increased HP by 2.
+---> Cleric: decreased cost by 1, reduced melee damage by 1, increased XP by 2, changed magical to enchanted.
+---> Prophetess of Light: decreased cost by 3, reduced melee damage by 1, decreased ranged damage of sacred fire by 1, changed magical special of sacred fire to enchanted.
+
+Dark Legion:
+
+---> Reduced the melee damage of the Naga Guardian from 7-3 to 8-2
+---> Reduced the melee damage of the Naga Sentinel from 10-4 to 13-3
+---> Reduced movement of Naga Sentinel by 1
+
+Southerners:
+
+---> decreased the maximum movement of the southern Hunter and Archer-lines to 5.
+---> decreased ranged damage of hunter by 1.
+---> All Southern Elf units require 2 MP when moving through hills.
+---> reduced the damage of both attacks of warrior by 1.
+---> reduced melee damage of Champion by 1.
+---> reduced ranged damage of Champion by 2.
+---> decreased cost of champion by 2.
+---> reduced HP of archer by 1.
+---> decreased melee damage of archer by 1.
+---> decreased melee damage of Marksman by 1.
+---> Changed the ranged attack of the Mystic from 7-2 slow to 6-3 enchanted.
+---> increased cost of Mystic by 1.
+---> New Unit: Empyrean Druid added
+---> changed the usage of Sun Priestess line from healer to archer
+---> The Sun Priestess line cannot heal units no more.
+---> Moon Clerics and Enchantresses cannot cure poison anymore.
+---> Weakened the attacks of the Mystic line. (removed the slowing aura blast)
+---> Moon clerics have a slowing ranged attack instead of a magical cold.
+---> decreased cost of Protector by 4.
+---> Increased cost of Guard by 1.
+---> Raised cost of Carapace by 2.
+---> Raised cost of Gallant Carapace by 2.
+---> Raised cost of Warrior Carapace by 2.
+---> Added first strike to the ranged attack of every carapace unit.
+---> Reduced defence of Warrior Carapace on flat terrain by 10%.
+---> Reduced melee damage of Warrior Carapace by 1. 
+---> increased ranged damage of Carapace-line by 1.
+---> Increased MP cost of Carapace on hills by 1.
+---> decreased defence of carapaces on frozen by 10%
+---> changed race of dust devil to elemental.
+---> Dust Devils now receive the elemental trait
+---> changed melee attack from 5-3 magical to 3-8 swarm.
+---> Raised cost of Dust Devil by 2
+
+Undead:
+
+---> Increased cost of the Skeleton Rider by 1 unit.
+---> Death Baron: gave the Death Knight's resistances and submerge ability, reduced ranged damage by one, reduced HP by 3, reduced XP by 2.
+
+Elementals:
+
+---> Thunder Mage: Changed 6-3 magical to 10-2 enchanted, increased cost by 1.
+---> Tempest Mage: changed 11-3 magical to 11-3 enchanted, increased cost by 1.
+---> Storm Mage: changed magical to enchanted, melee changed fro 6-3 to 7-2, increased cost by 3.
+---> Wood Mage: added enchanted to ranged,increased melee damage by 1, decreased melee strikes by 1, increased cost by 1, decreased XP by 2.
+---> Forest Mage: changed magical to enchanted, reduced melee strikes by 1, reduced HP by 2, decreased cost by 2
+---> Nature Mage: changed 15-2 sacred fire to 30-1 terra orbis (latin for Earthen Orb), reduced HP by 1, changed magical to enchanted for nature flare, decreased cost by 3. 
+
+Vampires:
+
+---> Fixed the bug, where the cost of the Malborn and Bloodborn being the same.
+
+Misc:
+
+---> Added new weapon special Enchanted (slightly weaker variation of magical - always has a 60% chance to hit), accessible using WEAPON_SPECIAL_ENCHANTED and SPECIAL_NOTES_ENCHANTED
+---> Removed Jahin's avatar for Hero Of Irdya. I have decided to make him stay human for the course of the campaign.
+
+
+version v1.1.3
+
+Overall:-
+
+---> Added special macros that separates SP only units from the MP units, which happen to be in the same folder.
+
+Sylvans:
+
+----> Removed Wose Shaman as a recruitable unit from the Empowered Legend Era faction.
+----> Added the Elvish Prowler and Elvish Trapper - restoring the Hunter's advancement lines
+----> Changed race fairy to faerie and added a race icon
+
+Human Alliance:-
+
+---> Changed damage type of Chevalier, and Crusader from fire to arcane
+---> Changed attack of Divine Lightning to Lightning for Prophetess
+
+Elementals:-
+
+---> Reduced HP of Razorbird from 32 to 28
+---> Reduced HP of Thunderbird from 44 to 40
+---> Reduced HP of Sylph from 36 to 32
+---> Reduced HP of Zephyr from 48 to 44
+---> Reduced HP of Djinn from 60 to 54  
+---> Fixed the attack animation of Kobold
+---> Regenerative abilities now heal 5 HP like they are supposed to. 
+
+Nightmares of Meloen (SP campaign branch):-
+
+---> Fixed the defence animation of the Black Cat
+
+Trolls:
+
+---> Converted to be used in Single Player only.
+---> Increased XP of Boulderlobber from 120 to 150
+
+Aragwaithi:
+
+---> Fixed TC glitches for many of the units (mostly level 1s, 3s and the Ancient Banner)
+
+Dark Legion:
+
+---> Updated a macro to match requirements from wesnoth 1.11.7 (special thanks to bumbadadabum)
+
+Woses:
+
+---> Converted to Single Player only
+
+version v1.1.2
+
+General:
+
+---> Removed a misplaced 'binary path' tag to its correct position. This was the cause of the issues of Unknown scenarios faced by other add-ons (namely Legend of the Invincibles and After the Storm). I sincerely apologised for any inconvenience caused (I expect no forgiveness but, I made an apology anyway...). (Thank you Dugi for pointing out that I was causing this sort of disaster :-P)
+
+Language:
+
+---> Gave Windsong units their own names...
+
+version 1.1.1
+
+Abilities and Weapon Specials:
+
+---> Added and integrated special macros from After the Storm (thank you Shadow Master) to fix the outstanding issue of the deprecated description format in 1.11.x
+
+version 1.1.0
+
+Eras:-
+
+---> New era: Core Legends Era (for the six original factions of Great Legend Era)
+
+Aragwaithi:-
+
+---> New updated graphics.
+
+Sylvans:-
+
+---> +1 MP for Faerie Sprite/Fire Faerie/Faerie Dryad/Faerie Spirit
+---> alignment of Faerie Spirit changed from lawful to neutral.
+
+Undead:-
+
+---> New portrait and base image for the Dread Lich (courtesy of Sleepwalker)
+---> New portrait for Demi-lich (Thanks Valkier!) 
+---> Death Baron +3 cost
+
+Misc:-
+
+---> New Portrait for Warrior/Captain/Warmaster
+---> Fixed typing errors in various files
+---> Fixed cursed image status and overlay not showing in game.
+---> Added AI functions to allow better usage of jinx weapon special
+
+version 1.0.8
+
+Outlaws:-
+
+---> Naga Hunter ranged attack -poison +precision
+---> Naga Marksman ranged attack -poison +precision
+
+Dark Legion:-
+
+---> Added Naga-Guardian line as recruits instead of Naga Fighter line
+---> Dark Bowman +1 cost
+
+Aragwaithi
+
+---> Guard +10% blade resistance
+---> Shield Guard +10% blade and pierce resistance
+
+Campaigns:-
+---> Added the Orcish Nightblade from The Legend Begins (made by sleepwalker)
+---> Added Nagini Mage. (From Skyone's Return of the Monster)
+
+Misc:-
+
+---> Updated CREDITS
+
+version 1.0.6
+
+Eras:-
+
+---> Fixed up some factions being able to recruit lvl 3s
+---> Removed Warrior as leader in RPG era.
+
+Minotaurs:-
+
+---> Fixed animations for Elder's Fireball attack.
+
+Human Alliance:-
+
+---> New Graphics for the Adept-of-Light and successive units.
+---> Fixed image path for various units
+---> New graphics for Chevalier and Duke (to differentiate them further from swordsmen and generals)
+---> Duke ID changed to Crusader. Duke was unrelated to divine magic.
+---> Chevalier +10% arcane résistance
+---> Crusader +10% arcane resistance
+
+Outlaws:-
+
+---> New base images for tracker-line
+
+Windsong:-
+
+---> Added Harbinger
+---> Harbinger ID changed to Warmonger
+---> Warmonger -3 melee damage
+---> Warmonger +1 melee strikes
+---> Heretic -1 melee damage
+
+Southerners:-
+
+---> All southern-elf units:  -10 sand defense, -1 hill MP cost
+---> Dust Devil +1HP
+---> Dust Devil melee type set to impact (Why the hell was it initially Arcane anyway)
+---> Movement modified for Guard and Protector
+
+Hills=3
+Mountains=unreachable
+Shallow Water=4
+Swamp Water=4
+Frozen=4
+Fungus=4
+
+---> Defenses adjusted for Guard and Protector
+
+Castle=50
+Forest=40
+Hills=40
+Sand=40
+Frozen=20
+Swamp Water=20
+Shallow Water=20
+Mountains=00
+
+---> +healthy trait
+---> Marksman -marksman, +precision
+---> Sharpshooter -marksman, +precision
+---> Guard +steadfast
+
+Elementals:-
+
+Fixed faction image in RPG era.
+Fixed a typo
+Corrected Spelling of revitalisation in ability.
+
+Vampires:-
+
+Blood Hulk +2 cost
+
+Misc:-
+
+---> Removed deprecated file (Campaign authors using the old IDs should adapt now.)
+---> Fixes a typo in weapons special notes
+---> Fixed image paths for certain units
+---> Added selected units from Nightmares of Meloen (only used in campaigns)
+---> Updated credits
+---> Cleaned up _main.cfg file. 
+---> Cleaned up units/humans/ folder (separated into 4 directories - aragwaithi, mages, loyalists, and campaigns)
+---> Campaign only units no-longer loaded in MP.
+
+version 1.0.5
+
+Attacks:-
+---> New attack icons:- Nature Flare, Divine Lighting, Aura Blast, Sandstorm, Tornado, Northern Wind, Ravage, Chaos Missile, Dementia Gaze
+
+Portraits:-
+---> Most vampire units
+---> Southern Elven Hunter-line
+---> Human Cavalry-line
+---> Orcish Shamans
+
+Eras:-
+---> War of Legends RPG added
+---> War of Ancients renamed to Empowered Legends 
+---> Cleaned up era files.
+---> Added random leaders for all existing eras
+---> Removed Naga Fighter from Outlaws recruit list
+
+Elementals:-
+---> Renamed most units.
+---> Fire Wisp -1 melee
+---> Fire Wisp -1 range
+---> Fire Ghost -1 ranged
+---> +5 HP regenerative abilities.
+---> ENABLE_LIVING_VOLCANO is now ENABLE_LAVA_BEHEMOTH
+
+Magic Servant = Wisp
+Wind Herder = Sylph
+Animated Rock = Kobold
+Brazier Creation = Brazier Imp
+Living Furnace = Furnace Beast
+Lava Beast = Lava Giant
+Living Volcano = Lava Behemoth
+Tempest Spirit = Nymph
+
+Dark Legion:-
+---> Soldier +4 XP
+---> Advanced Crossbowman renamed to Arbalestier
+
+Southern Elves:-
+---> Mystic-line rebalanced.
+---> Mystic +1 cost.
+---> Added slow to the Mystic's ranged attack. Removed magical.
+
+Humans:
+---> Gave Chevalier / Duke a weak ranged attack. (This differentiates them further from the Swordsman and Royal Guard)
+---> Chevalier +2 cost
+---> Duke +4 cost
+---> Bladesman ID changed to Infantryman
+---> Infantryman +4 XP
+
+Vampires:-
+---> Thin Bloods get the vampire trait now.
+
+Campaign Specifics:
+---> New Graphics for Warrior / Captain / Warmaster (Taken and edited from Status of Loyalist Baseframes in Art Developent)
+---> Removed Troll Fighter (TLB adapts by using a custom Troll Whelp)
+---> Added an extra file, to make era usable with campaigns that use it (other than my own)
+
+Misc:-
+---> Updated Credits
+
+version 1.0.4
+
+Elementals:
+---> Fire Ghosts and Fire Wisps receive 50% defense in caves.
+
+Vampires:
+---> Fixed female variants of the Thin Blood and Half Blood not getting the name change.
+
+Aragwaith
+---> Guard +10XP. I don't understand this at all. Every lvl 2 Aragwaith unit needs 70+ experience to level up, while the Guard's stuck at only 64, so a +10XP should do.
+
+Sylvans:
+---> Cost of Acolyte Increased by 1.
+
+version 1.0.3
+
+Sylvans:
+---> New base images for Elvish Acolyte-line.
+
+Outlaws:
+----> Formerly named Wesfolk now changed to this...
+----> Image directory also changed.
+
+Campaign Specifics:
+---> New base frame for Warmaster.
+
+Overall:-
+---> Reverted all changes related to project WTF!.
+Project WTF! was an operation that substituted the mainline lava terrain to one that allowed Brazier Creations and units with furnacefoot movement type to walk on it, while maintaining the properties of the properties lava terrain.
+But, when I tried editing the terrain graphics, I was blown away. Having tried numerous times, i give up!!!! This project will never be completed as this too complex!
+
+version 1.0.2
+
+Sylvans:
+---> New base images for Faerie Sprite-line.
+
+version 1.0.1
+
+Misc:
+---> Fixed the textdomain of all files.
+---> Edited movement_types to fit the ones in core. (Removed things like impassable=100 or impassable={UNREACHABLE})
+---> War of Ancients (AoH version of WOL) added.
+---> Removed Energy-beam projectiles.
+
+Southerners:
+---> Fixed level of Moon Enchantress to 3.
+
+Elementals:
+---> Disabled advancement of Lava Beast to Living Volcano. The advancement is enabled by ENABLE_LIVING_VOLCANO in campaign extra_defines. This is used in The Legend Begins: Episode 1. 
+
+Vampires:
+---> Fixed advancement path for Bloodborn.
+
+Sylvans:
+---> Removed Elvish Hunter from recruit list.
+
+Campaign Specifics:-
+---> Melee Attack of Elvish Hunter increased by 1.
+---> New animations for the Wose Shaman.
+
+version 1.0.0
+
+Merged Great Legend Era and GLE_Extended
+
+Abilities and Specials:-
+   * New ability recovery (regenerates +4) added. 
+   * New ability swamp prowl added.
+   * WEAPON_SPECIAL_PRECISION_ALT is now WEAPON_SPECIAL_PRECISION
+   * SPECIAL_NOTES_PRECISION_ALT is now SPECIAL_NOTES_PRECISION 
+
+Minotaurs and Gnolls:-
+   * All units removed divine health ability
+   * Fixed animation bugs.
+   * All units +recovery
+   * Changed advancement path:-
+      Gnoll --> Gnoll Marksman --> Gnoll Deadeye
+   * Removed rage special
+   * Behemoth -rage +berserk
+   * Ancient Behemoth -rage +berserk
+   * Mystic receives 40% defense in most terrain.
+
+Windsong:-
+    * Removed Librarian
+    * Removed Harbringer
+    * Removed Farstrider 
+    * Attack Animations
+    * Changed attack names to most suited ones for various units
+    * Skyrunner +1 melee
+    * Pathfinder +1 melee
+    * Rune Forger ID changed
+    * Rune Forger death ranged attack changed to 21-2
+
+Human Alliance:-
+    * Changed impact ranged damage of Thunder Mage from 3-5 to 8-2.
+    * Changed impact ranged damage of Tempest Mage from 5-5 to 13-2.
+    * Changed impact ranged damage of Mage of Storms from 7-5 to 18-2.
+    * Changed arcane ranged damage of Mage of Nature from 30-1 to 16-2.
+    * Chevalier has arcane 7-4 melee attack.
+    * Removed Fencer from faction recruit list.
+    * Duke has arcane 10-4 melee attack.
+
+Elementals:
+    * New attack icons for various attacks.
+    * Fixed attack animation of the Ethereal Orb
+
+Aragwaithi:
+    * Ancient Banner abilities: +leadership, -protection, -steadfast
+    * Ancient banner resistances: impact 10% -> 20%
+    * Ancient banner stats: HP 55 -> 58, MP 4 -> 5
+    * Ancient banner attacks: sword renamed to scythe
+    * Archer attacks: melee 6-3 -> 4-3
+    * Captain abilities: +leadership, -protection, -steadfast
+    * Captain resistances: blade 20% -> 10%, fire 10% -> 0%, cold 10% -> 0%,
+      pierce 20% -> 10%
+    * Captain stats: HP 43 -> 55, MP 4 -> 5
+    * Captain attacks: spear renamed to glaive, 17-2 -> 18-2; sword renamed to
+      glaive, 9-4 -> 10-4
+    * Eagle Master stats: HP 48 -> 45, MP 7 -> 9
+    * Eagle Master attacks: blade 9-3 -> 10-3, impact 15-2 -> 16-2
+    * Eagle Rider defense: mountain 60% -> 50%
+    * Eagle Rider stats: HP 36 -> 34, MP 7 -> 9, cost 21 -> 23
+    * Eagle Rider attacks: impact 10-2 -> 12-2
+    * Flagbearer abilities: +leadership, -protection, -steadfast
+    * Flagbearer resistances: blade 20% -> 10%, fire 10% -> 0%, cold 10% -> 0%,
+      pierce 20% -> 0%, impact 10% -> 0%
+    * Flagbearer stats: HP 34 -> 45, MP 4 -> 5
+    * Flagbearer attacks: spear renamed to glaive, sword renamed to glaive
+    * Greatbow stats: HP 43 -> 46, MP 5 -> 6
+    * Greatbow attacks: melee 13-3 -> 10-3
+    * Guard abilities: +steadfast
+    * Guard resistances: pierce 20% -> 10%, impact 20% -> 10%, blade 30% -> 10%
+    * Guard stats: HP 40 -> 54, XP 78 -> 64, cost 27 -> 28
+    * Guard attacks: melee 12-3 -> 11-3
+    * Guardian resistances: fire 10% -> 0%, cold 10% -> 0%
+    * Guardian stats: HP 51 -> 62
+    * Guardian melee animation
+    * Lancer stats: HP 40 -> 48, cost 38 -> 34
+    * Longswordsman stats: HP 38 -> 46, MP 5 -> 6, XP 78 -> 88, cost 24 -> 27
+    * Pikeman resistances: blade 20% -> 10%, impact 10% -> 0%, fire 10% -> 0%,
+      cold 10% -> 0%
+    * Pikeman stats: HP 44 -> 50, XP 94 -> 70
+    * Pikeman attacks: melee 17-2 -> 16-2
+    * Scout stats: HP 31 -> 36, XP 36 -> 40
+    * Scout attacks: melee 10-2 -> 11-2
+    * Shield Guard abilities: +protection, +steadfast
+    * Shield Guard resistances: pierce 30% -> 10%, impact 30% -> 10%, blade
+      40% -> 10%
+    * Shield Guard stats: HP 54 -> 66
+    * Shield Guard attacks: melee 16-3 -> 15-3
+    * Silver Shield stats: HP 54 -> 62, MP 8 -> 9, cost 38 -> 48
+    * Silver Shield attacks: melee 13-4 -> 12-4
+    * Slayer stats: HP 45 -> 53, MP 5 -> 6, cost 46 -> 62
+    * Slayer attacks: melee 12-4 -> 11-4
+    * Spearman resistances: blade 20% -> 0%, pierce 20% -> 10%, impact 10% ->
+      0%, fire 10% -> 0%, cold 10% -> 0%
+    * Spearman stats: HP 30 -> 34, XP 38 -> 43
+    * Spearman attacks: 11-2 -> 12-2
+    * Strongbow stats: HP 35 -> 38, MP 5 -> 6, XP 80 -> 85, cost 31 -> 38
+    * Strongbow attacks: melee 9-3 -> 7-3, ranged 8-4 -> 9-4
+    * Swordsmaster id changed, breaking old saved games with the unit
+    * Animations for Swordsmasters
+    * Swordsmaster stats: MP 5 -> 6
+    * Swordsman resistances: blade 10% -> 0%
+    * Swordsman stats: HP 28 -> 32, XP 32 -> 39, cost 13 -> 14
+    * Adept stats: XP 44 -> 54, cost 18 -> 22
+    * Adept attacks: staff renamed to kick, 6-2 -> 7-1
+    *  Enchantress attacks: melee 10-2 -> 7-2, ranged 11-3 -> 10-3
+
+Wesfolk:-
+    * IDs of Wesfolk Outcast changed to:-
+       Tracker -> Nightwatch -> Prowler
+    * IDs of Wesfolk Mage changed to:-
+       Shaman -> Wizard -> Sorcerer
+    * Tracker ranged attack -1
+    * Nightwatch +1 ranged strikes -2 ranged damage
+    * Prowler -2 ranged damage +1 ranged strikes
+
+Orcish Union:-
+   * Faction name changed from Orcish Alliance to Orcish Union
+   * Increased XP of Shaman from 33 to 48.
+   * Shaman +1 cost
+   * Naga Marksman +2 cost
+
+Southern Elves:-
+   * Advancement icons for the Dust Devil.
+   * Total reconstruction of faction.
+   * Gave all units the liminal alignment (with the exception of the South Elven Mystic tree)
+
+Vampires
+   * ID change of Thinblood to Thin Blood.
+   * ID change of Halfblood to Half Blood.
+   * Added Dauntless ability to Gargoyle.
+   * Added Dauntless ability to Marlgoyle.
+   * Decreased movement of Gargoyle from 6 to 5.
+   * Decreased movement of Marlgoyle from 6 to 5.
+
+Sylvans:-
+   * Decreased HP of Elvish Avatar from 66 to 62.
+
+Dark Legion:-
+   * Added Terror to Dark Warrior
+   * Decreased HP of Dark Warrior to 62.
+   * Increased cost of Dark Warrior to 58.
+   * Dark Fighter -5 HP
+   * Dark Fighter +Terror Ability
+   * Dark Fighter +12 XP
+   * Dark FIghter +5 cost
+   * Dark Commander -1 melee
+
+Campaign Specifics:-
+   * Increased XP required for Ogre -> Great Ogre to 90
+   * Removed Champion.
+   * New base frame for Warmaster.
+   * New base frame for Captain.
+   * Increased XP of Warrior to 38.
+   * Increased XP of Captain to 98.
+   * Updated stats for Warrior-line.
+   * Troll Warmonger XP increased to 88
+   * Black Knight resistance:
+      blade 30% -> 20%
+      pierce 0% -> -20%
+      impact 40% -> 30%
+   * Black Knight +Terror
+   * Black Knight -1 melee
+   * Infantry Commander -1 MP
+   * Infantry Commander +3 glaive damage
+   * Infantry Commander -1 glaive strikes
+   * Infantry Commander -+1 shield damage
