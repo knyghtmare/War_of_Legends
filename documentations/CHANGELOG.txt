@@ -3,7 +3,23 @@ Change-Log v1.2.1
 
 version v1.2.1
 Units:
---> Soldier: +1 shield damage, +2 cost--> Warrior: +1 shield damage, -2 cost, -leadership, +steadfast--> Warmaster: +1 shield damage, -leadership, +steadfast--> Black Cat-line: removed broken ability jinx until I fix it--> Fixed Jahin's custom AMLAs--> Legion Archer: +1 melee damage--> Legion Longbowman: +1 melee damage--> Legion Elite Longbowman: +1 melee damage, +1 ranged damage (main attack)--> Adept of Light: +1 melee damage--> Cleric: +1 melee damage--> Prophetess of Light: +1 melee damage, +1 ranged damage --> Windsong: Added Librarian (lvl 4 to Arbiter)--> Windsong: Added Farstrider (lvl 3 to Pathfinder)
+--> Soldier: +1 shield damage, +2 cost
+--> Warrior: +1 shield damage, -2 cost, -leadership, +steadfast
+--> Warmaster: +1 shield damage, -leadership, +steadfast
+--> Black Cat-line: removed broken ability jinx until I fix it
+--> Fixed Jahin's custom AMLAs
+--> Legion Archer: +1 melee damage
+--> Legion Longbowman: +1 melee damage
+--> Legion Elite Longbowman: +1 melee damage, +1 ranged damage (main attack)
+--> Adept of Light: +1 melee damage
+--> Cleric: +1 melee damage
+--> Prophetess of Light: +1 melee damage, +1 ranged damage
+--> Windsong: Added Librarian (lvl 4 to Arbiter)
+--> Windsong: Added Farstrider (lvl 3 to Pathfinder)
+--> Dark Legion healer unit added to factions of all eras.
+Legion Medic -> Legion Healer -> Legion Doctor
+
+
 version v1.2.0
 
 Units:
