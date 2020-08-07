@@ -1,7 +1,7 @@
 War of Legends
-Change-Log v1.2.1
+Change-Log v1.2.2
 
-version v1.2.1
+version v1.2.2
 Units:
 --> Soldier: +1 shield damage, +2 cost
 --> Warrior: +1 shield damage, -2 cost, -leadership, +steadfast
@@ -18,6 +18,10 @@ Units:
 --> Windsong: Added Farstrider (lvl 3 to Pathfinder)
 --> Dark Legion healer unit added to factions of all eras.
 Legion Medic -> Legion Healer -> Legion Doctor
+--> Adjusted most of the Southern Elves to the new liminal change
+--> Added new units: Saurian Prophet, Shadowback, Dark Rider, Dark Invader, Wyrm, Ice Ghost, Goblin Spearmaster, Goblin Cutthroat, Goblin Trumpeter, Goblin Chieftain
+--> Minotaur Overlord: -leadership, +terror
+--> Minotaur Rouser: +terror
 
 
 version v1.2.0
