@@ -8,7 +8,15 @@ version v1.2.2
    --> Warmaster: +1 shield damage, -leadership, +steadfast
    --> Black Cat-line: removed broken ability jinx until I fix it
    --> Fixed Jahin's custom AMLAs
-   --> Added new units: Saurian Prophet, Shadowback, Dark Rider, Dark Invader, Wyrm, Ice Ghost, Goblin Spearmaster, Goblin Cutthroat, Goblin Trumpeter, Goblin Chieftain
+   --> Added new units:
+      --> (Saurian Oracle) --> Saurian Prophet
+      --> (Wraith) --> Shadowback
+      --> Dark Rider --> Dark Invader
+      --> Wyrm
+      --> Ice Ghost
+      --> (Goblin Impaler) --> Goblin Spearmaster
+      --> (Goblin Rouser) --> Goblin Trumpeter --> Goblin Chieftain
+      --> (Goblin Pillager) --> Goblin Cutthroat
 --> Human Alliance:
    --> Adept of Light: +1 melee damage
    --> Cleric: +1 melee damage
