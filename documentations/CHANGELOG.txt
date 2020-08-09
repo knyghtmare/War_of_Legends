@@ -2,26 +2,53 @@ War of Legends
 Change-Log v1.2.2
 
 version v1.2.2
-Units:
---> Soldier: +1 shield damage, +2 cost
---> Warrior: +1 shield damage, -2 cost, -leadership, +steadfast
---> Warmaster: +1 shield damage, -leadership, +steadfast
---> Black Cat-line: removed broken ability jinx until I fix it
---> Fixed Jahin's custom AMLAs
---> Legion Archer: +1 melee damage
---> Legion Longbowman: +1 melee damage
---> Legion Elite Longbowman: +1 melee damage, +1 ranged damage (main attack)
---> Adept of Light: +1 melee damage
---> Cleric: +1 melee damage
---> Prophetess of Light: +1 melee damage, +1 ranged damage
---> Windsong: Added Librarian (lvl 4 to Arbiter)
---> Windsong: Added Farstrider (lvl 3 to Pathfinder)
---> Dark Legion healer unit added to factions of all eras.
-Legion Medic -> Legion Healer -> Legion Doctor
---> Adjusted most of the Southern Elves to the new liminal change
---> Added new units: Saurian Prophet, Shadowback, Dark Rider, Dark Invader, Wyrm, Ice Ghost, Goblin Spearmaster, Goblin Cutthroat, Goblin Trumpeter, Goblin Chieftain
---> Minotaur Overlord: -leadership, +terror
---> Minotaur Rouser: +terror
+--> Campaign Units:
+   --> Soldier: +1 shield damage, +2 cost
+   --> Warrior: +1 shield damage, -2 cost, -leadership, +steadfast
+   --> Warmaster: +1 shield damage, -leadership, +steadfast
+   --> Black Cat-line: removed broken ability jinx until I fix it
+   --> Fixed Jahin's custom AMLAs
+   --> Added new units: Saurian Prophet, Shadowback, Dark Rider, Dark Invader, Wyrm, Ice Ghost, Goblin Spearmaster, Goblin Cutthroat, Goblin Trumpeter, Goblin Chieftain
+--> Human Alliance:
+   --> Adept of Light: +1 melee damage
+   --> Cleric: +1 melee damage
+   --> Prophetess of Light: +1 melee damage, +1 ranged damage
+--> Windsong:
+   --> Windsong: Added Librarian (lvl 4 to Arbiter)
+   --> Windsong: Added Farstrider (lvl 3 to Pathfinder)
+--> Dark Legion:
+   --> Legion Archer: +1 melee damage
+   --> Legion Longbowman: +1 melee damage
+   --> Legion Elite Longbowman: +1 melee damage, +1 ranged damage (main attack)
+   healer unit added to factions of all eras.
+   Legion Medic -> Legion Healer -> Legion Doctor
+-->Southern Elves:
+   --> Adjusted most of the Southern Elves to the new liminal change
+   --> Empyrean Druid: -8 cost
+   --> Southern Captain: -4 cost
+   --> Southern Champion: -4 cost
+   --> Southern Chieftain: +3 cost
+   --> Southern Guard: -1 cost
+   --> Southern Marksman: -11 cost
+   --> Moon Cleric: -7 cost
+   --> Southern Mystic: -2 cost
+   --> Southern Protector: -8 cost
+   --> Sharpshooter: -6 cost
+   --> Sun Priestess: -7 cost
+   --> Sun Sorceress: +3 cost
+   --> Warrior: -3 cost
+--> Minotaurs:
+   --> Minotaur Overlord: -leadership, +terror
+   --> Minotaur Rouser: +terror
+--> Sylvans:
+   Elvish Acolyte: -1 cost, +2 ranged damage
+   Elvish Ascetic: -4 cost, +1 arcane ranged damage, +2 ensare damage
+   Elvish Mystic: -3 cost, -45 XP, +2 ensare damage, +1 zephyr damage
+   Elvish Avatar: -4 cost, +1 arcane ranged damage
+   Elvish Hunter: same as it as
+   Elvish Trapper: -7 cost
+   Elvish Prowler: -4 cost
+
 
 
 version v1.2.0
