@@ -20,8 +20,8 @@ version v1.2.2
    --> Legion Archer: +1 melee damage
    --> Legion Longbowman: +1 melee damage
    --> Legion Elite Longbowman: +1 melee damage, +1 ranged damage (main attack)
-   healer unit added to factions of all eras.
-   Legion Medic -> Legion Healer -> Legion Doctor
+   --> healer unit added to factions of all eras.
+      Legion Medic -> Legion Healer -> Legion Doctor
 -->Southern Elves:
    --> Adjusted most of the Southern Elves to the new liminal change
    --> Empyrean Druid: -8 cost
@@ -41,13 +41,14 @@ version v1.2.2
    --> Minotaur Overlord: -leadership, +terror
    --> Minotaur Rouser: +terror
 --> Sylvans:
-   Elvish Acolyte: -1 cost, +2 ranged damage
-   Elvish Ascetic: -4 cost, +1 arcane ranged damage, +2 ensare damage
-   Elvish Mystic: -3 cost, -45 XP, +2 ensare damage, +1 zephyr damage
-   Elvish Avatar: -4 cost, +1 arcane ranged damage
-   Elvish Hunter: same as it as
-   Elvish Trapper: -7 cost
-   Elvish Prowler: -4 cost
+   --> Elvish Acolyte: -1 cost, +2 ranged damage
+   --> Elvish Ascetic: -4 cost, +1 arcane ranged damage, +2 ensare damage
+   --> Elvish Mystic: -3 cost, -45 XP, +2 ensare damage, +1 zephyr damage
+   --> Elvish Avatar: -4 cost, +1 arcane ranged damage
+   --> Elvish Hunter: same as it as
+   --> Elvish Trapper: -7 cost
+   --> Elvish Prowler: -4 cost
+   --> Elvish Noble: -1 cost
 
 
 
