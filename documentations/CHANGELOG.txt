@@ -1,5 +1,12 @@
 War of Legends
-Change-Log v1.2.2
+Change-Log v1.2.3
+
+version v1.2.3
+--> Campaign Units:
+   ---> Dwarves:
+      ---> New Units:
+         Dwarvish Witness --> Dwarvish Annalist --> Dwarvish Loremaster
+         (Gryphon Master) --> Gryphon Thunderlord
 
 version v1.2.2
 --> Campaign Units:
