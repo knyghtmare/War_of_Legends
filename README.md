@@ -1,7 +1,5 @@
 # War of Legends
-
-===
-
+--------------------------------------------------------------------------------
 The War of Legends is an add-on for the [Battle for Wesnoth](https://www.wesnoth.org), a turn-based strategy game.
 This add-on is a multiplayer era featuring my favourite factions.
 It is required as a dependency to play the following campaigns:
