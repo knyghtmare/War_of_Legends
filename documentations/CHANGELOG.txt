@@ -7,6 +7,7 @@ version v1.2.3
       ---> New Units:
          Dwarvish Witness --> Dwarvish Annalist --> Dwarvish Loremaster
          (Gryphon Master) --> Gryphon Thunderlord
+--> All units converted to the new special notes format
 
 version v1.2.2
 --> Campaign Units:
