@@ -1,5 +1,15 @@
 War of Legends
-Change-Log v1.2.3
+Change-Log v1.2.4
+
+version v1.2.4
+--> Sylvans:
+   ---> Ensure that Faerie Sprite-line can access the Dextrous trait now.
+--> Vampires:
+   ---> Vampires are now immune to drain
+   ---> Vampires are still susceptible to poison
+   ---> vampires now inherit global traits (including strong)
+--> Campaign Units:
+   ---> Warmaster has two further AMLAs available.
 
 version v1.2.3
 --> Campaign Units:
@@ -10,8 +20,6 @@ version v1.2.3
 --> Human Alliance:
    ---> Adept of Light: +1 ranged damage
    ---> Cleric: +1 ranged damage
---> Sylvans:
-   ---> Ensure that Faerie Sprite-line can access the Dextrous trait now.
 --> All units converted to the new special notes format
 
 version v1.2.2
