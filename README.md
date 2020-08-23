@@ -3,11 +3,13 @@
 The War of Legends is an add-on for the [Battle for Wesnoth](https://www.wesnoth.org), a turn-based strategy game.
 This add-on is a multiplayer era featuring my favourite factions.
 It is required as a dependency to play the following campaigns:
-1. The Legend Begins
-2. Hero of Irdya
-3. A Song of Fire
-4. War of the Jewel
-5. Aria of the Dragon Slayer
+1. [The Legend Begins](https://github.com/knyghtmare/The_Legend_Begins)
+2. [Hero of Irdya Book I](https://forums.wesnoth.org/viewtopic.php?f=8&t=43290)
+3. [A Song of Fire](https://forums.wesnoth.org/viewtopic.php?f=8&t=38210)
+4. [War of the Jewel](https://forums.wesnoth.org/viewtopic.php?f=8&t=39618)
+5. [Aria of the Dragon Slayer](https://forums.wesnoth.org/viewtopic.php?f=8&t=40389)
+6. Hero of Irdya Book II (coming soon)
+7. Hero of Irdya Book III (coming soon-ish?)
 
 ## Installing '**War of Legends**'
 --------------------------------------------------------------------------------
@@ -24,3 +26,5 @@ The benefits of this is that you can try out the unreleased versions and let the
 --------------------------------------------------------------------------------
 If you encounter any bugs or other problems, you may report them at my [issue
 tracker on GitHub](https://github.com/knyghtmare/War_of_Legends/issues).
+
+Alternately, you can make a forum post in this [topic](https://forums.wesnoth.org/viewtopic.php?f=19&t=30087).
