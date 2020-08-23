@@ -10,6 +10,8 @@ version v1.2.3
 --> Human Alliance:
    ---> Adept of Light: +1 ranged damage
    ---> Cleric: +1 ranged damage
+--> Sylvans:
+   ---> Ensure that Faerie Sprite-line can access the Dextrous trait now.
 --> All units converted to the new special notes format
 
 version v1.2.2
