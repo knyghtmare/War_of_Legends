@@ -13,6 +13,8 @@ version v1.2.4
    ---> Arblastier: ranged +firststrike, +1 dmg
 --> Dwarves:
    ---> Crossbowman-line: ranged +firststrike
+--> Orcish Union:
+   ---> Troll Boulderlobber: +3 HP 
 --> Windsong:
    ---> Courier: -1 ranged and melee dmg (this was way too OP)
    ---> Reaver: -1 ranged and melee dmg (this was way too OP)
