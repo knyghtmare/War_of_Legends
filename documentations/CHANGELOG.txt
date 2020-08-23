@@ -8,6 +8,11 @@ version v1.2.4
    ---> Vampires are now immune to drain
    ---> Vampires are still susceptible to poison
    ---> vampires now inherit global traits (including strong)
+--> Dark Legion:
+   ---> Crossbowman: ranged +firststrike, +1 dmg
+   ---> Arblastier: ranged +firststrike, +1 dmg
+--> Dwarves:
+   ---> Crossbowman-line: ranged +firststrike
 --> Campaign Units:
    ---> Warmaster has two further AMLAs available.
 
