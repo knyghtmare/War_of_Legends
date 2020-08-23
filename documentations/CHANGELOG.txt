@@ -13,6 +13,11 @@ version v1.2.4
    ---> Arblastier: ranged +firststrike, +1 dmg
 --> Dwarves:
    ---> Crossbowman-line: ranged +firststrike
+--> Windsong:
+   ---> Courier: -1 ranged and melee dmg (this was way too OP)
+   ---> Reaver: -1 ranged and melee dmg (this was way too OP)
+   ---> Dreadnought: -1 ranged and melee dmg (this was way too OP)
+   ---> Emissary: -1 ranged damage
 --> Campaign Units:
    ---> Warmaster has two further AMLAs available.
 
