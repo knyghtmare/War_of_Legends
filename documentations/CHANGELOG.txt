@@ -22,6 +22,8 @@ version v1.2.4
    ---> Emissary: -1 ranged damage
 --> Campaign Units:
    ---> Warmaster has two further AMLAs available.
+   ---> New Unit:
+        --> (Troll Shaman) --> Troll Warbanner
 
 version v1.2.3
 --> Campaign Units:
