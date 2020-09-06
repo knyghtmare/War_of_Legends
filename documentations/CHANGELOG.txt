@@ -11,6 +11,8 @@ version v1.2.5:
    --> Custodian: +armoredfoot
    -->New Unit:
       --> (Spearman) --> (Javelineer) --> Javelin Master
+--> Multiplayer:
+   --> All WoL macro advancements have been enabled in the MP eras.
 
 version v1.2.4
 --> Sylvans:
