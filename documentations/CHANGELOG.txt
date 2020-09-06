@@ -6,8 +6,10 @@ version v1.2.5:
    --> Ancient Banner: +protection
    --> Greatbow: ranged +marksman
 --> Loyalist:
-   New Unit:
-   --> (Spearman) --> (Javelineer) --> Javelin Master
+   --> Sentry: +armoredfoot
+   --> Custodian: +armoredfoot
+   -->New Unit:
+      --> (Spearman) --> (Javelineer) --> Javelin Master
 
 version v1.2.4
 --> Sylvans:
