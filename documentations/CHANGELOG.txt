@@ -5,7 +5,8 @@ version v1.2.5:
 --> Aragwaithi:
    --> Ancient Banner: +protection
    --> Greatbow: ranged +marksman
---> Loyalist:
+--> Loyalists:
+   --> Spearman-line added to recruit list(s)
    --> Sentry: +armoredfoot
    --> Custodian: +armoredfoot
    -->New Unit:
