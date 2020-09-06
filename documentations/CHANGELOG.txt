@@ -2,7 +2,12 @@ War of Legends
 Change-Log v1.2.5
 
 version v1.2.5:
-
+--> Aragwaithi:
+   --> Ancient Banner: +protection
+   --> Greatbow: ranged +marksman
+--> Loyalist:
+   New Unit:
+   --> (Spearman) --> (Javelineer) --> Javelin Master
 
 version v1.2.4
 --> Sylvans:
