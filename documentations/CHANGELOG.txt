@@ -13,6 +13,10 @@ version v1.2.5:
       --> (Spearman) --> (Javelineer) --> Javelin Master
 --> Multiplayer:
    --> All WoL macro advancements have been enabled in the MP eras.
+   --> Sylvans (EL) can now recruit Wose Shamans
+   --> Orcish Nightblade is now a leader in Orcish Union (EL)
+   --> Human Alliance named changed to "Lorddom of Verdanyn"
+   --> Multiple mainline custom advancements have been enabled.
 
 version v1.2.4
 --> Sylvans:
