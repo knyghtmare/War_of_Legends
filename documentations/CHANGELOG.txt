@@ -10,6 +10,7 @@ version v1.2.5:
    --> Ancient Banner: +protection
    --> Greatbow: ranged +marksman
 --> Loyalists:
+   --> Mage-line added to recruit list(s)
    --> Spearman-line added to recruit list(s)
    --> Sentry: +armoredfoot, +protection, -steadfast
    --> Custodian: +armoredfoot, +protection, -steadfast
