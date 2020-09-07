@@ -2,13 +2,23 @@ War of Legends
 Change-Log v1.2.5
 
 version v1.2.5:
+--> Knalgan Alliance:
+   --> New faction introduced to War of Legends and Empowered Legends Eras.
+--> Dunefolk:
+   --> New faction introduced to War of Legends and Empowered Legends Eras.
 --> Aragwaithi:
    --> Ancient Banner: +protection
    --> Greatbow: ranged +marksman
 --> Loyalists:
    --> Spearman-line added to recruit list(s)
-   --> Sentry: +armoredfoot
-   --> Custodian: +armoredfoot
+   --> Sentry: +armoredfoot, +protection, -steadfast
+   --> Custodian: +armoredfoot, +protection, -steadfast
+   --> Mounted Bowman:
+      --> Alternate Advancement for Cavalryman
+      --> Mounted Bowman: +1 melee damage
+   --> Iron Mauler:
+      --> Iron Maulers can now advance to the Titanium Decimators
+   --> Titanium Decimator: +4 HP
    -->New Unit:
       --> (Spearman) --> (Javelineer) --> Javelin Master
 --> Multiplayer:
@@ -17,6 +27,7 @@ version v1.2.5:
    --> Orcish Nightblade is now a leader in Orcish Union (EL)
    --> Human Alliance named changed to "Lorddom of Verdanyn"
    --> Multiple mainline custom advancements have been enabled.
+   --> Knalgan Alliance and Dunefolk have been added to the eras
 
 version v1.2.4
 --> Sylvans:
