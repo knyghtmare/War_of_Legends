@@ -1,6 +1,14 @@
 War of Legends
 Change-Log v1.2.5
 
+version v1.2.6:
+--> Orcs:
+   --> Orcish Shaman: ranged dmg +1
+   --> Orcish Warlock: ranged dmg +2
+   --> Orcish Sorcerer: ranged dmg +1
+--> Monsters:
+   --> Fixed Wyrm's missing attack icon
+
 version v1.2.5:
 --> Knalgan Alliance:
    --> New faction introduced to War of Legends and Empowered Legends Eras.
