@@ -12,6 +12,9 @@ version v1.2.6:
    --> new 'electric' damage type added
 --> Lua
    --> commented out a code segment that caused issue #5225 in Wesnoth Github
+--> Windsong:
+   --> Prophetess: fixed an animation glitch
+   --> Ascendant: Fixed an animation glitch
 
 version v1.2.5:
 --> Knalgan Alliance:
