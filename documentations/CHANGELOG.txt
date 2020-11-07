@@ -17,6 +17,7 @@ version v1.2.6:
    --> Ascendant: Fixed an animation glitch
    --> Adjusted arcane resistances for Gatekeeper-line, Seeker-line
    --> Adjusted movement/defences/resistances for the Weaver-line
+   --> Adjusted the movement and defences of the Scribe-line
 
 version v1.2.5:
 --> Knalgan Alliance:
