@@ -8,8 +8,10 @@ It is required as a dependency to play the following campaigns:
 3. [A Song of Fire](https://forums.wesnoth.org/viewtopic.php?f=8&t=38210)
 4. [War of the Jewel](https://forums.wesnoth.org/viewtopic.php?f=8&t=39618)
 5. [Aria of the Dragon Slayer](https://forums.wesnoth.org/viewtopic.php?f=8&t=40389)
-6. Hero of Irdya Book II (coming soon)
-7. Hero of Irdya Book III (coming soon-ish maybe?)
+6. Frigid Nightmares
+7. Assault on the Citadel
+8. Hero of Irdya Book II (coming soon)
+9. Hero of Irdya Book III (coming soon-ish maybe?)
 
 ## Installing '**War of Legends**'
 --------------------------------------------------------------------------------
