@@ -6,6 +6,8 @@ version v1.2.6:
    --> Orcish Shaman: ranged dmg +1
    --> Orcish Warlock: ranged dmg +2
    --> Orcish Sorcerer: ranged dmg +1
+--> Elementals:
+   --> Fixed Vine Tiger/Vine Beast not receiving their heals when standing on the new mushroom grove
 --> Monsters:
    --> Fixed Wyrm's missing attack icon
 --> Attack types:
