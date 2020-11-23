@@ -20,6 +20,8 @@ version v1.2.6:
    --> Adjusted arcane resistances for Gatekeeper-line, Seeker-line
    --> Adjusted movement/defences/resistances for the Weaver-line
    --> Adjusted the movement and defences of the Scribe-line
+   --> Pathfinder: +1 ranged dmg
+   --> Farstirder: +1 ranged dmg
 
 version v1.2.5:
 --> Knalgan Alliance:
