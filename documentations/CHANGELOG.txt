@@ -22,6 +22,11 @@ version v1.2.6:
    --> Adjusted the movement and defences of the Scribe-line
    --> Pathfinder: +1 ranged dmg
    --> Farstirder: +1 ranged dmg
+--> Sylvans:
+   --> Faerie Sprite: +1 melee damage, -4 cost
+   --> Fire Faerie: +2 melee damage, -6 cost, +3HP, +10XP
+   --> Faerie Spirit: +1 melee, +1 ranged, +3HP, +3 cost
+   --> Faerie Dryad: +1 melee damage, +5HP, +2 cost
 
 version v1.2.5:
 --> Knalgan Alliance:
