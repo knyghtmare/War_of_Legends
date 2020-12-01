@@ -34,6 +34,7 @@ Iris/shadowm/shikadiqueen (Invasion from the Unknown / After the Storm)
 ---> Elvish Trapper
 ---> Elvish Prowler
 ---> Elvish Acolyte-line
+---> Faerie Sprite-line
 
 (The Dark Hordes)
 
