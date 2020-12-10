@@ -22,11 +22,21 @@ version v1.2.6:
    --> Adjusted the movement and defences of the Scribe-line
    --> Pathfinder: +1 ranged dmg
    --> Farstirder: +1 ranged dmg
+   --> Seeker-line: ranged (fire -> electric)
 --> Sylvans:
    --> Faerie Sprite: +1 melee damage, -4 cost
    --> Fire Faerie: +2 melee damage, -6 cost, +3HP, +10XP
    --> Faerie Spirit: +1 melee, +1 ranged, +3HP, +3 cost
    --> Faerie Dryad: +1 melee damage, +5HP, +2 cost
+--> Vampires:
+   --> Sangel: +1 melee damage
+   --> Marlgoyle: +2 HP
+   --> Noble-line: +1 damage to fangs
+   --> Duelist-line: fangs +1 strike
+   --> Half Blood: +1 ranged damage
+   --> Twilight Walker: +2 bow damage
+   --> Day Hunter: +1 bow damage
+   --> Blood Hulk: -2 cost, +2 HP
 
 version v1.2.5:
 --> Knalgan Alliance:
