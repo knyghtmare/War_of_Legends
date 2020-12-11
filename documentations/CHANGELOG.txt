@@ -42,7 +42,7 @@ version v1.2.6:
    --> Noble/Lady: +2 sword damage
    --> Sire/Mistress: +3 sword damage
    --> Methusalem/Duchess: +3 sword damage
-   --> Blood Hulk: +10% def to cave/forest
+   --> Blood Hulk: +10% def on cave/forest
 
 version v1.2.5:
 --> Knalgan Alliance:
