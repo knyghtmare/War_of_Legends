@@ -43,6 +43,9 @@ version v1.2.6:
    --> Sire/Mistress: +3 sword damage
    --> Methusalem/Duchess: +3 sword damage
    --> Blood Hulk: +10% def on cave/forest
+--> Undead:
+   --> Undead mounted units receive +40% blade resistance now
+   --> Undead mounted units receive +50% blade resistance now
 
 version v1.2.5:
 --> Knalgan Alliance:
