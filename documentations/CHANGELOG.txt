@@ -46,6 +46,10 @@ version v1.2.6:
 --> Undead:
    --> Undead mounted units receive +40% blade resistance now
    --> Undead mounted units receive +50% blade resistance now
+--> Hero of Irdya specific:
+   --> Removed Jahin's AMLA
+   --> Jahin's advancement:
+      Soldier --> Warrior --> Warmaster --> War Grandmaster --> Supreme Commander
 
 version v1.2.5:
 --> Knalgan Alliance:
