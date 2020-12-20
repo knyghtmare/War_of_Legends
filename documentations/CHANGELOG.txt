@@ -49,7 +49,7 @@ version v1.2.6:
 --> Hero of Irdya specific:
    --> Removed Jahin's AMLA
    --> Jahin's advancement:
-      Soldier --> Warrior --> Warmaster --> War Grandmaster --> Supreme Commander
+      Soldier --> Warrior --> Warmaster --> War Grandmaster --> Supreme Warlord
 
 version v1.2.5:
 --> Knalgan Alliance:
