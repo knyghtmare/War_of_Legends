@@ -2,6 +2,9 @@ War of Legends
 Change-Log v1.2.6
 
 version v1.2.6:
+--> Humans/Loyalists:
+   --> Chevalier: new ability 'radiance'
+   --> Crusader: new ability 'radiance'
 --> Orcs:
    --> Orcish Shaman: ranged dmg +1
    --> Orcish Warlock: ranged dmg +2
@@ -46,6 +49,8 @@ version v1.2.6:
 --> Undead:
    --> Undead mounted units receive +40% blade resistance now
    --> Undead mounted units receive +50% blade resistance now
+   --> Deathmaster-line:
+      --> chill tempest now deals 'frost nova' damage
 --> Hero of Irdya specific:
    --> Removed Jahin's AMLA
    --> Jahin's advancement:
