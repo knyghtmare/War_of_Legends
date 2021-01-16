@@ -1,6 +1,9 @@
 War of Legends
 Change-Log v1.2.6
 
+version v1.2.6.1:
+--> fixed ellipses of Wood Mage and Adept of Light
+
 version v1.2.6:
 --> Humans/Loyalists:
    --> Chevalier: new ability 'radiance'
