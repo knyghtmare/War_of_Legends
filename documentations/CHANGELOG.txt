@@ -3,6 +3,8 @@ Change-Log v1.2.6
 
 version v1.2.6.1:
 --> fixed ellipses of Wood Mage and Adept of Light
+--> Outlaws:
+   --> New sprites for the Shadow Initiate-line
 
 version v1.2.6:
 --> Humans/Loyalists:
