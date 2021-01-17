@@ -5,6 +5,8 @@ version v1.2.6.1:
 --> fixed ellipses of Wood Mage and Adept of Light
 --> Outlaws:
    --> New sprites for the Shadow Initiate-line
+   --> New Unit-line for the Outlaws faction
+      --> Axethrower --> Axeman --> Axemaster
 
 version v1.2.6:
 --> Humans/Loyalists:
