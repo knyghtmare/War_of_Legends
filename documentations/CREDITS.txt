@@ -75,3 +75,8 @@ gooby
 Under the Burning Suns
 
 ---> Quenoth Elves, weapon specials and abilities
+
+Kwandulin
+
+---> Axethrower-line
+---> Shadowback
