@@ -8,7 +8,10 @@ version v1.2.6.1:
    --> New Unit-line for the Outlaws faction
       --> Axethrower --> Axeman --> Axemaster
 --> Fixed the bug with electric and arcane_focus resistance calculations
-   --> I apparently did not enter the correct formulae for [resistance_defaults][/resistance_defaults] 
+   --> I apparently did not enter the correct formulae for [resistance_defaults][/resistance_defaults]
+--> Minotaurs:
+   --> Behemoth: +2 melee damage
+   --> Ancient Behemoth: +2 melee damage
 
 version v1.2.6:
 --> Humans/Loyalists:
