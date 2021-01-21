@@ -16,6 +16,9 @@ version v1.2.6.1:
    --> Cutthroat: +1 melee damage
    --> Savage: +1 damage
    --> Overlord: +1 damage
+--> Mages:
+   --> Mage of Storms: +1 lightning damage
+   --> most instances of lightning as fire dmg corrected to electric damage type
 
 version v1.2.6:
 --> Humans/Loyalists:
