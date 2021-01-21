@@ -12,6 +12,10 @@ version v1.2.6.1:
 --> Minotaurs:
    --> Behemoth: +2 melee damage
    --> Ancient Behemoth: +2 melee damage
+   --> Elder: +1 staff damage, +1 sacred fire damage
+   --> Cutthroat: +1 melee damage
+   --> Savage: +1 damage
+   --> Overlord: +1 damage
 
 version v1.2.6:
 --> Humans/Loyalists:
