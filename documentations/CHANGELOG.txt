@@ -2,6 +2,10 @@ War of Legends
 Change-Log v1.2.6
 
 version v1.2.6.1:
+--> UI:
+   --> Added profile icons:
+      --> electric damage type
+      --> arcane focus damage type
 --> fixed ellipses of Wood Mage and Adept of Light
 --> Outlaws:
    --> New sprites for the Shadow Initiate-line
@@ -18,7 +22,10 @@ version v1.2.6.1:
    --> Overlord: +1 damage
 --> Mages:
    --> Mage of Storms: +1 lightning damage
-   --> most instances of lightning as fire dmg corrected to electric damage type
+--> most instances of lightning as fire dmg corrected to electric damage type
+   --> Windsong: Seeker-line
+   --> elementals: Thunderbird
+   --> Thunder Mage/ Tempest Mage/ Mage of Storms
 
 version v1.2.6:
 --> Humans/Loyalists:
