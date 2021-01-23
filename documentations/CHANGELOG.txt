@@ -26,6 +26,7 @@ version v1.2.6.1:
    --> Windsong: Seeker-line
    --> elementals: Thunderbird
    --> Thunder Mage/ Tempest Mage/ Mage of Storms
+--> Quenoth Elves: cleaned up code
 
 version v1.2.6:
 --> Humans/Loyalists:
