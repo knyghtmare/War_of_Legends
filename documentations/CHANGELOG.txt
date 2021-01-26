@@ -5,6 +5,8 @@ version v1.2.6.2:
 --> Great Ogre: +14 HP
 --> Vampires: 
    --> Malborn: +1 melee damage
+--> Undead:
+   --> Fix bug with Frost Nova special
 
 version v1.2.6.1:
 --> UI:
