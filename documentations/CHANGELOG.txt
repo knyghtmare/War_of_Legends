@@ -7,6 +7,8 @@ version v1.2.6.2:
    --> Malborn: +1 melee damage
 --> Undead:
    --> Fix bug with Frost Nova special
+--> Loyalists: 
+   --> Fixed bug with radiance
 
 version v1.2.6.1:
 --> UI:
