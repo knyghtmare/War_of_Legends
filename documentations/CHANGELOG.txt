@@ -1,6 +1,9 @@
 War of Legends
 Change-Log v1.2.6
 
+version v1.2.6.2:
+--> Great Ogre: +14 HP
+
 version v1.2.6.1:
 --> UI:
    --> Added profile icons:
