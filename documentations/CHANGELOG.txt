@@ -3,6 +3,8 @@ Change-Log v1.2.6
 
 version v1.2.6.2:
 --> Great Ogre: +14 HP
+--> Vampires: 
+   --> Malborn: +1 melee damage
 
 version v1.2.6.1:
 --> UI:
