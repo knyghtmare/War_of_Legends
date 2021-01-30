@@ -5,6 +5,8 @@ version v1.2.6.3:
 --> Vampires:
    --> Blood Manipulator: +1 blood boil damage, +2 aura wave dmg, +1 fangs dmg
    --> Flesh Artisan: +1 blood boil dmg, +1 fangs dmg
+--> Minotaurs:
+   --> Overlord: +4 HP
 
 version v1.2.6.2:
 --> Great Ogre: +14 HP
