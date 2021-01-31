@@ -7,6 +7,7 @@ version v1.2.6.3:
    --> Flesh Artisan: +1 blood boil dmg, +1 fangs dmg
 --> Minotaurs:
    --> Overlord: +4 HP
+   --> Ancient Behemoth: +feeding
 
 version v1.2.6.2:
 --> Great Ogre: +14 HP
