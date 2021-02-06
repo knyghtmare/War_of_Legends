@@ -8,6 +8,9 @@ version v1.2.6.3:
 --> Minotaurs:
    --> Overlord: +4 HP
    --> Ancient Behemoth: +feeding
+--> Campaigns:
+   --> Wyrm: +1 ranged dmg
+   --> Ice Ghost: +1 melee dmg
 
 version v1.2.6.2:
 --> Great Ogre: +14 HP
