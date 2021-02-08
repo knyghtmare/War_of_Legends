@@ -5,12 +5,15 @@ version v1.2.6.3:
 --> Vampires:
    --> Blood Manipulator: +1 blood boil damage, +2 aura wave dmg, +1 fangs dmg
    --> Flesh Artisan: +1 blood boil dmg, +1 fangs dmg
+   --> Twilight Walker: +1 bow dmg
 --> Minotaurs:
    --> Overlord: +4 HP
    --> Ancient Behemoth: +feeding
 --> Campaigns:
    --> Wyrm: +1 ranged dmg
    --> Ice Ghost: +1 melee dmg
+--> Troll Boulderlobber: +3 HP
+--> Troll Boulderlobber now has the proper portrait
 
 version v1.2.6.2:
 --> Great Ogre: +14 HP
