@@ -4,6 +4,8 @@ Change-Log v1.2.6.4
 version v1.2.6.4:
 --> Vampires:
    --> +1 trait slot
+   --> vampire racial trait is now hidden
+       (it is still there and takes effect but you will not see it)
 --> Windsong: 
    --> Gatekeeper-line: increased chances of earning the quick trait
 
