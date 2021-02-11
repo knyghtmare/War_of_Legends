@@ -1,5 +1,11 @@
 War of Legends
-Change-Log v1.2.6.3
+Change-Log v1.2.6.4
+
+version v1.2.6.4:
+--> Vampires:
+   --> +1 trait slot
+--> Windsong: 
+   --> Gatekeeper-line: increased chances of earning the quick trait
 
 version v1.2.6.3:
 --> Vampires:
