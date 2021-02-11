@@ -6,6 +6,9 @@ version v1.2.6.4:
    --> +1 trait slot
    --> vampire racial trait is now hidden
        (it is still there and takes effect but you will not see it)
+       Also, in the race description, it has already been mentioned
+       that they are immune to the plague and drain so there is no need
+       to show the trait
 --> Windsong: 
    --> Gatekeeper-line: increased chances of earning the quick trait
 
