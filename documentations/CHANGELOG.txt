@@ -11,6 +11,14 @@ version v1.2.6.4:
        to show the trait
 --> Windsong: 
    --> Gatekeeper-line: increased chances of earning the quick trait
+--> Aragwaithi:
+   --> unit description updates by revansurik
+      --> Spearman
+      --> Flagbearer
+      --> Captain
+      --> Ancient Banner
+--> Aberrations:
+   --> 
 
 version v1.2.6.3:
 --> Vampires:
