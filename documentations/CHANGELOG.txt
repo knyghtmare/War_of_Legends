@@ -9,6 +9,9 @@ version v1.2.6.4:
        Also, in the race description, it has already been mentioned
        that they are immune to the plague and drain so there is no need
        to show the trait
+   --> vampires have been made immune to the jinx weapon special
+      --> They are a subrace of undead so the jinx special should
+          not have any effect on them
 --> Windsong: 
    --> Gatekeeper-line: increased chances of earning the quick trait
 --> Aragwaithi:
@@ -18,7 +21,8 @@ version v1.2.6.4:
       --> Captain
       --> Ancient Banner
 --> Aberrations:
-   --> 
+   --> Fixed jinx weapon special
+   --> updated the description of the jinx special
 
 version v1.2.6.3:
 --> Vampires:
