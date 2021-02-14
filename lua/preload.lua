@@ -1,6 +1,13 @@
---<<
+local T = wml.tag
 
-function wesnoth.wml_actions.AE_efm_add_hex(cfg)
+local function sign(x)
+	if x > 0 then return 1 end
+	return -1
+end
+
+local abs=math.abs
+
+function wesnoth.wml_actions.WOL_add_curse(cfg)
 	local max_cth = 90
 	local def_redu = 15
 	local function map_def(defense)
@@ -15,7 +22,7 @@ function wesnoth.wml_actions.AE_efm_add_hex(cfg)
 		local def = wml.get_child(u.__cfg, "defense")
 		
 		u:add_modification("object",{
-			id="AE_efm_hex_object",
+			id="WOL_curse_object",
 			T.effect{
 				apply_to="defense",
 				replace=true,
@@ -40,19 +47,19 @@ function wesnoth.wml_actions.AE_efm_add_hex(cfg)
 			},
 			T.effect{
 				apply_to="overlay",
-				add="utils/curse.png"
+				add="misc/curse.png"
 			}
 		})
-		u.status.AE_efm_curse = true
+		u.status.WOL_curse = true
 	end
 end
 
-function wesnoth.wml_actions.AE_efm_remove_hex(cfg)
+function wesnoth.wml_actions.WOL_remove_curse(cfg)
 	local units = wesnoth.get_units(cfg)
 	for i,u in ipairs(units) do
-		u:remove_modifications({id="AE_efm_hex_object"})
-		wesnoth.wml_actions.remove_unit_overlay{id=u.id, image="utils/curse.png"}
-		u.status.AE_efm_curse = false
+		u:remove_modifications({id="WOL_curse_object"})
+		wesnoth.wml_actions.remove_unit_overlay{id=u.id, image="misc/curse.png"}
+		u.status.WOL_curse = false
 	end
 end
 
