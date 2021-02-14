@@ -16,6 +16,7 @@ version v1.2.6.4:
    --> Gatekeeper-line: increased chances of earning the quick trait
    --> Prophetess-line: ranged attack is now energy attack type
 --> Aragwaithi:
+   --> Fixed animation glitches
    --> unit description updates by revansurik
       --> Spearman
       --> Flagbearer
