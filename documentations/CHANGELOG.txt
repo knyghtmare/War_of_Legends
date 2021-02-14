@@ -14,6 +14,7 @@ version v1.2.6.4:
           not have any effect on them
 --> Windsong: 
    --> Gatekeeper-line: increased chances of earning the quick trait
+   --> Prophetess-line: ranged attack is now energy attack type
 --> Aragwaithi:
    --> unit description updates by revansurik
       --> Spearman
