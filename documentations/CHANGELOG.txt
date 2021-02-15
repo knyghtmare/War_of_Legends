@@ -13,7 +13,10 @@ version v1.2.6.4:
       --> They are a subrace of undead so the jinx special should
           not have any effect on them
 --> Windsong: 
-   --> Gatekeeper-line: increased chances of earning the quick trait
+   --> fixed animation glitches for:
+      --> Librarian
+      --> Prophetess
+      --> Ascendant
    --> Prophetess-line: ranged attack is now energy attack type
 --> Aragwaithi:
    --> Fixed animation glitches
@@ -25,6 +28,8 @@ version v1.2.6.4:
 --> Aberrations:
    --> Fixed jinx weapon special
    --> updated the description of the jinx special
+--> Nightmares:
+   --> 
 
 version v1.2.6.3:
 --> Vampires:
