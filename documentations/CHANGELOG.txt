@@ -28,8 +28,15 @@ version v1.2.6.4:
 --> Aberrations:
    --> Fixed jinx weapon special
    --> updated the description of the jinx special
+   --> Rash One: +1 damage
+   --> Raging One: +1 damage
+   --> adjusted resistances
+   --> +1 trait
+   --> Angry One unit-tree: +dauntless, +10% fire res, +10% cold res
 --> Nightmares:
-   --> 
+   --> adjusted resistances: +10% blade res and +10% pierce res
+   --> Life Thief tree: +1 melee damage
+
 
 version v1.2.6.3:
 --> Vampires:
