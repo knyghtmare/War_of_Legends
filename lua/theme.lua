@@ -28,7 +28,7 @@ function wesnoth.interface.game_display.unit_status()
 
 	if u.status.WOL_curse then
 		table.insert(s, { "element", { image = "misc/curse-status-icon.png",
-			tooltip = _ "cursed: This unit is cursed. This unit gets a 15% #defence penalty on every terrain."
+			tooltip = _ "cursed: This unit is cursed. This unit gets a 15% defence penalty on every terrain."
 		} } )
 	end
 
