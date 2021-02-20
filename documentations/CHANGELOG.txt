@@ -19,6 +19,7 @@ version v1.2.6.4:
       --> Ascendant
    --> Prophetess-line: ranged attack is now energy attack type
 --> Aragwaithi:
+   --> most units (except the Scout tree) now have 60% def on forest 
    --> Fixed animation glitches
    --> unit description updates by revansurik
       --> Spearman
