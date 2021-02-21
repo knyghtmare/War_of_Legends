@@ -41,7 +41,7 @@ version v1.2.6.4:
    --> Life Thief tree: +1 melee damage
 --> Abilities and Specials:
    --> Fix for Dauntless not applying the effects for new damage types
-   --> Fix for protection not applyin +20% to all damage types
+   --> Fix for protection not applying +20% to all damage types
 
 
 version v1.2.6.3:
