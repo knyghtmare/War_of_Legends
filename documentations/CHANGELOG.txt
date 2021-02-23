@@ -39,6 +39,8 @@ version v1.2.6.4:
 --> Nightmares:
    --> adjusted resistances: +10% blade res and +10% pierce res
    --> Life Thief tree: +1 melee damage
+--> Outlaws:
+   --> Axethrower line: fixed axe attack animation
 --> Abilities and Specials:
    --> Fix for Dauntless not applying the effects for new damage types
    --> Fix for protection not applying +20% to all damage types
