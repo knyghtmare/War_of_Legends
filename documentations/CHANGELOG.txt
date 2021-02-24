@@ -41,6 +41,9 @@ version v1.2.6.4:
    --> Life Thief tree: +1 melee damage
 --> Outlaws:
    --> Axethrower line: fixed axe attack animation
+   --> Naga Hunter line: 
+      --> Naga Hunter: +3 ranged damage
+      --> Naga Assassin: +4 ranged damage
 --> Abilities and Specials:
    --> Fix for Dauntless not applying the effects for new damage types
    --> Fix for protection not applying +20% to all damage types
