@@ -13,4 +13,5 @@
 local T = wml.tag
 
 function wesnoth.wml_actions.activate_terrain_link(cfg)
+    local terrain_link_units = wesnoth.get_units { ability_id = "terrain_link" }
 end
