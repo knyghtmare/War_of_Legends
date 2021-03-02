@@ -10,10 +10,11 @@ It is required as a dependency to play the following campaigns:
 5. [War of the Jewel](https://forums.wesnoth.org/viewtopic.php?f=8&t=39618)
 6. [Aria of the Dragon Slayer](https://forums.wesnoth.org/viewtopic.php?f=8&t=40389)
 7. [Sepulchre of Elran](https://forums.wesnoth.org/viewtopic.php?f=8&t=44860)
-8. Frigid Nightmares
-9. Assault on the Citadel
-10. Hero of Irdya Book II (coming soon)
-11. Hero of Irdya Book III (coming soon-ish maybe?)
+8. [Legends of Idaamub](https://forums.wesnoth.org/viewtopic.php?p=644433#p644433)
+9. Frigid Nightmares
+10. Assault on the Citadel
+11. Hero of Irdya Book II (coming soon)
+12. Hero of Irdya Book III (coming soon-ish maybe?)
 
 ## Installing '**War of Legends**'
 --------------------------------------------------------------------------------
