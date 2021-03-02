@@ -5,14 +5,15 @@ This add-on is a multiplayer era featuring my favourite factions.
 It is required as a dependency to play the following campaigns:
 1. [The Legend Begins](https://github.com/knyghtmare/The_Legend_Begins)
 2. [Hero of Irdya Book I](https://forums.wesnoth.org/viewtopic.php?f=8&t=43290)
-3. [A Song of Fire](https://forums.wesnoth.org/viewtopic.php?f=8&t=38210)
-4. [War of the Jewel](https://forums.wesnoth.org/viewtopic.php?f=8&t=39618)
-5. [Aria of the Dragon Slayer](https://forums.wesnoth.org/viewtopic.php?f=8&t=40389)
-6. [Sepulchre of Elran](https://forums.wesnoth.org/viewtopic.php?f=8&t=44860)
-7. Frigid Nightmares
-8. Assault on the Citadel
-9. Hero of Irdya Book II (coming soon)
-10. Hero of Irdya Book III (coming soon-ish maybe?)
+3. [A Song of the Wind](https://forums.wesnoth.org/viewtopic.php?p=662430#p662430)
+4. [A Song of Fire](https://forums.wesnoth.org/viewtopic.php?f=8&t=38210)
+5. [War of the Jewel](https://forums.wesnoth.org/viewtopic.php?f=8&t=39618)
+6. [Aria of the Dragon Slayer](https://forums.wesnoth.org/viewtopic.php?f=8&t=40389)
+7. [Sepulchre of Elran](https://forums.wesnoth.org/viewtopic.php?f=8&t=44860)
+8. Frigid Nightmares
+9. Assault on the Citadel
+10. Hero of Irdya Book II (coming soon)
+11. Hero of Irdya Book III (coming soon-ish maybe?)
 
 ## Installing '**War of Legends**'
 --------------------------------------------------------------------------------
