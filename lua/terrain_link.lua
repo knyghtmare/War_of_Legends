@@ -6,6 +6,7 @@
 -- Bramble - Forests
 -- Rock - Mountains/Hills/Caves
 -- SandStorm - Desert/Sand/Dunes
+-- Frost - Snow/Ice
 -- Whirlpool - Water/Deepwater/Fords
 -- Swamp-whirlpool - Swampwater/Quagmire
 
