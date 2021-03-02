@@ -12,9 +12,10 @@ It is required as a dependency to play the following campaigns:
 7. [Sepulchre of Elran](https://forums.wesnoth.org/viewtopic.php?f=8&t=44860)
 8. [Legends of Idaamub](https://forums.wesnoth.org/viewtopic.php?p=644433#p644433)
 9. Frigid Nightmares
-10. Assault on the Citadel
+10. [Assault on the Citadel](https://github.com/knyghtmare/Assault_on_the_Citadel)
 11. Hero of Irdya Book II (coming soon)
 12. Hero of Irdya Book III (coming soon-ish maybe?)
+13. [Saga of James](https://github.com/irdyansages/Saga_of_James)
 
 ## Installing '**War of Legends**'
 --------------------------------------------------------------------------------
