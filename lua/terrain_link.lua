@@ -9,4 +9,7 @@
 -- Whirlpool - Water/Deepwater/Fords
 -- Swamp-whirlpool - Swampwater/Quagmire
 
-local T = wml.tag 
+local T = wml.tag
+
+function wesnoth.wml_actions.activate_terrain_link(cfg)
+end
