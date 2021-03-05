@@ -4,21 +4,24 @@ The War of Legends is an add-on for the [Battle for Wesnoth](https://www.wesnoth
 This add-on is a multiplayer era featuring my favourite factions.
 It is required as a dependency to play the following campaigns:
 
-| Author Name | Campaign/Add-on |
+| Author Name | Campaign/Scenario/Add-on |
 | ----------- | --------------- |
-| knyghtmare  | 1. [The Legend Begins](https://github.com/knyghtmare/The_Legend_Begins) |
-|             | 2. [Hero of Irdya Book I](https://forums.wesnoth.org/viewtopic.php?f=8&t=43290) |
-3. [A Song of the Wind](https://forums.wesnoth.org/viewtopic.php?p=662430#p662430)
-4. [A Song of Fire](https://forums.wesnoth.org/viewtopic.php?f=8&t=38210)
-5. [War of the Jewel](https://forums.wesnoth.org/viewtopic.php?f=8&t=39618)
-6. [Aria of the Dragon Slayer](https://forums.wesnoth.org/viewtopic.php?f=8&t=40389)
-7. [Sepulchre of Elran](https://forums.wesnoth.org/viewtopic.php?f=8&t=44860)
-8. [Legends of Idaamub](https://forums.wesnoth.org/viewtopic.php?p=644433#p644433)
-9. Frigid Nightmares
-10. [Assault on the Citadel](https://github.com/knyghtmare/Assault_on_the_Citadel)
-11. Hero of Irdya Book II (coming soon)
-12. Hero of Irdya Book III (coming soon-ish maybe?)
-13. [Saga of James](https://github.com/irdyansages/Saga_of_James)
+| knyghtmare  | [The Legend Begins](https://github.com/knyghtmare/The_Legend_Begins) |
+|             | [Hero of Irdya Book I](https://forums.wesnoth.org/viewtopic.php?f=8&t=43290) |
+|             | [Sepulchre of Elran](https://forums.wesnoth.org/viewtopic.php?f=8&t=44860) |
+|             | Frigid Nightmares |
+|             | Hero of Irdya Book II (coming soon) |
+|             | Hero of Irdya Book III (coming soon-ish maybe?) |
+|             | [Assault on the Citadel](https://github.com/knyghtmare/Assault_on_the_Citadel) |
+| ----------- | --------------- |
+| revansurik  | [A Song of the Wind](https://forums.wesnoth.org/viewtopic.php?p=662430#p662430) |
+|             | [A Song of Fire](https://forums.wesnoth.org/viewtopic.php?f=8&t=38210) |
+|             | [War of the Jewel](https://forums.wesnoth.org/viewtopic.php?f=8&t=39618) |
+|             | [Aria of the Dragon Slayer](https://forums.wesnoth.org/viewtopic.php?f=8&t=40389) |
+| ----------- | --------------- |
+| Ihybrideur  | [Legends of Idaamub](https://forums.wesnoth.org/viewtopic.php?p=644433#p644433) |
+| ----------- | --------------- |
+| James_the_Invisible | [Saga of James](https://github.com/irdyansages/Saga_of_James) |
 
 ## Installing '**War of Legends**'
 --------------------------------------------------------------------------------
