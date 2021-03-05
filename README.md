@@ -5,8 +5,8 @@ This add-on is a multiplayer era featuring my favourite factions.
 It is required as a dependency to play the following campaigns:
 ## War of Legends Campaigns
 ### By [knyghtmare](https://github.com/knyghtmare)
-     1. [The Legend Begins](https://github.com/knyghtmare/The_Legend_Begins)
-     2. [Hero of Irdya Book I](https://forums.wesnoth.org/viewtopic.php?f=8&t=43290)
+1. [The Legend Begins](https://github.com/knyghtmare/The_Legend_Begins)
+2. [Hero of Irdya Book I](https://forums.wesnoth.org/viewtopic.php?f=8&t=43290)
 |             | [Sepulchre of Elran](https://forums.wesnoth.org/viewtopic.php?f=8&t=44860) |
 |             | Frigid Nightmares |
 |             | Hero of Irdya Book II |
