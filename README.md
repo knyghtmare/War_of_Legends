@@ -8,10 +8,11 @@ It is required as a dependency to play the following campaigns:
 1. [The Legend Begins](https://github.com/knyghtmare/The_Legend_Begins)
 2. [Hero of Irdya Book I](https://forums.wesnoth.org/viewtopic.php?f=8&t=43290)
 3. [Sepulchre of Elran](https://forums.wesnoth.org/viewtopic.php?f=8&t=44860)
-4. Frigid Nightmares (might happen?)
-5. Hero of Irdya Book II (unconfirmed)
-6. Hero of Irdya Book III (unconfirmed)
-7. [Assault on the Citadel](https://github.com/knyghtmare/Assault_on_the_Citadel) 
+4. [Assault on the Citadel](https://github.com/knyghtmare/Assault_on_the_Citadel)
+#### Unconfirmed:
+1. Frigid Nightmares (might happen?)
+2. Hero of Irdya Book II (unconfirmed)
+3. Hero of Irdya Book III (unconfirmed)
 
 ### By [revansurik](https://github.com/revansurik):
 1. [A Song of the Wind](https://forums.wesnoth.org/viewtopic.php?p=662430#p662430)
