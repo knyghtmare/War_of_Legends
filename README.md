@@ -3,24 +3,27 @@
 The War of Legends is an add-on for the [Battle for Wesnoth](https://www.wesnoth.org), a turn-based strategy game.
 This add-on is a multiplayer era featuring my favourite factions.
 It is required as a dependency to play the following campaigns:
-## War of Legends Campaigns
-### By [knyghtmare](https://github.com/knyghtmare)
+## War of Legends Campaign List:
+### By [knyghtmare](https://github.com/knyghtmare):
 1. [The Legend Begins](https://github.com/knyghtmare/The_Legend_Begins)
 2. [Hero of Irdya Book I](https://forums.wesnoth.org/viewtopic.php?f=8&t=43290)
-|             | [Sepulchre of Elran](https://forums.wesnoth.org/viewtopic.php?f=8&t=44860) |
-|             | Frigid Nightmares |
-|             | Hero of Irdya Book II |
-|             | Hero of Irdya Book III |
-|             | [Assault on the Citadel](https://github.com/knyghtmare/Assault_on_the_Citadel) |
-|             |                    |
-| [revansurik](https://github.com/revansurik)  | [A Song of the Wind](https://forums.wesnoth.org/viewtopic.php?p=662430#p662430) |
-|             | [A Song of Fire](https://forums.wesnoth.org/viewtopic.php?f=8&t=38210) |
-|             | [War of the Jewel](https://forums.wesnoth.org/viewtopic.php?f=8&t=39618) |
-|             | [Aria of the Dragon Slayer](https://forums.wesnoth.org/viewtopic.php?f=8&t=40389) |
-|             |                 |
-| [Ihybrideur](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=185844)  | [Legends of Idaamub](https://forums.wesnoth.org/viewtopic.php?p=644433#p644433) |
-|             |                 |
-| [James_the_Invisible](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=132573) | [Saga of James](https://github.com/irdyansages/Saga_of_James) |
+3. [Sepulchre of Elran](https://forums.wesnoth.org/viewtopic.php?f=8&t=44860)
+4. Frigid Nightmares (might happen?)
+5. Hero of Irdya Book II (unconfirmed)
+6. Hero of Irdya Book III (unconfirmed)
+7. [Assault on the Citadel](https://github.com/knyghtmare/Assault_on_the_Citadel) 
+
+### By [revansurik](https://github.com/revansurik):
+1. [A Song of the Wind](https://forums.wesnoth.org/viewtopic.php?p=662430#p662430)
+2. [A Song of Fire](https://forums.wesnoth.org/viewtopic.php?f=8&t=38210)
+3. [War of the Jewel](https://forums.wesnoth.org/viewtopic.php?f=8&t=39618)
+4. [Aria of the Dragon Slayer](https://forums.wesnoth.org/viewtopic.php?f=8&t=40389)
+
+### By [Ihybrideur](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=185844):
+1. [Legends of Idaamub](https://forums.wesnoth.org/viewtopic.php?p=644433#p644433)
+
+### By [James_the_Invisible](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=132573):
+1. [Saga of James](https://github.com/irdyansages/Saga_of_James) (WIP)
 
 ## Installing '**War of Legends**'
 --------------------------------------------------------------------------------
