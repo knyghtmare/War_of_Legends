@@ -6,22 +6,22 @@ It is required as a dependency to play the following campaigns:
 
 | Author Name | Campaign/Scenario/Add-on |
 | ----------- | --------------- |
-| knyghtmare  | [The Legend Begins](https://github.com/knyghtmare/The_Legend_Begins) |
+| [knyghtmare](https://github.com/knyghtmare)  | [The Legend Begins](https://github.com/knyghtmare/The_Legend_Begins) |
 |             | [Hero of Irdya Book I](https://forums.wesnoth.org/viewtopic.php?f=8&t=43290) |
 |             | [Sepulchre of Elran](https://forums.wesnoth.org/viewtopic.php?f=8&t=44860) |
 |             | Frigid Nightmares |
-|             | Hero of Irdya Book II (coming soon) |
-|             | Hero of Irdya Book III (coming soon-ish maybe?) |
+|             | Hero of Irdya Book II |
+|             | Hero of Irdya Book III |
 |             | [Assault on the Citadel](https://github.com/knyghtmare/Assault_on_the_Citadel) |
-| ----------- | --------------- |
-| revansurik  | [A Song of the Wind](https://forums.wesnoth.org/viewtopic.php?p=662430#p662430) |
+|             |                    |
+| [revansurik](https://github.com/revansurik)  | [A Song of the Wind](https://forums.wesnoth.org/viewtopic.php?p=662430#p662430) |
 |             | [A Song of Fire](https://forums.wesnoth.org/viewtopic.php?f=8&t=38210) |
 |             | [War of the Jewel](https://forums.wesnoth.org/viewtopic.php?f=8&t=39618) |
 |             | [Aria of the Dragon Slayer](https://forums.wesnoth.org/viewtopic.php?f=8&t=40389) |
-| ----------- | --------------- |
-| Ihybrideur  | [Legends of Idaamub](https://forums.wesnoth.org/viewtopic.php?p=644433#p644433) |
-| ----------- | --------------- |
-| James_the_Invisible | [Saga of James](https://github.com/irdyansages/Saga_of_James) |
+|             |                 |
+| [Ihybrideur](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=185844)  | [Legends of Idaamub](https://forums.wesnoth.org/viewtopic.php?p=644433#p644433) |
+|             |                 |
+| [James_the_Invisible](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=132573) | [Saga of James](https://github.com/irdyansages/Saga_of_James) |
 
 ## Installing '**War of Legends**'
 --------------------------------------------------------------------------------
