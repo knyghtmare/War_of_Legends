@@ -20,6 +20,8 @@ version v1.2.6.4:
    --> Prophetess-line: ranged attack is now energy attack type
 --> Aragwaithi:
    --> most units (except the Scout tree) now have 60% def on forest 
+   --> Aragwaith Guard tree: lawful -> neutral
+   --> Aragwaith Shield Guard: +1 dmg, +10% to most resists
    --> Fixed animation glitches
    --> unit description updates by revansurik
       --> Spearman
@@ -44,6 +46,8 @@ version v1.2.6.4:
    --> Naga Hunter line: 
       --> Naga Hunter: +3 ranged damage
       --> Naga Assassin: +4 ranged damage
+--> Dwarves:
+   --> Gryphon Thunderlord: changed ranged from fire to electric
 --> Abilities and Specials:
    --> Fix for Dauntless not applying the effects for new damage types
    --> Fix for protection not applying +20% to all damage types
