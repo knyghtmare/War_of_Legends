@@ -10,7 +10,7 @@ It is required as a dependency to play the following campaigns:
 3. [Sepulchre of Elran](https://forums.wesnoth.org/viewtopic.php?f=8&t=44860)
 4. [Assault on the Citadel](https://github.com/knyghtmare/Assault_on_the_Citadel)
 5. #### Unconfirmed:
-   1. Frigid Nightmares (might happen?)
+   1. Frigid Nightmares (unconfirmed)
    2. Hero of Irdya Book II (unconfirmed)
    3. Hero of Irdya Book III (unconfirmed)
 
