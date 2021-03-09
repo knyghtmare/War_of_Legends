@@ -76,7 +76,11 @@ Under the Burning Suns
 
 ---> Quenoth Elves, weapon specials and abilities
 
-Kwandulin
+Kwandulin (Heroes add-on)
 
 ---> Axethrower-line
 ---> Shadowback
+
+megane
+
+---> Windsong
