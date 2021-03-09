@@ -20,6 +20,9 @@ It is required as a dependency to play the following campaigns:
 3. [War of the Jewel](https://forums.wesnoth.org/viewtopic.php?f=8&t=39618)
 4. [Aria of the Dragon Slayer](https://forums.wesnoth.org/viewtopic.php?f=8&t=40389)
 
+### By [scio-nullus](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=183306)
+1. [Mercenary Band](https://forums.wesnoth.org/viewtopic.php?t=49866)
+
 ### By [Ihybrideur](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=185844):
 1. [Legends of Idaamub](https://forums.wesnoth.org/viewtopic.php?p=644433#p644433)
 
