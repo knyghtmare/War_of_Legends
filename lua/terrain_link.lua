@@ -15,7 +15,9 @@ local T = wml.tag
 function wesnoth.wml_actions.activate_terrain_link(cfg)
     local terrain_link_units = wesnoth.get_units(cfg)
     for _,u in pairs(terrain_link_units) do
-        local current_terrain = wesnoth.get_terrain("$unit.x", "$unit.y")
-        wesnoth.message(Debug: , current_terrain)
+        local x_loc = wesnoth.get_variable("$unit.$x1")
+        local y_loc = wesnoth.get_variable("$unit.$y1")
+        local current_terrain = wesnoth.get_terrain(x_loc, y_loc)
+        wesnoth.message("Jahin", current_terrain)
     end
 end
