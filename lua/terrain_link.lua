@@ -9,14 +9,15 @@
 -- Frost - Snow/Ice
 -- Whirlpool - Water/Deepwater/Fords
 -- Swamp-whirlpool - Swampwater/Quagmire
+
 helper = wesnoth.require "lua/helper.lua"
 local T = wml.tag
 
 function wesnoth.wml_actions.activate_terrain_link(cfg)
-    local terrain_link_units = wesnoth.get_units(cfg)
-    for _,u in pairs(terrain_link_units) do
-        local x_loc = wesnoth.get_variable("$unit.x")
-        local y_loc = wesnoth.get_variable("$unit.y")
+    local units = wesnoth.get_units(cfg)
+    for _,u in pairs(units) do
+        local x_loc = 16 --wesnoth.get_variable("$x1")
+        local y_loc = 10 --wesnoth.get_variable("$y1")
         local current_terrain = wesnoth.get_terrain(x_loc, y_loc)
         wesnoth.message("Jahin", current_terrain)
     end
