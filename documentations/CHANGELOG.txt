@@ -12,6 +12,9 @@ version v1.2.6.4:
    --> vampires have been made immune to the jinx weapon special
       --> They are a subrace of undead so the jinx special should
           not have any effect on them
+--> Minotaurs:
+   --> racial ability: -recovery, +regenerates
+   --> Behemoth: +feeding
 --> Windsong: 
    --> fixed animation glitches for:
       --> Librarian
