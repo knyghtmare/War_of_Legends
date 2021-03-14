@@ -15,6 +15,9 @@ version v1.2.6.4:
 --> Minotaurs:
    --> racial ability: -recovery, +regenerates
    --> Behemoth: +feeding
+   --> Rouser and Overlord: secondary shield attack
+      --> this is defend only
+   --> Boar Rider: the charge attack is now attack only
 --> Windsong: 
    --> fixed animation glitches for:
       --> Librarian
