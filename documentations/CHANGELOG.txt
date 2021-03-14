@@ -18,6 +18,7 @@ version v1.2.6.4:
    --> Rouser and Overlord: secondary shield attack
       --> this is defend only
    --> Boar Rider: the charge attack is now attack only
+   --> slightly reduced costs of some units
 --> Windsong: 
    --> fixed animation glitches for:
       --> Librarian
