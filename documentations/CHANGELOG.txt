@@ -19,6 +19,7 @@ version v1.2.6.4:
       --> this is defend only
    --> Boar Rider: the charge attack is now attack only
    --> slightly reduced costs of some units
+   --> Minotaur Mystic: +12 Minotaur-only heals ability
 --> Windsong: 
    --> fixed animation glitches for:
       --> Librarian
