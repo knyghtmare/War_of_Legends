@@ -25,6 +25,8 @@ version v1.2.6.4:
       --> Prophetess
       --> Ascendant
    --> Prophetess-line: ranged attack is now energy attack type
+--> Loyalists:
+   --> Adept of Light: +4 cost
 --> Aragwaithi:
    --> most units (except the Scout tree) now have 60% def on forest 
    --> Aragwaith Guard tree: lawful -> neutral
