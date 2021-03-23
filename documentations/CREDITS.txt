@@ -84,3 +84,6 @@ Kwandulin (Heroes add-on)
 megane
 
 ---> Windsong
+
+A Whim of Fate:
+---> Elder Gryphon
