@@ -26,6 +26,7 @@ version v1.2.6.4:
       --> Prophetess
       --> Ascendant
    --> Prophetess-line: ranged attack is now energy attack type
+   --> Fixed resistances for the Seeker-line
 --> Loyalists:
    --> Adept of Light: +2 cost
 --> Aragwaithi:
@@ -56,6 +57,9 @@ version v1.2.6.4:
    --> Naga Hunter line: 
       --> Naga Hunter: +3 ranged damage
       --> Naga Assassin: +4 ranged damage
+--> Quenoth:
+   --> Quenoth Mystic: gave a secondary ranged attack, +2 cost
+      --> arcane ranged (for balancing purposes)
 --> Dwarves:
    --> Gryphon Thunderlord: changed ranged from fire to electric
 --> Abilities and Specials:
