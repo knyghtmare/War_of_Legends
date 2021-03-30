@@ -61,6 +61,9 @@ version v1.2.6.4:
 --> Quenoth:
    --> Quenoth Mystic: gave a secondary ranged attack, +2 cost
       --> arcane ranged (for balancing purposes)
+   --> buffed most of the units of this faction since the ones
+       in UtBS were shamefully weak by design. I was shocked when 
+       when I saw the nerfed down stats.
 --> Dwarves:
    --> Gryphon Thunderlord: changed ranged from fire to electric
 --> Abilities and Specials:
