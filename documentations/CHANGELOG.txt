@@ -21,6 +21,7 @@ version v1.2.6.4:
    --> Boar Knight: +1 melee damage
    --> slightly reduced costs of some units
    --> Minotaur Mystic: +12 Minotaur-only heals ability
+   --> New Centaur Warden-line added to recruit list
 --> Windsong: 
    --> fixed animation glitches for:
       --> Librarian
@@ -71,6 +72,7 @@ version v1.2.6.4:
    --> Fix for protection not applying +20% to all damage types
 --> Add-on:
    --> .pot file has finally been generated
+   --> silenced all deprecation errors
 
 
 version v1.2.6.3:
