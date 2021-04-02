@@ -35,6 +35,10 @@ version v1.2.6.4:
    --> most units (except the Scout tree) now have 60% def on forest 
    --> Aragwaith Guard tree: lawful -> neutral
    --> Aragwaith Shield Guard: +1 dmg, +10% to most resists
+   --> Aragwaith Archer: +2 HP
+   --> Aragwaith Adept: +2 HP, -4 XP
+   --> Aragwaith Enchantress: +3 HP, -32 XP (this was unreasonably too high)
+   --> Aragwaith Sorceress: +4 HP
    --> Fixed animation glitches
    --> unit description updates by revansurik
       --> Spearman
