@@ -68,7 +68,7 @@ Era of Chaos development team
 ---> Naga Warden
 ---> Naga Sentinel
 
-gooby
+gooby, revansurik
 
 ---> Unit description updates.
 
