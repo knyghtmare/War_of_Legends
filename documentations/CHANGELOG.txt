@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.6.4
+Change-Log v1.2.6.5
+
+version v1.2.6.5:
+--> Orcs:
+   --> Faction name changed
 
 version v1.2.6.4:
 --> Vampires:
