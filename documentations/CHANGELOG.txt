@@ -4,6 +4,9 @@ Change-Log v1.2.6.5
 version v1.2.6.5:
 --> Orcs:
    --> Faction name changed
+--> Dragons:
+   --> Wyrm: elevated to true level 5 stats
+   --> Dragon Lord: made into a true level 5
 
 version v1.2.6.4:
 --> Vampires:
