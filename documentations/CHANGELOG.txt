@@ -5,6 +5,9 @@ version v1.2.6.5:
 --> Orcs:
    --> Faction name changed
 --> Dragons:
+   --> Note: the current stats on the level 5 units of
+       mainline are "nerfed". Thus, I have made my own dragon
+       types to show people what stats a level 5 "Dragon" should have
    --> Wyrm: elevated to true level 5 stats
    --> Dragon Lord: made into a true level 5
 
