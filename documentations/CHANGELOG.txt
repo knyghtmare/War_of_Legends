@@ -10,6 +10,9 @@ version v1.2.6.5:
        types to show people what stats a level 5 "Dragon" should have
    --> Wyrm: elevated to true level 5 stats
    --> Dragon Lord: made into a true level 5
+--> Outlaws:
+   --> Fixed Huntress animation glitch
+
 
 version v1.2.6.4:
 --> Vampires:
