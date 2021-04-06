@@ -12,6 +12,8 @@ version v1.2.6.5:
    --> Dragon Lord: made into a true level 5
 --> Outlaws:
    --> Fixed Huntress animation glitch
+--> Undead:
+   --> "Initiate" ID changed to "Necro Initiate"
 
 
 version v1.2.6.4:
