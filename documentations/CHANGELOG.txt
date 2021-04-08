@@ -14,6 +14,8 @@ version v1.2.6.5:
    --> Fixed Huntress animation glitch
 --> Undead:
    --> "Initiate" ID changed to "Necro Initiate"
+--> Add-on:
+   --> Updated the last remaining bits of deprecated WML code
 
 
 version v1.2.6.4:
