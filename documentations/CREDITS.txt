@@ -38,7 +38,7 @@ Iris/shadowm/shikadiqueen (Invasion from the Unknown / After the Storm)
 
 (The Dark Hordes)
 
----> Initiate
+---> Shadow Initiate
 ---> Deathmaster
 ---> Demilich
 ---> Dread Lich
@@ -76,9 +76,10 @@ Under the Burning Suns
 
 ---> Quenoth Elves, weapon specials and abilities
 
-Kwandulin (Heroes add-on)
-
+ghype
 ---> Axethrower-line
+
+Kwandulin (Heroes add-on)
 ---> Shadowback
 
 megane
