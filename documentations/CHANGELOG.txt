@@ -16,6 +16,12 @@ version v1.2.6.5:
    --> "Initiate" ID changed to "Necro Initiate"
 --> Add-on:
    --> Updated the last remaining bits of deprecated WML code
+--> Drakes:
+   --> Fixed animation glitch in Drake Adventurer-line
+--> Elementals:
+   --> Fire Ghost: removed
+   --> Fire Wisp nerfed to level 0 stats and advances to Fire Guardian
+   --> More changes in preparation to the PR 5532
 
 
 version v1.2.6.4:
