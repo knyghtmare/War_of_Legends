@@ -24,7 +24,7 @@ version v1.2.6.5:
    --> Fire Wisp nerfed to level 0 stats and advances to Fire Guardian
    --> More changes in preparation to the PR 5532
 --> Windsong:
-   --> "balancing" changes
+   --> "balancing" changes to Prophetess-line
 
 
 version v1.2.6.4:
