@@ -11,7 +11,7 @@ _War of Legends_ is set on the fantasy world of Irdya and follows the _Dark Irdy
 
 ## Bug Reports
 
-Please report any bugs here on GitHub (preferred) or on the forums.
+Please report any bugs here on GitHub or on the forums (preferred).
 
 ### Bugs in User-Made Content
 
