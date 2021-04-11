@@ -4,6 +4,9 @@ Change-Log v1.2.6.5
 version v1.2.6.5:
 --> Orcs:
    --> Faction name changed
+   --> Orcish Raider: ID -> Orcish Marauder
+   --> Orcish Terror: ID -> Orcish Subjugator
+   (This was done to resolve the compatibility with Archaic Era)
 --> Dragons:
    --> Note: the current stats on the level 5 units of
        mainline are "nerfed". Thus, I have made my own dragon
