@@ -2,6 +2,10 @@ War of Legends
 Change-Log v1.2.6.5
 
 version v1.2.6.5:
+--> Campaigns:
+   --> removed Wose Sapling and Wose Shaman
+       (they are not in the core directory of mainline)
+   --> Finally did this thanks to Hejnewar buffing the Wose Shaman
 --> Orcs:
    --> Faction name changed
    --> Orcish Raider: ID -> Orcish Marauder
@@ -26,6 +30,8 @@ version v1.2.6.5:
    --> Djinn: new ID: Mistral (Old ID is still usable)
    --> Fire Wisp nerfed to level 0 stats and advances to Fire Guardian
    --> More changes in preparation to the PR 5532
+   --> I kept the remaining IDs the same but when the PR gets greenlit,
+       the entire elementals folder will be removed
 --> Windsong:
    --> "balancing" changes to Prophetess-line
 
