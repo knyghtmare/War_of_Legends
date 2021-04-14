@@ -2,7 +2,8 @@ War of Legends
 Change-Log v1.2.6.5
 
 version 1.2.6.6:
---> 
+--> Eras:
+   --> Fixed a bug with incorrect ID
 
 version v1.2.6.5:
 --> Campaigns:
