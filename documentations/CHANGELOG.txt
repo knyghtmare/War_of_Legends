@@ -3,7 +3,9 @@ Change-Log v1.2.6.5
 
 version 1.2.6.6:
 --> Eras:
-   --> Fixed a bug with incorrect ID
+   --> Fixed a bug with incorrect ID in the advancement paths
+--> Desert Elves:
+   --> directory and ID changes
 
 version v1.2.6.5:
 --> Campaigns:
