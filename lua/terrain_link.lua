@@ -16,7 +16,7 @@ local T = wml.tag
 local on_event = wesnoth.require("on_event")
 
 function wesnoth.wml_actions.activate_terrain_link(cfg)
-    local units = wesnoth.get_units(cfg)
+    local units = wesnoth.units.find_on_map(cfg)
     for _,u in pairs(units) do
         local x_loc = 16 --wesnoth.get_variable("$x1")
         local y_loc = 10 --wesnoth.get_variable("$y1")

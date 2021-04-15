@@ -17,7 +17,7 @@ function wesnoth.wml_actions.WOL_add_curse(cfg)
 		return sign(defense)*(abs(defense)+def_redu)
 	end
 	
-	local units = wesnoth.get_units(cfg)
+	local units = wesnoth.units.find_on_map(cfg)
 	for _,u in pairs(units) do
 		local def = wml.get_child(u.__cfg, "defense")
 		
@@ -55,7 +55,7 @@ function wesnoth.wml_actions.WOL_add_curse(cfg)
 end
 
 function wesnoth.wml_actions.WOL_remove_curse(cfg)
-	local units = wesnoth.get_units(cfg)
+	local units = wesnoth.units.find_on_map(cfg)
 	for i,u in ipairs(units) do
 		u:remove_modifications({id="WOL_curse_object"})
 		wesnoth.wml_actions.remove_unit_overlay{id=u.id, image="misc/curse.png"}
