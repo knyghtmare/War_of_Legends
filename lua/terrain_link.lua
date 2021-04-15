@@ -97,7 +97,7 @@ on_event("new turn", function()
                 id="WOL_terrain_link_base",
                 T.effect{
                     apply_to = "variation",
-                    name = "none"
+                    name = "tornado"
                 }
             })
         end
