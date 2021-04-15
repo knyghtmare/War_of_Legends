@@ -137,9 +137,9 @@ end
 result = {}
 
 function jinx:jinx_evaluation()
-    local attackers = wesnoth.get_units({lua_function="jinx_special_select"})
+    local attackers = wesnoth.units.find_on_map({lua_function="jinx_special_select"})
     if attackers == nil then return 0 end
-    local defenders = wesnoth.get_units({lua_function="jinx_target_select"})
+    local defenders = wesnoth.units.find_on_map({lua_function="jinx_target_select"})
     if defenders == nil then return 0 end
     local result = {}
     for a, me in ipairs(attackers) do
@@ -199,8 +199,8 @@ function jinx:jinx_execution(cfg)
 end
 
 function jinx:curse_evaluation()
-    local cursed = wesnoth.get_units({lua_function="curse_status_select"})
-    local curers = wesnoth.get_units({lua_function="curing_units_select"})
+    local cursed = wesnoth.units.find_on_map({lua_function="curse_status_select"})
+    local curers = wesnoth.units.find_on_map({lua_function="curing_units_select"})
     if cursed == nil then return -1,{} end
     local result = {}
     for a, me in ipairs(cursed) do
