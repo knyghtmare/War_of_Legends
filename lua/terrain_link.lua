@@ -15,6 +15,7 @@ local _ = wesnoth.textdomain 'wesnoth-War_of_Legends'
 local T = wml.tag
 local on_event = wesnoth.require("on_event")
 
+--[[
 function wesnoth.wml_actions.activate_terrain_link(cfg)
     local units = wesnoth.units.find_on_map(cfg)
     for _,u in pairs(units) do
@@ -24,6 +25,7 @@ function wesnoth.wml_actions.activate_terrain_link(cfg)
         wesnoth.message("Jahin", current_terrain)
     end
 end
+]]
 
 on_event("new turn", function()
     -- filter for unit with terrain link
