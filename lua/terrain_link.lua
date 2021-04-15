@@ -29,13 +29,13 @@ end
 
 on_event("new turn", function()
     -- filter for unit with terrain link
-    local terrain_linked_units = wesnoth.units.get { ability = "WOL_terrain_link", side = wesnoth.current.side }
+    local terrain_linked_units = wesnoth.units.find_on_map { ability = "WOL_terrain_link", side = wesnoth.current.side }
 
     -- set up a for loop
     for i, terrain_linked_unit in ipairs(terrain_linked_units) do
         -- take the x and y coordinates of the unit
-        local x_var = wml.variables["$x1"]
-        local y_var = wml.variables["$y1"]
+        local x_var = terrain_linked_unit.x
+        local y_var = terrain_linked_unit.y
         -- check for the terrain
         if wesnoth.map.matches(x_var, y_var, { terrain = "A*^*,Ha*^*,Ms*^*" }) then
             -- if true, then change variation to appropriate type
@@ -91,8 +91,8 @@ on_event("new turn", function()
                     name = "bramble"
                 }
             })
-        elseif wesnoth.map.matches(x_var, y_var, { terrain = "G*,C*,K*,V*" }) then
-            -- if true, then change variation to appropriate type
+        else
+            -- for everything else, the base variation
             terrain_linked_unit:add_modification("object", {
                 id="WOL_terrain_link_base",
                 T.effect{
@@ -100,8 +100,6 @@ on_event("new turn", function()
                     name = "none"
                 }
             })
-        else
-            wesnoth.message("This does not work")
         end
     end
 end)
