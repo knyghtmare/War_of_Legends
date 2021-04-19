@@ -6,6 +6,9 @@ version 1.2.6.6:
    --> Fixed a bug with incorrect ID in the advancement paths
 --> Desert Elves:
    --> directory and ID changes
+--> Nightmares:
+   --> Fixed bug with Nature Wrath
+   
 
 version v1.2.6.5:
 --> Campaigns:
