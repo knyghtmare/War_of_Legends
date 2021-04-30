@@ -1814,25 +1814,25 @@ msgstr ""
 
 #. [unit_type]: id=Southern Archer, race=southern elf
 #. [unit_type]: id=Aragwaith Archer, race=aragwaith
-#: War_of_Legends/units/elves-south/Archer.cfg:5
+#: War_of_Legends/units/elves-desert/Archer.cfg:5
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Archer.cfg:5
 msgid "Archer"
 msgstr ""
 
 #. [unit_type]: id=Southern Archer, race=southern elf
-#: War_of_Legends/units/elves-south/Archer.cfg:20
+#: War_of_Legends/units/elves-desert/Archer.cfg:20
 msgid "Archers of the Southern Elves are trained from youth in archery, and so skilled in long-range combat. Though their bows are cruder and their arrows less plentiful than their elvish ancestors, they fight with ferocity that does credit to their race."
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/elves-south/Archer.cfg:24
-#: War_of_Legends/units/elves-south/Champion.cfg:28
-#: War_of_Legends/units/elves-south/Guard.cfg:42
-#: War_of_Legends/units/elves-south/Hunter.cfg:30
-#: War_of_Legends/units/elves-south/Marksman.cfg:25
-#: War_of_Legends/units/elves-south/Protector.cfg:44
-#: War_of_Legends/units/elves-south/Sharpshooter.cfg:26
-#: War_of_Legends/units/elves-south/Warrior.cfg:26
+#: War_of_Legends/units/elves-desert/Archer.cfg:24
+#: War_of_Legends/units/elves-desert/Champion.cfg:28
+#: War_of_Legends/units/elves-desert/Guard.cfg:42
+#: War_of_Legends/units/elves-desert/Hunter.cfg:30
+#: War_of_Legends/units/elves-desert/Marksman.cfg:25
+#: War_of_Legends/units/elves-desert/Protector.cfg:44
+#: War_of_Legends/units/elves-desert/Sharpshooter.cfg:26
+#: War_of_Legends/units/elves-desert/Warrior.cfg:26
 #: War_of_Legends/units/elves-wood/Noble.cfg:30
 #: War_of_Legends/units/elves-wood/Prowler.cfg:45
 #: War_of_Legends/units/elves-wood/Trapper.cfg:40
@@ -1870,7 +1870,7 @@ msgid "sword"
 msgstr ""
 
 #. [attack]: type=pierce
-#: War_of_Legends/units/elves-south/Archer.cfg:33
+#: War_of_Legends/units/elves-desert/Archer.cfg:33
 #: War_of_Legends/units/elves-wood/Wayfarer.cfg:61
 #: War_of_Legends/units/gnolls/Deadeye.cfg:39
 #: War_of_Legends/units/gnolls/Marksman.cfg:37
@@ -1895,38 +1895,38 @@ msgid "bow"
 msgstr ""
 
 #. [female]
-#: War_of_Legends/units/elves-south/Archer.cfg:145
+#: War_of_Legends/units/elves-desert/Archer.cfg:145
 msgid "female^Archer"
 msgstr ""
 
 #. [unit_type]: id=Southern Captain, race=southern elf
 #. [unit_type]: id=Aragwaith Captain, race=aragwaith
-#: War_of_Legends/units/elves-south/Captain.cfg:5
+#: War_of_Legends/units/elves-desert/Captain.cfg:5
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Captain.cfg:5
 msgid "Captain"
 msgstr ""
 
 #. [unit_type]: id=Southern Captain, race=southern elf
 #. [unit_type]: id=Southern Chieftain, race=southern elf
-#: War_of_Legends/units/elves-south/Captain.cfg:30
-#: War_of_Legends/units/elves-south/Chieftain.cfg:30
+#: War_of_Legends/units/elves-desert/Captain.cfg:30
+#: War_of_Legends/units/elves-desert/Chieftain.cfg:30
 msgid "Description needed."
 msgstr ""
 
 #. [unit_type]: id=Southern Champion, race=southern elf
-#: War_of_Legends/units/elves-south/Champion.cfg:4
+#: War_of_Legends/units/elves-desert/Champion.cfg:4
 msgid "Champion"
 msgstr ""
 
 #. [unit_type]: id=Southern Champion, race=southern elf
-#: War_of_Legends/units/elves-south/Champion.cfg:22
+#: War_of_Legends/units/elves-desert/Champion.cfg:22
 msgid "The Champions are avoided by most foes due to their superb swordsmanship. Capable of inflicting grievous wounds, the Champions fight best at twilight hours."
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/elves-south/Champion.cfg:37
-#: War_of_Legends/units/elves-south/Hunter.cfg:39
-#: War_of_Legends/units/elves-south/Warrior.cfg:35
+#: War_of_Legends/units/elves-desert/Champion.cfg:37
+#: War_of_Legends/units/elves-desert/Hunter.cfg:39
+#: War_of_Legends/units/elves-desert/Warrior.cfg:35
 #: War_of_Legends/units/elves-wood/Prowler.cfg:54
 #: War_of_Legends/units/elves-wood/Trapper.cfg:49
 #: War_of_Legends/units/elves-wood/Wayfarer.cfg:50
@@ -1934,25 +1934,25 @@ msgid "bolas"
 msgstr ""
 
 #. [unit_type]: id=Southern Chieftain, race=southern elf
-#: War_of_Legends/units/elves-south/Chieftain.cfg:5
+#: War_of_Legends/units/elves-desert/Chieftain.cfg:5
 msgid "Chieftain"
 msgstr ""
 
 #. [unit_type]: id=Empyrean Druid, race=southern elf
-#: War_of_Legends/units/elves-south/Empyrean_Druid.cfg:4
+#: War_of_Legends/units/elves-desert/Empyrean_Druid.cfg:4
 msgid "female^Empyrean Druid"
 msgstr ""
 
 #. [unit_type]: id=Empyrean Druid, race=southern elf
-#: War_of_Legends/units/elves-south/Empyrean_Druid.cfg:22
+#: War_of_Legends/units/elves-desert/Empyrean_Druid.cfg:22
 msgid "Initiation into the Circle of Druids is a difficult task, requiring a hard set of challenges. Mystics, who have managed to join this circle, are taught the arts of healing and arcane magic spells."
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/elves-south/Empyrean_Druid.cfg:31
-#: War_of_Legends/units/elves-south/Mystic.cfg:30
-#: War_of_Legends/units/elves-south/Sun_Priestess.cfg:24
-#: War_of_Legends/units/elves-south/Sun_Sorceress.cfg:25
+#: War_of_Legends/units/elves-desert/Empyrean_Druid.cfg:31
+#: War_of_Legends/units/elves-desert/Mystic.cfg:30
+#: War_of_Legends/units/elves-desert/Sun_Priestess.cfg:24
+#: War_of_Legends/units/elves-desert/Sun_Sorceress.cfg:25
 #: War_of_Legends/units/elves-wood/Acolyte.cfg:42
 #: War_of_Legends/units/elves-wood/Ascetic.cfg:45
 #: War_of_Legends/units/elves-wood/Mystic.cfg:44
@@ -1986,71 +1986,71 @@ msgid "staff"
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/elves-south/Empyrean_Druid.cfg:42
-#: War_of_Legends/units/elves-south/Mystic.cfg:40
+#: War_of_Legends/units/elves-desert/Empyrean_Druid.cfg:42
+#: War_of_Legends/units/elves-desert/Mystic.cfg:40
 #: War_of_Legends/units/human-mages/Mage_Adept_of_Light.cfg:108
 msgid "aura blast"
 msgstr ""
 
 #. [unit_type]: id=Southern Guard, race=southern elf
 #. [unit_type]: id=Aragwaith Guard, race=aragwaith
-#: War_of_Legends/units/elves-south/Guard.cfg:5
+#: War_of_Legends/units/elves-desert/Guard.cfg:5
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Guard.cfg:5
 msgid "Guard"
 msgstr ""
 
 #. [unit_type]: id=Southern Guard, race=southern elf
-#: War_of_Legends/units/elves-south/Guard.cfg:36
+#: War_of_Legends/units/elves-desert/Guard.cfg:36
 msgid "Guards form the main defense forces of the Southern Elves. Equipped with a sword, shield, and reinforced leather armor, these elves are a challenge to any foe."
 msgstr ""
 
 #. [unit_type]: id=Southern Hunter, race=southern elf
-#: War_of_Legends/units/elves-south/Hunter.cfg:5
+#: War_of_Legends/units/elves-desert/Hunter.cfg:5
 msgid "Hunter"
 msgstr ""
 
 #. [unit_type]: id=Southern Hunter, race=southern elf
-#: War_of_Legends/units/elves-south/Hunter.cfg:22
+#: War_of_Legends/units/elves-desert/Hunter.cfg:22
 msgid "Hunters form the main melee forces of the South Elven military. Armed with swords and bolas, these fighters are more than a match for anything, if they are on their home terrain of the deserts, that is."
 msgstr ""
 
 #. [unit_type]: id=Southern Marksman, race=southern elf
 #. [unit_type]: id=Gnoll Marksman, race=gnoll
-#: War_of_Legends/units/elves-south/Marksman.cfg:4
+#: War_of_Legends/units/elves-desert/Marksman.cfg:4
 #: War_of_Legends/units/gnolls/Marksman.cfg:5
 msgid "Marksman"
 msgstr ""
 
 #. [unit_type]: id=Southern Marksman, race=southern elf
-#: War_of_Legends/units/elves-south/Marksman.cfg:19
+#: War_of_Legends/units/elves-desert/Marksman.cfg:19
 msgid "South Elven Marksman are expert in use of the bow. Though their bows and arrows are not as fine as those of their ancestors, they continue to hone their skill. This great skill with the bow compensates for their lack of skill in melee combat."
 msgstr ""
 
 #. [attack]: type=pierce
-#: War_of_Legends/units/elves-south/Marksman.cfg:34
-#: War_of_Legends/units/elves-south/Sharpshooter.cfg:36
+#: War_of_Legends/units/elves-desert/Marksman.cfg:34
+#: War_of_Legends/units/elves-desert/Sharpshooter.cfg:36
 msgid "longbow"
 msgstr ""
 
 #. [female]
-#: War_of_Legends/units/elves-south/Marksman.cfg:171
+#: War_of_Legends/units/elves-desert/Marksman.cfg:171
 msgid "female^Marksman"
 msgstr ""
 
 #. [unit_type]: id=Moon Cleric, race=southern elf
-#: War_of_Legends/units/elves-south/Moon_Cleric.cfg:5
+#: War_of_Legends/units/elves-desert/Moon_Cleric.cfg:5
 msgid "female^Moon Cleric"
 msgstr ""
 
 #. [unit_type]: id=Moon Cleric, race=southern elf
-#: War_of_Legends/units/elves-south/Moon_Cleric.cfg:20
+#: War_of_Legends/units/elves-desert/Moon_Cleric.cfg:20
 msgid "As a mystic matures, she is offered a choice - to follow the Sun or the Moon. The followers of the moon have access to ice magic and the ability to stop venom from wounding their allies."
 msgstr ""
 
 #. [attack]: type=blade
 #. [attack]: type=pierce
-#: War_of_Legends/units/elves-south/Moon_Cleric.cfg:26
-#: War_of_Legends/units/elves-south/Moon_Enchantress.cfg:27
+#: War_of_Legends/units/elves-desert/Moon_Cleric.cfg:26
+#: War_of_Legends/units/elves-desert/Moon_Enchantress.cfg:27
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Flagbearer.cfg:36
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Slayer.cfg:27
 #: War_of_Legends/units/human-loyalists/Loyalist_Custodian.cfg:29
@@ -2061,69 +2061,69 @@ msgid "glaive"
 msgstr ""
 
 #. [attack]: type=cold
-#: War_of_Legends/units/elves-south/Moon_Cleric.cfg:34
-#: War_of_Legends/units/elves-south/Moon_Enchantress.cfg:35
+#: War_of_Legends/units/elves-desert/Moon_Cleric.cfg:34
+#: War_of_Legends/units/elves-desert/Moon_Enchantress.cfg:35
 msgid "iceball"
 msgstr ""
 
 #. [unit_type]: id=Moon Enchantress, race=southern elf
-#: War_of_Legends/units/elves-south/Moon_Enchantress.cfg:5
+#: War_of_Legends/units/elves-desert/Moon_Enchantress.cfg:5
 msgid "female^Moon Enchantress"
 msgstr ""
 
 #. [unit_type]: id=Moon Enchantress, race=southern elf
-#: War_of_Legends/units/elves-south/Moon_Enchantress.cfg:21
+#: War_of_Legends/units/elves-desert/Moon_Enchantress.cfg:21
 msgid "With wings as green as jade, and the power to freeze the very life out of enemies, the Enchantresses are as beautiful as they are deadly."
 msgstr ""
 
 #. [unit_type]: id=Southern Mystic, race=southern elf
-#: War_of_Legends/units/elves-south/Mystic.cfg:5
+#: War_of_Legends/units/elves-desert/Mystic.cfg:5
 msgid "female^Mystic"
 msgstr ""
 
 #. [unit_type]: id=Southern Mystic, race=southern elf
-#: War_of_Legends/units/elves-south/Mystic.cfg:22
+#: War_of_Legends/units/elves-desert/Mystic.cfg:22
 msgid "South Elven Mystics are trained in the arts of healing and the use of their aura to hinder enemies."
 msgstr ""
 
 #. [unit_type]: id=Southern Protector, race=southern elf
-#: War_of_Legends/units/elves-south/Protector.cfg:5
+#: War_of_Legends/units/elves-desert/Protector.cfg:5
 msgid "Protector"
 msgstr ""
 
 #. [unit_type]: id=Southern Protector, race=southern elf
-#: War_of_Legends/units/elves-south/Protector.cfg:37
+#: War_of_Legends/units/elves-desert/Protector.cfg:37
 msgid "Elite defenders among the guards are promoted to Protectors. Heavily armoured in leather and welding a shield made from the rarest of metals, the Protector is only seen in the south elven armies and their capital city."
 msgstr ""
 
 #. [unit_type]: id=Southern Sharpshooter, race=southern elf
-#: War_of_Legends/units/elves-south/Sharpshooter.cfg:4
+#: War_of_Legends/units/elves-desert/Sharpshooter.cfg:4
 msgid "Sharpshooter"
 msgstr ""
 
 #. [unit_type]: id=Southern Sharpshooter, race=southern elf
-#: War_of_Legends/units/elves-south/Sharpshooter.cfg:20
+#: War_of_Legends/units/elves-desert/Sharpshooter.cfg:20
 msgid "The most elite archers among the southern elves, Sharpshooters use the best bows and arrows available, which makes them just as deadly as their ancestors. Sharpshooters are incredibly accurate, even when firing very quickly, which makes them excellent at picking off entrenched enemies."
 msgstr ""
 
 #. [female]
-#: War_of_Legends/units/elves-south/Sharpshooter.cfg:146
+#: War_of_Legends/units/elves-desert/Sharpshooter.cfg:146
 msgid "female^Sharpshooter"
 msgstr ""
 
 #. [unit_type]: id=Sun Priestess, race=southern elf
-#: War_of_Legends/units/elves-south/Sun_Priestess.cfg:4
+#: War_of_Legends/units/elves-desert/Sun_Priestess.cfg:4
 msgid "female^Sun Priestess"
 msgstr ""
 
 #. [unit_type]: id=Sun Priestess, race=southern elf
-#: War_of_Legends/units/elves-south/Sun_Priestess.cfg:18
+#: War_of_Legends/units/elves-desert/Sun_Priestess.cfg:18
 msgid "The followers of the Sun have access to the dreaded fire magic. Capable of shooting fireballs, the priestess is a worthy opponent."
 msgstr ""
 
 #. [attack]: type=fire
-#: War_of_Legends/units/elves-south/Sun_Priestess.cfg:34
-#: War_of_Legends/units/elves-south/Sun_Sorceress.cfg:35
+#: War_of_Legends/units/elves-desert/Sun_Priestess.cfg:34
+#: War_of_Legends/units/elves-desert/Sun_Sorceress.cfg:35
 #: War_of_Legends/units/human-outlaws/Sorcerer.cfg:62
 #: War_of_Legends/units/human-outlaws/Wizard.cfg:60
 #: War_of_Legends/units/minotaurs/Elder.cfg:55
@@ -2135,24 +2135,24 @@ msgid "fireball"
 msgstr ""
 
 #. [unit_type]: id=Sun Sorceress, race=southern elf
-#: War_of_Legends/units/elves-south/Sun_Sorceress.cfg:4
+#: War_of_Legends/units/elves-desert/Sun_Sorceress.cfg:4
 msgid "female^Sun Sorceress"
 msgstr ""
 
 #. [unit_type]: id=Sun Sorceress, race=southern elf
-#: War_of_Legends/units/elves-south/Sun_Sorceress.cfg:19
+#: War_of_Legends/units/elves-desert/Sun_Sorceress.cfg:19
 msgid "The followers of the Sun have access to the dreaded fire magic. Possessing the strongest fire spells known, the sorceress can inflict heavy damage to beings who dread fire."
 msgstr ""
 
 #. [unit_type]: id=Southern Warrior, race=southern elf
 #. [unit_type]: id=Warrior, race=human
-#: War_of_Legends/units/elves-south/Warrior.cfg:4
+#: War_of_Legends/units/elves-desert/Warrior.cfg:4
 #: War_of_Legends/units/human-campaigns/Loyalist_Warrior.cfg:5
 msgid "Warrior"
 msgstr ""
 
 #. [unit_type]: id=Southern Warrior, race=southern elf
-#: War_of_Legends/units/elves-south/Warrior.cfg:20
+#: War_of_Legends/units/elves-desert/Warrior.cfg:20
 msgid "Warriors, having mastered the art of dual sword combat, are deadly foes. They prefer swordplay but use the bolas to tangle archers and then finish them off with their swords."
 msgstr ""
 
