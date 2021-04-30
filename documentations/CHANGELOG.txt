@@ -3,6 +3,9 @@ Change-Log v1.2.6.7
 
 version 1.2.6.7:
 --> Fixed the existence of an obsolete code line
+--> Faerie Dryad: +10% fire resistance
+--> Fire Faerie: +10% cold resistance
+--> Faerie Spirit: +10% forest defence
 
 version 1.2.6.6:
 --> Eras:
