@@ -6,6 +6,8 @@ version 1.2.6.7:
 --> Faerie Dryad: +10% fire resistance
 --> Fire Faerie: +10% cold resistance
 --> Faerie Spirit: +10% forest defence
+--> removed [portrait] tags
+   --> obsolete and does not do anything
 
 version 1.2.6.6:
 --> Eras:
