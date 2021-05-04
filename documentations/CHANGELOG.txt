@@ -8,6 +8,7 @@ version 1.2.6.7:
 --> Faerie Spirit: +10% forest defence
 --> removed [portrait] tags
    --> obsolete and does not do anything
+--> Minotaur Marksman: ranged +marksman
 
 version 1.2.6.6:
 --> Eras:
