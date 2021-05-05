@@ -9,6 +9,8 @@ version 1.2.6.7:
 --> removed [portrait] tags
    --> obsolete and does not do anything
 --> Minotaur Marksman: ranged +marksman
+--> Orcish Shaman line: added animations for magic, and defend
+--> desert elves: moved to HoI+ (resources)
 
 version 1.2.6.6:
 --> Eras:
