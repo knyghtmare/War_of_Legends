@@ -11,6 +11,7 @@ version 1.2.6.7:
 --> Minotaur Marksman: ranged +marksman
 --> Orcish Shaman line: added animations for magic, and defend
 --> desert elves: moved to HoI+ (resources)
+--> unstable elemental line: fixed an animation bug
 
 version 1.2.6.6:
 --> Eras:
