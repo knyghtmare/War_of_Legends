@@ -73,7 +73,7 @@ on_event("new turn", function()
                     name = "sandstorm"
                 }
             })
-        elseif wesnoth.map.matches(x_var, y_var, { terrain = "M*^*,H*^*,Uh*^*,*^Dr" }) then
+        elseif wesnoth.map.matches(x_var, y_var, { terrain = "M*^*,H*^*,Uh*^*,U*^*,*^Dr" }) then
             -- if true, then change variation to appropriate type
             terrain_linked_unit:add_modification("object", {
                 id="WOL_terrain_link_quake",
