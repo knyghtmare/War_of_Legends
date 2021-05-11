@@ -73,7 +73,7 @@ on_event("new turn", function()
                     name = "sandstorm"
                 }
             })
-        elseif wesnoth.map.matches(x_var, y_var, { terrain = "M*^*,H*^*,Uh*^*,Uu^*,*^Dr" }) then
+        elseif wesnoth.map.matches(x_var, y_var, { terrain = "M*^*,Xu*^*,H*^*,Uh*^*,Uu^*,*^Dr" }) then
             -- if true, then change variation to appropriate type
             terrain_linked_unit:add_modification("object", {
                 id="WOL_terrain_link_quake",
@@ -82,7 +82,7 @@ on_event("new turn", function()
                     name = "quake"
                 }
             })
-        elseif wesnoth.map.matches(x_var, y_var, { terrain = "*^F*,*^Uf*,*^Gvs, *^Efm" }) then
+        elseif wesnoth.map.matches(x_var, y_var, { terrain = "*^F*,Tb*^*,*^Tf*,*^Gvs, *^Efm" }) then
             -- if true, then change variation to appropriate type
             terrain_linked_unit:add_modification("object", {
                 id="WOL_terrain_link_bramble",
