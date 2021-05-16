@@ -88,3 +88,6 @@ megane
 
 A Whim of Fate:
 ---> Elder Gryphon
+
+Talentless
+--> Saurian Spearthrower
