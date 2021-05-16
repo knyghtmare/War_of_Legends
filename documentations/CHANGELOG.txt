@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.6.7
+Change-Log v1.2.6.8
+
+version 1.2.6.8:
+--> New alternate advancement to the Saurian Skirmisher
+   Saurian Spearthrower by Talentless
 
 version 1.2.6.7:
 --> Fixed the existence of an obsolete code line
