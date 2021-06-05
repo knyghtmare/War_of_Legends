@@ -7,7 +7,7 @@ min(	map(
 			map( adjacent_locs(target.loc), 
 				unit_at(self) 
 			), 
-			'unit', index_of(unit.side, enemies) != -1 and unit.abilities
+			'unit', index_of(side_number, enemies) != -1 and unit.abilities
 		), 'unit_with_sp',
 		if( index_of('curing',unit_with_sp.abilities) != -1, -500, 0 )
 	)
