@@ -100,14 +100,14 @@ local function get_healing_value(unit, nb_villages)
 end
 
 function jinx_special_select(unit)
-    if side_number ~= wesnoth.current.side then return false end
+    if unit.side_number ~= wesnoth.current.side then return false end
     if unit.moves == 0 then return false end
     if unit.hitpoints <= unit.max_hitpoints/3 then return false end
     if get_jinx_weapon(unit) == 0 then return false else return true end
 end
 
 function jinx_target_select(unit)
-    if wesnoth.is_enemy(side_number, wesnoth.current.side) == false then return false end
+    if wesnoth.is_enemy(unit.side_number, wesnoth.current.side) == false then return false end
     if unit.hitpoints <= 5 then return false end
     local status = helper.get_child(unit.__cfg, "status")
     if status["not_living"] ~= nil then return false end
@@ -117,7 +117,7 @@ function jinx_target_select(unit)
 end
 
 function curse_status_select(unit)
-    if side_number ~= wesnoth.current.side then return false end
+    if unit.side_number ~= wesnoth.current.side then return false end
     if unit.moves == 0 then return false end
     if string.find(wesnoth.get_terrain(unit.x,unit.y), 'V') ~= nil then
         return false
@@ -129,7 +129,7 @@ function curse_status_select(unit)
 end
 
 function curing_units_select(unit)
-    if wesnoth.is_enemy(side_number, wesnoth.current.side) == true then return false end
+    if wesnoth.is_enemy(unit.side_number, wesnoth.current.side) == true then return false end
     if wesnoth.unit_ability(unit, "curing") then return true end
     return false
 end
