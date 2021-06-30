@@ -2,7 +2,7 @@ War of Legends
 Change-Log v1.2.6.9
 
 version 1.2.6.9:
---> 
+--> The Loyalists (RPG era): fixed missing faction image
 
 version 1.2.6.8:
 --> New alternate advancement to the Saurian Skirmisher
