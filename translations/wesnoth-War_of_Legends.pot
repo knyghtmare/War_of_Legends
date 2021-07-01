@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2021-05-23 15:18 UTC\n"
+"POT-Creation-Date: 2021-07-01 20:09 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -231,127 +231,127 @@ msgstr ""
 msgid "This unit will recover 5 HP per turn while on snowy or icy terrain."
 msgstr ""
 
-#. [special_note]
-#: War_of_Legends/macros/abilities-new.cfg:9
-msgid "The presence of this unit inspires own units next to it to deal more damage in combat, though this only applies to units of lower or equal level."
-msgstr ""
-
 #. [leadership]: id=inspire
-#: War_of_Legends/macros/abilities-new.cfg:20
+#: War_of_Legends/macros/abilities-new.cfg:14
 msgid "inspire"
 msgstr ""
 
 #. [leadership]: id=inspire
-#: War_of_Legends/macros/abilities-new.cfg:21
+#: War_of_Legends/macros/abilities-new.cfg:15
 msgid "female^inspire"
 msgstr ""
 
 #. [leadership]: id=inspire
-#: War_of_Legends/macros/abilities-new.cfg:22
+#: War_of_Legends/macros/abilities-new.cfg:16
 msgid "This unit can inspire own units that are next to it, making them fight better. Adjacent own units of lower or equal level will deal 10% more damage plus 10% for each level they are below the inspiring unit."
 msgstr ""
 
+#. [leadership]: id=inspire
+#: War_of_Legends/macros/abilities-new.cfg:19
+msgid "The presence of this unit inspires own units next to it to deal more damage in combat, though this only applies to units of lower or equal level."
+msgstr ""
+
 #. [illuminates]: id=obscure
-#: War_of_Legends/macros/abilities-new.cfg:38
+#: War_of_Legends/macros/abilities-new.cfg:35
 msgid "obscures"
 msgstr ""
 
 #. [illuminates]: id=obscure
-#: War_of_Legends/macros/abilities-new.cfg:39
+#: War_of_Legends/macros/abilities-new.cfg:36
 msgid ""
 "This unit darkens the surrounding area, making chaotic units fight better, and lawful units fight worse.\n"
 "Any units adjacent to this unit will fight as if it were dusk when it is day, and as if it were night when it is dusk."
 msgstr ""
 
 #. [resistance]: id=protection
-#: War_of_Legends/macros/abilities-new.cfg:55
+#: War_of_Legends/macros/abilities-new.cfg:52
 msgid "protection"
 msgstr ""
 
 #. [resistance]: id=protection
-#: War_of_Legends/macros/abilities-new.cfg:56
+#: War_of_Legends/macros/abilities-new.cfg:53
 msgid "Adjacent units of lower level from this side receive a +20% bonus to all resistances (up to a maximum of 50%)."
 msgstr ""
 
 #. [leadership]: id=terror
-#: War_of_Legends/macros/abilities-new.cfg:78
+#: War_of_Legends/macros/abilities-new.cfg:75
 msgid "terror"
 msgstr ""
 
 #. [leadership]: id=terror
-#: War_of_Legends/macros/abilities-new.cfg:79
+#: War_of_Legends/macros/abilities-new.cfg:76
 msgid ""
 "This unit can frighten enemy units that are next to it, making them fight worse.\n"
 "Adjacent enemy units of lower level will do less damage in battle. When an enemy unit of lower level is adjacent and engages in combat, its attacks do 15% less damage times the difference in their levels + 15%."
 msgstr ""
 
 #. [special_note]
-#: War_of_Legends/macros/abilities-new.cfg:120
+#: War_of_Legends/macros/abilities-new.cfg:117
 msgid "This unit’s melee attack can overwhelm the defenses of enemies, preventing them from retaliating as effectively."
 msgstr ""
 
 #. [special_note]
-#: War_of_Legends/macros/abilities-new.cfg:126
+#: War_of_Legends/macros/abilities-new.cfg:123
 msgid "Groups of units of this type are able to shield each other in combat."
 msgstr ""
 
 #. [special_note]
-#: War_of_Legends/macros/abilities-new.cfg:132
+#: War_of_Legends/macros/abilities-new.cfg:129
 msgid "This unit can move either before or after attacking."
 msgstr ""
 
 #. [special_note]
-#: War_of_Legends/macros/abilities-new.cfg:138
+#: War_of_Legends/macros/abilities-new.cfg:135
 msgid "This unit can daze its enemies, reducing their accuracy and defense until they end a turn."
 msgstr ""
 
 #. [special_note]
-#: War_of_Legends/macros/abilities-new.cfg:144
+#: War_of_Legends/macros/abilities-new.cfg:141
 msgid "This unit is capable of distracting opponents, allowing allied units to trespass their Zones of Control and move unhindered around them."
 msgstr ""
 
 #. [dummy]: id=formation
-#: War_of_Legends/macros/abilities-new.cfg:169
+#: War_of_Legends/macros/abilities-new.cfg:166
 msgid "formation"
 msgstr ""
 
 #. [dummy]: id=formation
-#: War_of_Legends/macros/abilities-new.cfg:170
+#: War_of_Legends/macros/abilities-new.cfg:167
 msgid "female^formation"
 msgstr ""
 
 #. [dummy]: id=formation
-#: War_of_Legends/macros/abilities-new.cfg:171
+#: War_of_Legends/macros/abilities-new.cfg:168
 msgid "This unit gains a +10% bonus to defense when another unit with the same ability is adjacent to it. However, this cannot raise the unit’s defense above 70%."
 msgstr ""
 
 #. [dummy]: id=disengage
-#: War_of_Legends/macros/abilities-new.cfg:190
+#: War_of_Legends/macros/abilities-new.cfg:187
 msgid "disengage"
 msgstr ""
 
 #. [dummy]: id=disengage
-#: War_of_Legends/macros/abilities-new.cfg:191
+#: War_of_Legends/macros/abilities-new.cfg:188
 msgid "female^disengage"
 msgstr ""
 
 #. [dummy]: id=disengage
-#: War_of_Legends/macros/abilities-new.cfg:192
+#: War_of_Legends/macros/abilities-new.cfg:189
 msgid "If this unit doesn’t move before attacking, it will retain its movement points after the attack."
 msgstr ""
 
 #. [heals]: id=healing_12
-#: War_of_Legends/macros/abilities-new.cfg:201
+#: War_of_Legends/macros/abilities-new.cfg:198
 msgid "heals +12"
 msgstr ""
 
 #. [heals]: id=healing_12
-#: War_of_Legends/macros/abilities-new.cfg:202
+#: War_of_Legends/macros/abilities-new.cfg:199
 msgid "female^heals +12"
 msgstr ""
 
 #. [heals]: id=healing_12
-#: War_of_Legends/macros/abilities-new.cfg:203
+#: War_of_Legends/macros/abilities-new.cfg:200
 msgid ""
 "This unit combines herbal remedies with magic to heal units more quickly than is normally possible on the battlefield.\n"
 "A unit cared for by this healer may heal up to 12 HP per turn, or stop poison from taking effect for that turn.\n"
@@ -359,61 +359,61 @@ msgid ""
 msgstr ""
 
 #. [heals]: id=divine_aura
-#: War_of_Legends/macros/abilities-new.cfg:221
+#: War_of_Legends/macros/abilities-new.cfg:218
 msgid "divine aura"
 msgstr ""
 
 #. [heals]: id=divine_aura
-#: War_of_Legends/macros/abilities-new.cfg:222
+#: War_of_Legends/macros/abilities-new.cfg:219
 msgid "female^divine aura"
 msgstr ""
 
 #. [heals]: id=divine_aura
-#: War_of_Legends/macros/abilities-new.cfg:224
+#: War_of_Legends/macros/abilities-new.cfg:221
 msgid ""
 "Allows the unit to damage adjacent undead/vampire at the beginning of its side's turn. It cannot kill a unit, it can only lower its health to 1 HP.\n"
 "This ability lowers enemies' health by 8, ignoring any resistances or weaknesses of enemies, so it's very powerful against spirits."
 msgstr ""
 
 #. [special_note]
-#: War_of_Legends/macros/abilities-new.cfg:242
+#: War_of_Legends/macros/abilities-new.cfg:239
 msgid "This unit damages adjacent undead/vampire at the beginning of its side's turn. It cannot kill a unit, it can only lower its health to 1 HP"
 msgstr ""
 
 #. [dummy]: id=wol_radiance
-#: War_of_Legends/macros/abilities-new.cfg:249
+#: War_of_Legends/macros/abilities-new.cfg:246
 msgid "radiance"
 msgstr ""
 
 #. [dummy]: id=wol_radiance
 #. [special_note]
-#: War_of_Legends/macros/abilities-new.cfg:250
-#: War_of_Legends/macros/abilities-new.cfg:262
+#: War_of_Legends/macros/abilities-new.cfg:247
+#: War_of_Legends/macros/abilities-new.cfg:259
 msgid "This unit slows and deals 8 arcane damage all nearby enemy units on the start of every new turn."
 msgstr ""
 
 #. [dummy]: id=did_death_cloud
-#: War_of_Legends/macros/abilities-new.cfg:306
+#: War_of_Legends/macros/abilities-new.cfg:303
 msgid "death cloud"
 msgstr ""
 
 #. [dummy]: id=did_death_cloud
-#: War_of_Legends/macros/abilities-new.cfg:307
+#: War_of_Legends/macros/abilities-new.cfg:304
 msgid "This unit poisons all nearby enemy units on the start of every new turn."
 msgstr ""
 
 #. [heals]: id=heals_minotaur
-#: War_of_Legends/macros/abilities-new.cfg:352
+#: War_of_Legends/macros/abilities-new.cfg:349
 msgid "heals minotaur +4"
 msgstr ""
 
 #. [heals]: id=heals_minotaur
-#: War_of_Legends/macros/abilities-new.cfg:353
+#: War_of_Legends/macros/abilities-new.cfg:350
 msgid "female^heals minotaur +4"
 msgstr ""
 
 #. [heals]: id=heals_minotaur
-#: War_of_Legends/macros/abilities-new.cfg:354
+#: War_of_Legends/macros/abilities-new.cfg:351
 msgid "This unit combines herbal remedies with magic to heal units more quickly than is normally possible on the battlefield. A minotaur unit cared for by this healer may heal up to 12 HP per turn, or stop poison from taking effect for that turn. This ability will not cure an affected unit of poison, however, only delay its effect."
 msgstr ""
 
@@ -1148,6 +1148,21 @@ msgstr ""
 msgid "female^unpetrified"
 msgstr ""
 
+#: War_of_Legends/mods/amla_wol_mod.cfg:4
+msgid ""
+"AMLA Default is overridden by customised AMLA options and given to units. Right-click on any unit with AMLA active to preview what AMLA options are available.\n"
+"Credits:\n"
+"(*) AMLA Preview UI -> Iris Morelle (shadowm)\n"
+"(*) AMLA Default override code -> virtualghetto/vghetto\n"
+"\n"
+"Direct any feedback to Lord-Knightmare."
+msgstr ""
+
+#. [modification]: id=knyght_wol_amla_mod, description={AMLA_MOD_DESCRIPTION}, type=mp
+#: War_of_Legends/mods/amla_wol_mod.cfg:14
+msgid "War of Legends AMLA Override"
+msgstr ""
+
 #. [unit_type]: id=Angry One, race=aberration
 #: War_of_Legends/units/aberrations/Angry_One.cfg:6
 msgid "Angry One"
@@ -1505,7 +1520,7 @@ msgstr ""
 
 #. [attack]: type=electric
 #: War_of_Legends/units/dwarves/Gryphon_Thunderlord.cfg:38
-#: War_of_Legends/units/human-mages/Mage_Prophetess_of_Light.cfg:62
+#: War_of_Legends/units/human-mages/Mage_Prophetess_of_Light.cfg:61
 #: War_of_Legends/units/human-mages/Mage_Storm.cfg:45
 #: War_of_Legends/units/human-mages/Mage_Tempest.cfg:39
 #: War_of_Legends/units/human-mages/Mage_Thunder.cfg:38
@@ -1905,10 +1920,10 @@ msgstr ""
 #: War_of_Legends/units/human-legion/Healer.cfg:49
 #: War_of_Legends/units/human-legion/Medic.cfg:48
 #: War_of_Legends/units/human-mages/Mage_Adept_of_Light.cfg:99
-#: War_of_Legends/units/human-mages/Mage_Cleric.cfg:37
+#: War_of_Legends/units/human-mages/Mage_Cleric.cfg:36
 #: War_of_Legends/units/human-mages/Mage_Forest.cfg:45
 #: War_of_Legends/units/human-mages/Mage_Nature.cfg:45
-#: War_of_Legends/units/human-mages/Mage_Prophetess_of_Light.cfg:41
+#: War_of_Legends/units/human-mages/Mage_Prophetess_of_Light.cfg:40
 #: War_of_Legends/units/human-mages/Mage_Storm.cfg:36
 #: War_of_Legends/units/human-mages/Mage_Tempest.cfg:30
 #: War_of_Legends/units/human-mages/Mage_Thunder.cfg:29
@@ -2765,6 +2780,7 @@ msgstr ""
 #. [attack]: type=blade
 #: War_of_Legends/units/human-legion/Arbalestier.cfg:28
 #: War_of_Legends/units/human-legion/Crossbowman.cfg:26
+#: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:27
 #: War_of_Legends/units/human-outlaws/Axeman.cfg:21
 #: War_of_Legends/units/human-outlaws/Axemaster.cfg:22
 #: War_of_Legends/units/human-outlaws/Axethrower.cfg:22
@@ -2782,6 +2798,8 @@ msgstr ""
 #: War_of_Legends/units/human-legion/Arbalestier.cfg:49
 #: War_of_Legends/units/human-legion/Crossbowman.cfg:35
 #: War_of_Legends/units/human-legion/Crossbowman.cfg:47
+#: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:36
+#: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:48
 #: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:59
 #: War_of_Legends/units/undead/Skele_Death_Baron.cfg:64
 msgid "crossbow"
@@ -2866,7 +2884,9 @@ msgid "Legion Crossbowman"
 msgstr ""
 
 #. [unit_type]: id=Legion Crossbowman, race=human
+#. [unit_type]: id=Crossbowman, race=human
 #: War_of_Legends/units/human-legion/Crossbowman.cfg:19
+#: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:20
 msgid "Some Bowman decide to take crossbows and axes to battle for more focus on their melee."
 msgstr ""
 
@@ -3169,6 +3189,11 @@ msgstr ""
 msgid "divine lightning"
 msgstr ""
 
+#. [unit_type]: id=Crossbowman, race=human
+#: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:4
+msgid "Crossbowman"
+msgstr ""
+
 #. [unit_type]: id=Crusader, race=human
 #: War_of_Legends/units/human-loyalists/Loyalist_Crusader.cfg:4
 msgid "Crusader"
@@ -3260,8 +3285,8 @@ msgid "Female adepts are given a choice in their study of light magic. The cleri
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/human-mages/Mage_Cleric.cfg:46
-#: War_of_Legends/units/human-mages/Mage_Prophetess_of_Light.cfg:50
+#: War_of_Legends/units/human-mages/Mage_Cleric.cfg:45
+#: War_of_Legends/units/human-mages/Mage_Prophetess_of_Light.cfg:49
 #: War_of_Legends/units/minotaurs/Elder.cfg:43
 #: War_of_Legends/units/minotaurs/Mystic.cfg:43
 #: War_of_Legends/units/minotaurs/Shaman.cfg:42
