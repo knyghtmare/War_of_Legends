@@ -3,6 +3,8 @@ Change-Log v1.2.6.9
 
 version 1.2.6.9:
 --> The Loyalists (RPG era): fixed missing faction image
+--> fixed a deprecation in code
+--> removed unused/obsolete code which was shamelessly throwing deprecation warnings
 
 version 1.2.6.8:
 --> New alternate advancement to the Saurian Skirmisher
