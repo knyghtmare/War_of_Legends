@@ -1,4 +1,4 @@
-z_require("recall_components")
+wol_item_sys_require("recall_components")
     
 Gui_recall = {}
 Gui_recall.new = function()

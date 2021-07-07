@@ -1,5 +1,5 @@
-z_require("status_components")
---z_require("gui_hacks")
+wol_item_sys_require("status_components")
+--wol_item_sys_require("gui_hacks")
 Status_test  = {}
 Status_test.new = function()
 local select_gear_id = {}

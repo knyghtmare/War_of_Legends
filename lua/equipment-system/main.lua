@@ -8,7 +8,7 @@ _ = wesnoth.textdomain "wesnoth"
                 
 
 
-function z_require(script)
+function wol_item_sys_require(script)
         -- I use dofile instead of , require because it allows me to reload
         -- the whole lua logics (for my scenarios that means nearly all of
         -- the logic)
@@ -21,12 +21,12 @@ function z_require(script)
         return wesnoth.dofile('~add-ons/Bad_Moon_Rising/lua/' .. script .. '.lua')
 end
 
-Gui_recall2 = z_require("Recall_Menu")
-Status_test2 = z_require("Status_Test")
---Debug_test2 = z_require("debug_utils")
-equipment_list = z_require("equipment_list")
-equipment_write = z_require("equipment_write")
-Trader_Menus = z_require("Trader_Menus")
-Trader_Menus2 = z_require("Trader_Menus2")
-bmr_wml_tags = z_require("bmr_wml_tags")
-bmr_helper = z_require("bmr_helper")
+Gui_recall2 = wol_item_sys_require("Recall_Menu")
+Status_test2 = wol_item_sys_require("Status_Test")
+--Debug_test2 = wol_item_sys_require("debug_utils")
+equipment_list = wol_item_sys_require("equipment_list")
+equipment_write = wol_item_sys_require("equipment_write")
+Trader_Menus = wol_item_sys_require("Trader_Menus")
+Trader_Menus2 = wol_item_sys_require("Trader_Menus2")
+bmr_wml_tags = wol_item_sys_require("bmr_wml_tags")
+bmr_helper = wol_item_sys_require("bmr_helper")
