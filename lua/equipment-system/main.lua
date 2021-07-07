@@ -21,12 +21,17 @@ function wol_item_sys_require(script)
         return wesnoth.dofile('~add-ons/War_of_Legends/lua/equipment-system/' .. script .. '.lua')
 end
 
-Gui_recall2 = wol_item_sys_require("Recall_Menu")
+-- I have no use for this feature...yet
+-- Gui_recall2 = wol_item_sys_require("Recall_Menu")
+
 Status_test2 = wol_item_sys_require("Status_Test")
 --Debug_test2 = wol_item_sys_require("debug_utils")
 equipment_list = wol_item_sys_require("equipment_list")
 equipment_write = wol_item_sys_require("equipment_write")
-Trader_Menus = wol_item_sys_require("Trader_Menus")
-Trader_Menus2 = wol_item_sys_require("Trader_Menus2")
-bmr_wml_tags = wol_item_sys_require("wol_wml_tags")
-bmr_helper = wol_item_sys_require("wol_helper")
+
+-- have not considered adding the shops yet
+-- Trader_Menus = wol_item_sys_require("Trader_Menus")
+-- Trader_Menus2 = wol_item_sys_require("Trader_Menus2")
+
+wol_wml_tags = wol_item_sys_require("wol_wml_tags")
+wol_helper = wol_item_sys_require("wol_helper")
