@@ -277,7 +277,7 @@ local result = wesnoth.sync.evaluate_single(
     return { rvs = rv, lis = li, plis = pli, ulis = uli, dxlis = dxli, dylis = dyli, sglis = sgli, splis = spli} -- keys end in 's' for 'synchronized'
   end,
   function()
-    error("status_meu called by ai?")
+    error("status_menu called by ai?")
   end)
  while result.rvs > 0 do
   if result.rvs == 3 then  --dropping: needs unit_id, context (x,y), and selected gear_id
