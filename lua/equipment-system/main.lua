@@ -18,7 +18,7 @@ function wol_item_sys_require(script)
         -- maybe i'll change that for release but i don't see a good reason
         -- to do so, bause the time it needs is not really noticeable i
         -- think.
-        return wesnoth.dofile('~add-ons/War_of_Legends/lua/' .. script .. '.lua')
+        return wesnoth.dofile('~add-ons/War_of_Legends/lua/equipment-system/' .. script .. '.lua')
 end
 
 Gui_recall2 = wol_item_sys_require("Recall_Menu")
