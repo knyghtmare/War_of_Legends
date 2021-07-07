@@ -245,7 +245,7 @@ bmr_equipment.remove = function(unit_id, gear_id)
 	  else
 	      hack_u.hitpoints = hack_HP_fix_pre
 	  end
-	  bmr_helper.modify_unit({ id = unit_id }, { hitpoints = hack_u.hitpoints })
+	  wol_helper.modify_unit({ id = unit_id }, { hitpoints = hack_u.hitpoints })
 -- this does not work	  
 --          wesnoth.units.modify({ id = unit_id }, { hitpoints = hack_u.hitpoints })
       else

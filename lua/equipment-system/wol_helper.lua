@@ -3,7 +3,7 @@
 
 
 
-bmr_helper = {}
+wol_helper = {}
 
 local wml_actions = wesnoth.wml_actions
 
@@ -12,7 +12,7 @@ local wml_actions = wesnoth.wml_actions
 --! Modifies all the units satisfying the given @a filter.
 --! @param vars key/value pairs that need changing.
 --! @note Usable only during WML actions.
-function bmr_helper.modify_unit(filter, vars)
+function wol_helper.modify_unit(filter, vars)
         wml_actions.store_unit({
                 [1] = { "filter", filter },
                 variable = "LUA_modify_unit",
@@ -31,4 +31,4 @@ function bmr_helper.modify_unit(filter, vars)
         wml.variables["LUA_modify_unit"] = nil
 end
 
-return bmr_helper
+return wol_helper
