@@ -295,7 +295,7 @@ local result = wesnoth.sync.evaluate_single(
       return { rvs = rv, lis = li, plis = pli, ulis = uli, dxlis = dxli, dylis = dyli, sglis = sgli, splis = spli}
     end,
     function()
-      error("status_meu called by ai?")
+      error("status_menu called by ai?")
     end)
  end
 
