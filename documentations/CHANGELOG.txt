@@ -5,6 +5,9 @@ version 1.2.6.9:
 --> The Loyalists (RPG era): fixed missing faction image
 --> fixed a deprecation in code
 --> removed unused/obsolete code which was shamelessly throwing deprecation warnings
+--> added in Cave Wyrm and Cave Wyrmlet from SoF
+--> updated POT file
+--> added 2 new mods: AMLA override and equipment mod
 
 version 1.2.6.8:
 --> New alternate advancement to the Saurian Skirmisher
