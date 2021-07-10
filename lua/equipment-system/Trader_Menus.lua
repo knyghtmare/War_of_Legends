@@ -233,7 +233,7 @@ end
 local function sell()
     for i in ipairs(sell_list) do
 	while sell_list[i].number > 0 do
-           bmr_equipment.pool_remove(sell_list[i].id)
+           wol_equipment.pool_remove(sell_list[i].id)
 	   sell_list[i].number = sell_list[i].number - 1
 	end
     end

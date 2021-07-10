@@ -17,7 +17,7 @@
 function wesnoth.wml_actions.apply_gear(cfg)
         local unit_id = cfg.id or helper.wml_error "[apply_gear] expects an id= attribute."
         local gear_id = cfg.gear_id or helper.wml_error "[apply_gear] expects a gear_id= attribute."
-        local result = bmr_equipment.unit(unit_id, gear_id)
+        local result = wol_equipment.unit(unit_id, gear_id)
         -- pass if the unit could equip the item, or was a player side that had a pool
         -- fail if the unit couldn't equip and was ai, or was not found
         if result == "pass" then
@@ -27,10 +27,10 @@ function wesnoth.wml_actions.apply_gear(cfg)
             -- this fails to store anything if id is something like "Primevalist Fighter-21", from underlying ID of generic unit, 
             -- then generates errors when eq_unit[1] is referenced
 --           wesnoth.message(string.format("%s on map (array)", eq_unit[1].id))
---            local take_result = bmr_equipment.item_take(eq_unit[1].x, eq_unit[1].y, gear_id)
+--            local take_result = wol_equipment.item_take(eq_unit[1].x, eq_unit[1].y, gear_id)
 --            if take_result == "pass" then
             if eq_unit[1] then
-              bmr_equipment.item_take(eq_unit[1].x, eq_unit[1].y, gear_id)
+              wol_equipment.item_take(eq_unit[1].x, eq_unit[1].y, gear_id)
               wesnoth.interface.float_label(eq_unit[1].x, eq_unit[1].y, "<span color='#99aaaa'> Takes item...</span>")
             end
         end
@@ -50,13 +50,13 @@ end
 function wesnoth.wml_actions.remove_gear(cfg)
         local unit_id = cfg.id or helper.wml_error "[remove_gear] expects an id= attribute."
         local gear_id = cfg.gear_id or helper.wml_error "[remove_gear] expects a gear_id= attribute."
-        local result = bmr_equipment.remove(unit_id, gear_id)
+        local result = wol_equipment.remove(unit_id, gear_id)
         if result == "on_map" then
           local eq_unit = wesnoth.units.find_on_map({ id = unit_id })
-          bmr_equipment.item_drop(eq_unit[1].x, eq_unit[1].y, gear_id)
+          wol_equipment.item_drop(eq_unit[1].x, eq_unit[1].y, gear_id)
 --          wesnoth.message(string.format("%s on map", unit_id))
         elseif result == "on_recall" then
-          bmr_equipment.pool_add(gear_id)
+          wol_equipment.pool_add(gear_id)
 --          wesnoth.message(string.format("%s on recall", unit_id))
         else
           wesnoth.message(string.format("%s does not have %s", unit_id, gear_id))
@@ -78,7 +78,7 @@ function wesnoth.wml_actions.gear_item(cfg)
         local x_1 = cfg.x or helper.wml_error "[gear_item] expects an x= attribute."
         local y_1 = cfg.y or helper.wml_error "[gear_item] expects an y= attribute."
         local gear_id = cfg.gear_id or helper.wml_error "[gear_item] expects a gear_id= attribute."
-        bmr_equipment.item_drop(x_1, y_1, gear_id)
+        wol_equipment.item_drop(x_1, y_1, gear_id)
 end     
         
 -- deletes gear on map, like [remove_item] does for images
@@ -95,7 +95,7 @@ function wesnoth.wml_actions.remove_gear_item(cfg)
         local x_1 = cfg.x or helper.wml_error "[remove_gear_item] expects an x= attribute."
         local y_1 = cfg.y or helper.wml_error "[remove_gear_item] expects an y= attribute."
         local gear_id = cfg.gear_id or helper.wml_error "[remove_gear_item] expects a gear_id= attribute."
-        bmr_equipment.item_take(x_1, y_1, gear_id)
+        wol_equipment.item_take(x_1, y_1, gear_id)
 end     
         
 ----------------------------------------

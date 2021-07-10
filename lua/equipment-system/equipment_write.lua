@@ -2,14 +2,14 @@
 -- this will check for a unit that has a unit.variables.gear.<item_name>=new, and check it against equipment_list.list_by_name.  If it matches something, apply the effects and set =old.
 -- later, when we need to access the values of the equipment, we can refer to the lua file, retrieving the name from unit.variables.gear_old
 -- want to make this a tag
-bmr_equipment = {}
+wol_equipment = {}
 -- result is string:
 --   "not found" if getting unit failed
 --   "wrong type" if nothing matches in equipment type field and unit type
 --   "no room" if unit already has equipment for that usage type
 --   "is ai" if unit cannot accept equipment and is ai controlled side
 --   "pass" if unit can accept equipment
-bmr_equipment.filter = function(unit_id, gear_id)    
+wol_equipment.filter = function(unit_id, gear_id)    
       local result = "wrong type"
       local units = {}  
       units = wesnoth.units.find_on_map({ id = unit_id })
@@ -19,16 +19,16 @@ bmr_equipment.filter = function(unit_id, gear_id)
 	if units[1] then
         else
           result = "not found"
---          wesnoth.message("Filter_debugging4", string.format("bmr_equipment.filter returns result= %s", result))
+--          wesnoth.message("Filter_debugging4", string.format("wol_equipment.filter returns result= %s", result))
           return result
 	end
       end
       if wesnoth.sides[units[1].side].controller == "ai" then
         result = "is ai"
---        wesnoth.message("Filter_debugging5", string.format("bmr_equipment.filter returns result= %s", result))
+--        wesnoth.message("Filter_debugging5", string.format("wol_equipment.filter returns result= %s", result))
       end
 --      if wesnoth.sides[units[1].side].controller == "human" then
---        wesnoth.message("Filter_debugging5", string.format("bmr_equipment.filter returns result= %s", result))
+--        wesnoth.message("Filter_debugging5", string.format("wol_equipment.filter returns result= %s", result))
 --      end
       local gear_usage = ""
       local gear_name = ""
@@ -52,7 +52,7 @@ bmr_equipment.filter = function(unit_id, gear_id)
 --          wesnoth.message("Filter_debugging", string.format("gear_index_max= %i", gear_index_max))
           while gear_index < gear_index_max do
 --            gear_pos_temp = units[1].variables["gear["..gear_index.."].position"]
---            wesnoth.message("Filter_debugging_Iteration", string.format("bmr_equipment.filter returns result= %s", gear_pos_temp))
+--            wesnoth.message("Filter_debugging_Iteration", string.format("wol_equipment.filter returns result= %s", gear_pos_temp))
             local gear_position_iter = units[1].variables["gear["..gear_index.."].position"]
 --            wesnoth.message("Filter_debugging_loop", string.format("gear_position_iter= %s", gear_position_iter))
 --            wesnoth.message("Filter_debugging_loop", string.format("gear_index %i out of %i", gear_index, gear_index_max))
@@ -65,7 +65,7 @@ bmr_equipment.filter = function(unit_id, gear_id)
               if result ~= "is ai" then
                 result = "no room"
               end
---              wesnoth.message("Filter_debugging3", string.format("bmr_equipment.filter returns result= %s", result))
+--              wesnoth.message("Filter_debugging3", string.format("wol_equipment.filter returns result= %s", result))
               return result
             end
             -- this is a wml array, not lua, so it starts at [0]
@@ -125,18 +125,18 @@ bmr_equipment.filter = function(unit_id, gear_id)
                                               
 	      wesnoth.units.add_modification(units[1], "object", eq_eff)
 	      wesnoth.units.add_modification(units[1], "object", wt_effects)
---              wesnoth.message("Filter_debugging2", string.format("bmr_equipment.filter returns result= %s", result))
+--              wesnoth.message("Filter_debugging2", string.format("wol_equipment.filter returns result= %s", result))
               return result
             end
           end
         end
       end
---  wesnoth.message("Filter_debugging1", string.format("bmr_equipment.filter returns result= %s", result))
+--  wesnoth.message("Filter_debugging1", string.format("wol_equipment.filter returns result= %s", result))
    return result
 end
 
 -- adds the gear id to a list that can be used by another unit on the recall list
-bmr_equipment.pool_add = function(gear_id) 
+wol_equipment.pool_add = function(gear_id) 
     local gear_number = 0
     local gear_id_test = false
     for j in ipairs(equipment_list.the_list) do  
@@ -153,26 +153,26 @@ bmr_equipment.pool_add = function(gear_id)
    return gear_number
 end
 
--- this function calls bmr_equipment.filter and if the gear cannot be applied, we figure out what to do with it.
+-- this function calls wol_equipment.filter and if the gear cannot be applied, we figure out what to do with it.
 -- returns pass/fail
-bmr_equipment.unit = function(unit_id, gear_id)
+wol_equipment.unit = function(unit_id, gear_id)
     local output = ""
-    local filter_result = bmr_equipment.filter(unit_id, gear_id)
+    local filter_result = wol_equipment.filter(unit_id, gear_id)
     if filter_result == "is ai" or filter_result == "not found" then
       output = "fail"
     elseif filter_result == "pass" then
       output = "pass"
     elseif filter_result == "no room" or filter_result == "wrong type" then
-      bmr_equipment.pool_add(gear_id)
+      wol_equipment.pool_add(gear_id)
       output = "pass"
     else
       output = "error"
     end
---  wesnoth.message("unit_debugging1", string.format("bmr_equipment.unit returns output= %s", output))
+--  wesnoth.message("unit_debugging1", string.format("wol_equipment.unit returns output= %s", output))
    return output
 end
 
-bmr_equipment.remove = function(unit_id, gear_id)
+wol_equipment.remove = function(unit_id, gear_id)
       local result = ""
       local old_gear = ""
       local old_gear_id = ""
@@ -255,7 +255,7 @@ bmr_equipment.remove = function(unit_id, gear_id)
 end
 
 -- removes the thing from the pool
-bmr_equipment.pool_remove = function(gear_id)
+wol_equipment.pool_remove = function(gear_id)
     local gear_number = wml.variables["gear_pool[0]."..gear_id]
     if gear_number == nil or gear_number == 0 then
        wesnoth.message(string.format("%s is not in the pool, cannot remove", gear_id))
@@ -267,7 +267,7 @@ bmr_equipment.pool_remove = function(gear_id)
 end
 
 -- this, and its counterpart .item_take, can be moved above the .unit function, and used in it, to filter properly for clearing the map.
-bmr_equipment.item_drop = function(x_1, y_1, gear_id)
+wol_equipment.item_drop = function(x_1, y_1, gear_id)
     local icon = ""
     for j in ipairs(equipment_list.the_list) do  
       if equipment_list.the_list[j].id == gear_id then
@@ -294,7 +294,7 @@ bmr_equipment.item_drop = function(x_1, y_1, gear_id)
 end
 
 -- does not actually apply the gear, just takes the items off the map, and removes the WML variables
-bmr_equipment.item_take = function(x_1, y_1, gear_id)
+wol_equipment.item_take = function(x_1, y_1, gear_id)
     local result = "fail"
     local item_index = 0
     local id_temp = ""
@@ -326,4 +326,4 @@ bmr_equipment.item_take = function(x_1, y_1, gear_id)
    return result
 end
 
-return bmr_equipment
+return wol_equipment

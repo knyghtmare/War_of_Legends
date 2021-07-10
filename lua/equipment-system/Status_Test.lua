@@ -251,24 +251,24 @@ end
 ------------------------------------------------------------------------
 
 local function call_to_pool(u_i,sg_i)
-  bmr_equipment.remove(u_i, sg_i)
-  bmr_equipment.pool_add(sg_i)
+  wol_equipment.remove(u_i, sg_i)
+  wol_equipment.pool_add(sg_i)
 end
 
 local function call_from_pool(u_i,sp_i)
-  local pter = bmr_equipment.unit(u_i, sp_i)
+  local pter = wol_equipment.unit(u_i, sp_i)
   if pter == "pass" or pter == "no room" then
-    bmr_equipment.pool_remove(sp_i)
+    wol_equipment.pool_remove(sp_i)
   end
 end
 
 local function delete_from_pool(sp_i)
-  bmr_equipment.pool_remove(sp_i)
+  wol_equipment.pool_remove(sp_i)
 end
 
 local function call_drop(u_i,d_x,d_y,sg_i)
-  bmr_equipment.remove(u_i, sg_i)
-  bmr_equipment.item_drop(d_x, d_y, sg_i)
+  wol_equipment.remove(u_i, sg_i)
+  wol_equipment.item_drop(d_x, d_y, sg_i)
 end
 
 local result = wesnoth.sync.evaluate_single(
