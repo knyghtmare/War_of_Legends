@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2021-07-01 20:09 UTC\n"
+"POT-Creation-Date: 2021-07-10 05:14 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -626,7 +626,7 @@ msgid "This unit mutates depending on the terrain you're moving on."
 msgstr ""
 
 #. [special_note]
-#: War_of_Legends/macros/ability-terrain-link.cfg:472
+#: War_of_Legends/macros/ability-terrain-link.cfg:15
 msgid " That unit mutates depending on the terrain she is moving to, taking a form that result in better defense and movement."
 msgstr ""
 
@@ -1158,9 +1158,23 @@ msgid ""
 "Direct any feedback to Lord-Knightmare."
 msgstr ""
 
-#. [modification]: id=knyght_wol_amla_mod, description={AMLA_MOD_DESCRIPTION}, type=mp
+#. [modification]: id=knyght_wol_amla_mod, description={AMLA_MOD_DESCRIPTION}, type=sp
 #: War_of_Legends/mods/amla_wol_mod.cfg:14
 msgid "War of Legends AMLA Override"
+msgstr ""
+
+#: War_of_Legends/mods/item_equipment_mod.cfg:4
+msgid ""
+"Enemy units will have a chance to drop items when killed. Initially, spawned enemy units might be equipped with equipment.\n"
+"Credits:\n"
+"(*) doofus-01 (BMR)\n"
+"\n"
+"Direct any feedback to Lord-Knightmare."
+msgstr ""
+
+#. [modification]: id=knyght_wol_equipment_gear_mod, description={EQUIPMENT_MOD_DESCRIPTION}, type=hybrid
+#: War_of_Legends/mods/item_equipment_mod.cfg:13
+msgid "Equipment and Items Mod"
 msgstr ""
 
 #. [unit_type]: id=Angry One, race=aberration
@@ -1180,9 +1194,9 @@ msgstr ""
 #. [attack]: type=impact
 #: War_of_Legends/units/aberrations/Angry_One.cfg:37
 #: War_of_Legends/units/aberrations/Raging_One.cfg:40
-#: War_of_Legends/units/aberrations/Rash_One.cfg:32
-#: War_of_Legends/units/aberrations/Reckless_One.cfg:33
-#: War_of_Legends/units/aberrations/Unhatched.cfg:38
+#: War_of_Legends/units/aberrations/Rash_One.cfg:31
+#: War_of_Legends/units/aberrations/Reckless_One.cfg:32
+#: War_of_Legends/units/aberrations/Unhatched.cfg:37
 msgid "ram"
 msgstr ""
 
@@ -1199,23 +1213,23 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/aberrations/Black_Cat.cfg:36
-#: War_of_Legends/units/aberrations/Calamity.cfg:41
+#: War_of_Legends/units/aberrations/Black_Cat.cfg:35
+#: War_of_Legends/units/aberrations/Calamity.cfg:40
 #: War_of_Legends/units/dwarves/Gryphon_Thunderlord.cfg:29
 #: War_of_Legends/units/elementals/Vine_Beast.cfg:38
-#: War_of_Legends/units/elementals/Vine_Tiger.cfg:42
+#: War_of_Legends/units/elementals/Vine_Tiger.cfg:41
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Eagle_Master.cfg:31
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Eagle_Rider.cfg:27
 #: War_of_Legends/units/monsters/Elder_Gryphon.cfg:30
 #: War_of_Legends/units/monsters/Young_Gryphon.cfg:31
-#: War_of_Legends/units/vampires/Flesh_Artisan.cfg:31
+#: War_of_Legends/units/vampires/Flesh_Artisan.cfg:27
 msgid "claws"
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/aberrations/Black_Cat.cfg:45
-#: War_of_Legends/units/aberrations/Calamity.cfg:50
-#: War_of_Legends/units/aberrations/Jinx_Beast.cfg:47
+#: War_of_Legends/units/aberrations/Black_Cat.cfg:44
+#: War_of_Legends/units/aberrations/Calamity.cfg:49
+#: War_of_Legends/units/aberrations/Jinx_Beast.cfg:46
 msgid "ill omen"
 msgstr ""
 
@@ -1319,24 +1333,26 @@ msgstr ""
 
 #. [attack]: type=blade
 #. [attack]: type=pierce
-#: War_of_Legends/units/aberrations/Ripper_Beast.cfg:37
-#: War_of_Legends/units/aberrations/Shredder_Spawn.cfg:34
-#: War_of_Legends/units/goblins/Goblin_Cavalry.cfg:30
-#: War_of_Legends/units/goblins/Goblin_Hellwolf_Rider.cfg:30
-#: War_of_Legends/units/goblins/Goblin_Lancer.cfg:29
-#: War_of_Legends/units/monsters/Wyrm.cfg:72
-#: War_of_Legends/units/vampires/Blood_Apprentice.cfg:29
-#: War_of_Legends/units/vampires/Blood_Manipulator.cfg:29
-#: War_of_Legends/units/vampires/Duchess.cfg:46
-#: War_of_Legends/units/vampires/Duelist.cfg:44
-#: War_of_Legends/units/vampires/Fledgeling.cfg:39
-#: War_of_Legends/units/vampires/Flesh_Artisan.cfg:40
-#: War_of_Legends/units/vampires/Methusalem.cfg:47
-#: War_of_Legends/units/vampires/Mistress.cfg:46
-#: War_of_Legends/units/vampires/Noble.cfg:45
-#: War_of_Legends/units/vampires/Sangel.cfg:30
-#: War_of_Legends/units/vampires/Sire.cfg:46
-#: War_of_Legends/units/vampires/Sword_Dancer.cfg:44
+#: War_of_Legends/units/aberrations/Ripper_Beast.cfg:34
+#: War_of_Legends/units/aberrations/Shredder_Spawn.cfg:31
+#: War_of_Legends/units/goblins/Goblin_Cavalry.cfg:29
+#: War_of_Legends/units/goblins/Goblin_Hellwolf_Rider.cfg:29
+#: War_of_Legends/units/goblins/Goblin_Lancer.cfg:28
+#: War_of_Legends/units/monsters/Cave_Wyrm.cfg:77
+#: War_of_Legends/units/monsters/Cave_Wyrmlet.cfg:75
+#: War_of_Legends/units/monsters/Wyrm.cfg:70
+#: War_of_Legends/units/vampires/Blood_Apprentice.cfg:25
+#: War_of_Legends/units/vampires/Blood_Manipulator.cfg:25
+#: War_of_Legends/units/vampires/Duchess.cfg:41
+#: War_of_Legends/units/vampires/Duelist.cfg:42
+#: War_of_Legends/units/vampires/Fledgeling.cfg:37
+#: War_of_Legends/units/vampires/Flesh_Artisan.cfg:36
+#: War_of_Legends/units/vampires/Methusalem.cfg:41
+#: War_of_Legends/units/vampires/Mistress.cfg:40
+#: War_of_Legends/units/vampires/Noble.cfg:40
+#: War_of_Legends/units/vampires/Sangel.cfg:26
+#: War_of_Legends/units/vampires/Sire.cfg:41
+#: War_of_Legends/units/vampires/Sword_Dancer.cfg:42
 msgid "fangs"
 msgstr ""
 
@@ -1388,16 +1404,16 @@ msgid "Once reaching adulthood, a carapace abandons his old shell and grows a ne
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/carapaces/Gallant.cfg:28
-#: War_of_Legends/units/carapaces/Warrior.cfg:29
-#: War_of_Legends/units/minotaurs/Savage.cfg:30
+#: War_of_Legends/units/carapaces/Gallant.cfg:27
+#: War_of_Legends/units/carapaces/Warrior.cfg:28
+#: War_of_Legends/units/minotaurs/Savage.cfg:29
 msgid "mace"
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/carapaces/Gallant.cfg:37
+#: War_of_Legends/units/carapaces/Gallant.cfg:36
 #: War_of_Legends/units/carapaces/Regular.cfg:34
-#: War_of_Legends/units/carapaces/Warrior.cfg:38
+#: War_of_Legends/units/carapaces/Warrior.cfg:37
 msgid "water breath"
 msgstr ""
 
@@ -1463,18 +1479,19 @@ msgid "Drake Adventurer is a light weaponed fighter. He has been trained as well
 msgstr ""
 
 #. [attack]: type=fire
-#: War_of_Legends/units/drakes/Adventurer.cfg:39
-#: War_of_Legends/units/drakes/Ranger.cfg:47
-#: War_of_Legends/units/goblins/Cutthroat.cfg:50
-#: War_of_Legends/units/human-legion/Horseman.cfg:33
-#: War_of_Legends/units/human-legion/Pillager.cfg:34
+#: War_of_Legends/units/drakes/Adventurer.cfg:37
+#: War_of_Legends/units/drakes/Ranger.cfg:44
+#: War_of_Legends/units/goblins/Cutthroat.cfg:49
+#: War_of_Legends/units/human-legion/Horseman.cfg:32
+#: War_of_Legends/units/human-legion/Pillager.cfg:33
 msgid "torch"
 msgstr ""
 
 #. [attack]: type=fire
-#: War_of_Legends/units/drakes/Adventurer.cfg:48
-#: War_of_Legends/units/drakes/Ranger.cfg:56
+#: War_of_Legends/units/drakes/Adventurer.cfg:46
+#: War_of_Legends/units/drakes/Ranger.cfg:53
 #: War_of_Legends/units/elementals/Fire_Wisp.cfg:38
+#: War_of_Legends/units/monsters/Dragon_Lord.cfg:58
 msgid "fire breath"
 msgstr ""
 
@@ -1520,7 +1537,7 @@ msgstr ""
 
 #. [attack]: type=electric
 #: War_of_Legends/units/dwarves/Gryphon_Thunderlord.cfg:38
-#: War_of_Legends/units/human-mages/Mage_Prophetess_of_Light.cfg:61
+#: War_of_Legends/units/human-mages/Mage_Prophetess_of_Light.cfg:59
 #: War_of_Legends/units/human-mages/Mage_Storm.cfg:45
 #: War_of_Legends/units/human-mages/Mage_Tempest.cfg:39
 #: War_of_Legends/units/human-mages/Mage_Thunder.cfg:38
@@ -1605,8 +1622,8 @@ msgstr ""
 
 #. [attack]: type=pierce
 #. [variation]
-#: War_of_Legends/units/elementals/Ice_Crab.cfg:44
-#: War_of_Legends/units/elementals/Ice_Shell.cfg:48
+#: War_of_Legends/units/elementals/Ice_Crab.cfg:43
+#: War_of_Legends/units/elementals/Ice_Shell.cfg:47
 #: War_of_Legends/units/nightmares-elementals/Nature_Wrath.cfg:431
 #: War_of_Legends/units/nightmares-elementals/Unstable_Elemental.cfg:430
 msgid "icicle"
@@ -1614,8 +1631,8 @@ msgstr ""
 
 #. [attack]: type=cold
 #. [variation]
-#: War_of_Legends/units/elementals/Ice_Crab.cfg:52
-#: War_of_Legends/units/elementals/Ice_Shell.cfg:56
+#: War_of_Legends/units/elementals/Ice_Crab.cfg:51
+#: War_of_Legends/units/elementals/Ice_Shell.cfg:55
 #: War_of_Legends/units/nightmares-elementals/Nature_Wrath.cfg:436
 #: War_of_Legends/units/nightmares-elementals/Unstable_Elemental.cfg:435
 msgid "gelid aura"
@@ -1688,21 +1705,21 @@ msgid "Djinns are truly mighty windspirits who can decimate armies with their po
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/elementals/Mistral.cfg:28
-#: War_of_Legends/units/elementals/Zephyr.cfg:26
+#: War_of_Legends/units/elementals/Mistral.cfg:27
+#: War_of_Legends/units/elementals/Zephyr.cfg:25
 msgid "scimitar"
 msgstr ""
 
 #. [attack]: type=cold
-#: War_of_Legends/units/elementals/Mistral.cfg:36
-#: War_of_Legends/units/elementals/Sylph.cfg:35
-#: War_of_Legends/units/elementals/Zephyr.cfg:34
+#: War_of_Legends/units/elementals/Mistral.cfg:35
+#: War_of_Legends/units/elementals/Sylph.cfg:34
+#: War_of_Legends/units/elementals/Zephyr.cfg:33
 msgid "northern wind"
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/elementals/Mistral.cfg:48
-#: War_of_Legends/units/elementals/Zephyr.cfg:46
+#: War_of_Legends/units/elementals/Mistral.cfg:47
+#: War_of_Legends/units/elementals/Zephyr.cfg:45
 msgid "tornado"
 msgstr ""
 
@@ -1791,20 +1808,20 @@ msgid "As winds spirits stay in their physical form, they grow stronger, as does
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/elementals/Sylph.cfg:26
+#: War_of_Legends/units/elementals/Sylph.cfg:25
 #: War_of_Legends/units/gnolls/Regular.cfg:28
 #: War_of_Legends/units/vampires/Bloodborn.cfg:32
-#: War_of_Legends/units/vampires/Day_Hunter.cfg:35
+#: War_of_Legends/units/vampires/Day_Hunter.cfg:34
 #: War_of_Legends/units/vampires/Half_Blood.cfg:32
-#: War_of_Legends/units/vampires/Malborn.cfg:30
-#: War_of_Legends/units/vampires/Mistress.cfg:37
+#: War_of_Legends/units/vampires/Malborn.cfg:29
+#: War_of_Legends/units/vampires/Mistress.cfg:31
 #: War_of_Legends/units/vampires/Thin_Blood.cfg:33
-#: War_of_Legends/units/vampires/Twilight_Walker.cfg:48
+#: War_of_Legends/units/vampires/Twilight_Walker.cfg:47
 msgid "dagger"
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/elementals/Sylph.cfg:47
+#: War_of_Legends/units/elementals/Sylph.cfg:46
 msgid "galeforce"
 msgstr ""
 
@@ -1855,7 +1872,7 @@ msgstr ""
 
 #. [attack]: type=pierce
 #: War_of_Legends/units/elementals/Vine_Beast.cfg:47
-#: War_of_Legends/units/elementals/Vine_Tiger.cfg:51
+#: War_of_Legends/units/elementals/Vine_Tiger.cfg:50
 msgid "thorns"
 msgstr ""
 
@@ -1870,7 +1887,7 @@ msgid "Being swift and ferocious Vine Tigers are not to be trifled with, due to 
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/elementals/Vine_Tiger.cfg:59
+#: War_of_Legends/units/elementals/Vine_Tiger.cfg:58
 msgid "ensnare"
 msgstr ""
 
@@ -1886,10 +1903,10 @@ msgstr ""
 
 #. [attack]: type=impact
 #. [attack]: type=arcane
-#: War_of_Legends/units/elementals/Wisp.cfg:57
-#: War_of_Legends/units/vampires/Blood_Apprentice.cfg:53
-#: War_of_Legends/units/vampires/Blood_Manipulator.cfg:53
-#: War_of_Legends/units/vampires/Sangel.cfg:54
+#: War_of_Legends/units/elementals/Wisp.cfg:56
+#: War_of_Legends/units/vampires/Blood_Apprentice.cfg:49
+#: War_of_Legends/units/vampires/Blood_Manipulator.cfg:49
+#: War_of_Legends/units/vampires/Sangel.cfg:50
 msgid "aura wave"
 msgstr ""
 
@@ -1914,41 +1931,41 @@ msgid "Some young elf maidens have learnt to harness the power of faerie. Unlike
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/elves-wood/Acolyte.cfg:30
-#: War_of_Legends/units/elves-wood/Ascetic.cfg:34
-#: War_of_Legends/units/elves-wood/Mystic.cfg:33
-#: War_of_Legends/units/human-legion/Healer.cfg:49
-#: War_of_Legends/units/human-legion/Medic.cfg:48
-#: War_of_Legends/units/human-mages/Mage_Adept_of_Light.cfg:99
-#: War_of_Legends/units/human-mages/Mage_Cleric.cfg:36
-#: War_of_Legends/units/human-mages/Mage_Forest.cfg:45
-#: War_of_Legends/units/human-mages/Mage_Nature.cfg:45
-#: War_of_Legends/units/human-mages/Mage_Prophetess_of_Light.cfg:40
+#: War_of_Legends/units/elves-wood/Acolyte.cfg:29
+#: War_of_Legends/units/elves-wood/Ascetic.cfg:32
+#: War_of_Legends/units/elves-wood/Mystic.cfg:31
+#: War_of_Legends/units/human-legion/Healer.cfg:47
+#: War_of_Legends/units/human-legion/Medic.cfg:44
+#: War_of_Legends/units/human-mages/Mage_Adept_of_Light.cfg:98
+#: War_of_Legends/units/human-mages/Mage_Cleric.cfg:35
+#: War_of_Legends/units/human-mages/Mage_Forest.cfg:43
+#: War_of_Legends/units/human-mages/Mage_Nature.cfg:42
+#: War_of_Legends/units/human-mages/Mage_Prophetess_of_Light.cfg:38
 #: War_of_Legends/units/human-mages/Mage_Storm.cfg:36
 #: War_of_Legends/units/human-mages/Mage_Tempest.cfg:30
 #: War_of_Legends/units/human-mages/Mage_Thunder.cfg:29
-#: War_of_Legends/units/human-mages/Mage_Wood.cfg:43
+#: War_of_Legends/units/human-mages/Mage_Wood.cfg:41
 #: War_of_Legends/units/human-outlaws/Huntress.cfg:60
 #: War_of_Legends/units/human-outlaws/Prowler.cfg:62
-#: War_of_Legends/units/human-outlaws/Shaman.cfg:55
-#: War_of_Legends/units/human-outlaws/Sorcerer.cfg:52
+#: War_of_Legends/units/human-outlaws/Shaman.cfg:53
+#: War_of_Legends/units/human-outlaws/Sorcerer.cfg:50
 #: War_of_Legends/units/human-outlaws/Tracker.cfg:60
-#: War_of_Legends/units/human-outlaws/Wizard.cfg:51
-#: War_of_Legends/units/minotaurs/Elder.cfg:34
-#: War_of_Legends/units/minotaurs/Mystic.cfg:34
-#: War_of_Legends/units/minotaurs/Shaman.cfg:33
-#: War_of_Legends/units/minotaurs/Warlock.cfg:31
-#: War_of_Legends/units/orcs/Shaman.cfg:28
-#: War_of_Legends/units/orcs/Sorcerer.cfg:28
-#: War_of_Legends/units/orcs/Warlock.cfg:29
-#: War_of_Legends/units/saurians/Prophet.cfg:41
-#: War_of_Legends/units/undead/Necro_Deathmaster.cfg:39
+#: War_of_Legends/units/human-outlaws/Wizard.cfg:49
+#: War_of_Legends/units/minotaurs/Elder.cfg:31
+#: War_of_Legends/units/minotaurs/Mystic.cfg:30
+#: War_of_Legends/units/minotaurs/Shaman.cfg:30
+#: War_of_Legends/units/minotaurs/Warlock.cfg:28
+#: War_of_Legends/units/orcs/Shaman.cfg:27
+#: War_of_Legends/units/orcs/Sorcerer.cfg:27
+#: War_of_Legends/units/orcs/Warlock.cfg:28
+#: War_of_Legends/units/saurians/Prophet.cfg:38
+#: War_of_Legends/units/undead/Necro_Deathmaster.cfg:38
 msgid "staff"
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/elves-wood/Acolyte.cfg:40
-#: War_of_Legends/units/elves-wood/Noble.cfg:39
+#: War_of_Legends/units/elves-wood/Acolyte.cfg:39
+#: War_of_Legends/units/elves-wood/Noble.cfg:37
 msgid "faerie fire"
 msgstr ""
 
@@ -1966,15 +1983,15 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/elves-wood/Ascetic.cfg:44
-#: War_of_Legends/units/elves-wood/Avatar.cfg:53
-#: War_of_Legends/units/elves-wood/Mystic.cfg:43
+#: War_of_Legends/units/elves-wood/Ascetic.cfg:42
+#: War_of_Legends/units/elves-wood/Avatar.cfg:51
+#: War_of_Legends/units/elves-wood/Mystic.cfg:41
 msgid "gossamer"
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/elves-wood/Ascetic.cfg:56
-#: War_of_Legends/units/elves-wood/Mystic.cfg:55
+#: War_of_Legends/units/elves-wood/Ascetic.cfg:54
+#: War_of_Legends/units/elves-wood/Mystic.cfg:53
 msgid "ethereal zephyr"
 msgstr ""
 
@@ -1992,12 +2009,12 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/elves-wood/Avatar.cfg:40
+#: War_of_Legends/units/elves-wood/Avatar.cfg:38
 msgid "faerie touch"
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/elves-wood/Avatar.cfg:65
+#: War_of_Legends/units/elves-wood/Avatar.cfg:63
 msgid "ethereal storm"
 msgstr ""
 
@@ -2035,38 +2052,38 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/elves-wood/Noble.cfg:30
-#: War_of_Legends/units/elves-wood/Prowler.cfg:45
-#: War_of_Legends/units/elves-wood/Trapper.cfg:40
-#: War_of_Legends/units/elves-wood/Wayfarer.cfg:41
+#: War_of_Legends/units/elves-wood/Noble.cfg:28
+#: War_of_Legends/units/elves-wood/Prowler.cfg:43
+#: War_of_Legends/units/elves-wood/Trapper.cfg:39
+#: War_of_Legends/units/elves-wood/Wayfarer.cfg:40
 #: War_of_Legends/units/gnolls/Deadeye.cfg:30
 #: War_of_Legends/units/gnolls/Marksman.cfg:29
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Captain.cfg:43
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Greatbow.cfg:34
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Captain.cfg:42
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Greatbow.cfg:33
 #: War_of_Legends/units/human-campaigns/Horse_Cavalry.cfg:26
 #: War_of_Legends/units/human-campaigns/Loyalist_Soldier.cfg:35
-#: War_of_Legends/units/human-campaigns/Loyalist_Supreme_Warlord.cfg:52
-#: War_of_Legends/units/human-campaigns/Loyalist_Warmaster.cfg:76
-#: War_of_Legends/units/human-campaigns/Loyalist_Warrior.cfg:50
-#: War_of_Legends/units/human-campaigns/Loyalist_War_Grandmaster.cfg:52
-#: War_of_Legends/units/human-legion/Cavalier.cfg:26
+#: War_of_Legends/units/human-campaigns/Loyalist_Supreme_Warlord.cfg:49
+#: War_of_Legends/units/human-campaigns/Loyalist_Warmaster.cfg:73
+#: War_of_Legends/units/human-campaigns/Loyalist_Warrior.cfg:48
+#: War_of_Legends/units/human-campaigns/Loyalist_War_Grandmaster.cfg:49
+#: War_of_Legends/units/human-legion/Cavalier.cfg:24
 #: War_of_Legends/units/human-legion/Commander.cfg:39
-#: War_of_Legends/units/human-legion/Horseman.cfg:24
-#: War_of_Legends/units/human-legion/Knight.cfg:25
-#: War_of_Legends/units/human-legion/Pillager.cfg:25
+#: War_of_Legends/units/human-legion/Horseman.cfg:23
+#: War_of_Legends/units/human-legion/Knight.cfg:23
+#: War_of_Legends/units/human-legion/Pillager.cfg:24
 #: War_of_Legends/units/human-legion/Soldier.cfg:21
 #: War_of_Legends/units/human-legion/Subaltern.cfg:38
-#: War_of_Legends/units/human-loyalists/Horse_Mounted_Bowman.cfg:34
+#: War_of_Legends/units/human-loyalists/Horse_Mounted_Bowman.cfg:33
 #: War_of_Legends/units/human-loyalists/Loyalist_Infantryman.cfg:23
 #: War_of_Legends/units/nagas/Naga_Hunter.cfg:42
-#: War_of_Legends/units/nagas/Naga_Marksman.cfg:31
-#: War_of_Legends/units/vampires/Duchess.cfg:37
-#: War_of_Legends/units/vampires/Duelist.cfg:32
-#: War_of_Legends/units/vampires/Fledgeling.cfg:30
-#: War_of_Legends/units/vampires/Methusalem.cfg:38
-#: War_of_Legends/units/vampires/Noble.cfg:36
-#: War_of_Legends/units/vampires/Sire.cfg:37
-#: War_of_Legends/units/vampires/Sword_Dancer.cfg:32
+#: War_of_Legends/units/nagas/Naga_Marksman.cfg:30
+#: War_of_Legends/units/vampires/Duchess.cfg:32
+#: War_of_Legends/units/vampires/Duelist.cfg:30
+#: War_of_Legends/units/vampires/Fledgeling.cfg:28
+#: War_of_Legends/units/vampires/Methusalem.cfg:32
+#: War_of_Legends/units/vampires/Noble.cfg:31
+#: War_of_Legends/units/vampires/Sire.cfg:32
+#: War_of_Legends/units/vampires/Sword_Dancer.cfg:30
 msgid "sword"
 msgstr ""
 
@@ -2084,14 +2101,14 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/elves-wood/Prowler.cfg:54
-#: War_of_Legends/units/elves-wood/Trapper.cfg:49
-#: War_of_Legends/units/elves-wood/Wayfarer.cfg:50
+#: War_of_Legends/units/elves-wood/Prowler.cfg:52
+#: War_of_Legends/units/elves-wood/Trapper.cfg:48
+#: War_of_Legends/units/elves-wood/Wayfarer.cfg:49
 msgid "bolas"
 msgstr ""
 
 #. [female]
-#: War_of_Legends/units/elves-wood/Prowler.cfg:133
+#: War_of_Legends/units/elves-wood/Prowler.cfg:131
 msgid "female^Elvish Prowler"
 msgstr ""
 
@@ -2106,7 +2123,7 @@ msgid "Elvish Trappers have increased their expertise in patrolling and defendin
 msgstr ""
 
 #. [female]
-#: War_of_Legends/units/elves-wood/Trapper.cfg:128
+#: War_of_Legends/units/elves-wood/Trapper.cfg:127
 msgid "female^Elvish Trapper"
 msgstr ""
 
@@ -2121,26 +2138,26 @@ msgid "The Wayfarers have left their quiet forest lives in favor of exploring th
 msgstr ""
 
 #. [attack]: type=pierce
-#: War_of_Legends/units/elves-wood/Wayfarer.cfg:61
+#: War_of_Legends/units/elves-wood/Wayfarer.cfg:60
 #: War_of_Legends/units/gnolls/Deadeye.cfg:39
 #: War_of_Legends/units/gnolls/Marksman.cfg:38
 #: War_of_Legends/units/gnolls/Regular.cfg:37
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Greatbow.cfg:43
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Greatbow.cfg:42
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Slayer.cfg:35
-#: War_of_Legends/units/human-legion/Archer.cfg:36
-#: War_of_Legends/units/human-legion/Archer.cfg:44
-#: War_of_Legends/units/human-legion/Elite_Longbowman.cfg:37
-#: War_of_Legends/units/human-legion/Elite_Longbowman.cfg:45
-#: War_of_Legends/units/human-legion/Longbowman.cfg:34
-#: War_of_Legends/units/human-legion/Longbowman.cfg:42
-#: War_of_Legends/units/human-loyalists/Horse_Mounted_Bowman.cfg:43
+#: War_of_Legends/units/human-legion/Archer.cfg:35
+#: War_of_Legends/units/human-legion/Archer.cfg:43
+#: War_of_Legends/units/human-legion/Elite_Longbowman.cfg:36
+#: War_of_Legends/units/human-legion/Elite_Longbowman.cfg:44
+#: War_of_Legends/units/human-legion/Longbowman.cfg:33
+#: War_of_Legends/units/human-legion/Longbowman.cfg:41
+#: War_of_Legends/units/human-loyalists/Horse_Mounted_Bowman.cfg:42
 #: War_of_Legends/units/nagas/Naga_Hunter.cfg:51
-#: War_of_Legends/units/nagas/Naga_Marksman.cfg:40
-#: War_of_Legends/units/vampires/Day_Hunter.cfg:44
+#: War_of_Legends/units/nagas/Naga_Marksman.cfg:39
+#: War_of_Legends/units/vampires/Day_Hunter.cfg:43
 #: War_of_Legends/units/vampires/Half_Blood.cfg:41
 #: War_of_Legends/units/vampires/Thin_Blood.cfg:42
-#: War_of_Legends/units/vampires/Twilight_Walker.cfg:57
-#: War_of_Legends/units/windsong/Weaver.cfg:48
+#: War_of_Legends/units/vampires/Twilight_Walker.cfg:56
+#: War_of_Legends/units/windsong/Weaver.cfg:47
 msgid "bow"
 msgstr ""
 
@@ -2156,17 +2173,17 @@ msgstr ""
 
 #. [attack]: type=fire
 #: War_of_Legends/units/faeries/Faerie_Dryad.cfg:41
-#: War_of_Legends/units/faeries/Faerie_Spirit.cfg:48
+#: War_of_Legends/units/faeries/Faerie_Spirit.cfg:47
 #: War_of_Legends/units/faeries/Faerie_Sprite.cfg:30
-#: War_of_Legends/units/faeries/Fire_Faerie.cfg:43
+#: War_of_Legends/units/faeries/Fire_Faerie.cfg:42
 msgid "fire aura"
 msgstr ""
 
 #. [attack]: type=fire
 #: War_of_Legends/units/faeries/Faerie_Dryad.cfg:50
-#: War_of_Legends/units/faeries/Faerie_Spirit.cfg:60
+#: War_of_Legends/units/faeries/Faerie_Spirit.cfg:59
 #: War_of_Legends/units/faeries/Faerie_Sprite.cfg:39
-#: War_of_Legends/units/faeries/Fire_Faerie.cfg:52
+#: War_of_Legends/units/faeries/Fire_Faerie.cfg:51
 msgid "mystic fire"
 msgstr ""
 
@@ -2272,26 +2289,26 @@ msgstr ""
 #. [attack]: type=pierce
 #: War_of_Legends/units/goblins/Chieftain.cfg:35
 #: War_of_Legends/units/goblins/Chieftain.cfg:44
-#: War_of_Legends/units/goblins/Goblin_Cavalry.cfg:39
-#: War_of_Legends/units/goblins/Goblin_Hellwolf_Rider.cfg:39
-#: War_of_Legends/units/goblins/Goblin_Lancer.cfg:38
-#: War_of_Legends/units/goblins/Spearmaster.cfg:32
-#: War_of_Legends/units/goblins/Spearmaster.cfg:44
-#: War_of_Legends/units/goblins/Trumpeter.cfg:40
+#: War_of_Legends/units/goblins/Goblin_Cavalry.cfg:38
+#: War_of_Legends/units/goblins/Goblin_Hellwolf_Rider.cfg:38
+#: War_of_Legends/units/goblins/Goblin_Lancer.cfg:37
+#: War_of_Legends/units/goblins/Spearmaster.cfg:31
+#: War_of_Legends/units/goblins/Spearmaster.cfg:43
+#: War_of_Legends/units/goblins/Trumpeter.cfg:39
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Ancient_Banner.cfg:41
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Captain.cfg:35
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Guardian.cfg:31
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Captain.cfg:34
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Guardian.cfg:30
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Lancer.cfg:33
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Silver_Shield.cfg:27
-#: War_of_Legends/units/human-legion/Knight.cfg:34
-#: War_of_Legends/units/human-legion/Spearman.cfg:23
+#: War_of_Legends/units/human-legion/Knight.cfg:32
+#: War_of_Legends/units/human-legion/Spearman.cfg:22
 #: War_of_Legends/units/human-loyalists/Loyalist_Javelin_Master.cfg:28
-#: War_of_Legends/units/minotaurs/Boar_Cataphract.cfg:47
-#: War_of_Legends/units/minotaurs/Boar_Knight.cfg:46
-#: War_of_Legends/units/minotaurs/Boar_Rider.cfg:29
+#: War_of_Legends/units/minotaurs/Boar_Cataphract.cfg:45
+#: War_of_Legends/units/minotaurs/Boar_Knight.cfg:44
+#: War_of_Legends/units/minotaurs/Boar_Rider.cfg:27
 #: War_of_Legends/units/saurians/Spearthrower.cfg:24
 #: War_of_Legends/units/saurians/Spearthrower.cfg:36
-#: War_of_Legends/units/windsong/Seeker.cfg:32
+#: War_of_Legends/units/windsong/Seeker.cfg:30
 msgid "spear"
 msgstr ""
 
@@ -2309,12 +2326,12 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/goblins/Cutthroat.cfg:41
+#: War_of_Legends/units/goblins/Cutthroat.cfg:40
 msgid "sickle"
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/goblins/Cutthroat.cfg:59
+#: War_of_Legends/units/goblins/Cutthroat.cfg:58
 msgid "net"
 msgstr ""
 
@@ -2329,10 +2346,10 @@ msgid "Orcs somehow figured out that a goblin riding a wolf with a spear could s
 msgstr ""
 
 #. [attack]: type=pierce
-#: War_of_Legends/units/goblins/Goblin_Cavalry.cfg:51
-#: War_of_Legends/units/goblins/Goblin_Hellwolf_Rider.cfg:51
-#: War_of_Legends/units/goblins/Goblin_Lancer.cfg:50
-#: War_of_Legends/units/human-legion/Spearman.cfg:35
+#: War_of_Legends/units/goblins/Goblin_Cavalry.cfg:50
+#: War_of_Legends/units/goblins/Goblin_Hellwolf_Rider.cfg:50
+#: War_of_Legends/units/goblins/Goblin_Lancer.cfg:49
+#: War_of_Legends/units/human-legion/Spearman.cfg:34
 #: War_of_Legends/units/human-loyalists/Loyalist_Javelin_Master.cfg:39
 msgid "javelin"
 msgstr ""
@@ -2399,8 +2416,8 @@ msgstr ""
 
 #. [attack]: type=blade
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Ancient_Banner.cfg:49
-#: War_of_Legends/units/windsong/Arbiter.cfg:38
-#: War_of_Legends/units/windsong/Librarian.cfg:40
+#: War_of_Legends/units/windsong/Arbiter.cfg:35
+#: War_of_Legends/units/windsong/Librarian.cfg:36
 msgid "scythe"
 msgstr ""
 
@@ -2472,12 +2489,12 @@ msgstr ""
 
 #. [attack]: type=pierce
 #. [attack]: type=blade
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Flagbearer.cfg:36
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Flagbearer.cfg:35
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Slayer.cfg:27
-#: War_of_Legends/units/human-loyalists/Loyalist_Custodian.cfg:28
+#: War_of_Legends/units/human-loyalists/Loyalist_Custodian.cfg:27
 #: War_of_Legends/units/human-loyalists/Loyalist_Sentry.cfg:26
-#: War_of_Legends/units/windsong/Pathfinder.cfg:31
-#: War_of_Legends/units/windsong/Pathfinder.cfg:43
+#: War_of_Legends/units/windsong/Pathfinder.cfg:28
+#: War_of_Legends/units/windsong/Pathfinder.cfg:40
 msgid "glaive"
 msgstr ""
 
@@ -2654,14 +2671,14 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/human-campaigns/Horse_Black_Knight.cfg:50
-#: War_of_Legends/units/human-legion/Doctor.cfg:51
+#: War_of_Legends/units/human-campaigns/Horse_Black_Knight.cfg:49
+#: War_of_Legends/units/human-legion/Doctor.cfg:49
 msgid "flail"
 msgstr ""
 
 #. [attack]: type=pierce
-#: War_of_Legends/units/human-campaigns/Horse_Black_Knight.cfg:59
-#: War_of_Legends/units/human-legion/Cavalier.cfg:35
+#: War_of_Legends/units/human-campaigns/Horse_Black_Knight.cfg:58
+#: War_of_Legends/units/human-legion/Cavalier.cfg:33
 msgid "lance"
 msgstr ""
 
@@ -2676,15 +2693,15 @@ msgid "There was once a legend about a knight who, only with a sword and flail, 
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/human-campaigns/Horse_Cataphract.cfg:29
-#: War_of_Legends/units/human-campaigns/Horse_Heavy_Cavalry.cfg:28
+#: War_of_Legends/units/human-campaigns/Horse_Cataphract.cfg:28
+#: War_of_Legends/units/human-campaigns/Horse_Heavy_Cavalry.cfg:27
 msgid "greatsword"
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/human-campaigns/Horse_Cataphract.cfg:38
+#: War_of_Legends/units/human-campaigns/Horse_Cataphract.cfg:37
 #: War_of_Legends/units/human-campaigns/Horse_Cavalry.cfg:35
-#: War_of_Legends/units/human-campaigns/Horse_Heavy_Cavalry.cfg:37
+#: War_of_Legends/units/human-campaigns/Horse_Heavy_Cavalry.cfg:36
 msgid "morning star"
 msgstr ""
 
@@ -2720,13 +2737,13 @@ msgstr ""
 
 #. [attack]: type=impact
 #: War_of_Legends/units/human-campaigns/Loyalist_Soldier.cfg:44
-#: War_of_Legends/units/human-campaigns/Loyalist_Supreme_Warlord.cfg:65
-#: War_of_Legends/units/human-campaigns/Loyalist_Warmaster.cfg:88
-#: War_of_Legends/units/human-campaigns/Loyalist_Warrior.cfg:59
-#: War_of_Legends/units/human-campaigns/Loyalist_War_Grandmaster.cfg:64
-#: War_of_Legends/units/human-loyalists/Loyalist_Custodian.cfg:37
+#: War_of_Legends/units/human-campaigns/Loyalist_Supreme_Warlord.cfg:62
+#: War_of_Legends/units/human-campaigns/Loyalist_Warmaster.cfg:85
+#: War_of_Legends/units/human-campaigns/Loyalist_Warrior.cfg:57
+#: War_of_Legends/units/human-campaigns/Loyalist_War_Grandmaster.cfg:61
+#: War_of_Legends/units/human-loyalists/Loyalist_Custodian.cfg:36
 #: War_of_Legends/units/minotaurs/Overlord.cfg:45
-#: War_of_Legends/units/minotaurs/Rouser.cfg:43
+#: War_of_Legends/units/minotaurs/Rouser.cfg:42
 msgid "shield"
 msgstr ""
 
@@ -2778,30 +2795,30 @@ msgid "The elite of the Legion crossbowmen prefer axes and crossbows, as the wea
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/human-legion/Arbalestier.cfg:28
-#: War_of_Legends/units/human-legion/Crossbowman.cfg:26
-#: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:27
+#: War_of_Legends/units/human-legion/Arbalestier.cfg:27
+#: War_of_Legends/units/human-legion/Crossbowman.cfg:25
+#: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:26
 #: War_of_Legends/units/human-outlaws/Axeman.cfg:21
 #: War_of_Legends/units/human-outlaws/Axemaster.cfg:22
 #: War_of_Legends/units/human-outlaws/Axethrower.cfg:22
-#: War_of_Legends/units/minotaurs/Gore.cfg:28
-#: War_of_Legends/units/undead/Skeleton_Rider.cfg:36
-#: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:38
-#: War_of_Legends/units/undead/Skele_Death_Baron.cfg:55
-#: War_of_Legends/units/vampires/Blood_Hulk.cfg:35
+#: War_of_Legends/units/minotaurs/Gore.cfg:27
+#: War_of_Legends/units/undead/Skeleton_Rider.cfg:34
+#: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:36
+#: War_of_Legends/units/undead/Skele_Death_Baron.cfg:53
+#: War_of_Legends/units/vampires/Blood_Hulk.cfg:32
 msgid "axe"
 msgstr ""
 
 #. [attack]: type=pierce
 #. [attack]: type=fire
-#: War_of_Legends/units/human-legion/Arbalestier.cfg:37
-#: War_of_Legends/units/human-legion/Arbalestier.cfg:49
-#: War_of_Legends/units/human-legion/Crossbowman.cfg:35
-#: War_of_Legends/units/human-legion/Crossbowman.cfg:47
-#: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:36
-#: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:48
-#: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:59
-#: War_of_Legends/units/undead/Skele_Death_Baron.cfg:64
+#: War_of_Legends/units/human-legion/Arbalestier.cfg:36
+#: War_of_Legends/units/human-legion/Arbalestier.cfg:48
+#: War_of_Legends/units/human-legion/Crossbowman.cfg:34
+#: War_of_Legends/units/human-legion/Crossbowman.cfg:46
+#: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:35
+#: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:47
+#: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:57
+#: War_of_Legends/units/undead/Skele_Death_Baron.cfg:62
 msgid "crossbow"
 msgstr ""
 
@@ -2816,9 +2833,9 @@ msgid "The use of archery in shooting something other than game was seen from it
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/human-legion/Archer.cfg:27
-#: War_of_Legends/units/human-legion/Elite_Longbowman.cfg:28
-#: War_of_Legends/units/human-legion/Longbowman.cfg:25
+#: War_of_Legends/units/human-legion/Archer.cfg:26
+#: War_of_Legends/units/human-legion/Elite_Longbowman.cfg:27
+#: War_of_Legends/units/human-legion/Longbowman.cfg:24
 msgid "hatchet"
 msgstr ""
 
@@ -2833,7 +2850,7 @@ msgid "Some soldiers of the Legion decide that it would be better if they went b
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/human-legion/Berserker.cfg:25
+#: War_of_Legends/units/human-legion/Berserker.cfg:24
 msgid "broadsword"
 msgstr ""
 
@@ -2924,9 +2941,9 @@ msgid "Compared to other mages, Legion Doctors have a higher resistance to ‘ar
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/human-legion/Doctor.cfg:60
-#: War_of_Legends/units/human-legion/Healer.cfg:58
-#: War_of_Legends/units/human-legion/Medic.cfg:57
+#: War_of_Legends/units/human-legion/Doctor.cfg:58
+#: War_of_Legends/units/human-legion/Healer.cfg:56
+#: War_of_Legends/units/human-legion/Medic.cfg:53
 msgid "lightbeam"
 msgstr ""
 
@@ -2951,14 +2968,14 @@ msgid "Elite enforcers are the most feared soldiers on the Legion for their thun
 msgstr ""
 
 #. [attack]: type=pierce
-#: War_of_Legends/units/human-legion/Enforcer.cfg:28
-#: War_of_Legends/units/human-legion/Gunner.cfg:28
+#: War_of_Legends/units/human-legion/Enforcer.cfg:27
+#: War_of_Legends/units/human-legion/Gunner.cfg:27
 msgid "pike"
 msgstr ""
 
 #. [attack]: type=pierce
-#: War_of_Legends/units/human-legion/Enforcer.cfg:39
-#: War_of_Legends/units/human-legion/Gunner.cfg:39
+#: War_of_Legends/units/human-legion/Enforcer.cfg:38
+#: War_of_Legends/units/human-legion/Gunner.cfg:38
 msgid "thunderstick"
 msgstr ""
 
@@ -2974,10 +2991,10 @@ msgstr ""
 
 #. [attack]: type=pierce
 #. [attack]: type=blade
-#: War_of_Legends/units/human-legion/Executioner.cfg:28
-#: War_of_Legends/units/human-legion/Executioner.cfg:40
-#: War_of_Legends/units/human-legion/Halberdier.cfg:27
-#: War_of_Legends/units/human-legion/Halberdier.cfg:39
+#: War_of_Legends/units/human-legion/Executioner.cfg:27
+#: War_of_Legends/units/human-legion/Executioner.cfg:39
+#: War_of_Legends/units/human-legion/Halberdier.cfg:26
+#: War_of_Legends/units/human-legion/Halberdier.cfg:38
 msgid "halberd"
 msgstr ""
 
@@ -3178,14 +3195,14 @@ msgid "Some Infantrymen may follow a divine path towards the light and become Kn
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/human-loyalists/Loyalist_Chevalier.cfg:41
-#: War_of_Legends/units/human-loyalists/Loyalist_Crusader.cfg:42
+#: War_of_Legends/units/human-loyalists/Loyalist_Chevalier.cfg:39
+#: War_of_Legends/units/human-loyalists/Loyalist_Crusader.cfg:40
 msgid "divine sword"
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/human-loyalists/Loyalist_Chevalier.cfg:50
-#: War_of_Legends/units/human-loyalists/Loyalist_Crusader.cfg:51
+#: War_of_Legends/units/human-loyalists/Loyalist_Chevalier.cfg:48
+#: War_of_Legends/units/human-loyalists/Loyalist_Crusader.cfg:49
 msgid "divine lightning"
 msgstr ""
 
@@ -3270,7 +3287,7 @@ msgid "Certain female mage apprentices are chosen from admission into the academ
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/human-mages/Mage_Adept_of_Light.cfg:108
+#: War_of_Legends/units/human-mages/Mage_Adept_of_Light.cfg:107
 msgid "aura blast"
 msgstr ""
 
@@ -3285,12 +3302,12 @@ msgid "Female adepts are given a choice in their study of light magic. The cleri
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/human-mages/Mage_Cleric.cfg:45
-#: War_of_Legends/units/human-mages/Mage_Prophetess_of_Light.cfg:49
-#: War_of_Legends/units/minotaurs/Elder.cfg:43
-#: War_of_Legends/units/minotaurs/Mystic.cfg:43
-#: War_of_Legends/units/minotaurs/Shaman.cfg:42
-#: War_of_Legends/units/minotaurs/Warlock.cfg:40
+#: War_of_Legends/units/human-mages/Mage_Cleric.cfg:44
+#: War_of_Legends/units/human-mages/Mage_Prophetess_of_Light.cfg:47
+#: War_of_Legends/units/minotaurs/Elder.cfg:40
+#: War_of_Legends/units/minotaurs/Mystic.cfg:39
+#: War_of_Legends/units/minotaurs/Shaman.cfg:39
+#: War_of_Legends/units/minotaurs/Warlock.cfg:37
 msgid "sacred fire"
 msgstr ""
 
@@ -3308,12 +3325,12 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=fire
-#: War_of_Legends/units/human-mages/Mage_Forest.cfg:54
-#: War_of_Legends/units/human-mages/Mage_Nature.cfg:54
-#: War_of_Legends/units/human-mages/Mage_Wood.cfg:52
-#: War_of_Legends/units/orcs/Shaman.cfg:37
-#: War_of_Legends/units/orcs/Sorcerer.cfg:37
-#: War_of_Legends/units/orcs/Warlock.cfg:38
+#: War_of_Legends/units/human-mages/Mage_Forest.cfg:52
+#: War_of_Legends/units/human-mages/Mage_Nature.cfg:51
+#: War_of_Legends/units/human-mages/Mage_Wood.cfg:50
+#: War_of_Legends/units/orcs/Shaman.cfg:36
+#: War_of_Legends/units/orcs/Sorcerer.cfg:36
+#: War_of_Legends/units/orcs/Warlock.cfg:37
 msgid "nature flare"
 msgstr ""
 
@@ -3331,7 +3348,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/human-mages/Mage_Nature.cfg:66
+#: War_of_Legends/units/human-mages/Mage_Nature.cfg:63
 msgid "terra orbis"
 msgstr ""
 
@@ -3461,18 +3478,18 @@ msgid "Some mages are thrown out of the mage’s guild for attempting to practic
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/human-outlaws/Shadow_Initiate.cfg:27
-#: War_of_Legends/units/human-outlaws/Shadow_Mage.cfg:34
+#: War_of_Legends/units/human-outlaws/Shadow_Initiate.cfg:25
+#: War_of_Legends/units/human-outlaws/Shadow_Mage.cfg:32
 msgid "short sword"
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/human-outlaws/Shadow_Initiate.cfg:36
-#: War_of_Legends/units/human-outlaws/Shadow_Mage.cfg:47
-#: War_of_Legends/units/undead/Necro_Deathmaster.cfg:61
-#: War_of_Legends/units/undead/Necro_Elder_Lich_Lord.cfg:72
-#: War_of_Legends/units/undead/Necro_Initiate.cfg:45
-#: War_of_Legends/units/undead/Necro_Lich_Lord.cfg:70
+#: War_of_Legends/units/human-outlaws/Shadow_Initiate.cfg:34
+#: War_of_Legends/units/human-outlaws/Shadow_Mage.cfg:45
+#: War_of_Legends/units/undead/Necro_Deathmaster.cfg:60
+#: War_of_Legends/units/undead/Necro_Elder_Lich_Lord.cfg:70
+#: War_of_Legends/units/undead/Necro_Initiate.cfg:43
+#: War_of_Legends/units/undead/Necro_Lich_Lord.cfg:68
 msgid "shadow wave"
 msgstr ""
 
@@ -3487,12 +3504,12 @@ msgid "Few humans fathom the secrets of light and dark magic and retain their sa
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/human-outlaws/Shadow_Lord.cfg:36
+#: War_of_Legends/units/human-outlaws/Shadow_Lord.cfg:33
 msgid "astral blade"
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/human-outlaws/Shadow_Lord.cfg:48
+#: War_of_Legends/units/human-outlaws/Shadow_Lord.cfg:45
 msgid "noctum"
 msgstr ""
 
@@ -3519,7 +3536,7 @@ msgid "The study of magic followed by the these mages is based on both healing a
 msgstr ""
 
 #. [attack]: type=fire
-#: War_of_Legends/units/human-outlaws/Shaman.cfg:65
+#: War_of_Legends/units/human-outlaws/Shaman.cfg:63
 msgid "missile"
 msgstr ""
 
@@ -3534,10 +3551,10 @@ msgid "Sorcerers are the eldest among all humans. No one knows how these mages h
 msgstr ""
 
 #. [attack]: type=fire
-#: War_of_Legends/units/human-outlaws/Sorcerer.cfg:62
-#: War_of_Legends/units/human-outlaws/Wizard.cfg:60
-#: War_of_Legends/units/minotaurs/Elder.cfg:55
-#: War_of_Legends/units/minotaurs/Warlock.cfg:52
+#: War_of_Legends/units/human-outlaws/Sorcerer.cfg:60
+#: War_of_Legends/units/human-outlaws/Wizard.cfg:58
+#: War_of_Legends/units/minotaurs/Elder.cfg:52
+#: War_of_Legends/units/minotaurs/Warlock.cfg:49
 #: War_of_Legends/units/windsong/Harbinger.cfg:89
 #: War_of_Legends/units/windsong/Heretic.cfg:53
 #: War_of_Legends/units/windsong/Warmonger.cfg:68
@@ -3575,8 +3592,8 @@ msgid "The Behemoths were minotaurs who committed crimes that are so severe (pos
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/minotaurs/Behemoth.cfg:31
-#: War_of_Legends/units/minotaurs/Behemoth_Ancient.cfg:32
+#: War_of_Legends/units/minotaurs/Behemoth.cfg:28
+#: War_of_Legends/units/minotaurs/Behemoth_Ancient.cfg:29
 msgid "maul"
 msgstr ""
 
@@ -3601,11 +3618,11 @@ msgid "Cataphracts are the elite of the boar-riding forces of the minotaur force
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/minotaurs/Boar_Cataphract.cfg:56
-#: War_of_Legends/units/minotaurs/Boar_Knight.cfg:55
-#: War_of_Legends/units/minotaurs/Boar_Rider.cfg:38
-#: War_of_Legends/units/undead/Skeleton_Rider.cfg:46
-#: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:48
+#: War_of_Legends/units/minotaurs/Boar_Cataphract.cfg:54
+#: War_of_Legends/units/minotaurs/Boar_Knight.cfg:53
+#: War_of_Legends/units/minotaurs/Boar_Rider.cfg:36
+#: War_of_Legends/units/undead/Skeleton_Rider.cfg:44
+#: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:46
 msgid "trample"
 msgstr ""
 
@@ -3641,12 +3658,12 @@ msgstr ""
 
 #. [attack]: type=blade
 #. [attack]: type=impact
-#: War_of_Legends/units/minotaurs/Cutthroat.cfg:29
-#: War_of_Legends/units/minotaurs/Cutthroat.cfg:37
-#: War_of_Legends/units/minotaurs/Executioner.cfg:36
-#: War_of_Legends/units/minotaurs/Executioner.cfg:47
-#: War_of_Legends/units/minotaurs/Slayer.cfg:34
-#: War_of_Legends/units/minotaurs/Slayer.cfg:42
+#: War_of_Legends/units/minotaurs/Cutthroat.cfg:27
+#: War_of_Legends/units/minotaurs/Cutthroat.cfg:35
+#: War_of_Legends/units/minotaurs/Executioner.cfg:33
+#: War_of_Legends/units/minotaurs/Executioner.cfg:44
+#: War_of_Legends/units/minotaurs/Slayer.cfg:32
+#: War_of_Legends/units/minotaurs/Slayer.cfg:40
 msgid "kusarigama"
 msgstr ""
 
@@ -3702,7 +3719,7 @@ msgstr ""
 
 #. [attack]: type=blade
 #: War_of_Legends/units/minotaurs/Overlord.cfg:36
-#: War_of_Legends/units/minotaurs/Rouser.cfg:34
+#: War_of_Legends/units/minotaurs/Rouser.cfg:33
 msgid "battle axe"
 msgstr ""
 
@@ -3744,6 +3761,54 @@ msgstr ""
 #. [unit_type]: id=Minotaur Warlock, race=minotaur
 #: War_of_Legends/units/minotaurs/Warlock.cfg:21
 msgid "The Minotaur Warlocks are very powerful mages that have a very important role in minotaur society; that role is to serve as conveyors of their goddess' words and to serve as her hands. Their vast power comes from their powerful aura combined with the crystals they wield."
+msgstr ""
+
+#. [unit_type]: id=Cave Wyrm, race=monster
+#: War_of_Legends/units/monsters/Cave_Wyrm.cfg:5
+msgid "Cave Wyrm"
+msgstr ""
+
+#. [unit_type]: id=Cave Wyrm, race=monster
+#: War_of_Legends/units/monsters/Cave_Wyrm.cfg:19
+msgid "Cave Wyrms are strange beasts, basically stout serpents with wings, but no legs.  They are relatively rare, and their presence is attributed to some eccentric wizard or dragon.  Mature Wyrms have excellent control of their fire breath attack, as if they are themselves miniature dragons."
+msgstr ""
+
+#. [attack]: type=fire
+#: War_of_Legends/units/monsters/Cave_Wyrm.cfg:86
+#: War_of_Legends/units/monsters/Cave_Wyrmlet.cfg:84
+msgid "breath"
+msgstr ""
+
+#. [unit_type]: id=Cave Wyrmlet, race=monster
+#: War_of_Legends/units/monsters/Cave_Wyrmlet.cfg:4
+msgid "Cave Wyrmlet"
+msgstr ""
+
+#. [unit_type]: id=Cave Wyrmlet, race=monster
+#: War_of_Legends/units/monsters/Cave_Wyrmlet.cfg:17
+msgid "Cave Wyrms are strange beasts, basically stout serpents with wings, but no legs.  They are relatively rare, and their presence is attributed to some eccentric wizard or dragon.  The young are small, but hungry and aggressive."
+msgstr ""
+
+#. [unit_type]: id=Dragon Lord, race=dragon
+#: War_of_Legends/units/monsters/Dragon_Lord.cfg:11
+msgid "Dragon Lord"
+msgstr ""
+
+#. [unit_type]: id=Dragon Lord, race=dragon
+#. [race]: id=dragon
+#: War_of_Legends/units/monsters/Dragon_Lord.cfg:31
+#: War_of_Legends/units/monsters.cfg:11
+msgid "A dragon is a legendary creature, normally seen only in fantastic tales. They are very rare, and were it not for the historical events, the singlehanded destruction of cities and towns that these creatures have wrought, they might be dismissed as mere myth. Legends are very specific about the ravages of dragons; noting their great strength, speed, their preternatural cunning, and above all else, the great fire that burns inside of them."
+msgstr ""
+
+#. [attack]: type=blade
+#: War_of_Legends/units/monsters/Dragon_Lord.cfg:40
+msgid "bite"
+msgstr ""
+
+#. [attack]: type=impact
+#: War_of_Legends/units/monsters/Dragon_Lord.cfg:49
+msgid "tail"
 msgstr ""
 
 #. [unit_type]: id=Dust Devil, race=elemental
@@ -3844,7 +3909,7 @@ msgid "Ice ghosts are manifestations of magical energies that appear in cold and
 msgstr ""
 
 #. [attack]: type=cold
-#: War_of_Legends/units/monsters/Ice_Ghost.cfg:30
+#: War_of_Legends/units/monsters/Ice_Ghost.cfg:28
 msgid "frost claws"
 msgstr ""
 
@@ -3862,11 +3927,11 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=cold
-#: War_of_Legends/units/monsters/Sky_Crystal.cfg:46
-#: War_of_Legends/units/monsters/Sky_Shard.cfg:45
-#: War_of_Legends/units/windsong/Envoy.cfg:37
-#: War_of_Legends/units/windsong/Herald.cfg:38
-#: War_of_Legends/units/windsong/Weaver.cfg:39
+#: War_of_Legends/units/monsters/Sky_Crystal.cfg:45
+#: War_of_Legends/units/monsters/Sky_Shard.cfg:44
+#: War_of_Legends/units/windsong/Envoy.cfg:34
+#: War_of_Legends/units/windsong/Herald.cfg:35
+#: War_of_Legends/units/windsong/Weaver.cfg:38
 msgid "purge"
 msgstr ""
 
@@ -3894,7 +3959,7 @@ msgid "Wyrms, the cold-blooded cousins of the Fire Dragons, prefer the cold envi
 msgstr ""
 
 #. [attack]: type=cold
-#: War_of_Legends/units/monsters/Wyrm.cfg:82
+#: War_of_Legends/units/monsters/Wyrm.cfg:80
 msgid "arctic breath"
 msgstr ""
 
@@ -3941,14 +4006,14 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=cold
-#: War_of_Legends/units/nightmares/Cloud_of_Gloom.cfg:39
-#: War_of_Legends/units/nightmares/Eternal_Night.cfg:40
+#: War_of_Legends/units/nightmares/Cloud_of_Gloom.cfg:38
+#: War_of_Legends/units/nightmares/Eternal_Night.cfg:39
 msgid "cold aura"
 msgstr ""
 
 #. [attack]: type=cold
-#: War_of_Legends/units/nightmares/Cloud_of_Gloom.cfg:52
-#: War_of_Legends/units/nightmares/Eternal_Night.cfg:53
+#: War_of_Legends/units/nightmares/Cloud_of_Gloom.cfg:51
+#: War_of_Legends/units/nightmares/Eternal_Night.cfg:52
 #: War_of_Legends/units/nightmares/Howling_Darkness.cfg:36
 msgid "howl"
 msgstr ""
@@ -3969,9 +4034,9 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/nightmares/Death_Spectre.cfg:38
-#: War_of_Legends/units/nightmares/Life_Thief.cfg:34
-#: War_of_Legends/units/nightmares/Soul_Snatcher.cfg:35
+#: War_of_Legends/units/nightmares/Death_Spectre.cfg:36
+#: War_of_Legends/units/nightmares/Life_Thief.cfg:32
+#: War_of_Legends/units/nightmares/Soul_Snatcher.cfg:33
 msgid "soul grasp"
 msgstr ""
 
@@ -4199,7 +4264,7 @@ msgid "Certain saurians are seen dressed in arcane regalia and covered head to t
 msgstr ""
 
 #. [attack]: type=cold
-#: War_of_Legends/units/saurians/Prophet.cfg:50
+#: War_of_Legends/units/saurians/Prophet.cfg:47
 msgid "curse"
 msgstr ""
 
@@ -4244,8 +4309,8 @@ msgid "His wanderings on a dark path have given him power normally not granted t
 msgstr ""
 
 #. [attack]: type=cold
-#: War_of_Legends/units/undead/Necro_Deathmaster.cfg:48
-#: War_of_Legends/units/undead/Necro_Initiate.cfg:33
+#: War_of_Legends/units/undead/Necro_Deathmaster.cfg:47
+#: War_of_Legends/units/undead/Necro_Initiate.cfg:31
 msgid "chill wave"
 msgstr ""
 
@@ -4260,14 +4325,14 @@ msgid "At long last, necromantic practitioners have paid the ultimate sacrifice 
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/undead/Necro_Elder_Lich_Lord.cfg:47
-#: War_of_Legends/units/undead/Necro_Lich_Lord.cfg:45
+#: War_of_Legends/units/undead/Necro_Elder_Lich_Lord.cfg:45
+#: War_of_Legends/units/undead/Necro_Lich_Lord.cfg:43
 msgid "touch"
 msgstr ""
 
 #. [attack]: type=cold
-#: War_of_Legends/units/undead/Necro_Elder_Lich_Lord.cfg:59
-#: War_of_Legends/units/undead/Necro_Lich_Lord.cfg:57
+#: War_of_Legends/units/undead/Necro_Elder_Lich_Lord.cfg:57
+#: War_of_Legends/units/undead/Necro_Lich_Lord.cfg:55
 msgid "chill tempest"
 msgstr ""
 
@@ -4322,9 +4387,9 @@ msgid "The life-like appearance of the Dark Invader can confuse people when seen
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/undead/Skele_Dark_Invader.cfg:32
-#: War_of_Legends/units/undead/Skele_Dark_Rider.cfg:32
-#: War_of_Legends/units/undead/Spirit_Shadowback.cfg:37
+#: War_of_Legends/units/undead/Skele_Dark_Invader.cfg:29
+#: War_of_Legends/units/undead/Skele_Dark_Rider.cfg:29
+#: War_of_Legends/units/undead/Spirit_Shadowback.cfg:35
 msgid "baneblade"
 msgstr ""
 
@@ -4359,7 +4424,7 @@ msgid "These shades of what were once warriors are among the most terrifying thi
 msgstr ""
 
 #. [attack]: type=cold
-#: War_of_Legends/units/undead/Spirit_Shadowback.cfg:48
+#: War_of_Legends/units/undead/Spirit_Shadowback.cfg:46
 msgid "wail"
 msgstr ""
 
@@ -4389,10 +4454,10 @@ msgid "Vampires always had a strong obsession with blood and control. As such, t
 msgstr ""
 
 #. [attack]: type=fire
-#: War_of_Legends/units/vampires/Blood_Apprentice.cfg:41
-#: War_of_Legends/units/vampires/Blood_Manipulator.cfg:41
-#: War_of_Legends/units/vampires/Flesh_Artisan.cfg:52
-#: War_of_Legends/units/vampires/Sangel.cfg:42
+#: War_of_Legends/units/vampires/Blood_Apprentice.cfg:37
+#: War_of_Legends/units/vampires/Blood_Manipulator.cfg:37
+#: War_of_Legends/units/vampires/Flesh_Artisan.cfg:48
+#: War_of_Legends/units/vampires/Sangel.cfg:38
 msgid "blood boil"
 msgstr ""
 
@@ -4427,7 +4492,7 @@ msgid "After heading to the halfway point, a halfblood can choose to go back. Th
 msgstr ""
 
 #. [female]
-#: War_of_Legends/units/vampires/Day_Hunter.cfg:75
+#: War_of_Legends/units/vampires/Day_Hunter.cfg:74
 msgid "female^Day Hunter"
 msgstr ""
 
@@ -4442,10 +4507,10 @@ msgid "A Duchess is a powerful, yet elegant vampiress who is often the wife of a
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/vampires/Duchess.cfg:59
-#: War_of_Legends/units/vampires/Methusalem.cfg:60
-#: War_of_Legends/units/vampires/Mistress.cfg:59
-#: War_of_Legends/units/vampires/Sire.cfg:59
+#: War_of_Legends/units/vampires/Duchess.cfg:54
+#: War_of_Legends/units/vampires/Methusalem.cfg:54
+#: War_of_Legends/units/vampires/Mistress.cfg:53
+#: War_of_Legends/units/vampires/Sire.cfg:54
 msgid "dementia gaze"
 msgstr ""
 
@@ -4460,7 +4525,7 @@ msgid "Vampires have always had a somewhat upper-class manner. This transfers ov
 msgstr ""
 
 #. [female]
-#: War_of_Legends/units/vampires/Duelist.cfg:149
+#: War_of_Legends/units/vampires/Duelist.cfg:147
 msgid "female^Duelist"
 msgstr ""
 
@@ -4475,7 +4540,7 @@ msgid "Most vampires are weak ones in service of the lords and more powerful one
 msgstr ""
 
 #. [female]
-#: War_of_Legends/units/vampires/Fledgeling.cfg:111
+#: War_of_Legends/units/vampires/Fledgeling.cfg:109
 msgid "female^Fledgeling"
 msgstr ""
 
@@ -4545,7 +4610,7 @@ msgid "The vampires with family or leadership make themselves lord over whatever
 msgstr ""
 
 #. [female]
-#: War_of_Legends/units/vampires/Noble.cfg:150
+#: War_of_Legends/units/vampires/Noble.cfg:145
 msgid "female^Lady"
 msgstr ""
 
@@ -4580,7 +4645,7 @@ msgid "Vampires live a long time, and have time to develop many social graces, i
 msgstr ""
 
 #. [female]
-#: War_of_Legends/units/vampires/Sword_Dancer.cfg:149
+#: War_of_Legends/units/vampires/Sword_Dancer.cfg:147
 msgid "female^Sword Dancer"
 msgstr ""
 
@@ -4610,12 +4675,12 @@ msgid "After reaching the halfway point, a halfblood can choose to go back, but 
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/vampires/Twilight_Walker.cfg:36
+#: War_of_Legends/units/vampires/Twilight_Walker.cfg:35
 msgid "poisoned dagger"
 msgstr ""
 
 #. [female]
-#: War_of_Legends/units/vampires/Twilight_Walker.cfg:168
+#: War_of_Legends/units/vampires/Twilight_Walker.cfg:167
 msgid "female^Twilight Walker"
 msgstr ""
 
@@ -4630,10 +4695,10 @@ msgid "The head mistress among the Savants is known as the Arbiter. Possessing v
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/windsong/Arbiter.cfg:46
-#: War_of_Legends/units/windsong/Librarian.cfg:48
-#: War_of_Legends/units/windsong/Savant.cfg:39
-#: War_of_Legends/units/windsong/Scribe.cfg:40
+#: War_of_Legends/units/windsong/Arbiter.cfg:43
+#: War_of_Legends/units/windsong/Librarian.cfg:44
+#: War_of_Legends/units/windsong/Savant.cfg:35
+#: War_of_Legends/units/windsong/Scribe.cfg:37
 msgid "cipher"
 msgstr ""
 
@@ -4653,8 +4718,8 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=energy
-#: War_of_Legends/units/windsong/Ascendant.cfg:72
-#: War_of_Legends/units/windsong/Prophetess.cfg:67
+#: War_of_Legends/units/windsong/Ascendant.cfg:69
+#: War_of_Legends/units/windsong/Prophetess.cfg:65
 msgid "chronostasis cipher"
 msgstr ""
 
@@ -4713,17 +4778,17 @@ msgstr ""
 
 #. [attack]: type=pierce
 #. [attack]: type=blade
-#: War_of_Legends/units/windsong/Farstrider.cfg:32
-#: War_of_Legends/units/windsong/Farstrider.cfg:44
+#: War_of_Legends/units/windsong/Farstrider.cfg:29
+#: War_of_Legends/units/windsong/Farstrider.cfg:41
 msgid "polearm"
 msgstr ""
 
 #. [attack]: type=electric
-#: War_of_Legends/units/windsong/Farstrider.cfg:53
-#: War_of_Legends/units/windsong/Pathfinder.cfg:52
-#: War_of_Legends/units/windsong/Seeker.cfg:41
-#: War_of_Legends/units/windsong/Skyrunner.cfg:47
-#: War_of_Legends/units/windsong/Stormbringer.cfg:48
+#: War_of_Legends/units/windsong/Farstrider.cfg:50
+#: War_of_Legends/units/windsong/Pathfinder.cfg:49
+#: War_of_Legends/units/windsong/Seeker.cfg:39
+#: War_of_Legends/units/windsong/Skyrunner.cfg:45
+#: War_of_Legends/units/windsong/Stormbringer.cfg:46
 msgid "lightning cipher"
 msgstr ""
 
@@ -4856,17 +4921,17 @@ msgid "Instead of becoming Arbiters, some savants may chose to master all forms 
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/windsong/Rune_Forger.cfg:43
+#: War_of_Legends/units/windsong/Rune_Forger.cfg:39
 msgid "sorrow"
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/windsong/Rune_Forger.cfg:57
+#: War_of_Legends/units/windsong/Rune_Forger.cfg:53
 msgid "memory"
 msgstr ""
 
 #. [attack]: type=pierce
-#: War_of_Legends/units/windsong/Rune_Forger.cfg:71
+#: War_of_Legends/units/windsong/Rune_Forger.cfg:67
 msgid "death"
 msgstr ""
 
@@ -4917,8 +4982,8 @@ msgid "One of the few warrior groups to survive the Age of Patience, Skyrunners 
 msgstr ""
 
 #. [attack]: type=pierce
-#: War_of_Legends/units/windsong/Skyrunner.cfg:38
-#: War_of_Legends/units/windsong/Stormbringer.cfg:39
+#: War_of_Legends/units/windsong/Skyrunner.cfg:36
+#: War_of_Legends/units/windsong/Stormbringer.cfg:37
 msgid "trident"
 msgstr ""
 
@@ -5125,11 +5190,6 @@ msgstr ""
 #. [race]: id=dragon
 #: War_of_Legends/units/monsters.cfg:7
 msgid "race+plural^Dragons"
-msgstr ""
-
-#. [race]: id=dragon
-#: War_of_Legends/units/monsters.cfg:11
-msgid "A dragon is a legendary creature, normally seen only in fantastic tales. They are very rare, and were it not for the historical events, the singlehanded destruction of cities and towns that these creatures have wrought, they might be dismissed as mere myth. Legends are very specific about the ravages of dragons; noting their great strength, speed, their preternatural cunning, and above all else, the great fire that burns inside of them."
 msgstr ""
 
 #: War_of_Legends/units/nightmares-elementals.cfg:4
