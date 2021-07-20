@@ -9,7 +9,8 @@ It is required as a dependency to play the following campaigns:
 2. [Hero of Irdya Book I](https://forums.wesnoth.org/viewtopic.php?f=8&t=43290)
 3. [Sepulchre of Elran](https://forums.wesnoth.org/viewtopic.php?f=8&t=44860)
 4. [Assault on the Citadel](https://github.com/knyghtmare/Assault_on_the_Citadel)
-5. #### Unconfirmed:
+5. [Survivals (War of Legends)](https://github.com/knyghtmare/Survivals_WoL)
+6. #### Unconfirmed:
    1. Frigid Nightmares (unconfirmed)
    2. Hero of Irdya Book II (unconfirmed)
    3. Hero of Irdya Book III (unconfirmed)
