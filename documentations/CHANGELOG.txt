@@ -17,6 +17,8 @@ version 1.2.6.9:
    --> Flagbearer: cost 40 -> 27
    --> Lancer: cost 34 -> 32
    --> Captain: cost 60 -> 51
+--> Quenoth: 
+   --> added Fire Guardian to the recruit list
 
 version 1.2.6.8:
 --> New alternate advancement to the Saurian Skirmisher
