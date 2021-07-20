@@ -2,6 +2,7 @@ War of Legends
 Change-Log v1.2.6.9
 
 version 1.2.6.9:
+--> Eras: added better AI settings
 --> The Loyalists (RPG era): fixed missing faction image
 --> fixed a deprecation in code
 --> removed unused/obsolete code which was shamelessly throwing deprecation warnings
