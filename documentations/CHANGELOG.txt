@@ -1,5 +1,11 @@
 War of Legends
-Change-Log v1.2.6.9
+Change-Log v1.2.6.10
+
+version 1.2.6.10:
+--> Saurians: new units
+   --> Saurian Warden
+   --> Saurian Seer
+   --> updated existing units
 
 version 1.2.6.9:
 --> Eras: added better AI settings
