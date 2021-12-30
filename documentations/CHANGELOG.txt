@@ -8,6 +8,8 @@ version 1.2.6.10:
    --> updated existing units
 --> Minotaurs:
    --> Centaur Spearmaiden: fixed a broken advancement chain bug
+--> Vampires:
+   --> Fixed a bug with Bloodborn's traits (pointed out by Atreides)
 
 version 1.2.6.9:
 --> Eras: added better AI settings
