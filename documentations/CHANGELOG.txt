@@ -6,6 +6,8 @@ version 1.2.6.10:
    --> Saurian Warden
    --> Saurian Seer
    --> updated existing units
+--> Minotaurs:
+   --> Centaur Spearmaiden: fixed a broken advancement chain bug
 
 version 1.2.6.9:
 --> Eras: added better AI settings
