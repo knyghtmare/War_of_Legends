@@ -10,7 +10,6 @@
 -- Whirlpool - Water/Deepwater/Fords
 -- Swamp-whirlpool - Swampwater/Quagmire
 
-local helper = wesnoth.require("helper")
 local _ = wesnoth.textdomain 'wesnoth-War_of_Legends'
 local T = wml.tag
 local on_event = wesnoth.require("on_event")
