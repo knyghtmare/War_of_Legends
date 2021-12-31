@@ -10,6 +10,8 @@ version 1.2.6.10:
    --> Centaur Spearmaiden: fixed a broken advancement chain bug
 --> Vampires:
    --> Fixed a bug with Bloodborn's traits (pointed out by Atreides)
+--> Structure:
+   --> Added [resource] tags to prevent cluttering
 
 version 1.2.6.9:
 --> Eras: added better AI settings
