@@ -28,7 +28,8 @@ end
 
 on_event("new turn", function()
     -- filter for unit with terrain link
-    local terrain_linked_units = wesnoth.units.find_on_map { ability = "WOL_terrain_link", side = wesnoth.current.side }
+    -- local terrain_linked_units = wesnoth.units.find_on_map { ability = "WOL_terrain_link", side = wesnoth.current.side }
+    local terrain_linked_units = wesnoth.units.find_on_map { ability = "WOL_terrain_link" }
 
     -- set up a for loop
     for i, terrain_linked_unit in ipairs(terrain_linked_units) do
