@@ -8,10 +8,12 @@ version 1.2.6.10:
    --> updated existing units
 --> Minotaurs:
    --> Centaur Spearmaiden: fixed a broken advancement chain bug
+   --> Fixed Overlord not being updated to new minotaurs 
 --> Vampires:
    --> Fixed a bug with Bloodborn's traits (pointed out by Atreides)
 --> Structure:
    --> Added [resource] tags to prevent cluttering
+
 
 version 1.2.6.9:
 --> Eras: added better AI settings
