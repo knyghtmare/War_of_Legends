@@ -11,7 +11,8 @@ It is required as a dependency to play the following campaigns:
 4. [Assault on the Citadel](https://github.com/knyghtmare/Assault_on_the_Citadel)
 5. [Survivals (War of Legends)](https://github.com/knyghtmare/Survivals_WoL)
 6. RPG (War of Legends)
-7. #### Unconfirmed:
+7. [Struggle for Freedom](https://github.com/knyghtmare/Struggle_For_Freedom)
+8. #### Unconfirmed:
    1. Frigid Nightmares (unconfirmed)
    2. Hero of Irdya Book II (unconfirmed)
    3. Hero of Irdya Book III (unconfirmed)
@@ -24,6 +25,7 @@ It is required as a dependency to play the following campaigns:
 
 ### By [scio-nullus](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=183306)
 1. [Mercenary Band](https://forums.wesnoth.org/viewtopic.php?t=49866)
+2. Wandering Warriors (1.16.x add-on server/no forum thread found)
 
 ### By [Ihybrideur](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=185844):
 1. [Legends of Idaamub](https://forums.wesnoth.org/viewtopic.php?p=644433#p644433)
