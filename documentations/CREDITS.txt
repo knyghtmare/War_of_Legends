@@ -64,9 +64,9 @@ The team of players who made Nightmares of Meloen
 
 Era of Chaos development team
 
----> Naga Guardian
----> Naga Warden
----> Naga Sentinel
+---> Naga Guard
+---> Naga Shield Guard
+---> Naga High Guard
 
 gooby, revansurik
 
