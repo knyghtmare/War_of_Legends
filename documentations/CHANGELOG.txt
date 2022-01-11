@@ -608,9 +608,9 @@ Human Alliance:
 
 Dark Legion:
 
----> Reduced the melee damage of the Naga Guardian from 7-3 to 8-2
----> Reduced the melee damage of the Naga Sentinel from 10-4 to 13-3
----> Reduced movement of Naga Sentinel by 1
+---> Reduced the melee damage of the Naga Guard from 7-3 to 8-2
+---> Reduced the melee damage of the Naga High Guard from 10-4 to 13-3
+---> Reduced movement of Naga High Guard by 1
 
 Southerners:
 
