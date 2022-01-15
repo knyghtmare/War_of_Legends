@@ -5,11 +5,11 @@ racial_skills = {
   },
   Human = {
     allow_categories = {"crossbow"},
-    disallow_categories = {}, -- No weaknesses but less strengths, easiest to play
+    disallow_categories = {},
   },
   Orcish = {
-    allow_categories = {"blade"}, -- Even mages can use swords
-    disallow_categories = {"polearm"}, -- Spears are for goblins
+    allow_categories = {"blade"}, 
+    disallow_categories = {"polearm"}, 
   },
 }
 
