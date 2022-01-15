@@ -36,7 +36,8 @@ end
 
 function can_equip(unit, item)
   local type_parts = mysplit(unit.type, " ")
-  local categories = deepcopy(class_skills[type_parts[2]].categories)
+  local unit_race = unit.race
+  local categories = deepcopy(class_skills[unit_race].categories)
   for i,category in ipairs(racial_skills[type_parts[1]].allow_categories) do
     table.insert(categories, category)
   end
