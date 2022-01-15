@@ -20,7 +20,7 @@ function wesnoth.wml_actions.show_inventory(cfg)
     local item = get_item(vars["chosen_item"])
 
     if not can_equip(unit, item) then
-      wesnoth.wml_actions.message{speaker = "narrator", message = "This item can't be equipped. Either this unit doesn't have the necessary skill, or this unit already has an item equipped in this slot."}
+      wesnoth.wml_actions.message{speaker = "narrator", message = "This item cannot be equipped. Either this unit does not have the necessary skill, or this unit already has an item equipped in this slot."}
       return
     end
 
@@ -117,7 +117,7 @@ function wesnoth.wml_actions.show_pickup_dialog(cfg)
   local caption = "On the ground you find: " .. item.name
 
   if not can_equip(unit, item) then
-    caption = caption .. "<span color=\"red\">" .. " (Your class cannot use: " .. item.category .. ")" .. "</span>"
+    caption = caption .. "<span color=\"red\">" .. " (This unit cannot use: " .. item.category .. ")" .. "</span>"
   end
 
   local out = {speaker = "narrator", caption = "On the ground you find a " .. item.name, message = generate_description(item), image = item.image, variable = "choice_taken"}
