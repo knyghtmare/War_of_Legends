@@ -23,19 +23,63 @@ race_specifics = {
     allow_categories = {}, 
     disallow_categories = {}, 
   },
+  drake = {
+    allow_categories = {}, 
+    disallow_categories = {}, 
+  },
+  saurian = {
+    allow_categories = {}, 
+    disallow_categories = {}, 
+  },
+  undead = {
+    allow_categories = {}, 
+    disallow_categories = {}, 
+  },
+  ogre = {
+    allow_categories = {}, 
+    disallow_categories = {}, 
+  },
+  dunefolk = {
+    allow_categories = {}, 
+    disallow_categories = {}, 
+  },
 }
 
 armor_criteria = {
-  Flagbearer = {
-    categories = {"cloth", "light", "heavy", "blade", "bow", "polearm", "blunt", "crossbow"},
+  elf = {
+    categories = {"light", "medium", "ring", "amulet"},
   },
-  Vagabond = {
-    categories = {"cloth", "light", "blade", "dagger", "thrown"},
+  dwarf = {
+    categories = {"light", "medium", "heavy", "ring", "amulet"},
   },
-  Ranger = {
-    categories = {"cloth", "light", "dagger", "bow", "crossbow"},
+  orc = {
+    categories = {"light", "medium", "heavy", "ring", "amulet"},
   },
-  Mage = {
-    categories = {"cloth", "staff", "magical"},
+  human = {
+    categories = {"light", "medium", "heavy", "ring", "amulet"},
+  },
+  drake = {
+    categories = {"light", "medium", "heavy", "ring", "amulet"},
+  },
+  saurian = {
+    categories = {"light", "medium", "ring", "amulet"},
+  },
+  troll = {
+    categories = {"light", "medium", "heavy", "ring", "amulet"},
+  },
+  goblin = {
+    categories = {"light", "medium", "ring", "amulet"},
+  },
+  dunefolk = {
+    categories = {"light", "medium", "heavy", "ring", "amulet"},
+  },
+  quenoth = {
+    categories = {"light", "medium", "heavy", "ring", "amulet"},
+  },
+  ogre = {
+    categories = {"ring", "amulet"},
+  },
+  undead = {
+    categories = {"light", "medium", "heavy", "ring", "amulet"},
   },
 }
