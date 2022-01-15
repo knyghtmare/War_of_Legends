@@ -1,19 +1,31 @@
-racial_skills = {
-  Elvish = {
-    allow_categories = {"bow"},
-    disallow_categories = {"blunt"},
-  },
-  Human = {
-    allow_categories = {"crossbow"},
+race_specifics = {
+  orc = {
+    allow_categories = {},
     disallow_categories = {},
   },
-  Orcish = {
-    allow_categories = {"blade"}, 
-    disallow_categories = {"polearm"}, 
+  human = {
+    allow_categories = {},
+    disallow_categories = {},
+  },
+  elf = {
+    allow_categories = {}, 
+    disallow_categories = {}, 
+  },
+  dwarf = {
+    allow_categories = {}, 
+    disallow_categories = {}, 
+  },
+  troll = {
+    allow_categories = {}, 
+    disallow_categories = {}, 
+  },
+  goblin = {
+    allow_categories = {}, 
+    disallow_categories = {}, 
   },
 }
 
-class_skills = {
+armor_criteria = {
   Flagbearer = {
     categories = {"cloth", "light", "heavy", "blade", "bow", "polearm", "blunt", "crossbow"},
   },
