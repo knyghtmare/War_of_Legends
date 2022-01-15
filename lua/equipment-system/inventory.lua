@@ -121,7 +121,7 @@ function wesnoth.wml_actions.show_pickup_dialog(cfg)
     caption = caption .. "<span color=\"red\">" .. " (This unit cannot use: " .. item.category .. ")" .. "</span>"
   end
 
-  local out = {speaker = "narrator", caption = "On the ground you find a " .. item.name, message = generate_description(item), image = item.image, variable = "choice_taken"}
+  local out = {speaker = "narrator", caption = "On the ground you find " .. item.name, message = generate_description(item), image = item.image, variable = "choice_taken"}
 
   if can_equip(unit, item) then
     table.insert(out, T["option"] {label = "Equip the item.", value = "equip"})
