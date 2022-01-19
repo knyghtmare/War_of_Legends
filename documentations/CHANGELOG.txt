@@ -1,12 +1,20 @@
 War of Legends
-Change-Log v1.2.6.11
+Change-Log v1.2.6.12
+
+version 1.2.6.12:
+--> Legends Conquest:
+   --> A modification if enabled will override existing
+      enemy factions in World Conquest with the War of Legends factions
+--> War of Legends AMLA Override
+   --> SP modifcation which overrides AMLA default. Requires mod-enabler add-on.
+       Also allows AMLAs to be previewed via the right-click menu
+--> War of Legends: Equipment and Weapons Mod
+   --> SP modifcation which overrides AMLA default. Requires mod-enabler add-on.
+       Enemy units will have a chance to drop items when killed. Initially, spawned enemy units might be equipped with equipment. This is still a WIP.
 
 version 1.2.6.11:
 --> Nagas: 
    --> Switched to mainline Naga Guard-line
---> Legends Conquest:
-   --> A modification if enabled will override existing
-      enemy factions in World Conquest with the War of Legends factions
 
 version 1.2.6.10:
 --> Saurians: new units
