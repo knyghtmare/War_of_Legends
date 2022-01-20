@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.6.12
+Change-Log v1.2.6.13
+
+version 1.2.6.13
+--> Legends Conquest
+   --> Fixed a typo
 
 version 1.2.6.12:
 --> Legends Conquest:
