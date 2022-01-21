@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.6.17
+Change-Log v1.2.6.19
+
+version v1.2.6.19
+--> Legends Conquest: Forgot to add a unit
+-->  Orcs: High Warlord added
 
 version v1.2.6.17
 --> Typo fixes
