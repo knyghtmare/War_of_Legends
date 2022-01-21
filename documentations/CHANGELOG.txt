@@ -1,5 +1,13 @@
 War of Legends
-Change-Log v1.2.6.13
+Change-Log v1.2.6.14
+
+version 1.2.6.14
+--> Legends Conquest
+   --> Added Minotaurs
+      --> they were better but was not updated
+   --> Added Undead
+   --> Added Knalgan Alliance
+   --> added Northerners
 
 version 1.2.6.13
 --> Legends Conquest
