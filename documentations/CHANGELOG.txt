@@ -1,5 +1,10 @@
 War of Legends
-Change-Log v1.2.6.19
+Change-Log v1.2.6.21
+
+version v1,2.6.21:
+--> Legends Conquest:
+   --> 
+--> Mods: fixed a bug that allowed 100% item spawn rate. My bad.
 
 version v1.2.6.19
 --> Legends Conquest: Forgot to add a unit
