@@ -1,7 +1,11 @@
 War of Legends
-Change-Log v1.2.6.21
+Change-Log v1.2.6.22
 
-version v1,2.6.21:
+version v1.2.6.22:
+Vampires:
+--> Fix Mistress not having an attack animation for melee
+
+version v1.2.6.21:
 --> Legends Conquest:
    --> Stronger monsters faction
    --> some updated arrays
