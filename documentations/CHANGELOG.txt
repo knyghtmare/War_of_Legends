@@ -4,6 +4,8 @@ Change-Log v1.2.6.22
 version v1.2.6.22:
 Vampires:
 --> Fix Mistress not having an attack animation for melee
+Windsong:
+--> Added Windsong race under Humans
 
 version v1.2.6.21:
 --> Legends Conquest:
