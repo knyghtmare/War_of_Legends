@@ -2,13 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2021-07-10 05:14 UTC\n"
+"POT-Creation-Date: 2022-01-30 23:33 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#. [language]
+#: War_of_Legends/_main.cfg:9
+msgid "type^arcane focus"
+msgstr ""
+
+#. [language]
+#: War_of_Legends/_main.cfg:10
+msgid "type^electric"
+msgstr ""
+
+#. [language]
+#: War_of_Legends/_main.cfg:11
+msgid "type^energy"
+msgstr ""
 
 #. [ai]: id=ai_default_rca_wol
 #: War_of_Legends/ai/additional-actions/lua_ai_curse.cfg:9
@@ -40,6 +55,92 @@ msgstr ""
 msgid "An era with higher level units: level three leaders, with level one and two units available for recruitment. Consists of fourteen factions. Not considered balanced."
 msgstr ""
 
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:44
+msgid "The Windsong have stayed within their Foundation at the Farthest North, the northernmost continent of Irdya. For centuries, they have watched and noted down the actions of the various continents of the world and only intervened when the situation was dire and immediate action was required. Having witnessed the destruction of their Foundation by the enemy forces, the remnants of the Windsong have decided to finally take up arms and intervene. Despite allegiances with the Sylvans of the Northern Arctic Forests and the Aragwaithi being available, they have chosen to ally with the Undead as the coming days will require extreme actions."
+msgstr ""
+
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:48
+msgid "Windsong | Undead"
+msgstr ""
+
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:63
+msgid ""
+"As dictated in the Winds of Fate, the Flight of Karron and all incoming Drake flights were driven away from the Great Continent and to fly pass beyond Morogor further westerwards. This eventually led the drakes to reach the forgotten Old Continent or as the Windsong called it, Argea. The Drakes eventually settled at a new eerie constructed inside and over the volcano at the very heart of the Continent. Eventual exploration revealed that they were in the domain of the Principality of Blood, the strongest and oldest vampire clans on Irdya. Drakes and their native saurian allies did not cower and frequent clashes would result between the two factions.\n"
+" \n"
+" These two major factions would have stayed at each other's throats if the attacks from the nightmares and abberrants had not caused them to settle on a fragile treaty and alliance."
+msgstr ""
+
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:69
+msgid "Drakes | Vampires"
+msgstr ""
+
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:85
+msgid "The Eastern Kingdoms located at the other side of Great Continent had largely been free from any external influences for centuries ever since the First Irdyan War ended. The Aragwaithian Kingdoms is vast and bountiful and the Dark Legion were originally from the Fallen Kingdom of Arkenova who had sailed there on numerous iron ships. When the Dark Elementalist launched his horde of evil upon the Kingdoms, the Legion immediately sided with the noble Aragwaithi as they did not wish for another kingdom to suffer the same fate their own empire did."
+msgstr ""
+
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:89
+msgid "Aragwaithi | Dark Legion"
+msgstr ""
+
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:105
+msgid "The Quenoth Elves had lost their vast oasis cities to the Dark Elementalist and had retreated underground. There, they stumbled upon the Dwarves and they agreed to an uneasy alliance to withstand the hordes of Evil."
+msgstr ""
+
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:109
+msgid "Quenoth Elves | Dwarves"
+msgstr ""
+
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:124
+msgid "It is no surprise that when the Dark Elementalist laid waste to Lintair Forest, the elves were shocked when the allies who came to aid were none other than Minotaurs of the Silver Lands. Having allied due to their mutual affinity for the preservation of the Woodlands, it seemed evident the Dark Elementalist's forces would have to struggle before the Lins-Elen fell."
+msgstr ""
+
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:128
+msgid "Sylvans | Minotaurs"
+msgstr ""
+
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:145
+msgid "This faction consists of the Dunefolk of the Southern deserts of the Old Continent or Argea and the remnants of the Wesfolks who had been left behind by the Lich Lords."
+msgstr ""
+
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:149
+msgid "Dunefolk | Outlaws"
+msgstr ""
+
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:166
+msgid "After the Forces of the Dark Elementalist's brutal and relentless offensive on the newly established Kingdom of Wesnoth, not much of it was left standing. Not just Wesnoth, but the Orcish tribes who had just begun to settle in the Far North were caught in the conflict as well. Both factions had suffered insurmountable casaulties. The monarch of the Wesnothians had been defeated by one of the Dark Elementalist's chosen. Pushed to the brink of annihilation, the horde and loyalists set aside their past hospitalities and joined forces to survive the never ending hordes of Darkness."
+msgstr ""
+
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:170
+msgid "Loyalist | Horde"
+msgstr ""
+
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:185
+msgid ""
+"A remixed variant of the War of Legends era tailored to be played in World Conquest (preferably with Legends Conquest modificiations enabled). There are seven factions, each conforming to the World Conquest era rule as well as the the story setting of the Dark Irdya timeline.\n"
+" \n"
+" After the first decade of ceaseless attacks by the forces of the Dark Elementalist, various factions across Irdya have been compelled to band together to form an united front against their new and persistent adversaries. Certain allegiances could only be made due to geographical possibilities and some being former enemies casting aside their differences. The goal of all factions is survival as there seems to be no end to the enemy forces."
+msgstr ""
+
+#. [Heroes_Alliance]
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:209
+msgid "Alliance"
+msgstr ""
+
+#. [Heroes_Horde]
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:221
+msgid "Horde"
+msgstr ""
+
+#. [Heroes_Darkness]
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:229
+msgid "Darkness"
+msgstr ""
+
+#. [era]: id=legends_conquest_era, description={LEGENDS_CONQUEST_ERA_DESCRIPTION}
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:296
+msgid "Legends Conquest Era"
+msgstr ""
+
 #. [era]: id=war_of_legends
 #: War_of_Legends/eras/War_of_Legends.cfg:5
 msgid "War of Legends Era"
@@ -60,6 +161,105 @@ msgstr ""
 msgid "An era with lower level units: with level one leaders, with no units for recruitment. Consists of thirteen factions and is meant to be played in scenarios, which involve roleplaying elements (RPG)."
 msgstr ""
 
+#. [multiplayer_side]: id=Aragwaithi_EL, type=random
+#. [multiplayer_side]: id=Aragwaithi_RPG, type=random
+#. [multiplayer_side]: id=Aragwaithi_WOL, type=random
+#: War_of_Legends/factions/Aragwaithi-EL.cfg:5
+#: War_of_Legends/factions/Aragwaithi-RPG.cfg:6
+#: War_of_Legends/factions/Aragwaithi-WOL.cfg:5
+msgid "Aragwaithi"
+msgstr ""
+
+#. [multiplayer_side]: id=Human_Alliance_EL, type=random
+#. [multiplayer_side]: id=Human_Alliance_RPG, type=random
+#. [multiplayer_side]: id=Human_Alliance_WOL, type=random
+#: War_of_Legends/factions/Humans-EL.cfg:4
+#: War_of_Legends/factions/Humans-RPG.cfg:5
+#: War_of_Legends/factions/Humans-WOL.cfg:4
+msgid "The Loyalists"
+msgstr ""
+
+#. [multiplayer_side]: id=Dark_Legion_EL, type=random
+#. [multiplayer_side]: id=Dark_Legion_RPG, type=random
+#. [multiplayer_side]: id=Dark_Legion_WOL, type=random
+#: War_of_Legends/factions/Legion-EL.cfg:6
+#: War_of_Legends/factions/Legion-RPG.cfg:6
+#: War_of_Legends/factions/Legion-WOL.cfg:6
+msgid "Dark Legion"
+msgstr ""
+
+#. [multiplayer_side]: id=Minotaurs_EL, type=random
+#. [multiplayer_side]: id=Minotaurs_RPG, type=random
+#. [multiplayer_side]: id=Minotaurs_WOL, type=random
+#: War_of_Legends/factions/Minotaurs-EL.cfg:5
+#: War_of_Legends/factions/Minotaurs-RPG.cfg:5
+#: War_of_Legends/factions/Minotaurs-WOL.cfg:5
+msgid "Minotaurs"
+msgstr ""
+
+#. [multiplayer_side]: id=Orcs_EL, type=random
+#. [multiplayer_side]: id=Orcs_RPG, type=random
+#. [multiplayer_side]: id=Orcs_WOL, type=random
+#: War_of_Legends/factions/Orcs-EL.cfg:5
+#: War_of_Legends/factions/Orcs-RPG.cfg:5
+#: War_of_Legends/factions/Orcs-WOL.cfg:4
+msgid "Northerners"
+msgstr ""
+
+#. [multiplayer_side]: id=Outlaws_EL, type=random
+#. [multiplayer_side]: id=Outlaws_RPG, type=random
+#. [multiplayer_side]: id=Outlaws_WOL, type=random
+#: War_of_Legends/factions/Outlaws-EL.cfg:6
+#: War_of_Legends/factions/Outlaws-RPG.cfg:6
+#: War_of_Legends/factions/Outlaws-WOL.cfg:6
+msgid "Outlaws"
+msgstr ""
+
+#. [multiplayer_side]: id=Quenoth_EL, type=random
+#. [multiplayer_side]: id=Quenoth_Elves_RPG, type=random
+#. [multiplayer_side]: id=Quenoth_Elves_WOL, type=random
+#: War_of_Legends/factions/Quenoth-EL.cfg:4
+#: War_of_Legends/factions/Quenoth-RPG.cfg:4
+#: War_of_Legends/factions/Quenoth-WOL.cfg:4
+msgid "Quenoth Elves"
+msgstr ""
+
+#. [multiplayer_side]: id=Sylvans_EL, type=random
+#. [multiplayer_side]: id=Sylvans_RPG, type=random
+#. [multiplayer_side]: id=Sylvans_WOL, type=random
+#: War_of_Legends/factions/Sylvans-EL.cfg:5
+#: War_of_Legends/factions/Sylvans-RPG.cfg:5
+#: War_of_Legends/factions/Sylvans-WOL.cfg:5
+msgid "Sylvans"
+msgstr ""
+
+#. [multiplayer_side]: id=Undead_EL, type=random
+#. [multiplayer_side]: id=Undead_RPG, type=random
+#. [multiplayer_side]: id=Undead_WOL, type=random
+#: War_of_Legends/factions/Undead-EL.cfg:5
+#: War_of_Legends/factions/Undead-RPG.cfg:5
+#: War_of_Legends/factions/Undead-WOL.cfg:4
+msgid "Undead Hordes"
+msgstr ""
+
+#. [multiplayer_side]: id=Vampires_EL, type=random
+#. [multiplayer_side]: id=Vampires_RPG, type=random
+#. [multiplayer_side]: id=Vampires_WOL, type=random
+#: War_of_Legends/factions/Vampires-EL.cfg:5
+#: War_of_Legends/factions/Vampires-RPG.cfg:5
+#: War_of_Legends/factions/Vampires-WOL.cfg:5
+msgid "Vampires"
+msgstr ""
+
+#. [multiplayer_side]: id=Windsong_EL, type=random
+#. [multiplayer_side]: id=Windsong_RPG, type=random
+#. [multiplayer_side]: id=Windsong_WOL, type=random
+#: War_of_Legends/factions/Windsong-EL.cfg:5
+#: War_of_Legends/factions/Windsong-RPG.cfg:5
+#: War_of_Legends/factions/Windsong-WOL.cfg:5
+msgid "Windsong"
+msgstr ""
+
 #. [multiplayer_side]: id=Elementals_EL, type=random
 #. [multiplayer_side]: id=Elementals_RPG, type=random
 #. [multiplayer_side]: id=Elementals, type=random
@@ -76,103 +276,6 @@ msgstr ""
 #: War_of_Legends/factions/unused/Southerners-RPG.cfg:5
 #: War_of_Legends/factions/unused/Southerners-WOL.cfg:4
 msgid "Southerners"
-msgstr ""
-
-#. [multiplayer_side]: id=Aragwaithi_EL, type=random
-#. [multiplayer_side]: id=Aragwaithi_RPG, type=random
-#. [multiplayer_side]: id=Aragwaithi, type=random
-#: War_of_Legends/factions/Aragwaithi-EL.cfg:5
-#: War_of_Legends/factions/Aragwaithi-RPG.cfg:6
-#: War_of_Legends/factions/Aragwaithi-WOL.cfg:5
-msgid "Aragwaithi"
-msgstr ""
-
-#. [multiplayer_side]: id=Human_Alliance_EL, type=random
-#. [multiplayer_side]: id=Human_Alliance_RPG, type=random
-#. [multiplayer_side]: id=Human_Alliance, type=random
-#: War_of_Legends/factions/Humans-EL.cfg:4
-#: War_of_Legends/factions/Humans-RPG.cfg:5
-#: War_of_Legends/factions/Humans-WOL.cfg:4
-msgid "The Loyalists"
-msgstr ""
-
-#. [multiplayer_side]: id=Dark_Legion_EL, type=random
-#. [multiplayer_side]: id=Dark_Legion_RPG, type=random
-#. [multiplayer_side]: id=Dark Legion, type=random
-#: War_of_Legends/factions/Legion-EL.cfg:6
-#: War_of_Legends/factions/Legion-RPG.cfg:6
-#: War_of_Legends/factions/Legion-WOL.cfg:6
-msgid "Dark Legion"
-msgstr ""
-
-#. [multiplayer_side]: id=Minotaurs_EL, type=random
-#. [multiplayer_side]: id=Minotaurs_RPG, type=random
-#. [multiplayer_side]: id=Minotaurs, type=random
-#: War_of_Legends/factions/Minotaurs-EL.cfg:5
-#: War_of_Legends/factions/Minotaurs-RPG.cfg:5
-#: War_of_Legends/factions/Minotaurs-WOL.cfg:5
-msgid "Minotaurs"
-msgstr ""
-
-#. [multiplayer_side]: id=Orcs_EL, type=random
-#. [multiplayer_side]: id=Orcs_RPG, type=random
-#. [multiplayer_side]: id=Orcs, type=random
-#: War_of_Legends/factions/Orcs-EL.cfg:5
-#: War_of_Legends/factions/Orcs-RPG.cfg:5
-#: War_of_Legends/factions/Orcs-WOL.cfg:4
-msgid "Northerners"
-msgstr ""
-
-#. [multiplayer_side]: id=Outlaws_EL, type=random
-#. [multiplayer_side]: id=Outlaws_RPG, type=random
-#. [multiplayer_side]: id=Outlaws, type=random
-#: War_of_Legends/factions/Outlaws-EL.cfg:6
-#: War_of_Legends/factions/Outlaws-RPG.cfg:6
-#: War_of_Legends/factions/Outlaws-WOL.cfg:6
-msgid "Outlaws"
-msgstr ""
-
-#. [multiplayer_side]: id=Quenoth_EL, type=random
-#. [multiplayer_side]: id=Quenoth, type=random
-#: War_of_Legends/factions/Quenoth-EL.cfg:4
-#: War_of_Legends/factions/Quenoth-WOL.cfg:4
-msgid "Quenoth Elves"
-msgstr ""
-
-#. [multiplayer_side]: id=Sylvans_EL, type=random
-#. [multiplayer_side]: id=Sylvans_RPG, type=random
-#. [multiplayer_side]: id=Sylvans, type=random
-#: War_of_Legends/factions/Sylvans-EL.cfg:5
-#: War_of_Legends/factions/Sylvans-RPG.cfg:5
-#: War_of_Legends/factions/Sylvans-WOL.cfg:5
-msgid "Sylvans"
-msgstr ""
-
-#. [multiplayer_side]: id=Undead_EL, type=random
-#. [multiplayer_side]: id=Undead_RPG, type=random
-#. [multiplayer_side]: id=Undead, type=random
-#: War_of_Legends/factions/Undead-EL.cfg:5
-#: War_of_Legends/factions/Undead-RPG.cfg:5
-#: War_of_Legends/factions/Undead-WOL.cfg:4
-msgid "Undead Hordes"
-msgstr ""
-
-#. [multiplayer_side]: id=Vampires_EL, type=random
-#. [multiplayer_side]: id=Vampires_RPG, type=random
-#. [multiplayer_side]: id=Vampires, type=random
-#: War_of_Legends/factions/Vampires-EL.cfg:5
-#: War_of_Legends/factions/Vampires-RPG.cfg:5
-#: War_of_Legends/factions/Vampires-WOL.cfg:5
-msgid "Vampires"
-msgstr ""
-
-#. [multiplayer_side]: id=Windsong_EL, type=random
-#. [multiplayer_side]: id=Windsong_RPG, type=random
-#. [multiplayer_side]: id=Windsong, type=random
-#: War_of_Legends/factions/Windsong-EL.cfg:5
-#: War_of_Legends/factions/Windsong-RPG.cfg:5
-#: War_of_Legends/factions/Windsong-WOL.cfg:5
-msgid "Windsong"
 msgstr ""
 
 #. [lua]: wesnoth.interface.game_display.unit_status
@@ -392,12 +495,12 @@ msgstr ""
 msgid "This unit slows and deals 8 arcane damage all nearby enemy units on the start of every new turn."
 msgstr ""
 
-#. [dummy]: id=did_death_cloud
+#. [dummy]: id=wol_death_cloud
 #: War_of_Legends/macros/abilities-new.cfg:303
 msgid "death cloud"
 msgstr ""
 
-#. [dummy]: id=did_death_cloud
+#. [dummy]: id=wol_death_cloud
 #: War_of_Legends/macros/abilities-new.cfg:304
 msgid "This unit poisons all nearby enemy units on the start of every new turn."
 msgstr ""
@@ -658,6 +761,21 @@ msgstr ""
 #. [set_menu_item]: id=amla_menu
 #: War_of_Legends/macros/amla.cfg:169
 msgid "Unit Advancements"
+msgstr ""
+
+#. [floating_text]
+#: War_of_Legends/macros/equipment-and-inventory.cfg:34
+msgid "$gold_amount"
+msgstr ""
+
+#. [set_menu_item]: id=wol_inventory_rightclick_menu
+#: War_of_Legends/macros/equipment-and-inventory.cfg:57
+msgid "Show Inventory"
+msgstr ""
+
+#. [set_menu_item]: id=wol_equipped_rightclick_menu
+#: War_of_Legends/macros/equipment-and-inventory.cfg:76
+msgid "Show Equipped Items"
 msgstr ""
 
 #. [advancement]: id=HOI_jahin_amla_HP_I
@@ -1148,7 +1266,172 @@ msgstr ""
 msgid "female^unpetrified"
 msgstr ""
 
-#: War_of_Legends/mods/amla_wol_mod.cfg:4
+#. [heals_on_hit]: id=deplete
+#: War_of_Legends/macros/weapon-specials.cfg:146
+#: War_of_Legends/macros/weapon-specials.cfg:148
+msgid "deplete"
+msgstr ""
+
+#. [heals_on_hit]: id=deplete
+#: War_of_Legends/macros/weapon-specials.cfg:150
+#: War_of_Legends/macros/weapon-specials.cfg:151
+msgid "Consumes {AMT} HP upon a successful hit during attacking."
+msgstr ""
+
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:4
+msgid "Jevyan's Soul"
+msgstr ""
+
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:8
+msgid "This orb seems to have been made from the soul essence of a powerful Lich Lord. Consuming it, will grant the user a new ranged attack which is stronger if shot at an unaware enemy."
+msgstr ""
+
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:12
+msgid "Alchemist Backpack"
+msgstr ""
+
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:16
+msgid "This backpack contains ingredients, recipes, ingredients and equipment for concocting healing potions. Use it well."
+msgstr ""
+
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:20
+msgid "Keshar's Grimoire"
+msgstr ""
+
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:24
+msgid "An unholy grimoire written by the legendary Lich Mal Keshar. Its knowledge allows the user's melee attacks to revive slain enemies as Ghouls. However, this forbidden knowledge takes a toll on the user's health"
+msgstr ""
+
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:28
+msgid "Hejnewar's Chestplate"
+msgstr ""
+
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:31
+msgid "The durable plate of this heavy armor increase the user’s physical resistances (to a maximum of 15%) as well as raising their HP by 10. However, the user is slowed a bit due to its immense weight."
+msgstr ""
+
+#. [artifact]
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:39
+msgid "14-1 ranged arcane backstab and -10% arcane resistance"
+msgstr ""
+
+#. [effect]: type=arcane
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:45
+msgid "shadow ball"
+msgstr ""
+
+#. [artifact]
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:97
+msgid "heals +4 and regenerates +4"
+msgstr ""
+
+#. [artifact]
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:124
+msgid "melee: greater plague (ghouls) and -15% HP, consumes 3 HP per hit during attack"
+msgstr ""
+
+#. [artifact]
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:154
+msgid "blade/impact/pierce: +15%, +10 HP, -1 MP"
+msgstr ""
+
+#. [artifact]
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:181
+msgid "Shield of Hejnewar"
+msgstr ""
+
+#. [artifact]
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:183
+msgid "0-1 shield ranged absorb special, +20% parry"
+msgstr ""
+
+#. [effect]: type=impact
+#. [attack]: type=impact
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:189
+#: War_of_Legends/units/human-campaigns/Loyalist_Soldier.cfg:44
+#: War_of_Legends/units/human-campaigns/Loyalist_Supreme_Warlord.cfg:62
+#: War_of_Legends/units/human-campaigns/Loyalist_War_Grandmaster.cfg:61
+#: War_of_Legends/units/human-campaigns/Loyalist_Warmaster.cfg:85
+#: War_of_Legends/units/human-campaigns/Loyalist_Warrior.cfg:57
+#: War_of_Legends/units/human-loyalists/Loyalist_Custodian.cfg:36
+#: War_of_Legends/units/minotaurs/Overlord.cfg:45
+#: War_of_Legends/units/minotaurs/Rouser.cfg:42
+msgid "shield"
+msgstr ""
+
+#. [artifact]
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:208
+msgid "Valefolk Waraxe"
+msgstr ""
+
+#. [artifact]
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:210
+msgid "melee blade: +3 damage, adds mayhem special"
+msgstr ""
+
+#. [damage]: id=blade_dmg_mul_3x
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:235
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:236
+msgid "mayhem"
+msgstr ""
+
+#. [damage]: id=blade_dmg_mul_3x
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:239
+msgid "Attacking with this weapon increases damage by 50%, but reduces strikes by 1.This effect is only action on offense."
+msgstr ""
+
+#. [damage]: id=blade_dmg_mul_3x
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:240
+msgid "Attacking with this weapon multiples damage by three, but reduces strikes by 1.This effect is only action on offense."
+msgstr ""
+
+#. [artifact]
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:256
+msgid "Shardia's Meteor"
+msgstr ""
+
+#. [artifact]
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:258
+msgid "12-2 fire ranged magical slows, consumes 4 HP per hit (attack only)"
+msgstr ""
+
+#. [effect]: type=fire
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:267
+msgid "shardia's meteor"
+msgstr ""
+
+#. [artifact]
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:312
+msgid "Esther's Rage"
+msgstr ""
+
+#. [artifact]
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:314
+msgid "ranged: berserk (3 rounds), 2 HP consumed per hit."
+msgstr ""
+
+#. [berserk]: id=esthers_rage
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:328
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:329
+msgid "rage"
+msgstr ""
+
+#. [berserk]: id=esthers_rage
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:330
+msgid "This unit attacks relentlessly until the opponent is dead, or three rounds of combat has occurred."
+msgstr ""
+
+#. [trainer]: type=Blood Manipulator
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:345
+msgid "Blood Magic"
+msgstr ""
+
+#. [trainer]: type=Oathkeeper
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:385
+msgid "Windsong Tutelage"
+msgstr ""
+
+#: War_of_Legends/mods/campaigns/amla_wol_mod.cfg:4
 msgid ""
 "AMLA Default is overridden by customised AMLA options and given to units. Right-click on any unit with AMLA active to preview what AMLA options are available.\n"
 "Credits:\n"
@@ -1159,22 +1442,71 @@ msgid ""
 msgstr ""
 
 #. [modification]: id=knyght_wol_amla_mod, description={AMLA_MOD_DESCRIPTION}, type=sp
-#: War_of_Legends/mods/amla_wol_mod.cfg:14
+#: War_of_Legends/mods/campaigns/amla_wol_mod.cfg:14
 msgid "War of Legends AMLA Override"
 msgstr ""
 
-#: War_of_Legends/mods/item_equipment_mod.cfg:4
+#: War_of_Legends/mods/campaigns/inventory_mod.cfg:4
 msgid ""
 "Enemy units will have a chance to drop items when killed. Initially, spawned enemy units might be equipped with equipment.\n"
 "Credits:\n"
-"(*) doofus-01 (BMR)\n"
+"(*) Doofus-01\n"
 "\n"
 "Direct any feedback to Lord-Knightmare."
 msgstr ""
 
-#. [modification]: id=knyght_wol_equipment_gear_mod, description={EQUIPMENT_MOD_DESCRIPTION}, type=hybrid
-#: War_of_Legends/mods/item_equipment_mod.cfg:13
-msgid "Equipment and Items Mod"
+#. [modification]: id=knyght_wol_equipment_gear_mod_new, description={NEW_EQUIPMENT_MOD_DESCRIPTION}, type=sp
+#: War_of_Legends/mods/campaigns/inventory_mod.cfg:13
+msgid "War of Legends: Equipment and Weapons Mod"
+msgstr ""
+
+#: War_of_Legends/mods/campaigns/item_equipment_mod.cfg:4
+msgid ""
+"Enemy units will have a chance to drop items when killed. Initially, spawned enemy units might be equipped with equipment.\n"
+"Credits:\n"
+"(*) Astrid\n"
+"\n"
+"Direct any feedback to Lord-Knightmare."
+msgstr ""
+
+#. [modification]: id=knyght_wol_equipment_gear_mod, description={EQUIPMENT_MOD_DESCRIPTION}, type=sp
+#: War_of_Legends/mods/campaigns/item_equipment_mod.cfg:13
+msgid "War of Legends: Equipment and Trinkets Mod"
+msgstr ""
+
+#. [modification]: id=knyght_wol_wc_enemy_data_array, type=mp
+#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:5
+msgid "Legends Conquest"
+msgstr ""
+
+#. [modification]: id=knyght_wol_wc_enemy_data_array, type=mp
+#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:6
+msgid "World Conquest Enemy Data is overriden with War of Legends factions."
+msgstr ""
+
+#. [modification]: id=knyght_wol_wc_legend_artifacts
+#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:25
+msgid "Adds new World Conquest Artifacts."
+msgstr ""
+
+#. [modification]: id=knyght_wol_wc_legend_trainers
+#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:42
+msgid "Adds new World Conquest Trainers."
+msgstr ""
+
+#. [race]: id=aberration
+#: War_of_Legends/units/aberrations.cfg:5
+msgid "race^Aberration"
+msgstr ""
+
+#. [race]: id=aberration
+#: War_of_Legends/units/aberrations.cfg:6
+msgid "race+plural^Aberrations"
+msgstr ""
+
+#. [race]: id=aberration
+#: War_of_Legends/units/aberrations.cfg:8
+msgid "So deformed physically that it's immediately obvious that they can't be natural and must have been either created or altered by magic, early in their development cycle."
 msgstr ""
 
 #. [unit_type]: id=Angry One, race=aberration
@@ -1393,6 +1725,26 @@ msgstr ""
 msgid "These hideous monsters came from the very first fear of Meloen: to mother a physically or mentally ill child. Not quite formed yet, the aberrations/unhatched partly breaks the shell with its powerful legs, then its naturally aggressive instinct guides it to complete its hatch by charging into foes."
 msgstr ""
 
+#. [race]: id=carapace
+#: War_of_Legends/units/carapaces.cfg:5
+msgid "race^Carapace"
+msgstr ""
+
+#. [race]: id=carapace
+#: War_of_Legends/units/carapaces.cfg:6
+msgid "race+female^Carapace"
+msgstr ""
+
+#. [race]: id=carapace
+#: War_of_Legends/units/carapaces.cfg:7
+msgid "race^Carapaces"
+msgstr ""
+
+#. [race]: id=carapace
+#: War_of_Legends/units/carapaces.cfg:8
+msgid "Inhabiting the coastal and aquatic regions of Irdya, the Carapaces are a peaceful people. Though not warlike, these creatures are heavily resistant to all sorts of damage except esoteric magic or gelid-based weaponry. They possess moderate strength and only take up arms when threatened by an enemy. Carapaces have no difficulty moving through most terrain, but are hindered traversing mountainous or icy regions."
+msgstr ""
+
 #. [unit_type]: id=Gallant Carapace, race=carapace
 #: War_of_Legends/units/carapaces/Gallant.cfg:4
 msgid "Gallant Carapace"
@@ -1442,24 +1794,39 @@ msgstr ""
 msgid "Carapaces have an extremely long lifespan. The eldest of them, are of a massive size, an inch shorter to an adult troll, and are near indestructible fighters. Every foe thinks twice before attacking these giants."
 msgstr ""
 
+#. [race]: id=centaur
+#: War_of_Legends/units/centaurs.cfg:5
+msgid "race^Centaur"
+msgstr ""
+
+#. [race]: id=centaur
+#: War_of_Legends/units/centaurs.cfg:6
+msgid "race+female^Centaur"
+msgstr ""
+
+#. [race]: id=centaur
+#: War_of_Legends/units/centaurs.cfg:7
+msgid "race^Centaurs"
+msgstr ""
+
+#. [race]: id=centaur
+#. [unit_type]: id=Centaur Sentinel, race=centaur
+#. [unit_type]: id=Centaur Spearmaiden, race=centaur
+#. [unit_type]: id=Centaur Warden, race=centaur
+#: War_of_Legends/units/centaurs.cfg:8
+#: War_of_Legends/units/centaurs/Sentinel.cfg:18
+#: War_of_Legends/units/centaurs/Spearmaiden.cfg:19
+#: War_of_Legends/units/centaurs/Warden.cfg:18
+msgid "..."
+msgstr ""
+
 #. [unit_type]: id=Centaur Sentinel, race=centaur
 #: War_of_Legends/units/centaurs/Sentinel.cfg:5
 msgid "female^Sentinel"
 msgstr ""
 
-#. [unit_type]: id=Centaur Sentinel, race=centaur
 #. [unit_type]: id=Centaur Spearmaiden, race=centaur
-#. [unit_type]: id=Centaur Warden, race=centaur
-#. [race]: id=centaur
-#: War_of_Legends/units/centaurs/Sentinel.cfg:18
-#: War_of_Legends/units/centaurs/Shieldmaiden.cfg:18
-#: War_of_Legends/units/centaurs/Warden.cfg:18
-#: War_of_Legends/units/centaurs.cfg:8
-msgid "..."
-msgstr ""
-
-#. [unit_type]: id=Centaur Spearmaiden, race=centaur
-#: War_of_Legends/units/centaurs/Shieldmaiden.cfg:5
+#: War_of_Legends/units/centaurs/Spearmaiden.cfg:5
 msgid "female^Spearmaiden"
 msgstr ""
 
@@ -1554,6 +1921,21 @@ msgstr ""
 #: War_of_Legends/units/dwarves/Marksman.cfg:23
 #: War_of_Legends/units/human-legion/Medic.cfg:18
 msgid "TODO"
+msgstr ""
+
+#. [race]: id=elemental
+#: War_of_Legends/units/elementals.cfg:5
+msgid "race^Elemental"
+msgstr ""
+
+#. [race]: id=elemental
+#: War_of_Legends/units/elementals.cfg:6
+msgid "race^Elementals"
+msgstr ""
+
+#. [race]: id=elemental
+#: War_of_Legends/units/elementals.cfg:10
+msgid "The word 'elemental' is a term used to describe a magical creature that is purely composed of elemental energy. Apparently, the creation of an elemental involves the presence of powerful, arcane magic. Therefore, they are often found in an area influenced by an extremely powerful force. Albeit a somewhat rare situation, they are also found under the control of very powerful mages, those who are adept with the manipulation of aura and elemental energy. Although their behavior and characteristics differ due to the different elements of which they are composed, they generally have no personality (except for some of the more powerful elementals or those that were created in a manner that would grant them personality), and are protective of the force that created them. In addition, an elemental obviously has the powers, abilities, etc. associated with the element of which it is composed."
 msgstr ""
 
 #. [unit_type]: id=Brazier Imp, race=elemental
@@ -1958,7 +2340,6 @@ msgstr ""
 #: War_of_Legends/units/orcs/Shaman.cfg:27
 #: War_of_Legends/units/orcs/Sorcerer.cfg:27
 #: War_of_Legends/units/orcs/Warlock.cfg:28
-#: War_of_Legends/units/saurians/Prophet.cfg:38
 #: War_of_Legends/units/undead/Necro_Deathmaster.cfg:38
 msgid "staff"
 msgstr ""
@@ -2063,9 +2444,9 @@ msgstr ""
 #: War_of_Legends/units/human-campaigns/Horse_Cavalry.cfg:26
 #: War_of_Legends/units/human-campaigns/Loyalist_Soldier.cfg:35
 #: War_of_Legends/units/human-campaigns/Loyalist_Supreme_Warlord.cfg:49
+#: War_of_Legends/units/human-campaigns/Loyalist_War_Grandmaster.cfg:49
 #: War_of_Legends/units/human-campaigns/Loyalist_Warmaster.cfg:73
 #: War_of_Legends/units/human-campaigns/Loyalist_Warrior.cfg:48
-#: War_of_Legends/units/human-campaigns/Loyalist_War_Grandmaster.cfg:49
 #: War_of_Legends/units/human-legion/Cavalier.cfg:24
 #: War_of_Legends/units/human-legion/Commander.cfg:39
 #: War_of_Legends/units/human-legion/Horseman.cfg:23
@@ -2161,6 +2542,26 @@ msgstr ""
 msgid "bow"
 msgstr ""
 
+#. [race]: id=faerie
+#: War_of_Legends/units/faeries.cfg:5
+msgid "race^Faerie"
+msgstr ""
+
+#. [race]: id=faerie
+#: War_of_Legends/units/faeries.cfg:6
+msgid "race+male^Faerie"
+msgstr ""
+
+#. [race]: id=faerie
+#: War_of_Legends/units/faeries.cfg:7
+msgid "race^Fairies"
+msgstr ""
+
+#. [race]: id=faerie
+#: War_of_Legends/units/faeries.cfg:8
+msgid "Great, dark forests and caves are excellent places for mysterious creatures to live and hide in. Rarely seen, the mischievous fairies are some of the most beautiful beings who inhabit those parts. Their protective attitude towards nature make them friends of the elves who often share their territory, but their whimsical personality and control over the fire element are characteristics that any creature foreign to their forests should fear and respect."
+msgstr ""
+
 #. [unit_type]: id=Faerie Dryad, race=faerie
 #: War_of_Legends/units/faeries/Faerie_Dryad.cfg:5
 msgid "Dryad"
@@ -2220,6 +2621,21 @@ msgid ""
 "The most experienced faeries have developed a fearsome mastery of the fire element, which they can use to throw powerful fireballs to their opponents at long range, or to burn them at close range with a single touch of their hands. It is said that their very bodies start to burn, eventually leading them to become non-corporeal spirits of nature, made of pure fire."
 msgstr ""
 
+#. [race]: id=gargoyle
+#: War_of_Legends/units/gargoyles.cfg:7
+msgid "race^Gargoyle"
+msgstr ""
+
+#. [race]: id=gargoyle
+#: War_of_Legends/units/gargoyles.cfg:8
+msgid "race^Gargoyles"
+msgstr ""
+
+#. [race]: id=gargoyle
+#: War_of_Legends/units/gargoyles.cfg:9
+msgid "Some of the darker, yet bizare magic casted upon stone results in the Gargoyles. Gargoyles often take on the form of flying statues, they really cannot do much besides slamming into their foes, thus their masters, the Vampires often use them as blockades to by time for an assault."
+msgstr ""
+
 #. [unit_type]: id=Gargoyle, race=gargoyle
 #: War_of_Legends/units/gargoyles/Gargoyle.cfg:5
 msgid "Gargoyle"
@@ -2244,6 +2660,21 @@ msgstr ""
 #. [unit_type]: id=Marlgoyle, race=gargoyle
 #: War_of_Legends/units/gargoyles/Gargoyle_Marlgoyle.cfg:24
 msgid "Marlgoyles are simply Gargoyles whose magic has caused it to grow more poweful after absorbing enough blood. Marlgoyles appear to have a lusturous gold coating which makes it more durable and such, the magic will continue to strengthen the Marlgoyle as long as it gets more blood; however it will only increase its durability."
+msgstr ""
+
+#. [race]: id=gnoll
+#: War_of_Legends/units/gnolls.cfg:5
+msgid "race^Gnoll"
+msgstr ""
+
+#. [race]: id=gnoll
+#: War_of_Legends/units/gnolls.cfg:6
+msgid "race^Gnolls"
+msgstr ""
+
+#. [race]: id=gnoll
+#: War_of_Legends/units/gnolls.cfg:11
+msgid "Gnolls are humanoid hyenas which live in the swamps of the Silver Lands. They are known for their aptitude in the fine art of archery and for their ability to conceal themselves in swampy terrain. Gnolls are often associated with the Minotaurs, mainly due to the fact Minotaurs often hire them as mercenaries."
 msgstr ""
 
 #. [unit_type]: id=Gnoll Deadeye, race=gnoll
@@ -2306,8 +2737,6 @@ msgstr ""
 #: War_of_Legends/units/minotaurs/Boar_Cataphract.cfg:45
 #: War_of_Legends/units/minotaurs/Boar_Knight.cfg:44
 #: War_of_Legends/units/minotaurs/Boar_Rider.cfg:27
-#: War_of_Legends/units/saurians/Spearthrower.cfg:24
-#: War_of_Legends/units/saurians/Spearthrower.cfg:36
 #: War_of_Legends/units/windsong/Seeker.cfg:30
 msgid "spear"
 msgstr ""
@@ -2392,6 +2821,31 @@ msgstr ""
 #. [unit_type]: id=Goblin Trumpeter, race=goblin
 #: War_of_Legends/units/goblins/Trumpeter.cfg:27
 msgid "Only the best of rousers can hope to become a trumpeter. Trumpeters spend many hours studying the subtleties of the complex orc war signals. For the orcs, such signals are much more than a simple message of advance or retreat, they inspire their entire army and reinforce their bloodthirsty nature. Many orc warlords consider their trumpeter a trusted confidante and sometimes a trumpeter may be allowed to consult with the warlord on his battle plan."
+msgstr ""
+
+#. [race]: id=aragwaith
+#: War_of_Legends/units/human-aragwaithi.cfg:6
+msgid "race^Aragwaith"
+msgstr ""
+
+#. [race]: id=aragwaith
+#: War_of_Legends/units/human-aragwaithi.cfg:7
+msgid "race+female^Aragwaith"
+msgstr ""
+
+#. [race]: id=aragwaith
+#: War_of_Legends/units/human-aragwaithi.cfg:8
+msgid "race^Aragwaithi"
+msgstr ""
+
+#. [race]: id=aragwaith
+#: War_of_Legends/units/human-aragwaithi.cfg:12
+msgid ""
+"During most of the Golden Age, the humans who inhabited the Great Continent were mostly Wesnothians, divided across various territories such as the Northlands, Elensefar and the kingdom of Wesnoth itself. However, there was once a time of great strife during which a new race of humans started to appear from nowhere. They were the 'Aragwaithi', which meant 'noble' in their native language.\n"
+"\n"
+"It has been since then rumored that they came from the Vast Sea to settle in Wesnoth. They mostly lived as mercenaries in that time, until the Fall. After that, they supposedly moved to the northmost lands of the Continent, were the sands could not reach, and the green could survive.\n"
+"\n"
+"Albeit being humans, many of their customs and racial features are incredibly different to the standards, to the point it puts them close to elves in terms of their dexterity with bows. Their wisemen have a mastery of magic not to be underestimated in the battlefield, for it has surprised and overseded the best magi often."
 msgstr ""
 
 #. [unit_type]: id=Aragwaith Adept, race=aragwaith
@@ -2735,18 +3189,6 @@ msgstr ""
 msgid "Armed with a sword and shield, soldiers are strong but vulnerable to seasoned enemies. Their skill with the sword is unmatched by many and they are lightly resistant to most physical weapons. Soldiers take part in many battles, hoping to rise to the ranks of a Captain."
 msgstr ""
 
-#. [attack]: type=impact
-#: War_of_Legends/units/human-campaigns/Loyalist_Soldier.cfg:44
-#: War_of_Legends/units/human-campaigns/Loyalist_Supreme_Warlord.cfg:62
-#: War_of_Legends/units/human-campaigns/Loyalist_Warmaster.cfg:85
-#: War_of_Legends/units/human-campaigns/Loyalist_Warrior.cfg:57
-#: War_of_Legends/units/human-campaigns/Loyalist_War_Grandmaster.cfg:61
-#: War_of_Legends/units/human-loyalists/Loyalist_Custodian.cfg:36
-#: War_of_Legends/units/minotaurs/Overlord.cfg:45
-#: War_of_Legends/units/minotaurs/Rouser.cfg:42
-msgid "shield"
-msgstr ""
-
 #. [unit_type]: id=Supreme Warlord, race=human
 #: War_of_Legends/units/human-campaigns/Loyalist_Supreme_Warlord.cfg:5
 msgid "Supreme Warlord"
@@ -2757,6 +3199,16 @@ msgstr ""
 #: War_of_Legends/units/human-campaigns/Loyalist_Supreme_Warlord.cfg:27
 #: War_of_Legends/units/human-campaigns/Loyalist_Warmaster.cfg:47
 msgid "Fearless warriors with great strength, intelligence and the ability to command armies to victory are entitled Warmasters. These warriors are masters of the weapon they use and their stainless-steel armor can withstand any attack."
+msgstr ""
+
+#. [unit_type]: id=War Grandmaster, race=human
+#: War_of_Legends/units/human-campaigns/Loyalist_War_Grandmaster.cfg:5
+msgid "War Grandmaster"
+msgstr ""
+
+#. [unit_type]: id=War Grandmaster, race=human
+#: War_of_Legends/units/human-campaigns/Loyalist_War_Grandmaster.cfg:27
+msgid "Over time, ambitious commanders of the armies of humanity might ascend to an even higher rank. The War Grandmasters are the veterans of many battles, having experienced bloodbaths first hand. They have decided to don mithril-reinforced armor to further augment their defences."
 msgstr ""
 
 #. [unit_type]: id=Warmaster, race=human
@@ -2772,16 +3224,6 @@ msgstr ""
 #. [unit_type]: id=Warrior, race=human
 #: War_of_Legends/units/human-campaigns/Loyalist_Warrior.cfg:28
 msgid "Some soldiers who are entrusted to lead their brethren into battle are entitled 'warriors'. These leaders have sufficient skill with the sword and are armor-plated to withstand mostly physical attacks."
-msgstr ""
-
-#. [unit_type]: id=War Grandmaster, race=human
-#: War_of_Legends/units/human-campaigns/Loyalist_War_Grandmaster.cfg:5
-msgid "War Grandmaster"
-msgstr ""
-
-#. [unit_type]: id=War Grandmaster, race=human
-#: War_of_Legends/units/human-campaigns/Loyalist_War_Grandmaster.cfg:27
-msgid "Over time, ambitious commanders of the armies of humanity might ascend to an even higher rank. The War Grandmasters are the veterans of many battles, having experienced bloodbaths first hand. They have decided to don mithril-reinforced armor to further augment their defences."
 msgstr ""
 
 #. [unit_type]: id=Legion Arbalestier, race=human
@@ -2802,9 +3244,9 @@ msgstr ""
 #: War_of_Legends/units/human-outlaws/Axemaster.cfg:22
 #: War_of_Legends/units/human-outlaws/Axethrower.cfg:22
 #: War_of_Legends/units/minotaurs/Gore.cfg:27
-#: War_of_Legends/units/undead/Skeleton_Rider.cfg:34
 #: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:36
 #: War_of_Legends/units/undead/Skele_Death_Baron.cfg:53
+#: War_of_Legends/units/undead/Skeleton_Rider.cfg:34
 #: War_of_Legends/units/vampires/Blood_Hulk.cfg:32
 msgid "axe"
 msgstr ""
@@ -3581,6 +4023,26 @@ msgstr ""
 msgid "Wizards are experienced healers and have a considerable skill of welding fireballs."
 msgstr ""
 
+#. [race]: id=minotaur
+#: War_of_Legends/units/minotaurs.cfg:5
+msgid "race^Minotaur"
+msgstr ""
+
+#. [race]: id=minotaur
+#: War_of_Legends/units/minotaurs.cfg:6
+msgid "race^Minotaurs"
+msgstr ""
+
+#. [race]: id=minotaur
+#: War_of_Legends/units/minotaurs.cfg:9
+msgid ""
+"The Minotaurs are fearful creatures which are of ancient origin. They used to be humans which lived in the ancient times on the Great Continent, but a curse was placed upon the ancient civilization of these humans due to their disobedience towards their deity and creator. However some of the cursed ones prayed to their deity for forgiveness and therefore were rewarded with the inability to die by aging and therefore could only be killed by other means.\n"
+"\n"
+"A minotaur's body is basically a fusion between that of a bull and a human. They also possess immense strength and some possess magical abilities granted by a higher relationship with their deity. The minotaurs even without a greater relationship with their deity are very magical creatures due to their prayers for forgiveness. This magic is manifested as the inability to die by aging and therefore the minotaurs' bodies heal very quickly.\n"
+"\n"
+"Minotaurs fight well in forests and mountains but fight poorly in open fields, and especially in water and most of them are very slow but sturdy."
+msgstr ""
+
 #. [unit_type]: id=Minotaur Behemoth, race=minotaur
 #: War_of_Legends/units/minotaurs/Behemoth.cfg:5
 msgid "Behemoth"
@@ -3621,8 +4083,8 @@ msgstr ""
 #: War_of_Legends/units/minotaurs/Boar_Cataphract.cfg:54
 #: War_of_Legends/units/minotaurs/Boar_Knight.cfg:53
 #: War_of_Legends/units/minotaurs/Boar_Rider.cfg:36
-#: War_of_Legends/units/undead/Skeleton_Rider.cfg:44
 #: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:46
+#: War_of_Legends/units/undead/Skeleton_Rider.cfg:44
 msgid "trample"
 msgstr ""
 
@@ -3763,6 +4225,23 @@ msgstr ""
 msgid "The Minotaur Warlocks are very powerful mages that have a very important role in minotaur society; that role is to serve as conveyors of their goddess' words and to serve as her hands. Their vast power comes from their powerful aura combined with the crystals they wield."
 msgstr ""
 
+#. [race]: id=dragon
+#: War_of_Legends/units/monsters.cfg:5
+msgid "race^Dragon"
+msgstr ""
+
+#. [race]: id=dragon
+#: War_of_Legends/units/monsters.cfg:7
+msgid "race+plural^Dragons"
+msgstr ""
+
+#. [race]: id=dragon
+#. [unit_type]: id=Dragon Lord, race=dragon
+#: War_of_Legends/units/monsters.cfg:11
+#: War_of_Legends/units/monsters/Dragon_Lord.cfg:31
+msgid "A dragon is a legendary creature, normally seen only in fantastic tales. They are very rare, and were it not for the historical events, the singlehanded destruction of cities and towns that these creatures have wrought, they might be dismissed as mere myth. Legends are very specific about the ravages of dragons; noting their great strength, speed, their preternatural cunning, and above all else, the great fire that burns inside of them."
+msgstr ""
+
 #. [unit_type]: id=Cave Wyrm, race=monster
 #: War_of_Legends/units/monsters/Cave_Wyrm.cfg:5
 msgid "Cave Wyrm"
@@ -3770,7 +4249,7 @@ msgstr ""
 
 #. [unit_type]: id=Cave Wyrm, race=monster
 #: War_of_Legends/units/monsters/Cave_Wyrm.cfg:19
-msgid "Cave Wyrms are strange beasts, basically stout serpents with wings, but no legs.  They are relatively rare, and their presence is attributed to some eccentric wizard or dragon.  Mature Wyrms have excellent control of their fire breath attack, as if they are themselves miniature dragons."
+msgid "Cave Wyrms are strange beasts, basically stout serpents with wings, but no legs. They are relatively rare, and their presence is attributed to some eccentric wizard or dragon. Mature Wyrms have excellent control of their fire breath attack, as if they are themselves miniature dragons."
 msgstr ""
 
 #. [attack]: type=fire
@@ -3786,19 +4265,12 @@ msgstr ""
 
 #. [unit_type]: id=Cave Wyrmlet, race=monster
 #: War_of_Legends/units/monsters/Cave_Wyrmlet.cfg:17
-msgid "Cave Wyrms are strange beasts, basically stout serpents with wings, but no legs.  They are relatively rare, and their presence is attributed to some eccentric wizard or dragon.  The young are small, but hungry and aggressive."
+msgid "Cave Wyrms are strange beasts, basically stout serpents with wings, but no legs. They are relatively rare, and their presence is attributed to some eccentric wizard or dragon. The young are small, but hungry and aggressive."
 msgstr ""
 
 #. [unit_type]: id=Dragon Lord, race=dragon
 #: War_of_Legends/units/monsters/Dragon_Lord.cfg:11
 msgid "Dragon Lord"
-msgstr ""
-
-#. [unit_type]: id=Dragon Lord, race=dragon
-#. [race]: id=dragon
-#: War_of_Legends/units/monsters/Dragon_Lord.cfg:31
-#: War_of_Legends/units/monsters.cfg:11
-msgid "A dragon is a legendary creature, normally seen only in fantastic tales. They are very rare, and were it not for the historical events, the singlehanded destruction of cities and towns that these creatures have wrought, they might be dismissed as mere myth. Legends are very specific about the ravages of dragons; noting their great strength, speed, their preternatural cunning, and above all else, the great fire that burns inside of them."
 msgstr ""
 
 #. [attack]: type=blade
@@ -3993,100 +4465,43 @@ msgstr ""
 msgid "Naga hunters who show more mastery and accuracy with their bows are promoted to the ranks of the Marksman. They are more skilled with their bows and can shoot down anything that is foolish enough to enter their domains."
 msgstr ""
 
-#. [unit_type]: id=Cloud of Gloom, race=nightmare
-#: War_of_Legends/units/nightmares/Cloud_of_Gloom.cfg:6
-msgid "Cloud of Gloom"
-msgstr ""
-
-#. [unit_type]: id=Cloud of Gloom, race=nightmare
-#: War_of_Legends/units/nightmares/Cloud_of_Gloom.cfg:20
+#: War_of_Legends/units/nightmares-elementals.cfg:4
 msgid ""
-"King Dowrein I, Memoirs of a mercenary:\n"
-"'The moon was long set when we heard the wailing again, a terrible sound that seemed to come from everywhere, promising infinite pain. But this time we spied it racing towards us through the trees... there among the darkest shadows, something blacker yet, like a hole in the night.'"
-msgstr ""
-
-#. [attack]: type=cold
-#: War_of_Legends/units/nightmares/Cloud_of_Gloom.cfg:38
-#: War_of_Legends/units/nightmares/Eternal_Night.cfg:39
-msgid "cold aura"
-msgstr ""
-
-#. [attack]: type=cold
-#: War_of_Legends/units/nightmares/Cloud_of_Gloom.cfg:51
-#: War_of_Legends/units/nightmares/Eternal_Night.cfg:52
-#: War_of_Legends/units/nightmares/Howling_Darkness.cfg:36
-msgid "howl"
-msgstr ""
-
-#. [unit_type]: id=Death Spectre, race=nightmare
-#: War_of_Legends/units/nightmares/Death_Spectre.cfg:6
-msgid "Death Spectre"
-msgstr ""
-
-#. [unit_type]: id=Death Spectre, race=nightmare
-#: War_of_Legends/units/nightmares/Death_Spectre.cfg:20
-msgid ""
-"Noble Ordwin, Touched by the Spectre:\n"
-"'What is to see, in the night of their mantle\n"
-"That fascinates us and makes us pass way\n"
-"Without a complaint in the midst of the battle?\n"
-"Our soul, waiting that instant for itself to display.'"
-msgstr ""
-
-#. [attack]: type=arcane
-#: War_of_Legends/units/nightmares/Death_Spectre.cfg:36
-#: War_of_Legends/units/nightmares/Life_Thief.cfg:32
-#: War_of_Legends/units/nightmares/Soul_Snatcher.cfg:33
-msgid "soul grasp"
-msgstr ""
-
-#. [unit_type]: id=Eternal Night, race=nightmare
-#: War_of_Legends/units/nightmares/Eternal_Night.cfg:6
-msgid "Eternal Night"
-msgstr ""
-
-#. [unit_type]: id=Eternal Night, race=nightmare
-#: War_of_Legends/units/nightmares/Eternal_Night.cfg:21
-msgid ""
-"King Dowrein I, Memoirs of a mercenary:\n"
-"'Though dawn should have come, the darkness did not lift, nor would it ever for many of my companions. It had descended on us like the shroud of some dreadful reaver, drifting past our unsuspecting pickets and achieving total surprise. Over the baleful howling of our foe could be heard the hopeless screams of its victims. I dropped my useless sword and fled for the river and its doubtful safety.'"
-msgstr ""
-
-#. [unit_type]: id=Howling Darkness, race=nightmare
-#: War_of_Legends/units/nightmares/Howling_Darkness.cfg:6
-msgid "Howling Darkness"
-msgstr ""
-
-#. [unit_type]: id=Howling Darkness, race=nightmare
-#: War_of_Legends/units/nightmares/Howling_Darkness.cfg:20
-msgid "Meloen became obsessed with the fragility of life and the randomness of fate. Terrible visions beset her: an infant grown breathless and cold in the crib, its sleeping parents an arm's length away, a child fallen in a cistern, unable to swim or call for aid, a viper coiled in the flowerbed. The future, veiled in uncertainty, seemed to hold only the blackest of promises. As Meloen raged at these visions, the Howling Darkness coalesced."
-msgstr ""
-
-#. [unit_type]: id=Life Thief, race=nightmare
-#: War_of_Legends/units/nightmares/Life_Thief.cfg:6
-msgid "Life Thief"
-msgstr ""
-
-#. [unit_type]: id=Life Thief, race=nightmare
-#: War_of_Legends/units/nightmares/Life_Thief.cfg:20
-msgid ""
-"In her moments of happiness, Meloen enjoyed gazing at butterflies. In these rare moments of meditation she became conscious of their short lives and felt her own mortality deeply.\n"
+"Despising herself, self-doubting, Meloen felt a strong distrust of her surroundings. Panarbori, the spirit of nature originally made to flesh by the power of Meloen's love toward the forest, had been also altered by the doubts of Meloen. He became the opposite of what the former silver mage was seeking in her companion: instead of being considerate and a source of stability, he became impulsive and violent. His fits of anger matched the wrath of nature itself and were responsible for natural catastrophes.\n"
 "\n"
-"While pregnant, Meloen dreamed of an eerie spirit shaped like a butterfly, floating above her and the child she was holding. She immediately identified the spirit as an underling of death itself, warning her that she wouldn't live long enough to see her unborn child grow. There was little time then, before spectres of death spread into the forest."
+"These unstable elementals are bits of Panarbori released after a rage tantrum, with the help of Meloen's power."
 msgstr ""
 
-#. [unit_type]: id=Soul Snatcher, race=nightmare
-#: War_of_Legends/units/nightmares/Soul_Snatcher.cfg:6
-msgid "Soul Snatcher"
+#: War_of_Legends/units/nightmares-elementals.cfg:9
+msgid "They are as unpredictable as their father, rushing like small furies from one battlefield to another."
 msgstr ""
 
-#. [unit_type]: id=Soul Snatcher, race=nightmare
-#: War_of_Legends/units/nightmares/Soul_Snatcher.cfg:20
+#: War_of_Legends/units/nightmares-elementals.cfg:12
+msgid "Their thorny branches grow wildly in all directions, seeking to strangle any life they encounter."
+msgstr ""
+
+#: War_of_Legends/units/nightmares-elementals.cfg:15
+msgid "The ground shudders as they attack in this form."
+msgstr ""
+
+#: War_of_Legends/units/nightmares-elementals.cfg:18
+msgid "They engulf foes in the turbulent waters that form them."
+msgstr ""
+
+#: War_of_Legends/units/nightmares-elementals.cfg:21
+msgid "They blast all they encounter with gouts of sand."
+msgstr ""
+
+#: War_of_Legends/units/nightmares-elementals.cfg:24
+msgid "They strike with a cold and biting fury."
+msgstr ""
+
+#: War_of_Legends/units/nightmares-elementals.cfg:27
 msgid ""
-"King Dowrein I, Memoirs of a mercenary:\n"
-"'I have experienced this scene a hundred times, as one merchant caravan or another wound its way along the verge of the deep woods: the quiet conversations of the wagoneers, the soldiers boastfully narrating their exploits of the day before, then the sudden anxiety of the horses, their fearful whinnying and rearing. Wagons and men alike stopped, all eyes and hears searching for the smallest sign. And then, the sudden, brutal attack of those demonic creatures.\n"
-"\n"
-"But though with time and hard-won experience we became skilled at driving them back to that cursed forest, our fear remained the same with each battle: the fear of losing our minds and souls, and ultimately, our lives.'"
+"Silver Mage Norsesh, Arcane Interactions - Analysis and Theorisation:\n"
+"'We now consider the limits of potency in the usage of what is called magic by the common.... Control, in the absence of mental discipline, does not rise commensurately with increasing power. The critical factor appears to be opposition between the quantity of energy transmitted and the efficiency of that transmission.\n"
+"[...]\n"
+"A literal example of the inefficiency inherent in power increase is the growth of Unstable Elementals, beings found in the south of the Wesnoth region. In their late stage the creatures become incarnations of the very wrath of nature. Far from exerting greater control over their ever increasing energy, the elemental becomes the puppet of its own excess emotion, like a child trapped within the overgrown body of a man, changing from one wild state to another in response to its environment.'"
 msgstr ""
 
 #. [unit_type]: id=Nature Wrath, race=elemental, description={WRATH_COMMON_DESCRIPTION}
@@ -4187,6 +4602,127 @@ msgstr ""
 msgid "Unstable Elemental"
 msgstr ""
 
+#. [race]: id=nightmare
+#: War_of_Legends/units/nightmares.cfg:5
+msgid "race^Nightmare"
+msgstr ""
+
+#. [race]: id=nightmare
+#: War_of_Legends/units/nightmares.cfg:6
+msgid "race+plural^Nightmares"
+msgstr ""
+
+#. [race]: id=nightmare
+#: War_of_Legends/units/nightmares.cfg:9
+msgid "Meloen caused these... things, to incarnate the very fears gnawing at her soul and mind. Each one of them represents a single facet of terror she imprisoned herself in, and as such is unmatched in spreading fear and uncertainty beyond the limit of sanity. Nightmares are not alive and as such can't be plagued, poisoned or drained."
+msgstr ""
+
+#. [unit_type]: id=Cloud of Gloom, race=nightmare
+#: War_of_Legends/units/nightmares/Cloud_of_Gloom.cfg:6
+msgid "Cloud of Gloom"
+msgstr ""
+
+#. [unit_type]: id=Cloud of Gloom, race=nightmare
+#: War_of_Legends/units/nightmares/Cloud_of_Gloom.cfg:20
+msgid ""
+"King Dowrein I, Memoirs of a mercenary:\n"
+"'The moon was long set when we heard the wailing again, a terrible sound that seemed to come from everywhere, promising infinite pain. But this time we spied it racing towards us through the trees... there among the darkest shadows, something blacker yet, like a hole in the night.'"
+msgstr ""
+
+#. [attack]: type=cold
+#: War_of_Legends/units/nightmares/Cloud_of_Gloom.cfg:38
+#: War_of_Legends/units/nightmares/Eternal_Night.cfg:39
+msgid "cold aura"
+msgstr ""
+
+#. [attack]: type=cold
+#: War_of_Legends/units/nightmares/Cloud_of_Gloom.cfg:51
+#: War_of_Legends/units/nightmares/Eternal_Night.cfg:52
+#: War_of_Legends/units/nightmares/Howling_Darkness.cfg:36
+msgid "howl"
+msgstr ""
+
+#. [unit_type]: id=Death Spectre, race=nightmare
+#: War_of_Legends/units/nightmares/Death_Spectre.cfg:6
+msgid "Death Spectre"
+msgstr ""
+
+#. [unit_type]: id=Death Spectre, race=nightmare
+#: War_of_Legends/units/nightmares/Death_Spectre.cfg:20
+msgid ""
+"Noble Ordwin, Touched by the Spectre:\n"
+"'What is to see, in the night of their mantle\n"
+"That fascinates us and makes us pass way\n"
+"Without a complaint in the midst of the battle?\n"
+"Our soul, waiting that instant for itself to display.'"
+msgstr ""
+
+#. [attack]: type=arcane
+#: War_of_Legends/units/nightmares/Death_Spectre.cfg:36
+#: War_of_Legends/units/nightmares/Life_Thief.cfg:32
+#: War_of_Legends/units/nightmares/Soul_Snatcher.cfg:33
+msgid "soul grasp"
+msgstr ""
+
+#. [unit_type]: id=Eternal Night, race=nightmare
+#: War_of_Legends/units/nightmares/Eternal_Night.cfg:6
+msgid "Eternal Night"
+msgstr ""
+
+#. [unit_type]: id=Eternal Night, race=nightmare
+#: War_of_Legends/units/nightmares/Eternal_Night.cfg:21
+msgid ""
+"King Dowrein I, Memoirs of a mercenary:\n"
+"'Though dawn should have come, the darkness did not lift, nor would it ever for many of my companions. It had descended on us like the shroud of some dreadful reaver, drifting past our unsuspecting pickets and achieving total surprise. Over the baleful howling of our foe could be heard the hopeless screams of its victims. I dropped my useless sword and fled for the river and its doubtful safety.'"
+msgstr ""
+
+#. [unit_type]: id=Howling Darkness, race=nightmare
+#: War_of_Legends/units/nightmares/Howling_Darkness.cfg:6
+msgid "Howling Darkness"
+msgstr ""
+
+#. [unit_type]: id=Howling Darkness, race=nightmare
+#: War_of_Legends/units/nightmares/Howling_Darkness.cfg:20
+msgid "Meloen became obsessed with the fragility of life and the randomness of fate. Terrible visions beset her: an infant grown breathless and cold in the crib, its sleeping parents an arm's length away, a child fallen in a cistern, unable to swim or call for aid, a viper coiled in the flowerbed. The future, veiled in uncertainty, seemed to hold only the blackest of promises. As Meloen raged at these visions, the Howling Darkness coalesced."
+msgstr ""
+
+#. [unit_type]: id=Life Thief, race=nightmare
+#: War_of_Legends/units/nightmares/Life_Thief.cfg:6
+msgid "Life Thief"
+msgstr ""
+
+#. [unit_type]: id=Life Thief, race=nightmare
+#: War_of_Legends/units/nightmares/Life_Thief.cfg:20
+msgid ""
+"In her moments of happiness, Meloen enjoyed gazing at butterflies. In these rare moments of meditation she became conscious of their short lives and felt her own mortality deeply.\n"
+"\n"
+"While pregnant, Meloen dreamed of an eerie spirit shaped like a butterfly, floating above her and the child she was holding. She immediately identified the spirit as an underling of death itself, warning her that she wouldn't live long enough to see her unborn child grow. There was little time then, before spectres of death spread into the forest."
+msgstr ""
+
+#. [unit_type]: id=Soul Snatcher, race=nightmare
+#: War_of_Legends/units/nightmares/Soul_Snatcher.cfg:6
+msgid "Soul Snatcher"
+msgstr ""
+
+#. [unit_type]: id=Soul Snatcher, race=nightmare
+#: War_of_Legends/units/nightmares/Soul_Snatcher.cfg:20
+msgid ""
+"King Dowrein I, Memoirs of a mercenary:\n"
+"'I have experienced this scene a hundred times, as one merchant caravan or another wound its way along the verge of the deep woods: the quiet conversations of the wagoneers, the soldiers boastfully narrating their exploits of the day before, then the sudden anxiety of the horses, their fearful whinnying and rearing. Wagons and men alike stopped, all eyes and hears searching for the smallest sign. And then, the sudden, brutal attack of those demonic creatures.\n"
+"\n"
+"But though with time and hard-won experience we became skilled at driving them back to that cursed forest, our fear remained the same with each battle: the fear of losing our minds and souls, and ultimately, our lives.'"
+msgstr ""
+
+#. [unit_type]: id=Orcish High Warlord, race=orc
+#: War_of_Legends/units/orcs/High_Warlord.cfg:5
+msgid "Orcish High Warlord"
+msgstr ""
+
+#. [unit_type]: id=Orcish High Warlord, race=orc
+#: War_of_Legends/units/orcs/High_Warlord.cfg:19
+msgid "Rarely, an orc will appear that has legendary strength and cunning. Such an orc is feared and respected by all other orcs, and his rule is never challenged."
+msgstr ""
+
 #. [unit_type]: id=Orcish Marauder, race=orc
 #: War_of_Legends/units/orcs/Marauder.cfg:5
 msgid "Orcish Marauder"
@@ -4258,24 +4794,29 @@ msgstr ""
 msgid "Saurian Prophet"
 msgstr ""
 
-#. [unit_type]: id=Saurian Prophet, race=lizard
-#: War_of_Legends/units/saurians/Prophet.cfg:19
-msgid "Certain saurians are seen dressed in arcane regalia and covered head to toe in horrifying, esoteric shapes and markings, both with paint and tattoo. Some suspect them to be visionaries, or prophets amongst their ilk. But whatever ‘societal’ function they may have, they are undeniably powerful in the strange magics their kind possess, and are beings to be wary of if ever seen."
-msgstr ""
-
-#. [attack]: type=cold
-#: War_of_Legends/units/saurians/Prophet.cfg:47
-msgid "curse"
+#. [unit_type]: id=Saurian Seer, race=lizard
+#: War_of_Legends/units/saurians/Seer.cfg:4
+msgid "Saurian Seer"
 msgstr ""
 
 #. [unit_type]: id=Saurian Spearthrower, race=lizard
-#: War_of_Legends/units/saurians/Spearthrower.cfg:5
-msgid "Saurian Spearthrower"
+#: War_of_Legends/units/saurians/Spearthrower.cfg:4
+msgid "female^Saurian Spearthrower"
 msgstr ""
 
 #. [unit_type]: id=Saurian Spearthrower, race=lizard
-#: War_of_Legends/units/saurians/Spearthrower.cfg:20
-msgid "Some saurian warriors with a particularly good aim prefer to aid their allies from the back lines rather than to infiltrate the enemy formations. With some exceptional spear throwing skills, their role is to protect the fragile saurian spellcasters during countless battles, and to support other warriors from afar. Defensive formations of saurian spearthrowers are not be underestimated."
+#: War_of_Legends/units/saurians/Spearthrower.cfg:18
+msgid "Some saurian warriors with a particularly good aim prefer to aid their allies from the back lines rather than to infiltrate the enemy formations. With some exceptional spear throwing skills, their role is to protect the fragile saurian spellcasters during countless battles, and to support other warriors from afar. Defensive formations of saurian spearwomen are not to be underestimated."
+msgstr ""
+
+#. [unit_type]: id=Saurian Warden, race=lizard
+#: War_of_Legends/units/saurians/Warden.cfg:4
+msgid "female^Saurian Warden"
+msgstr ""
+
+#. [unit_type]: id=Saurian Warden, race=lizard
+#: War_of_Legends/units/saurians/Warden.cfg:19
+msgid "Saurian warriors that excel in their combat abilities may advance to the role of wardens, which are responsible for keeping their fragile spellcasters alive during battles at all costs."
 msgstr ""
 
 #. [unit_type]: id=Troll Boulderlobber, race=troll
@@ -4356,16 +4897,6 @@ msgstr ""
 msgid "After too much time dabbling with forbidden magics and dark arts, these magi have begun to pay a heavy price. Lich Lords have started losing their bodies, becoming undead themselves. With time, they may become fully undead, and feared by all alike."
 msgstr ""
 
-#. [unit_type]: id=Skeleton Rider, race=undead
-#: War_of_Legends/units/undead/Skeleton_Rider.cfg:5
-msgid "Skeleton Rider"
-msgstr ""
-
-#. [unit_type]: id=Skeleton Rider, race=undead
-#: War_of_Legends/units/undead/Skeleton_Rider.cfg:25
-msgid "Once great warriors thundering across the plains, these mounted riders atop their skeletal horses were raised from the grave by unholy magic to spread fear and destruction."
-msgstr ""
-
 #. [unit_type]: id=Bone Knight, race=undead
 #: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:5
 msgid "Bone Knight"
@@ -4413,6 +4944,16 @@ msgstr ""
 msgid "Sometimes the mightiest warriors and generals, cursed with hate and angst, come back to this world as Death Knights. Death Barons serve them whilst accruing enough unholy power to become Death Knights. In the process they pick up a good deal of the Knight's power, including the ability to command underlings."
 msgstr ""
 
+#. [unit_type]: id=Skeleton Rider, race=undead
+#: War_of_Legends/units/undead/Skeleton_Rider.cfg:5
+msgid "Skeleton Rider"
+msgstr ""
+
+#. [unit_type]: id=Skeleton Rider, race=undead
+#: War_of_Legends/units/undead/Skeleton_Rider.cfg:25
+msgid "Once great warriors thundering across the plains, these mounted riders atop their skeletal horses were raised from the grave by unholy magic to spread fear and destruction."
+msgstr ""
+
 #. [unit_type]: id=Shadowback, race=undead
 #: War_of_Legends/units/undead/Spirit_Shadowback.cfg:4
 msgid "Shadowback"
@@ -4428,19 +4969,37 @@ msgstr ""
 msgid "wail"
 msgstr ""
 
-#. [unit_type]: id=Bloodborn, race=vampire
-#: War_of_Legends/units/vampires/Bloodborn.cfg:5
-msgid "Bloodborn"
+#: War_of_Legends/units/vampires.cfg:5
+msgid "Abel,Aleron,Aldon,Altair,Alumit,Amaia,Amarande,Ambrose,Amdis,Andros,Ashling,Athan,Bakarne,Bela,Beval,Bian,Blaine,Braeden,Brandeis,Brendan,Brone,Bronwen,Carden,Cian,Corbin,Damalis,Damian,Danton,Daray,Delano,Donn,Dunkan,Eamen,Gustaff,Heath,Heathcliff,Ingrum,Jareth,Kaevan,Karayan,Kern,Kieran,Lucine,Marlin,Nelo,Parris,Raven,Rune,Savan,Sumnor,Tainn,Tariq,Tristram,Vega,Wynn,Lestat,Louis,Armand,Amadeo,Santiago,Marius,Magnus,David,Enkil,Mael,Santino,Vittorio,Thorne,Avicus,Felix,Laurent,Daniel,Khayman,Tarquin,Quinn,Vladimir,Vlad,Ansel,Anwar,Arden,Ashe,Ashford,Ashlin,Bairde,Barnabas,Bentley,Brishen,Connor,Crevan,Dante,Flynne,Gavin,Hewitt,Holt,Jacy,Jolon,Kasch,Lucyan,Morgyn,Pembroke,Quillan,Quinn,Riordin,Rowan,Sylvain,Taban,Teague,Wendell"
 msgstr ""
 
-#. [unit_type]: id=Bloodborn, race=vampire
-#: War_of_Legends/units/vampires/Bloodborn.cfg:27
-msgid "Vampires do not bear many natural children. Most vampires are spawned by a bite from another vampire. The curses and strengths of vampires are spread as the vampire sucks the blood from his prey, and replaces it with magic. People new to the blood are made weak by it, and have not enough mastery over their mind to resist an order of the one who bit them. Eventually, they will grow used to it, and learn how to use the strength it provides them, but until then they are much as oversized children."
+#: War_of_Legends/units/vampires.cfg:6
+msgid "Aislinn,Alana,Alaura,Aleta,Alethea,Alma,Amaris,Amaryllis,Amaya,Ambrosine,Araxie,Ariana,Autumn,Badria,Blythe,Brenna,Busana,Cascata,Celine,Ceridwen,Chandra,Damarys,Denisha,Devin,Erela,Fala,Fanya,Hazelle,Isadora,Iva,Javan,Jenessa,Jora,Jordyn,Jovana,Kamalia,Kalyca,Kavindra,Kestrel,Kynthia,Laqueta,Layla,Leandra,Leigh,Livana,Naida,Neesha,Nevada,Oleta,Parkyr,Philomina,Pyralis,Rayne,Risa,Rosalia,Salena,Seda,Shahar,Shea,Silva,Silvana,Tabitha,Tacita,Tara,Tatiana,Tayce,Vala,Valonia,Vesta,Vidonia,Waneta,Wyntir,Yepa,Yolanda,Yoninah,Zyta,Adara,Adena,Adrianne,Alarice,Alvita,Amara,Ambika,Antonia,Araceli,Balandria,Basha,Beryl,Bryn,Callia,Caryssa,Cassandra,Casondrah,Chatha,Ciara,Cynara,Cytheria,Dabria,Darcei,Deandra,Deirdre,Delores,Desdomna,Devi,Drucilla,Duvessa,Fantine,Fuscienne,Gabi,Gallia,Hanna,Hedda,Jerica,Jetta,Joby,Kacila,Kala,Kallie,Keelia,Killian,Kory,Lilith,Lucretia,Lysha,Mercedes,Mia,Maura,Perdita,Quella,Riona,Safiya,Salina,Severin,Sidonia,Sirena,Solita,Tempest,Thea,Treva,Trista,Vala,Winta"
 msgstr ""
 
-#. [female]
-#: War_of_Legends/units/vampires/Bloodborn.cfg:70
-msgid "female^Bloodborn"
+#. [race]: id=vampire
+#: War_of_Legends/units/vampires.cfg:13
+msgid "race^Vampire"
+msgstr ""
+
+#. [race]: id=vampire
+#: War_of_Legends/units/vampires.cfg:14
+msgid "race+female^Vampiress"
+msgstr ""
+
+#. [race]: id=vampire
+#: War_of_Legends/units/vampires.cfg:15
+msgid "race^Vampires"
+msgstr ""
+
+#. [race]: id=vampire
+#: War_of_Legends/units/vampires.cfg:16
+msgid ""
+"The term 'vampire' is a word in an ancient dialect of the human language that would mean 'corrupted blood' in the modern tongue. In reality, vampires are not of a totally different race, but are the result of when a living creature's blood is corrupted by a very powerful, arcane type of magic. All vampires have red glowing eyes, white hair, pale skin, long fangs, and a craving for the blood of other living creatures. In addition, this magic has an effect on the creature so that it becomes similar to an undead creature; therefore necromancy, and abilities that drain will have no effect on a vampire. Some of the more powerful vampires even have the ability to transform into bats. Due to all of this, vampires are often classified as a different race.\n"
+"\n"
+"As vampires have a strong craving for blood, they usually overwhelm an already existing society mainly composed of living creatures, and build a monarchy or an oligarchy over it; the living members of the society would be subservient to the local vampires, and annually, five dozen of those members would be sacrificed to the vampire population. Due to this practice, the vampiric overlords encourage the subservient population to reproduce in great numbers so that the number of members of the subservient population remains plentiful. In return for compliance, the participating families get a somewhat higher place in society. These societies work for two reasons, one because of the threat the vampires present; two, the subservient members benefit from this setup.\n"
+"\n"
+"Since blood is a very important part of vampire society, it is used as their currency. Also, blood is often involved in their magic."
 msgstr ""
 
 #. [unit_type]: id=Blood Apprentice, race=vampire
@@ -4479,6 +5038,21 @@ msgstr ""
 #. [unit_type]: id=Blood Manipulator, race=vampire
 #: War_of_Legends/units/vampires/Blood_Manipulator.cfg:19
 msgid "It is horrifying what an skilled manipulator of blood can do to you.. He can cause your every vein to burn. He can strip you of food, or cause you to vomit, or burn through your brain. Horrifying as as that is what he can do to your spirit is worse."
+msgstr ""
+
+#. [unit_type]: id=Bloodborn, race=vampire
+#: War_of_Legends/units/vampires/Bloodborn.cfg:5
+msgid "Bloodborn"
+msgstr ""
+
+#. [unit_type]: id=Bloodborn, race=vampire
+#: War_of_Legends/units/vampires/Bloodborn.cfg:27
+msgid "Vampires do not bear many natural children. Most vampires are spawned by a bite from another vampire. The curses and strengths of vampires are spread as the vampire sucks the blood from his prey, and replaces it with magic. People new to the blood are made weak by it, and have not enough mastery over their mind to resist an order of the one who bit them. Eventually, they will grow used to it, and learn how to use the strength it provides them, but until then they are much as oversized children."
+msgstr ""
+
+#. [female]
+#: War_of_Legends/units/vampires/Bloodborn.cfg:70
+msgid "female^Bloodborn"
 msgstr ""
 
 #. [unit_type]: id=Day Hunter, race=vampire
@@ -4682,6 +5256,40 @@ msgstr ""
 #. [female]
 #: War_of_Legends/units/vampires/Twilight_Walker.cfg:167
 msgid "female^Twilight Walker"
+msgstr ""
+
+#: War_of_Legends/units/windsong.cfg:4
+msgid "Ana,Arala,Ala,Asare,Ashara,Athesa,Ama,Averana,Atharuna,Amoshe,Ahurena,Alera,Ave,Arila,Ai,Atha,Ashe,Aru,Amasela,Aoshe,Amelara,Alura,Aryana,Eva,Elena,Esure,Ena,Ethe,Eme,Eira,Ela,Efara,Evina,Eshe,Ethara,Esaora,Eumane,Ehuva,Ere,Emi,Eshi,Enemura,Sela,Sara,Sula,Salura,Sana,Semisha,Soshire,Suvana,Sife,Saletha,Sitheri,Surei,Somile,Sahama,Salarema,Sea,Severa,Suthe,Sithame,Ola,Omana,Osheura,Olena,Onethe,Ovenatha,Fira,Fesha,Fena,Felai,Foma,Furava,Fusatha,Fala,Famia,Fesea,Fenoma,Fihama,Fama,Fia,Famori,Irena,Ima,Ishama,Iolara,Imaha,Inithe,Imana,Isora,Ilameshe,Ila,Ishe,Ithoe,Ivie,Imia,Iralura,Isanare,Ihama,Iri,Ithania,Isavora,Ila,Mana,Mia,Mara,Mura,Myra,Masohe,Mushena,Malesa,Maisha,Minaru,Minare,Monia,Mesere,Mulasha,Mathe,Minashema,Mesa,Mirana,Mifa,Mivareshana,Une,Uara,Ushala,Uhima,Uthe,Unaluthe,Thesa,Thema,Thirala,Thoshe,Thofara,Thami,Thise,Therama,Thila,Thama,Therasa,Thurana,Thalia,Therana,Thomena,Thosa,Thene,Thime,Thamele,Theshia,Nai,Nama,Norale,Nethala,Nisha,Nemene,Nefe,Navaru,Nula,Nusina,Naria,Nosua,Naomi,Nahasa,Nila,Nuralena,Nema,Lisa,Lara,Loe,Lasama,Lemeshe,Lathia,Leshara,Laisa,Line,Lenesa,Loma,Lura,Lesamia,Lehara,Lana,Lashe,Larena,Lotha,Limia,Lania,Larie,Lafana,Lerava,Love,Rama,Runa,Rashe,Ria,Rovena,Riva,Rufa,Rithia,Raina,Rava,Rashama,Rei,Rosha,Vena,Via,Velara,Veruna,Visha,Vana,Vele,Veshere,Vanesa,Vithia,Hana,Haru,Heshia,Hia,Holaria,Hasha,Hena,Shara,Shena,Shira,Shamane,Shefia,Shune,Shai,Shena,Shalia,Shasi,Shava,Shura"
+msgstr ""
+
+#. [race]: id=abstraction
+#: War_of_Legends/units/windsong.cfg:9
+msgid "race^Abstraction"
+msgstr ""
+
+#. [race]: id=abstraction
+#: War_of_Legends/units/windsong.cfg:10
+msgid "race+female^Abstraction"
+msgstr ""
+
+#. [race]: id=abstraction
+#: War_of_Legends/units/windsong.cfg:11
+msgid "race^Abstractions"
+msgstr ""
+
+#. [race]: id=windsong
+#: War_of_Legends/units/windsong.cfg:19
+msgid "race^Windsong Human"
+msgstr ""
+
+#. [race]: id=windsong
+#: War_of_Legends/units/windsong.cfg:20
+msgid "race^Windsong Humans"
+msgstr ""
+
+#. [race]: id=windsong
+#: War_of_Legends/units/windsong.cfg:27
+msgid "The Windsong are a mysterious people, consisting completely of abducted female humans. Their numbers are few, and their goals and motives obscure. However they have demonstrated in the past that they are not to be trifled with. They have strange powers, and massive libraries and towers full of books of ancient lore. Their armies though few in number have defeated all of the many who've attacked them, or whom they've decided to attack. Humans hate them because they steal the most fit of their daughters from right under their very noses. Most other races distrust them."
 msgstr ""
 
 #. [unit_type]: id=Arbiter, race=windsong
@@ -5020,311 +5628,5 @@ msgid ""
 "Once they reach adulthood, Weavers fill a number of different roles in Windsong society: they are the healers, the planners, the diviners, and the military leaders. They pursue the art of archery, viewing it as a form of meditation, and are aided in both everyday life and battle by their accompanying spirit.\n"
 "\n"
 "The first lessons a Weaver-born learns are the arts of healing, though she cannot yet cure poison."
-msgstr ""
-
-#. [race]: id=aberration
-#: War_of_Legends/units/aberrations.cfg:5
-msgid "race^Aberration"
-msgstr ""
-
-#. [race]: id=aberration
-#: War_of_Legends/units/aberrations.cfg:6
-msgid "race+plural^Aberrations"
-msgstr ""
-
-#. [race]: id=aberration
-#: War_of_Legends/units/aberrations.cfg:8
-msgid "So deformed physically that it's immediately obvious that they can't be natural and must have been either created or altered by magic, early in their development cycle."
-msgstr ""
-
-#. [race]: id=carapace
-#: War_of_Legends/units/carapaces.cfg:5
-msgid "race^Carapace"
-msgstr ""
-
-#. [race]: id=carapace
-#: War_of_Legends/units/carapaces.cfg:6
-msgid "race+female^Carapace"
-msgstr ""
-
-#. [race]: id=carapace
-#: War_of_Legends/units/carapaces.cfg:7
-msgid "race^Carapaces"
-msgstr ""
-
-#. [race]: id=carapace
-#: War_of_Legends/units/carapaces.cfg:8
-msgid "Inhabiting the coastal and aquatic regions of Irdya, the Carapaces are a peaceful people. Though not warlike, these creatures are heavily resistant to all sorts of damage except esoteric magic or gelid-based weaponry. They possess moderate strength and only take up arms when threatened by an enemy. Carapaces have no difficulty moving through most terrain, but are hindered traversing mountainous or icy regions."
-msgstr ""
-
-#. [race]: id=centaur
-#: War_of_Legends/units/centaurs.cfg:5
-msgid "race^Centaur"
-msgstr ""
-
-#. [race]: id=centaur
-#: War_of_Legends/units/centaurs.cfg:6
-msgid "race+female^Centaur"
-msgstr ""
-
-#. [race]: id=centaur
-#: War_of_Legends/units/centaurs.cfg:7
-msgid "race^Centaurs"
-msgstr ""
-
-#. [race]: id=elemental
-#: War_of_Legends/units/elementals.cfg:5
-msgid "race^Elemental"
-msgstr ""
-
-#. [race]: id=elemental
-#: War_of_Legends/units/elementals.cfg:6
-msgid "race^Elementals"
-msgstr ""
-
-#. [race]: id=elemental
-#: War_of_Legends/units/elementals.cfg:10
-msgid "The word 'elemental' is a term used to describe a magical creature that is purely composed of elemental energy. Apparently, the creation of an elemental involves the presence of powerful, arcane magic. Therefore, they are often found in an area influenced by an extremely powerful force. Albeit a somewhat rare situation, they are also found under the control of very powerful mages, those who are adept with the manipulation of aura and elemental energy. Although their behavior and characteristics differ due to the different elements of which they are composed, they generally have no personality (except for some of the more powerful elementals or those that were created in a manner that would grant them personality), and are protective of the force that created them. In addition, an elemental obviously has the powers, abilities, etc. associated with the element of which it is composed."
-msgstr ""
-
-#. [race]: id=faerie
-#: War_of_Legends/units/faeries.cfg:5
-msgid "race^Faerie"
-msgstr ""
-
-#. [race]: id=faerie
-#: War_of_Legends/units/faeries.cfg:6
-msgid "race+male^Faerie"
-msgstr ""
-
-#. [race]: id=faerie
-#: War_of_Legends/units/faeries.cfg:7
-msgid "race^Fairies"
-msgstr ""
-
-#. [race]: id=faerie
-#: War_of_Legends/units/faeries.cfg:8
-msgid "Great, dark forests and caves are excellent places for mysterious creatures to live and hide in. Rarely seen, the mischievous fairies are some of the most beautiful beings who inhabit those parts. Their protective attitude towards nature make them friends of the elves who often share their territory, but their whimsical personality and control over the fire element are characteristics that any creature foreign to their forests should fear and respect."
-msgstr ""
-
-#. [race]: id=gargoyle
-#: War_of_Legends/units/gargoyles.cfg:7
-msgid "race^Gargoyle"
-msgstr ""
-
-#. [race]: id=gargoyle
-#: War_of_Legends/units/gargoyles.cfg:8
-msgid "race^Gargoyles"
-msgstr ""
-
-#. [race]: id=gargoyle
-#: War_of_Legends/units/gargoyles.cfg:9
-msgid "Some of the darker, yet bizare magic casted upon stone results in the Gargoyles. Gargoyles often take on the form of flying statues, they really cannot do much besides slamming into their foes, thus their masters, the Vampires often use them as blockades to by time for an assault."
-msgstr ""
-
-#. [race]: id=gnoll
-#: War_of_Legends/units/gnolls.cfg:5
-msgid "race^Gnoll"
-msgstr ""
-
-#. [race]: id=gnoll
-#: War_of_Legends/units/gnolls.cfg:6
-msgid "race^Gnolls"
-msgstr ""
-
-#. [race]: id=gnoll
-#: War_of_Legends/units/gnolls.cfg:11
-msgid "Gnolls are humanoid hyenas which live in the swamps of the Silver Lands. They are known for their aptitude in the fine art of archery and for their ability to conceal themselves in swampy terrain. Gnolls are often associated with the Minotaurs, mainly due to the fact Minotaurs often hire them as mercenaries."
-msgstr ""
-
-#. [race]: id=aragwaith
-#: War_of_Legends/units/human-aragwaithi.cfg:6
-msgid "race^Aragwaith"
-msgstr ""
-
-#. [race]: id=aragwaith
-#: War_of_Legends/units/human-aragwaithi.cfg:7
-msgid "race+female^Aragwaith"
-msgstr ""
-
-#. [race]: id=aragwaith
-#: War_of_Legends/units/human-aragwaithi.cfg:8
-msgid "race^Aragwaithi"
-msgstr ""
-
-#. [race]: id=aragwaith
-#: War_of_Legends/units/human-aragwaithi.cfg:12
-msgid ""
-"During most of the Golden Age, the humans who inhabited the Great Continent were mostly Wesnothians, divided across various territories such as the Northlands, Elensefar and the kingdom of Wesnoth itself. However, there was once a time of great strife during which a new race of humans started to appear from nowhere. They were the 'Aragwaithi', which meant 'noble' in their native language.\n"
-"\n"
-"It has been since then rumored that they came from the Vast Sea to settle in Wesnoth. They mostly lived as mercenaries in that time, until the Fall. After that, they supposedly moved to the northmost lands of the Continent, were the sands could not reach, and the green could survive.\n"
-"\n"
-"Albeit being humans, many of their customs and racial features are incredibly different to the standards, to the point it puts them close to elves in terms of their dexterity with bows. Their wisemen have a mastery of magic not to be underestimated in the battlefield, for it has surprised and overseded the best magi often."
-msgstr ""
-
-#. [race]: id=minotaur
-#: War_of_Legends/units/minotaurs.cfg:5
-msgid "race^Minotaur"
-msgstr ""
-
-#. [race]: id=minotaur
-#: War_of_Legends/units/minotaurs.cfg:6
-msgid "race^Minotaurs"
-msgstr ""
-
-#. [race]: id=minotaur
-#: War_of_Legends/units/minotaurs.cfg:9
-msgid ""
-"The Minotaurs are fearful creatures which are of ancient origin. They used to be humans which lived in the ancient times on the Great Continent, but a curse was placed upon the ancient civilization of these humans due to their disobedience towards their deity and creator. However some of the cursed ones prayed to their deity for forgiveness and therefore were rewarded with the inability to die by aging and therefore could only be killed by other means.\n"
-"\n"
-"A minotaur's body is basically a fusion between that of a bull and a human. They also possess immense strength and some possess magical abilities granted by a higher relationship with their deity. The minotaurs even without a greater relationship with their deity are very magical creatures due to their prayers for forgiveness. This magic is manifested as the inability to die by aging and therefore the minotaurs' bodies heal very quickly.\n"
-"\n"
-"Minotaurs fight well in forests and mountains but fight poorly in open fields, and especially in water and most of them are very slow but sturdy."
-msgstr ""
-
-#. [race]: id=dragon
-#: War_of_Legends/units/monsters.cfg:5
-msgid "race^Dragon"
-msgstr ""
-
-#. [race]: id=dragon
-#: War_of_Legends/units/monsters.cfg:7
-msgid "race+plural^Dragons"
-msgstr ""
-
-#: War_of_Legends/units/nightmares-elementals.cfg:4
-msgid ""
-"Despising herself, self-doubting, Meloen felt a strong distrust of her surroundings. Panarbori, the spirit of nature originally made to flesh by the power of Meloen's love toward the forest, had been also altered by the doubts of Meloen. He became the opposite of what the former silver mage was seeking in her companion: instead of being considerate and a source of stability, he became impulsive and violent. His fits of anger matched the wrath of nature itself and were responsible for natural catastrophes.\n"
-"\n"
-"These unstable elementals are bits of Panarbori released after a rage tantrum, with the help of Meloen's power."
-msgstr ""
-
-#: War_of_Legends/units/nightmares-elementals.cfg:9
-msgid "They are as unpredictable as their father, rushing like small furies from one battlefield to another."
-msgstr ""
-
-#: War_of_Legends/units/nightmares-elementals.cfg:12
-msgid "Their thorny branches grow wildly in all directions, seeking to strangle any life they encounter."
-msgstr ""
-
-#: War_of_Legends/units/nightmares-elementals.cfg:15
-msgid "The ground shudders as they attack in this form."
-msgstr ""
-
-#: War_of_Legends/units/nightmares-elementals.cfg:18
-msgid "They engulf foes in the turbulent waters that form them."
-msgstr ""
-
-#: War_of_Legends/units/nightmares-elementals.cfg:21
-msgid "They blast all they encounter with gouts of sand."
-msgstr ""
-
-#: War_of_Legends/units/nightmares-elementals.cfg:24
-msgid "They strike with a cold and biting fury."
-msgstr ""
-
-#: War_of_Legends/units/nightmares-elementals.cfg:27
-msgid ""
-"Silver Mage Norsesh, Arcane Interactions - Analysis and Theorisation:\n"
-"'We now consider the limits of potency in the usage of what is called magic by the common.... Control, in the absence of mental discipline, does not rise commensurately with increasing power. The critical factor appears to be opposition between the quantity of energy transmitted and the efficiency of that transmission.\n"
-"[...]\n"
-"A literal example of the inefficiency inherent in power increase is the growth of Unstable Elementals, beings found in the south of the Wesnoth region. In their late stage the creatures become incarnations of the very wrath of nature. Far from exerting greater control over their ever increasing energy, the elemental becomes the puppet of its own excess emotion, like a child trapped within the overgrown body of a man, changing from one wild state to another in response to its environment.'"
-msgstr ""
-
-#. [race]: id=nightmare
-#: War_of_Legends/units/nightmares.cfg:5
-msgid "race^Nightmare"
-msgstr ""
-
-#. [race]: id=nightmare
-#: War_of_Legends/units/nightmares.cfg:6
-msgid "race+plural^Nightmares"
-msgstr ""
-
-#. [race]: id=nightmare
-#: War_of_Legends/units/nightmares.cfg:9
-msgid "Meloen caused these... things, to incarnate the very fears gnawing at her soul and mind. Each one of them represents a single facet of terror she imprisoned herself in, and as such is unmatched in spreading fear and uncertainty beyond the limit of sanity. Nightmares are not alive and as such can't be plagued, poisoned or drained."
-msgstr ""
-
-#: War_of_Legends/units/vampires.cfg:5
-msgid "Abel,Aleron,Aldon,Altair,Alumit,Amaia,Amarande,Ambrose,Amdis,Andros,Ashling,Athan,Bakarne,Bela,Beval,Bian,Blaine,Braeden,Brandeis,Brendan,Brone,Bronwen,Carden,Cian,Corbin,Damalis,Damian,Danton,Daray,Delano,Donn,Dunkan,Eamen,Gustaff,Heath,Heathcliff,Ingrum,Jareth,Kaevan,Karayan,Kern,Kieran,Lucine,Marlin,Nelo,Parris,Raven,Rune,Savan,Sumnor,Tainn,Tariq,Tristram,Vega,Wynn,Lestat,Louis,Armand,Amadeo,Santiago,Marius,Magnus,David,Enkil,Mael,Santino,Vittorio,Thorne,Avicus,Felix,Laurent,Daniel,Khayman,Tarquin,Quinn,Vladimir,Vlad,Ansel,Anwar,Arden,Ashe,Ashford,Ashlin,Bairde,Barnabas,Bentley,Brishen,Connor,Crevan,Dante,Flynne,Gavin,Hewitt,Holt,Jacy,Jolon,Kasch,Lucyan,Morgyn,Pembroke,Quillan,Quinn,Riordin,Rowan,Sylvain,Taban,Teague,Wendell"
-msgstr ""
-
-#: War_of_Legends/units/vampires.cfg:6
-msgid "Aislinn,Alana,Alaura,Aleta,Alethea,Alma,Amaris,Amaryllis,Amaya,Ambrosine,Araxie,Ariana,Autumn,Badria,Blythe,Brenna,Busana,Cascata,Celine,Ceridwen,Chandra,Damarys,Denisha,Devin,Erela,Fala,Fanya,Hazelle,Isadora,Iva,Javan,Jenessa,Jora,Jordyn,Jovana,Kamalia,Kalyca,Kavindra,Kestrel,Kynthia,Laqueta,Layla,Leandra,Leigh,Livana,Naida,Neesha,Nevada,Oleta,Parkyr,Philomina,Pyralis,Rayne,Risa,Rosalia,Salena,Seda,Shahar,Shea,Silva,Silvana,Tabitha,Tacita,Tara,Tatiana,Tayce,Vala,Valonia,Vesta,Vidonia,Waneta,Wyntir,Yepa,Yolanda,Yoninah,Zyta,Adara,Adena,Adrianne,Alarice,Alvita,Amara,Ambika,Antonia,Araceli,Balandria,Basha,Beryl,Bryn,Callia,Caryssa,Cassandra,Casondrah,Chatha,Ciara,Cynara,Cytheria,Dabria,Darcei,Deandra,Deirdre,Delores,Desdomna,Devi,Drucilla,Duvessa,Fantine,Fuscienne,Gabi,Gallia,Hanna,Hedda,Jerica,Jetta,Joby,Kacila,Kala,Kallie,Keelia,Killian,Kory,Lilith,Lucretia,Lysha,Mercedes,Mia,Maura,Perdita,Quella,Riona,Safiya,Salina,Severin,Sidonia,Sirena,Solita,Tempest,Thea,Treva,Trista,Vala,Winta"
-msgstr ""
-
-#. [race]: id=vampire
-#: War_of_Legends/units/vampires.cfg:13
-msgid "race^Vampire"
-msgstr ""
-
-#. [race]: id=vampire
-#: War_of_Legends/units/vampires.cfg:14
-msgid "race+female^Vampiress"
-msgstr ""
-
-#. [race]: id=vampire
-#: War_of_Legends/units/vampires.cfg:15
-msgid "race^Vampires"
-msgstr ""
-
-#. [race]: id=vampire
-#: War_of_Legends/units/vampires.cfg:16
-msgid ""
-"The term 'vampire' is a word in an ancient dialect of the human language that would mean 'corrupted blood' in the modern tongue. In reality, vampires are not of a totally different race, but are the result of when a living creature's blood is corrupted by a very powerful, arcane type of magic. All vampires have red glowing eyes, white hair, pale skin, long fangs, and a craving for the blood of other living creatures. In addition, this magic has an effect on the creature so that it becomes similar to an undead creature; therefore necromancy, and abilities that drain will have no effect on a vampire. Some of the more powerful vampires even have the ability to transform into bats. Due to all of this, vampires are often classified as a different race.\n"
-"\n"
-"As vampires have a strong craving for blood, they usually overwhelm an already existing society mainly composed of living creatures, and build a monarchy or an oligarchy over it; the living members of the society would be subservient to the local vampires, and annually, five dozen of those members would be sacrificed to the vampire population. Due to this practice, the vampiric overlords encourage the subservient population to reproduce in great numbers so that the number of members of the subservient population remains plentiful. In return for compliance, the participating families get a somewhat higher place in society. These societies work for two reasons, one because of the threat the vampires present; two, the subservient members benefit from this setup.\n"
-"\n"
-"Since blood is a very important part of vampire society, it is used as their currency. Also, blood is often involved in their magic."
-msgstr ""
-
-#: War_of_Legends/units/windsong.cfg:4
-msgid "Ana,Arala,Ala,Asare,Ashara,Athesa,Ama,Averana,Atharuna,Amoshe,Ahurena,Alera,Ave,Arila,Ai,Atha,Ashe,Aru,Amasela,Aoshe,Amelara,Alura,Aryana,Eva,Elena,Esure,Ena,Ethe,Eme,Eira,Ela,Efara,Evina,Eshe,Ethara,Esaora,Eumane,Ehuva,Ere,Emi,Eshi,Enemura,Sela,Sara,Sula,Salura,Sana,Semisha,Soshire,Suvana,Sife,Saletha,Sitheri,Surei,Somile,Sahama,Salarema,Sea,Severa,Suthe,Sithame,Ola,Omana,Osheura,Olena,Onethe,Ovenatha,Fira,Fesha,Fena,Felai,Foma,Furava,Fusatha,Fala,Famia,Fesea,Fenoma,Fihama,Fama,Fia,Famori,Irena,Ima,Ishama,Iolara,Imaha,Inithe,Imana,Isora,Ilameshe,Ila,Ishe,Ithoe,Ivie,Imia,Iralura,Isanare,Ihama,Iri,Ithania,Isavora,Ila,Mana,Mia,Mara,Mura,Myra,Masohe,Mushena,Malesa,Maisha,Minaru,Minare,Monia,Mesere,Mulasha,Mathe,Minashema,Mesa,Mirana,Mifa,Mivareshana,Une,Uara,Ushala,Uhima,Uthe,Unaluthe,Thesa,Thema,Thirala,Thoshe,Thofara,Thami,Thise,Therama,Thila,Thama,Therasa,Thurana,Thalia,Therana,Thomena,Thosa,Thene,Thime,Thamele,Theshia,Nai,Nama,Norale,Nethala,Nisha,Nemene,Nefe,Navaru,Nula,Nusina,Naria,Nosua,Naomi,Nahasa,Nila,Nuralena,Nema,Lisa,Lara,Loe,Lasama,Lemeshe,Lathia,Leshara,Laisa,Line,Lenesa,Loma,Lura,Lesamia,Lehara,Lana,Lashe,Larena,Lotha,Limia,Lania,Larie,Lafana,Lerava,Love,Rama,Runa,Rashe,Ria,Rovena,Riva,Rufa,Rithia,Raina,Rava,Rashama,Rei,Rosha,Vena,Via,Velara,Veruna,Visha,Vana,Vele,Veshere,Vanesa,Vithia,Hana,Haru,Heshia,Hia,Holaria,Hasha,Hena,Shara,Shena,Shira,Shamane,Shefia,Shune,Shai,Shena,Shalia,Shasi,Shava,Shura"
-msgstr ""
-
-#. [race]: id=abstraction
-#: War_of_Legends/units/windsong.cfg:9
-msgid "race^Abstraction"
-msgstr ""
-
-#. [race]: id=abstraction
-#: War_of_Legends/units/windsong.cfg:10
-msgid "race+female^Abstraction"
-msgstr ""
-
-#. [race]: id=abstraction
-#: War_of_Legends/units/windsong.cfg:11
-msgid "race^Abstractions"
-msgstr ""
-
-#. [race]: id=windsong
-#: War_of_Legends/units/windsong.cfg:19
-msgid "race^Windsong Human"
-msgstr ""
-
-#. [race]: id=windsong
-#: War_of_Legends/units/windsong.cfg:20
-msgid "race^Windsong Humans"
-msgstr ""
-
-#. [race]: id=windsong
-#: War_of_Legends/units/windsong.cfg:25
-msgid "The Windsong are a mysterious people, consisting completely of abducted female humans. Their numbers are few, and their goals and motives obscure. However they have demonstrated in the past that they are not to be trifled with. They have strange powers, and massive libraries and towers full of books of ancient lore. Their armies though few in number have defeated all of the many who've attacked them, or whom they've decided to attack. Humans hate them because they steal the most fit of their daughters from right under their very noses. Most other races distrust them."
-msgstr ""
-
-#. [language]
-#: War_of_Legends/_main.cfg:9
-msgid "type^arcane focus"
-msgstr ""
-
-#. [language]
-#: War_of_Legends/_main.cfg:10
-msgid "type^electric"
-msgstr ""
-
-#. [language]
-#: War_of_Legends/_main.cfg:11
-msgid "type^energy"
 msgstr ""
 
