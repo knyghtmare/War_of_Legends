@@ -13,7 +13,7 @@ version v1.2.7
          --> new ranged attack
          --> the rise of wesnoth lich lord, not the ASoF lover-boy guy.
       --> keshar's grimoire
-         --> stronger plague
+         --> greater plague (ghouls)
          --> inspired by Mal Keshar
       --> armorplate of hejnewar
          --> heavy armour
