@@ -3,23 +3,32 @@ Change-Log v1.2.6.22
 
 version v1.2.7
 --> Legends Conquest
+   --> All Modifications have their era_lock removed.
+      --> This means the mods can be enabled with just about any era. Default/Default+Dunefolks/AoH,AoH+D,Ageless,EoMa,EoC,AoT,EoSC,BSH to name a few.
+      --> Be advised if your era has weird events can cause everything to go crazy, it's on you...
+      --> Special thanks to ForestDragon for showing me how to get pass the inactive/active addons thing
    --> Added 8 new Artifacts to Append to the current list of World Conquest artifacts
       --> jevyan's revived soul
          --> new ranged attack
       --> keshar's grimoire
          --> stronger plague
+         --> inspired by Mal Keshar
       --> armorplate of hejnewar
          --> heavy armour
+         --> credits to hejnewar
       --> deflector shield
          --> new ranged "attack"
+         --> credits to hejnewar
       --> valefolk axe
          --> augmenting melee attack
       --> alchemist backpack
          --> support kit
       --> shardia's meteor
          --> new ranged attack
+         --> inspired from the shadowm herself.
       --> esther's rage
          --> ranged: rage(3)
+         --> inspired from the Genesis campaign character
    --> Trainers:
       --> Vampiric Blood Magic training
           --> Are you willing to throw away your morales and embrace the night?
