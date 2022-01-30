@@ -3,7 +3,7 @@ Change-Log v1.2.6.22
 
 version v1.2.7
 --> Legends Conquest
-   --> ALL MODIFICATIONS HAVE HAD THEIR ERA LOCKED REMOVED.
+   --> ALL Legends Conquest MODIFICATIONS HAVE HAD THEIR ERA LOCKED REMOVED.
       --> This means the mods can be enabled with just about any era. Default/Default+Dunefolks/AoH,AoH+D,Ageless,EoMa,EoC,AoT,EoSC,BSH to name a few.
       --> Be advised if your era has weird events that cause everything to go crazy, it's on you...
       --> Special thanks to ForestDragon for showing me how to get pass the inactive/active addons thing
