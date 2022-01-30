@@ -1,6 +1,38 @@
 War of Legends
 Change-Log v1.2.6.22
 
+version v1.2.7
+--> Legends Conquest
+   --> Added 8 new Artifacts to Append to the current list of World Conquest artifacts
+      --> jevyan's revived soul
+         --> new ranged attack
+      --> keshar's grimoire
+         --> stronger plague
+      --> armorplate of hejnewar
+         --> heavy armour
+      --> deflector shield
+         --> new ranged "attack"
+      --> valefolk axe
+         --> augmenting melee attack
+      --> alchemist backpack
+         --> support kit
+      --> shardia's meteor
+         --> new ranged attack
+      --> esther's rage
+         --> ranged: rage(3)
+   --> Trainers:
+      --> Vampiric Blood Magic training
+          --> Are you willing to throw away your morales and embrace the night?
+      --> Wingsong tutelage
+          --> learn smart defensive warfare tactics
+   --> enemy Array:
+      --> revisions to monsters faction
+   --> Legends Conquest Era
+      --> New Era for World Conquest
+      --> Heroes array selection themed around the Dark Irdya storyline
+         --> They are grouped into three major factions which have paramount roles in Frigid Nightmares
+      --> 7 Remixed Factions themed around the Dark Irdya storyline
+
 version v1.2.6.22:
 Vampires:
 --> Fix Mistress not having an attack animation for melee
