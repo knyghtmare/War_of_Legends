@@ -11,6 +11,7 @@ version v1.2.7
    --> Added 8 new Artifacts to Append to the current list of World Conquest artifacts
       --> jevyan's revived soul
          --> new ranged attack
+         --> the rise of wesnoth lich lord, not the ASoF lover-boy guy.
       --> keshar's grimoire
          --> stronger plague
          --> inspired by Mal Keshar
@@ -22,8 +23,11 @@ version v1.2.7
          --> credits to hejnewar
       --> valefolk axe
          --> augmenting melee attack
+         --> credits to jotender
+         --> (originally asked for sword but got too many of those)
       --> alchemist backpack
          --> support kit
+         --> found it on suggest WC-artifacts letter
       --> shardia's meteor
          --> new ranged attack
          --> inspired from the shadowm herself.
