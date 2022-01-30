@@ -7,6 +7,7 @@ version v1.2.7
       --> This means the mods can be enabled with just about any era. Default/Default+Dunefolks/AoH,AoH+D,Ageless,EoMa,EoC,AoT,EoSC,BSH to name a few.
       --> Be advised if your era has weird events that cause everything to go crazy, it's on you...
       --> Special thanks to ForestDragon for showing me how to get pass the inactive/active addons thing
+      --> "Showing" as in I took a look at his code to see how he got pass the non-GSE era thing for his survival.
    --> Added 8 new Artifacts to Append to the current list of World Conquest artifacts
       --> jevyan's revived soul
          --> new ranged attack
