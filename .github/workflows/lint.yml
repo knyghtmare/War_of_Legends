@@ -1,0 +1,23 @@
+name: lint
+
+on: [push, pull_request]
+
+env:
+  WESNOTH_VERSION: 1.16.2
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Lint WML
+      uses: czyzby/wesnoth-wml-linter@v1
+      with:
+        wesnoth-version: ${{  env.WESNOTH_VERSION }}
+    - name: Verify images
+      uses: czyzby/wesnoth-png-optimizer@v1
+      with:
+        wesnoth-version: ${{ env.WESNOTH_VERSION }}
+        threshold: 5
