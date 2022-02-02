@@ -15,7 +15,7 @@ jobs:
     - name: Lint WML
       uses: czyzby/wesnoth-wml-linter@v1
       with:
-        wesnoth-version: ${{  env.WESNOTH_VERSION }}
+        wesnoth-version: ${{ env.WESNOTH_VERSION }}
     - name: Verify images
       uses: czyzby/wesnoth-png-optimizer@v1
       with:
