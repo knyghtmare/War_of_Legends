@@ -1,6 +1,10 @@
 War of Legends
 Change-Log v1.2.7.5
 
+version v1.2.7.6:
+--> Elvish Noble: XP 65 -> 55
+   --> was set way too high (AOI_Rework)
+
 version v1.2.7.5:
 --> Fixed some MP-only modifications showing up in single-player mode
 
