@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.7.5
+Change-Log v1.2.7.7
+
+version v1.2.7.7:
+--> Legends Conquest:
+   --> Fixed a typo
 
 version v1.2.7.6:
 --> Elvish Noble: XP 65 -> 55
