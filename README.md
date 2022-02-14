@@ -12,16 +12,19 @@ It is required as a dependency to play the following campaigns:
 5. [Survivals (War of Legends)](https://github.com/knyghtmare/Survivals_WoL)
 6. RPG (War of Legends)
 7. [Struggle for Freedom](https://github.com/knyghtmare/Struggle_For_Freedom)
-8. #### Unconfirmed:
-   1. Frigid Nightmares (unconfirmed)
-   2. Hero of Irdya Book II (unconfirmed)
-   3. Hero of Irdya Book III (unconfirmed)
+8. Frigid Nightmares
+9.  #### Unconfirmed:
+   1. Hero of Irdya Book II (unconfirmed)
+   2. Hero of Irdya Book III (unconfirmed)
 
 ### By [revansurik](https://github.com/revansurik):
 1. [A Song of the Wind](https://forums.wesnoth.org/viewtopic.php?p=662430#p662430)
 2. [A Song of Fire](https://forums.wesnoth.org/viewtopic.php?f=8&t=38210)
 3. [War of the Jewel](https://forums.wesnoth.org/viewtopic.php?f=8&t=39618)
 4. [Aria of the Dragon Slayer](https://forums.wesnoth.org/viewtopic.php?f=8&t=40389)
+
+### With [fable-lake](https://github.com/fable-lake)
+1. [An Orcish Incursion: The Rework](https://github.com/knyghtmare/AOI_Rework)
 
 ### By [scio-nullus](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=183306)
 1. [Mercenary Band](https://forums.wesnoth.org/viewtopic.php?t=49866)
