@@ -13,9 +13,6 @@ It is required as a dependency to play the following campaigns:
 6. RPG (War of Legends)
 7. [Struggle for Freedom](https://github.com/knyghtmare/Struggle_For_Freedom)
 8. Frigid Nightmares
-9.  #### Unconfirmed:
-   1. Hero of Irdya Book II (unconfirmed)
-   2. Hero of Irdya Book III (unconfirmed)
 
 ### By [revansurik](https://github.com/revansurik):
 1. [A Song of the Wind](https://forums.wesnoth.org/viewtopic.php?p=662430#p662430)
