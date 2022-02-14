@@ -1,5 +1,10 @@
 War of Legends
-Change-Log v1.2.7.7
+Change-Log v1.2.7.8
+
+version
+--> Sylvans:
+   --> Elvish Noble: max XP set to 48 from 55
+--> updated ReadMe file for AOI_Rework
 
 version v1.2.7.7:
 --> Legends Conquest:
