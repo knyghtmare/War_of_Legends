@@ -1,7 +1,13 @@
 War of Legends
-Change-Log v1.2.7.8
+Change-Log v1.2.7.11
 
-version
+version v1.2.7.11
+--> campaign.cfg
+   --> For my main campaigns
+--> campaign-minimal.cfg
+   --> probably what Legends of Idaamub, Mercenary Band, Wandering Warriors and AOI:Rework should be using
+
+version v1.2.7.8
 --> Sylvans:
    --> Elvish Noble: max XP set to 48 from 55
 --> updated ReadMe file for AOI_Rework
