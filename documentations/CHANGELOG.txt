@@ -6,6 +6,11 @@ version v1.2.7.11
    --> For my main campaigns
 --> campaign-minimal.cfg
    --> probably what Legends of Idaamub, Mercenary Band, Wandering Warriors and AOI:Rework should be using
+--> Legends Conquest:
+   --> update artifact Shardia's Meteor
+   --> attack animation was the wrong one
+   --> should be fixed now.
+   --> nobody ever tells me what the bugs are anyways.
 
 version v1.2.7.8
 --> Sylvans:
