@@ -2,7 +2,9 @@ local _ = wesnoth.textdomain "wesnoth-War_of_Legends"
 
 -- first, we take all xp_gainers
 -- which is all units of side 1 for this code
-local xp_gainers = wesnoth.units.find_on_map { side = wesnoth.current.side }
+local xp_gainers = wesnoth.units.find_on_map { ability = "xp_gainer", side = wesnoth.current.side }
+
+-- local xp_to_add = wml.variables["knyght_xp_per_turn_var"]
 
 -- create a for loop  
 for i, xp_gainer in ipairs(xp_gainers) do
