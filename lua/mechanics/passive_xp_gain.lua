@@ -2,7 +2,7 @@ local _ = wesnoth.textdomain "wesnoth-War_of_Legends"
 
 -- first, we take all xp_gainers
 -- which is all units of side 1 for this code
-local xp_gainers = wesnoth.units.find_on_map { ability = "xp_gaining", side = wesnoth.current.side }
+local xp_gainers = wesnoth.units.find_on_map { side = wesnoth.current.side }
 
 -- create a for loop  
 for i, xp_gainer in ipairs(xp_gainers) do
