@@ -12,7 +12,7 @@ It is required as a dependency to play the following campaigns:
 5. [Survivals (War of Legends)](https://github.com/knyghtmare/Survivals_WoL)
 6. RPG (War of Legends)
 7. [Struggle for Freedom](https://github.com/knyghtmare/Struggle_For_Freedom)
-8. Frigid Nightmares
+8. [Cataclysm](https://github.com/knyghtmare/Cataclysm)
 
 ### By [revansurik](https://github.com/revansurik):
 1. [A Song of the Wind](https://forums.wesnoth.org/viewtopic.php?p=662430#p662430)
