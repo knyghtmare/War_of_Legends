@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-01-30 23:33 UTC\n"
+"POT-Creation-Date: 2022-05-07 13:46 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,16 +12,19 @@ msgstr ""
 
 #. [language]
 #: War_of_Legends/_main.cfg:9
+#: War_of_Legends/campaign.cfg:10
 msgid "type^arcane focus"
 msgstr ""
 
 #. [language]
 #: War_of_Legends/_main.cfg:10
+#: War_of_Legends/campaign.cfg:11
 msgid "type^electric"
 msgstr ""
 
 #. [language]
 #: War_of_Legends/_main.cfg:11
+#: War_of_Legends/campaign.cfg:12
 msgid "type^energy"
 msgstr ""
 
@@ -43,6 +46,16 @@ msgstr ""
 #. [era]: id=core_legends
 #: War_of_Legends/eras/Core_Legends.cfg:8
 msgid "An era consisting of four factions, which were part of the 'Great Legend Era'. Mostly balanced."
+msgstr ""
+
+#. [era]: id=era_deep_elves
+#: War_of_Legends/eras/Default_Plus_DE.cfg:5
+msgid "Default + Deep Elves"
+msgstr ""
+
+#. [era]: id=era_deep_elves
+#: War_of_Legends/eras/Default_Plus_DE.cfg:6
+msgid "An era featuring the additional faction 'Deep Elves' besides the seven factions from Default Era. Deep Elves rely heavily on the management of their lawful, neutral and chaotic units and a proper utilisation of their special abilities."
 msgstr ""
 
 #. [era]: id=empowered_legends
@@ -170,6 +183,15 @@ msgstr ""
 msgid "Aragwaithi"
 msgstr ""
 
+#. [multiplayer_side]: id=Deep_Elves_EL, type=random
+#. [multiplayer_side]: id=Deep_Elves_RPG, type=random
+#. [multiplayer_side]: id=Deep_Elves_WOL, type=random
+#: War_of_Legends/factions/Deep-Elves-EL.cfg:5
+#: War_of_Legends/factions/Deep-Elves-RPG.cfg:5
+#: War_of_Legends/factions/Deep-Elves-WOL.cfg:5
+msgid "Deep Elves"
+msgstr ""
+
 #. [multiplayer_side]: id=Human_Alliance_EL, type=random
 #. [multiplayer_side]: id=Human_Alliance_RPG, type=random
 #. [multiplayer_side]: id=Human_Alliance_WOL, type=random
@@ -276,6 +298,11 @@ msgstr ""
 #: War_of_Legends/factions/unused/Southerners-RPG.cfg:5
 #: War_of_Legends/factions/unused/Southerners-WOL.cfg:4
 msgid "Southerners"
+msgstr ""
+
+#: War_of_Legends/lua/mechanics/passive_xp_gain.lua:20
+#: War_of_Legends/mods/campaigns/passive_xp_mod.cfg:51
+msgid "+%d XP"
 msgstr ""
 
 #. [lua]: wesnoth.interface.game_display.unit_status
@@ -997,6 +1024,26 @@ msgstr ""
 msgid "This unit can curse its enemies, reducing defense until they rest at a village."
 msgstr ""
 
+#. [dummy]: id=teaching
+#: War_of_Legends/macros/teaching_ability_code.cfg:6
+msgid "teaching"
+msgstr ""
+
+#. [dummy]: id=teaching
+#: War_of_Legends/macros/teaching_ability_code.cfg:7
+msgid "female^teaching"
+msgstr ""
+
+#. [dummy]: id=teaching
+#: War_of_Legends/macros/teaching_ability_code.cfg:8
+msgid "At the start of every turn, this unit redistributes its experience points to all the units of the same side adjacent to it. If no suitable unit is adjacent, its experience just goes back to zero."
+msgstr ""
+
+#. Floating text shown when Teacher's teaching ability transfers experience points
+#: War_of_Legends/macros/teaching_ability_code.cfg:64
+msgid "+$amount XP"
+msgstr ""
+
 #. [trait]: id=ruby
 #: War_of_Legends/macros/traits-elementals.cfg:6
 msgid "ruby"
@@ -1278,76 +1325,76 @@ msgstr ""
 msgid "Consumes {AMT} HP upon a successful hit during attacking."
 msgstr ""
 
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:4
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:15
 msgid "Jevyan's Soul"
 msgstr ""
 
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:8
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:19
 msgid "This orb seems to have been made from the soul essence of a powerful Lich Lord. Consuming it, will grant the user a new ranged attack which is stronger if shot at an unaware enemy."
 msgstr ""
 
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:12
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:23
 msgid "Alchemist Backpack"
 msgstr ""
 
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:16
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:27
 msgid "This backpack contains ingredients, recipes, ingredients and equipment for concocting healing potions. Use it well."
 msgstr ""
 
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:20
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:31
 msgid "Keshar's Grimoire"
 msgstr ""
 
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:24
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:35
 msgid "An unholy grimoire written by the legendary Lich Mal Keshar. Its knowledge allows the user's melee attacks to revive slain enemies as Ghouls. However, this forbidden knowledge takes a toll on the user's health"
 msgstr ""
 
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:28
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:39
 msgid "Hejnewar's Chestplate"
 msgstr ""
 
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:31
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:42
 msgid "The durable plate of this heavy armor increase the user’s physical resistances (to a maximum of 15%) as well as raising their HP by 10. However, the user is slowed a bit due to its immense weight."
 msgstr ""
 
 #. [artifact]
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:39
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:50
 msgid "14-1 ranged arcane backstab and -10% arcane resistance"
 msgstr ""
 
 #. [effect]: type=arcane
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:45
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:56
 msgid "shadow ball"
 msgstr ""
 
 #. [artifact]
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:97
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:108
 msgid "heals +4 and regenerates +4"
 msgstr ""
 
 #. [artifact]
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:124
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:135
 msgid "melee: greater plague (ghouls) and -15% HP, consumes 3 HP per hit during attack"
 msgstr ""
 
 #. [artifact]
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:154
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:165
 msgid "blade/impact/pierce: +15%, +10 HP, -1 MP"
 msgstr ""
 
 #. [artifact]
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:181
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:192
 msgid "Shield of Hejnewar"
 msgstr ""
 
 #. [artifact]
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:183
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:194
 msgid "0-1 shield ranged absorb special, +20% parry"
 msgstr ""
 
 #. [effect]: type=impact
 #. [attack]: type=impact
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:189
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:200
 #: War_of_Legends/units/human-campaigns/Loyalist_Soldier.cfg:44
 #: War_of_Legends/units/human-campaigns/Loyalist_Supreme_Warlord.cfg:62
 #: War_of_Legends/units/human-campaigns/Loyalist_War_Grandmaster.cfg:61
@@ -1360,74 +1407,70 @@ msgid "shield"
 msgstr ""
 
 #. [artifact]
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:208
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:219
 msgid "Valefolk Waraxe"
 msgstr ""
 
 #. [artifact]
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:210
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:221
 msgid "melee blade: +3 damage, adds mayhem special"
 msgstr ""
 
 #. [damage]: id=blade_dmg_mul_3x
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:235
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:236
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:246
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:247
 msgid "mayhem"
 msgstr ""
 
 #. [damage]: id=blade_dmg_mul_3x
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:239
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:250
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:251
 msgid "Attacking with this weapon increases damage by 50%, but reduces strikes by 1.This effect is only action on offense."
 msgstr ""
 
-#. [damage]: id=blade_dmg_mul_3x
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:240
-msgid "Attacking with this weapon multiples damage by three, but reduces strikes by 1.This effect is only action on offense."
-msgstr ""
-
 #. [artifact]
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:256
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:267
 msgid "Shardia's Meteor"
 msgstr ""
 
 #. [artifact]
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:258
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:269
 msgid "12-2 fire ranged magical slows, consumes 4 HP per hit (attack only)"
 msgstr ""
 
 #. [effect]: type=fire
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:267
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:278
 msgid "shardia's meteor"
 msgstr ""
 
 #. [artifact]
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:312
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:323
 msgid "Esther's Rage"
 msgstr ""
 
 #. [artifact]
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:314
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:325
 msgid "ranged: berserk (3 rounds), 2 HP consumed per hit."
 msgstr ""
 
 #. [berserk]: id=esthers_rage
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:328
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:329
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:339
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:340
 msgid "rage"
 msgstr ""
 
 #. [berserk]: id=esthers_rage
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:330
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:341
 msgid "This unit attacks relentlessly until the opponent is dead, or three rounds of combat has occurred."
 msgstr ""
 
 #. [trainer]: type=Blood Manipulator
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:345
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:356
 msgid "Blood Magic"
 msgstr ""
 
 #. [trainer]: type=Oathkeeper
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:385
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:396
 msgid "Windsong Tutelage"
 msgstr ""
 
@@ -1474,6 +1517,26 @@ msgstr ""
 msgid "War of Legends: Equipment and Trinkets Mod"
 msgstr ""
 
+#. [modification]: id=knyght_wol_passive_xp_mod, type=hybrid
+#: War_of_Legends/mods/campaigns/passive_xp_mod.cfg:5
+msgid "War of Legends: Passive XP"
+msgstr ""
+
+#. [modification]: id=knyght_wol_passive_xp_mod, type=hybrid
+#: War_of_Legends/mods/campaigns/passive_xp_mod.cfg:6
+msgid "Your units will gain XP at the end of your turn."
+msgstr ""
+
+#. [slider]: id=knyght_xp_per_turn_var
+#: War_of_Legends/mods/campaigns/passive_xp_mod.cfg:19
+msgid "XP Amount"
+msgstr ""
+
+#. [slider]: id=knyght_xp_per_turn_var
+#: War_of_Legends/mods/campaigns/passive_xp_mod.cfg:20
+msgid "Amount of XP given to units on turn refresh"
+msgstr ""
+
 #. [modification]: id=knyght_wol_wc_enemy_data_array, type=mp
 #: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:5
 msgid "Legends Conquest"
@@ -1484,14 +1547,19 @@ msgstr ""
 msgid "World Conquest Enemy Data is overriden with War of Legends factions."
 msgstr ""
 
-#. [modification]: id=knyght_wol_wc_legend_artifacts
+#. [modification]: id=knyght_wol_wc_legend_artifacts, type=mp
 #: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:25
 msgid "Adds new World Conquest Artifacts."
 msgstr ""
 
-#. [modification]: id=knyght_wol_wc_legend_trainers
-#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:42
+#. [modification]: id=knyght_wol_wc_legend_trainers, type=mp
+#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:43
 msgid "Adds new World Conquest Trainers."
+msgstr ""
+
+#. [modification]: id=knyght_wol_wc_heroes_commanders_deserters, type=mp
+#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:64
+msgid "Legends Heroes, Commanders and Deserters"
 msgstr ""
 
 #. [race]: id=aberration
@@ -1524,11 +1592,13 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
+#. [attack]: type=pierce
 #: War_of_Legends/units/aberrations/Angry_One.cfg:37
 #: War_of_Legends/units/aberrations/Raging_One.cfg:40
 #: War_of_Legends/units/aberrations/Rash_One.cfg:31
 #: War_of_Legends/units/aberrations/Reckless_One.cfg:32
 #: War_of_Legends/units/aberrations/Unhatched.cfg:37
+#: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:38
 msgid "ram"
 msgstr ""
 
@@ -1667,6 +1737,8 @@ msgstr ""
 #. [attack]: type=pierce
 #: War_of_Legends/units/aberrations/Ripper_Beast.cfg:34
 #: War_of_Legends/units/aberrations/Shredder_Spawn.cfg:31
+#: War_of_Legends/units/elves-deep/Black_Tyrhai.cfg:25
+#: War_of_Legends/units/elves-deep/Shadow_Tyrhai.cfg:30
 #: War_of_Legends/units/goblins/Goblin_Cavalry.cfg:29
 #: War_of_Legends/units/goblins/Goblin_Hellwolf_Rider.cfg:29
 #: War_of_Legends/units/goblins/Goblin_Lancer.cfg:28
@@ -2045,6 +2117,7 @@ msgstr ""
 #: War_of_Legends/units/elementals/Kobold.cfg:40
 #: War_of_Legends/units/elementals/Stone_Golem.cfg:40
 #: War_of_Legends/units/elementals/Stone_Titan.cfg:41
+#: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:28
 #: War_of_Legends/units/nightmares-elementals/Nature_Wrath.cfg:455
 #: War_of_Legends/units/nightmares-elementals/Unstable_Elemental.cfg:454
 #: War_of_Legends/units/trolls/Boulderlobber.cfg:30
@@ -2302,6 +2375,553 @@ msgstr ""
 msgid "A wind spirit who stays in form long enough gains great mastery over winds. This grants him strength to his attacks, and toughness to his form."
 msgstr ""
 
+#: War_of_Legends/units/elves-deep.cfg:4
+msgid ""
+"\n"
+"main={generated_prefix_v}{centre_v}{suffix_v}\n"
+"generated_prefix_v={starting_consonnant}{vowel}\n"
+"starting_consonnant=C|D|F|L|M|N|P|Qu|R|S|T|V\n"
+"vowel=a|e|i|o|ae\n"
+"prefix_v=Isa|Yer|Al|Yse|Ma|Na|Nid|Ir|Mae|Is|Ma|Val|Va|Nir\n"
+"suffix_v=ash|sha|shae|al|nal|bal|el|il|ael|raan|is|mir|mel|mal|val\n"
+"centre_v=|{short_centre_v}\n"
+"short_centre_v=la|li|lo|nie|isi|al|na|le|al|ili|el|mer\n"
+""
+msgstr ""
+
+#. [race]: id=deep_elf
+#: War_of_Legends/units/elves-deep.cfg:18
+msgid "race^Deep Elf"
+msgstr ""
+
+#. [race]: id=deep_elf
+#: War_of_Legends/units/elves-deep.cfg:19
+msgid "race+female^Deep Elf"
+msgstr ""
+
+#. [race]: id=deep_elf
+#: War_of_Legends/units/elves-deep.cfg:20
+msgid "race^Deep Elves"
+msgstr ""
+
+#. [race]: id=deep_elf
+#: War_of_Legends/units/elves-deep.cfg:22
+msgid ""
+"The Deep Elves are descendants of the original wood-elves of the forest of Lintanir, the great groove in the northwest of the Great Continent. Being nothing more than just shadows of their former selves, the Deep Elves reside in the caverns of Blackqvasten, a place hidden underneath the heart of the Great Continent where neither the dead nor the living can see. At the lowest point of Blackqvasten lies the Black Lake, where a statue of Shassagoth stands. Shassagoth, often displayed as a huge black dragon, directs the Deep Elves from his shadow realm. They serve him loyally and unquestioningly, and he, in turn, smites their foes.\n"
+"\n"
+"In the darkness of the depths, the former elves made a pact with Shassagoth and transformed. Some gained a skin as bright as the stars, a skin which could render blades and arrows harmless. These elves are called Lightborn. They retain their faerie nature, illuminating the dark caverns with their mere presence. Others evolved a skin as dark as the night, granting them shelter in the darkest realms and allowing them to merge with the shadows, quickly moving through the nights. Still others developed a skin as red as blood, reflecting the crimson liquid spilled in battle, as a sign of their remarkable powers in blade or magic. Despite their distinguishing characteristics, the pact that the Deep Elves made with Shassagoth unifies them all. And what once was elf has now become a tool of darkness.\n"
+"\n"
+"The followers of the depths create statues of Shassagoth throughout the vast plains of the Great Continent as monuments to expand his influence. Now, scores of statues of Shassagoth have been established, even in the most remote regions. Their stone eyes watch and wait, biding their time until the darkness once again covers the lands."
+msgstr ""
+
+#. [unit_type]: id=Baroness of the Night, race=deep_elf
+#: War_of_Legends/units/elves-deep/Baroness.cfg:5
+msgid "Baroness of the Night"
+msgstr ""
+
+#. [unit_type]: id=Baroness of the Night, race=deep_elf
+#: War_of_Legends/units/elves-deep/Baroness.cfg:20
+msgid "The Baroness of the Night is equipped with an enchanted crossbow whose bolts are guided by the darkness and rarely miss their targets. She additionally wields a pair of dual-swords with which she can easily cut through both flesh and bone, rending them with the sheer power of the shadows. The Baroness is also granted the ability to step through the shadow realm, allowing her to move quickly in combat and avoid attacks while striking her enemies where they least expect her."
+msgstr ""
+
+#. [attack]: type=blade
+#: War_of_Legends/units/elves-deep/Baroness.cfg:30
+msgid "twin blades"
+msgstr ""
+
+#. [attack]: type=pierce
+#. [attack]: type=fire
+#: War_of_Legends/units/elves-deep/Baroness.cfg:40
+#: War_of_Legends/units/elves-deep/Nightstalker.cfg:39
+#: War_of_Legends/units/human-legion/Arbalestier.cfg:36
+#: War_of_Legends/units/human-legion/Arbalestier.cfg:48
+#: War_of_Legends/units/human-legion/Crossbowman.cfg:34
+#: War_of_Legends/units/human-legion/Crossbowman.cfg:46
+#: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:35
+#: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:47
+#: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:57
+#: War_of_Legends/units/undead/Skele_Death_Baron.cfg:62
+msgid "crossbow"
+msgstr ""
+
+#. [chance_to_hit]: id=eagle eye
+#: War_of_Legends/units/elves-deep/Baroness.cfg:49
+#: War_of_Legends/units/elves-deep/Nightstalker.cfg:48
+msgid "eagle eye"
+msgstr ""
+
+#. [chance_to_hit]: id=eagle eye
+#: War_of_Legends/units/elves-deep/Baroness.cfg:51
+#: War_of_Legends/units/elves-deep/Nightstalker.cfg:50
+msgid "has always a 80% chance to hit"
+msgstr ""
+
+#. [attack]: type=blade
+#: War_of_Legends/units/elves-deep/Baroness.cfg:58
+msgid "rip"
+msgstr ""
+
+#. [damage]: id=relentless_assault
+#: War_of_Legends/units/elves-deep/Baroness.cfg:67
+msgid "relentless aussault"
+msgstr ""
+
+#. [damage]: id=relentless_assault
+#: War_of_Legends/units/elves-deep/Baroness.cfg:68
+msgid "When used offensively, this attack deals 1.5x damage to the target. It also causes this unit to take 1.5x damage from the target's counterattack."
+msgstr ""
+
+#. [unstore_unit]
+#: War_of_Legends/units/elves-deep/Baroness.cfg:174
+#: War_of_Legends/units/elves-deep/Nightmaiden.cfg:88
+#: War_of_Legends/units/elves-deep/Nightstalker.cfg:126
+#: War_of_Legends/units/elves-deep/Shassagoth.cfg:194
+#: War_of_Legends/units/elves-deep/Vault_Lurker.cfg:136
+msgid "Spurt!"
+msgstr ""
+
+#. [unit_type]: id=Black Tyrhai, race=monster
+#: War_of_Legends/units/elves-deep/Black_Tyrhai.cfg:5
+msgid "Black Tyr'Hai"
+msgstr ""
+
+#. [unit_type]: id=Black Tyrhai, race=monster
+#: War_of_Legends/units/elves-deep/Black_Tyrhai.cfg:19
+msgid "Black Tyr‘Hai are Tyr‘Hai that have been infested with the presence of Shassagoth. They are trustworthy companions that often protect smaller groups of Deep Elves. These reptilian creatures lurk in caverns outside the city of Blackqvasten and have the ability to drain the life force of the creatures that they bite. "
+msgstr ""
+
+#. [attack]: type=impact
+#. [attacks]: id=trample
+#: War_of_Legends/units/elves-deep/Black_Tyrhai.cfg:38
+#: War_of_Legends/units/elves-deep/Shadow_Tyrhai.cfg:53
+#: War_of_Legends/units/elves-deep/Shadow_Tyrhai.cfg:43
+#: War_of_Legends/units/elves-deep/Tyrhai_Cavalry.cfg:49
+#: War_of_Legends/units/elves-deep/Tyrhai_Rider.cfg:34
+#: War_of_Legends/units/minotaurs/Boar_Cataphract.cfg:54
+#: War_of_Legends/units/minotaurs/Boar_Knight.cfg:53
+#: War_of_Legends/units/minotaurs/Boar_Rider.cfg:36
+#: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:46
+#: War_of_Legends/units/undead/Skeleton_Rider.cfg:44
+msgid "trample"
+msgstr ""
+
+#. [unit_type]: id=Blood Maiden, race=deep_elf
+#: War_of_Legends/units/elves-deep/Bloodmaiden.cfg:5
+msgid "Blood Maiden"
+msgstr ""
+
+#. [unit_type]: id=Blood Maiden, race=deep_elf
+#: War_of_Legends/units/elves-deep/Bloodmaiden.cfg:19
+msgid "Blood Maidens are frequently found in the city-state of Blackqvasten. Equipped with razor-sharp blades, the Blood Maidens ferociously assault the foes of Shassagoth, sating their lust for battle with the blood of their enemies. Once, the Blood Maiden were Elvish Swordswomen, but have since been warped by the darkness of Shassagoth. Now, their former brothers and sisters are their mortal enemies."
+msgstr ""
+
+#. [attack]: type=blade
+#: War_of_Legends/units/elves-deep/Bloodmaiden.cfg:29
+#: War_of_Legends/units/elves-deep/Seeker.cfg:30
+#: War_of_Legends/units/elves-deep/Vengeance.cfg:30
+#: War_of_Legends/units/orcs/Subjugator.cfg:39
+msgid "blade"
+msgstr ""
+
+#. [unstore_unit]
+#: War_of_Legends/units/elves-deep/Bloodmaiden.cfg:81
+#: War_of_Legends/units/elves-deep/Seeker.cfg:82
+#: War_of_Legends/units/elves-deep/Vengeance.cfg:83
+msgid "The hunt is on!"
+msgstr ""
+
+#. [unit_type]: id=Corrupted, race=deep_elf
+#: War_of_Legends/units/elves-deep/Corrupted.cfg:5
+msgid "Corrupted"
+msgstr ""
+
+#. [unit_type]: id=Corrupted, race=deep_elf
+#: War_of_Legends/units/elves-deep/Corrupted.cfg:20
+msgid "Even among the Lightborns, the Corrupted are rarely seen in Blackqvasten and the realms of the depths. While a Corrupted maintains some of her nature as a faerie, the presence of Shassagoth has distorted and empowered it with darkness. As a result, the Corrupted has access to high forms of destructive magic that allow her to pull enemies directly into Shassagoth’s shadow realms, where they are slowly consumed by the darkness."
+msgstr ""
+
+#. [special_note]
+#: War_of_Legends/units/elves-deep/Corrupted.cfg:23
+msgid " This unit is able to pull enemy units into the world of Shassagoth. Those units will receive an additional +20% damage until the end of the turn."
+msgstr ""
+
+#. [attack]: type=arcane
+#. [attack]: type=impact
+#: War_of_Legends/units/elves-deep/Corrupted.cfg:32
+#: War_of_Legends/units/elves-deep/Irr.cfg:50
+#: War_of_Legends/units/elves-deep/Lightborn.cfg:49
+#: War_of_Legends/units/elves-deep/Phade.cfg:49
+#: War_of_Legends/units/elves-wood/Avatar.cfg:38
+msgid "faerie touch"
+msgstr ""
+
+#. [attack]: type=impact
+#: War_of_Legends/units/elves-deep/Corrupted.cfg:42
+msgid "nether grip"
+msgstr ""
+
+#. [ethergrip]: id=lowres_ethergrip
+#. [unstore_unit]
+#: War_of_Legends/units/elves-deep/Corrupted.cfg:51
+#: War_of_Legends/units/elves-deep/Corrupted.cfg:154
+msgid "ether grip"
+msgstr ""
+
+#. [ethergrip]: id=lowres_ethergrip
+#: War_of_Legends/units/elves-deep/Corrupted.cfg:52
+msgid "When a unit is hit with the ether grip weapon special, it will receive +20% damage until the end of the turn."
+msgstr ""
+
+#. [unstore_unit]
+#: War_of_Legends/units/elves-deep/Corrupted.cfg:155
+msgid "female^ether grip"
+msgstr ""
+
+#. [unit_type]: id=Harbinger, race=deep_elf
+#: War_of_Legends/units/elves-deep/Harbinger.cfg:5
+msgid "Harbinger"
+msgstr ""
+
+#. [unit_type]: id=Harbinger, race=deep_elf
+#: War_of_Legends/units/elves-deep/Harbinger.cfg:21
+msgid "The Harbinger is the leader of the Deep Elves and an earthly representation of Shassagoth. She is rarely seen, but wherever a Harbinger does appear, it can be certain that war is imminent. Those who have witnessed her sorcery firsthand have described it as a line of destruction, capable of devouring everything in its path and leaving nothing but blood and death. It believed that the Harbinger channels the energies of Shassagoth himself, providing her a potent means to further spread the influence of the darkness."
+msgstr ""
+
+#. [attack]: type=arcane
+#: War_of_Legends/units/elves-deep/Harbinger.cfg:26
+#: War_of_Legends/units/elves-deep/Matriarch.cfg:25
+#: War_of_Legends/units/elves-deep/Patroness.cfg:25
+#: War_of_Legends/units/elves-deep/Priestess.cfg:24
+#: War_of_Legends/units/elves-deep/Seer.cfg:26
+msgid "nether touch"
+msgstr ""
+
+#. [attack]: type=arcane
+#: War_of_Legends/units/elves-deep/Harbinger.cfg:35
+#: War_of_Legends/units/elves-deep/Patroness.cfg:34
+msgid "twilight wave"
+msgstr ""
+
+#. [unit_type]: id=Irr, race=deep_elf
+#: War_of_Legends/units/elves-deep/Irr.cfg:5
+msgid "Irr"
+msgstr ""
+
+#. [unit_type]: id=Irr, race=deep_elf
+#: War_of_Legends/units/elves-deep/Irr.cfg:21
+msgid "The Irr is a Phade that has been freed of its enchanted armor. As a being of pure light, the Irr blinds her foes with her mere presence, sowing confusion among them when they draw too close. Although rarely encountered in proximity, when an Irr is encountered in depths, she often leads foolish wanderers down treacherous paths into deadly traps, from which they never escape."
+msgstr ""
+
+#. [attack]: type=arcane
+#: War_of_Legends/units/elves-deep/Irr.cfg:63
+#: War_of_Legends/units/elves-deep/Lightborn.cfg:61
+#: War_of_Legends/units/elves-deep/Phade.cfg:62
+#: War_of_Legends/units/elves-wood/Acolyte.cfg:39
+#: War_of_Legends/units/elves-wood/Noble.cfg:37
+msgid "faerie fire"
+msgstr ""
+
+#. [unit_type]: id=Lightborn, race=deep_elf
+#: War_of_Legends/units/elves-deep/Lightborn.cfg:5
+msgid "Lightborn"
+msgstr ""
+
+#. [unit_type]: id=Lightborn, race=deep_elf
+#: War_of_Legends/units/elves-deep/Lightborn.cfg:20
+msgid "The Lightborn is a strange occurrence among the Deep Elves. In stark contrast to the impenetrable darkness of the depths of Blackqvasten, the Lightborns are capable of emitting brilliant light, an ability directly contrary to the darkness-based abilities of their kin. It is said that the Lightborns have retained their faerie nature from their former elvish selves the most. This grants them the ability to cast forth spheres of light to blind their enemies."
+msgstr ""
+
+#. [unit_type]: id=Matriarch, race=deep_elf
+#: War_of_Legends/units/elves-deep/Matriarch.cfg:5
+msgid "Matriarch"
+msgstr ""
+
+#. [unit_type]: id=Matriarch, race=deep_elf
+#: War_of_Legends/units/elves-deep/Matriarch.cfg:19
+msgid "The Matriarch is the leader of groups of Priestesses and has been blessed by Shassagoth himself. She has access to various forms of dark magic, which can be used both offensively as a means to slay enemies, and defensively as a way to guard the depths and spread the darkness’s influence. Matriarchs are often responsible for building statues of Shassagoth throughout the great continent."
+msgstr ""
+
+#. [attack]: type=arcane
+#: War_of_Legends/units/elves-deep/Matriarch.cfg:35
+#: War_of_Legends/units/elves-deep/Priestess.cfg:33
+#: War_of_Legends/units/elves-deep/Wisp_Mother.cfg:62
+msgid "arcane barrage"
+msgstr ""
+
+#. [unit_type]: id=Night Maiden, race=deep_elf
+#: War_of_Legends/units/elves-deep/Nightmaiden.cfg:5
+msgid "Night Maiden"
+msgstr ""
+
+#. [unit_type]: id=Night Maiden, race=deep_elf
+#: War_of_Legends/units/elves-deep/Nightmaiden.cfg:19
+msgid "Nightmaidens are a type of Deep Elf that inherited the darkness itself when they were transformed by Shassagoth. Donning light armor, the Nightmaidens’ dark skin allow them to dance through the night and the dark, avoiding enemy attacks with ease. Despite their frail appearance, their agility and skill with blades make them deadly foes in combat, especially under the shroud of darkness."
+msgstr ""
+
+#. [attack]: type=blade
+#: War_of_Legends/units/elves-deep/Nightmaiden.cfg:29
+#: War_of_Legends/units/elves-deep/Nightstalker.cfg:29
+msgid "nether blade"
+msgstr ""
+
+#. [unit_type]: id=Night Stalker, race=deep_elf
+#: War_of_Legends/units/elves-deep/Nightstalker.cfg:5
+msgid "Night Stalker"
+msgstr ""
+
+#. [unit_type]: id=Night Stalker, race=deep_elf
+#: War_of_Legends/units/elves-deep/Nightstalker.cfg:19
+msgid "A Nightmaiden who has proven herself in battle is bestowed the name Nightstalker. Upon this promotion, her blades are blessed by the waters of the Black Lake and she is granted a crossbow, allowing her to assassinate targets from the shadows. Combined with her ability to track and follow enemies through the darkest of nights, the Nightstalker’s abilities make her an excellent assassin, able to kill her enemies often without fear of retaliation."
+msgstr ""
+
+#. [unit_type]: id=Patroness, race=deep_elf
+#: War_of_Legends/units/elves-deep/Patroness.cfg:5
+msgid "Patroness"
+msgstr ""
+
+#. [unit_type]: id=Patroness, race=deep_elf
+#: War_of_Legends/units/elves-deep/Patroness.cfg:20
+msgid "Patronesses are highly respected individuals among the ranks of the Deep Elves. While the Seers focus on mystical abilities and their connection to Shassagoth, Patronesses concentrate on honing their destructive abilities, allowing them to can cast magic of incredible raw power. Patronesses act as generals for the Deep Elves and often lead their armies into battle."
+msgstr ""
+
+#. [unit_type]: id=Phade, race=deep_elf
+#: War_of_Legends/units/elves-deep/Phade.cfg:5
+msgid "Phade"
+msgstr ""
+
+#. [unit_type]: id=Phade, race=deep_elf
+#: War_of_Legends/units/elves-deep/Phade.cfg:20
+msgid "Over the course of many years, some Lightborns begin merging with the element that is their weapon and appear to begin transforming into the light itself. An elf that has attained this status is called a Phade, a magical being whose physical body has the appearance of fading away into pure light. In fact, some say that only her enchanted armor stops her body from vanishing completely. In close proximity, the Phade rushes through the bodies of her enemies, while from afar, she blasts them with torrents of blinding light."
+msgstr ""
+
+#. [unit_type]: id=Priestess of the Vault, race=deep_elf
+#: War_of_Legends/units/elves-deep/Priestess.cfg:5
+msgid "Priestess of the Vault"
+msgstr ""
+
+#. [unit_type]: id=Priestess of the Vault, race=deep_elf
+#: War_of_Legends/units/elves-deep/Priestess.cfg:19
+msgid "The Priestess of the Vault has dedicated her life to serving Shassagoth. In her former life she once was a shaman, a healer and a caretaker of the forests. Now, she has become a guardian of the depths and a despoiler of nature. Despite this, the Priestess has preserved some of her former magical capabilities and can summon arcane barrages to wear down her enemies. She sometimes infiltrates elvish territory, trying to convince more of her former sisters to join the ranks of Shassagoth."
+msgstr ""
+
+#. [unit_type]: id=Seeker, race=deep_elf
+#: War_of_Legends/units/elves-deep/Seeker.cfg:5
+msgid "Seeker"
+msgstr ""
+
+#. [unit_type]: id=Seeker, race=deep_elf
+#: War_of_Legends/units/elves-deep/Seeker.cfg:20
+msgid "Whoever has incurred the hatred of the ghostly apparition that is the Seeker will find death. Immune to both swords and arrows, Seekers are said to be able freely traverse through walls, relentlessly pursing their marked quarries. The hunted prey is plagued with nightmares of its own death until the Seeker’s blade transforms its visions into reality. It is said that the Seeker’s sword consumes the souls of its marks, imprisoning them within a cage of cold steel."
+msgstr ""
+
+#. [unit_type]: id=Seer, race=deep_elf
+#: War_of_Legends/units/elves-deep/Seer.cfg:5
+msgid "Seer"
+msgstr ""
+
+#. [unit_type]: id=Seer, race=deep_elf
+#: War_of_Legends/units/elves-deep/Seer.cfg:21
+msgid "The Seer is unique in that she is intimately connected with Shassagoth and can directly consult him. As such, the leaders of the Deep Elves often contact the Seers before engaging in combat. The success of the Deep Elves hinges on the ability of the Seers to predict the future and anticipate their enemies’ intentions. Although blind and unable to speak, it is often said that in the absence of the Harbinger, the Seers are the true leaders of the Deep Elves."
+msgstr ""
+
+#. [attack]: type=impact
+#: War_of_Legends/units/elves-deep/Seer.cfg:35
+msgid "will of Shassagoth"
+msgstr ""
+
+#. [unstore_unit]
+#: War_of_Legends/units/elves-deep/Seer.cfg:60
+msgid "+1 damage"
+msgstr ""
+
+#. [unit_type]: id=Shadow Tyrhai, race=monster
+#: War_of_Legends/units/elves-deep/Shadow_Tyrhai.cfg:5
+msgid "Shadow Tyr'Hai"
+msgstr ""
+
+#. [unit_type]: id=Shadow Tyrhai, race=monster
+#: War_of_Legends/units/elves-deep/Shadow_Tyrhai.cfg:20
+msgid "The rare Shadow Tyr‘Hai is a gigantic version of the lesser Tyr’Hai whose natural habitat is unknown. Some believe they lurk in the deepest part of the depths, while others say, they reside in the very realm of Shassagoth. Sharing a deep connection with Shassagoth, the Shadow Tyr’Hai defend the Priestesses from the darkness and protect them from harm in their travels. They are believed to feast on the souls of their prey, consuming spirit along with body in their mighty jaws."
+msgstr ""
+
+#. [attacks]: id=trample
+#: War_of_Legends/units/elves-deep/Shadow_Tyrhai.cfg:54
+msgid "This unit ignores the retaliation of the enemy and just overruns it."
+msgstr ""
+
+#. [unit_type]: id=Shassagoth, race=monster
+#: War_of_Legends/units/elves-deep/Shassagoth.cfg:5
+msgid "Shassagoth"
+msgstr ""
+
+#. [attack]: type=blade
+#: War_of_Legends/units/elves-deep/Shassagoth.cfg:35
+msgid "shadow claw"
+msgstr ""
+
+#. [attack]: type=fire
+#: War_of_Legends/units/elves-deep/Shassagoth.cfg:47
+msgid "shadow breath"
+msgstr ""
+
+#. [unit_type]: id=Tyrhai Cavalry, race=deep_elf
+#: War_of_Legends/units/elves-deep/Tyrhai_Cavalry.cfg:5
+msgid "Tyr'hai Cavalry"
+msgstr ""
+
+#. [unit_type]: id=Tyrhai Cavalry, race=deep_elf
+#: War_of_Legends/units/elves-deep/Tyrhai_Cavalry.cfg:20
+msgid "Tyr‘Hai Riders who have proven themselves in battle are granted a lance and join the ranks of the Tyr‘Hai Cavalry. Although the lance is powerful enough to impale adversaries even through thick layers of armor, the great Tyr‘Hai itself often causes even more damage, devouring enemies with ease as it dissolves their flesh and armor."
+msgstr ""
+
+#. [attack]: type=pierce
+#: War_of_Legends/units/elves-deep/Tyrhai_Cavalry.cfg:26
+#: War_of_Legends/units/elves-deep/Tyrhai_Cavalry.cfg:36
+#: War_of_Legends/units/elves-deep/Tyrhai_Rider.cfg:24
+#: War_of_Legends/units/goblins/Chieftain.cfg:35
+#: War_of_Legends/units/goblins/Chieftain.cfg:44
+#: War_of_Legends/units/goblins/Goblin_Cavalry.cfg:38
+#: War_of_Legends/units/goblins/Goblin_Hellwolf_Rider.cfg:38
+#: War_of_Legends/units/goblins/Goblin_Lancer.cfg:37
+#: War_of_Legends/units/goblins/Spearmaster.cfg:31
+#: War_of_Legends/units/goblins/Spearmaster.cfg:43
+#: War_of_Legends/units/goblins/Trumpeter.cfg:39
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Ancient_Banner.cfg:41
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Captain.cfg:34
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Guardian.cfg:30
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Lancer.cfg:33
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Silver_Shield.cfg:27
+#: War_of_Legends/units/human-legion/Knight.cfg:32
+#: War_of_Legends/units/human-legion/Spearman.cfg:22
+#: War_of_Legends/units/human-loyalists/Loyalist_Javelin_Master.cfg:28
+#: War_of_Legends/units/minotaurs/Boar_Cataphract.cfg:45
+#: War_of_Legends/units/minotaurs/Boar_Knight.cfg:44
+#: War_of_Legends/units/minotaurs/Boar_Rider.cfg:27
+#: War_of_Legends/units/windsong/Seeker.cfg:30
+msgid "spear"
+msgstr ""
+
+#. [unit_type]: id=Tyrhai Rider, race=deep_elf
+#: War_of_Legends/units/elves-deep/Tyrhai_Rider.cfg:5
+msgid "Tyr'hai Rider"
+msgstr ""
+
+#. [unit_type]: id=Tyrhai Rider, race=deep_elf
+#: War_of_Legends/units/elves-deep/Tyrhai_Rider.cfg:18
+msgid "Tyr‘Hai are reptilian creatures that live in the caverns below the Great Continent that have been domesticated by the Deep Elves. Although the Deep Elves usually rely on the powers granted to them by Shassagoth, they acknowledge that the simple brute force provided by the Tyr’Hai is sometimes needed. The Tyr‘Hai allow the lesser Deep Elves to quickly move through the caverns of Blackqvasten."
+msgstr ""
+
+#. [unit_type]: id=Vault Lurker, race=deep_elf
+#: War_of_Legends/units/elves-deep/Vault_Lurker.cfg:5
+msgid "Vault Lurker"
+msgstr ""
+
+#. [unit_type]: id=Vault Lurker, race=deep_elf
+#: War_of_Legends/units/elves-deep/Vault_Lurker.cfg:20
+msgid "The Vault Lurker is a being that emerged from the Black Lake itself and is filled with the essence of Shassagoth. As an entity born of darkness, it can meld perfectly with any shadow, allowing it to perfectly stalk its enemies without fear of detection. This ability makes the Vault Lurkers among the most feared of the Deep Elves, for against the Deep Elves, one’s own shadow may become their own worst enemy."
+msgstr ""
+
+#. [attack]: type=blade
+#: War_of_Legends/units/elves-deep/Vault_Lurker.cfg:31
+#: War_of_Legends/units/elves-wood/Noble.cfg:28
+#: War_of_Legends/units/elves-wood/Prowler.cfg:43
+#: War_of_Legends/units/elves-wood/Trapper.cfg:39
+#: War_of_Legends/units/elves-wood/Wayfarer.cfg:40
+#: War_of_Legends/units/gnolls/Deadeye.cfg:30
+#: War_of_Legends/units/gnolls/Marksman.cfg:29
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Captain.cfg:42
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Greatbow.cfg:33
+#: War_of_Legends/units/human-campaigns/Horse_Cavalry.cfg:26
+#: War_of_Legends/units/human-campaigns/Loyalist_Soldier.cfg:35
+#: War_of_Legends/units/human-campaigns/Loyalist_Supreme_Warlord.cfg:49
+#: War_of_Legends/units/human-campaigns/Loyalist_War_Grandmaster.cfg:49
+#: War_of_Legends/units/human-campaigns/Loyalist_Warmaster.cfg:73
+#: War_of_Legends/units/human-campaigns/Loyalist_Warrior.cfg:48
+#: War_of_Legends/units/human-legion/Cavalier.cfg:24
+#: War_of_Legends/units/human-legion/Commander.cfg:39
+#: War_of_Legends/units/human-legion/Horseman.cfg:23
+#: War_of_Legends/units/human-legion/Knight.cfg:23
+#: War_of_Legends/units/human-legion/Pillager.cfg:24
+#: War_of_Legends/units/human-legion/Soldier.cfg:21
+#: War_of_Legends/units/human-legion/Subaltern.cfg:38
+#: War_of_Legends/units/human-loyalists/Horse_Mounted_Bowman.cfg:33
+#: War_of_Legends/units/human-loyalists/Loyalist_Infantryman.cfg:23
+#: War_of_Legends/units/nagas/Naga_Hunter.cfg:42
+#: War_of_Legends/units/nagas/Naga_Marksman.cfg:30
+#: War_of_Legends/units/vampires/Duchess.cfg:32
+#: War_of_Legends/units/vampires/Duelist.cfg:30
+#: War_of_Legends/units/vampires/Fledgeling.cfg:28
+#: War_of_Legends/units/vampires/Methusalem.cfg:32
+#: War_of_Legends/units/vampires/Noble.cfg:31
+#: War_of_Legends/units/vampires/Sire.cfg:32
+#: War_of_Legends/units/vampires/Sword_Dancer.cfg:30
+msgid "sword"
+msgstr ""
+
+#. [unit_type]: id=Vengeance, race=deep_elf
+#: War_of_Legends/units/elves-deep/Vengeance.cfg:5
+msgid "Vengeance"
+msgstr ""
+
+#. [unit_type]: id=Vengeance, race=deep_elf
+#: War_of_Legends/units/elves-deep/Vengeance.cfg:20
+msgid "A Blood Maiden whose sword has bathed in the blood of her foes is granted new powers and becomes a Vengeance. When their lesser sisters fall on the forefront of battle, those of the Vengeance caste only fight more furiously, frenziedly pursuing the killers of their slain kin. This has earned them their namesake, as they commonly, and rightly, viewed as the avengers from the deep."
+msgstr ""
+
+#. [unit_type]: id=Lesser Wisp, race=deep_elf
+#: War_of_Legends/units/elves-deep/Wisp.cfg:5
+msgid "Lesser Wisp"
+msgstr ""
+
+#. [unit_type]: id=Lesser Wisp, race=deep_elf
+#: War_of_Legends/units/elves-deep/Wisp.cfg:19
+msgid "A wisp is a flickering light with magical capabilities. These mysterious entities roam the caverns of Blackqvasten, usually wandering alone in the endless darkness. Generally, wisps are not dangerous, even to beings that do not inhabit the depths, although they are known to produce magic of extraordinary power when gathered in large enough numbers. Legends say that the Wisps are nothing more than lost souls, tortured by Shassagoth to wander through the depths on unending journeys to find peace."
+msgstr ""
+
+#. [attack]: type=arcane
+#: War_of_Legends/units/elves-deep/Wisp.cfg:25
+#: War_of_Legends/units/elves-deep/Wisp_Greater.cfg:26
+#: War_of_Legends/units/elves-deep/Wisp_Mother.cfg:49
+msgid "orb"
+msgstr ""
+
+#. [unit_type]: id=Greater Wisp, race=deep_elf
+#: War_of_Legends/units/elves-deep/Wisp_Greater.cfg:5
+msgid "Greater Wisp"
+msgstr ""
+
+#. [unit_type]: id=Greater Wisp, race=deep_elf
+#: War_of_Legends/units/elves-deep/Wisp_Greater.cfg:20
+msgid "Sometimes, one may find Wisps gathered in clusters in the depths. In their midst, there appear a few larger wisps that are stronger than their smaller kin. These Greater Wisps have the potential to cast lower forms of magic and are more durable than the smaller Wisps. It is unknown how these Greater Wisps came to be, but the strange light that they emanate attracts nearby wisps, whereupon more Greater Wisps will eventually be found when the Wisps begin to cluster."
+msgstr ""
+
+#. [unit_type]: id=Wisp Mother, race=deep_elf
+#: War_of_Legends/units/elves-deep/Wisp_Mother.cfg:5
+msgid "Wisp Mother"
+msgstr ""
+
+#. [unit_type]: id=Wisp Mother, race=deep_elf
+#: War_of_Legends/units/elves-deep/Wisp_Mother.cfg:21
+msgid "Wispmothers are rare beings that glow with mysterious, eerie energy that simultaneously appears as light, but also melds with the darkness. Often they are surrounded by many Wisps and Greater Wisps, who are attracted and empowered by the energy that the Wispmothers emit. The Wispmother, in turn, controls the lesser Wisps like the queen of a hive, directing them with unknown purpose. It is rumored that Wispmothers are not related to the ordinary Deep Elves, but are instead the manifested thoughts of Shassagoth, guiding the magical Wisps to do his bidding."
+msgstr ""
+
+#. [special_note]
+#. [leadership]: id=wisp mother
+#: War_of_Legends/units/elves-deep/Wisp_Mother.cfg:24
+#: War_of_Legends/units/elves-deep/Wisp_Mother.cfg:37
+msgid "Adjacent wisps gain +25% damage."
+msgstr ""
+
+#. [leadership]: id=wisp mother
+#: War_of_Legends/units/elves-deep/Wisp_Mother.cfg:35
+msgid "wisp mother"
+msgstr ""
+
+#. [leadership]: id=wisp mother
+#: War_of_Legends/units/elves-deep/Wisp_Mother.cfg:36
+msgid "female^wisp mother"
+msgstr ""
+
 #. [unit_type]: id=Elvish Acolyte, race=elf
 #: War_of_Legends/units/elves-wood/Acolyte.cfg:5
 msgid "female^Elvish Acolyte"
@@ -2344,12 +2964,6 @@ msgstr ""
 msgid "staff"
 msgstr ""
 
-#. [attack]: type=arcane
-#: War_of_Legends/units/elves-wood/Acolyte.cfg:39
-#: War_of_Legends/units/elves-wood/Noble.cfg:37
-msgid "faerie fire"
-msgstr ""
-
 #. [unit_type]: id=Elvish Ascetic, race=elf
 #: War_of_Legends/units/elves-wood/Ascetic.cfg:5
 msgid "female^Elvish Ascetic"
@@ -2389,11 +3003,6 @@ msgid ""
 "Needless to say, these skills could be used to destroy the elvish civilization. Avatars are thus highly respected, often feared sages of their people. Power is both a gift and a curse — understanding and bearing this great responsibility is perhaps one of the last challenges that must be mastered by these mystics."
 msgstr ""
 
-#. [attack]: type=impact
-#: War_of_Legends/units/elves-wood/Avatar.cfg:38
-msgid "faerie touch"
-msgstr ""
-
 #. [attack]: type=arcane
 #: War_of_Legends/units/elves-wood/Avatar.cfg:63
 msgid "ethereal storm"
@@ -2430,42 +3039,6 @@ msgid ""
 "While humans must devote considerable time and concentration to learning the magical arts, those elves with the most magical aptitude are often those that spend the least time training magical skills. Elvish mages are dilettantes who spend their waking hours practicing fencing, art, music, and other non-magical pursuits, cultivating a broad worldview which nurtures their innate intuition for magic.\n"
 "\n"
 "This approach, so radically different from that of humans and their rigidly regimented schools of magi, often leads human observers to misinterpret the place of elvish mages in their society. Their seemingly idle lifestyles coupled with the positions of esteem afforded to individuals of such intelligence and wisdom often lead humans to brand these mages as 'nobles' after their own idiom."
-msgstr ""
-
-#. [attack]: type=blade
-#: War_of_Legends/units/elves-wood/Noble.cfg:28
-#: War_of_Legends/units/elves-wood/Prowler.cfg:43
-#: War_of_Legends/units/elves-wood/Trapper.cfg:39
-#: War_of_Legends/units/elves-wood/Wayfarer.cfg:40
-#: War_of_Legends/units/gnolls/Deadeye.cfg:30
-#: War_of_Legends/units/gnolls/Marksman.cfg:29
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Captain.cfg:42
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Greatbow.cfg:33
-#: War_of_Legends/units/human-campaigns/Horse_Cavalry.cfg:26
-#: War_of_Legends/units/human-campaigns/Loyalist_Soldier.cfg:35
-#: War_of_Legends/units/human-campaigns/Loyalist_Supreme_Warlord.cfg:49
-#: War_of_Legends/units/human-campaigns/Loyalist_War_Grandmaster.cfg:49
-#: War_of_Legends/units/human-campaigns/Loyalist_Warmaster.cfg:73
-#: War_of_Legends/units/human-campaigns/Loyalist_Warrior.cfg:48
-#: War_of_Legends/units/human-legion/Cavalier.cfg:24
-#: War_of_Legends/units/human-legion/Commander.cfg:39
-#: War_of_Legends/units/human-legion/Horseman.cfg:23
-#: War_of_Legends/units/human-legion/Knight.cfg:23
-#: War_of_Legends/units/human-legion/Pillager.cfg:24
-#: War_of_Legends/units/human-legion/Soldier.cfg:21
-#: War_of_Legends/units/human-legion/Subaltern.cfg:38
-#: War_of_Legends/units/human-loyalists/Horse_Mounted_Bowman.cfg:33
-#: War_of_Legends/units/human-loyalists/Loyalist_Infantryman.cfg:23
-#: War_of_Legends/units/nagas/Naga_Hunter.cfg:42
-#: War_of_Legends/units/nagas/Naga_Marksman.cfg:30
-#: War_of_Legends/units/vampires/Duchess.cfg:32
-#: War_of_Legends/units/vampires/Duelist.cfg:30
-#: War_of_Legends/units/vampires/Fledgeling.cfg:28
-#: War_of_Legends/units/vampires/Methusalem.cfg:32
-#: War_of_Legends/units/vampires/Noble.cfg:31
-#: War_of_Legends/units/vampires/Sire.cfg:32
-#: War_of_Legends/units/vampires/Sword_Dancer.cfg:30
-msgid "sword"
 msgstr ""
 
 #. [unit_type]: id=Elvish Prowler, race=elf
@@ -2715,30 +3288,6 @@ msgstr ""
 #. [unit_type]: id=Goblin Chieftain, race=goblin
 #: War_of_Legends/units/goblins/Chieftain.cfg:23
 msgid "It is said that all you need to lead a goblin is a strong leash. In truth, it takes a subtle mind and a noble heart to be a goblin chieftain. Goblins leave much of their life to chance, a strategy that guarantees their short and pointless lifespans. Only the wisest and strongest leader can inspire them and turn them from their anarchic tendencies."
-msgstr ""
-
-#. [attack]: type=pierce
-#: War_of_Legends/units/goblins/Chieftain.cfg:35
-#: War_of_Legends/units/goblins/Chieftain.cfg:44
-#: War_of_Legends/units/goblins/Goblin_Cavalry.cfg:38
-#: War_of_Legends/units/goblins/Goblin_Hellwolf_Rider.cfg:38
-#: War_of_Legends/units/goblins/Goblin_Lancer.cfg:37
-#: War_of_Legends/units/goblins/Spearmaster.cfg:31
-#: War_of_Legends/units/goblins/Spearmaster.cfg:43
-#: War_of_Legends/units/goblins/Trumpeter.cfg:39
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Ancient_Banner.cfg:41
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Captain.cfg:34
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Guardian.cfg:30
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Lancer.cfg:33
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Silver_Shield.cfg:27
-#: War_of_Legends/units/human-legion/Knight.cfg:32
-#: War_of_Legends/units/human-legion/Spearman.cfg:22
-#: War_of_Legends/units/human-loyalists/Loyalist_Javelin_Master.cfg:28
-#: War_of_Legends/units/minotaurs/Boar_Cataphract.cfg:45
-#: War_of_Legends/units/minotaurs/Boar_Knight.cfg:44
-#: War_of_Legends/units/minotaurs/Boar_Rider.cfg:27
-#: War_of_Legends/units/windsong/Seeker.cfg:30
-msgid "spear"
 msgstr ""
 
 #. [unit_type]: id=Goblin Cutthroat, race=wolf
@@ -3249,19 +3798,6 @@ msgstr ""
 #: War_of_Legends/units/undead/Skeleton_Rider.cfg:34
 #: War_of_Legends/units/vampires/Blood_Hulk.cfg:32
 msgid "axe"
-msgstr ""
-
-#. [attack]: type=pierce
-#. [attack]: type=fire
-#: War_of_Legends/units/human-legion/Arbalestier.cfg:36
-#: War_of_Legends/units/human-legion/Arbalestier.cfg:48
-#: War_of_Legends/units/human-legion/Crossbowman.cfg:34
-#: War_of_Legends/units/human-legion/Crossbowman.cfg:46
-#: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:35
-#: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:47
-#: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:57
-#: War_of_Legends/units/undead/Skele_Death_Baron.cfg:62
-msgid "crossbow"
 msgstr ""
 
 #. [unit_type]: id=Legion Archer, race=human
@@ -4079,15 +4615,6 @@ msgstr ""
 msgid "Cataphracts are the elite of the boar-riding forces of the minotaur forces; they have a practically perfect bond with their companion which the rider often considers it to be his best friend. Even though Cataphracts use their spears effectively, their true power still lies in their companion. It is unknown how a sentient and non-sentient creature such as a boar could have such a powerful bond and have effective communications. These qualities make the Cataphracts a terrifyingly powerful force to be reckoned."
 msgstr ""
 
-#. [attack]: type=impact
-#: War_of_Legends/units/minotaurs/Boar_Cataphract.cfg:54
-#: War_of_Legends/units/minotaurs/Boar_Knight.cfg:53
-#: War_of_Legends/units/minotaurs/Boar_Rider.cfg:36
-#: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:46
-#: War_of_Legends/units/undead/Skeleton_Rider.cfg:44
-msgid "trample"
-msgstr ""
-
 #. [unit_type]: id=Boar Knight, race=minotaur
 #: War_of_Legends/units/minotaurs/Boar_Knight.cfg:5
 msgid "Boar Knight"
@@ -4147,6 +4674,21 @@ msgstr ""
 #. [unit_type]: id=Minotaur Executioner, race=minotaur
 #: War_of_Legends/units/minotaurs/Executioner.cfg:20
 msgid "Executioners are masters of the kusarigama, they have their own style of wielding it; instead of wielding it like a scythe, they prefer to wield it like a claw. Even though these powerful warriors will kill most of the enemies they face, they like to play it safe by poisoning their weapon. Most foolhardy archers think they can easily defeat an Executioner, however they likely have not been acquainted with the weight and chain that makes the kusarigama such an effective weapon."
+msgstr ""
+
+#. [unit_type]: id=Forgotten Minotaur, race=minotaur
+#: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:5
+msgid "Forgotten Minotaur"
+msgstr ""
+
+#. [unit_type]: id=Forgotten Minotaur, race=minotaur
+#: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:18
+msgid "Minotaurs are bulky creatures that were once cursed by an unknown force. For eons, Minotaurs turn to stone when the light of the sun touches their skin, forcing them to inhabit the depths of the Great Continent. Shassagoth promised to lift the curse of the Minotaurs if they would bend themselves to his will and fight his foes. For this reason, the Minotaurs decided to serve Shassagoth and are often seen in the vast realm of the Deep Elves."
+msgstr ""
+
+#. [unstore_unit]
+#: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:243
+msgid "Knockback!"
 msgstr ""
 
 #. [unit_type]: id=Minotaur Gore, race=minotaur
@@ -4356,17 +4898,17 @@ msgid "These majestic and powerful creatures are masters of the sky. Gryphons ar
 msgstr ""
 
 #. [unit_type]: id=Great Ogre, race=ogre
-#: War_of_Legends/units/monsters/Great_Ogre.cfg:6
+#: War_of_Legends/units/monsters/Great_Ogre.cfg:5
 msgid "Great Ogre"
 msgstr ""
 
 #. [unit_type]: id=Great Ogre, race=ogre
-#: War_of_Legends/units/monsters/Great_Ogre.cfg:26
+#: War_of_Legends/units/monsters/Great_Ogre.cfg:25
 msgid "Great monsters are larger than the ordinary ogre, possess more strength and stand taller than an adult Wose. They live in the wilderness and are xenophobic, so if you ever encounter one, then run."
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/monsters/Great_Ogre.cfg:31
+#: War_of_Legends/units/monsters/Great_Ogre.cfg:30
 msgid "cleaver"
 msgstr ""
 
@@ -4772,11 +5314,6 @@ msgstr ""
 #. [attack]: type=impact
 #: War_of_Legends/units/orcs/Subjugator.cfg:27
 msgid "chain flail"
-msgstr ""
-
-#. [attack]: type=blade
-#: War_of_Legends/units/orcs/Subjugator.cfg:39
-msgid "blade"
 msgstr ""
 
 #. [unit_type]: id=Orcish Warlock, race=orc
