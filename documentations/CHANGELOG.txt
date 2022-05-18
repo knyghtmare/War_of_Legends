@@ -5,6 +5,7 @@ version 1.2.7.15:
 --> New faction: Deep Elves (by Kwandulin)
 --> New Era: Default plus Deep Elves
 --> New Era: Default + Steelhive
+--> New Era: Default + Quenoth
 --> Deep Elves:
    --> Fix broken wisp leadership
    --> Fixed all broken code from 1.14
