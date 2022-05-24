@@ -32,5 +32,25 @@ function wesnoth.interface.game_display.unit_status()
 		} } )
 	end
 
+	-- new elemental abilities
+
+	if u.status.fire_status then
+		table.insert(s, { "element", { image = "misc/fire-status-icon.png",
+			tooltip = _ "fire affliction: This unit has been affected by fire. Attack with another element of a different type to trigger some reaction."
+		} } )
+	end
+
+	if u.status.cold_status then
+		table.insert(s, { "element", { image = "misc/cold-status-icon.png",
+			tooltip = _ "cold affliction: This unit has been affected by cold. Attack with another element of a different type to trigger some reaction."
+		} } )
+	end
+
+	if u.status.electric_status then
+		table.insert(s, { "element", { image = "misc/electric-status-icon.png",
+			tooltip = _ "electric affliction: This unit has been affected by electric. Attack with another element of a different type to trigger some reaction."
+		} } )
+	end
+
 	return s
 end
