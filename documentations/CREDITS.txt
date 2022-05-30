@@ -83,7 +83,6 @@ Kwandulin (Heroes add-on)
 ---> Shadowback
 
 megane
-
 ---> Windsong
 
 A Whim of Fate:
@@ -94,3 +93,9 @@ Talentless
 --> Saurian Warden
 --> Saurian Seer
 --> Saurian Prophet
+
+Zerovirus
+--> Steelhive
+
+Kwandulin
+--> Deep Elves
