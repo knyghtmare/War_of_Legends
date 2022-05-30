@@ -17,6 +17,12 @@ version 1.2.7.15:
 --> Windsong:
    Prophetess: +22 XP to advance
    (was set astoundingly low as compared to the rest)
+--> Default RPG Era:
+   --> Add Dunefolk faction
+--> War of Legends RPG Era:
+   --> Add missing units of most factions
+   --> promote level 0 units to their level 1 counterparts
+      --> I dont really recommend diving into some MP RPG COOP as a level 0
    
 
 version 1.2.7.14
