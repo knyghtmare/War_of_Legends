@@ -23,6 +23,10 @@ version 1.2.7.15:
    --> Add missing units of most factions
    --> promote level 0 units to their level 1 counterparts
       --> I dont really recommend diving into some MP RPG COOP as a level 0
+--> Campaign:
+   --> Monster Crab (UtBS)
+   --> Owl (BMR/AR)
+   --> Great Owl (BMR/AR)
    
 
 version 1.2.7.14
