@@ -21,6 +21,7 @@ version 1.2.7.15:
    ---> Greatbow: unhooded variation
    ---> Longswordsman: unhooded variation
    ---> Captain: add missing animations
+   ---> Sorceress: add alternate variation
 --> Windsong:
    Prophetess: +22 XP to advance
    (was set astoundingly low as compared to the rest)
