@@ -10,10 +10,9 @@ It is required as a dependency to play the following campaigns:
 3. [Sepulchre of Elran](https://forums.wesnoth.org/viewtopic.php?f=8&t=44860)
 4. [Assault on the Citadel](https://github.com/knyghtmare/Assault_on_the_Citadel)
 5. [Survivals (War of Legends)](https://github.com/knyghtmare/Survivals_WoL)
-6. RPG (War of Legends)
-7. [Struggle for Freedom](https://github.com/knyghtmare/Struggle_For_Freedom)
-8. [Cataclysm](https://github.com/knyghtmare/Cataclysm)
-9. [Blades of Steel](https://github.com/knyghtmare/Aragwaithi_of_the_West)
+6. [Struggle for Freedom](https://github.com/knyghtmare/Struggle_For_Freedom)
+7. [Cataclysm](https://github.com/knyghtmare/Cataclysm)
+8. [Blades of Steel](https://github.com/knyghtmare/Aragwaithi_of_the_West)
 
 ### By [revansurik](https://github.com/revansurik):
 1. [A Song of the Wind](https://forums.wesnoth.org/viewtopic.php?p=662430#p662430)
@@ -26,7 +25,7 @@ It is required as a dependency to play the following campaigns:
 
 ### By [scio-nullus](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=183306)
 1. [Mercenary Band](https://forums.wesnoth.org/viewtopic.php?t=49866)
-2. Wandering Warriors (1.16.x add-on server/no forum thread found)
+2. [Wandering Warriors]((https://forums.wesnoth.org/viewtopic.php?t=49866))
 
 ### By [Ihybrideur](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=185844):
 1. [Legends of Idaamub](https://forums.wesnoth.org/viewtopic.php?p=644433#p644433)

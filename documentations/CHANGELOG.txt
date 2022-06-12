@@ -2,6 +2,7 @@ War of Legends
 Change-Log v1.2.7.15
 
 version 1.2.7.15:
+--> Update README on scio's Wandering Warriors
 --> New faction: Deep Elves (by Kwandulin)
 --> New Era: Default plus Deep Elves
 --> New Era: Default + Steelhive
