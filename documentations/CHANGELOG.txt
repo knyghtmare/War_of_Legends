@@ -29,8 +29,13 @@ version 1.2.7.15:
    (was set astoundingly low as compared to the rest)
 --> Default RPG Era:
    --> Add Dunefolk faction
+--> Empowered Legends Era:
+   --> Steelhive faction
+   --> Deep Elves faction
 --> War of Legends RPG Era:
    --> Add missing units of most factions
+   --> Steelhive RPG faction
+   --> Deep Elves RPG faction
    --> promote level 0 units to their level 1 counterparts
       --> I dont really recommend diving into some MP RPG COOP as a level 0
 --> Campaign:
