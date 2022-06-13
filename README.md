@@ -25,7 +25,7 @@ It is required as a dependency to play the following campaigns:
 
 ### By [scio-nullus](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=183306)
 1. [Mercenary Band](https://forums.wesnoth.org/viewtopic.php?t=49866)
-2. [Wandering Warriors]((https://forums.wesnoth.org/viewtopic.php?t=49866))
+2. [Wandering Warriors](https://forums.wesnoth.org/viewtopic.php?t=49866)
 
 ### By [Ihybrideur](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=185844):
 1. [Legends of Idaamub](https://forums.wesnoth.org/viewtopic.php?p=644433#p644433)
