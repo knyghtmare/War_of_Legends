@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-05-07 13:46 UTC\n"
+"POT-Creation-Date: 2022-06-14 09:43 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,6 +46,21 @@ msgstr ""
 #. [era]: id=core_legends
 #: War_of_Legends/eras/Core_Legends.cfg:8
 msgid "An era consisting of four factions, which were part of the 'Great Legend Era'. Mostly balanced."
+msgstr ""
+
+#. [era]: id=era_aragwaithi
+#: War_of_Legends/eras/Default_Era_Aragwaithi.cfg:5
+msgid "Default + Aragwaithi"
+msgstr ""
+
+#. [era]: id=era_quenoth
+#: War_of_Legends/eras/Default_Era_Quenoth.cfg:5
+msgid "Default + Quenoth Elves (UtBS)"
+msgstr ""
+
+#. [era]: id=era_steelhive
+#: War_of_Legends/eras/Default_Era_SteelHive.cfg:5
+msgid "Default + Steelhive"
 msgstr ""
 
 #. [era]: id=era_deep_elves
@@ -161,7 +176,7 @@ msgstr ""
 
 #. [era]: id=war_of_legends
 #: War_of_Legends/eras/War_of_Legends.cfg:7
-msgid "An era consisting of fourteen of my most favourite MP factions. Mostly balanced."
+msgid "An era consisting of sixteen of my most favourite MP factions. Mostly balanced."
 msgstr ""
 
 #. [era]: id=wol_rpg
@@ -177,108 +192,117 @@ msgstr ""
 #. [multiplayer_side]: id=Aragwaithi_EL, type=random
 #. [multiplayer_side]: id=Aragwaithi_RPG, type=random
 #. [multiplayer_side]: id=Aragwaithi_WOL, type=random
-#: War_of_Legends/factions/Aragwaithi-EL.cfg:5
-#: War_of_Legends/factions/Aragwaithi-RPG.cfg:6
-#: War_of_Legends/factions/Aragwaithi-WOL.cfg:5
+#: War_of_Legends/factions/EL/Aragwaithi-EL.cfg:5
+#: War_of_Legends/factions/RPG/Aragwaithi-RPG.cfg:6
+#: War_of_Legends/factions/WOL/Aragwaithi-WOL.cfg:5
 msgid "Aragwaithi"
 msgstr ""
 
 #. [multiplayer_side]: id=Deep_Elves_EL, type=random
 #. [multiplayer_side]: id=Deep_Elves_RPG, type=random
 #. [multiplayer_side]: id=Deep_Elves_WOL, type=random
-#: War_of_Legends/factions/Deep-Elves-EL.cfg:5
-#: War_of_Legends/factions/Deep-Elves-RPG.cfg:5
-#: War_of_Legends/factions/Deep-Elves-WOL.cfg:5
+#: War_of_Legends/factions/EL/Deep-Elves-EL.cfg:5
+#: War_of_Legends/factions/RPG/Deep-Elves-RPG.cfg:5
+#: War_of_Legends/factions/WOL/Deep-Elves-WOL.cfg:5
 msgid "Deep Elves"
 msgstr ""
 
-#. [multiplayer_side]: id=Human_Alliance_EL, type=random
-#. [multiplayer_side]: id=Human_Alliance_RPG, type=random
-#. [multiplayer_side]: id=Human_Alliance_WOL, type=random
-#: War_of_Legends/factions/Humans-EL.cfg:4
-#: War_of_Legends/factions/Humans-RPG.cfg:5
-#: War_of_Legends/factions/Humans-WOL.cfg:4
+#. [multiplayer_side]: id=Loyalists_EL, type=random
+#. [multiplayer_side]: id=Loyalists_RPG, type=random
+#. [multiplayer_side]: id=Loyalists_WOL, type=random
+#: War_of_Legends/factions/EL/Humans-EL.cfg:4
+#: War_of_Legends/factions/RPG/Humans-RPG.cfg:5
+#: War_of_Legends/factions/WOL/Humans-WOL.cfg:4
 msgid "The Loyalists"
 msgstr ""
 
 #. [multiplayer_side]: id=Dark_Legion_EL, type=random
 #. [multiplayer_side]: id=Dark_Legion_RPG, type=random
 #. [multiplayer_side]: id=Dark_Legion_WOL, type=random
-#: War_of_Legends/factions/Legion-EL.cfg:6
-#: War_of_Legends/factions/Legion-RPG.cfg:6
-#: War_of_Legends/factions/Legion-WOL.cfg:6
+#: War_of_Legends/factions/EL/Legion-EL.cfg:6
+#: War_of_Legends/factions/RPG/Legion-RPG.cfg:6
+#: War_of_Legends/factions/WOL/Legion-WOL.cfg:6
 msgid "Dark Legion"
 msgstr ""
 
 #. [multiplayer_side]: id=Minotaurs_EL, type=random
 #. [multiplayer_side]: id=Minotaurs_RPG, type=random
 #. [multiplayer_side]: id=Minotaurs_WOL, type=random
-#: War_of_Legends/factions/Minotaurs-EL.cfg:5
-#: War_of_Legends/factions/Minotaurs-RPG.cfg:5
-#: War_of_Legends/factions/Minotaurs-WOL.cfg:5
+#: War_of_Legends/factions/EL/Minotaurs-EL.cfg:5
+#: War_of_Legends/factions/RPG/Minotaurs-RPG.cfg:5
+#: War_of_Legends/factions/WOL/Minotaurs-WOL.cfg:5
 msgid "Minotaurs"
 msgstr ""
 
 #. [multiplayer_side]: id=Orcs_EL, type=random
 #. [multiplayer_side]: id=Orcs_RPG, type=random
 #. [multiplayer_side]: id=Orcs_WOL, type=random
-#: War_of_Legends/factions/Orcs-EL.cfg:5
-#: War_of_Legends/factions/Orcs-RPG.cfg:5
-#: War_of_Legends/factions/Orcs-WOL.cfg:4
+#: War_of_Legends/factions/EL/Orcs-EL.cfg:5
+#: War_of_Legends/factions/RPG/Orcs-RPG.cfg:5
+#: War_of_Legends/factions/WOL/Orcs-WOL.cfg:4
 msgid "Northerners"
 msgstr ""
 
 #. [multiplayer_side]: id=Outlaws_EL, type=random
 #. [multiplayer_side]: id=Outlaws_RPG, type=random
 #. [multiplayer_side]: id=Outlaws_WOL, type=random
-#: War_of_Legends/factions/Outlaws-EL.cfg:6
-#: War_of_Legends/factions/Outlaws-RPG.cfg:6
-#: War_of_Legends/factions/Outlaws-WOL.cfg:6
+#: War_of_Legends/factions/EL/Outlaws-EL.cfg:6
+#: War_of_Legends/factions/RPG/Outlaws-RPG.cfg:6
+#: War_of_Legends/factions/WOL/Outlaws-WOL.cfg:6
 msgid "Outlaws"
 msgstr ""
 
 #. [multiplayer_side]: id=Quenoth_EL, type=random
 #. [multiplayer_side]: id=Quenoth_Elves_RPG, type=random
 #. [multiplayer_side]: id=Quenoth_Elves_WOL, type=random
-#: War_of_Legends/factions/Quenoth-EL.cfg:4
-#: War_of_Legends/factions/Quenoth-RPG.cfg:4
-#: War_of_Legends/factions/Quenoth-WOL.cfg:4
+#: War_of_Legends/factions/EL/Quenoth-EL.cfg:4
+#: War_of_Legends/factions/RPG/Quenoth-RPG.cfg:4
+#: War_of_Legends/factions/WOL/Quenoth-WOL.cfg:4
 msgid "Quenoth Elves"
+msgstr ""
+
+#. [multiplayer_side]: id=steelhive_EL, type=random
+#. [multiplayer_side]: id=steelhive_RPG, type=random
+#. [multiplayer_side]: id=steelhive_WOL, type=random
+#: War_of_Legends/factions/EL/Steelhive-EL.cfg:5
+#: War_of_Legends/factions/RPG/Steelhive-RPG.cfg:5
+#: War_of_Legends/factions/WOL/Steelhive-WOL.cfg:5
+msgid "Steelhive"
 msgstr ""
 
 #. [multiplayer_side]: id=Sylvans_EL, type=random
 #. [multiplayer_side]: id=Sylvans_RPG, type=random
 #. [multiplayer_side]: id=Sylvans_WOL, type=random
-#: War_of_Legends/factions/Sylvans-EL.cfg:5
-#: War_of_Legends/factions/Sylvans-RPG.cfg:5
-#: War_of_Legends/factions/Sylvans-WOL.cfg:5
+#: War_of_Legends/factions/EL/Sylvans-EL.cfg:5
+#: War_of_Legends/factions/RPG/Sylvans-RPG.cfg:5
+#: War_of_Legends/factions/WOL/Sylvans-WOL.cfg:5
 msgid "Sylvans"
 msgstr ""
 
 #. [multiplayer_side]: id=Undead_EL, type=random
 #. [multiplayer_side]: id=Undead_RPG, type=random
 #. [multiplayer_side]: id=Undead_WOL, type=random
-#: War_of_Legends/factions/Undead-EL.cfg:5
-#: War_of_Legends/factions/Undead-RPG.cfg:5
-#: War_of_Legends/factions/Undead-WOL.cfg:4
+#: War_of_Legends/factions/EL/Undead-EL.cfg:5
+#: War_of_Legends/factions/RPG/Undead-RPG.cfg:5
+#: War_of_Legends/factions/WOL/Undead-WOL.cfg:4
 msgid "Undead Hordes"
 msgstr ""
 
 #. [multiplayer_side]: id=Vampires_EL, type=random
 #. [multiplayer_side]: id=Vampires_RPG, type=random
 #. [multiplayer_side]: id=Vampires_WOL, type=random
-#: War_of_Legends/factions/Vampires-EL.cfg:5
-#: War_of_Legends/factions/Vampires-RPG.cfg:5
-#: War_of_Legends/factions/Vampires-WOL.cfg:5
+#: War_of_Legends/factions/EL/Vampires-EL.cfg:5
+#: War_of_Legends/factions/RPG/Vampires-RPG.cfg:5
+#: War_of_Legends/factions/WOL/Vampires-WOL.cfg:5
 msgid "Vampires"
 msgstr ""
 
 #. [multiplayer_side]: id=Windsong_EL, type=random
 #. [multiplayer_side]: id=Windsong_RPG, type=random
 #. [multiplayer_side]: id=Windsong_WOL, type=random
-#: War_of_Legends/factions/Windsong-EL.cfg:5
-#: War_of_Legends/factions/Windsong-RPG.cfg:5
-#: War_of_Legends/factions/Windsong-WOL.cfg:5
+#: War_of_Legends/factions/EL/Windsong-EL.cfg:5
+#: War_of_Legends/factions/RPG/Windsong-RPG.cfg:5
+#: War_of_Legends/factions/WOL/Windsong-WOL.cfg:5
 msgid "Windsong"
 msgstr ""
 
@@ -320,45 +344,181 @@ msgstr ""
 msgid "cursed: This unit is cursed. This unit gets a 15% defence penalty on every terrain."
 msgstr ""
 
-#. [regenerate]: id=regenerates
-#: War_of_Legends/macros/abilities-elemental.cfg:16
-msgid "resurgence"
+#. [lua]: wesnoth.interface.game_display.unit_status
+#: War_of_Legends/lua/theme.lua:39
+msgid "fire affliction: This unit has been affected by fire. Attack with another element of a different type to trigger some reaction."
 msgstr ""
 
-#. [regenerate]: id=regenerates
-#: War_of_Legends/macros/abilities-elemental.cfg:18
+#. [lua]: wesnoth.interface.game_display.unit_status
+#: War_of_Legends/lua/theme.lua:45
+msgid "cold affliction: This unit has been affected by cold. Attack with another element of a different type to trigger some reaction."
+msgstr ""
+
+#. [lua]: wesnoth.interface.game_display.unit_status
+#: War_of_Legends/lua/theme.lua:51
+msgid "electric affliction: This unit has been affected by electric. Attack with another element of a different type to trigger some reaction."
+msgstr ""
+
+#. [teleport]
+#: War_of_Legends/macros/abilities-deep-elves.cfg:5
+msgid "descend into darkness"
+msgstr ""
+
+#. [teleport]
+#: War_of_Legends/macros/abilities-deep-elves.cfg:6
+msgid "Teleports to nearby allied Priestresses, Matriarchs, Patronesses or Seers."
+msgstr ""
+
+#. [teleport]
+#: War_of_Legends/macros/abilities-deep-elves.cfg:7
+msgid " This unit is able to teleport to nearby allied Priestresses, Matriarchs, Patronesses, Harbingers or Seers."
+msgstr ""
+
+#. [hunter]: id=hunter_pre
+#: War_of_Legends/macros/abilities-deep-elves.cfg:32
+msgid "Once this unit kills another unit, it gains the 'hunter' weapon special, granting additional damage against the unit type of the killed unit."
+msgstr ""
+
+#. [hunter]: id=hunter_pre
+#: War_of_Legends/macros/abilities-deep-elves.cfg:33
+msgid " This unit is a hunter. Whenever it kills another unit, it deals more damage against units of the type of the defeated unit."
+msgstr ""
+
+#. [damage]: id=hunter
+#. [damage]: id=hunter_adv
+#. [damage]: id=hunter_max
+#: War_of_Legends/macros/abilities-deep-elves.cfg:40
+#: War_of_Legends/macros/abilities-deep-elves.cfg:65
+#: War_of_Legends/macros/abilities-deep-elves.cfg:90
+msgid "hunting "
+msgstr ""
+
+#. [damage]: id=hunter
+#. [damage]: id=hunter_adv
+#. [damage]: id=hunter_max
+#: War_of_Legends/macros/abilities-deep-elves.cfg:41
+#: War_of_Legends/macros/abilities-deep-elves.cfg:66
+#: War_of_Legends/macros/abilities-deep-elves.cfg:91
+msgid "This unit deals more damage on offense against "
+msgstr ""
+
+#. [wos]: id=will of shassagoth
+#: War_of_Legends/macros/abilities-deep-elves.cfg:115
+msgid "will of shassagoth"
+msgstr ""
+
+#. [wos]: id=will of shassagoth
+#: War_of_Legends/macros/abilities-deep-elves.cfg:116
+msgid "The attack gains +1 damage per killed unit."
+msgstr ""
+
+#. [wos]: id=will of shassagoth
+#: War_of_Legends/macros/abilities-deep-elves.cfg:117
+msgid " This unit is able to become stronger by killing enemy units."
+msgstr ""
+
+#. [attacks]: id=MINOTAUR_knockback
+#: War_of_Legends/macros/abilities-deep-elves.cfg:124
+msgid "knockback"
+msgstr ""
+
+#. [attacks]: id=MINOTAUR_knockback
+#: War_of_Legends/macros/abilities-deep-elves.cfg:125
+msgid "When a unit is hit with a knockback attack, it is immediately pushed back one hex away from the attacker. Units cannot be knocked back into an occupied hex, out of villages or onto terrain they normally could not move to. Only works on offense."
+msgstr ""
+
+#. [attacks]: id=MINOTAUR_knockback
+#: War_of_Legends/macros/abilities-deep-elves.cfg:126
+msgid " This unit is able to knockback enemy units."
+msgstr ""
+
+#. [line_damage]: id=line_damage
+#: War_of_Legends/macros/abilities-deep-elves.cfg:142
+msgid "This unit deals half damage to the unit that is standing behind the attacked unit."
+msgstr ""
+
+#. [line_damage]: id=line_damage
+#: War_of_Legends/macros/abilities-deep-elves.cfg:143
+msgid " This unit deals half damage to the unit that is standing behind the attacked unit."
+msgstr ""
+
+#. [idol_of_stone]: id=idol_of_stone
+#: War_of_Legends/macros/abilities-deep-elves.cfg:150
+msgid "lithic idol"
+msgstr ""
+
+#. [idol_of_stone]: id=idol_of_stone
+#: War_of_Legends/macros/abilities-deep-elves.cfg:151
+msgid "This unit turns to stone at day. It then regenerates +10 hitpoints per turn."
+msgstr ""
+
+#. [idol_of_stone]: id=idol_of_stone
+#: War_of_Legends/macros/abilities-deep-elves.cfg:152
+msgid " This unit turns to stone at day. It then regenerates +10 hitpoints per turn."
+msgstr ""
+
+#. [stardust]: id=stardust
+#: War_of_Legends/macros/abilities-deep-elves.cfg:159
+msgid "stardust"
+msgstr ""
+
+#. [stardust]: id=stardust
+#: War_of_Legends/macros/abilities-deep-elves.cfg:160
+msgid "This ability reduces the chance to be hit."
+msgstr ""
+
+#. [stardust]: id=stardust
+#: War_of_Legends/macros/abilities-deep-elves.cfg:161
+msgid " This unit has a reduced chance to be hit."
+msgstr ""
+
+#. [spurt]: id=spurt
+#: War_of_Legends/macros/abilities-deep-elves.cfg:199
+msgid "This unit regains movement points after an attack. Only works at night."
+msgstr ""
+
+#. [spurt]: id=spurt
+#: War_of_Legends/macros/abilities-deep-elves.cfg:200
+msgid " This unit is able to move again after a nightly attack."
+msgstr ""
+
+#. [attacks]: id=trample
+#. [attack]: type=impact
+#: War_of_Legends/macros/abilities-deep-elves.cfg:207
+#: War_of_Legends/units/elves-deep/Black_Tyrhai.cfg:38
+#: War_of_Legends/units/elves-deep/Shadow_Tyrhai.cfg:53
+#: War_of_Legends/units/elves-deep/Shadow_Tyrhai.cfg:43
+#: War_of_Legends/units/elves-deep/Tyrhai_Cavalry.cfg:49
+#: War_of_Legends/units/elves-deep/Tyrhai_Rider.cfg:34
+#: War_of_Legends/units/minotaurs/Boar_Cataphract.cfg:54
+#: War_of_Legends/units/minotaurs/Boar_Knight.cfg:53
+#: War_of_Legends/units/minotaurs/Boar_Rider.cfg:36
+#: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:46
+#: War_of_Legends/units/undead/Skeleton_Rider.cfg:44
+msgid "trample"
+msgstr ""
+
+#. [attacks]: id=trample
+#: War_of_Legends/macros/abilities-deep-elves.cfg:208
+msgid "This unit ignores the retaliation of the enemy and overruns it."
+msgstr ""
+
+#. [attacks]: id=trample
+#: War_of_Legends/macros/abilities-deep-elves.cfg:212
+msgid " This unit is able to overrun an enemy. Whenever it attacks, it moves across the field of the defending unit."
+msgstr ""
+
+#. [hides]: id=caveambush
+#: War_of_Legends/macros/abilities-elemental.cfg:6
+msgid "cave ambush"
+msgstr ""
+
+#. [hides]: id=caveambush
+#: War_of_Legends/macros/abilities-elemental.cfg:7
+#: War_of_Legends/macros/abilities-elemental.cfg:9
 msgid ""
-"This unit will absorb energy whenever it is on terrain that matches its elemental affinity, thus healing itself by 5 HP per turn.\n"
-"For fire elementals, this is desert and lava terrain.\n"
-"For water elementals, this is swamp and water terrain.\n"
-"For ice elementals, this is snowy and frozen terrain.\n"
-"For earth elementals, these are mountains and hills.\n"
-"For vine units, this is vegetated area."
-msgstr ""
-
-#. [special_note]
-#: War_of_Legends/macros/abilities-elemental.cfg:77
-msgid "Whenever this unit is in a forested area, it will regenerate 5 HP per turn."
-msgstr ""
-
-#. [special_note]
-#: War_of_Legends/macros/abilities-elemental.cfg:84
-msgid "Whenever this unit is in a mountainous area, it will regenerate 5 HP per turn."
-msgstr ""
-
-#. [special_note]
-#: War_of_Legends/macros/abilities-elemental.cfg:91
-msgid "Whenever this unit is in desert-like area, it will regenerate 5 HP per turn."
-msgstr ""
-
-#. [special_note]
-#: War_of_Legends/macros/abilities-elemental.cfg:98
-msgid "Whenever this unit is in an aquatic area, it will regenerate 5 HP per turn."
-msgstr ""
-
-#. [special_note]
-#: War_of_Legends/macros/abilities-elemental.cfg:105
-msgid "This unit will recover 5 HP per turn while on snowy or icy terrain."
+"This unit can hide in cave, and remain undetected by its enemies.\n"
+"Enemy units cannot see this unit while it is in cave, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
 msgstr ""
 
 #. [leadership]: id=inspire
@@ -1024,6 +1184,50 @@ msgstr ""
 msgid "This unit can curse its enemies, reducing defense until they rest at a village."
 msgstr ""
 
+#. [trait]: id=autotarget
+#: War_of_Legends/macros/steelhive-utils.cfg:106
+msgid "autotarget"
+msgstr ""
+
+#. [trait]: id=autotarget
+#: War_of_Legends/macros/steelhive-utils.cfg:107
+msgid "For some reason, some Steelhive have a better-than-average targeting system. Chance to hit is never below 50%"
+msgstr ""
+
+#. [trait]: id=antigravity_generator
+#: War_of_Legends/macros/steelhive-utils.cfg:132
+msgid "antigravity"
+msgstr ""
+
+#. [trait]: id=antigravity_generator
+#: War_of_Legends/macros/steelhive-utils.cfg:133
+msgid "Some Steelhive are equipped with a weak antigravity generator, speeding their movement."
+msgstr ""
+
+#. [trait]: id=reinforced_hull
+#: War_of_Legends/macros/steelhive-utils.cfg:155
+msgid "reinforced"
+msgstr ""
+
+#. [trait]: id=reinforced_hull
+#: War_of_Legends/macros/steelhive-utils.cfg:156
+msgid "Some Steelhive reinforce their hull for better durability."
+msgstr ""
+
+#. [trait]: id=energy_channels
+#: War_of_Legends/macros/steelhive-utils.cfg:178
+msgid "optimized"
+msgstr ""
+
+#. [trait]: id=energy_channels
+#: War_of_Legends/macros/steelhive-utils.cfg:179
+msgid "A few Steelhive optimize their energy channels, allowing them to deal more damage."
+msgstr ""
+
+#: War_of_Legends/macros/steelhive-utils.cfg:198
+msgid "SA-11,SA-12,SA-13,SA-14,SA-15,SB-1,SB-2,SB-3,SB-4,SB-5,SC-43,SC-44,SC-45,SC-46,SC-47,SC-48,SD-37,SD-38,SD-39,SD-40,SD-41,SD-42,PL-79,PL-80,PL-81,PL-82"
+msgstr ""
+
 #. [dummy]: id=teaching
 #: War_of_Legends/macros/teaching_ability_code.cfg:6
 msgid "teaching"
@@ -1292,8 +1496,12 @@ msgid "When used offensively, this attack always has at least a 70% chance to hi
 msgstr ""
 
 #. [attacks]: id=shock
+#. [attack]: type=electric
 #: War_of_Legends/macros/weapon-specials.cfg:97
 #: War_of_Legends/macros/weapon-specials.cfg:98
+#: War_of_Legends/units/steelhive/steel_astigmatic.cfg:42
+#: War_of_Legends/units/steelhive/steel_cataract.cfg:32
+#: War_of_Legends/units/steelhive/steel_oculus.cfg:32
 msgid "shock"
 msgstr ""
 
@@ -1599,6 +1807,9 @@ msgstr ""
 #: War_of_Legends/units/aberrations/Reckless_One.cfg:32
 #: War_of_Legends/units/aberrations/Unhatched.cfg:37
 #: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:38
+#: War_of_Legends/units/steelhive/steel_dreadnought.cfg:77
+#: War_of_Legends/units/steelhive/steel_serpent.cfg:27
+#: War_of_Legends/units/steelhive/steel_wyrm.cfg:26
 msgid "ram"
 msgstr ""
 
@@ -1618,8 +1829,8 @@ msgstr ""
 #: War_of_Legends/units/aberrations/Black_Cat.cfg:35
 #: War_of_Legends/units/aberrations/Calamity.cfg:40
 #: War_of_Legends/units/dwarves/Gryphon_Thunderlord.cfg:29
-#: War_of_Legends/units/elementals/Vine_Beast.cfg:38
-#: War_of_Legends/units/elementals/Vine_Tiger.cfg:41
+#: War_of_Legends/units/elementals/stable/Vine_Beast.cfg:38
+#: War_of_Legends/units/elementals/stable/Vine_Tiger.cfg:41
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Eagle_Master.cfg:31
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Eagle_Rider.cfg:27
 #: War_of_Legends/units/monsters/Elder_Gryphon.cfg:30
@@ -1929,7 +2140,10 @@ msgstr ""
 #. [attack]: type=fire
 #: War_of_Legends/units/drakes/Adventurer.cfg:46
 #: War_of_Legends/units/drakes/Ranger.cfg:53
-#: War_of_Legends/units/elementals/Fire_Wisp.cfg:38
+#: War_of_Legends/units/elementals/Fire_Daemon_1.cfg:91
+#: War_of_Legends/units/elementals/Fire_Daemon_2.cfg:107
+#: War_of_Legends/units/elementals/Fire_Daemon_3.cfg:117
+#: War_of_Legends/units/elementals/stable/Fire_Wisp.cfg:38
 #: War_of_Legends/units/monsters/Dragon_Lord.cfg:58
 msgid "fire breath"
 msgstr ""
@@ -1976,6 +2190,7 @@ msgstr ""
 
 #. [attack]: type=electric
 #: War_of_Legends/units/dwarves/Gryphon_Thunderlord.cfg:38
+#: War_of_Legends/units/elementals/Air_Daemon_3.cfg:109
 #: War_of_Legends/units/human-mages/Mage_Prophetess_of_Light.cfg:59
 #: War_of_Legends/units/human-mages/Mage_Storm.cfg:45
 #: War_of_Legends/units/human-mages/Mage_Tempest.cfg:39
@@ -2010,113 +2225,81 @@ msgstr ""
 msgid "The word 'elemental' is a term used to describe a magical creature that is purely composed of elemental energy. Apparently, the creation of an elemental involves the presence of powerful, arcane magic. Therefore, they are often found in an area influenced by an extremely powerful force. Albeit a somewhat rare situation, they are also found under the control of very powerful mages, those who are adept with the manipulation of aura and elemental energy. Although their behavior and characteristics differ due to the different elements of which they are composed, they generally have no personality (except for some of the more powerful elementals or those that were created in a manner that would grant them personality), and are protective of the force that created them. In addition, an elemental obviously has the powers, abilities, etc. associated with the element of which it is composed."
 msgstr ""
 
-#. [unit_type]: id=Brazier Imp, race=elemental
-#: War_of_Legends/units/elementals/Brazier_Imp.cfg:5
-msgid "Brazier Imp"
+#. [unit_type]: id=Lesser Air Daemon, race=elemental
+#: War_of_Legends/units/elementals/Air_Daemon_1.cfg:4
+msgid "Lesser Air Daemon"
 msgstr ""
 
-#. [unit_type]: id=Brazier Imp, race=elemental
-#: War_of_Legends/units/elementals/Brazier_Imp.cfg:20
-msgid "Brazier Imps are fearsome golems made out of hardened lava. Due to being made out of hardened lava their bodies are extremely tough and the only thing that can be effective in damaging them would be weapons or spells imbued with a cold affinity. Despite being defensive they also have a decent attack with their fiery claws."
+#. [attack]: type=blade
+#: War_of_Legends/units/elementals/Air_Daemon_1.cfg:99
+msgid "wind razor"
 msgstr ""
 
-#. [attack]: type=fire
-#: War_of_Legends/units/elementals/Brazier_Imp.cfg:29
-#: War_of_Legends/units/elementals/Brazier_Whelpling.cfg:31
-#: War_of_Legends/units/elementals/Furnace_Beast.cfg:29
-#: War_of_Legends/units/elementals/Lava_Behemoth.cfg:32
-#: War_of_Legends/units/elementals/Lava_Giant.cfg:30
-msgid "fire claws"
+#. [attack]: type=electric
+#: War_of_Legends/units/elementals/Air_Daemon_1.cfg:108
+msgid "electric discharge"
 msgstr ""
 
-#. [unit_type]: id=Brazier Whelpling, race=elemental
-#: War_of_Legends/units/elementals/Brazier_Whelpling.cfg:6
-msgid "Brazier Whelpling"
+#. [attack]: type=impact
+#: War_of_Legends/units/elementals/Air_Daemon_1.cfg:120
+msgid "small cyclone"
 msgstr ""
 
-#. [unit_type]: id=Brazier Whelpling, race=elemental
-#: War_of_Legends/units/elementals/Brazier_Whelpling.cfg:22
-msgid "Brazier Whelplings are Brazier Imps which have not completely hardened yet, thus they are weaker than their older siblings. Not an imposing threat, but once they harden they are much more of a threat."
+#. [unit_type]: id=Air Daemon, race=elemental
+#: War_of_Legends/units/elementals/Air_Daemon_2.cfg:4
+msgid "Air Daemon"
 msgstr ""
 
-#. [unit_type]: id=Fire Wisp, race=elemental
-#: War_of_Legends/units/elementals/Fire_Wisp.cfg:5
-msgid "Fire Wisp"
+#. [attack]: type=blade
+#: War_of_Legends/units/elementals/Air_Daemon_2.cfg:43
+msgid "wind blade"
 msgstr ""
 
-#. [unit_type]: id=Fire Wisp, race=elemental
-#: War_of_Legends/units/elementals/Fire_Wisp.cfg:20
-msgid "Fire Wisps are spirits of smoke and flame. Summoned by powerful mages. When not being ordered around they like to frolic in pools of lava and take great delight in burning anything they can reach."
+#. [attack]: type=electric
+#: War_of_Legends/units/elementals/Air_Daemon_2.cfg:52
+msgid "electric spark"
 msgstr ""
 
-#. [attack]: type=fire
-#: War_of_Legends/units/elementals/Fire_Wisp.cfg:29
-msgid "fire bash"
+#. [attack]: type=impact
+#: War_of_Legends/units/elementals/Air_Daemon_2.cfg:64
+msgid "cyclone"
 msgstr ""
 
-#. [unit_type]: id=Furnace Beast, race=elemental
-#: War_of_Legends/units/elementals/Furnace_Beast.cfg:5
-msgid "Furnace Beast"
+#. [unit_type]: id=Greater Air Daemon, race=elemental
+#: War_of_Legends/units/elementals/Air_Daemon_3.cfg:4
+msgid "Greater Air Daemon"
 msgstr ""
 
-#. [unit_type]: id=Furnace Beast, race=elemental
-#: War_of_Legends/units/elementals/Furnace_Beast.cfg:20
-msgid "In the course of time, Brazier Imps grow into a larger and stronger form. Their strength has also increased."
+#. [attack]: type=blade
+#: War_of_Legends/units/elementals/Air_Daemon_3.cfg:100
+msgid "slashing gale"
 msgstr ""
 
-#. [unit_type]: id=Ice Crab, race=elemental
-#: War_of_Legends/units/elementals/Ice_Crab.cfg:5
-msgid "Ice Crab"
+#. [attack]: type=impact
+#: War_of_Legends/units/elementals/Air_Daemon_3.cfg:121
+#: War_of_Legends/units/elementals/stable/Mistral.cfg:47
+#: War_of_Legends/units/elementals/stable/Zephyr.cfg:45
+msgid "tornado"
 msgstr ""
 
-#. [unit_type]: id=Ice Crab, race=elemental
-#: War_of_Legends/units/elementals/Ice_Crab.cfg:19
-msgid "Creatures made of solid ice. Their foreclaws end in spiky spear-like icicles. It can generate an aura of coldness which covers anything near it with a layer of slowing ice."
+#. [unit_type]: id=Lesser Earth Daemon, race=elemental
+#: War_of_Legends/units/elementals/Earth_Daemon_1.cfg:5
+msgid "Lesser Earth Daemon"
 msgstr ""
 
-#. [attack]: type=pierce
-#. [variation]
-#: War_of_Legends/units/elementals/Ice_Crab.cfg:43
-#: War_of_Legends/units/elementals/Ice_Shell.cfg:47
-#: War_of_Legends/units/nightmares-elementals/Nature_Wrath.cfg:431
-#: War_of_Legends/units/nightmares-elementals/Unstable_Elemental.cfg:430
-msgid "icicle"
-msgstr ""
-
-#. [attack]: type=cold
-#. [variation]
-#: War_of_Legends/units/elementals/Ice_Crab.cfg:51
-#: War_of_Legends/units/elementals/Ice_Shell.cfg:55
-#: War_of_Legends/units/nightmares-elementals/Nature_Wrath.cfg:436
-#: War_of_Legends/units/nightmares-elementals/Unstable_Elemental.cfg:435
-msgid "gelid aura"
-msgstr ""
-
-#. [unit_type]: id=Ice Shell, race=elemental
-#: War_of_Legends/units/elementals/Ice_Shell.cfg:5
-msgid "Ice Shell"
-msgstr ""
-
-#. [unit_type]: id=Ice Shell, race=elemental
-#: War_of_Legends/units/elementals/Ice_Shell.cfg:38
-msgid "Once ice crabs gather enough elemental power from the cold, they evolve into a more stronger and taller sort of creature. Having icicle spikes for hands, they prefer to thrive in the coldest regions of the world and can only be summoned and controller by a mage who has mastered the power of the elements."
-msgstr ""
-
-#. [unit_type]: id=Kobold, race=elemental
-#: War_of_Legends/units/elementals/Kobold.cfg:5
-msgid "Kobold"
-msgstr ""
-
-#. [unit_type]: id=Kobold, race=elemental
-#: War_of_Legends/units/elementals/Kobold.cfg:19
-msgid "Animated Rocks are creatures made out of solid, living rock. They have a weak attack, but are incredibly hard to destroy."
+#. [unit_type]: id=Lesser Earth Daemon, race=elemental
+#: War_of_Legends/units/elementals/Earth_Daemon_1.cfg:27
+msgid "Rocks appear to have assembled themselves into some sort of animal... The are somewhat like a troll whelp, though more mishapen and they can belch scratching dust. These things are nothing like the mudcrawlers, there is something much more sinister at work."
 msgstr ""
 
 #. [attack]: type=impact
 #. [variation]
-#: War_of_Legends/units/elementals/Kobold.cfg:40
-#: War_of_Legends/units/elementals/Stone_Golem.cfg:40
-#: War_of_Legends/units/elementals/Stone_Titan.cfg:41
+#: War_of_Legends/units/elementals/Earth_Daemon_1.cfg:35
+#: War_of_Legends/units/elementals/Earth_Daemon_2.cfg:35
+#: War_of_Legends/units/elementals/Earth_Daemon_3.cfg:36
+#: War_of_Legends/units/elementals/stable/Kobold.cfg:40
+#: War_of_Legends/units/elementals/stable/Stone_Golem.cfg:40
+#: War_of_Legends/units/elementals/stable/Stone_Titan.cfg:41
 #: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:28
 #: War_of_Legends/units/nightmares-elementals/Nature_Wrath.cfg:455
 #: War_of_Legends/units/nightmares-elementals/Unstable_Elemental.cfg:454
@@ -2124,146 +2307,335 @@ msgstr ""
 msgid "fist"
 msgstr ""
 
-#. [unit_type]: id=Lava Behemoth, race=elemental
-#: War_of_Legends/units/elementals/Lava_Behemoth.cfg:6
-msgid "Lava Behemoth"
+#. [attack]: type=impact
+#: War_of_Legends/units/elementals/Earth_Daemon_1.cfg:44
+msgid "dust"
 msgstr ""
 
-#. [unit_type]: id=Lava Behemoth, race=elemental
-#: War_of_Legends/units/elementals/Lava_Behemoth.cfg:22
-msgid "Enormous in size and twice as aggressive as fifty raging bulls combined, these enormous beasts are believed to be the hearts of volcanoes themselves that had escaped their mountainous homes. These beasts should be avoided due to said aggressiveness, their immense physical strength and their ability to spew lava at their victims."
+#. [unit_type]: id=Earth Daemon, race=elemental
+#: War_of_Legends/units/elementals/Earth_Daemon_2.cfg:5
+msgid "Earth Daemon"
+msgstr ""
+
+#. [unit_type]: id=Earth Daemon, race=elemental
+#. [unit_type]: id=Greater Earth Daemon, race=elemental
+#: War_of_Legends/units/elementals/Earth_Daemon_2.cfg:27
+#: War_of_Legends/units/elementals/Earth_Daemon_3.cfg:28
+msgid "Rocks appear to have assembled themselves into some sort of animal... These beasts are better formed and agile than their younger kin."
+msgstr ""
+
+#. [attack]: type=impact
+#: War_of_Legends/units/elementals/Earth_Daemon_2.cfg:44
+#: War_of_Legends/units/elementals/Earth_Daemon_3.cfg:45
+msgid "stone"
+msgstr ""
+
+#. [unit_type]: id=Greater Earth Daemon, race=elemental
+#: War_of_Legends/units/elementals/Earth_Daemon_3.cfg:5
+msgid "Greater Earth Daemon"
+msgstr ""
+
+#. [unit_type]: id=Lesser Fire Daemon, race=elemental
+#: War_of_Legends/units/elementals/Fire_Daemon_1.cfg:4
+msgid "Lesser Fire Daemon"
 msgstr ""
 
 #. [attack]: type=fire
-#: War_of_Legends/units/elementals/Lava_Behemoth.cfg:41
-msgid "erupt"
+#: War_of_Legends/units/elementals/Fire_Daemon_1.cfg:82
+#: War_of_Legends/units/elementals/Fire_Daemon_2.cfg:98
+msgid "burning touch"
 msgstr ""
 
-#. [unit_type]: id=Lava Giant, race=elemental
-#: War_of_Legends/units/elementals/Lava_Giant.cfg:5
-msgid "Lava Giant"
+#. [unit_type]: id=Fire Daemon, race=elemental
+#: War_of_Legends/units/elementals/Fire_Daemon_2.cfg:4
+msgid "Fire Daemon"
 msgstr ""
 
-#. [unit_type]: id=Lava Giant, race=elemental
-#: War_of_Legends/units/elementals/Lava_Giant.cfg:20
-msgid "After having gained enough power, Furnace Beasts grow into a more violent and enormous form. In this form, their temperature is about a million degrees high."
+#. [unit_type]: id=Greater Fire Daemon, race=elemental
+#: War_of_Legends/units/elementals/Fire_Daemon_3.cfg:4
+msgid "Greater Fire Daemon"
 msgstr ""
 
-#. [unit_type]: id=Mistral, race=elemental
-#: War_of_Legends/units/elementals/Mistral.cfg:5
-msgid "Mistral"
+#. [attack]: type=fire
+#: War_of_Legends/units/elementals/Fire_Daemon_3.cfg:108
+msgid "eruption"
 msgstr ""
 
-#. [unit_type]: id=Mistral, race=elemental
-#: War_of_Legends/units/elementals/Mistral.cfg:22
-msgid "Djinns are truly mighty windspirits who can decimate armies with their powerful winds, and strike down men with their glistening scimitar."
-msgstr ""
-
-#. [attack]: type=blade
-#: War_of_Legends/units/elementals/Mistral.cfg:27
-#: War_of_Legends/units/elementals/Zephyr.cfg:25
-msgid "scimitar"
+#. [unit_type]: id=Lesser Water Daemon, race=elemental
+#: War_of_Legends/units/elementals/Water_Daemon_1.cfg:4
+msgid "Lesser Water Daemon"
 msgstr ""
 
 #. [attack]: type=cold
-#: War_of_Legends/units/elementals/Mistral.cfg:35
-#: War_of_Legends/units/elementals/Sylph.cfg:34
-#: War_of_Legends/units/elementals/Zephyr.cfg:33
-msgid "northern wind"
+#: War_of_Legends/units/elementals/Water_Daemon_1.cfg:140
+#: War_of_Legends/units/elementals/Water_Daemon_2.cfg:123
+#: War_of_Legends/units/elementals/Water_Daemon_3.cfg:154
+msgid "deep sea water"
 msgstr ""
 
-#. [attack]: type=impact
-#: War_of_Legends/units/elementals/Mistral.cfg:47
-#: War_of_Legends/units/elementals/Zephyr.cfg:45
-msgid "tornado"
-msgstr ""
-
-#. [unit_type]: id=Nymph, race=elemental
-#: War_of_Legends/units/elementals/Nymph.cfg:5
-msgid "Nymph"
-msgstr ""
-
-#. [unit_type]: id=Nymph, race=elemental
-#: War_of_Legends/units/elementals/Nymph.cfg:21
-msgid "Nymphs are manifestations of water that is influenced by the likes of a deadly storm, due to this these spirits weld very dangerous power and are often subject to being angered easily. Due to this it is best to avoid these spirits, unless you are certain you either have a way of reasoning with them or can counter their awesome power."
-msgstr ""
-
-#. [attack]: type=cold
-#: War_of_Legends/units/elementals/Nymph.cfg:30
-#: War_of_Legends/units/elementals/Tidal.cfg:28
-#: War_of_Legends/units/elementals/Undine.cfg:29
-msgid "water punch"
-msgstr ""
-
+#. [attack]: type=pierce
 #. [attack]: type=impact
 #. [variation]
-#: War_of_Legends/units/elementals/Nymph.cfg:39
-#: War_of_Legends/units/elementals/Tidal.cfg:38
-#: War_of_Legends/units/elementals/Undine.cfg:38
+#: War_of_Legends/units/elementals/Water_Daemon_1.cfg:149
+#: War_of_Legends/units/elementals/stable/Nymph.cfg:39
+#: War_of_Legends/units/elementals/stable/Tidal.cfg:38
+#: War_of_Legends/units/elementals/stable/Undine.cfg:38
 #: War_of_Legends/units/nightmares-elementals/Nature_Wrath.cfg:482
 #: War_of_Legends/units/nightmares-elementals/Unstable_Elemental.cfg:481
 msgid "water spray"
 msgstr ""
 
+#. [unit_type]: id=Water Daemon, race=elemental
+#: War_of_Legends/units/elementals/Water_Daemon_2.cfg:4
+msgid "Water Daemon"
+msgstr ""
+
+#. [attack]: type=pierce
+#: War_of_Legends/units/elementals/Water_Daemon_2.cfg:132
+msgid "rain"
+msgstr ""
+
+#. [unit_type]: id=Greater Water Daemon, race=elemental
+#: War_of_Legends/units/elementals/Water_Daemon_3.cfg:4
+msgid "Greater Water Daemon"
+msgstr ""
+
+#. [attack]: type=cold
+#: War_of_Legends/units/elementals/Water_Daemon_3.cfg:163
+msgid "deep sea embrace"
+msgstr ""
+
+#. [attack]: type=pierce
+#: War_of_Legends/units/elementals/Water_Daemon_3.cfg:175
+msgid "rain storm"
+msgstr ""
+
+#. [unit_type]: id=Brazier Imp, race=elemental
+#: War_of_Legends/units/elementals/stable/Brazier_Imp.cfg:5
+msgid "Brazier Imp"
+msgstr ""
+
+#. [unit_type]: id=Brazier Imp, race=elemental
+#: War_of_Legends/units/elementals/stable/Brazier_Imp.cfg:20
+msgid "Brazier Imps are fearsome golems made out of hardened lava. Due to being made out of hardened lava their bodies are extremely tough and the only thing that can be effective in damaging them would be weapons or spells imbued with a cold affinity. Despite being defensive they also have a decent attack with their fiery claws."
+msgstr ""
+
+#. [attack]: type=fire
+#: War_of_Legends/units/elementals/stable/Brazier_Imp.cfg:29
+#: War_of_Legends/units/elementals/stable/Brazier_Whelpling.cfg:31
+#: War_of_Legends/units/elementals/stable/Furnace_Beast.cfg:29
+#: War_of_Legends/units/elementals/stable/Lava_Behemoth.cfg:32
+#: War_of_Legends/units/elementals/stable/Lava_Giant.cfg:30
+msgid "fire claws"
+msgstr ""
+
+#. [unit_type]: id=Brazier Whelpling, race=elemental
+#: War_of_Legends/units/elementals/stable/Brazier_Whelpling.cfg:6
+msgid "Brazier Whelpling"
+msgstr ""
+
+#. [unit_type]: id=Brazier Whelpling, race=elemental
+#: War_of_Legends/units/elementals/stable/Brazier_Whelpling.cfg:22
+msgid "Brazier Whelplings are Brazier Imps which have not completely hardened yet, thus they are weaker than their older siblings. Not an imposing threat, but once they harden they are much more of a threat."
+msgstr ""
+
+#. [unit_type]: id=Fire Wisp, race=elemental
+#: War_of_Legends/units/elementals/stable/Fire_Wisp.cfg:5
+msgid "Fire Wisp"
+msgstr ""
+
+#. [unit_type]: id=Fire Wisp, race=elemental
+#: War_of_Legends/units/elementals/stable/Fire_Wisp.cfg:20
+msgid "Fire Wisps are spirits of smoke and flame. Summoned by powerful mages. When not being ordered around they like to frolic in pools of lava and take great delight in burning anything they can reach."
+msgstr ""
+
+#. [attack]: type=fire
+#: War_of_Legends/units/elementals/stable/Fire_Wisp.cfg:29
+msgid "fire bash"
+msgstr ""
+
+#. [unit_type]: id=Furnace Beast, race=elemental
+#: War_of_Legends/units/elementals/stable/Furnace_Beast.cfg:5
+msgid "Furnace Beast"
+msgstr ""
+
+#. [unit_type]: id=Furnace Beast, race=elemental
+#: War_of_Legends/units/elementals/stable/Furnace_Beast.cfg:20
+msgid "In the course of time, Brazier Imps grow into a larger and stronger form. Their strength has also increased."
+msgstr ""
+
+#. [unit_type]: id=Ice Crab, race=elemental
+#: War_of_Legends/units/elementals/stable/Ice_Crab.cfg:5
+msgid "Ice Crab"
+msgstr ""
+
+#. [unit_type]: id=Ice Crab, race=elemental
+#: War_of_Legends/units/elementals/stable/Ice_Crab.cfg:19
+msgid "Creatures made of solid ice. Their foreclaws end in spiky spear-like icicles. It can generate an aura of coldness which covers anything near it with a layer of slowing ice."
+msgstr ""
+
+#. [attack]: type=pierce
+#. [variation]
+#: War_of_Legends/units/elementals/stable/Ice_Crab.cfg:43
+#: War_of_Legends/units/elementals/stable/Ice_Shell.cfg:47
+#: War_of_Legends/units/nightmares-elementals/Nature_Wrath.cfg:431
+#: War_of_Legends/units/nightmares-elementals/Unstable_Elemental.cfg:430
+msgid "icicle"
+msgstr ""
+
+#. [attack]: type=cold
+#. [variation]
+#: War_of_Legends/units/elementals/stable/Ice_Crab.cfg:51
+#: War_of_Legends/units/elementals/stable/Ice_Shell.cfg:55
+#: War_of_Legends/units/nightmares-elementals/Nature_Wrath.cfg:436
+#: War_of_Legends/units/nightmares-elementals/Unstable_Elemental.cfg:435
+msgid "gelid aura"
+msgstr ""
+
+#. [unit_type]: id=Ice Shell, race=elemental
+#: War_of_Legends/units/elementals/stable/Ice_Shell.cfg:5
+msgid "Ice Shell"
+msgstr ""
+
+#. [unit_type]: id=Ice Shell, race=elemental
+#: War_of_Legends/units/elementals/stable/Ice_Shell.cfg:38
+msgid "Once ice crabs gather enough elemental power from the cold, they evolve into a more stronger and taller sort of creature. Having icicle spikes for hands, they prefer to thrive in the coldest regions of the world and can only be summoned and controller by a mage who has mastered the power of the elements."
+msgstr ""
+
+#. [unit_type]: id=Kobold, race=elemental
+#: War_of_Legends/units/elementals/stable/Kobold.cfg:5
+msgid "Kobold"
+msgstr ""
+
+#. [unit_type]: id=Kobold, race=elemental
+#: War_of_Legends/units/elementals/stable/Kobold.cfg:19
+msgid "Animated Rocks are creatures made out of solid, living rock. They have a weak attack, but are incredibly hard to destroy."
+msgstr ""
+
+#. [unit_type]: id=Lava Behemoth, race=elemental
+#: War_of_Legends/units/elementals/stable/Lava_Behemoth.cfg:6
+msgid "Lava Behemoth"
+msgstr ""
+
+#. [unit_type]: id=Lava Behemoth, race=elemental
+#: War_of_Legends/units/elementals/stable/Lava_Behemoth.cfg:22
+msgid "Enormous in size and twice as aggressive as fifty raging bulls combined, these enormous beasts are believed to be the hearts of volcanoes themselves that had escaped their mountainous homes. These beasts should be avoided due to said aggressiveness, their immense physical strength and their ability to spew lava at their victims."
+msgstr ""
+
+#. [attack]: type=fire
+#: War_of_Legends/units/elementals/stable/Lava_Behemoth.cfg:41
+msgid "erupt"
+msgstr ""
+
+#. [unit_type]: id=Lava Giant, race=elemental
+#: War_of_Legends/units/elementals/stable/Lava_Giant.cfg:5
+msgid "Lava Giant"
+msgstr ""
+
+#. [unit_type]: id=Lava Giant, race=elemental
+#: War_of_Legends/units/elementals/stable/Lava_Giant.cfg:20
+msgid "After having gained enough power, Furnace Beasts grow into a more violent and enormous form. In this form, their temperature is about a million degrees high."
+msgstr ""
+
+#. [unit_type]: id=Mistral, race=elemental
+#: War_of_Legends/units/elementals/stable/Mistral.cfg:5
+msgid "Mistral"
+msgstr ""
+
+#. [unit_type]: id=Mistral, race=elemental
+#: War_of_Legends/units/elementals/stable/Mistral.cfg:22
+msgid "Djinns are truly mighty windspirits who can decimate armies with their powerful winds, and strike down men with their glistening scimitar."
+msgstr ""
+
+#. [attack]: type=blade
+#: War_of_Legends/units/elementals/stable/Mistral.cfg:27
+#: War_of_Legends/units/elementals/stable/Zephyr.cfg:25
+msgid "scimitar"
+msgstr ""
+
+#. [attack]: type=cold
+#: War_of_Legends/units/elementals/stable/Mistral.cfg:35
+#: War_of_Legends/units/elementals/stable/Sylph.cfg:34
+#: War_of_Legends/units/elementals/stable/Zephyr.cfg:33
+msgid "northern wind"
+msgstr ""
+
+#. [unit_type]: id=Nymph, race=elemental
+#: War_of_Legends/units/elementals/stable/Nymph.cfg:5
+msgid "Nymph"
+msgstr ""
+
+#. [unit_type]: id=Nymph, race=elemental
+#: War_of_Legends/units/elementals/stable/Nymph.cfg:21
+msgid "Nymphs are manifestations of water that is influenced by the likes of a deadly storm, due to this these spirits weld very dangerous power and are often subject to being angered easily. Due to this it is best to avoid these spirits, unless you are certain you either have a way of reasoning with them or can counter their awesome power."
+msgstr ""
+
+#. [attack]: type=cold
+#: War_of_Legends/units/elementals/stable/Nymph.cfg:30
+#: War_of_Legends/units/elementals/stable/Tidal.cfg:28
+#: War_of_Legends/units/elementals/stable/Undine.cfg:29
+msgid "water punch"
+msgstr ""
+
 #. [unit_type]: id=Razorbird, race=elemental
-#: War_of_Legends/units/elementals/Razorbird.cfg:5
+#: War_of_Legends/units/elementals/stable/Razorbird.cfg:5
 msgid "Razorbird"
 msgstr ""
 
 #. [unit_type]: id=Razorbird, race=elemental
-#: War_of_Legends/units/elementals/Razorbird.cfg:22
+#: War_of_Legends/units/elementals/stable/Razorbird.cfg:22
 msgid "Lightning is not an element, however air elementals can take the form of a bird which can control it. These birds have razor feathers which can slice anything but they need more energy to generate a lightning bolt."
 msgstr ""
 
 #. [attack]: type=pierce
-#: War_of_Legends/units/elementals/Razorbird.cfg:27
-#: War_of_Legends/units/elementals/Thunderbird.cfg:31
+#: War_of_Legends/units/elementals/stable/Razorbird.cfg:27
+#: War_of_Legends/units/elementals/stable/Thunderbird.cfg:31
 msgid "beak"
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/elementals/Razorbird.cfg:35
-#: War_of_Legends/units/elementals/Thunderbird.cfg:42
+#: War_of_Legends/units/elementals/stable/Razorbird.cfg:35
+#: War_of_Legends/units/elementals/stable/Thunderbird.cfg:42
 msgid "blade shower"
 msgstr ""
 
 #. [unit_type]: id=Stone Golem, race=elemental
-#: War_of_Legends/units/elementals/Stone_Golem.cfg:5
+#: War_of_Legends/units/elementals/stable/Stone_Golem.cfg:5
 msgid "Stone Golem"
 msgstr ""
 
 #. [unit_type]: id=Stone Golem, race=elemental
-#: War_of_Legends/units/elementals/Stone_Golem.cfg:30
+#: War_of_Legends/units/elementals/stable/Stone_Golem.cfg:30
 msgid "Earth elementals, once gathering enough elemental essence, can absorb more rocks and grow larger and stronger. Although they are weak, they can take massive amounts of damage before they are destroyed to pebbles."
 msgstr ""
 
 #. [unit_type]: id=Stone Titan, race=elemental
-#: War_of_Legends/units/elementals/Stone_Titan.cfg:5
+#: War_of_Legends/units/elementals/stable/Stone_Titan.cfg:5
 msgid "Stone Titan"
 msgstr ""
 
 #. [unit_type]: id=Stone Titan, race=elemental
-#: War_of_Legends/units/elementals/Stone_Titan.cfg:32
+#: War_of_Legends/units/elementals/stable/Stone_Titan.cfg:32
 msgid "Magi of immense power can animate an immense body of rock and transform it into a monster. Although not fast, the shear mass of the monster can cause quite a bit of damage."
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/elementals/Stone_Titan.cfg:50
+#: War_of_Legends/units/elementals/stable/Stone_Titan.cfg:50
 msgid "stone blade"
 msgstr ""
 
 #. [unit_type]: id=Sylph, race=elemental
-#: War_of_Legends/units/elementals/Sylph.cfg:5
+#: War_of_Legends/units/elementals/stable/Sylph.cfg:5
 msgid "Sylph"
 msgstr ""
 
 #. [unit_type]: id=Sylph, race=elemental
-#: War_of_Legends/units/elementals/Sylph.cfg:19
+#: War_of_Legends/units/elementals/stable/Sylph.cfg:19
 msgid "As winds spirits stay in their physical form, they grow stronger, as does their power over winds. The advanced ability to control or herd winds allows the elemental to attack with more force. In addition they are now strong enough to hold a dagger."
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/elementals/Sylph.cfg:25
+#: War_of_Legends/units/elementals/stable/Sylph.cfg:25
 #: War_of_Legends/units/gnolls/Regular.cfg:28
 #: War_of_Legends/units/vampires/Bloodborn.cfg:32
 #: War_of_Legends/units/vampires/Day_Hunter.cfg:34
@@ -2276,89 +2648,89 @@ msgid "dagger"
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/elementals/Sylph.cfg:46
+#: War_of_Legends/units/elementals/stable/Sylph.cfg:46
 msgid "galeforce"
 msgstr ""
 
 #. [unit_type]: id=Thunderbird, race=elemental
-#: War_of_Legends/units/elementals/Thunderbird.cfg:5
+#: War_of_Legends/units/elementals/stable/Thunderbird.cfg:5
 msgid "Thunderbird"
 msgstr ""
 
 #. [unit_type]: id=Thunderbird, race=elemental
-#: War_of_Legends/units/elementals/Thunderbird.cfg:23
+#: War_of_Legends/units/elementals/stable/Thunderbird.cfg:23
 msgid "Using its metal feathers the Thunderbird is able to create powerfull sparks that can be thrown at long range."
 msgstr ""
 
 #. [attack]: type=electric
-#: War_of_Legends/units/elementals/Thunderbird.cfg:51
+#: War_of_Legends/units/elementals/stable/Thunderbird.cfg:51
 msgid "thunderbolt"
 msgstr ""
 
 #. [unit_type]: id=Tidal, race=elemental
-#: War_of_Legends/units/elementals/Tidal.cfg:5
+#: War_of_Legends/units/elementals/stable/Tidal.cfg:5
 msgid "Tidal"
 msgstr ""
 
 #. [unit_type]: id=Tidal, race=elemental
-#: War_of_Legends/units/elementals/Tidal.cfg:19
+#: War_of_Legends/units/elementals/stable/Tidal.cfg:19
 msgid "These creatures are manifestations of water that seem to take on the shape of waves, hence their name of Tidal. These creatures are a bit hostile by nature due to the unstable nature of water."
 msgstr ""
 
 #. [unit_type]: id=Undine, race=elemental
-#: War_of_Legends/units/elementals/Undine.cfg:5
+#: War_of_Legends/units/elementals/stable/Undine.cfg:5
 msgid "Undine"
 msgstr ""
 
 #. [unit_type]: id=Undine, race=elemental
-#: War_of_Legends/units/elementals/Undine.cfg:19
+#: War_of_Legends/units/elementals/stable/Undine.cfg:19
 msgid "In conserving more power, little Tidals become the more violent and magnificent Undines. Not only have the Undines gained more power but they seemed to have, for some unknown reason, taken the shape of a woman."
 msgstr ""
 
 #. [unit_type]: id=Vine Beast, race=elemental
-#: War_of_Legends/units/elementals/Vine_Beast.cfg:5
+#: War_of_Legends/units/elementals/stable/Vine_Beast.cfg:5
 msgid "Vine Beast"
 msgstr ""
 
 #. [unit_type]: id=Vine Beast, race=elemental
-#: War_of_Legends/units/elementals/Vine_Beast.cfg:28
+#: War_of_Legends/units/elementals/stable/Vine_Beast.cfg:28
 msgid "Vine Beasts are clumps of vines, thorns and other plant parts manifested in the form of a tiger. They are somewhat good at hiding in the forest and are capable of drawing energy from a forest in order to replenish its health."
 msgstr ""
 
 #. [attack]: type=pierce
-#: War_of_Legends/units/elementals/Vine_Beast.cfg:47
-#: War_of_Legends/units/elementals/Vine_Tiger.cfg:50
+#: War_of_Legends/units/elementals/stable/Vine_Beast.cfg:47
+#: War_of_Legends/units/elementals/stable/Vine_Tiger.cfg:50
 msgid "thorns"
 msgstr ""
 
 #. [unit_type]: id=Vine Tiger, race=elemental
-#: War_of_Legends/units/elementals/Vine_Tiger.cfg:5
+#: War_of_Legends/units/elementals/stable/Vine_Tiger.cfg:5
 msgid "Vine Tiger"
 msgstr ""
 
 #. [unit_type]: id=Vine Tiger, race=elemental
-#: War_of_Legends/units/elementals/Vine_Tiger.cfg:29
+#: War_of_Legends/units/elementals/stable/Vine_Tiger.cfg:29
 msgid "Being swift and ferocious Vine Tigers are not to be trifled with, due to the fact that they can hide well in forested areas and are very powerful. In addition, these beast can blast barrages of thorns at prey and can ensnare their victims with the vines which compose this beast's body. To make matters even worse these beasts seem to have the ability to heal themselves by sapping the energy from forested areas, thus healing themselves."
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/elementals/Vine_Tiger.cfg:58
+#: War_of_Legends/units/elementals/stable/Vine_Tiger.cfg:58
 msgid "ensnare"
 msgstr ""
 
 #. [unit_type]: id=Wisp, race=elemental
-#: War_of_Legends/units/elementals/Wisp.cfg:5
+#: War_of_Legends/units/elementals/stable/Wisp.cfg:5
 msgid "Wisp"
 msgstr ""
 
 #. [unit_type]: id=Wisp, race=elemental
-#: War_of_Legends/units/elementals/Wisp.cfg:33
+#: War_of_Legends/units/elementals/stable/Wisp.cfg:33
 msgid "These mysterious beings are composed of pure, yet unstable arcane magic. Although they are weak they are easy to create and can bind to an element once they gather enough power to do so."
 msgstr ""
 
 #. [attack]: type=impact
 #. [attack]: type=arcane
-#: War_of_Legends/units/elementals/Wisp.cfg:56
+#: War_of_Legends/units/elementals/stable/Wisp.cfg:56
 #: War_of_Legends/units/vampires/Blood_Apprentice.cfg:49
 #: War_of_Legends/units/vampires/Blood_Manipulator.cfg:49
 #: War_of_Legends/units/vampires/Sangel.cfg:50
@@ -2366,12 +2738,12 @@ msgid "aura wave"
 msgstr ""
 
 #. [unit_type]: id=Zephyr, race=elemental
-#: War_of_Legends/units/elementals/Zephyr.cfg:5
+#: War_of_Legends/units/elementals/stable/Zephyr.cfg:5
 msgid "Zephyr"
 msgstr ""
 
 #. [unit_type]: id=Zephyr, race=elemental
-#: War_of_Legends/units/elementals/Zephyr.cfg:19
+#: War_of_Legends/units/elementals/stable/Zephyr.cfg:19
 msgid "A wind spirit who stays in form long enough gains great mastery over winds. This grants him strength to his attacks, and toughness to his form."
 msgstr ""
 
@@ -2390,22 +2762,22 @@ msgid ""
 msgstr ""
 
 #. [race]: id=deep_elf
-#: War_of_Legends/units/elves-deep.cfg:18
+#: War_of_Legends/units/elves-deep.cfg:19
 msgid "race^Deep Elf"
 msgstr ""
 
 #. [race]: id=deep_elf
-#: War_of_Legends/units/elves-deep.cfg:19
+#: War_of_Legends/units/elves-deep.cfg:20
 msgid "race+female^Deep Elf"
 msgstr ""
 
 #. [race]: id=deep_elf
-#: War_of_Legends/units/elves-deep.cfg:20
+#: War_of_Legends/units/elves-deep.cfg:21
 msgid "race^Deep Elves"
 msgstr ""
 
 #. [race]: id=deep_elf
-#: War_of_Legends/units/elves-deep.cfg:22
+#: War_of_Legends/units/elves-deep.cfg:23
 msgid ""
 "The Deep Elves are descendants of the original wood-elves of the forest of Lintanir, the great groove in the northwest of the Great Continent. Being nothing more than just shadows of their former selves, the Deep Elves reside in the caverns of Blackqvasten, a place hidden underneath the heart of the Great Continent where neither the dead nor the living can see. At the lowest point of Blackqvasten lies the Black Lake, where a statue of Shassagoth stands. Shassagoth, often displayed as a huge black dragon, directs the Deep Elves from his shadow realm. They serve him loyally and unquestioningly, and he, in turn, smites their foes.\n"
 "\n"
@@ -2490,42 +2862,30 @@ msgstr ""
 msgid "Black Tyr‘Hai are Tyr‘Hai that have been infested with the presence of Shassagoth. They are trustworthy companions that often protect smaller groups of Deep Elves. These reptilian creatures lurk in caverns outside the city of Blackqvasten and have the ability to drain the life force of the creatures that they bite. "
 msgstr ""
 
-#. [attack]: type=impact
-#. [attacks]: id=trample
-#: War_of_Legends/units/elves-deep/Black_Tyrhai.cfg:38
-#: War_of_Legends/units/elves-deep/Shadow_Tyrhai.cfg:53
-#: War_of_Legends/units/elves-deep/Shadow_Tyrhai.cfg:43
-#: War_of_Legends/units/elves-deep/Tyrhai_Cavalry.cfg:49
-#: War_of_Legends/units/elves-deep/Tyrhai_Rider.cfg:34
-#: War_of_Legends/units/minotaurs/Boar_Cataphract.cfg:54
-#: War_of_Legends/units/minotaurs/Boar_Knight.cfg:53
-#: War_of_Legends/units/minotaurs/Boar_Rider.cfg:36
-#: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:46
-#: War_of_Legends/units/undead/Skeleton_Rider.cfg:44
-msgid "trample"
-msgstr ""
-
 #. [unit_type]: id=Blood Maiden, race=deep_elf
 #: War_of_Legends/units/elves-deep/Bloodmaiden.cfg:5
 msgid "Blood Maiden"
 msgstr ""
 
 #. [unit_type]: id=Blood Maiden, race=deep_elf
-#: War_of_Legends/units/elves-deep/Bloodmaiden.cfg:19
+#: War_of_Legends/units/elves-deep/Bloodmaiden.cfg:18
 msgid "Blood Maidens are frequently found in the city-state of Blackqvasten. Equipped with razor-sharp blades, the Blood Maidens ferociously assault the foes of Shassagoth, sating their lust for battle with the blood of their enemies. Once, the Blood Maiden were Elvish Swordswomen, but have since been warped by the darkness of Shassagoth. Now, their former brothers and sisters are their mortal enemies."
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/elves-deep/Bloodmaiden.cfg:29
-#: War_of_Legends/units/elves-deep/Seeker.cfg:30
+#: War_of_Legends/units/elves-deep/Bloodmaiden.cfg:28
+#: War_of_Legends/units/elves-deep/Predator.cfg:30
 #: War_of_Legends/units/elves-deep/Vengeance.cfg:30
 #: War_of_Legends/units/orcs/Subjugator.cfg:39
+#: War_of_Legends/units/steelhive/steel_fideliant.cfg:36
+#: War_of_Legends/units/steelhive/steel_vector.cfg:23
+#: War_of_Legends/units/steelhive/steel_vorpal.cfg:27
 msgid "blade"
 msgstr ""
 
 #. [unstore_unit]
-#: War_of_Legends/units/elves-deep/Bloodmaiden.cfg:81
-#: War_of_Legends/units/elves-deep/Seeker.cfg:82
+#: War_of_Legends/units/elves-deep/Bloodmaiden.cfg:80
+#: War_of_Legends/units/elves-deep/Predator.cfg:82
 #: War_of_Legends/units/elves-deep/Vengeance.cfg:83
 msgid "The hunt is on!"
 msgstr ""
@@ -2577,6 +2937,31 @@ msgstr ""
 msgid "female^ether grip"
 msgstr ""
 
+#. [unit_type]: id=Elthare, race=deep_elf
+#: War_of_Legends/units/elves-deep/Elthare.cfg:5
+msgid "Elthare"
+msgstr ""
+
+#. [unit_type]: id=Elthare, race=deep_elf
+#: War_of_Legends/units/elves-deep/Elthare.cfg:19
+msgid "As opposed to the Phades, an Eltare chooses to remain in the physical world and attains more melee-oriented abilities such as the skill of manifesting a sword-like extension of purifying light which can slash enemies. Their transformation sort of makes them slightly resistant to mysterious magics and allows better footing on arctic terrain."
+msgstr ""
+
+#. [attack]: type=blade
+#: War_of_Legends/units/elves-deep/Elthare.cfg:39
+msgid "magical sword"
+msgstr ""
+
+#. [attack]: type=arcane
+#: War_of_Legends/units/elves-deep/Elthare.cfg:51
+#: War_of_Legends/units/elves-deep/Irr.cfg:63
+#: War_of_Legends/units/elves-deep/Lightborn.cfg:61
+#: War_of_Legends/units/elves-deep/Phade.cfg:62
+#: War_of_Legends/units/elves-wood/Acolyte.cfg:39
+#: War_of_Legends/units/elves-wood/Noble.cfg:37
+msgid "faerie fire"
+msgstr ""
+
 #. [unit_type]: id=Harbinger, race=deep_elf
 #: War_of_Legends/units/elves-deep/Harbinger.cfg:5
 msgid "Harbinger"
@@ -2610,15 +2995,6 @@ msgstr ""
 #. [unit_type]: id=Irr, race=deep_elf
 #: War_of_Legends/units/elves-deep/Irr.cfg:21
 msgid "The Irr is a Phade that has been freed of its enchanted armor. As a being of pure light, the Irr blinds her foes with her mere presence, sowing confusion among them when they draw too close. Although rarely encountered in proximity, when an Irr is encountered in depths, she often leads foolish wanderers down treacherous paths into deadly traps, from which they never escape."
-msgstr ""
-
-#. [attack]: type=arcane
-#: War_of_Legends/units/elves-deep/Irr.cfg:63
-#: War_of_Legends/units/elves-deep/Lightborn.cfg:61
-#: War_of_Legends/units/elves-deep/Phade.cfg:62
-#: War_of_Legends/units/elves-wood/Acolyte.cfg:39
-#: War_of_Legends/units/elves-wood/Noble.cfg:37
-msgid "faerie fire"
 msgstr ""
 
 #. [unit_type]: id=Lightborn, race=deep_elf
@@ -2694,6 +3070,16 @@ msgstr ""
 msgid "Over the course of many years, some Lightborns begin merging with the element that is their weapon and appear to begin transforming into the light itself. An elf that has attained this status is called a Phade, a magical being whose physical body has the appearance of fading away into pure light. In fact, some say that only her enchanted armor stops her body from vanishing completely. In close proximity, the Phade rushes through the bodies of her enemies, while from afar, she blasts them with torrents of blinding light."
 msgstr ""
 
+#. [unit_type]: id=Predator, race=deep_elf
+#: War_of_Legends/units/elves-deep/Predator.cfg:5
+msgid "Predator"
+msgstr ""
+
+#. [unit_type]: id=Predator, race=deep_elf
+#: War_of_Legends/units/elves-deep/Predator.cfg:20
+msgid "Whoever has incurred the hatred of the ghostly apparition that is the Seeker will find death. Immune to both swords and arrows, Seekers are said to be able freely traverse through walls, relentlessly pursing their marked quarries. The hunted prey is plagued with nightmares of its own death until the Seeker’s blade transforms its visions into reality. It is said that the Seeker’s sword consumes the souls of its marks, imprisoning them within a cage of cold steel."
+msgstr ""
+
 #. [unit_type]: id=Priestess of the Vault, race=deep_elf
 #: War_of_Legends/units/elves-deep/Priestess.cfg:5
 msgid "Priestess of the Vault"
@@ -2702,16 +3088,6 @@ msgstr ""
 #. [unit_type]: id=Priestess of the Vault, race=deep_elf
 #: War_of_Legends/units/elves-deep/Priestess.cfg:19
 msgid "The Priestess of the Vault has dedicated her life to serving Shassagoth. In her former life she once was a shaman, a healer and a caretaker of the forests. Now, she has become a guardian of the depths and a despoiler of nature. Despite this, the Priestess has preserved some of her former magical capabilities and can summon arcane barrages to wear down her enemies. She sometimes infiltrates elvish territory, trying to convince more of her former sisters to join the ranks of Shassagoth."
-msgstr ""
-
-#. [unit_type]: id=Seeker, race=deep_elf
-#: War_of_Legends/units/elves-deep/Seeker.cfg:5
-msgid "Seeker"
-msgstr ""
-
-#. [unit_type]: id=Seeker, race=deep_elf
-#: War_of_Legends/units/elves-deep/Seeker.cfg:20
-msgid "Whoever has incurred the hatred of the ghostly apparition that is the Seeker will find death. Immune to both swords and arrows, Seekers are said to be able freely traverse through walls, relentlessly pursing their marked quarries. The hunted prey is plagued with nightmares of its own death until the Seeker’s blade transforms its visions into reality. It is said that the Seeker’s sword consumes the souls of its marks, imprisoning them within a cage of cold steel."
 msgstr ""
 
 #. [unit_type]: id=Seer, race=deep_elf
@@ -2789,7 +3165,7 @@ msgstr ""
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Ancient_Banner.cfg:41
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Captain.cfg:34
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Guardian.cfg:30
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Lancer.cfg:33
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Lancer.cfg:34
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Silver_Shield.cfg:27
 #: War_of_Legends/units/human-legion/Knight.cfg:32
 #: War_of_Legends/units/human-legion/Spearman.cfg:22
@@ -3373,22 +3749,22 @@ msgid "Only the best of rousers can hope to become a trumpeter. Trumpeters spend
 msgstr ""
 
 #. [race]: id=aragwaith
-#: War_of_Legends/units/human-aragwaithi.cfg:6
+#: War_of_Legends/units/human-aragwaithi.cfg:7
 msgid "race^Aragwaith"
 msgstr ""
 
 #. [race]: id=aragwaith
-#: War_of_Legends/units/human-aragwaithi.cfg:7
+#: War_of_Legends/units/human-aragwaithi.cfg:8
 msgid "race+female^Aragwaith"
 msgstr ""
 
 #. [race]: id=aragwaith
-#: War_of_Legends/units/human-aragwaithi.cfg:8
+#: War_of_Legends/units/human-aragwaithi.cfg:9
 msgid "race^Aragwaithi"
 msgstr ""
 
 #. [race]: id=aragwaith
-#: War_of_Legends/units/human-aragwaithi.cfg:12
+#: War_of_Legends/units/human-aragwaithi.cfg:13
 msgid ""
 "During most of the Golden Age, the humans who inhabited the Great Continent were mostly Wesnothians, divided across various territories such as the Northlands, Elensefar and the kingdom of Wesnoth itself. However, there was once a time of great strife during which a new race of humans started to appear from nowhere. They were the 'Aragwaithi', which meant 'noble' in their native language.\n"
 "\n"
@@ -3511,6 +3887,12 @@ msgstr ""
 msgid "Finally moving on from the dirk and dagger to the sword, the Greatbow is superior to the Strongbow in melee combat, but not as powerful as the Slayer. Their bow, however, is a masterpiece of military design. Several months are spent crafting a single bow, and each bow is crafted by the user, to his individual specifications. Due to the incredible strength required to pull these bows, anyone but the crafter who attempts to draw it could suffer serious injury."
 msgstr ""
 
+#. [variation]
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Greatbow.cfg:123
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Longswordsman.cfg:51
+msgid "Unhooded"
+msgstr ""
+
 #. [unit_type]: id=Aragwaith Guard, race=aragwaith
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Guard.cfg:5
 msgid "Guard"
@@ -3537,8 +3919,13 @@ msgid "Lancer"
 msgstr ""
 
 #. [unit_type]: id=Aragwaith Lancer, race=aragwaith
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Lancer.cfg:19
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Lancer.cfg:20
 msgid "Aragwaithi lancers are expert riders and skilled warriors. They are famously effective in quick strikes and scouting, but are also more than capable of taking and holding ground in a protracted battle."
+msgstr ""
+
+#. [female]
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Lancer.cfg:45
+msgid "female^Lancer"
 msgstr ""
 
 #. [unit_type]: id=Aragwaith Longswordsman, race=aragwaith
@@ -3572,6 +3959,11 @@ msgstr ""
 msgid "Scout"
 msgstr ""
 
+#. [female]
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Scout.cfg:44
+msgid "female^Scout"
+msgstr ""
+
 #. [unit_type]: id=Aragwaith Shield Guard, race=aragwaith
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Shield_Guard.cfg:5
 msgid "Shield Guard"
@@ -3582,6 +3974,12 @@ msgstr ""
 msgid "These warriors wear the old shields of their ancients. These ancients could hold the line in the great battles until the reinforcements arrived, but they paid a high price, not many survived the battle and many others died through their strong wounds. Now only the best warriors are allowed to carry these ancient shields to remind the world and to honour these brave man and their sacrifice."
 msgstr ""
 
+#. [variation]
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Shield_Guard.cfg:49
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Sorceress.cfg:87
+msgid "Alternate"
+msgstr ""
+
 #. [unit_type]: id=Aragwaith Silver Shield, race=aragwaith
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Silver_Shield.cfg:5
 msgid "Silver Shield"
@@ -3590,6 +3988,11 @@ msgstr ""
 #. [unit_type]: id=Aragwaith Silver Shield, race=aragwaith
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Silver_Shield.cfg:21
 msgid "The Silver Shields are named for obvious reasons; the distinctive shields that they carry set them apart from the common horseman. The shield is given to a warrior only after long and distinguished service, and they are greatly respected by their countrymen."
+msgstr ""
+
+#. [female]
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Silver_Shield.cfg:44
+msgid "female^Silver Shield"
 msgstr ""
 
 #. [unit_type]: id=Aragwaith Slayer, race=aragwaith
@@ -3682,6 +4085,7 @@ msgstr ""
 #. [attack]: type=pierce
 #: War_of_Legends/units/human-campaigns/Horse_Black_Knight.cfg:58
 #: War_of_Legends/units/human-legion/Cavalier.cfg:33
+#: War_of_Legends/units/steelhive/steel_fideliant.cfg:24
 msgid "lance"
 msgstr ""
 
@@ -4924,7 +5328,44 @@ msgstr ""
 
 #. [attack]: type=cold
 #: War_of_Legends/units/monsters/Ice_Ghost.cfg:28
+#: War_of_Legends/units/steelhive/steel_leviathan.cfg:38
 msgid "frost claws"
+msgstr ""
+
+#. [unit_type]: id=Monster Crab, race=monster
+#: War_of_Legends/units/monsters/Monster_Crab.cfg:4
+msgid "Monster Crab"
+msgstr ""
+
+#. [unit_type]: id=Monster Crab, race=monster
+#: War_of_Legends/units/monsters/Monster_Crab.cfg:19
+msgid "The Monster Crab is a semi-sentient crab the size of a horse. It is one of many twisted monsters recorded by the sages of Wesnoth and probably the creation of some twisted mage. These monstrosities have spread into the wild and prefer to live around coastal waters, preying on both humans and animals."
+msgstr ""
+
+#. [unit_type]: id=Owl, race=monster
+#: War_of_Legends/units/monsters/Owl.cfg:8
+msgid "Owl"
+msgstr ""
+
+#. [unit_type]: id=Owl, race=monster
+#: War_of_Legends/units/monsters/Owl.cfg:37
+msgid "Owls are winged predators of the northern tundra and forests. They are usually solitary and hunt small animals such as rats, but when a wolf-pack is taking down larger prey, the owls take advantage of the situation and join in the kill."
+msgstr ""
+
+#. [attack]: type=blade
+#: War_of_Legends/units/monsters/Owl.cfg:46
+#: War_of_Legends/units/monsters/Owl_Great.cfg:48
+msgid "talons"
+msgstr ""
+
+#. [unit_type]: id=Great Owl, race=monster
+#: War_of_Legends/units/monsters/Owl_Great.cfg:8
+msgid "Great Owl"
+msgstr ""
+
+#. [unit_type]: id=Great Owl, race=monster
+#: War_of_Legends/units/monsters/Owl_Great.cfg:37
+msgid "The Great Owls are larger and have shaggier plumage than the more common Owls. As a result, they are better insulated against the cold and even have some protection against being struck, though a well-placed piercing arrow will pass through their feathers. Like the common owls, they tend to follow wold-packs, picking off the wounded or panicked prey flushed out by the canine predators."
 msgstr ""
 
 #. [unit_type]: id=Sky Crystal, race=abstraction
@@ -5080,8 +5521,10 @@ msgid "Bramble"
 msgstr ""
 
 #. [variation]
+#. [attack]: type=impact
 #: War_of_Legends/units/nightmares-elementals/Nature_Wrath.cfg:407
 #: War_of_Legends/units/nightmares-elementals/Unstable_Elemental.cfg:406
+#: War_of_Legends/units/steelhive/steel_vorpal.cfg:39
 msgid "crush"
 msgstr ""
 
@@ -5354,6 +5797,251 @@ msgstr ""
 #. [unit_type]: id=Saurian Warden, race=lizard
 #: War_of_Legends/units/saurians/Warden.cfg:19
 msgid "Saurian warriors that excel in their combat abilities may advance to the role of wardens, which are responsible for keeping their fragile spellcasters alive during battles at all costs."
+msgstr ""
+
+#. [unit_type]: id=Steel Astigmatic, race=steelhive
+#: War_of_Legends/units/steelhive/steel_astigmatic.cfg:4
+msgid "Steel Astigmatic"
+msgstr ""
+
+#. [unit_type]: id=Steel Astigmatic, race=steelhive
+#: War_of_Legends/units/steelhive/steel_astigmatic.cfg:18
+msgid "Having commonly used electric shocks as self-defense, the Retinari were easily upgraded from drifting scavengers to relentless attackers, whose lightning bolts were the bane of many a now-extinct species. The first Retinari to be converted have now been upgraded beyond recognition, in pursuit of even further electrical output."
+msgstr ""
+
+#. [attack]: type=blade
+#: War_of_Legends/units/steelhive/steel_astigmatic.cfg:24
+#: War_of_Legends/units/steelhive/steel_cataract.cfg:23
+#: War_of_Legends/units/steelhive/steel_oculus.cfg:23
+msgid "spin"
+msgstr ""
+
+#. [attack]: type=impact
+#: War_of_Legends/units/steelhive/steel_astigmatic.cfg:33
+msgid "collide"
+msgstr ""
+
+#. [unit_type]: id=Steel Cataract, race=steelhive
+#: War_of_Legends/units/steelhive/steel_cataract.cfg:4
+msgid "Steel Cataract"
+msgstr ""
+
+#. [unit_type]: id=Steel Cataract, race=steelhive
+#: War_of_Legends/units/steelhive/steel_cataract.cfg:17
+msgid "The Metallizing Virus perverted the Retinari biology quite indifferently, creating elite versions of them by simply fusing three together into one, boosting their combat potential at the cost of what little individuality they had remaining."
+msgstr ""
+
+#. [unit_type]: id=Steel Choron, race=steelhive
+#: War_of_Legends/units/steelhive/steel_choron.cfg:4
+msgid "Steel Choron"
+msgstr ""
+
+#. [unit_type]: id=Steel Choron, race=steelhive
+#: War_of_Legends/units/steelhive/steel_choron.cfg:18
+msgid "Little is known of the original creators of these machines; naught remains to hint at their history, culture, or ultimate demise. After very little deliberation, the Hedron and Choron models of machines were added to the Steelhive collective. So far, they have been performing promisingly in the field, repairing fellow Steelhive machines with technologies even the Steelhive fails to understand. However, occasionally, the units behave in an erratic way which displays more intelligence and processing power than should be allocated to a mere drone, indicating, perhaps, that the creators of these machines are not quite dead in their entirety."
+msgstr ""
+
+#. [attack]: type=pierce
+#: War_of_Legends/units/steelhive/steel_choron.cfg:27
+msgid "pincer"
+msgstr ""
+
+#. [attack]: type=fire
+#: War_of_Legends/units/steelhive/steel_choron.cfg:39
+msgid "plasma weld"
+msgstr ""
+
+#. [unit_type]: id=Steel Dreadnought, race=steelhive
+#: War_of_Legends/units/steelhive/steel_dreadnought.cfg:4
+msgid "Steel Dreadnought"
+msgstr ""
+
+#. [unit_type]: id=Steel Dreadnought, race=steelhive
+#: War_of_Legends/units/steelhive/steel_dreadnought.cfg:17
+msgid "The most heavily-augmented Seliss had become flying fortresses in and of themselves, capable of surviving in any environment. Little modification, then, was necessary when the Steelhive took control of their armies and sent them back to attack their own homeworld. Even now, the Dreadnought model remains a reliable and effective front-lines combatant for the Steelhive."
+msgstr ""
+
+#. [attack]: type=pierce
+#: War_of_Legends/units/steelhive/steel_dreadnought.cfg:68
+msgid "spine"
+msgstr ""
+
+#. [attack]: type=pierce
+#: War_of_Legends/units/steelhive/steel_dreadnought.cfg:86
+#: War_of_Legends/units/steelhive/steel_impaler.cfg:23
+#: War_of_Legends/units/steelhive/steel_skewer.cfg:23
+msgid "quill"
+msgstr ""
+
+#. [unit_type]: id=Steel Fideliant, race=steelhive
+#: War_of_Legends/units/steelhive/steel_fideliant.cfg:4
+msgid "Steel Fideliant"
+msgstr ""
+
+#. [unit_type]: id=Steel Fideliant, race=steelhive
+#: War_of_Legends/units/steelhive/steel_fideliant.cfg:18
+msgid "The Fideliants were created to improve the hunter-killer function of the Kalkunids to an apex. Having outmatched the Kalkunids in every respect, these designs destroyed Kalkunid morale and damaged their proud warrior culture to the point where the entire species capitulated at once after a particularly brutal defeat."
+msgstr ""
+
+#. [unit_type]: id=Steel Hedron, race=steelhive
+#: War_of_Legends/units/steelhive/steel_hedron.cfg:4
+msgid "Steel Hedron"
+msgstr ""
+
+#. [unit_type]: id=Steel Hedron, race=steelhive
+#: War_of_Legends/units/steelhive/steel_hedron.cfg:17
+msgid "When the Metallizing Virus deployed on the desert world of Meni VII, it did not expect to find anything except plenty of raw materials with which to synthesize more Steelhive units. However, preliminary mining operations revealed several buried ruins, skyscrapers of steel now corroded underneath immense dunes. Inside these ancient ruins, the remains of several inactive robots were recovered and integrated into the Steelhive arsenal."
+msgstr ""
+
+#. [attack]: type=pierce
+#: War_of_Legends/units/steelhive/steel_hedron.cfg:26
+msgid "pedipalp"
+msgstr ""
+
+#. [unit_type]: id=Steel Impaler, race=steelhive
+#: War_of_Legends/units/steelhive/steel_impaler.cfg:4
+msgid "Steel Impaler"
+msgstr ""
+
+#. [unit_type]: id=Steel Impaler, race=steelhive
+#: War_of_Legends/units/steelhive/steel_impaler.cfg:17
+msgid "The Seliss of Borassol II were unique in that, rather than the Steelhive coming to them, they came to the Steelhive. One of the rare species which achieved meaningful extraatmospheric excursion, the Seliss had their eyes set on interstellar conquest. Unfortunately for them, picking Sciruss IV at a point when the Retinari had just been completely subjugated was a rather poor choice on their part."
+msgstr ""
+
+#. [unit_type]: id=Steel Larva, race=steelhive
+#: War_of_Legends/units/steelhive/steel_larva.cfg:4
+msgid "Steel Larva"
+msgstr ""
+
+#. [attack]: type=electric
+#: War_of_Legends/units/steelhive/steel_larva.cfg:28
+#: War_of_Legends/units/steelhive/steel_nymph.cfg:59
+#: War_of_Legends/units/steelhive/steel_syren.cfg:64
+msgid "jolt"
+msgstr ""
+
+#. [unit_type]: id=Steel Leviathan, race=steelhive
+#: War_of_Legends/units/steelhive/steel_leviathan.cfg:4
+msgid "Steel Leviathan"
+msgstr ""
+
+#. [unit_type]: id=Steel Leviathan, race=steelhive
+#: War_of_Legends/units/steelhive/steel_leviathan.cfg:18
+msgid "The Alzebisk society was matriarchical, ruled by the female Leviathans of their race. This became their downfall, as each Leviathan was ambushed individually and their corpses metallized one by one, until in the end none remained to oppose the Steelhive. Now, the Leviathans' design serves as a model to which a rare few are upgraded."
+msgstr ""
+
+#. [attack]: type=impact
+#: War_of_Legends/units/steelhive/steel_leviathan.cfg:29
+msgid "constrict"
+msgstr ""
+
+#. [attack]: type=cold
+#: War_of_Legends/units/steelhive/steel_leviathan.cfg:47
+#: War_of_Legends/units/steelhive/steel_serpent.cfg:36
+#: War_of_Legends/units/steelhive/steel_wyrm.cfg:35
+msgid "ion beam"
+msgstr ""
+
+#. [unit_type]: id=Steel Nymph, race=steelhive
+#: War_of_Legends/units/steelhive/steel_nymph.cfg:4
+msgid "Steel Nymph"
+msgstr ""
+
+#. [attack]: type=blade
+#: War_of_Legends/units/steelhive/steel_nymph.cfg:25
+#: War_of_Legends/units/steelhive/steel_slasher.cfg:23
+#: War_of_Legends/units/steelhive/steel_syren.cfg:30
+msgid "slash"
+msgstr ""
+
+#. [unit_type]: id=Steel Oculus, race=steelhive
+#: War_of_Legends/units/steelhive/steel_oculus.cfg:4
+msgid "Steel Oculus"
+msgstr ""
+
+#. [unit_type]: id=Steel Oculus, race=steelhive
+#: War_of_Legends/units/steelhive/steel_oculus.cfg:17
+msgid "The Retinari, hailing from the ocean planet of Sciruss IV in a time when the organisms of their planet were still rather simple, were the first race to be affected by the Metallizing Virus. Once a placid species not unlike jellyfish, the Retinari once saturated the seas by simply reproducing faster than anything could eat them. Now, however, they rule the skies instead of the sea, traveling in great swarms like a storm of steel and static."
+msgstr ""
+
+#. [unit_type]: id=Steel Serpent, race=steelhive
+#: War_of_Legends/units/steelhive/steel_serpent.cfg:4
+msgid "Steel Serpent"
+msgstr ""
+
+#. [unit_type]: id=Steel Serpent, race=steelhive
+#: War_of_Legends/units/steelhive/steel_serpent.cfg:17
+msgid "The Alzebisk were a subtle, clever race, and in their war against the Steelhive they used stealth and ambush quite effectively. The Steelhive has adapted these techniques and improved upon them further to yield the Steel Serpent, optimized for the most underhanded tactics."
+msgstr ""
+
+#. [unit_type]: id=Steel Skewer, race=steelhive
+#: War_of_Legends/units/steelhive/steel_skewer.cfg:4
+msgid "Steel Skewer"
+msgstr ""
+
+#. [unit_type]: id=Steel Skewer, race=steelhive
+#: War_of_Legends/units/steelhive/steel_skewer.cfg:17
+msgid "The Seliss engaged in self-modification quite casually, fielding armies of augmented troops with built-in weapons. However, their technology only made them more susceptible to the Metallizing Virus, allowing the Steelhive to turn their own armies against them."
+msgstr ""
+
+#. [unit_type]: id=Steel Slasher, race=steelhive
+#: War_of_Legends/units/steelhive/steel_slasher.cfg:4
+msgid "Steel Slasher"
+msgstr ""
+
+#. [unit_type]: id=Steel Slasher, race=steelhive
+#: War_of_Legends/units/steelhive/steel_slasher.cfg:17
+msgid "The Kalkunids of Wert-Thak were a fierce hunting species like the velociraptors of the past, traveling in packs and chasing down their foes with their razor-sharp slashing horns. Such a valuable strain of hunter-killers could not be allowed to pass, and a capsule of the Metallizing Virus was duly launched to their homeworld."
+msgstr ""
+
+#. [unit_type]: id=Steel Splicer, race=steelhive
+#: War_of_Legends/units/steelhive/steel_splicer.cfg:4
+msgid "Steel Splicer"
+msgstr ""
+
+#. [unit_type]: id=Steel Splicer, race=steelhive
+#: War_of_Legends/units/steelhive/steel_splicer.cfg:18
+msgid "The Kalkunids were unique of all species absorbed by the Steelhive in that they seemed to have some degree of natural resistance to the Metallizing Virus due to their genetic potential. Among certain individuals of the race, the Virus would simply not hold long enough. Among other individuals of the race, the Virus's metallizing properties would be driven wild, creating an imperfect evolution with little self-control, knowing only an unabating hunger."
+msgstr ""
+
+#. [attack]: type=blade
+#: War_of_Legends/units/steelhive/steel_splicer.cfg:24
+msgid "shred"
+msgstr ""
+
+#. [unit_type]: id=Steel Syren, race=steelhive
+#: War_of_Legends/units/steelhive/steel_syren.cfg:4
+msgid "Steel Syren"
+msgstr ""
+
+#. [unit_type]: id=Steel Vector, race=steelhive
+#: War_of_Legends/units/steelhive/steel_vector.cfg:4
+msgid "Steel Vector"
+msgstr ""
+
+#. [unit_type]: id=Steel Vector, race=steelhive
+#: War_of_Legends/units/steelhive/steel_vector.cfg:17
+msgid "When the Metallizing Virus arrived at Wert-Thak, it found its job quite simple. The Kalkunid race lived in isolated tribes, and were in a state of continuous warfare against other tribes. As a result, they failed to unite against a common foe in this war for survival until it was nearly too late."
+msgstr ""
+
+#. [unit_type]: id=Steel Vorpal, race=steelhive
+#: War_of_Legends/units/steelhive/steel_vorpal.cfg:4
+msgid "Steel Vorpal"
+msgstr ""
+
+#. [unit_type]: id=Steel Vorpal, race=steelhive
+#: War_of_Legends/units/steelhive/steel_vorpal.cfg:18
+msgid "Experimentation with the Kalkunids resulted in several new model strains; as usual, the Steelhive engaged in its practice of conjoining multiple instances of the same species to create elite forms. These designs were rightly regarded as abominations by the Kalkunids, and while they brought great firepower to the field they also served to galvanized the Kalkunids to unite against the Steelhive at last. This would not save them, in the end."
+msgstr ""
+
+#. [unit_type]: id=Steel Wyrm, race=steelhive
+#: War_of_Legends/units/steelhive/steel_wyrm.cfg:4
+msgid "Steel Wyrm"
+msgstr ""
+
+#. [unit_type]: id=Steel Wyrm, race=steelhive
+#: War_of_Legends/units/steelhive/steel_wyrm.cfg:17
+msgid "When the Steel Oculi were fully metallized, the obvious next target for infestation was the Alzebisk species. Though the Alzebisk were able to put up more of a resistance than the placid Retinari, they were ultimately assimilated and metallized as well."
 msgstr ""
 
 #. [unit_type]: id=Troll Boulderlobber, race=troll
