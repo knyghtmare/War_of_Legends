@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-06-14 09:43 UTC\n"
+"POT-Creation-Date: 2022-06-24 15:03 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -234,9 +234,9 @@ msgstr ""
 msgid "Minotaurs"
 msgstr ""
 
-#. [multiplayer_side]: id=Orcs_EL, type=random
-#. [multiplayer_side]: id=Orcs_RPG, type=random
-#. [multiplayer_side]: id=Orcs_WOL, type=random
+#. [multiplayer_side]: id=Northerners_EL, type=random
+#. [multiplayer_side]: id=Northerners_RPG, type=random
+#. [multiplayer_side]: id=Northerners_WOL, type=random
 #: War_of_Legends/factions/EL/Orcs-EL.cfg:5
 #: War_of_Legends/factions/RPG/Orcs-RPG.cfg:5
 #: War_of_Legends/factions/WOL/Orcs-WOL.cfg:4
@@ -1770,6 +1770,16 @@ msgstr ""
 msgid "Legends Heroes, Commanders and Deserters"
 msgstr ""
 
+#. [modification]: id=knyght_wol_faction_flags, type=mp
+#: War_of_Legends/mods/multiplayer/WoL_Faction_Flags.cfg:5
+msgid "Faction-themed Flags"
+msgstr ""
+
+#. [modification]: id=knyght_wol_faction_flags, type=mp
+#: War_of_Legends/mods/multiplayer/WoL_Faction_Flags.cfg:8
+msgid "Assigns the correct/immersive flag for each faction. Supports all <i>War of Legends</i> eras, core multiplayer eras (Default/AoH/Dunefolk)."
+msgstr ""
+
 #. [race]: id=aberration
 #: War_of_Legends/units/aberrations.cfg:5
 msgid "race^Aberration"
@@ -2204,9 +2214,17 @@ msgid "Dwarvish Marksman"
 msgstr ""
 
 #. [unit_type]: id=Dwarvish Marksman, race=dwarf
+#. [unit_type]: id=Shassagoth, race=monster
 #. [unit_type]: id=Legion Medic, race=human
+#. [unit_type]: id=Steel Larva, race=steelhive
+#. [unit_type]: id=Steel Nymph, race=steelhive
+#. [unit_type]: id=Steel Syren, race=steelhive
 #: War_of_Legends/units/dwarves/Marksman.cfg:23
+#: War_of_Legends/units/elves-deep/Shassagoth.cfg:19
 #: War_of_Legends/units/human-legion/Medic.cfg:18
+#: War_of_Legends/units/steelhive/steel_larva.cfg:12
+#: War_of_Legends/units/steelhive/steel_nymph.cfg:13
+#: War_of_Legends/units/steelhive/steel_syren.cfg:13
 msgid "TODO"
 msgstr ""
 
