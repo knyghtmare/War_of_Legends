@@ -45,6 +45,9 @@ version 1.2.7.15:
    --> Monster Crab (UtBS)
    --> Owl (BMR/AR)
    --> Great Owl (BMR/AR)
+--> Faction Flags for WoL
+   --> new MP mod added
+   --> Faction specific flags
    
 
 version 1.2.7.14
