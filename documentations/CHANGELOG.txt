@@ -38,6 +38,11 @@ version 1.2.7.15:
    --> Deep Elves RPG faction
    --> promote level 0 units to their level 1 counterparts
       --> I dont really recommend diving into some MP RPG COOP as a level 0
+--> Default Era - RPG
+   --> Promoted all level 0 leaders to level 1
+      --> Goblin Spearman --> Goblin Impaler/Rouser
+      --> Vampire Bat --> Blood Bat
+      --> Walking Corpse --> Soulless
 --> Legends Conquest
    --> add Steelhive DLC
    --> add Deep Elves DLC
