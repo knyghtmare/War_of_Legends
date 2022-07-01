@@ -1,5 +1,8 @@
 War of Legends
-Change-Log v1.2.7.15
+Change-Log v1.2.7.16
+
+version 1.2.7.16:
+--> Move the faction flag mod to its own addon
 
 version 1.2.7.15:
 --> Update README on scio's Wandering Warriors
