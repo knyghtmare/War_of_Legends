@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-06-24 15:03 UTC\n"
+"POT-Creation-Date: 2022-07-01 00:30 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1768,16 +1768,6 @@ msgstr ""
 #. [modification]: id=knyght_wol_wc_heroes_commanders_deserters, type=mp
 #: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:64
 msgid "Legends Heroes, Commanders and Deserters"
-msgstr ""
-
-#. [modification]: id=knyght_wol_faction_flags, type=mp
-#: War_of_Legends/mods/multiplayer/WoL_Faction_Flags.cfg:5
-msgid "Faction-themed Flags"
-msgstr ""
-
-#. [modification]: id=knyght_wol_faction_flags, type=mp
-#: War_of_Legends/mods/multiplayer/WoL_Faction_Flags.cfg:8
-msgid "Assigns the correct/immersive flag for each faction. Supports all <i>War of Legends</i> eras, core multiplayer eras (Default/AoH/Dunefolk)."
 msgstr ""
 
 #. [race]: id=aberration
@@ -6163,7 +6153,7 @@ msgstr ""
 #. [attack]: type=arcane
 #: War_of_Legends/units/undead/Skele_Dark_Invader.cfg:29
 #: War_of_Legends/units/undead/Skele_Dark_Rider.cfg:29
-#: War_of_Legends/units/undead/Spirit_Shadowback.cfg:35
+#: War_of_Legends/units/undead/Spirit_Shadowback.cfg:33
 msgid "baneblade"
 msgstr ""
 
@@ -6203,12 +6193,12 @@ msgid "Shadowback"
 msgstr ""
 
 #. [unit_type]: id=Shadowback, race=undead
-#: War_of_Legends/units/undead/Spirit_Shadowback.cfg:22
+#: War_of_Legends/units/undead/Spirit_Shadowback.cfg:20
 msgid "These shades of what were once warriors are among the most terrifying things a necromancer can create, for a sword will cleave right through them as if through air, seemingly without doing harm. It is the thought that these foes are invincible which is so frightening, a notion that is fortunately far from the truth."
 msgstr ""
 
 #. [attack]: type=cold
-#: War_of_Legends/units/undead/Spirit_Shadowback.cfg:46
+#: War_of_Legends/units/undead/Spirit_Shadowback.cfg:44
 msgid "wail"
 msgstr ""
 
