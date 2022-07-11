@@ -13,6 +13,9 @@ It is required as a dependency to play the following campaigns:
 6. [Struggle for Freedom](https://github.com/knyghtmare/Struggle_For_Freedom)
 7. [Cataclysm](https://github.com/knyghtmare/Cataclysm)
 8. [Blades of Steel](https://github.com/knyghtmare/Aragwaithi_of_the_West)
+9. **Legends Conquest** (built-in MP Modification Add-on)
+
+Note for _Cataclysm_ and _Blades of Steel_ the links go to private repositories in Github as they are in development currently.
 
 ### By [revansurik](https://github.com/revansurik):
 1. [A Song of the Wind](https://forums.wesnoth.org/viewtopic.php?p=662430#p662430)
