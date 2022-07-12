@@ -1,7 +1,7 @@
 War of Legends
 Change-Log v1.2.7.17
 
-version 1.2.7.17:
+version 1.2.7.17 (1.17.x only):
 --> Undead:
    --> Removed Skeleton Rider and Bone Knight
       --> They are now part of the mainline core units.
