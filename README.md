@@ -2,6 +2,29 @@
 --------------------------------------------------------------------------------
 The War of Legends is an add-on for the [Battle for Wesnoth](https://www.wesnoth.org), a turn-based strategy game.
 This add-on is a multiplayer era featuring my favourite factions.
+
+## Current Faction Line-Up:
+1. Aragwaithi
+2. Vampires
+3. Windsong
+4. Minotaurs
+5. Drakes
+6. Sylvans
+7. Quenoth Elves
+8. Dunefolk
+9. Deep Elves
+10. Steel Hive
+11. Loyalists
+12. Dark Legion
+13. Northerners
+14. Undead
+15. Knalgan Alliance
+
+## Extra Units (for Campaign usage):
+1. Elementals
+2. Nightmares of Meleon
+3. Monsters
+
 It is required as a dependency to play the following campaigns:
 ## War of Legends Campaign List:
 ### By [knyghtmare](https://github.com/knyghtmare):
