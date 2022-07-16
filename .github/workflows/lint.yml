@@ -13,11 +13,11 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: Lint WML
-      uses: czyzby/wesnoth-wml-linter@latest
+      uses: czyzby/wesnoth-wml-linter@v1
       with:
         wesnoth-version: ${{ env.WESNOTH_VERSION }}
     - name: Verify images
-      uses: czyzby/wesnoth-png-optimizer@latest
+      uses: czyzby/wesnoth-png-optimizer@v1
       with:
         wesnoth-version: ${{ env.WESNOTH_VERSION }}
         threshold: 5
