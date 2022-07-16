@@ -13,7 +13,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: Lint WML
-      uses: czyzby/wesnoth-wml-linter@v1
+      uses: czyzby/wesnoth-wml-linter@v1.3.0
       with:
         wesnoth-version: ${{ env.WESNOTH_VERSION }}
     - name: Verify images
