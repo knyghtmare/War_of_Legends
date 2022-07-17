@@ -3,7 +3,7 @@ name: lint
 on: [push, pull_request]
 
 env:
-  WESNOTH_VERSION: 1.17.6
+  WESNOTH_VERSION: 1.17.5
 
 jobs:
   lint:
@@ -13,11 +13,12 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: Lint WML
-      uses: czyzby/wesnoth-wml-linter@latest
+      uses: czyzby/wesnoth-wml-linter@v1
       with:
         wesnoth-version: ${{ env.WESNOTH_VERSION }}
+        spellcheck: true
     - name: Verify images
-      uses: czyzby/wesnoth-png-optimizer@latest
+      uses: czyzby/wesnoth-png-optimizer@v1
       with:
         wesnoth-version: ${{ env.WESNOTH_VERSION }}
         threshold: 5
