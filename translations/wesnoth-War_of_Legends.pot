@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-07-01 00:30 UTC\n"
+"POT-Creation-Date: 2022-07-18 19:28 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -493,8 +493,6 @@ msgstr ""
 #: War_of_Legends/units/minotaurs/Boar_Cataphract.cfg:54
 #: War_of_Legends/units/minotaurs/Boar_Knight.cfg:53
 #: War_of_Legends/units/minotaurs/Boar_Rider.cfg:36
-#: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:46
-#: War_of_Legends/units/undead/Skeleton_Rider.cfg:44
 msgid "trample"
 msgstr ""
 
@@ -1528,9 +1526,9 @@ msgid "deplete"
 msgstr ""
 
 #. [heals_on_hit]: id=deplete
-#: War_of_Legends/macros/weapon-specials.cfg:150
 #: War_of_Legends/macros/weapon-specials.cfg:151
-msgid "Consumes {AMT} HP upon a successful hit during attacking."
+#: War_of_Legends/macros/weapon-specials.cfg:152
+msgid "Consumes some HP upon a successful hit during attacking."
 msgstr ""
 
 #: War_of_Legends/macros/wol-legends-artifacts.cfg:15
@@ -2819,7 +2817,6 @@ msgstr ""
 #: War_of_Legends/units/human-legion/Crossbowman.cfg:46
 #: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:35
 #: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:47
-#: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:57
 #: War_of_Legends/units/undead/Skele_Death_Baron.cfg:62
 msgid "crossbow"
 msgstr ""
@@ -4205,9 +4202,7 @@ msgstr ""
 #: War_of_Legends/units/human-outlaws/Axemaster.cfg:22
 #: War_of_Legends/units/human-outlaws/Axethrower.cfg:22
 #: War_of_Legends/units/minotaurs/Gore.cfg:27
-#: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:36
 #: War_of_Legends/units/undead/Skele_Death_Baron.cfg:53
-#: War_of_Legends/units/undead/Skeleton_Rider.cfg:34
 #: War_of_Legends/units/vampires/Blood_Hulk.cfg:32
 msgid "axe"
 msgstr ""
@@ -6130,16 +6125,6 @@ msgstr ""
 msgid "After too much time dabbling with forbidden magics and dark arts, these magi have begun to pay a heavy price. Lich Lords have started losing their bodies, becoming undead themselves. With time, they may become fully undead, and feared by all alike."
 msgstr ""
 
-#. [unit_type]: id=Bone Knight, race=undead
-#: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:5
-msgid "Bone Knight"
-msgstr ""
-
-#. [unit_type]: id=Bone Knight, race=undead
-#: War_of_Legends/units/undead/Skele_Bone_Knight.cfg:26
-msgid "Once great warriors across the plains, these mounted riders atop their skeletal horses were raised from the ground by unholy magic to spread fear and destruction."
-msgstr ""
-
 #. [unit_type]: id=Dark Invader, race=undead
 #: War_of_Legends/units/undead/Skele_Dark_Invader.cfg:5
 msgid "Dark Invader"
@@ -6175,16 +6160,6 @@ msgstr ""
 #. [unit_type]: id=Death Baron, race=undead
 #: War_of_Legends/units/undead/Skele_Death_Baron.cfg:46
 msgid "Sometimes the mightiest warriors and generals, cursed with hate and angst, come back to this world as Death Knights. Death Barons serve them whilst accruing enough unholy power to become Death Knights. In the process they pick up a good deal of the Knight's power, including the ability to command underlings."
-msgstr ""
-
-#. [unit_type]: id=Skeleton Rider, race=undead
-#: War_of_Legends/units/undead/Skeleton_Rider.cfg:5
-msgid "Skeleton Rider"
-msgstr ""
-
-#. [unit_type]: id=Skeleton Rider, race=undead
-#: War_of_Legends/units/undead/Skeleton_Rider.cfg:25
-msgid "Once great warriors thundering across the plains, these mounted riders atop their skeletal horses were raised from the grave by unholy magic to spread fear and destruction."
 msgstr ""
 
 #. [unit_type]: id=Shadowback, race=undead
