@@ -16,7 +16,7 @@ jobs:
       uses: czyzby/wesnoth-wml-linter@v1
       with:
         wesnoth-version: ${{ env.WESNOTH_VERSION }}
-        spellcheck: true
+        spellcheck: false
     - name: Verify images
       uses: czyzby/wesnoth-png-optimizer@v1
       with:
