@@ -3,7 +3,7 @@ name: lint
 on: [push, pull_request]
 
 env:
-  WESNOTH_VERSION: 1.17.5
+  WESNOTH_VERSION: 1.17.6
 
 jobs:
   lint:
@@ -17,14 +17,14 @@ jobs:
       with:
         wesnoth-version: ${{ env.WESNOTH_VERSION }}
         spellcheck: false
-    - name: Verify resources scope
-      uses: czyzby/wesnoth-wml-scope@v1
-      if: always()
-      with:
-        wesnoth-version: ${{ env.WESNOTH_VERSION }}
-    - name: Verify images
-      uses: czyzby/wesnoth-png-optimizer@v1
-      if: always()
-      with:
-        wesnoth-version: ${{ env.WESNOTH_VERSION }}
-        threshold: 5
+    #- name: Verify resources scope
+    #  uses: czyzby/wesnoth-wml-scope@v1
+    #  if: always()
+    #  with:
+    #    wesnoth-version: ${{ env.WESNOTH_VERSION }}
+    #- name: Verify images
+    #  uses: czyzby/wesnoth-png-optimizer@v1
+    #  if: always()
+    #  with:
+    #    wesnoth-version: ${{ env.WESNOTH_VERSION }}
+    #    threshold: 5
