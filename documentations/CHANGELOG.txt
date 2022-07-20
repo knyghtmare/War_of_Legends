@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.7.17
+Change-Log v1.2.7.18
+
+version 1.2.7.18
+--> Aragwaithi:
+   --> Greatbow: ranged -marksman, +precision
 
 version 1.2.7.17 (1.17.x only):
 --> Undead:
