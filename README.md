@@ -7,6 +7,7 @@ This add-on is a multiplayer era featuring my favourite factions.
 
 ![Master Branch](https://github.com/knyghtmare/War_of_Legends/blob/master/.github/workflows/lint.yml/badge.svg?branch=master)
 ![example branch parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?branch=feature-1)
+![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
 ## Current Faction Line-Up:
 1. Aragwaithi
