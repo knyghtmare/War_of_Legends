@@ -7,6 +7,25 @@ version 1.2.7.18
 --> Legends Conquest:
    --> Bind all Legends Conquest mods to mainline World Conquest
    --> Will hopefully resolve the OOS fiasco with it
+--> Deep Elves:
+   --> Wisp: +2 melee damage
+   --> Forgotten Minotaur: 16-1 -> 9-2
+   --> Black Tyrhai: 14-1 -> 11-2
+   --> Shadow Tyrhai: 19-1 -> 14-2
+   --> Tyrhai Rider: 9-1 -> 7-2
+   --> Tyrhai Cavalry: 10-3 -> 9-4, 12-1 -> 9-2
+   --> Vengeance: +1 melee damage
+   --> Predator: +2 melee damage
+   --> Lightborn: -3 cost
+   --> Elthare: melee type: blade -> energy
+   --> Phade: -1 melee damage, +1 ranged damage
+   --> Irr: +1 ranged damage
+   --> Seer: +12 ranged damage. melee: 9-2 -> 7-3
+   --> Baroness: +4 ranged damage
+   --> Night Stalker: +1 melee damage
+   --> Night Maiden: +1 melee damage, 10-1 ranged pierce eagle-eye
+   --> Vault Lurker: 12-1 ranged pierce
+   --> Priestess: ranged damage converted from arcane to electric
 
 version 1.2.7.17 (1.17.x only):
 --> Undead:
