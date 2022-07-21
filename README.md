@@ -5,10 +5,6 @@ This add-on is a multiplayer era featuring my favourite factions.
 
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
-![Master Branch](https://github.com/knyghtmare/War_of_Legends/blob/master/.github/workflows/lint.yml/badge.svg?branch=master)
-![example branch parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?branch=feature-1)
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
-
 ## Current Faction Line-Up:
 1. Aragwaithi
 2. Vampires
