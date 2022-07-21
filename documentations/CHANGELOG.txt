@@ -1,5 +1,17 @@
 War of Legends
-Change-Log v1.2.7.16
+Change-Log v1.2.7.18
+
+version 1.2.7.18
+--> Aragwaithi:
+   --> Greatbow: ranged -marksman, +precision
+--> Legends Conquest:
+   --> Bind all Legends Conquest mods to mainline World Conquest
+   --> Will hopefully resolve the OOS fiasco with it
+
+version 1.2.7.17 (1.17.x only):
+--> Undead:
+   --> Removed Skeleton Rider and Bone Knight
+      --> They are now part of the mainline core units.
 
 version 1.2.7.16:
 --> Move the faction flag mod to its own addon
