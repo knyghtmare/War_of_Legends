@@ -3,6 +3,13 @@
 The War of Legends is an add-on for the [Battle for Wesnoth](https://www.wesnoth.org), a turn-based strategy game.
 This add-on is a multiplayer era featuring my favourite factions.
 
+[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+
+|Branch|Lint Status|
+|------|---------|
+|1.17-branch/master|[![CI](https://github.com/knyghtmare/War_of_Legends/blob/master/.github/workflows/lint.yml/badge.svg)](https://github.com/knyghtmare/War_of_Legends/blob/master/.github/workflows/lint.yml)|
+|1.16-branch/stable|[![CI](https://github.com/knyghtmare/War_of_Legends/blob/wesnoth-1.16-branch/.github/workflows/lint.yml/badge.svg)](https://github.com/knyghtmare/War_of_Legends/blob/wesnoth-1.16-branch/.github/workflows/lint.yml)|
+
 ## Current Faction Line-Up:
 1. Aragwaithi
 2. Vampires
