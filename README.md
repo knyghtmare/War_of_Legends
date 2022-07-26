@@ -59,6 +59,9 @@ Note for _Cataclysm_ and _Blades of Steel_ the links go to private repositories 
 ### By [James_the_Invisible](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=132573):
 1. [Saga of James](https://github.com/irdyansages/Saga_of_James) (WIP)
 
+### By [hopelight](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=237206)
+1. [Knights of the Silver Spire](https://forums.wesnoth.org/viewtopic.php?t=56104)
+
 ## Installing '**War of Legends**'
 --------------------------------------------------------------------------------
 Released versions of War of Legends should be installed from Battle for Wesnoth’s
