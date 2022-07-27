@@ -3,7 +3,7 @@ name: Text Typos or Improvements
 about: Any typo fixes or improvement suggestions for campaign dialog, unit descriptions,
   or other game text.
 title: ''
-labels: Prose
+labels: 'Text'
 assignees: ''
 
 ---
