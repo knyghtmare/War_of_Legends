@@ -1,5 +1,14 @@
 War of Legends
-Change-Log v1.2.7.18
+Change-Log v1.2.7.19
+
+version 1.2.7.19
+--> Minotaurs:
+   --> Gore-line: -regenerates+8, +regenerates+4
+   --> Cutthroat-line: -regenerates+8, +regenerates+4
+   --> Behemoth-line: -regenerates+8, +regenerates+4
+   --> Boar Rider-line: -regenerates+8, +regenerates+4
+   --> Shaman-line: -regenerates+8, +regenerates+4
+      --> Mystic left untouched
 
 version 1.2.7.18
 --> Aragwaithi:
