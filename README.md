@@ -64,6 +64,9 @@ Note for _Cataclysm_ and _Blades of Steel_ the links go to private repositories 
 ### By [hopelight](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=237206)
 1. [Knights of the Silver Spire](https://forums.wesnoth.org/viewtopic.php?t=56104)
 
+### By `Ryan#2161`:
+1. [Migration of Aragwaithi](https://forums.wesnoth.org/viewtopic.php?t=56248)
+
 ## Installing '**War of Legends**'
 --------------------------------------------------------------------------------
 Released versions of War of Legends should be installed from Battle for Wesnoth’s
