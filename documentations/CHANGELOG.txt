@@ -4,7 +4,9 @@ Change-Log v1.2.7.20
 version 1.2.7.20:
 --> Quenoth:
    --> Quenoth Shyde and Sun Sylph can move over deep water now.
-      --> movement cost has been set to 2 MP and defense is 30% 
+      --> movement cost has been set to 2 MP and defense is 30%
+--> Monsters:
+   --> Add missing attack icon for monster crab
 
 version 1.2.7.19
 --> Minotaurs:
