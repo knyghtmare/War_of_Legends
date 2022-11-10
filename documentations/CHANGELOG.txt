@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.7.20
+Change-Log v1.2.7.21
+
+version 1.2.7.21:
+--> Re-add inventory system
+   --> Kind of requires an external dependency to use for the items 
 
 version 1.2.7.20:
 --> Quenoth:
