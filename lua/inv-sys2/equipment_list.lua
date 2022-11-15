@@ -10,6 +10,7 @@ equipment_list.the_list = the_list
 equipment_list.list_by_name = {}
 equipment_list.list_usage = list_usage
 
+-- general/all
 table.insert(list_usage, {
     types = {
     "Walking Corpse", "Soulless", "Skeleton",
@@ -61,6 +62,7 @@ table.insert(list_usage, {
     },
     usage = "all"
 })
+-- orcish
 table.insert(list_usage, {
     types = {"Orcish Serf", "Orcish Foreman", "Orcish Slinger", "Orcish Hunter", "Orcish Stalker", "Orcish Drifter", "Orcish Wanderer", "Orcish Vagrant", "Orcish Traveler",  
     "Orcish Overseer", "Orcish Fireline", "Orcish Firebreather", "Orcish Grunt", "Orcish Warrior", "Orcish Warrior2", "Orcish Warlord", "Orcish Archer", "Orcish Crossbowman", "Orcish Raider", "Orcish Terror", 
@@ -68,6 +70,7 @@ table.insert(list_usage, {
     "Orcish Slurbow", "Orcish Rider", "Orcish Cavalry", "Orcish Destrier", "Hrala"},
     usage = "orcish"
 })
+-- amulet
 table.insert(list_usage, {
     types = {"Ukian Runner", "Ukian Courrier", "Ukian Commando", "Orcish Slinger", "Orcish Hunter", "Orcish Stalker", "Orcish Drifter", "Orcish Wanderer", "Orcish Vagrant", "Orcish Traveler", "Ukian Seeress", "Ukian Witch", 
     "Orcish Cleverman", "Orcish RimeRunner", "Orcish SnowWalker", "Orcish IceStalker", "Orcish Assassin", "Orcish Slayer", "Orcish Slayer2",
@@ -82,6 +85,7 @@ table.insert(list_usage, {
     "Ukian Archer", "Ukian Hawkeye", "Ukian Deadeye", "Raenna", "Bad Raenna", "Orcish Archer", "Orcish Crossbowman", "Orcish Slurbow", "Hrala"},
     usage = "amulet"
 })
+-- light armour
 table.insert(list_usage, {
     types = {"Ukian Regular", "Ukian Veteran", "Ukian Signalman", "Ukian Subcommander", "Ukian Commander", "Ukian Flareman", "Ukian Officer", "Belleros", "Belleros_Officer", "Orcish Serf", "Orcish Foreman", 
     "Primevalist Fighter", "Primevalist Fanatic", "Primevalist Shield", "Primevalist Shield_High", "Primevalist Leader",
@@ -112,6 +116,7 @@ table.insert(list_usage, {
     },
     usage = "light_armor"
 })
+-- heavy armour
 table.insert(list_usage, {
     types = {"Ukian Veteran", "Ukian Signalman", "Ukian Subcommander", "Ukian Commander", "Ukian Flareman", "Ukian Officer", "Belleros", "Belleros_Officer", "Orcish Foreman", 
     "Northern Soldier", "Northern Fighter", "Northern Ranger", "Northern Elite",
@@ -125,6 +130,7 @@ table.insert(list_usage, {
     "Royal Guard", "Halberdier","Huric"},
     usage = "heavy_armor"
 })
+-- shield
 table.insert(list_usage, {
     types = {"Ukian Regular", "Ukian Veteran", "Ukian Subcommander", "Ukian Commander", "Ukian Officer", "Belleros", "Belleros_Officer", 
     "Primevalist Shield", "Primevalist Shield_High",
@@ -137,6 +143,7 @@ table.insert(list_usage, {
     "Phantom Spearman", "Phantom Soldier", "Phantom Officer", "Phantom Master"},
     usage = "shield"
 })
+-- bow/longbow
 table.insert(list_usage, {
     types = {
     "Ukian Archer", "Ukian Hawkeye", "Ukian Deadeye", "Raenna", 
@@ -148,6 +155,7 @@ table.insert(list_usage, {
     "Bowman", "Longbowman", "Master Bowman"},
     usage = "bow"
 })
+-- sword
 table.insert(list_usage, {
     types = {"Ukian Subcommander", "Ukian Commander", "Ukian Officer", "Belleros", "Belleros_Officer", "Orcish Grunt", "Orcish Warrior", "Orcish Warlord", "Ukian Hawkeye", "Ukian Deadeye", "Raenna", "Orcish Crossbowman", 
     "Primevalist Fighter", "Primevalist Fanatic", "Primevalist Shield", "Primevalist Shield_High", "Primevalist Leader",
@@ -157,6 +165,7 @@ table.insert(list_usage, {
     "Carusoe", "Carusoe2", "Bad Raenna", "Huric"},
     usage = "sword"
 })
+-- axe
 table.insert(list_usage, {
     types = {"Dwarvish Fighter", "Dwarvish Steelclad", "Dwarvish Lord",
     "Dwarvish Scout", "Dwarvish Pathfinder", "Dwarvish Explorer",
@@ -164,6 +173,7 @@ table.insert(list_usage, {
     "Deathblade"},
     usage = "axe"
 })
+-- spear
 table.insert(list_usage, {
     types = {"Horseman", "Spearman", "Javelineer",
     "Pikeman", "Halberdier",
@@ -175,12 +185,14 @@ table.insert(list_usage, {
     "Saurian Spearthrower", "Saurian Javelineer"},
     usage = "spear"
 })
+-- wolf types
 table.insert(list_usage, {
     types = {"Wolf Rider", "Goblin Knight", "Goblin Pillager", "Direwolf Rider", 
     "Goblin Cavalry", "Goblin Lancer", "Hellwolf Rider"
     },
     usage = "dog"
 })
+-- ghost/spectral type
 table.insert(list_usage, {
     types = {"Ghost","Wraith","Shadow",
     "Spectre","Nightgaunt","Shadowback"},
