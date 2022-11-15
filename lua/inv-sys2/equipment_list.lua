@@ -158,21 +158,21 @@ table.insert(list_usage, {
     usage = "sword"
 })
 table.insert(list_usage, {
-    types = {"Ukian Signalman", "Ukian Flareman", "Orcish Serf", "Orcish Foreman", 
-    "Primeval Dogface", "Primeval Warrior", "Primeval Titan",
+    types = {"Dwarvish Fighter", "Dwarvish Steelclad", "Dwarvish Lord",
+    "Dwarvish Scout", "Dwarvish Pathfinder", "Dwarvish Explorer",
     "Skeleton", "Revenant", "Draug", "Death Knight",
-    "Altos",
-    "Orcish Overseer", "Orcish Fireline", "Orcish Firebreather", "Great Orc"},
+    "Deathblade"},
     usage = "axe"
 })
 table.insert(list_usage, {
-    types = {"Ukian Regular", "Ukian Veteran", "Ukian Runner", "Ukian Courrier", "Ukian Commando",
-    "Spearman", "Javelineer", "Pikeman", "Halberdier", 
-    "Carusoe", "Carusoe2", 
-    "Scarrion_Spearman",
-    "Archaic_Goblin", "Frost Goblin", "Goblin Impaler",
-    "Rat Rider", "Rat Lancer", "Rat Dragoon",
-    "Orcish SnowWalker", "Orcish IceStalker"},
+    types = {"Horseman", "Spearman", "Javelineer",
+    "Pikeman", "Halberdier",
+    "Drake Clasher", "Drake Thrasher", "Drake Enforcer",
+    "Goblin Spearman", "Goblin Rouser", "Goblin Impaler",
+    "Goblin Trumpeter", "Goblin Chieftain",
+    "Merman Hunter", "Merman Spearman", "Merman Javelineer",
+    "Saurian Skirmisher", "Saurian Ambusher", "Saurian Flanker",
+    "Saurian Spearthrower", "Saurian Javelineer"},
     usage = "spear"
 })
 table.insert(list_usage, {
