@@ -176,15 +176,14 @@ table.insert(list_usage, {
     usage = "spear"
 })
 table.insert(list_usage, {
-    types = {"Farm Dog", "Ukian Dog", "Ukian Harrier", "Ukian War Hound", "Ukian Attack Dog", 
-    "Wolf Rider", "Goblin Knight", "Goblin Pillager", "Direwolf Rider", 
-    "Hunting_Hound", 
-    "Snow Wolf Rider", "Frost Wolf Rider", "Ice Wolf Rider"
+    types = {"Wolf Rider", "Goblin Knight", "Goblin Pillager", "Direwolf Rider", 
+    "Goblin Cavalry", "Goblin Lancer", "Hellwolf Rider"
     },
     usage = "dog"
 })
 table.insert(list_usage, {
-    types = {"Phantom Cloak", "Phantom Shadow", "Phantom Master", "Phantom Rider", "Phantom Horseman", "Phantom Dullohan", "Phantom Slayer", "Phantom Spearman", "Phantom Soldier", "Phantom Officer", "Phantom Knight", "Phantom Queen", "Phantom King"},
+    types = {"Ghost","Wraith","Shadow",
+    "Spectre","Nightgaunt","Shadowback"},
     usage = "despair"
 })
 
