@@ -64,10 +64,12 @@ table.insert(list_usage, {
 })
 -- orcish
 table.insert(list_usage, {
-    types = {"Orcish Serf", "Orcish Foreman", "Orcish Slinger", "Orcish Hunter", "Orcish Stalker", "Orcish Drifter", "Orcish Wanderer", "Orcish Vagrant", "Orcish Traveler",  
-    "Orcish Overseer", "Orcish Fireline", "Orcish Firebreather", "Orcish Grunt", "Orcish Warrior", "Orcish Warrior2", "Orcish Warlord", "Orcish Archer", "Orcish Crossbowman", "Orcish Raider", "Orcish Terror", 
-    "Orcish Cleverman", "Orcish RimeRunner", "Great Orc", "Orcish Juggernaught",
-    "Orcish Slurbow", "Orcish Rider", "Orcish Cavalry", "Orcish Destrier", "Hrala"},
+    types = {"Orcish Grunt", "Orcish Warrior", "Orcish Warlord",
+    "Orcish High Warlord",
+    "Orcish Archer", "Orcish Crossbowman", "Orcish Slurbow",
+    "Orcish Marauder", "Orcish Subjugator", 
+    "Orcish Leader", "Orcish Ruler", "Orcish Sovereign",
+    "Orcish Assassin", "Orcish Slayer", "Orcish Nightblade"},
     usage = "orcish"
 })
 -- amulet
@@ -146,23 +148,28 @@ table.insert(list_usage, {
 -- bow/longbow
 table.insert(list_usage, {
     types = {
-    "Ukian Archer", "Ukian Hawkeye", "Ukian Deadeye", "Raenna", 
+    "Aragwaith Archer", "Archer Strongbow", "Archer Greatbow",
+    "Aragwaith Slayer", 
     "Orcish Archer", "Orcish Crossbowman", "Orcish Slurbow",
     "Skeleton Archer", "Bone Shooter", "Banebow",
     "Elvish Scout", "Elvish Rider", "Elvish Outrider",
     "Elvish Archer", "Elvish Avenger", "Elvish Ranger", "Elvish Marksman", "Elvish Sharpshooter",
-    "Therion",
     "Bowman", "Longbowman", "Master Bowman"},
     usage = "bow"
 })
 -- sword
 table.insert(list_usage, {
-    types = {"Ukian Subcommander", "Ukian Commander", "Ukian Officer", "Belleros", "Belleros_Officer", "Orcish Grunt", "Orcish Warrior", "Orcish Warlord", "Ukian Hawkeye", "Ukian Deadeye", "Raenna", "Orcish Crossbowman", 
-    "Primevalist Fighter", "Primevalist Fanatic", "Primevalist Shield", "Primevalist Shield_High", "Primevalist Leader",
-    "Orcish Slurbow", "Orcish Rider", "Orcish Cavalry", "Orcish Destrier", "Great Orc",
-    "Northern Soldier", "Northern Fighter", "Northern Ranger", "Northern Elite",
-    "Elvish Fighter", "Elvish Hero", "Elvish Champion", "Elvish Captain", "Elvish Marshal",
-    "Carusoe", "Carusoe2", "Bad Raenna", "Huric"},
+    types = {"Infanryman", "Swordsman", "Royal Guard",
+    "Chevalier", "Crusader",
+    "Sergeant", "Lieutenant", "General", "Grand Marshal",
+    "Knight", "Grand Knight", "Paladin",
+    "Orcish Leader", "Orcish Ruler", "Orcish Sovereign", 
+    "Orcish Grunt", "Orcish Warrior",
+    "Orcish Warlord", "Orcish High Warlord", "Orcish Crossbowman", 
+    "Orcish Slurbow",
+    "Elvish Fighter", "Elvish Hero", "Elvish Champion",
+    "Elvish Captain", "Elvish Marshal",
+    "Elvish Hunter", "Elvish Trapper", "Elvish Prowler"},
     usage = "sword"
 })
 -- axe
