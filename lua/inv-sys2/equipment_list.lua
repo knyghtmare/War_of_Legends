@@ -163,12 +163,14 @@ table.insert(list_usage, {
     "Chevalier", "Crusader",
     "Sergeant", "Lieutenant", "General", "Grand Marshal",
     "Knight", "Grand Knight", "Paladin",
+    "Cavalryman", "Dragoon", "Cavalier", 
     "Orcish Leader", "Orcish Ruler", "Orcish Sovereign", 
     "Orcish Grunt", "Orcish Warrior",
     "Orcish Warlord", "Orcish High Warlord", "Orcish Crossbowman", 
     "Orcish Slurbow",
     "Elvish Fighter", "Elvish Hero", "Elvish Champion",
     "Elvish Captain", "Elvish Marshal",
+    "Elvish Scout", "Elvish Rider", "Elvish Outrider",
     "Elvish Hunter", "Elvish Trapper", "Elvish Prowler"},
     usage = "sword"
 })
