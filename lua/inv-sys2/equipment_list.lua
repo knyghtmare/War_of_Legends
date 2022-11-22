@@ -176,7 +176,8 @@ table.insert(list_usage, {
 table.insert(list_usage, {
     types = {"Dwarvish Fighter", "Dwarvish Steelclad", "Dwarvish Lord",
     "Dwarvish Scout", "Dwarvish Pathfinder", "Dwarvish Explorer",
-    "Skeleton", "Revenant", "Draug", "Death Knight",
+    "Skeleton", "Revenant", "Draug", 
+    "Death Baron", "Death Knight",
     "Deathblade"},
     usage = "axe"
 })
@@ -184,6 +185,9 @@ table.insert(list_usage, {
 table.insert(list_usage, {
     types = {"Horseman", "Spearman", "Javelineer",
     "Pikeman", "Halberdier",
+    "Aragwaith Spearman", "Aragwaith Pikeman", "Aragwaith Guardian",
+    "Aragwaith Flagbearer", "Aragwaith Captain", "Aragwaith Ancient Banner",
+    "Aragwaith Scout", "Aragwaith Lancer", "Aragwaith Silver Shield",
     "Drake Clasher", "Drake Thrasher", "Drake Enforcer",
     "Goblin Spearman", "Goblin Rouser", "Goblin Impaler",
     "Goblin Trumpeter", "Goblin Chieftain",
