@@ -95,29 +95,22 @@ table.insert(list_usage, {
 })
 -- heavy armour
 table.insert(list_usage, {
-    types = {"Ukian Veteran", "Ukian Signalman", "Ukian Subcommander", "Ukian Commander", "Ukian Flareman", "Ukian Officer", "Belleros", "Belleros_Officer", "Orcish Foreman", 
-    "Northern Soldier", "Northern Fighter", "Northern Ranger", "Northern Elite",
-    "Horseman", "Lancer", "Knight", "Paladin", "Grand Knight", "Cavalryman", "Dragoon", "Cavalier",
-    "Orcish Overseer", "Orcish Fireline", "Orcish Firebreather", "Orcish Warrior", "Orcish Warrior2", "Orcish Warlord", "Orcish Rider", "Orcish Cavalry", "Orcish Destrier",
-    "Orcish SnowWalker", "Orcish IceStalker", "Great Orc", "Orcish FlameThrower",
+    types = { 
+    "Horseman", "Lancer", "Knight",
+    "Paladin", "Grand Knight", "Cavalryman",
+    "Dragoon", "Cavalier",
     "Heavy Infantryman","Shock Trooper","Iron Mauler",
-    "Primevalist Fanatic", "Primevalist Shield", "Primevalist Shield_High", "Primevalist Leader",
     "Revenant", "Draug", "Death Knight",
-    "Scarrion_Spearman", "Altos",
-    "Royal Guard", "Halberdier","Huric"},
+    "Royal Guard", "Halberdier"},
     usage = "heavy_armor"
 })
 -- shield
 table.insert(list_usage, {
-    types = {"Ukian Regular", "Ukian Veteran", "Ukian Subcommander", "Ukian Commander", "Ukian Officer", "Belleros", "Belleros_Officer", 
-    "Primevalist Shield", "Primevalist Shield_High",
-    "Orcish Foreman", "Orcish Overseer", "Huric", "Orcish Juggernaught", "Orcish FlameThrower",
+    types = {
     "Cavalryman", "Dragoon", "Cavalier",
-    "Northern Soldier", "Northern Fighter", "Northern Elite",
     "Revenant", "Draug",
-    "Scarrion_Spearman",
-    "Spearman", "Swordsman", "Royal Guard",
-    "Phantom Spearman", "Phantom Soldier", "Phantom Officer", "Phantom Master"},
+    "Spearman", "Swordsman", "Royal Guard"
+    },
     usage = "shield"
 })
 -- bow/longbow
