@@ -1,9 +1,19 @@
 War of Legends
 Change-Log v1.2.7.21
 
-version 1.2.7.21:
+version 1.2.7.21 (1.17):
 --> Re-add inventory system
-   --> Kind of requires an external dependency to use for the items 
+   --> Kind of requires an external dependency to use for the items
+--> Campaign Units:
+   --> Cavalry: +1 cost and typo fix in description
+--> WoL RPG Era:
+   --> Deep Elves: fix level 0 leader being assigned by random
+
+version 1.2.7.21 (1.16):
+--> Campaign Units:
+   --> Cavalry: +1 cost and typo fix in description
+--> WoL RPG Era:
+   --> Deep Elves: fix level 0 leader being assigned by random
 
 version 1.2.7.20:
 --> Quenoth:
