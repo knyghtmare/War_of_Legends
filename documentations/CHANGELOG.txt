@@ -8,6 +8,10 @@ version 1.2.7.21 (1.17):
    --> Cavalry: +1 cost and typo fix in description
 --> WoL RPG Era:
    --> Deep Elves: fix level 0 leader being assigned by random
+--> Elementals:
+   --> Fire Wisp: -abilities
+   --> it's a temp unit until replacement
+   --> since elementals will/might be mainlined (5532)
 
 version 1.2.7.21 (1.16):
 --> Campaign Units:
