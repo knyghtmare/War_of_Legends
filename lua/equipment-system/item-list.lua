@@ -142,6 +142,14 @@ modifiers = {
       name = "Augmented",
       hitpoints = 12,
     },
+    Ascended = {
+      name = "Ascended",
+      hitpoints = 18,
+    },
+    Legendary = {
+      name = "Legendary",
+      hitpoints = 24,
+    },
   },
 }
 
