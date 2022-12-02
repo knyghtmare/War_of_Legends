@@ -78,6 +78,10 @@ table.insert(list_usage, {
     "Horseman", "Lancer", "Knight",
     "Paladin", "Grand Knight", "Cavalryman",
     "Dragoon", "Cavalier",
+    "Aragwaith Flagbearer", "Aragwaith Captain", "Aragwaith Ancient Banner",
+    "Aragwaith Guard", "Aragwaith Shield Guard",
+    "Dwarvish Fighter", "Dwarvish Steelclad", "Dwarvish Lord",
+    "Dwarvish Guardsman", "Dwarvish Stalwart", "Dwarvish Sentinel",
     "Bowman", "Longbowman", "Master Bowman",
     "Orcish Archer", "Orcish Crossbowman", "Orcish Slurbow",
     "Elvish Scout", "Elvish Rider", "Elvish Outrider",
@@ -96,11 +100,17 @@ table.insert(list_usage, {
 -- heavy armour
 table.insert(list_usage, {
     types = { 
+    "Orcish Grunt", "Orcish Warrior", "Orcish Warlord", "Orcish High Warlord",
     "Horseman", "Lancer", "Knight",
     "Paladin", "Grand Knight", "Cavalryman",
     "Dragoon", "Cavalier",
+    "Aragwaith Flagbearer", "Aragwaith Captain", "Aragwaith Ancient Banner",
+    "Aragwaith Guard", "Aragwaith Shield Guard",
+    "Dwarvish Fighter", "Dwarvish Steelclad", "Dwarvish Lord",
+    "Dwarvish Guardsman", "Dwarvish Stalwart", "Dwarvish Sentinel",
     "Heavy Infantryman","Shock Trooper","Iron Mauler",
     "Revenant", "Draug", "Death Knight",
+    "General", "Grand Marshal",
     "Royal Guard", "Halberdier"},
     usage = "heavy_armor"
 })
@@ -109,6 +119,9 @@ table.insert(list_usage, {
     types = {
     "Cavalryman", "Dragoon", "Cavalier",
     "Revenant", "Draug",
+    "Aragwaith Guard", "Aragwaith Shield Guard",
+    "Dwarvish Fighter", "Dwarvish Steelclad", "Dwarvish Lord",
+    "Dwarvish Guardsman", "Dwarvish Stalwart", "Dwarvish Sentinel",
     "Spearman", "Swordsman", "Royal Guard"
     },
     usage = "shield"
@@ -131,6 +144,9 @@ table.insert(list_usage, {
     "Chevalier", "Crusader",
     "Sergeant", "Lieutenant", "General", "Grand Marshal",
     "Knight", "Grand Knight", "Paladin",
+    "Aragwaith Swordsman", "Aragwaith Guard", "Aragwaith Longswordsman",
+    "Aragwaith Swordsmaster", "Aragwaith Shield Guard",
+    "Aragwaith Flagbearer", "Aragwaith Captain","Aragwaith Ancient Banner",
     "Cavalryman", "Dragoon", "Cavalier", 
     "Orcish Leader", "Orcish Ruler", "Orcish Sovereign", 
     "Orcish Grunt", "Orcish Warrior",
@@ -168,7 +184,8 @@ table.insert(list_usage, {
 })
 -- wolf types
 table.insert(list_usage, {
-    types = {"Wolf Rider", "Goblin Knight", "Goblin Pillager", "Direwolf Rider", 
+    types = {"Wolf Rider", "Goblin Knight",
+    "Goblin Pillager", "Direwolf Rider", "Goblin Cutthroat",
     "Goblin Cavalry", "Goblin Lancer", "Hellwolf Rider"
     },
     usage = "dog"
