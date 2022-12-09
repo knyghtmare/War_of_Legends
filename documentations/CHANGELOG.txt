@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.7.21
+Change-Log v1.2.7.22
+
+version 1.2.7.22:
+--> Orcs RPG
+   --> Goblin Spearman no longer a random leader in faction
 
 version 1.2.7.21 (1.17):
 --> Re-add inventory system
