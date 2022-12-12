@@ -39,8 +39,11 @@ It is required as a dependency to play the following campaigns:
 7. [Cataclysm](https://github.com/knyghtmare/Cataclysm)
 8. [Blades of Steel](https://github.com/knyghtmare/Aragwaithi_of_the_West)
 9. **Legends Conquest** (built-in MP Modification Add-on)
-
-Note for _Cataclysm_ and _Blades of Steel_ the links go to private repositories in Github as they are in development currently.
+10. [Blackfire](https://github.com/knyghtmare/Blackfire)
+11. [Untitled Aragwaithi Campaign](https://github.com/knyghtmare/The_Settlers_of_Light)
+12. [Hordes of Darkness](https://github.com/knyghtmare/Hordes_of_Darkness)
+13. [The Kraken](https://github.com/knyghtmare/The_Kraken)
+14. [The Eight of Cembulad](https://github.com/knyghtmare/The_Eight_of_Cembulad)
 
 ### By [revansurik](https://github.com/revansurik):
 1. [A Song of the Wind](https://forums.wesnoth.org/viewtopic.php?p=662430#p662430)
