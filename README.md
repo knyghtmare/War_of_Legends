@@ -21,11 +21,11 @@ This add-on is a multiplayer era featuring my favourite factions.
 13. Northerners
 14. Undead
 15. Knalgan Alliance
+16. Nightmares of Meleon
 
 ## Extra Units (for Campaign usage):
 1. Elementals
-2. Nightmares of Meleon
-3. Monsters
+2. Monsters
 
 It is required as a dependency to play the following campaigns:
 ## War of Legends Campaign List:
