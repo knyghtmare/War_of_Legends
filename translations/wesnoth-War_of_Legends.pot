@@ -5792,12 +5792,12 @@ msgstr ""
 msgid "Some saurian warriors with a particularly good aim prefer to aid their allies from the back lines rather than to infiltrate the enemy formations. With some exceptional spear throwing skills, their role is to protect the fragile saurian spellcasters during countless battles, and to support other warriors from afar. Defensive formations of saurian spearwomen are not to be underestimated."
 msgstr ""
 
-#. [unit_type]: id=Saurian Warden, race=lizard
+#. [unit_type]: id=Saurian Javelineer, race=lizard
 #: War_of_Legends/units/saurians/Warden.cfg:4
-msgid "female^Saurian Warden"
+msgid "female^Saurian Javelineer"
 msgstr ""
 
-#. [unit_type]: id=Saurian Warden, race=lizard
+#. [unit_type]: id=Saurian Javelineer, race=lizard
 #: War_of_Legends/units/saurians/Warden.cfg:19
 msgid "Saurian warriors that excel in their combat abilities may advance to the role of wardens, which are responsible for keeping their fragile spellcasters alive during battles at all costs."
 msgstr ""
