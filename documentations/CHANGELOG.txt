@@ -269,7 +269,7 @@ version 1.2.6.11:
 
 version 1.2.6.10:
 --> Saurians: new units
-   --> Saurian Warden
+   --> Saurian Javelineer
    --> Saurian Seer
    --> updated existing units
 --> Minotaurs:
