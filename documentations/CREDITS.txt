@@ -90,7 +90,7 @@ A Whim of Fate:
 
 Talentless
 --> Saurian Spearthrower
---> Saurian Warden
+--> Saurian Javelineer
 --> Saurian Seer
 --> Saurian Prophet
 
