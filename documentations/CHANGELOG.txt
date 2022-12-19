@@ -4,6 +4,9 @@ Change-Log v1.2.7.23
 version 1.2.7.23:
 Quenoth Elves:
 --> Added missing undead variations for Quenoth Scout and the Tauroch Rider unit trees
+Nightmares:
+--> Made available for MP usage
+--> Added Vampire Bat recruits
 
 version 1.2.7.22:
 --> Orcs RPG
