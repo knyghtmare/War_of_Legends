@@ -33,7 +33,7 @@ W_DBG  = 4 -- Debug.
 
 local loglvl_map = { "error", "warning", "info", "debug" }
 
-local logprefix = "[Naia] "
+local logprefix = "[War of Legends] "
 
 local logdepth = 0
 
