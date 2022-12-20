@@ -4,12 +4,14 @@
 local cost_lvl_zero = 10 
 local cost_lvl_one = 15
 
-for _, unit in ipairs(wesnoth.get_recall_units {}) do
-    if unit.level == 0 then
-        unit.recall_cost = cost_lvl_zero
-    end
+function wesnoth.wml_actions.adjust_recall_costs(cfg)
+    for _, unit in ipairs(wesnoth.units.find_on_recall {}) do
+        if unit.level == 0 then
+            unit.recall_cost = cost_lvl_zero
+        end
 
-    if unit.level == 1 then
-        unit.recall_cost = cost_lvl_one
+        if unit.level == 1 then
+            unit.recall_cost = cost_lvl_one
+        end
     end
 end
