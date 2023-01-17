@@ -96,7 +96,11 @@ table.insert(list_usage, {
     "Skeleton", "Revenant", "Draug",
     "Death Baron", "Death Knight",
     "Skeleton Archer", "Bone Shooter", "Banebow",
-    "Thug","Bandit","Highwayman"
+    "Thief","Rogue","Assassin",
+    "Thug","Bandit","Highwayman",
+    "Poacher", "Trapper", "Huntsman", "Ranger",
+    "Footpad", "Outlaw", "Fugitive",
+    "Axethrower", "Axeman", "Axemaster"
     },
     usage = "light_armor"
 })
