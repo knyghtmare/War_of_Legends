@@ -38,6 +38,9 @@ table.insert(list_usage, {
     "Fencer","Duelist","Master at Arms",
     "Thief","Rogue","Assassin",
     "Thug","Bandit","Highwayman",
+    "Poacher", "Trapper", "Huntsman", "Ranger",
+    "Footpad", "Outlaw", "Fugitive",
+    "Axethrower", "Axeman", "Axemaster", 
     "Red Mage", "Arch Mage", "Silver Mage", "Great Mage", 
     "Elvish Scout", "Elvish Rider", "Elvish Outrider",
     "Elvish Shaman", "Elvish Druid", "Elvish Shyde",
@@ -134,7 +137,9 @@ table.insert(list_usage, {
     "Orcish Archer", "Orcish Crossbowman", "Orcish Slurbow",
     "Skeleton Archer", "Bone Shooter", "Banebow",
     "Elvish Scout", "Elvish Rider", "Elvish Outrider",
-    "Elvish Archer", "Elvish Avenger", "Elvish Ranger", "Elvish Marksman", "Elvish Sharpshooter",
+    "Elvish Archer", "Elvish Avenger", "Elvish Ranger",
+    "Elvish Marksman", "Elvish Sharpshooter",
+    "Poacher", "Trapper", "Huntsman", "Ranger",
     "Bowman", "Longbowman", "Master Bowman"},
     usage = "bow"
 })
@@ -162,6 +167,7 @@ table.insert(list_usage, {
 table.insert(list_usage, {
     types = {"Dwarvish Fighter", "Dwarvish Steelclad", "Dwarvish Lord",
     "Dwarvish Scout", "Dwarvish Pathfinder", "Dwarvish Explorer",
+    "Axethrower", "Axeman", "Axemaster",
     "Skeleton", "Revenant", "Draug", 
     "Death Baron", "Death Knight",
     "Deathblade"},
