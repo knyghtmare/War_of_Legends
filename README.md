@@ -48,9 +48,8 @@ It is required as a dependency to play the following campaigns:
 10. [Blackfire](https://github.com/knyghtmare/Blackfire)
 11. [Untitled Aragwaithi Campaign](https://github.com/knyghtmare/The_Settlers_of_Light)
 12. [Hordes of Darkness](https://github.com/knyghtmare/Hordes_of_Darkness)
-13. [The Kraken](https://github.com/knyghtmare/The_Kraken)
-14. [The Eight of Cembulad](https://github.com/knyghtmare/The_Eight_of_Cembulad)
-15. [War of Legends RPG Scenario Pack](https://github.com/knyghtmare/WoL_RPG_Pack)
+13. [The Eight of Cembulad](https://github.com/knyghtmare/The_Eight_of_Cembulad)
+14. [War of Legends RPG Scenario Pack](https://github.com/knyghtmare/WoL_RPG_Pack)
 
 ### By [revansurik](https://github.com/revansurik):
 1. [A Song of the Wind](https://forums.wesnoth.org/viewtopic.php?p=662430#p662430)
