@@ -1,4 +1,4 @@
---#textdomain wesnoth-NX-RPG
+--#textdomain wesnoth-War_of_Legends
 
 local buttons = {
 	close = 1;
