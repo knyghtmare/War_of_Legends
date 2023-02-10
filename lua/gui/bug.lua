@@ -1,4 +1,4 @@
--- #textdomain wesnoth-NX-RPG
+-- #textdomain wesnoth-War_of_Legends
 
 ---
 -- Displays an error message on a popup dialog.
@@ -33,7 +33,7 @@ function wml_actions.bug(cfg)
 
 	wesnoth.fire("wml_message", {
 		logger = "error",
-		message = "[NX] BUG: " .. log_notice
+		message = "[WoL] BUG: " .. log_notice
 	})
 
 	local function show_details()
@@ -61,8 +61,8 @@ function wml_actions.bug(cfg)
 	end
 
 	local function preshow()
-		-- #textdomain wesnoth-NX-RPG
-		local _ = wesnoth.textdomain "wesnoth-NX-RPG"
+		-- #textdomain wesnoth-War_of_Legends
+		local _ = wesnoth.textdomain "wesnoth-War_of_Legends"
 		local msg = _ "An inconsistency has been detected, and the scenario might not continue working as originally intended."
 		msg = msg .. "\n\n" .. _ "Please report this to the campaign maintainer!"
 
