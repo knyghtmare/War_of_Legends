@@ -1,4 +1,4 @@
---#textdomain wesnoth-NX-RPG
+--#textdomain wesnoth-War_of_Legends
 
 local dialog, data, page_count =
 	nxrequire 'gui/dialogs/help', nxrequire 'data/help'
@@ -9,7 +9,7 @@ local function select_topic()
 	if i > page_count then
 		wesnoth.fire("wml_message", {
 			logger = "error",
-			message = "[NX] BUG: invalid topic_list row number"
+			message = "[WoL] BUG: invalid topic_list row number"
 		})
 
 		return
