@@ -1,4 +1,4 @@
---#textdomain wesnoth-War_of_Legends
+--#textdomain wesnoth-NX-RPG
 
 ---
 -- This brings up a dialog when a unit moves to pick up an item.

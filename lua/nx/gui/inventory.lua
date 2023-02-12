@@ -1,4 +1,4 @@
---#textdomain wesnoth-War_of_Legends
+--#textdomain wesnoth-NX-RPG
 
 local dialogs = nxrequire "gui/dialogs/inv"
 local buttons = dialogs.buttons
@@ -89,7 +89,7 @@ function wml_actions.show_inventory(cfg)
 		if i > page_count or page_count == 0 then
 			wesnoth.fire("wml_message", {
 				logger = "error",
-				message = "[WoL] BUG: invalid inventory_list row number"
+				message = "[NX] BUG: invalid inventory_list row number"
 			})
 
 			return
@@ -223,3 +223,5 @@ function wml_actions.show_inventory(cfg)
 	end
 end
 
+-- Compatibility layer for save games. Remove in 0.5.5
+wml_actions.inventory_controller = wml_actions.show_inventory
