@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-07-18 19:28 UTC\n"
+"POT-Creation-Date: 2023-02-17 20:07 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,6 +51,11 @@ msgstr ""
 #. [era]: id=era_aragwaithi
 #: War_of_Legends/eras/Default_Era_Aragwaithi.cfg:5
 msgid "Default + Aragwaithi"
+msgstr ""
+
+#. [era]: id=era_nightmares
+#: War_of_Legends/eras/Default_Era_Nightmares.cfg:5
+msgid "Default + Nightmares of Meloen"
 msgstr ""
 
 #. [era]: id=era_quenoth
@@ -234,6 +239,15 @@ msgstr ""
 msgid "Minotaurs"
 msgstr ""
 
+#. [multiplayer_side]: id=Nightmares_EL, type=random
+#. [multiplayer_side]: id=Nightmares_RPG, type=random
+#. [multiplayer_side]: id=Nightmares_WOL, type=random
+#: War_of_Legends/factions/EL/Nightmares-EL.cfg:5
+#: War_of_Legends/factions/RPG/Nightmares-RPG.cfg:5
+#: War_of_Legends/factions/WOL/Nightmares-WOL.cfg:5
+msgid "Nightmares"
+msgstr ""
+
 #. [multiplayer_side]: id=Northerners_EL, type=random
 #. [multiplayer_side]: id=Northerners_RPG, type=random
 #. [multiplayer_side]: id=Northerners_WOL, type=random
@@ -324,6 +338,32 @@ msgstr ""
 msgid "Southerners"
 msgstr ""
 
+#. [lua]: postshow
+#: War_of_Legends/lua/gui_tags.lua:266
+msgid "Prompt"
+msgstr ""
+
+#. [lua]: postshow
+#: War_of_Legends/lua/gui_tags.lua:266
+#: War_of_Legends/lua/gui_tags.lua:435
+msgid "Error, return value :"
+msgstr ""
+
+#. [lua]: wml_actions.choice_box
+#: War_of_Legends/lua/gui_tags.lua:277
+msgid "OK"
+msgstr ""
+
+#. [lua]: wml_actions.choice_box
+#: War_of_Legends/lua/gui_tags.lua:286
+msgid "Cancel"
+msgstr ""
+
+#. [lua]: postshow
+#: War_of_Legends/lua/gui_tags.lua:435
+msgid "Choice box"
+msgstr ""
+
 #: War_of_Legends/lua/mechanics/passive_xp_gain.lua:20
 #: War_of_Legends/mods/campaigns/passive_xp_mod.cfg:51
 msgid "+%d XP"
@@ -366,12 +406,12 @@ msgstr ""
 
 #. [teleport]
 #: War_of_Legends/macros/abilities-deep-elves.cfg:6
-msgid "Teleports to nearby allied Priestresses, Matriarchs, Patronesses or Seers."
+msgid "Teleports to nearby allied Priestesses, Matriarchs, Patronesses or Seers."
 msgstr ""
 
 #. [teleport]
 #: War_of_Legends/macros/abilities-deep-elves.cfg:7
-msgid " This unit is able to teleport to nearby allied Priestresses, Matriarchs, Patronesses, Harbingers or Seers."
+msgid " This unit is able to teleport to nearby allied Priestesses, Matriarchs, Patronesses, Harbingers or Seers."
 msgstr ""
 
 #. [hunter]: id=hunter_pre
@@ -388,8 +428,8 @@ msgstr ""
 #. [damage]: id=hunter_adv
 #. [damage]: id=hunter_max
 #: War_of_Legends/macros/abilities-deep-elves.cfg:40
-#: War_of_Legends/macros/abilities-deep-elves.cfg:65
-#: War_of_Legends/macros/abilities-deep-elves.cfg:90
+#: War_of_Legends/macros/abilities-deep-elves.cfg:64
+#: War_of_Legends/macros/abilities-deep-elves.cfg:88
 msgid "hunting "
 msgstr ""
 
@@ -397,96 +437,95 @@ msgstr ""
 #. [damage]: id=hunter_adv
 #. [damage]: id=hunter_max
 #: War_of_Legends/macros/abilities-deep-elves.cfg:41
-#: War_of_Legends/macros/abilities-deep-elves.cfg:66
-#: War_of_Legends/macros/abilities-deep-elves.cfg:91
+#: War_of_Legends/macros/abilities-deep-elves.cfg:65
+#: War_of_Legends/macros/abilities-deep-elves.cfg:89
 msgid "This unit deals more damage on offense against "
 msgstr ""
 
 #. [wos]: id=will of shassagoth
-#: War_of_Legends/macros/abilities-deep-elves.cfg:115
+#: War_of_Legends/macros/abilities-deep-elves.cfg:112
 msgid "will of shassagoth"
 msgstr ""
 
 #. [wos]: id=will of shassagoth
-#: War_of_Legends/macros/abilities-deep-elves.cfg:116
+#: War_of_Legends/macros/abilities-deep-elves.cfg:113
 msgid "The attack gains +1 damage per killed unit."
 msgstr ""
 
 #. [wos]: id=will of shassagoth
-#: War_of_Legends/macros/abilities-deep-elves.cfg:117
+#: War_of_Legends/macros/abilities-deep-elves.cfg:114
 msgid " This unit is able to become stronger by killing enemy units."
 msgstr ""
 
 #. [attacks]: id=MINOTAUR_knockback
-#: War_of_Legends/macros/abilities-deep-elves.cfg:124
+#: War_of_Legends/macros/abilities-deep-elves.cfg:121
 msgid "knockback"
 msgstr ""
 
 #. [attacks]: id=MINOTAUR_knockback
-#: War_of_Legends/macros/abilities-deep-elves.cfg:125
-msgid "When a unit is hit with a knockback attack, it is immediately pushed back one hex away from the attacker. Units cannot be knocked back into an occupied hex, out of villages or onto terrain they normally could not move to. Only works on offense."
+#: War_of_Legends/macros/abilities-deep-elves.cfg:122
+msgid "When a unit is hit with a knockback attack, it is immediately pushed back one hex away from the attacker. Units cannot be knocked back into an occupied hex or onto terrain they normally could not move to. Only works on offense."
 msgstr ""
 
 #. [attacks]: id=MINOTAUR_knockback
-#: War_of_Legends/macros/abilities-deep-elves.cfg:126
+#: War_of_Legends/macros/abilities-deep-elves.cfg:123
 msgid " This unit is able to knockback enemy units."
 msgstr ""
 
 #. [line_damage]: id=line_damage
-#: War_of_Legends/macros/abilities-deep-elves.cfg:142
+#: War_of_Legends/macros/abilities-deep-elves.cfg:139
 msgid "This unit deals half damage to the unit that is standing behind the attacked unit."
 msgstr ""
 
 #. [line_damage]: id=line_damage
-#: War_of_Legends/macros/abilities-deep-elves.cfg:143
+#: War_of_Legends/macros/abilities-deep-elves.cfg:140
 msgid " This unit deals half damage to the unit that is standing behind the attacked unit."
 msgstr ""
 
 #. [idol_of_stone]: id=idol_of_stone
-#: War_of_Legends/macros/abilities-deep-elves.cfg:150
+#: War_of_Legends/macros/abilities-deep-elves.cfg:147
 msgid "lithic idol"
 msgstr ""
 
 #. [idol_of_stone]: id=idol_of_stone
-#: War_of_Legends/macros/abilities-deep-elves.cfg:151
+#: War_of_Legends/macros/abilities-deep-elves.cfg:148
 msgid "This unit turns to stone at day. It then regenerates +10 hitpoints per turn."
 msgstr ""
 
 #. [idol_of_stone]: id=idol_of_stone
-#: War_of_Legends/macros/abilities-deep-elves.cfg:152
+#: War_of_Legends/macros/abilities-deep-elves.cfg:149
 msgid " This unit turns to stone at day. It then regenerates +10 hitpoints per turn."
 msgstr ""
 
 #. [stardust]: id=stardust
-#: War_of_Legends/macros/abilities-deep-elves.cfg:159
+#: War_of_Legends/macros/abilities-deep-elves.cfg:156
 msgid "stardust"
 msgstr ""
 
 #. [stardust]: id=stardust
-#: War_of_Legends/macros/abilities-deep-elves.cfg:160
+#: War_of_Legends/macros/abilities-deep-elves.cfg:157
 msgid "This ability reduces the chance to be hit."
 msgstr ""
 
 #. [stardust]: id=stardust
-#: War_of_Legends/macros/abilities-deep-elves.cfg:161
+#: War_of_Legends/macros/abilities-deep-elves.cfg:158
 msgid " This unit has a reduced chance to be hit."
 msgstr ""
 
 #. [spurt]: id=spurt
-#: War_of_Legends/macros/abilities-deep-elves.cfg:199
+#: War_of_Legends/macros/abilities-deep-elves.cfg:193
 msgid "This unit regains movement points after an attack. Only works at night."
 msgstr ""
 
 #. [spurt]: id=spurt
-#: War_of_Legends/macros/abilities-deep-elves.cfg:200
+#: War_of_Legends/macros/abilities-deep-elves.cfg:194
 msgid " This unit is able to move again after a nightly attack."
 msgstr ""
 
 #. [attacks]: id=trample
 #. [attack]: type=impact
-#: War_of_Legends/macros/abilities-deep-elves.cfg:207
+#: War_of_Legends/macros/abilities-deep-elves.cfg:201
 #: War_of_Legends/units/elves-deep/Black_Tyrhai.cfg:38
-#: War_of_Legends/units/elves-deep/Shadow_Tyrhai.cfg:53
 #: War_of_Legends/units/elves-deep/Shadow_Tyrhai.cfg:43
 #: War_of_Legends/units/elves-deep/Tyrhai_Cavalry.cfg:49
 #: War_of_Legends/units/elves-deep/Tyrhai_Rider.cfg:34
@@ -497,12 +536,12 @@ msgid "trample"
 msgstr ""
 
 #. [attacks]: id=trample
-#: War_of_Legends/macros/abilities-deep-elves.cfg:208
+#: War_of_Legends/macros/abilities-deep-elves.cfg:202
 msgid "This unit ignores the retaliation of the enemy and overruns it."
 msgstr ""
 
 #. [attacks]: id=trample
-#: War_of_Legends/macros/abilities-deep-elves.cfg:212
+#: War_of_Legends/macros/abilities-deep-elves.cfg:206
 msgid " This unit is able to overrun an enemy. Whenever it attacks, it moves across the field of the defending unit."
 msgstr ""
 
@@ -517,6 +556,36 @@ msgstr ""
 msgid ""
 "This unit can hide in cave, and remain undetected by its enemies.\n"
 "Enemy units cannot see this unit while it is in cave, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
+msgstr ""
+
+#. [fire_infliction]: id=WOL_fire_infliction
+#: War_of_Legends/macros/abilities-elemental.cfg:33
+msgid "fire infliction"
+msgstr ""
+
+#. [fire_infliction]: id=WOL_fire_infliction
+#: War_of_Legends/macros/abilities-elemental.cfg:35
+msgid "When used offensively, inflicts fire status on the opponent for a single turn. Attacking the opponent again with another elemental attack type might trigger an elemental reaction."
+msgstr ""
+
+#. [cold_infliction]: id=WOL_cold_infliction
+#: War_of_Legends/macros/abilities-elemental.cfg:42
+msgid "cold infliction"
+msgstr ""
+
+#. [cold_infliction]: id=WOL_cold_infliction
+#: War_of_Legends/macros/abilities-elemental.cfg:44
+msgid "When used offensively, inflicts cold status on the opponent for a single turn. Attacking the opponent again with another elemental attack type might trigger an elemental reaction."
+msgstr ""
+
+#. [electric_infliction]: id=WOL_electric_infliction
+#: War_of_Legends/macros/abilities-elemental.cfg:51
+msgid "electric infliction"
+msgstr ""
+
+#. [electric_infliction]: id=WOL_electric_infliction
+#: War_of_Legends/macros/abilities-elemental.cfg:53
+msgid "When used offensively, inflicts electric status on the opponent for a single turn. Attacking the opponent again with another elemental attack type might trigger an elemental reaction."
 msgstr ""
 
 #. [leadership]: id=inspire
@@ -551,95 +620,95 @@ msgid ""
 "Any units adjacent to this unit will fight as if it were dusk when it is day, and as if it were night when it is dusk."
 msgstr ""
 
-#. [resistance]: id=protection
-#: War_of_Legends/macros/abilities-new.cfg:52
-msgid "protection"
+#. [illuminates]: id=obscure
+#: War_of_Legends/macros/abilities-new.cfg:39
+msgid "This unit darkens the surrounding area, making chaotic units fight better, and lawful units fight worse."
 msgstr ""
 
 #. [resistance]: id=protection
 #: War_of_Legends/macros/abilities-new.cfg:53
+msgid "protection"
+msgstr ""
+
+#. [resistance]: id=protection
+#: War_of_Legends/macros/abilities-new.cfg:54
 msgid "Adjacent units of lower level from this side receive a +20% bonus to all resistances (up to a maximum of 50%)."
 msgstr ""
 
 #. [leadership]: id=terror
-#: War_of_Legends/macros/abilities-new.cfg:75
+#: War_of_Legends/macros/abilities-new.cfg:76
 msgid "terror"
 msgstr ""
 
 #. [leadership]: id=terror
-#: War_of_Legends/macros/abilities-new.cfg:76
+#: War_of_Legends/macros/abilities-new.cfg:77
 msgid ""
 "This unit can frighten enemy units that are next to it, making them fight worse.\n"
 "Adjacent enemy units of lower level will do less damage in battle. When an enemy unit of lower level is adjacent and engages in combat, its attacks do 15% less damage times the difference in their levels + 15%."
 msgstr ""
 
 #. [special_note]
-#: War_of_Legends/macros/abilities-new.cfg:117
+#: War_of_Legends/macros/abilities-new.cfg:118
 msgid "This unit’s melee attack can overwhelm the defenses of enemies, preventing them from retaliating as effectively."
 msgstr ""
 
 #. [special_note]
-#: War_of_Legends/macros/abilities-new.cfg:123
+#: War_of_Legends/macros/abilities-new.cfg:124
 msgid "Groups of units of this type are able to shield each other in combat."
 msgstr ""
 
 #. [special_note]
-#: War_of_Legends/macros/abilities-new.cfg:129
+#: War_of_Legends/macros/abilities-new.cfg:130
 msgid "This unit can move either before or after attacking."
 msgstr ""
 
 #. [special_note]
-#: War_of_Legends/macros/abilities-new.cfg:135
+#: War_of_Legends/macros/abilities-new.cfg:136
 msgid "This unit can daze its enemies, reducing their accuracy and defense until they end a turn."
 msgstr ""
 
-#. [special_note]
-#: War_of_Legends/macros/abilities-new.cfg:141
-msgid "This unit is capable of distracting opponents, allowing allied units to trespass their Zones of Control and move unhindered around them."
-msgstr ""
-
 #. [dummy]: id=formation
-#: War_of_Legends/macros/abilities-new.cfg:166
+#: War_of_Legends/macros/abilities-new.cfg:161
 msgid "formation"
 msgstr ""
 
 #. [dummy]: id=formation
-#: War_of_Legends/macros/abilities-new.cfg:167
+#: War_of_Legends/macros/abilities-new.cfg:162
 msgid "female^formation"
 msgstr ""
 
 #. [dummy]: id=formation
-#: War_of_Legends/macros/abilities-new.cfg:168
+#: War_of_Legends/macros/abilities-new.cfg:163
 msgid "This unit gains a +10% bonus to defense when another unit with the same ability is adjacent to it. However, this cannot raise the unit’s defense above 70%."
 msgstr ""
 
 #. [dummy]: id=disengage
-#: War_of_Legends/macros/abilities-new.cfg:187
+#: War_of_Legends/macros/abilities-new.cfg:182
 msgid "disengage"
 msgstr ""
 
 #. [dummy]: id=disengage
-#: War_of_Legends/macros/abilities-new.cfg:188
+#: War_of_Legends/macros/abilities-new.cfg:183
 msgid "female^disengage"
 msgstr ""
 
 #. [dummy]: id=disengage
-#: War_of_Legends/macros/abilities-new.cfg:189
+#: War_of_Legends/macros/abilities-new.cfg:184
 msgid "If this unit doesn’t move before attacking, it will retain its movement points after the attack."
 msgstr ""
 
 #. [heals]: id=healing_12
-#: War_of_Legends/macros/abilities-new.cfg:198
+#: War_of_Legends/macros/abilities-new.cfg:193
 msgid "heals +12"
 msgstr ""
 
 #. [heals]: id=healing_12
-#: War_of_Legends/macros/abilities-new.cfg:199
+#: War_of_Legends/macros/abilities-new.cfg:194
 msgid "female^heals +12"
 msgstr ""
 
 #. [heals]: id=healing_12
-#: War_of_Legends/macros/abilities-new.cfg:200
+#: War_of_Legends/macros/abilities-new.cfg:195
 msgid ""
 "This unit combines herbal remedies with magic to heal units more quickly than is normally possible on the battlefield.\n"
 "A unit cared for by this healer may heal up to 12 HP per turn, or stop poison from taking effect for that turn.\n"
@@ -647,61 +716,61 @@ msgid ""
 msgstr ""
 
 #. [heals]: id=divine_aura
-#: War_of_Legends/macros/abilities-new.cfg:218
+#: War_of_Legends/macros/abilities-new.cfg:213
 msgid "divine aura"
 msgstr ""
 
 #. [heals]: id=divine_aura
-#: War_of_Legends/macros/abilities-new.cfg:219
+#: War_of_Legends/macros/abilities-new.cfg:214
 msgid "female^divine aura"
 msgstr ""
 
 #. [heals]: id=divine_aura
-#: War_of_Legends/macros/abilities-new.cfg:221
+#: War_of_Legends/macros/abilities-new.cfg:216
 msgid ""
 "Allows the unit to damage adjacent undead/vampire at the beginning of its side's turn. It cannot kill a unit, it can only lower its health to 1 HP.\n"
 "This ability lowers enemies' health by 8, ignoring any resistances or weaknesses of enemies, so it's very powerful against spirits."
 msgstr ""
 
 #. [special_note]
-#: War_of_Legends/macros/abilities-new.cfg:239
+#: War_of_Legends/macros/abilities-new.cfg:234
 msgid "This unit damages adjacent undead/vampire at the beginning of its side's turn. It cannot kill a unit, it can only lower its health to 1 HP"
 msgstr ""
 
 #. [dummy]: id=wol_radiance
-#: War_of_Legends/macros/abilities-new.cfg:246
+#: War_of_Legends/macros/abilities-new.cfg:241
 msgid "radiance"
 msgstr ""
 
 #. [dummy]: id=wol_radiance
 #. [special_note]
-#: War_of_Legends/macros/abilities-new.cfg:247
-#: War_of_Legends/macros/abilities-new.cfg:259
+#: War_of_Legends/macros/abilities-new.cfg:242
+#: War_of_Legends/macros/abilities-new.cfg:254
 msgid "This unit slows and deals 8 arcane damage all nearby enemy units on the start of every new turn."
 msgstr ""
 
 #. [dummy]: id=wol_death_cloud
-#: War_of_Legends/macros/abilities-new.cfg:303
+#: War_of_Legends/macros/abilities-new.cfg:298
 msgid "death cloud"
 msgstr ""
 
 #. [dummy]: id=wol_death_cloud
-#: War_of_Legends/macros/abilities-new.cfg:304
+#: War_of_Legends/macros/abilities-new.cfg:299
 msgid "This unit poisons all nearby enemy units on the start of every new turn."
 msgstr ""
 
 #. [heals]: id=heals_minotaur
-#: War_of_Legends/macros/abilities-new.cfg:349
+#: War_of_Legends/macros/abilities-new.cfg:344
 msgid "heals minotaur +4"
 msgstr ""
 
 #. [heals]: id=heals_minotaur
-#: War_of_Legends/macros/abilities-new.cfg:350
+#: War_of_Legends/macros/abilities-new.cfg:345
 msgid "female^heals minotaur +4"
 msgstr ""
 
 #. [heals]: id=heals_minotaur
-#: War_of_Legends/macros/abilities-new.cfg:351
+#: War_of_Legends/macros/abilities-new.cfg:346
 msgid "This unit combines herbal remedies with magic to heal units more quickly than is normally possible on the battlefield. A minotaur unit cared for by this healer may heal up to 12 HP per turn, or stop poison from taking effect for that turn. This ability will not cure an affected unit of poison, however, only delay its effect."
 msgstr ""
 
@@ -782,81 +851,88 @@ msgstr ""
 msgid "This unit negates enemy Zones of Control around itself for allied units (but not for itself)."
 msgstr ""
 
-#. [regenerate]: id=healing
-#: War_of_Legends/macros/abilities.cfg:186
-#: War_of_Legends/macros/abilities.cfg:188
-msgid "ice convalesence"
+#. [skirmisher]: id=distract
+#: War_of_Legends/macros/abilities.cfg:170
+msgid "This unit is capable of distracting opponents, allowing allied units to trespass their Zones of Control and move unhindered around them."
 msgstr ""
 
 #. [regenerate]: id=healing
 #: War_of_Legends/macros/abilities.cfg:187
 #: War_of_Legends/macros/abilities.cfg:189
-msgid "This unit will regenerate 5 HP if it is on snowy or icy terrain. The effects of poison will not be cured or prolonged."
+msgid "ice convalesence"
 msgstr ""
 
 #. [regenerate]: id=healing
-#: War_of_Legends/macros/abilities.cfg:203
-#: War_of_Legends/macros/abilities.cfg:205
-msgid "aquatic body"
+#: War_of_Legends/macros/abilities.cfg:188
+#: War_of_Legends/macros/abilities.cfg:190
+msgid "This unit will regenerate 5 HP if it is on snowy or icy terrain. The effects of poison will not be cured or prolonged."
 msgstr ""
 
 #. [regenerate]: id=healing
 #: War_of_Legends/macros/abilities.cfg:204
 #: War_of_Legends/macros/abilities.cfg:206
-msgid "This unit will regenerate 5 HP when in deep or shallow water."
+msgid "aquatic body"
 msgstr ""
 
 #. [regenerate]: id=healing
-#: War_of_Legends/macros/abilities.cfg:220
-#: War_of_Legends/macros/abilities.cfg:222
-msgid "sylvan revitalisation"
+#: War_of_Legends/macros/abilities.cfg:205
+#: War_of_Legends/macros/abilities.cfg:207
+msgid "This unit will regenerate 5 HP when in deep or shallow water."
 msgstr ""
 
 #. [regenerate]: id=healing
 #: War_of_Legends/macros/abilities.cfg:221
 #: War_of_Legends/macros/abilities.cfg:223
-msgid "This unit will regenerate 5 HP while in a vegetated area."
+msgid "sylvan revitalisation"
 msgstr ""
 
 #. [regenerate]: id=healing
-#: War_of_Legends/macros/abilities.cfg:237
-#: War_of_Legends/macros/abilities.cfg:239
-msgid "earth recuperation"
+#: War_of_Legends/macros/abilities.cfg:222
+#: War_of_Legends/macros/abilities.cfg:224
+msgid "This unit will regenerate 5 HP while in a vegetated area."
 msgstr ""
 
 #. [regenerate]: id=healing
 #: War_of_Legends/macros/abilities.cfg:238
 #: War_of_Legends/macros/abilities.cfg:240
+msgid "earth recuperation"
+msgstr ""
+
+#. [regenerate]: id=healing
+#: War_of_Legends/macros/abilities.cfg:239
+#: War_of_Legends/macros/abilities.cfg:241
 msgid "This unit will repair its body with the rocks found while in/on hills, caves, or mountains, thus recovering 5 HP in the process."
 msgstr ""
 
 #. [regenerate]: id=healing
-#: War_of_Legends/macros/abilities.cfg:254
+#: War_of_Legends/macros/abilities.cfg:255
 msgid "heat absorption"
 msgstr ""
 
 #. [regenerate]: id=healing
-#: War_of_Legends/macros/abilities.cfg:255
+#: War_of_Legends/macros/abilities.cfg:256
 msgid "This unit will absorb heat whenever it is on or floating above lava, thus recovering 5 HP. In addition, this unit will absorb heat from other warm terrain like sand."
 msgstr ""
 
 #. [regenerate]: id=healing
-#: War_of_Legends/macros/abilities.cfg:274
+#: War_of_Legends/macros/abilities.cfg:275
 msgid "aquatic regeneration"
 msgstr ""
 
 #. [regenerate]: id=healing
-#: War_of_Legends/macros/abilities.cfg:275
+#. [special_note]
+#: War_of_Legends/macros/abilities.cfg:276
+#: War_of_Legends/macros/special-notes.cfg:89
 msgid "This unit will recover 8 HP per turn when on aquatic terrain. If this unit is poisoned it will be cured of it instead."
 msgstr ""
 
 #. [hides]: id=gelid_incarnation_conceal
-#: War_of_Legends/macros/abilities.cfg:284
+#: War_of_Legends/macros/abilities.cfg:285
 msgid "gelid incarnation"
 msgstr ""
 
 #. [hides]: id=gelid_incarnation_conceal
-#: War_of_Legends/macros/abilities.cfg:285
+#: War_of_Legends/macros/abilities.cfg:286
 msgid ""
 "This unit will regenerate (but not unpoison) 4 HP per turn.\n"
 "\n"
@@ -864,51 +940,36 @@ msgid ""
 msgstr ""
 
 #. [regenerate]: id=healing
-#: War_of_Legends/macros/abilities.cfg:331
+#: War_of_Legends/macros/abilities.cfg:332
 msgid "terra resucitation"
 msgstr ""
 
 #. [regenerate]: id=healing
-#: War_of_Legends/macros/abilities.cfg:332
+#: War_of_Legends/macros/abilities.cfg:333
 msgid "The unit will heal itself 8 HP per turn on earthy or vegetated terrain. If it is poisoned, it will remove the poison instead of healing."
 msgstr ""
 
-#. [regenerate]: id=recovery
-#: War_of_Legends/macros/abilities.cfg:343
-msgid "recovery"
-msgstr ""
-
-#. [regenerate]: id=recovery
-#: War_of_Legends/macros/abilities.cfg:344
-msgid "female^recovery"
-msgstr ""
-
-#. [regenerate]: id=recovery
-#: War_of_Legends/macros/abilities.cfg:345
-msgid "The unit will heal itself 4 HP per turn. If it is poisoned, it will remove the poison instead of healing."
-msgstr ""
-
 #. [hides]: id=swamp_prowl
-#: War_of_Legends/macros/abilities.cfg:354
-#: War_of_Legends/macros/abilities.cfg:355
+#: War_of_Legends/macros/abilities.cfg:340
+#: War_of_Legends/macros/abilities.cfg:341
 msgid "swamp prowl"
 msgstr ""
 
 #. [hides]: id=swamp_prowl
-#: War_of_Legends/macros/abilities.cfg:356
-#: War_of_Legends/macros/abilities.cfg:359
+#: War_of_Legends/macros/abilities.cfg:342
+#: War_of_Legends/macros/abilities.cfg:345
 msgid ""
 "This unit can hide in swamps, and remain undetected by its enemies.\n"
 "\n"
 "Enemy units cannot see this unit while it is in a swamp hex, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
 msgstr ""
 
-#. [dummy]: id=WOL_terrain_link
+#. [terrain_link]: id=WOL_terrain_link
 #: War_of_Legends/macros/ability-terrain-link.cfg:6
 msgid "terrain link"
 msgstr ""
 
-#. [dummy]: id=WOL_terrain_link
+#. [terrain_link]: id=WOL_terrain_link
 #: War_of_Legends/macros/ability-terrain-link.cfg:8
 msgid "This unit mutates depending on the terrain you're moving on."
 msgstr ""
@@ -944,7 +1005,7 @@ msgid "Endurance: +10% Hitpoints, Max XP +80%"
 msgstr ""
 
 #. [set_menu_item]: id=amla_menu
-#: War_of_Legends/macros/amla.cfg:169
+#: War_of_Legends/macros/amla.cfg:171
 msgid "Unit Advancements"
 msgstr ""
 
@@ -992,194 +1053,164 @@ msgstr ""
 msgid "+1 melee damage, Max XP +20%"
 msgstr ""
 
-#. [dummy]: id=weapon_arcane_focus
+#. [arcane_focus]: id=weapon_arcane_focus
 #: War_of_Legends/macros/nightmare-utils.cfg:11
 #: War_of_Legends/macros/nightmare-utils.cfg:12
 msgid "arcane focus"
 msgstr ""
 
-#. [dummy]: id=weapon_arcane_focus
+#. [arcane_focus]: id=weapon_arcane_focus
 #: War_of_Legends/macros/nightmare-utils.cfg:13
 #: War_of_Legends/macros/nightmare-utils.cfg:14
 msgid "The opposite of arcane resistance is used for damage calculation. Thus, this attack is more efficient against most humans."
 msgstr ""
 
-#. [special_note]
-#: War_of_Legends/macros/nightmare-utils.cfg:79
+#. [arcane_focus]: id=weapon_arcane_focus
+#: War_of_Legends/macros/nightmare-utils.cfg:15
 msgid "Many creatures of the world of Wesnoth are partly animated through magic. They perceive the world with more than simply their reason and instinct and are consequently less affected by this sort of mental attack."
 msgstr ""
 
 #. [dummy]: id=weapon_special_jinx
-#: War_of_Legends/macros/nightmare-utils.cfg:89
-#: War_of_Legends/macros/nightmare-utils.cfg:91
+#: War_of_Legends/macros/nightmare-utils.cfg:84
+#: War_of_Legends/macros/nightmare-utils.cfg:86
 msgid "jinx"
 msgstr ""
 
 #. [dummy]: id=weapon_special_jinx
-#: War_of_Legends/macros/nightmare-utils.cfg:90
-#: War_of_Legends/macros/nightmare-utils.cfg:92
+#: War_of_Legends/macros/nightmare-utils.cfg:85
+#: War_of_Legends/macros/nightmare-utils.cfg:87
 msgid "female^jinx"
 msgstr ""
 
 #. [dummy]: id=weapon_special_jinx
-#: War_of_Legends/macros/nightmare-utils.cfg:93
-#: War_of_Legends/macros/nightmare-utils.cfg:94
+#: War_of_Legends/macros/nightmare-utils.cfg:88
+#: War_of_Legends/macros/nightmare-utils.cfg:89
 msgid "Curses the hit unit. The cursed unit gets a 15% defence penalty on every terrain until it ends a turn in a village. Does not affect undead, and the defence value can't go lower than 10%."
 msgstr ""
 
+#. [dummy]: id=weapon_special_jinx
+#: War_of_Legends/macros/nightmare-utils.cfg:90
+msgid "This unit can curse its enemies, reducing defense until they rest at a village."
+msgstr ""
+
 #. [dummy]: id=daze
-#: War_of_Legends/macros/nightmare-utils.cfg:103
+#: War_of_Legends/macros/nightmare-utils.cfg:99
 msgid "daze"
 msgstr ""
 
 #. [dummy]: id=daze
-#: War_of_Legends/macros/nightmare-utils.cfg:104
+#: War_of_Legends/macros/nightmare-utils.cfg:100
 msgid "When hit with this attack, an enemy suffers a 10% penalty both to their defense and chance to hit for one turn. Other specials that affect chance to hit (e.g. magical and marksman) take precedence over this special. Magical attacks will still have a 70% chance to hit. Marksman attacks are only affected if the chance to hit is greater than 60%."
 msgstr ""
 
 #. [unstore_unit]
-#: War_of_Legends/macros/nightmare-utils.cfg:133
+#: War_of_Legends/macros/nightmare-utils.cfg:129
 msgid "dazed"
 msgstr ""
 
 #. [unstore_unit]
-#: War_of_Legends/macros/nightmare-utils.cfg:134
+#: War_of_Legends/macros/nightmare-utils.cfg:130
 msgid "female^dazed"
 msgstr ""
 
 #. [special_note]
 #: War_of_Legends/macros/special-notes.cfg:5
-msgid " This unit will recover 5 HP per turn when on lava, sandy or desert terrain. The effects of poison will not be prolonged or cured."
+msgid "This unit will recover 5 HP per turn when on lava, sandy or desert terrain. The effects of poison will not be prolonged or cured."
 msgstr ""
 
 #. [special_note]
 #: War_of_Legends/macros/special-notes.cfg:11
-msgid " This unit will recover 5 HP per turn when on watery terrain. The effects of poison will not be prolonged or cured."
+msgid "This unit will recover 5 HP per turn when on watery terrain. The effects of poison will not be prolonged or cured."
 msgstr ""
 
 #. [special_note]
 #: War_of_Legends/macros/special-notes.cfg:17
-msgid " This unit will recover 5 HP per turn while in a forest. The effects of poison will not be prolonged or cured."
+msgid "This unit will recover 5 HP per turn while in a forest. The effects of poison will not be prolonged or cured."
 msgstr ""
 
 #. [special_note]
 #: War_of_Legends/macros/special-notes.cfg:23
-msgid " This unit will repair its body with the rocks found while in/on hills, caves, or mountains, thus recovering 5 HP in the process. The effects of poison will not be prolonged or cured."
+msgid "This unit will repair its body with the rocks found while in/on hills, caves, or mountains, thus recovering 5 HP in the process. The effects of poison will not be prolonged or cured."
 msgstr ""
 
 #. [special_note]
 #: War_of_Legends/macros/special-notes.cfg:29
-msgid " This unit darkens the surrounding area, making chaotic units fight better, and lawful units fight worse."
+msgid "This unit can frighten enemy units that are next to it, making them fight worse"
 msgstr ""
 
 #. [special_note]
 #: War_of_Legends/macros/special-notes.cfg:35
-msgid " This unit can frighten enemy units that are next to it, making them fight worse"
+msgid "Adjacent lower-level units of the same allegiance have their resistances increased by the sole presence of this unit."
+msgstr ""
+
+#. [special_note]
+#: War_of_Legends/macros/special-notes.cfg:41
+msgid "This unit will regenerate 5 HP per turn in forest or mushroom grove terrains"
 msgstr ""
 
 #. [special_note]
 #: War_of_Legends/macros/special-notes.cfg:47
-msgid " Adjacent lower-level units of the same allegiance have their resistances increased by the sole presence of this unit."
+msgid "This unit will recover 5 HP per turn while on snowy or icy terrain. The effects of poison will not be prolonged or cured."
 msgstr ""
 
 #. [special_note]
 #: War_of_Legends/macros/special-notes.cfg:53
-msgid " This unit will regenerate 5 HP per turn in forest or mushroom grove terrains"
+msgid "Some of this unit's attacks are not available except on defence."
 msgstr ""
 
 #. [special_note]
 #: War_of_Legends/macros/special-notes.cfg:59
-msgid " This unit will recover 5 HP per turn while on snowy or icy terrain. The effects of poison will not be prolonged or cured."
+msgid "Some of this unit's attacks are not available except on offence."
 msgstr ""
 
 #. [special_note]
 #: War_of_Legends/macros/special-notes.cfg:65
-msgid " Some of this unit's attacks are not available except on defence."
+msgid "This unit's powers are increased by the Sylvan Essence (see this ability's <ref>dst='ability_sylvan essence' text='full description'</ref> for details)."
 msgstr ""
 
 #. [special_note]
 #: War_of_Legends/macros/special-notes.cfg:71
-msgid " Some of this unit's attacks are not available except on offence."
+msgid "This unit's resistances are doubled to the point of 50% resistance, weaknesses are not affected."
 msgstr ""
 
 #. [special_note]
 #: War_of_Legends/macros/special-notes.cfg:77
-msgid " Due to its lack of weaponry, this unit cannot attack the enemy. When defending however, it retaliates with heavy strikes with the front of its shield."
+msgid "This unit cannot move to terrains other than water, castle and villages."
 msgstr ""
 
 #. [special_note]
 #: War_of_Legends/macros/special-notes.cfg:83
-msgid " This unit's powers are increased by the Sylvan Essence (see this ability's <ref>dst='ability_sylvan essence' text='full description'</ref> for details)."
-msgstr ""
-
-#. [special_note]
-#: War_of_Legends/macros/special-notes.cfg:89
-msgid " This unit's resistances are doubled to the point of 50% resistance, weaknesses are not affected."
+msgid "This unit will recover 4 HP per turn, poison will not be affected. While on icy and snowy terrain this unit will recover 8 HP instead and if this unit is poisoned it will be cured. In addition, while on icy or snowy terrain this unit will conceal itself from enemies, only able to be revealed when an enemy unit is next to it."
 msgstr ""
 
 #. [special_note]
 #: War_of_Legends/macros/special-notes.cfg:95
-msgid " This unit cannot move to terrains other than water, castle and villages."
+msgid "This unit will recover 8 HP per turn when on earthy terrain or vegetated terrain. If this unit is poisoned it will be cured of it instead."
 msgstr ""
 
 #. [special_note]
 #: War_of_Legends/macros/special-notes.cfg:101
-msgid " This unit will recover 4 HP per turn, poison will not be affected. While on icy and snowy terrain this unit will recover 8 HP instead and if this unit is poisoned it will be cured. In addition, while on icy or snowy terrain this unit will conceal itself from enemies, only able to be revealed when an enemy unit is next to it."
-msgstr ""
-
-#. [special_note]
-#: War_of_Legends/macros/special-notes.cfg:107
-msgid " This unit will recover 8 HP per turn when on aquatic terrain. If this unit is poisoned it will be cured of it instead."
-msgstr ""
-
-#. [special_note]
-#: War_of_Legends/macros/special-notes.cfg:113
-msgid " This unit will recover 8 HP per turn when on earthy terrain or vegetated terrain. If this unit is poisoned it will be cured of it instead."
-msgstr ""
-
-#. [special_note]
-#: War_of_Legends/macros/special-notes.cfg:119
 msgid "When this unit is attacking offensively with its dread attack, the opponent will be struck with fear, thus the damage dealt by their retaliation will be weakened."
 msgstr ""
 
 #. [special_note]
-#: War_of_Legends/macros/special-notes.cfg:125
-msgid " This unit can fly over the terrain and over any impediments such as the snow, chasms and sand."
+#: War_of_Legends/macros/special-notes.cfg:107
+msgid "This unit can fly over the terrain and over any impediments such as the snow, chasms and sand."
 msgstr ""
 
 #. [special_note]
-#: War_of_Legends/macros/special-notes.cfg:131
-msgid " While defending this unit's counter attacks will always have a 60% chance to hit."
+#: War_of_Legends/macros/special-notes.cfg:113
+msgid "While defending this unit's counter attacks will always have a 60% chance to hit."
 msgstr ""
 
 #. [special_note]
-#: War_of_Legends/macros/special-notes.cfg:137
-msgid " This unit's attack has a high chance (70%) of hitting targeted enemies, but only on the attack."
-msgstr ""
-
-#. [special_note]
-#: War_of_Legends/macros/special-notes.cfg:143
-msgid "This unit has enchanted attacks, which always have a high chance of hitting an opponent, regardless of the defensive capabilities of the opponent."
-msgstr ""
-
-#. [special_note]
-#: War_of_Legends/macros/special-notes.cfg:149
+#: War_of_Legends/macros/special-notes.cfg:119
 msgid "This unit can hide in desert type terrain and remain undetected by its enemies."
 msgstr ""
 
 #. [special_note]
-#: War_of_Legends/macros/special-notes.cfg:161
-msgid " This unit regains 4 HP at the beginning of its turn. If is poisoned, it will be cured of it instead."
-msgstr ""
-
-#. [special_note]
-#: War_of_Legends/macros/special-notes.cfg:167
-msgid " In marshlands, this unit's prowling skill renders it invisible to enemies unless it is immediately adjacent or has revealed itself by attacking."
-msgstr ""
-
-#. [special_note]
-#: War_of_Legends/macros/special-notes.cfg:179
-msgid "This unit can curse its enemies, reducing defense until they rest at a village."
+#: War_of_Legends/macros/special-notes.cfg:125
+msgid "In marshlands, this unit's prowling skill renders it invisible to enemies unless it is immediately adjacent or has revealed itself by attacking."
 msgstr ""
 
 #. [trait]: id=autotarget
@@ -1226,17 +1257,42 @@ msgstr ""
 msgid "SA-11,SA-12,SA-13,SA-14,SA-15,SB-1,SB-2,SB-3,SB-4,SB-5,SC-43,SC-44,SC-45,SC-46,SC-47,SC-48,SD-37,SD-38,SD-39,SD-40,SD-41,SD-42,PL-79,PL-80,PL-81,PL-82"
 msgstr ""
 
-#. [dummy]: id=teaching
+#. [lua]: wesnoth.interface.game_display.unit_status
+#: War_of_Legends/macros/system-inv2-main.cfg:43
+msgid "This unit has equipment."
+msgstr ""
+
+#. [set_menu_item]: id=inventory_item
+#: War_of_Legends/macros/system-inv2-main.cfg:169
+msgid "Unit Status"
+msgstr ""
+
+#. [objective]: condition=win
+#: War_of_Legends/macros/system-inv2-shop.cfg:8
+msgid "Buy or sell equipment, or gather information as needed."
+msgstr ""
+
+#. [objectives]
+#: War_of_Legends/macros/system-inv2-shop.cfg:10
+msgid "End scenario by going to southern edge of map."
+msgstr ""
+
+#. [message]: speaker=Seller
+#: War_of_Legends/macros/system-inv2-shop.cfg:180
+msgid "Good-bye..."
+msgstr ""
+
+#. [teaching]: id=teaching
 #: War_of_Legends/macros/teaching_ability_code.cfg:6
 msgid "teaching"
 msgstr ""
 
-#. [dummy]: id=teaching
+#. [teaching]: id=teaching
 #: War_of_Legends/macros/teaching_ability_code.cfg:7
 msgid "female^teaching"
 msgstr ""
 
-#. [dummy]: id=teaching
+#. [teaching]: id=teaching
 #: War_of_Legends/macros/teaching_ability_code.cfg:8
 msgid "At the start of every turn, this unit redistributes its experience points to all the units of the same side adjacent to it. If no suitable unit is adjacent, its experience just goes back to zero."
 msgstr ""
@@ -1390,39 +1446,121 @@ msgstr ""
 msgid "50% less XP to advance and 5% more HP"
 msgstr ""
 
-#. [dummy]: id=critical_hit
+#. [trait]: id=trait_elite
+#: War_of_Legends/macros/traits.cfg:218
+msgid "elite"
+msgstr ""
+
+#. [trait]: id=trait_elite
+#: War_of_Legends/macros/traits.cfg:219
+msgid "female^elite"
+msgstr ""
+
+#. [trait]: id=trait_elite
+#: War_of_Legends/macros/traits.cfg:220
+msgid "+50% HP, +20% damage"
+msgstr ""
+
+#. [trait]: id=trait_elite
+#: War_of_Legends/macros/traits.cfg:221
+msgid "This unit is stronger than its regular counterparts."
+msgstr ""
+
+#. [trait]: id=trait_supreme
+#: War_of_Legends/macros/traits.cfg:243
+msgid "supreme"
+msgstr ""
+
+#. [trait]: id=trait_supreme
+#: War_of_Legends/macros/traits.cfg:244
+msgid "female^supreme"
+msgstr ""
+
+#. [trait]: id=trait_supreme
+#: War_of_Legends/macros/traits.cfg:245
+msgid "+80% HP, +30% damage"
+msgstr ""
+
+#. [trait]: id=trait_supreme
+#: War_of_Legends/macros/traits.cfg:246
+msgid "This unit is superior to its regular counterparts."
+msgstr ""
+
+#. [trait]: id=trait_fortified
+#: War_of_Legends/macros/traits.cfg:268
+#: War_of_Legends/macros/traits.cfg:270
+msgid "fortified"
+msgstr ""
+
+#. [trait]: id=trait_fortified
+#: War_of_Legends/macros/traits.cfg:269
+msgid "female^fortified"
+msgstr ""
+
+#. [trait]: id=trait_fortified
+#: War_of_Legends/macros/traits.cfg:271
+msgid "+10% to all resistances, can only move on castles/keeps."
+msgstr ""
+
+#. [chaos]: id=weapon_special_chaos
+#: War_of_Legends/macros/weapon-special-chaos.cfg:10
+#: War_of_Legends/macros/weapon-special-chaos.cfg:11
+msgid "chaos"
+msgstr ""
+
+#. [chaos]: id=weapon_special_chaos
+#: War_of_Legends/macros/weapon-special-chaos.cfg:12
+msgid "When used offensively, has a 33% chance to deal 10 fire damage, 11 cold damage or 12 electric damage."
+msgstr ""
+
+#. [chaos]: id=weapon_special_chaos
+#: War_of_Legends/macros/weapon-special-chaos.cfg:13
+msgid "When used offensively, has a 33% chance to deal fire, cold or electric damage."
+msgstr ""
+
+#. [critical_hit]: id=critical_hit
 #: War_of_Legends/macros/weapon-specials-2.cfg:6
 #: War_of_Legends/macros/weapon-specials-2.cfg:7
 msgid "critical hit {CHANCE}%"
 msgstr ""
 
-#. [dummy]: id=critical_hit
+#. [critical_hit]: id=critical_hit
 #: War_of_Legends/macros/weapon-specials-2.cfg:8
 #: War_of_Legends/macros/weapon-specials-2.cfg:9
 msgid "This attack has a {CHANCE}% chance per hit of dealing double damage."
 msgstr ""
 
 #. [floating_text]
-#: War_of_Legends/macros/weapon-specials-2.cfg:61
-#: War_of_Legends/macros/weapon-specials-2.cfg:98
+#: War_of_Legends/macros/weapon-specials-2.cfg:52
+#: War_of_Legends/macros/weapon-specials-2.cfg:89
 msgid "<span color='#ff0000'>critical hit</span>"
 msgstr ""
 
 #. [dummy]: id=frost_nova
-#: War_of_Legends/macros/weapon-specials-2.cfg:122
-#: War_of_Legends/macros/weapon-specials-2.cfg:123
+#: War_of_Legends/macros/weapon-specials-2.cfg:113
+#: War_of_Legends/macros/weapon-specials-2.cfg:114
 msgid "frost nova"
 msgstr ""
 
 #. [dummy]: id=frost_nova
-#: War_of_Legends/macros/weapon-specials-2.cfg:124
-#: War_of_Legends/macros/weapon-specials-2.cfg:125
+#: War_of_Legends/macros/weapon-specials-2.cfg:115
+#: War_of_Legends/macros/weapon-specials-2.cfg:116
 msgid "On offense, this attack will additionally deal 70% of its damage in cold damage to all enemies adjacent to the target."
 msgstr ""
 
 #. [special_note]
-#: War_of_Legends/macros/weapon-specials-2.cfg:197
+#: War_of_Legends/macros/weapon-specials-2.cfg:188
 msgid "This unit has an attack which, when used offensively, will additionally deal 70% of its damage in cold damage to all enemies adjacent to the target."
+msgstr ""
+
+#. [mindraid]: id=mind_raid
+#: War_of_Legends/macros/weapon-specials-2.cfg:195
+msgid "mind raid"
+msgstr ""
+
+#. [mindraid]: id=mind_raid
+#: War_of_Legends/macros/weapon-specials-2.cfg:196
+msgid "When used offensively, each hit of the mind raid attack takes 1 point of experience from the defender and gives it to the attacker."
 msgstr ""
 
 #. [damage]: id=dread
@@ -1437,66 +1575,72 @@ msgstr ""
 msgid "When this attack is used offensively, this unit takes one third less damage in retaliation."
 msgstr ""
 
-#. [damage]: id=attack_only
+#. [disable]: id=attack_only
 #: War_of_Legends/macros/weapon-specials.cfg:19
-#: War_of_Legends/macros/weapon-specials.cfg:20
 msgid "attack only"
 msgstr ""
 
-#. [damage]: id=attack_only
-#: War_of_Legends/macros/weapon-specials.cfg:21
-#: War_of_Legends/macros/weapon-specials.cfg:22
+#. [disable]: id=attack_only
+#: War_of_Legends/macros/weapon-specials.cfg:20
 msgid "This weapon will never be used on defence."
 msgstr ""
 
-#. [damage]: id=defend_only
-#: War_of_Legends/macros/weapon-specials.cfg:40
-#: War_of_Legends/macros/weapon-specials.cfg:41
+#. [disable]: id=defend_only
+#: War_of_Legends/macros/weapon-specials.cfg:28
 msgid "defend only"
 msgstr ""
 
-#. [damage]: id=defend_only
-#: War_of_Legends/macros/weapon-specials.cfg:42
-#: War_of_Legends/macros/weapon-specials.cfg:43
+#. [disable]: id=defend_only
+#: War_of_Legends/macros/weapon-specials.cfg:30
 msgid "This weapon will only be available for defence."
 msgstr ""
 
 #. [chance_to_hit]: id=counter
-#: War_of_Legends/macros/weapon-specials.cfg:61
-#: War_of_Legends/macros/weapon-specials.cfg:63
+#: War_of_Legends/macros/weapon-specials.cfg:37
+#: War_of_Legends/macros/weapon-specials.cfg:39
 msgid "counter"
 msgstr ""
 
 #. [chance_to_hit]: id=counter
-#: War_of_Legends/macros/weapon-specials.cfg:62
-#: War_of_Legends/macros/weapon-specials.cfg:64
+#: War_of_Legends/macros/weapon-specials.cfg:38
+#: War_of_Legends/macros/weapon-specials.cfg:40
 msgid "When used defensively, this attack always has at least a 60% chance to hit."
 msgstr ""
 
 #. [chance_to_hit]: id=enchanted
-#: War_of_Legends/macros/weapon-specials.cfg:74
+#: War_of_Legends/macros/weapon-specials.cfg:50
 msgid "enchanted"
 msgstr ""
 
 #. [chance_to_hit]: id=enchanted
-#: War_of_Legends/macros/weapon-specials.cfg:75
+#: War_of_Legends/macros/weapon-specials.cfg:51
 msgid "This attack always has a 60% chance to hit regardless of the defensive ability of the unit being attacked."
 msgstr ""
 
+#. [chance_to_hit]: id=enchanted
+#: War_of_Legends/macros/weapon-specials.cfg:52
+msgid "This unit has enchanted attacks, which always have a high chance of hitting an opponent, regardless of the defensive capabilities of the opponent."
+msgstr ""
+
 #. [chance_to_hit]: id=precision
-#: War_of_Legends/macros/weapon-specials.cfg:84
+#: War_of_Legends/macros/weapon-specials.cfg:61
 msgid "precision"
 msgstr ""
 
 #. [chance_to_hit]: id=precision
-#: War_of_Legends/macros/weapon-specials.cfg:85
+#: War_of_Legends/macros/weapon-specials.cfg:62
 msgid "When used offensively, this attack always has at least a 70% chance to hit."
+msgstr ""
+
+#. [chance_to_hit]: id=precision
+#: War_of_Legends/macros/weapon-specials.cfg:63
+msgid "This unit's attack has a high chance (70%) of hitting targeted enemies, but only on the attack."
 msgstr ""
 
 #. [attacks]: id=shock
 #. [attack]: type=electric
-#: War_of_Legends/macros/weapon-specials.cfg:97
-#: War_of_Legends/macros/weapon-specials.cfg:98
+#: War_of_Legends/macros/weapon-specials.cfg:75
+#: War_of_Legends/macros/weapon-specials.cfg:76
 #: War_of_Legends/units/steelhive/steel_astigmatic.cfg:42
 #: War_of_Legends/units/steelhive/steel_cataract.cfg:32
 #: War_of_Legends/units/steelhive/steel_oculus.cfg:32
@@ -1504,30 +1648,35 @@ msgid "shock"
 msgstr ""
 
 #. [attacks]: id=shock
-#: War_of_Legends/macros/weapon-specials.cfg:99
-#: War_of_Legends/macros/weapon-specials.cfg:100
+#: War_of_Legends/macros/weapon-specials.cfg:77
+#: War_of_Legends/macros/weapon-specials.cfg:78
 msgid "When this attack is used on offense, the opponent will retaliate with one less strike than normally, to a minimum of one strike."
 msgstr ""
 
+#. [attacks]: id=shock
+#: War_of_Legends/macros/weapon-specials.cfg:79
+msgid "This unit's melee attack can overwhelm the defenses of enemies, preventing them from retaliating as effectively."
+msgstr ""
+
 #. [unstore_unit]
-#: War_of_Legends/macros/weapon-specials.cfg:131
+#: War_of_Legends/macros/weapon-specials.cfg:110
 msgid "unpetrified"
 msgstr ""
 
 #. [unstore_unit]
-#: War_of_Legends/macros/weapon-specials.cfg:132
+#: War_of_Legends/macros/weapon-specials.cfg:111
 msgid "female^unpetrified"
 msgstr ""
 
 #. [heals_on_hit]: id=deplete
-#: War_of_Legends/macros/weapon-specials.cfg:146
-#: War_of_Legends/macros/weapon-specials.cfg:148
+#: War_of_Legends/macros/weapon-specials.cfg:125
+#: War_of_Legends/macros/weapon-specials.cfg:127
 msgid "deplete"
 msgstr ""
 
 #. [heals_on_hit]: id=deplete
-#: War_of_Legends/macros/weapon-specials.cfg:151
-#: War_of_Legends/macros/weapon-specials.cfg:152
+#: War_of_Legends/macros/weapon-specials.cfg:130
+#: War_of_Legends/macros/weapon-specials.cfg:131
 msgid "Consumes some HP upon a successful hit during attacking."
 msgstr ""
 
@@ -1754,17 +1903,17 @@ msgid "World Conquest Enemy Data is overriden with War of Legends factions."
 msgstr ""
 
 #. [modification]: id=knyght_wol_wc_legend_artifacts, type=mp
-#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:25
+#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:26
 msgid "Adds new World Conquest Artifacts."
 msgstr ""
 
 #. [modification]: id=knyght_wol_wc_legend_trainers, type=mp
-#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:43
+#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:45
 msgid "Adds new World Conquest Trainers."
 msgstr ""
 
 #. [modification]: id=knyght_wol_wc_heroes_commanders_deserters, type=mp
-#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:64
+#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:67
 msgid "Legends Heroes, Commanders and Deserters"
 msgstr ""
 
@@ -1824,8 +1973,8 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/aberrations/Black_Cat.cfg:35
-#: War_of_Legends/units/aberrations/Calamity.cfg:40
+#: War_of_Legends/units/aberrations/Black_Cat.cfg:33
+#: War_of_Legends/units/aberrations/Calamity.cfg:38
 #: War_of_Legends/units/dwarves/Gryphon_Thunderlord.cfg:29
 #: War_of_Legends/units/elementals/stable/Vine_Beast.cfg:38
 #: War_of_Legends/units/elementals/stable/Vine_Tiger.cfg:41
@@ -1838,9 +1987,9 @@ msgid "claws"
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/aberrations/Black_Cat.cfg:44
-#: War_of_Legends/units/aberrations/Calamity.cfg:49
-#: War_of_Legends/units/aberrations/Jinx_Beast.cfg:46
+#: War_of_Legends/units/aberrations/Black_Cat.cfg:42
+#: War_of_Legends/units/aberrations/Calamity.cfg:47
+#: War_of_Legends/units/aberrations/Jinx_Beast.cfg:44
 msgid "ill omen"
 msgstr ""
 
@@ -1872,16 +2021,16 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/aberrations/Inquisitor.cfg:36
-#: War_of_Legends/units/aberrations/Scornful_Watcher.cfg:41
-#: War_of_Legends/units/aberrations/Spiteful_Watcher.cfg:34
+#: War_of_Legends/units/aberrations/Inquisitor.cfg:35
+#: War_of_Legends/units/aberrations/Scornful_Watcher.cfg:40
+#: War_of_Legends/units/aberrations/Spiteful_Watcher.cfg:33
 msgid "kick"
 msgstr ""
 
 #. [attack]: type=arcane_focus
-#: War_of_Legends/units/aberrations/Inquisitor.cfg:45
-#: War_of_Legends/units/aberrations/Scornful_Watcher.cfg:50
-#: War_of_Legends/units/aberrations/Spiteful_Watcher.cfg:43
+#: War_of_Legends/units/aberrations/Inquisitor.cfg:44
+#: War_of_Legends/units/aberrations/Scornful_Watcher.cfg:49
+#: War_of_Legends/units/aberrations/Spiteful_Watcher.cfg:42
 msgid "stare"
 msgstr ""
 
@@ -1993,7 +2142,7 @@ msgstr ""
 #: War_of_Legends/units/aberrations/Spiteful_Watcher.cfg:20
 msgid ""
 "Silver Mage Norsesh, Arcane Interactions - Analysis and Theorisation:\n"
-"'Intriguingly, the mental focus necessary to achieve substantial arcane effects is not without its liabilities. I hypothesize that the channels we develop in our minds are somehow accessible by certain external forces. The case of the Spiteful Watcher, an arcane creation to be found (at great peril to the finder) in southern Wesnoth, supports this hypothesis. These large, aggressive Watchers posess mental attacks that are especially dangerous for mages.'"
+"'Intriguingly, the mental focus necessary to achieve substantial arcane effects is not without its liabilities. I hypothesize that the channels we develop in our minds are somehow accessible by certain external forces. The case of the Spiteful Watcher, an arcane creation to be found (at great peril to the finder) in southern Wesnoth, supports this hypothesis. These large, aggressive Watchers possess mental attacks that are especially dangerous for mages.'"
 msgstr ""
 
 #. [unit_type]: id=Unhatched, race=aberration
@@ -2141,7 +2290,7 @@ msgstr ""
 #: War_of_Legends/units/elementals/Fire_Daemon_1.cfg:91
 #: War_of_Legends/units/elementals/Fire_Daemon_2.cfg:107
 #: War_of_Legends/units/elementals/Fire_Daemon_3.cfg:117
-#: War_of_Legends/units/elementals/stable/Fire_Wisp.cfg:38
+#: War_of_Legends/units/elementals/stable/Fire_Wisp.cfg:36
 #: War_of_Legends/units/monsters/Dragon_Lord.cfg:58
 msgid "fire breath"
 msgstr ""
@@ -2189,10 +2338,10 @@ msgstr ""
 #. [attack]: type=electric
 #: War_of_Legends/units/dwarves/Gryphon_Thunderlord.cfg:38
 #: War_of_Legends/units/elementals/Air_Daemon_3.cfg:109
-#: War_of_Legends/units/human-mages/Mage_Prophetess_of_Light.cfg:59
-#: War_of_Legends/units/human-mages/Mage_Storm.cfg:45
-#: War_of_Legends/units/human-mages/Mage_Tempest.cfg:39
-#: War_of_Legends/units/human-mages/Mage_Thunder.cfg:38
+#: War_of_Legends/units/human-mages/Mage_Prophetess_of_Light.cfg:57
+#: War_of_Legends/units/human-mages/Mage_Storm.cfg:44
+#: War_of_Legends/units/human-mages/Mage_Tempest.cfg:38
+#: War_of_Legends/units/human-mages/Mage_Thunder.cfg:37
 msgid "lightning"
 msgstr ""
 
@@ -2295,7 +2444,7 @@ msgstr ""
 
 #. [unit_type]: id=Lesser Earth Daemon, race=elemental
 #: War_of_Legends/units/elementals/Earth_Daemon_1.cfg:27
-msgid "Rocks appear to have assembled themselves into some sort of animal... The are somewhat like a troll whelp, though more mishapen and they can belch scratching dust. These things are nothing like the mudcrawlers, there is something much more sinister at work."
+msgid "Rocks appear to have assembled themselves into some sort of animal... The are somewhat like a troll whelp, though more misshapen and they can belch scratching dust. These things are nothing like the mudcrawlers, there is something much more sinister at work."
 msgstr ""
 
 #. [attack]: type=impact
@@ -2374,7 +2523,7 @@ msgstr ""
 
 #. [attack]: type=cold
 #: War_of_Legends/units/elementals/Water_Daemon_1.cfg:140
-#: War_of_Legends/units/elementals/Water_Daemon_2.cfg:123
+#: War_of_Legends/units/elementals/Water_Daemon_2.cfg:122
 #: War_of_Legends/units/elementals/Water_Daemon_3.cfg:154
 msgid "deep sea water"
 msgstr ""
@@ -2385,7 +2534,7 @@ msgstr ""
 #: War_of_Legends/units/elementals/Water_Daemon_1.cfg:149
 #: War_of_Legends/units/elementals/stable/Nymph.cfg:39
 #: War_of_Legends/units/elementals/stable/Tidal.cfg:38
-#: War_of_Legends/units/elementals/stable/Undine.cfg:38
+#: War_of_Legends/units/elementals/stable/Undine.cfg:39
 #: War_of_Legends/units/nightmares-elementals/Nature_Wrath.cfg:482
 #: War_of_Legends/units/nightmares-elementals/Unstable_Elemental.cfg:481
 msgid "water spray"
@@ -2397,7 +2546,7 @@ msgid "Water Daemon"
 msgstr ""
 
 #. [attack]: type=pierce
-#: War_of_Legends/units/elementals/Water_Daemon_2.cfg:132
+#: War_of_Legends/units/elementals/Water_Daemon_2.cfg:131
 msgid "rain"
 msgstr ""
 
@@ -2428,7 +2577,7 @@ msgstr ""
 
 #. [attack]: type=fire
 #: War_of_Legends/units/elementals/stable/Brazier_Imp.cfg:29
-#: War_of_Legends/units/elementals/stable/Brazier_Whelpling.cfg:31
+#: War_of_Legends/units/elementals/stable/Brazier_Whelpling.cfg:32
 #: War_of_Legends/units/elementals/stable/Furnace_Beast.cfg:29
 #: War_of_Legends/units/elementals/stable/Lava_Behemoth.cfg:32
 #: War_of_Legends/units/elementals/stable/Lava_Giant.cfg:30
@@ -2441,7 +2590,7 @@ msgid "Brazier Whelpling"
 msgstr ""
 
 #. [unit_type]: id=Brazier Whelpling, race=elemental
-#: War_of_Legends/units/elementals/stable/Brazier_Whelpling.cfg:22
+#: War_of_Legends/units/elementals/stable/Brazier_Whelpling.cfg:23
 msgid "Brazier Whelplings are Brazier Imps which have not completely hardened yet, thus they are weaker than their older siblings. Not an imposing threat, but once they harden they are much more of a threat."
 msgstr ""
 
@@ -2456,7 +2605,7 @@ msgid "Fire Wisps are spirits of smoke and flame. Summoned by powerful mages. Wh
 msgstr ""
 
 #. [attack]: type=fire
-#: War_of_Legends/units/elementals/stable/Fire_Wisp.cfg:29
+#: War_of_Legends/units/elementals/stable/Fire_Wisp.cfg:27
 msgid "fire bash"
 msgstr ""
 
@@ -2476,13 +2625,13 @@ msgid "Ice Crab"
 msgstr ""
 
 #. [unit_type]: id=Ice Crab, race=elemental
-#: War_of_Legends/units/elementals/stable/Ice_Crab.cfg:19
+#: War_of_Legends/units/elementals/stable/Ice_Crab.cfg:20
 msgid "Creatures made of solid ice. Their foreclaws end in spiky spear-like icicles. It can generate an aura of coldness which covers anything near it with a layer of slowing ice."
 msgstr ""
 
 #. [attack]: type=pierce
 #. [variation]
-#: War_of_Legends/units/elementals/stable/Ice_Crab.cfg:43
+#: War_of_Legends/units/elementals/stable/Ice_Crab.cfg:44
 #: War_of_Legends/units/elementals/stable/Ice_Shell.cfg:47
 #: War_of_Legends/units/nightmares-elementals/Nature_Wrath.cfg:431
 #: War_of_Legends/units/nightmares-elementals/Unstable_Elemental.cfg:430
@@ -2491,7 +2640,7 @@ msgstr ""
 
 #. [attack]: type=cold
 #. [variation]
-#: War_of_Legends/units/elementals/stable/Ice_Crab.cfg:51
+#: War_of_Legends/units/elementals/stable/Ice_Crab.cfg:52
 #: War_of_Legends/units/elementals/stable/Ice_Shell.cfg:55
 #: War_of_Legends/units/nightmares-elementals/Nature_Wrath.cfg:436
 #: War_of_Legends/units/nightmares-elementals/Unstable_Elemental.cfg:435
@@ -2579,7 +2728,7 @@ msgstr ""
 #. [attack]: type=cold
 #: War_of_Legends/units/elementals/stable/Nymph.cfg:30
 #: War_of_Legends/units/elementals/stable/Tidal.cfg:28
-#: War_of_Legends/units/elementals/stable/Undine.cfg:29
+#: War_of_Legends/units/elementals/stable/Undine.cfg:30
 msgid "water punch"
 msgstr ""
 
@@ -2595,13 +2744,13 @@ msgstr ""
 
 #. [attack]: type=pierce
 #: War_of_Legends/units/elementals/stable/Razorbird.cfg:27
-#: War_of_Legends/units/elementals/stable/Thunderbird.cfg:31
+#: War_of_Legends/units/elementals/stable/Thunderbird.cfg:29
 msgid "beak"
 msgstr ""
 
 #. [attack]: type=blade
 #: War_of_Legends/units/elementals/stable/Razorbird.cfg:35
-#: War_of_Legends/units/elementals/stable/Thunderbird.cfg:42
+#: War_of_Legends/units/elementals/stable/Thunderbird.cfg:40
 msgid "blade shower"
 msgstr ""
 
@@ -2669,7 +2818,7 @@ msgid "Using its metal feathers the Thunderbird is able to create powerfull spar
 msgstr ""
 
 #. [attack]: type=electric
-#: War_of_Legends/units/elementals/stable/Thunderbird.cfg:51
+#: War_of_Legends/units/elementals/stable/Thunderbird.cfg:49
 msgid "thunderbolt"
 msgstr ""
 
@@ -2689,7 +2838,7 @@ msgid "Undine"
 msgstr ""
 
 #. [unit_type]: id=Undine, race=elemental
-#: War_of_Legends/units/elementals/stable/Undine.cfg:19
+#: War_of_Legends/units/elementals/stable/Undine.cfg:20
 msgid "In conserving more power, little Tidals become the more violent and magnificent Undines. Not only have the Undines gained more power but they seemed to have, for some unknown reason, taken the shape of a woman."
 msgstr ""
 
@@ -2810,7 +2959,9 @@ msgstr ""
 #. [attack]: type=pierce
 #. [attack]: type=fire
 #: War_of_Legends/units/elves-deep/Baroness.cfg:40
+#: War_of_Legends/units/elves-deep/Nightmaiden.cfg:39
 #: War_of_Legends/units/elves-deep/Nightstalker.cfg:39
+#: War_of_Legends/units/elves-deep/Vault_Lurker.cfg:41
 #: War_of_Legends/units/human-legion/Arbalestier.cfg:36
 #: War_of_Legends/units/human-legion/Arbalestier.cfg:48
 #: War_of_Legends/units/human-legion/Crossbowman.cfg:34
@@ -2823,12 +2974,14 @@ msgstr ""
 
 #. [chance_to_hit]: id=eagle eye
 #: War_of_Legends/units/elves-deep/Baroness.cfg:49
+#: War_of_Legends/units/elves-deep/Nightmaiden.cfg:48
 #: War_of_Legends/units/elves-deep/Nightstalker.cfg:48
 msgid "eagle eye"
 msgstr ""
 
 #. [chance_to_hit]: id=eagle eye
 #: War_of_Legends/units/elves-deep/Baroness.cfg:51
+#: War_of_Legends/units/elves-deep/Nightmaiden.cfg:50
 #: War_of_Legends/units/elves-deep/Nightstalker.cfg:50
 msgid "has always a 80% chance to hit"
 msgstr ""
@@ -2850,10 +3003,10 @@ msgstr ""
 
 #. [unstore_unit]
 #: War_of_Legends/units/elves-deep/Baroness.cfg:174
-#: War_of_Legends/units/elves-deep/Nightmaiden.cfg:88
+#: War_of_Legends/units/elves-deep/Nightmaiden.cfg:126
 #: War_of_Legends/units/elves-deep/Nightstalker.cfg:126
 #: War_of_Legends/units/elves-deep/Shassagoth.cfg:194
-#: War_of_Legends/units/elves-deep/Vault_Lurker.cfg:136
+#: War_of_Legends/units/elves-deep/Vault_Lurker.cfg:169
 msgid "Spurt!"
 msgstr ""
 
@@ -2882,7 +3035,7 @@ msgstr ""
 #: War_of_Legends/units/elves-deep/Predator.cfg:30
 #: War_of_Legends/units/elves-deep/Vengeance.cfg:30
 #: War_of_Legends/units/orcs/Subjugator.cfg:39
-#: War_of_Legends/units/steelhive/steel_fideliant.cfg:36
+#: War_of_Legends/units/steelhive/steel_fideliant.cfg:37
 #: War_of_Legends/units/steelhive/steel_vector.cfg:23
 #: War_of_Legends/units/steelhive/steel_vorpal.cfg:27
 msgid "blade"
@@ -2949,10 +3102,10 @@ msgstr ""
 
 #. [unit_type]: id=Elthare, race=deep_elf
 #: War_of_Legends/units/elves-deep/Elthare.cfg:19
-msgid "As opposed to the Phades, an Eltare chooses to remain in the physical world and attains more melee-oriented abilities such as the skill of manifesting a sword-like extension of purifying light which can slash enemies. Their transformation sort of makes them slightly resistant to mysterious magics and allows better footing on arctic terrain."
+msgid "As opposed to the Phades, an Elthare chooses to remain in the physical world and attains more melee-oriented abilities such as the skill of manifesting a sword-like extension of purifying light which can slash enemies. Their transformation sort of makes them slightly resistant to mysterious magics and allows better footing on arctic terrain."
 msgstr ""
 
-#. [attack]: type=blade
+#. [attack]: type=energy
 #: War_of_Legends/units/elves-deep/Elthare.cfg:39
 msgid "magical sword"
 msgstr ""
@@ -2986,10 +3139,12 @@ msgstr ""
 msgid "nether touch"
 msgstr ""
 
-#. [attack]: type=arcane
+#. [attack]: type=electric
 #: War_of_Legends/units/elves-deep/Harbinger.cfg:35
+#: War_of_Legends/units/elves-deep/Matriarch.cfg:35
 #: War_of_Legends/units/elves-deep/Patroness.cfg:34
-msgid "twilight wave"
+#: War_of_Legends/units/elves-deep/Priestess.cfg:33
+msgid "discharge"
 msgstr ""
 
 #. [unit_type]: id=Irr, race=deep_elf
@@ -3020,13 +3175,6 @@ msgstr ""
 #. [unit_type]: id=Matriarch, race=deep_elf
 #: War_of_Legends/units/elves-deep/Matriarch.cfg:19
 msgid "The Matriarch is the leader of groups of Priestesses and has been blessed by Shassagoth himself. She has access to various forms of dark magic, which can be used both offensively as a means to slay enemies, and defensively as a way to guard the depths and spread the darkness’s influence. Matriarchs are often responsible for building statues of Shassagoth throughout the great continent."
-msgstr ""
-
-#. [attack]: type=arcane
-#: War_of_Legends/units/elves-deep/Matriarch.cfg:35
-#: War_of_Legends/units/elves-deep/Priestess.cfg:33
-#: War_of_Legends/units/elves-deep/Wisp_Mother.cfg:62
-msgid "arcane barrage"
 msgstr ""
 
 #. [unit_type]: id=Night Maiden, race=deep_elf
@@ -3092,7 +3240,7 @@ msgstr ""
 
 #. [unit_type]: id=Priestess of the Vault, race=deep_elf
 #: War_of_Legends/units/elves-deep/Priestess.cfg:19
-msgid "The Priestess of the Vault has dedicated her life to serving Shassagoth. In her former life she once was a shaman, a healer and a caretaker of the forests. Now, she has become a guardian of the depths and a despoiler of nature. Despite this, the Priestess has preserved some of her former magical capabilities and can summon arcane barrages to wear down her enemies. She sometimes infiltrates elvish territory, trying to convince more of her former sisters to join the ranks of Shassagoth."
+msgid "The Priestess of the Vault has dedicated her life to serving Shassagoth. In her former life she once was a shaman, a healer and a caretaker of the forests. Now, she has become a guardian of the depths and a despoiler of nature. Despite this, the Priestess has preserved some of her former magical capabilities and can summon electrical discharges to wear down her enemies. She sometimes infiltrates elvish territory, trying to convince more of her former sisters to join the ranks of Shassagoth."
 msgstr ""
 
 #. [unit_type]: id=Seer, race=deep_elf
@@ -3123,11 +3271,6 @@ msgstr ""
 #. [unit_type]: id=Shadow Tyrhai, race=monster
 #: War_of_Legends/units/elves-deep/Shadow_Tyrhai.cfg:20
 msgid "The rare Shadow Tyr‘Hai is a gigantic version of the lesser Tyr’Hai whose natural habitat is unknown. Some believe they lurk in the deepest part of the depths, while others say, they reside in the very realm of Shassagoth. Sharing a deep connection with Shassagoth, the Shadow Tyr’Hai defend the Priestesses from the darkness and protect them from harm in their travels. They are believed to feast on the souls of their prey, consuming spirit along with body in their mighty jaws."
-msgstr ""
-
-#. [attacks]: id=trample
-#: War_of_Legends/units/elves-deep/Shadow_Tyrhai.cfg:54
-msgid "This unit ignores the retaliation of the enemy and just overruns it."
 msgstr ""
 
 #. [unit_type]: id=Shassagoth, race=monster
@@ -3228,7 +3371,7 @@ msgstr ""
 #: War_of_Legends/units/human-loyalists/Horse_Mounted_Bowman.cfg:33
 #: War_of_Legends/units/human-loyalists/Loyalist_Infantryman.cfg:23
 #: War_of_Legends/units/nagas/Naga_Hunter.cfg:42
-#: War_of_Legends/units/nagas/Naga_Marksman.cfg:30
+#: War_of_Legends/units/nagas/Naga_Marksman.cfg:29
 #: War_of_Legends/units/vampires/Duchess.cfg:32
 #: War_of_Legends/units/vampires/Duelist.cfg:30
 #: War_of_Legends/units/vampires/Fledgeling.cfg:28
@@ -3303,6 +3446,11 @@ msgstr ""
 msgid "female^wisp mother"
 msgstr ""
 
+#. [attack]: type=arcane
+#: War_of_Legends/units/elves-deep/Wisp_Mother.cfg:62
+msgid "arcane barrage"
+msgstr ""
+
 #. [unit_type]: id=Elvish Acolyte, race=elf
 #: War_of_Legends/units/elves-wood/Acolyte.cfg:5
 msgid "female^Elvish Acolyte"
@@ -3319,20 +3467,20 @@ msgstr ""
 #: War_of_Legends/units/elves-wood/Mystic.cfg:31
 #: War_of_Legends/units/human-legion/Healer.cfg:47
 #: War_of_Legends/units/human-legion/Medic.cfg:44
-#: War_of_Legends/units/human-mages/Mage_Adept_of_Light.cfg:98
-#: War_of_Legends/units/human-mages/Mage_Cleric.cfg:35
-#: War_of_Legends/units/human-mages/Mage_Forest.cfg:43
-#: War_of_Legends/units/human-mages/Mage_Nature.cfg:42
-#: War_of_Legends/units/human-mages/Mage_Prophetess_of_Light.cfg:38
-#: War_of_Legends/units/human-mages/Mage_Storm.cfg:36
-#: War_of_Legends/units/human-mages/Mage_Tempest.cfg:30
-#: War_of_Legends/units/human-mages/Mage_Thunder.cfg:29
-#: War_of_Legends/units/human-mages/Mage_Wood.cfg:41
+#: War_of_Legends/units/human-mages/Mage_Adept_of_Light.cfg:96
+#: War_of_Legends/units/human-mages/Mage_Cleric.cfg:33
+#: War_of_Legends/units/human-mages/Mage_Forest.cfg:42
+#: War_of_Legends/units/human-mages/Mage_Nature.cfg:40
+#: War_of_Legends/units/human-mages/Mage_Prophetess_of_Light.cfg:36
+#: War_of_Legends/units/human-mages/Mage_Storm.cfg:35
+#: War_of_Legends/units/human-mages/Mage_Tempest.cfg:29
+#: War_of_Legends/units/human-mages/Mage_Thunder.cfg:28
+#: War_of_Legends/units/human-mages/Mage_Wood.cfg:40
 #: War_of_Legends/units/human-outlaws/Huntress.cfg:60
-#: War_of_Legends/units/human-outlaws/Prowler.cfg:62
+#: War_of_Legends/units/human-outlaws/Prowler.cfg:61
 #: War_of_Legends/units/human-outlaws/Shaman.cfg:53
 #: War_of_Legends/units/human-outlaws/Sorcerer.cfg:50
-#: War_of_Legends/units/human-outlaws/Tracker.cfg:60
+#: War_of_Legends/units/human-outlaws/Tracker.cfg:59
 #: War_of_Legends/units/human-outlaws/Wizard.cfg:49
 #: War_of_Legends/units/minotaurs/Elder.cfg:31
 #: War_of_Legends/units/minotaurs/Mystic.cfg:30
@@ -3341,7 +3489,7 @@ msgstr ""
 #: War_of_Legends/units/orcs/Shaman.cfg:27
 #: War_of_Legends/units/orcs/Sorcerer.cfg:27
 #: War_of_Legends/units/orcs/Warlock.cfg:28
-#: War_of_Legends/units/undead/Necro_Deathmaster.cfg:38
+#: War_of_Legends/units/undead/Necro_Deathmaster.cfg:37
 msgid "staff"
 msgstr ""
 
@@ -3396,7 +3544,7 @@ msgstr ""
 
 #. [unit_type]: id=Elvish Hunter, race=elf
 #: War_of_Legends/units/elves-wood/Hunter.cfg:30
-msgid "The elvish militia is mainly composed of civilians who have dropped their bows in favour of entangling unwary oponents using their bolas, and then finish them off with their swords. They are trained to scour the woods, hills and mountains for prey and enemies."
+msgid "The elvish militia is mainly composed of civilians who have dropped their bows in favour of entangling unwary opponents using their bolas, and then finish them off with their swords. They are trained to scour the woods, hills and mountains for prey and enemies."
 msgstr ""
 
 #. [unit_type]: id=Elvish Mystic, race=elf
@@ -3487,7 +3635,7 @@ msgstr ""
 #: War_of_Legends/units/human-legion/Longbowman.cfg:41
 #: War_of_Legends/units/human-loyalists/Horse_Mounted_Bowman.cfg:42
 #: War_of_Legends/units/nagas/Naga_Hunter.cfg:51
-#: War_of_Legends/units/nagas/Naga_Marksman.cfg:39
+#: War_of_Legends/units/nagas/Naga_Marksman.cfg:38
 #: War_of_Legends/units/vampires/Day_Hunter.cfg:43
 #: War_of_Legends/units/vampires/Half_Blood.cfg:41
 #: War_of_Legends/units/vampires/Thin_Blood.cfg:42
@@ -3587,7 +3735,7 @@ msgstr ""
 
 #. [race]: id=gargoyle
 #: War_of_Legends/units/gargoyles.cfg:9
-msgid "Some of the darker, yet bizare magic casted upon stone results in the Gargoyles. Gargoyles often take on the form of flying statues, they really cannot do much besides slamming into their foes, thus their masters, the Vampires often use them as blockades to by time for an assault."
+msgid "Some of the darker, yet bizarre magic casted upon stone results in the Gargoyles. Gargoyles often take on the form of flying statues, they really cannot do much besides slamming into their foes, thus their masters, the Vampires often use them as blockades to by time for an assault."
 msgstr ""
 
 #. [unit_type]: id=Gargoyle, race=gargoyle
@@ -3613,7 +3761,7 @@ msgstr ""
 
 #. [unit_type]: id=Marlgoyle, race=gargoyle
 #: War_of_Legends/units/gargoyles/Gargoyle_Marlgoyle.cfg:24
-msgid "Marlgoyles are simply Gargoyles whose magic has caused it to grow more poweful after absorbing enough blood. Marlgoyles appear to have a lusturous gold coating which makes it more durable and such, the magic will continue to strengthen the Marlgoyle as long as it gets more blood; however it will only increase its durability."
+msgid "Marlgoyles are simply Gargoyles whose magic has caused it to grow more powerful after absorbing enough blood. Marlgoyles appear to have a lustrous gold coating which makes it more durable and such, the magic will continue to strengthen the Marlgoyle as long as it gets more blood; however it will only increase its durability."
 msgstr ""
 
 #. [race]: id=gnoll
@@ -3754,28 +3902,28 @@ msgid "Only the best of rousers can hope to become a trumpeter. Trumpeters spend
 msgstr ""
 
 #. [race]: id=aragwaith
-#: War_of_Legends/units/human-aragwaithi.cfg:7
+#: War_of_Legends/units/human-aragwaithi.cfg:11
 msgid "race^Aragwaith"
 msgstr ""
 
 #. [race]: id=aragwaith
-#: War_of_Legends/units/human-aragwaithi.cfg:8
+#: War_of_Legends/units/human-aragwaithi.cfg:12
 msgid "race+female^Aragwaith"
 msgstr ""
 
 #. [race]: id=aragwaith
-#: War_of_Legends/units/human-aragwaithi.cfg:9
+#: War_of_Legends/units/human-aragwaithi.cfg:13
 msgid "race^Aragwaithi"
 msgstr ""
 
 #. [race]: id=aragwaith
-#: War_of_Legends/units/human-aragwaithi.cfg:13
+#: War_of_Legends/units/human-aragwaithi.cfg:17
 msgid ""
 "During most of the Golden Age, the humans who inhabited the Great Continent were mostly Wesnothians, divided across various territories such as the Northlands, Elensefar and the kingdom of Wesnoth itself. However, there was once a time of great strife during which a new race of humans started to appear from nowhere. They were the 'Aragwaithi', which meant 'noble' in their native language.\n"
 "\n"
 "It has been since then rumored that they came from the Vast Sea to settle in Wesnoth. They mostly lived as mercenaries in that time, until the Fall. After that, they supposedly moved to the northmost lands of the Continent, were the sands could not reach, and the green could survive.\n"
 "\n"
-"Albeit being humans, many of their customs and racial features are incredibly different to the standards, to the point it puts them close to elves in terms of their dexterity with bows. Their wisemen have a mastery of magic not to be underestimated in the battlefield, for it has surprised and overseded the best magi often."
+"Albeit being humans, many of their customs and racial features are incredibly different to the standards, to the point it puts them close to elves in terms of their dexterity with bows. Their wisemen have a mastery of magic not to be underestimated in the battlefield, for it has surprised and overpowered the best magi often."
 msgstr ""
 
 #. [unit_type]: id=Aragwaith Adept, race=aragwaith
@@ -3868,7 +4016,7 @@ msgstr ""
 
 #. [unit_type]: id=Aragwaith Flagbearer, race=aragwaith
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Flagbearer.cfg:23
-msgid "The best spearmen always learn on the battlefield the importance of fighting side-by-side with their comrades, but some learn a more special lesson: that a group of soldiers fighting as one being can overcome even the greatest odds. To these warriors is given the banner of command; the sight of one billowing in the wind, surrounded by spearman, archers, swordsmen and riders, is one the neemy of the Aragwaithi have quickly learned to fear."
+msgid "The best spearmen always learn on the battlefield the importance of fighting side-by-side with their comrades, but some learn a more special lesson: that a group of soldiers fighting as one being can overcome even the greatest odds. To these warriors is given the banner of command; the sight of one billowing in the wind, surrounded by spearman, archers, swordsmen and riders, is one that the enemies of the Aragwaithi have quickly learned to fear."
 msgstr ""
 
 #. [attack]: type=pierce
@@ -3894,7 +4042,7 @@ msgstr ""
 
 #. [variation]
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Greatbow.cfg:123
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Longswordsman.cfg:51
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Longswordsman.cfg:52
 msgid "Unhooded"
 msgstr ""
 
@@ -3939,12 +4087,12 @@ msgid "Longswordsman"
 msgstr ""
 
 #. [unit_type]: id=Aragwaith Longswordsman, race=aragwaith
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Longswordsman.cfg:18
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Longswordsman.cfg:19
 msgid "While Aragwaithi Swordsmen seem uncannily skilled to blade-wielders of other races, the Aragwaithi reserve their own admiration for Longswordsmen. These warriors have become so adept at the arts of thrust and parry that they have adopted a longer blade than the Swordsmen, yet they are able to wield it with equal grace and skill."
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Longswordsman.cfg:26
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Longswordsman.cfg:27
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Swordsmaster.cfg:29
 msgid "long sword"
 msgstr ""
@@ -4090,7 +4238,7 @@ msgstr ""
 #. [attack]: type=pierce
 #: War_of_Legends/units/human-campaigns/Horse_Black_Knight.cfg:58
 #: War_of_Legends/units/human-legion/Cavalier.cfg:33
-#: War_of_Legends/units/steelhive/steel_fideliant.cfg:24
+#: War_of_Legends/units/steelhive/steel_fideliant.cfg:25
 msgid "lance"
 msgstr ""
 
@@ -4124,7 +4272,7 @@ msgstr ""
 
 #. [unit_type]: id=Cavalry, race=human
 #: War_of_Legends/units/human-campaigns/Horse_Cavalry.cfg:21
-msgid "The usage of sword and morning-star together is quite an effective combination. A combination, which these troops are skilled but they lack the experience needed to weld them properly in battle."
+msgid "The usage of sword and morning-star together is quite an effective combination. A combination, which these troops are skilled but they lack the experience needed to wield them properly in battle."
 msgstr ""
 
 #. [unit_type]: id=Heavy Cavalry, race=human
@@ -4672,7 +4820,7 @@ msgid "Certain female mage apprentices are chosen from admission into the academ
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/human-mages/Mage_Adept_of_Light.cfg:107
+#: War_of_Legends/units/human-mages/Mage_Adept_of_Light.cfg:105
 msgid "aura blast"
 msgstr ""
 
@@ -4687,8 +4835,8 @@ msgid "Female adepts are given a choice in their study of light magic. The cleri
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/human-mages/Mage_Cleric.cfg:44
-#: War_of_Legends/units/human-mages/Mage_Prophetess_of_Light.cfg:47
+#: War_of_Legends/units/human-mages/Mage_Cleric.cfg:42
+#: War_of_Legends/units/human-mages/Mage_Prophetess_of_Light.cfg:45
 #: War_of_Legends/units/minotaurs/Elder.cfg:40
 #: War_of_Legends/units/minotaurs/Mystic.cfg:39
 #: War_of_Legends/units/minotaurs/Shaman.cfg:39
@@ -4710,9 +4858,9 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=fire
-#: War_of_Legends/units/human-mages/Mage_Forest.cfg:52
-#: War_of_Legends/units/human-mages/Mage_Nature.cfg:51
-#: War_of_Legends/units/human-mages/Mage_Wood.cfg:50
+#: War_of_Legends/units/human-mages/Mage_Forest.cfg:51
+#: War_of_Legends/units/human-mages/Mage_Nature.cfg:49
+#: War_of_Legends/units/human-mages/Mage_Wood.cfg:49
 #: War_of_Legends/units/orcs/Shaman.cfg:36
 #: War_of_Legends/units/orcs/Sorcerer.cfg:36
 #: War_of_Legends/units/orcs/Warlock.cfg:37
@@ -4733,7 +4881,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/human-mages/Mage_Nature.cfg:63
+#: War_of_Legends/units/human-mages/Mage_Nature.cfg:61
 msgid "terra orbis"
 msgstr ""
 
@@ -4763,9 +4911,9 @@ msgid "Storm Mages are well-attuned to their magical natures and are highly resi
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/human-mages/Mage_Storm.cfg:57
-#: War_of_Legends/units/human-mages/Mage_Tempest.cfg:51
-#: War_of_Legends/units/human-mages/Mage_Thunder.cfg:50
+#: War_of_Legends/units/human-mages/Mage_Storm.cfg:56
+#: War_of_Legends/units/human-mages/Mage_Tempest.cfg:50
+#: War_of_Legends/units/human-mages/Mage_Thunder.cfg:49
 msgid "ravage"
 msgstr ""
 
@@ -4836,8 +4984,8 @@ msgstr ""
 
 #. [attack]: type=impact
 #: War_of_Legends/units/human-outlaws/Huntress.cfg:69
-#: War_of_Legends/units/human-outlaws/Prowler.cfg:71
-#: War_of_Legends/units/human-outlaws/Tracker.cfg:69
+#: War_of_Legends/units/human-outlaws/Prowler.cfg:70
+#: War_of_Legends/units/human-outlaws/Tracker.cfg:68
 #: War_of_Legends/units/trolls/Boulderlobber.cfg:39
 msgid "sling"
 msgstr ""
@@ -4871,10 +5019,10 @@ msgstr ""
 #. [attack]: type=arcane
 #: War_of_Legends/units/human-outlaws/Shadow_Initiate.cfg:34
 #: War_of_Legends/units/human-outlaws/Shadow_Mage.cfg:45
-#: War_of_Legends/units/undead/Necro_Deathmaster.cfg:60
-#: War_of_Legends/units/undead/Necro_Elder_Lich_Lord.cfg:70
+#: War_of_Legends/units/undead/Necro_Deathmaster.cfg:59
+#: War_of_Legends/units/undead/Necro_Elder_Lich_Lord.cfg:68
 #: War_of_Legends/units/undead/Necro_Initiate.cfg:43
-#: War_of_Legends/units/undead/Necro_Lich_Lord.cfg:68
+#: War_of_Legends/units/undead/Necro_Lich_Lord.cfg:66
 msgid "shadow wave"
 msgstr ""
 
@@ -4940,9 +5088,9 @@ msgstr ""
 #: War_of_Legends/units/human-outlaws/Wizard.cfg:58
 #: War_of_Legends/units/minotaurs/Elder.cfg:52
 #: War_of_Legends/units/minotaurs/Warlock.cfg:49
-#: War_of_Legends/units/windsong/Harbinger.cfg:89
+#: War_of_Legends/units/windsong/Harbinger.cfg:87
 #: War_of_Legends/units/windsong/Heretic.cfg:53
-#: War_of_Legends/units/windsong/Warmonger.cfg:68
+#: War_of_Legends/units/windsong/Warmonger.cfg:66
 msgid "fireball"
 msgstr ""
 
@@ -5091,11 +5239,6 @@ msgstr ""
 #. [unit_type]: id=Forgotten Minotaur, race=minotaur
 #: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:18
 msgid "Minotaurs are bulky creatures that were once cursed by an unknown force. For eons, Minotaurs turn to stone when the light of the sun touches their skin, forcing them to inhabit the depths of the Great Continent. Shassagoth promised to lift the curse of the Minotaurs if they would bend themselves to his will and fight his foes. For this reason, the Minotaurs decided to serve Shassagoth and are often seen in the vast realm of the Deep Elves."
-msgstr ""
-
-#. [unstore_unit]
-#: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:243
-msgid "Knockback!"
 msgstr ""
 
 #. [unit_type]: id=Minotaur Gore, race=minotaur
@@ -5648,7 +5791,7 @@ msgstr ""
 #. [attack]: type=arcane
 #: War_of_Legends/units/nightmares/Death_Spectre.cfg:36
 #: War_of_Legends/units/nightmares/Life_Thief.cfg:32
-#: War_of_Legends/units/nightmares/Soul_Snatcher.cfg:33
+#: War_of_Legends/units/nightmares/Soul_Snatcher.cfg:34
 msgid "soul grasp"
 msgstr ""
 
@@ -5693,7 +5836,7 @@ msgid "Soul Snatcher"
 msgstr ""
 
 #. [unit_type]: id=Soul Snatcher, race=nightmare
-#: War_of_Legends/units/nightmares/Soul_Snatcher.cfg:20
+#: War_of_Legends/units/nightmares/Soul_Snatcher.cfg:21
 msgid ""
 "King Dowrein I, Memoirs of a mercenary:\n"
 "'I have experienced this scene a hundred times, as one merchant caravan or another wound its way along the verge of the deep woods: the quiet conversations of the wagoneers, the soldiers boastfully narrating their exploits of the day before, then the sudden anxiety of the horses, their fearful whinnying and rearing. Wagons and men alike stopped, all eyes and hears searching for the smallest sign. And then, the sudden, brutal attack of those demonic creatures.\n"
@@ -5782,24 +5925,18 @@ msgstr ""
 msgid "Saurian Seer"
 msgstr ""
 
-#. [unit_type]: id=Saurian Spearthrower, race=lizard
-#: War_of_Legends/units/saurians/Spearthrower.cfg:4
-msgid "female^Saurian Spearthrower"
+#. [race]: id=steelhive
+#: War_of_Legends/units/steelhive.cfg:5
+#: War_of_Legends/units/steelhive.cfg:6
+msgid "race^Steelhive"
 msgstr ""
 
-#. [unit_type]: id=Saurian Spearthrower, race=lizard
-#: War_of_Legends/units/saurians/Spearthrower.cfg:18
-msgid "Some saurian warriors with a particularly good aim prefer to aid their allies from the back lines rather than to infiltrate the enemy formations. With some exceptional spear throwing skills, their role is to protect the fragile saurian spellcasters during countless battles, and to support other warriors from afar. Defensive formations of saurian spearwomen are not to be underestimated."
-msgstr ""
-
-#. [unit_type]: id=Saurian Javelineer, race=lizard
-#: War_of_Legends/units/saurians/Warden.cfg:4
-msgid "female^Saurian Javelineer"
-msgstr ""
-
-#. [unit_type]: id=Saurian Javelineer, race=lizard
-#: War_of_Legends/units/saurians/Warden.cfg:19
-msgid "Saurian warriors that excel in their combat abilities may advance to the role of wardens, which are responsible for keeping their fragile spellcasters alive during battles at all costs."
+#. [race]: id=steelhive
+#: War_of_Legends/units/steelhive.cfg:9
+msgid ""
+"The Steelhive is a collective race driven by the urge to expand and catalogue all existing life, and to improve its own ability to design machines based on the lifeforms it has collected. To this end, the collective has engaged in a policy of planetary conquest, assimilating the dominant organisms of the worlds they encounter and converting them into different metallic forms. The Steelhive has no leadership beyond a shared desire by the collective to catalogue more life and create more unique models based on those catalogues, and thus has no centralized weakness, behaving more like a plague than anything else.\n"
+"\n"
+"The origin of the Steelhive is largely unknown, but the first documented appearance of the Metallizing Virus within our light cone was on the planet of Sciruss IV. The fact that the Metallizing Virus is quite clearly of engineered design rather than accidental evolution, combined with the observation that Sciruss IV had no technology capable of creating such a thing, implies that the creators of the Metallizing Virus have access to faster-than-light travel and technology quite beyond anything we know. The Steelhive is incredibly dangerous, and must be eliminated before it becomes too widespread to contain."
 msgstr ""
 
 #. [unit_type]: id=Steel Astigmatic, race=steelhive
@@ -5882,7 +6019,7 @@ msgid "Steel Fideliant"
 msgstr ""
 
 #. [unit_type]: id=Steel Fideliant, race=steelhive
-#: War_of_Legends/units/steelhive/steel_fideliant.cfg:18
+#: War_of_Legends/units/steelhive/steel_fideliant.cfg:19
 msgid "The Fideliants were created to improve the hunter-killer function of the Kalkunids to an apex. Having outmatched the Kalkunids in every respect, these designs destroyed Kalkunid morale and damaged their proud warrior culture to the point where the entire species capitulated at once after a particularly brutal defeat."
 msgstr ""
 
@@ -5908,7 +6045,7 @@ msgstr ""
 
 #. [unit_type]: id=Steel Impaler, race=steelhive
 #: War_of_Legends/units/steelhive/steel_impaler.cfg:17
-msgid "The Seliss of Borassol II were unique in that, rather than the Steelhive coming to them, they came to the Steelhive. One of the rare species which achieved meaningful extraatmospheric excursion, the Seliss had their eyes set on interstellar conquest. Unfortunately for them, picking Sciruss IV at a point when the Retinari had just been completely subjugated was a rather poor choice on their part."
+msgid "The Seliss of Borassol II were unique in that, rather than the Steelhive coming to them, they came to the Steelhive. One of the rare species which achieved meaningful extra-atmospheric excursion, the Seliss had their eyes set on interstellar conquest. Unfortunately for them, picking Sciruss IV at a point when the Retinari had just been completely subjugated was a rather poor choice on their part."
 msgstr ""
 
 #. [unit_type]: id=Steel Larva, race=steelhive
@@ -5930,7 +6067,7 @@ msgstr ""
 
 #. [unit_type]: id=Steel Leviathan, race=steelhive
 #: War_of_Legends/units/steelhive/steel_leviathan.cfg:18
-msgid "The Alzebisk society was matriarchical, ruled by the female Leviathans of their race. This became their downfall, as each Leviathan was ambushed individually and their corpses metallized one by one, until in the end none remained to oppose the Steelhive. Now, the Leviathans' design serves as a model to which a rare few are upgraded."
+msgid "The Alzebisk society was matriarchal, ruled by the female Leviathans of their race. This became their downfall, as each Leviathan was ambushed individually and their corpses metallized one by one, until in the end none remained to oppose the Steelhive. Now, the Leviathans' design serves as a model to which a rare few are upgraded."
 msgstr ""
 
 #. [attack]: type=impact
@@ -6003,12 +6140,12 @@ msgid "Steel Splicer"
 msgstr ""
 
 #. [unit_type]: id=Steel Splicer, race=steelhive
-#: War_of_Legends/units/steelhive/steel_splicer.cfg:18
+#: War_of_Legends/units/steelhive/steel_splicer.cfg:19
 msgid "The Kalkunids were unique of all species absorbed by the Steelhive in that they seemed to have some degree of natural resistance to the Metallizing Virus due to their genetic potential. Among certain individuals of the race, the Virus would simply not hold long enough. Among other individuals of the race, the Virus's metallizing properties would be driven wild, creating an imperfect evolution with little self-control, knowing only an unabating hunger."
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/steelhive/steel_splicer.cfg:24
+#: War_of_Legends/units/steelhive/steel_splicer.cfg:25
 msgid "shred"
 msgstr ""
 
@@ -6078,7 +6215,7 @@ msgid "His wanderings on a dark path have given him power normally not granted t
 msgstr ""
 
 #. [attack]: type=cold
-#: War_of_Legends/units/undead/Necro_Deathmaster.cfg:47
+#: War_of_Legends/units/undead/Necro_Deathmaster.cfg:46
 #: War_of_Legends/units/undead/Necro_Initiate.cfg:31
 msgid "chill wave"
 msgstr ""
@@ -6094,14 +6231,14 @@ msgid "At long last, necromantic practitioners have paid the ultimate sacrifice 
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/undead/Necro_Elder_Lich_Lord.cfg:45
-#: War_of_Legends/units/undead/Necro_Lich_Lord.cfg:43
+#: War_of_Legends/units/undead/Necro_Elder_Lich_Lord.cfg:43
+#: War_of_Legends/units/undead/Necro_Lich_Lord.cfg:41
 msgid "touch"
 msgstr ""
 
 #. [attack]: type=cold
-#: War_of_Legends/units/undead/Necro_Elder_Lich_Lord.cfg:57
-#: War_of_Legends/units/undead/Necro_Lich_Lord.cfg:55
+#: War_of_Legends/units/undead/Necro_Elder_Lich_Lord.cfg:55
+#: War_of_Legends/units/undead/Necro_Lich_Lord.cfg:53
 msgid "chill tempest"
 msgstr ""
 
@@ -6632,8 +6769,8 @@ msgid "Stunningly powerful warriors, Harbingers are the paragons of the Heretic.
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/windsong/Harbinger.cfg:76
-#: War_of_Legends/units/windsong/Warmonger.cfg:55
+#: War_of_Legends/units/windsong/Harbinger.cfg:74
+#: War_of_Legends/units/windsong/Warmonger.cfg:53
 msgid "berserker frenzy"
 msgstr ""
 
