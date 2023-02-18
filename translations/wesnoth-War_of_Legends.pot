@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-17 20:07 UTC\n"
+"POT-Creation-Date: 2023-02-18 03:44 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1929,7 +1929,7 @@ msgstr ""
 
 #. [race]: id=aberration
 #: War_of_Legends/units/aberrations.cfg:8
-msgid "So deformed physically that it's immediately obvious that they can't be natural and must have been either created or altered by magic, early in their development cycle."
+msgid "Aberrations are so deformed physically that it's immediately obvious that they can't be natural, and thus must have been either created or altered by magic, some time early in their development cycle."
 msgstr ""
 
 #. [unit_type]: id=Angry One, race=aberration
@@ -1940,7 +1940,7 @@ msgstr ""
 #. [unit_type]: id=Angry One, race=aberration
 #. [unit_type]: id=Shredder Spawn, race=aberration
 #: War_of_Legends/units/aberrations/Angry_One.cfg:20
-#: War_of_Legends/units/aberrations/Shredder_Spawn.cfg:20
+#: War_of_Legends/units/aberrations/Shredder_Spawn.cfg:21
 msgid ""
 "King Dowrein I, Memoirs of a mercenary:\n"
 "'They were bad enough still in the shell. Once hatched, the especially aggressive ones attacked without pause, hurling themselves at us again and again, battling unto death.'"
@@ -2017,7 +2017,7 @@ msgstr ""
 #: War_of_Legends/units/aberrations/Inquisitor.cfg:20
 msgid ""
 "King Dowrein I, Memoirs of a mercenary:\n"
-"'I could feel the heat of the creature's gaze, even through my shield. It's disdain for me was like a crushing physical presence. Poor Thornton on my left took the full force of the attack, and though I risked my own life dragging him back to the village, the healers could do nothing to save the wretch.'"
+"'I could feel the heat of the creature's gaze, even through my shield. Its disdain for me was like a crushing physical presence. Poor Thornton on my left took the full force of the attack, and though I risked my own life dragging him back to the village, the healers could do nothing to save the wretch.'"
 msgstr ""
 
 #. [attack]: type=impact
@@ -2056,7 +2056,7 @@ msgstr ""
 #. [unit_type]: id=Raging One, race=aberration
 #. [unit_type]: id=Ripper Beast, race=aberration
 #: War_of_Legends/units/aberrations/Raging_One.cfg:20
-#: War_of_Legends/units/aberrations/Ripper_Beast.cfg:21
+#: War_of_Legends/units/aberrations/Ripper_Beast.cfg:22
 msgid ""
 "Excerpt from a conversation between Lieutenant Artingale and Sage Hogene:\n"
 "'- Hogene, I often thank the Gods that the biggest Ragers are so very rare.\n"
@@ -2093,8 +2093,8 @@ msgstr ""
 
 #. [attack]: type=blade
 #. [attack]: type=pierce
-#: War_of_Legends/units/aberrations/Ripper_Beast.cfg:34
-#: War_of_Legends/units/aberrations/Shredder_Spawn.cfg:31
+#: War_of_Legends/units/aberrations/Ripper_Beast.cfg:35
+#: War_of_Legends/units/aberrations/Shredder_Spawn.cfg:32
 #: War_of_Legends/units/elves-deep/Black_Tyrhai.cfg:25
 #: War_of_Legends/units/elves-deep/Shadow_Tyrhai.cfg:30
 #: War_of_Legends/units/goblins/Goblin_Cavalry.cfg:29
@@ -2182,7 +2182,7 @@ msgstr ""
 
 #. [unit_type]: id=Gallant Carapace, race=carapace
 #: War_of_Legends/units/carapaces/Gallant.cfg:18
-msgid "Once reaching adulthood, a carapace abandons his old shell and grows a new, harder, one. This harder shell, combined with the shields they weld in combat, gives them even more protection. Changing their clubs for maces, they are more dangerous and most foes avoid these braves if they have the choice to."
+msgid "Once a carapace reaches adulthood, it abandons its old shell and grows a new, harder, one. This harder shell, combined with the shields they wield in combat, gives them even more protection. Changing their clubs for maces, they are more dangerous, and thus most foes avoid these braves if they have the choice to do so."
 msgstr ""
 
 #. [attack]: type=impact
@@ -2206,7 +2206,7 @@ msgstr ""
 
 #. [unit_type]: id=Carapace, race=carapace
 #: War_of_Legends/units/carapaces/Regular.cfg:19
-msgid "Welding a club, these carapaces have a hard shell which gives them protection from all physical weapons. Although not having reached their adult forms, they are still a force to be reckoned with."
+msgid "Wielding a club, these carapaces have a hard shell which gives them protection from all physical weapons. Although they have not yet reached their adult forms, they are still a force to be reckoned with."
 msgstr ""
 
 #. [attack]: type=impact
@@ -2221,7 +2221,7 @@ msgstr ""
 
 #. [unit_type]: id=Warrior Carapace, race=carapace
 #: War_of_Legends/units/carapaces/Warrior.cfg:19
-msgid "Carapaces have an extremely long lifespan. The eldest of them, are of a massive size, an inch shorter to an adult troll, and are near indestructible fighters. Every foe thinks twice before attacking these giants."
+msgid "Carapaces have an extremely long lifespan. The eldest of them are of a massive size, an inch shorter to an adult troll, and are near indestructible fighters. Every foe thinks twice before attacking these giants."
 msgstr ""
 
 #. [race]: id=centaur
@@ -2240,14 +2240,8 @@ msgid "race^Centaurs"
 msgstr ""
 
 #. [race]: id=centaur
-#. [unit_type]: id=Centaur Sentinel, race=centaur
-#. [unit_type]: id=Centaur Spearmaiden, race=centaur
-#. [unit_type]: id=Centaur Warden, race=centaur
-#: War_of_Legends/units/centaurs.cfg:8
-#: War_of_Legends/units/centaurs/Sentinel.cfg:18
-#: War_of_Legends/units/centaurs/Spearmaiden.cfg:19
-#: War_of_Legends/units/centaurs/Warden.cfg:18
-msgid "..."
+#: War_of_Legends/units/centaurs.cfg:9
+msgid "Centaurs are half-human, half-horse creatures. They require further research in order to be described more fully."
 msgstr ""
 
 #. [unit_type]: id=Centaur Sentinel, race=centaur
@@ -2255,14 +2249,29 @@ msgstr ""
 msgid "female^Sentinel"
 msgstr ""
 
+#. [unit_type]: id=Centaur Sentinel, race=centaur
+#: War_of_Legends/units/centaurs/Sentinel.cfg:19
+msgid "Centaur Sentinels are centaurs who..."
+msgstr ""
+
 #. [unit_type]: id=Centaur Spearmaiden, race=centaur
 #: War_of_Legends/units/centaurs/Spearmaiden.cfg:5
 msgid "female^Spearmaiden"
 msgstr ""
 
+#. [unit_type]: id=Centaur Spearmaiden, race=centaur
+#: War_of_Legends/units/centaurs/Spearmaiden.cfg:20
+msgid "Centaur Spearmaidens are centaur maidens who wield spears."
+msgstr ""
+
 #. [unit_type]: id=Centaur Warden, race=centaur
 #: War_of_Legends/units/centaurs/Warden.cfg:5
 msgid "female^Warden"
+msgstr ""
+
+#. [unit_type]: id=Centaur Warden, race=centaur
+#: War_of_Legends/units/centaurs/Warden.cfg:19
+msgid "Centaur Wardens are..."
 msgstr ""
 
 #. [unit_type]: id=Drake Adventurer, race=drake
@@ -2272,7 +2281,7 @@ msgstr ""
 
 #. [unit_type]: id=Drake Adventurer, race=drake
 #: War_of_Legends/units/drakes/Adventurer.cfg:17
-msgid "Drake Adventurer is a light weaponed fighter. He has been trained as well to fight at night and caves. Although his maximum speed is slower than Sky Drake, the extra mobility in caves and ability to strike with fire in melee is useful in combat."
+msgid "Drake Adventurers are light weaponed fighters. They have been trained as well to fight at night and caves. Although their maximum speed is slower than that of the Sky Drakes, their extra mobility in caves and ability to strike with fire in melee is useful in combat."
 msgstr ""
 
 #. [attack]: type=fire
@@ -2302,7 +2311,7 @@ msgstr ""
 
 #. [unit_type]: id=Drake Ranger, race=drake
 #: War_of_Legends/units/drakes/Ranger.cfg:18
-msgid "Drake Ranger is a light weaponed fighter. He has been trained as well to fight at night and caves. Although his maximum speed is slower than Sky Drake, the extra mobility in caves and ability to strike with fire in melee is useful in combat."
+msgid "Drake Rangers are light weaponed fighters. They have been trained as well to fight at night and caves. Although their maximum speed is slower than that of the Sky Drakes, their extra mobility in caves and ability to strike with fire in melee is useful in combat."
 msgstr ""
 
 #. [unit_type]: id=Dwarvish Arbalestier, race=dwarf
@@ -2934,7 +2943,7 @@ msgstr ""
 #. [race]: id=deep_elf
 #: War_of_Legends/units/elves-deep.cfg:23
 msgid ""
-"The Deep Elves are descendants of the original wood-elves of the forest of Lintanir, the great groove in the northwest of the Great Continent. Being nothing more than just shadows of their former selves, the Deep Elves reside in the caverns of Blackqvasten, a place hidden underneath the heart of the Great Continent where neither the dead nor the living can see. At the lowest point of Blackqvasten lies the Black Lake, where a statue of Shassagoth stands. Shassagoth, often displayed as a huge black dragon, directs the Deep Elves from his shadow realm. They serve him loyally and unquestioningly, and he, in turn, smites their foes.\n"
+"The Deep Elves are descendants of the original wood-elves of the forest of Lintanir, the great grove in the northwest of the Great Continent. Being nothing more than just shadows of their former selves, the Deep Elves reside in the caverns of Blackqvasten, a place hidden underneath the heart of the Great Continent where neither the dead nor the living can see. At the lowest point of Blackqvasten lies the Black Lake, where a statue of Shassagoth stands. Shassagoth, often depicted as a huge black dragon, directs the Deep Elves from his shadow realm. They serve him loyally and unquestioningly, and he, in turn, smites their foes.\n"
 "\n"
 "In the darkness of the depths, the former elves made a pact with Shassagoth and transformed. Some gained a skin as bright as the stars, a skin which could render blades and arrows harmless. These elves are called Lightborn. They retain their faerie nature, illuminating the dark caverns with their mere presence. Others evolved a skin as dark as the night, granting them shelter in the darkest realms and allowing them to merge with the shadows, quickly moving through the nights. Still others developed a skin as red as blood, reflecting the crimson liquid spilled in battle, as a sign of their remarkable powers in blade or magic. Despite their distinguishing characteristics, the pact that the Deep Elves made with Shassagoth unifies them all. And what once was elf has now become a tool of darkness.\n"
 "\n"
