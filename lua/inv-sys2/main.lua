@@ -1,8 +1,6 @@
 T = wml.tag
 items = wesnoth.require "lua/wml/items.lua"
-_ = wesnoth.textdomain "wesnoth"
-                
-
+local _ = wesnoth.textdomain "wesnoth"          
 
 function wol_require(script)
         return wesnoth.dofile('~add-ons/War_of_Legends/lua/inv-sys2/' .. script .. '.lua')
