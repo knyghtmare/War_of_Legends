@@ -1,4 +1,5 @@
 *.swp
 *.cfg-bak
-images/units/monsters/.DS_Store
-images/units/steelhive/.DS_Store
+
+# adopt to new style
+_server.pbl
