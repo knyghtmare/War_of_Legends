@@ -69,17 +69,17 @@ function ca_spread_curse:evaluation(cfg, data, filter_own)
 
                 -- As this is the spread poison CA, we want to emphasize poison damage more, but only for non-regenerating units.
                 -- For regenerating units this is actually a penalty, as the poison might be more useful elsewhere.
-                local additional_poison_rating = wesnoth.game_config.poison_amount * (def_stats.poisoned - def_stats.hp_chance[0])
-                additional_poison_rating = additional_poison_rating / defender.max_hitpoints * defender.cost
+                local additional_curse_rating = wesnoth.game_config.poison_amount * (def_stats.poisoned - def_stats.hp_chance[0])
+                additional_curse_rating = additional_curse_rating / defender.max_hitpoints * defender.cost
                 if defender:ability('regenerate') then
-                    additional_poison_rating = - additional_poison_rating
+                    additional_curse_rating = - additional_curse_rating
                 end
 
                 -- More priority to enemies on strong terrain
                 local defense_rating = defender:defense_on(defender_terrain) / 100
 
                 attacker_rating = attacker_rating * (1 - aggression)
-                local combat_rating = attacker_rating + defender_rating + additional_poison_rating
+                local combat_rating = attacker_rating + defender_rating + additional_curse_rating
                 local total_rating = combat_rating + defense_rating
 
                 -- Only do the attack if combat_rating is positive. As there is a sizable
