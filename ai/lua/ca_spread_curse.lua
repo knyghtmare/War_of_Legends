@@ -51,7 +51,7 @@ function ca_spread_curse:evaluation(cfg, data, filter_own)
             local defender = wesnoth.units.get(a.target.x, a.target.y)
 
             -- Don't try to poison a unit that cannot be poisoned
-            local cant_poison = defender.status.poisoned or defender.status.unpoisonable
+            local cant_curse = defender.status.poisoned or defender.status.unpoisonable
 
             -- For now, we also simply don't poison units on healing locations (unless standard combat CA does it)
             local defender_terrain = wesnoth.current.map[defender]
@@ -60,11 +60,11 @@ function ca_spread_curse:evaluation(cfg, data, filter_own)
             -- Also, poisoning units that would level up through the attack or could level on their turn as a result is very bad
             local about_to_level = defender.max_experience - defender.experience <= (attacker.level * 2 * wesnoth.game_config.combat_experience)
 
-            if (not cant_poison) and (healing == 0) and (not about_to_level) then
-                local _, poison_weapon = attacker:find_attack { special_id = "weapon_special_jinx" }
+            if (not cant_curse) and (healing == 0) and (not about_to_level) then
+                local _, curse_weapon = attacker:find_attack { special_id = "weapon_special_jinx" }
                 local dst = { a.dst.x, a.dst.y }
                 wesnoth.interface.handle_user_interact()
-                local att_stats, def_stats = BC.simulate_combat_loc(attacker, dst, defender, poison_weapon)
+                local att_stats, def_stats = BC.simulate_combat_loc(attacker, dst, defender, curse_weapon)
                 local _, defender_rating, attacker_rating = BC.attack_rating(attacker, defender, dst, { att_stats = att_stats, def_stats = def_stats })
 
                 -- As this is the spread poison CA, we want to emphasize poison damage more, but only for non-regenerating units.
@@ -103,12 +103,12 @@ end
 function ca_spread_curse:execution(cfg, data)
     local attacker = wesnoth.units.get(SP_attack.src.x, SP_attack.src.y)
     -- If several attacks have poison, this will always find the last one
-    local is_poisoner, poison_weapon = attacker:find_attack { special_id = "weapon_special_jinx" }
+    local is_curser, curse_weapon = attacker:find_attack { special_id = "weapon_special_jinx" }
 
     if AH.print_exec() then AH.print_ts('   Executing spread_curse CA') end
-    if AH.show_messages() then wesnoth.wml_actions.message { speaker = attacker.id, message = 'Poison attack' } end
+    if AH.show_messages() then wesnoth.wml_actions.message { speaker = attacker.id, message = 'Curse attack' } end
 
-    AH.robust_move_and_attack(ai, attacker, SP_attack.dst, SP_attack.target, { weapon = poison_weapon })
+    AH.robust_move_and_attack(ai, attacker, SP_attack.dst, SP_attack.target, { weapon = curse_weapon })
 
     SP_attack = nil
 end
