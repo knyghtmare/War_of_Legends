@@ -1,5 +1,10 @@
 War of Legends
-Change-Log v1.2.7.23
+Change-Log v1.2.7.26
+
+version 1.2.7.26:
+Legends Conquest:
+--> Add Nightmares faction as the 18th faction of Legends Conquest.
+--> Fixed a bug that gave wrong enemy selection to the enemy factions
 
 version 1.2.7.23:
 Quenoth Elves:

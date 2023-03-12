@@ -1,2 +1,5 @@
-
+*.swp
 *.cfg-bak
+
+# adopt to new style
+_server.pbl
