@@ -2,6 +2,10 @@ War of Legends
 Change-Log v1.2.7.26
 
 version 1.2.7.26:
+Nightmares of Melon:
+--> Ensured Terrain Link and Cursing are working in MP
+--> Added Special AI for playing Nightmares
+
 Legends Conquest:
 --> Add Nightmares faction as the 18th faction of Legends Conquest.
 --> Fixed a bug that gave wrong enemy selection to the enemy factions
@@ -9,6 +13,7 @@ Legends Conquest:
 version 1.2.7.23:
 Quenoth Elves:
 --> Added missing undead variations for Quenoth Scout and the Tauroch Rider unit trees
+
 Nightmares:
 --> Made available for MP usage
 --> Added Vampire Bat recruits
