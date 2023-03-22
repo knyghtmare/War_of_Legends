@@ -24,14 +24,14 @@ wesnoth.game_events.add_repeating("unit placed", function()
         -- I am not sure about this part
         -- not sure if any other way to add
         -- a new ability
-        wml.tag.effect {
-            apply_to = "new_ability",
-            wml.tag.abilities {
-                wml.tag.leadership {
-                    id = "allied_leadership",
-                }
-            }
-        },
+        -- wml.tag.effect {
+        --     apply_to = "new_ability",
+        --     wml.tag.abilities {
+        --         wml.tag.leadership {
+        --             id = "allied_leadership",
+        --         }
+        --     }
+        -- },
     }
     -- take the unit as local variable
     local ecx = wesnoth.current.event_context
@@ -66,14 +66,14 @@ wesnoth.game_events.add_repeating("unit placed", function()
         -- I am not sure about this part
         -- not sure if any other way to add
         -- a new ability
-        wml.tag.effect {
-            apply_to = "new_ability",
-            wml.tag.abilities {
-                wml.tag.leadership {
-                    id = "allied_inspires",
-                }
-            }
-        },
+        -- wml.tag.effect {
+        --     apply_to = "new_ability",
+        --     wml.tag.abilities {
+        --         wml.tag.leadership {
+        --             id = "allied_inspires",
+        --         }
+        --     }
+        -- },
     }
     -- take the unit as local variable
     local ecx = wesnoth.current.event_context
