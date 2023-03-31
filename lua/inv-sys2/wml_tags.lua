@@ -37,7 +37,7 @@ end
 
 ]]--
 
--- local _ = wesnoth.textdomain "wesnoth-Bad_Moon_Rising"
+-- local _ = wesnoth.textdomain "wesnoth-War_of_Legends"
 
 function wesnoth.wml_actions.center_message(cfg)
         local message = tostring(cfg.message or "No message available")
