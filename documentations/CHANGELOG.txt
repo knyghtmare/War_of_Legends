@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.7.26
+Change-Log v1.2.7.27
+
+version 1.2.7.27
+--> Nightmares of Melon:
+   --> Curse now heals on scenario victory/completion 
 
 version 1.2.7.26:
 Nightmares of Melon:
