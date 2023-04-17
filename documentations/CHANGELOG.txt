@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.7.27
+Change-Log v1.2.7.28
+
+version 1.2.7.28
+--> Aragwaithi:
+   --> Adept-line now has a portrait (contributed and commissioned by Egallager)
 
 version 1.2.7.27
 --> Nightmares of Melon:
