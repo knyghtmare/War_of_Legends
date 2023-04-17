@@ -4,6 +4,7 @@ Change-Log v1.2.7.28
 version 1.2.7.28
 --> Aragwaithi
    --> Add custom names for units
+   --> Adept-line now has her portrait (contributed by egallager)
 --> Advancements:
    --> removed instances of {ENABLE_NIGHTBLADE}
    --> This advancement has been enabled as default
