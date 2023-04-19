@@ -5,6 +5,12 @@ version 1.2.7.28
 --> Aragwaithi
    --> Add custom names for units
    --> Adept-line now has her portrait (contributed by egallager)
+   --> Adept: XP (50 -> 44), Cost (22 -> 21)
+   --> Archer: XP (38 -> 32)
+   --> Eagle Rider: Cost (23 -> 20)
+   --> Scout: XP (40 -> 36)
+   --> Spearman: XP (43 -> 35)
+   --> Swordsman: XP (39 -> 34), Cost (14 -> 13)
 --> Advancements:
    --> removed instances of {ENABLE_NIGHTBLADE}
    --> This advancement has been enabled as default
