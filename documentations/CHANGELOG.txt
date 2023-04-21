@@ -10,6 +10,11 @@ version 1.2.7.28
    --> Scout: XP (40 -> 36)
    --> Spearman: XP (43 -> 35)
    --> Swordsman: XP (39 -> 34), Cost (14 -> 13)
+   --> Enchantress: XP (122 -> 88)
+   --> Flagbearer: XP (100 -> 80)
+   --> Longswordsman: XP (88 -> 78)
+   --> Strongbow: XP (85 -> 77)
+   --> Swordsmaster: HP (52 -> 58)
 
 version 1.2.7.27
 --> Nightmares of Melon:
