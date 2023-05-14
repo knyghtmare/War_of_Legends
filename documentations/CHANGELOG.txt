@@ -1,5 +1,29 @@
 War of Legends
-Change-Log v1.2.7.28
+Change-Log v1.2.7.29
+
+version 1.2.7.29
+--> Deep Elves:
+   --> Harbinger: add magical to ranged attack
+   --> (This was a bug which has been noticed by IPS)
+   --> Harbinger: cost from 95 to 101
+   --> Patroness: cost from 45 to 55, XP 150 to 120
+   --> Tyrhai Rider: +1 MP, XP 45 to 40
+   --> Phade: +4 HP
+   --> Irr: +1 HP
+--> Minotaurs:
+   --> Gore-line: +regenerates6, -regenerates4
+   --> Shaman-line: +regenerates6, -regenerates4
+   --> Cutthroat-line: +regenerates6, -regenerates4
+   --> Boar Rider-line: +regenerates6, -regenerates4
+   --> Behemoth-line: +regenerates6, -regenerates4
+   --> Mystic: -10% DEF on forest and mountains
+   --> Mystic: -1 melee damage, cost 55 -> 48
+--> Sylvans:
+   --> Faerie Spirit: adjusted fire/arcane/cold RES to 20/-10/0 (from 0/-20/70)
+   --> Faerie Spirit: -3 cost (63 -> 60), -2 HP
+--> Windsong:
+   --> Prophetess: melee damage changed from 10-2 to 6-3, ranged damage -1
+   --> Ascendant: melee damage changed from 11-3 to 8-3, ranged damage -1
 
 version 1.2.7.28
 --> Aragwaithi:
