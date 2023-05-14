@@ -48,17 +48,7 @@ DARK LEGION
 - Dark Advamced crossbowman crossbow (fire) damage increase to 16-2 , HP to 64 (+4) , added 10% fire ressistance , price to 50g (+4g)
 - Dark Longbowman XP from 75 to 65 , price to 25g (-3g)
 
-- Assault Drone blade/pierce/cold ressistances to 10% (+10%) , HP to 45 (+3) , price to 28g (-2g)
-- War Drone HP to 60 (+8) , melee readjusted from 8-3 to 7-4 , price to 56g (+4g)
-
-- Drone Sentry fire weakness decrease to -10% (+10%) , HP to 48 (+2) , price to 28g (-2g)
-- Drone Enforcer fire weakness decrease to -10% (+10%) , HP to 65 (+3) , Fangs damage increase to 12-3 , claws damage readjusted from 9-4 to 8-5 , price to 56g (+4g)
-
 - Pillager price to 30g (-4g)
-
-- Protector drone HP to 46 (+7) , movement to 5 (-1) , AMLA XP increase to 100 (+20) , price to 30g (-2g)
-- Rayblade HP to 44 (+6) and gained +first-strike
-- Stormblade HP to 63 (+14) , Energy Shock damage increase to 9-2 , price to 54g (+4g)
 
 - Dark Warrior Price to 60g (+6g)
 - Champion Price to 54g (+11g)
@@ -78,8 +68,6 @@ MISC
 2) I do personally find Legion Enforcer melee+ranged damages too high (specially if melee has first-strike) , Unit has poor HP for a lv3. Maybe just that I do see too much potential in 1 strike units even without existance of XP mod.
 
 3) Legion Guardian XP's insane high , recheck that.
-
-4) Patroness too high damage for a lv3, combined of +line-damage , unit really don't needs Area of Damage in lv3. Maybe add +Marksman or +Skilled to lv4 to make her worth to be obtained appart of the area of damage bonus.
 
 7) Axet Thrower too high melee+ranged damage in all levels. Low HP on lv2, maybe recheck to see if there is something wrong, but I find unit too powerful.
 
