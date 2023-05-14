@@ -73,10 +73,8 @@ MISC
 
 8 ) Fire guardian too terribly underpowered , there is no pricement that can fix these stats. As well in lv2.
 
-9) Steel Wyrm too powerful melee for also 6-2 backstab, still low ressists, just a mention so you can recheck if there is something wrong in here.
+9) Steel Wyrm too powerful melee for also 6-2 backstab, still low RES, just a mention so you can recheck if there is something wrong in here.
 
 10) Steel Splicer capable to defeat in 1vs1 a lv2 figther and being a berserking unit, indeed very overpowered.
 
 11) Steel Vorpal melee damages too high (11-4) to also get +slows special.
-
-12) Forest Spirit too high melee+ranged damage, maybe try 5-4 for melee.
