@@ -81,8 +81,6 @@ MISC
 
 4) Patroness too high damage for a lv3, combined of +line-damage , unit really don't needs Area of Damage in lv3. Maybe add +Marksman or +Skilled to lv4 to make her worth to be obtained appart of the area of damage bonus.
 
-5) personally recommend regen+6 on all lv3 minotaurs. They do even have access to healer+8 on lv2, but not all turns will be exposed to them, as well regneerates losses value the more damage unit takes from stronger higher level units.
-
 6) Mystic's melee damage is too overpowered LOL , decrease it to 7-3 or 9-2. As well that 70% mountain defenses and 60% forest defenses is as hell overpowered.
 
 7) Axet Thrower too high melee+ranged damage in all levels. Low HP on lv2, maybe recheck to see if there is something wrong, but I find unit too powerful.
