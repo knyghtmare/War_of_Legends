@@ -3,13 +3,13 @@ Change-Log v1.2.7.29
 
 version 1.2.7.29
 --> Deep Elves:
-   --> Harbinger: add magical to ranged attack
-   --> (This was a bug which has been noticed by IPS)
+   --> Harbinger: add magical to ranged attack (This was a bug which has been noticed by IPS)
    --> Harbinger: cost from 95 to 101
    --> Patroness: cost from 45 to 55, XP 150 to 120
    --> Tyrhai Rider: +1 MP, XP 45 to 40
    --> Phade: +4 HP
    --> Irr: +1 HP
+   --> Forgotten Minotaur: -1 upkeep (unit is still level 2)
 --> Minotaurs:
    --> Gore-line: +regenerates6, -regenerates4
    --> Shaman-line: +regenerates6, -regenerates4
@@ -24,6 +24,21 @@ version 1.2.7.29
 --> Windsong:
    --> Prophetess: melee damage changed from 10-2 to 6-3, ranged damage -1
    --> Ascendant: melee damage changed from 11-3 to 8-3, ranged damage -1
+--> Quenoth:
+   --> Replace Fire Guardian with Dust Devil
+--> Dark Legion
+   --> Archer: XP 39 -> 36, poison ranged attack damage -1
+   --> Crossbowman: +1 fire ranged damage, +3 HP, -1 cost
+   --> Arbalastier: +1 fire ranged damage, +4 HP, +10% fire RES, +4 cost
+   --> Longbowman: -1 cost, -3 XP, poison ranged attack changed to 5-3
+   --> Elite Longbowman: poison ranged attack changed to 6-4
+   --> Gunner: -1 cost
+   --> Enforcer: + 7 HP, + 3 cost
+   --> Halberdier: -1 cost
+   --> Pillager: -4 cost (34->30)
+   --> Crusher: +7 HP, +20% impact RES
+   --> Guardian: XP 110 -> 80, +10 impact RES, -6 cost
+   --> Sentinel: +10% impact RES
 
 version 1.2.7.28
 --> Aragwaithi:
