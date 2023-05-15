@@ -43,29 +43,14 @@ Disabled aspect of the hunter special as it conflicts with some gamemodes.
 
 DARK LEGION
 
-- Dark Bowman XP from 39 to 36
-- Dark Crossbowman XP from 80 to 70 , crossbow (fire) damage increase to 11-2 , HP to 48 (+3) , price to 24g (-3g)
-- Dark Advamced crossbowman crossbow (fire) damage increase to 16-2 , HP to 64 (+4) , added 10% fire ressistance , price to 50g (+4g)
-- Dark Longbowman XP from 75 to 65 , price to 25g (-3g)
-
-- Pillager price to 30g (-4g)
-
 - Dark Warrior Price to 60g (+6g)
 - Champion Price to 54g (+11g)
-- Gunner Price to 24g (-2g)
-- Elite Gunner price to 51g (+5g)
-- Halberdier price to 24g (-2g)
-- Deathmaster price to 53g (+7g)
 
 - Crusher HP to 50 (+2) , impact resistance increase to 20% (+10%)
 - Guardian XP from 100 to 80 , impact ressistance to 20% (+10%) , price to 29g (-6g)
 - Terror Impact ressistance increase to 20% (+10%)
 
 MISC
-
-1) Legion Elite Longbowman poison ranged is 7-2 while lv2 is 6-2 and lv1 is 5-2 . Obviously higher level longbowman poison attacks are underpowered. Poison deal as much damage in all levels and the damage loss from the unit for just using optional posion is not even worth in lv2 and lv3. In AE I used values 6-3 for lv2 and 7-4 for lv3 . Even with these values people (and me) do rarely use the poison attack unless of closed spaces or instead using lower level bowmen (or any other thing) for poison.
-
-2) I do personally find Legion Enforcer melee+ranged damages too high (specially if melee has first-strike) , Unit has poor HP for a lv3. Maybe just that I do see too much potential in 1 strike units even without existance of XP mod.
 
 3) Legion Guardian XP's insane high , recheck that.
 
