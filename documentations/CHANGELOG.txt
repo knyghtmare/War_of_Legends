@@ -24,6 +24,18 @@ version 1.2.7.29
 --> Windsong:
    --> Prophetess: melee damage changed from 10-2 to 6-3, ranged damage -1
    --> Ascendant: melee damage changed from 11-3 to 8-3, ranged damage -1
+--> Quenoth:
+   --> Replace Fire Guardian with Dust Devil
+--> Dark Legion
+   --> Archer: XP 39 -> 36, poison ranged attack damage -1
+   --> Crossbowman: +1 fire ranged damage, +3 HP, -1 cost
+   --> Arbalastier: +1 fire ranged damage, +4 HP, +10% fire RES, +4 cost
+   --> Longbowman: -1 cost, -3 XP, poison ranged attack changed to 5-3
+   --> Elite Longbowman: poison ranged attack changed to 6-4
+   --> Gunner: -1 cost
+   --> Enforcer: + 7 HP, + 3 cost
+   --> Halberdier: -1 cost
+   --> Pillager: -4 cost (34->30)
 
 
 version 1.2.7.28
