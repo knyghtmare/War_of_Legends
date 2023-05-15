@@ -10,6 +10,10 @@ version 1.2.7.29
    --> Phade: +4 HP
    --> Irr: +1 HP
    --> Forgotten Minotaur: -1 upkeep (unit is still level 2)
+   --> Nightmaiden: +4 HP
+   --> Nightstalker: +8 HP, -4 cost
+   --> Baroness: +9 HP, +4 cost
+   --> Vault Lurker: +20% cold RES, melee: +firststrike
 --> Minotaurs:
    --> Gore-line: +regenerates6, -regenerates4
    --> Shaman-line: +regenerates6, -regenerates4
