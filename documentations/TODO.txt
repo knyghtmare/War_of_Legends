@@ -16,11 +16,6 @@ Infantryman
 
 DEEP ELVES
 
-- Mintours movement to 6 (+1) , new special +low-upkeep , AMLA XP lowered to 100
-Extra movement will allow this unit to get better positioned before day starts, and low upkeep to hoar less golds for an unit you can use only 4/6 of game.
-
-- Tyr'hai rider XP from 45 to 40 , movement to 7 (+1)
-
 Disabled aspect of the hunter special as it conflicts with some gamemodes.
 - Blood Maiden XP from 42 to 40
 - Vengeance XP from 90 to 85 , added 5% parry on melee
@@ -41,22 +36,9 @@ Disabled aspect of the hunter special as it conflicts with some gamemodes.
 - Patroness XP from 150 to 120 , price to 55g (+5g)
 - Harbinger ranged attack damage type changed from arcane to impact, price to 85g (+5g)
 
-DARK LEGION
-
-- Dark Warrior Price to 60g (+6g)
-- Champion Price to 54g (+11g)
-
-- Crusher HP to 50 (+2) , impact resistance increase to 20% (+10%)
-- Guardian XP from 100 to 80 , impact ressistance to 20% (+10%) , price to 29g (-6g)
-- Terror Impact ressistance increase to 20% (+10%)
-
 MISC
 
-3) Legion Guardian XP's insane high , recheck that.
-
 7) Axet Thrower too high melee+ranged damage in all levels. Low HP on lv2, maybe recheck to see if there is something wrong, but I find unit too powerful.
-
-8 ) Fire guardian too terribly underpowered , there is no pricement that can fix these stats. As well in lv2.
 
 9) Steel Wyrm too powerful melee for also 6-2 backstab, still low RES, just a mention so you can recheck if there is something wrong in here.
 
