@@ -13,16 +13,6 @@ Infantryman
 
 DEEP ELVES
 
-Disabled aspect of the hunter special as it conflicts with some gamemodes.
-- Blood Maiden XP from 42 to 40
-- Vengeance XP from 90 to 85 , added 5% parry on melee
-- Seeker added 5% parry on melee.
-
-- Lidh ranged damage increase to 5-4 , also getting self heal(2) -doesn't cure poison- as bonus.
-- Phade HP to 40 (+4) , movement to 6 (+1) , ranged damage increase to 8-4 , XP from 90 to 80 , also getting self heal(2) -doesn't cure poison- as bonus.
-- Irr HP to 49 (+3) , movement to 6 (+1) , ranged damage increase to 11-4 , unit will now regen+5 and can cure poison from itself , price to 53g (+9g)
-- Elthare HP to 42 (+4) , ranged damage increase to 6-3 , will now regens+4 and can cure itself from poison.
-
 - Seer NEW ATTACK: Energy Ball 9-4 arcane ranged +first-strike , melee damage increase to 7-3 , price to 56g (+8g)
 
 MISC
