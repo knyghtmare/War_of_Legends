@@ -47,6 +47,10 @@ version 1.2.7.29
    --> Crusher: +7 HP, +20% impact RES
    --> Guardian: XP 110 -> 80, +10 impact RES, -6 cost
    --> Sentinel: +10% impact RES
+   --> Medic-line: animations updated
+       (you no longer see it changing to White Mage)
+   --> Medic: -2 XP
+   --> Healer: XP 136 -> 80, -7 cost
 
 
 version 1.2.7.28
