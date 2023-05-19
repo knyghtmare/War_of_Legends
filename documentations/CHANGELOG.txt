@@ -51,6 +51,9 @@ version 1.2.7.29
        (you no longer see it changing to White Mage)
    --> Medic: -2 XP
    --> Healer: XP 136 -> 80, -7 cost
+--> Legends Conquest:
+   --> Fixed a bug where units were getting duplicated traits
+   --> New Modification available: AI random recruitment
 
 
 version 1.2.7.28
