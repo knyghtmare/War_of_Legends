@@ -39,6 +39,10 @@ version 1.2.7.29
    --> Crusher: +7 HP, +20% impact RES
    --> Guardian: XP 110 -> 80, +10 impact RES, -6 cost
    --> Sentinel: +10% impact RES
+--> Legends Conquest:
+   --> Fixed a bug which caused duplicated traits to be added
+   
+   
 
 version 1.2.7.28
 --> Aragwaithi:
