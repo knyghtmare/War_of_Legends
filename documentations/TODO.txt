@@ -10,7 +10,3 @@ Carapaces
 
 Unit graphics updates
 Infantryman
-
-DEEP ELVES
-
-- Seer NEW ATTACK: Energy Ball 9-4 arcane ranged +first-strike , melee damage increase to 7-3 , price to 56g (+8g)
