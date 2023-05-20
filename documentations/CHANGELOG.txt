@@ -60,7 +60,9 @@ version 1.2.7.29
    --> Steel Splicer: -1 melee damage, -1 cost
    --> Steel Vector: -1 melee damage, -2 cost
    --> Steel Vorpal: -1 melee blade damage, -2 cost
-   --> Steel Fideliant: -1 melee blade damage, -2 cost 
+   --> Steel Fideliant: -1 melee blade damage, -2 cost
+--> Loyalists:
+   --> Infantryman: new base frame and animations
 --> Legends Conquest:
    --> Fixed a bug where units were getting duplicated traits
    --> New Modification available: AI random recruitment
