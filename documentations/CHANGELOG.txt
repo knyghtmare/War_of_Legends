@@ -3,7 +3,8 @@ Change-Log v1.2.7.29
 
 version 1.2.7.29
 --> Deep Elves:
-   --> Harbinger: add magical to ranged attack (This was a bug which has been noticed by IPS)
+   --> Harbinger: add magical to ranged attack
+      (This was a bug which has been noticed by IPS)
    --> Harbinger: cost from 95 to 101
    --> Patroness: cost from 45 to 55, XP 150 to 120
    --> Tyrhai Rider: +1 MP, XP 45 to 40
