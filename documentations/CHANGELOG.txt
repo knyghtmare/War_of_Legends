@@ -56,6 +56,11 @@ version 1.2.7.29
    --> Axethrower: +2 HP, -2 ranged damage
    --> Axeman: +6 HP, +1 cost, -1 melee damage, -3 ranged damage
    --> Axemaster: +4 HP, +18 cost, -1 melee damage, -3 ranged damage
+--> Steelhive:
+   --> Steel Splicer: -1 melee damage, -1 cost
+   --> Steel Vector: -1 melee damage, -2 cost
+   --> Steel Vorpal: -1 melee blade damage, -2 cost
+   --> Steel Fideliant: -1 melee blade damage, -2 cost 
 --> Legends Conquest:
    --> Fixed a bug where units were getting duplicated traits
    --> New Modification available: AI random recruitment
