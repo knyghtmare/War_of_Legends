@@ -17,8 +17,6 @@ DEEP ELVES
 
 MISC
 
-7) Axet Thrower too high melee+ranged damage in all levels. Low HP on lv2, maybe recheck to see if there is something wrong, but I find unit too powerful.
-
 9) Steel Wyrm too powerful melee for also 6-2 backstab, still low RES, just a mention so you can recheck if there is something wrong in here.
 
 10) Steel Splicer capable to defeat in 1vs1 a lv2 figther and being a berserking unit, indeed very overpowered.
