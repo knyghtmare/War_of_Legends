@@ -14,11 +14,3 @@ Infantryman
 DEEP ELVES
 
 - Seer NEW ATTACK: Energy Ball 9-4 arcane ranged +first-strike , melee damage increase to 7-3 , price to 56g (+8g)
-
-MISC
-
-9) Steel Wyrm too powerful melee for also 6-2 backstab, still low RES, just a mention so you can recheck if there is something wrong in here.
-
-10) Steel Splicer capable to defeat in 1vs1 a lv2 figther and being a berserking unit, indeed very overpowered.
-
-11) Steel Vorpal melee damages too high (11-4) to also get +slows special.
