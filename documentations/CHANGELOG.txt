@@ -51,6 +51,10 @@ version 1.2.7.29
        (you no longer see it changing to White Mage)
    --> Medic: -2 XP
    --> Healer: XP 136 -> 80, -7 cost
+--> Outlaws:
+   --> Axethrower: +2 HP, -2 ranged damage
+   --> Axeman: +6 HP, +1 cost, -1 melee damage, -3 ranged damage
+   --> Axemaster: +4 HP, +18 cost, -1 melee damage, -3 ranged damage
 --> Legends Conquest:
    --> Fixed a bug where units were getting duplicated traits
    --> New Modification available: AI random recruitment
