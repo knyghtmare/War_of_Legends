@@ -3,7 +3,8 @@ Change-Log v1.2.7.29
 
 version 1.2.7.29
 --> Deep Elves:
-   --> Harbinger: add magical to ranged attack (This was a bug which has been noticed by IPS)
+   --> Harbinger: add magical to ranged attack
+      (This was a bug which has been noticed by IPS)
    --> Harbinger: cost from 95 to 101
    --> Patroness: cost from 45 to 55, XP 150 to 120
    --> Tyrhai Rider: +1 MP, XP 45 to 40
@@ -51,8 +52,18 @@ version 1.2.7.29
        (you no longer see it changing to White Mage)
    --> Medic: -2 XP
    --> Healer: XP 136 -> 80, -7 cost
+--> Outlaws:
+   --> Axethrower: +2 HP, -2 ranged damage
+   --> Axeman: +6 HP, +1 cost, -1 melee damage, -3 ranged damage
+   --> Axemaster: +4 HP, +18 cost, -1 melee damage, -3 ranged damage
+--> Steelhive:
+   --> Steel Splicer: -1 melee damage, -1 cost
+   --> Steel Vector: -1 melee damage, -2 cost
+   --> Steel Vorpal: -1 melee blade damage, -2 cost
+   --> Steel Fideliant: -1 melee blade damage, -2 cost
 --> Legends Conquest:
-   --> Fixed a bug which caused duplicate traits to be added
+   --> Fixed a bug where units were getting duplicated traits
+   --> New Modification available: AI random recruitment
    
    
 
