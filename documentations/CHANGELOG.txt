@@ -1,5 +1,13 @@
 War of Legends
-Change-Log v1.2.7.29
+Change-Log v1.2.7.30
+
+version 1.2.7.30
+--> Deep Elves:
+   --> Fixed Corrupted's Ethergrip not working for all damage types
+--> Misc:
+   --> Updated trait descriptions
+--> Legends Conquest:
+   -->
 
 version 1.2.7.29
 --> Deep Elves:
