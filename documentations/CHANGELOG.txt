@@ -59,9 +59,12 @@ version 1.2.7.29
 --> Steelhive:
    --> Steel Splicer: -1 melee damage, -1 cost
    --> Steel Vector: -1 melee damage, -2 cost
-   --> Steel Vorpal: -1 melee blade damage, -2 cost
+   --> Steel Vorpal: -1 melee blade damage, -2 cost, XP set to 150
    --> Steel Fideliant: -1 melee blade damage, -2 cost
---> Loyalists:
+   --> Steel Wyrm: +4 HP, -1 ranged damage
+   --> Steel Serpent: +4 HP, -1 ranged damage
+   --> Steel Leviathan: -1 ranged damage
+--> Loyalists: (1.17.x branch only)
    --> Infantryman: new base frame and animations
 --> Legends Conquest:
    --> Fixed a bug where units were getting duplicated traits
