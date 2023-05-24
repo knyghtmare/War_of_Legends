@@ -2,9 +2,76 @@ War of Legends
 Change-Log v1.2.7.30
 
 version 1.2.7.30
+--> Aragwaithi:
+   --> Ancient Banner: +15 cost
+   --> Captain: -60 XP
+   --> Eagle Master: +3 HP, +3 cost
+   --> Enchantress: -4 cost
+   --> Flagbearer: -5 XP
+   --> Greatbow: +4 HP, +7 cost
+   --> Guard: +3 cost
+   --> Guardian: +3 HP
+   --> Longswordsman: +3 cost, +10 flat defence
+   --> Pikeman: -1 cost
+   --> Shield Guard: +12 cost
+   --> Silver Shield: +2 cost
+   --> Slayer: -9 cost
+   --> Sorceress: +3 HP, -6 cost
+   --> Strongbow: -2 XP
+   --> Swordsmaster: +10 flat DEF, +12 cost
 --> Deep Elves:
    --> Fixed Corrupted's Ethergrip not working for all damage types
---> Misc:
+--> Sylvans:
+   --> Ascetic: XP set to 88, +4 cost
+   --> Mystic: +6 cost, gossamer 9-2 -> 8-3, faerie fire 12-3 -> 11-4
+   --> Avatar: +40 cost, gossamer is 10-3, faerie fire 11-5
+--> Minotaurs:
+   --> Gnoll Marksman: +2 HP, -4 cost
+   --> Boar Cataphract: +6 cost
+   --> Boar Knight: -30 XP, +2 cost
+   --> Cutthroat: -5 XP
+   --> Elder: -5 cost
+   --> Gore: -3 XP
+   --> Mystic: -7 cost
+   --> Rouser: -4 cost
+   --> Savage: -4 cost
+   --> Slayer: -6 cost
+   --> Warlock: -10 cost
+--> Windsong:
+   --> Arbiter: -50 XP
+   --> Ascendant: +2 HP, +10 fire and cold RES
+   --> Sky Crystal: +20% arcane RES
+   --> Savant: -3 cost
+   --> Dreadnought: +4 cost
+   --> Envoy: +2 HP, -6 XP, -4 cost 
+   --> Lorekeeper: -9 cost
+   --> Oathkeeper: +5 cost
+   --> Pathfinder: -2 XP, +2 cost
+   --> Farstrider: +6 cost, +1 HP
+   --> Runeforger: +2 HP, +10 flat defence, +1 MP, -5 cost
+   --> Reaver: -2 cost
+   --> Prophetess: -4 XP, -6 cost
+   --> Herald: -3 cost
+   --> Emissary: +1 cost
+   --> Heretic: -9 cost
+   --> Warmonger: +7 cost
+--> Vampires:
+   --> Blood Apprentice: -7 XP
+   --> Blood Manipulator: -13 XP, -4 cost
+   --> Day Hunter: +8 cost
+   --> Duelist: -9 XP
+   --> Fledgeling: -2 XP
+   --> Flesh Artisan: -1 cost
+   --> Half Blood: -2 cost
+   --> Malborn: +5% parry
+   --> Methusalem: +40 cost
+   --> Noble: -3 XP
+   --> Sangel: +4 cost
+   --> Sire: -30 XP, +15 cost
+   --> Sword Dancer: +10 cost
+   --> Thin Blood: -3 XP
+   --> Twilight Walker: +5 XP
+--> Misc: 
    --> Updated trait descriptions
 --> Legends Conquest:
    -->
