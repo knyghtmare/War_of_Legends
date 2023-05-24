@@ -74,7 +74,9 @@ version 1.2.7.30
 --> Misc: 
    --> Updated trait descriptions
 --> Legends Conquest:
-   -->
+   --> New Policy: OOS/Lua error feedback due to external mods conflicting will be ignored. Tell the modification authors to fix their shit.
+   --> Added secondary traits to most of the WoL units 
+   --> Added secondary trait slots for the remaining default units
 
 version 1.2.7.29
 --> Deep Elves:
