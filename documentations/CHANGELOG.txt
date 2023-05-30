@@ -78,6 +78,7 @@ version 1.2.7.30
    --> Added secondary traits to most of the WoL units 
    --> Added secondary trait slots for the remaining default units
    --> Removed ALL level 0 units from hero and commander pool.
+   --> Buffed existing Trainings available
 
 version 1.2.7.29
 --> Deep Elves:
