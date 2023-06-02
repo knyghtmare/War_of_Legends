@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-22 08:57 UTC\n"
+"POT-Creation-Date: 2023-06-02 15:33 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,12 +30,7 @@ msgstr ""
 
 #. [ai]: id=ai_default_rca_wol
 #: War_of_Legends/ai/additional-actions/lua_ai_curse.cfg:9
-msgid "Multiplayer_AI^Default AI (RCA)"
-msgstr ""
-
-#. [ai]: id=default_lua_ai_curse
-#: War_of_Legends/ai/additional-actions/lua_ai_curse.cfg:37
-msgid "Default AI with curse lua"
+msgid "Multiplayer_AI^Default AI (WoL)"
 msgstr ""
 
 #. [era]: id=core_legends
@@ -155,22 +150,22 @@ msgid ""
 msgstr ""
 
 #. [Heroes_Alliance]
-#: War_of_Legends/eras/Legends_Conquest_Era.cfg:209
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:214
 msgid "Alliance"
 msgstr ""
 
 #. [Heroes_Horde]
-#: War_of_Legends/eras/Legends_Conquest_Era.cfg:221
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:227
 msgid "Horde"
 msgstr ""
 
 #. [Heroes_Darkness]
-#: War_of_Legends/eras/Legends_Conquest_Era.cfg:229
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:238
 msgid "Darkness"
 msgstr ""
 
 #. [era]: id=legends_conquest_era, description={LEGENDS_CONQUEST_ERA_DESCRIPTION}
-#: War_of_Legends/eras/Legends_Conquest_Era.cfg:296
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:361
 msgid "Legends Conquest Era"
 msgstr ""
 
@@ -192,6 +187,21 @@ msgstr ""
 #. [era]: id=wol_rpg
 #: War_of_Legends/eras/War_of_Legends_RPG.cfg:9
 msgid "An era with lower level units: with level one leaders, with no units for recruitment. Consists of thirteen factions and is meant to be played in scenarios, which involve roleplaying elements (RPG)."
+msgstr ""
+
+#. [multiplayer_side]: id=Knalgan Alliance, type=random
+#: War_of_Legends/eras/War_of_Legends_RPG.cfg:34
+msgid "Knalgan Alliance"
+msgstr ""
+
+#. [multiplayer_side]: id=Dunefolk, type=random
+#: War_of_Legends/eras/War_of_Legends_RPG.cfg:47
+msgid "Dunefolk"
+msgstr ""
+
+#. [multiplayer_side]: id=Drakes, type=random
+#: War_of_Legends/eras/War_of_Legends_RPG.cfg:60
+msgid "Drakes"
 msgstr ""
 
 #. [multiplayer_side]: id=Aragwaithi_EL, type=random
@@ -487,22 +497,26 @@ msgid " This unit has a reduced chance to be hit."
 msgstr ""
 
 #. [spurt]: id=spurt
-#: War_of_Legends/macros/abilities-deep-elves.cfg:193
+#: War_of_Legends/macros/abilities-deep-elves.cfg:174
 msgid "This unit regains movement points after an attack. Only works at night."
 msgstr ""
 
 #. [spurt]: id=spurt
-#: War_of_Legends/macros/abilities-deep-elves.cfg:194
+#: War_of_Legends/macros/abilities-deep-elves.cfg:175
 msgid " This unit is able to move again after a nightly attack."
 msgstr ""
 
 #. [attacks]: id=trample
 #. [attack]: type=impact
-#: War_of_Legends/macros/abilities-deep-elves.cfg:201
+#: War_of_Legends/macros/abilities-deep-elves.cfg:182
 #: War_of_Legends/units/elves-deep/Black_Tyrhai.cfg:38
 #: War_of_Legends/units/elves-deep/Shadow_Tyrhai.cfg:43
 #: War_of_Legends/units/elves-deep/Tyrhai_Cavalry.cfg:49
 #: War_of_Legends/units/elves-deep/Tyrhai_Rider.cfg:34
+#: War_of_Legends/units/elves-quenoth/Tauroch.cfg:23
+#: War_of_Legends/units/elves-quenoth/Tauroch_Protector.cfg:52
+#: War_of_Legends/units/elves-quenoth/Tauroch_Rider.cfg:32
+#: War_of_Legends/units/elves-quenoth/Tauroch_Stalwart.cfg:45
 #: War_of_Legends/units/minotaurs/Boar_Cataphract.cfg:54
 #: War_of_Legends/units/minotaurs/Boar_Knight.cfg:53
 #: War_of_Legends/units/minotaurs/Boar_Rider.cfg:36
@@ -512,12 +526,12 @@ msgid "trample"
 msgstr ""
 
 #. [attacks]: id=trample
-#: War_of_Legends/macros/abilities-deep-elves.cfg:202
+#: War_of_Legends/macros/abilities-deep-elves.cfg:183
 msgid "This unit ignores the retaliation of the enemy and overruns it."
 msgstr ""
 
 #. [attacks]: id=trample
-#: War_of_Legends/macros/abilities-deep-elves.cfg:206
+#: War_of_Legends/macros/abilities-deep-elves.cfg:187
 msgid " This unit is able to overrun an enemy. Whenever it attacks, it moves across the field of the defending unit."
 msgstr ""
 
@@ -683,24 +697,24 @@ msgstr ""
 msgid "This unit damages adjacent undead/vampire at the beginning of its side's turn. It cannot kill a unit, it can only lower its health to 1 HP"
 msgstr ""
 
-#. [dummy]: id=wol_radiance
+#. [radiance]: id=wol_radiance
 #: War_of_Legends/macros/abilities-new.cfg:241
 msgid "radiance"
 msgstr ""
 
-#. [dummy]: id=wol_radiance
+#. [radiance]: id=wol_radiance
 #. [special_note]
 #: War_of_Legends/macros/abilities-new.cfg:242
 #: War_of_Legends/macros/abilities-new.cfg:254
 msgid "This unit slows and deals 8 arcane damage all nearby enemy units on the start of every new turn."
 msgstr ""
 
-#. [dummy]: id=wol_death_cloud
+#. [death_cloud]: id=wol_death_cloud
 #: War_of_Legends/macros/abilities-new.cfg:298
 msgid "death cloud"
 msgstr ""
 
-#. [dummy]: id=wol_death_cloud
+#. [death_cloud]: id=wol_death_cloud
 #: War_of_Legends/macros/abilities-new.cfg:299
 msgid "This unit poisons all nearby enemy units on the start of every new turn."
 msgstr ""
@@ -718,6 +732,61 @@ msgstr ""
 #. [heals]: id=heals_minotaur
 #: War_of_Legends/macros/abilities-new.cfg:346
 msgid "This unit combines herbal remedies with magic to heal units more quickly than is normally possible on the battlefield. A minotaur unit cared for by this healer may heal up to 12 HP per turn, or stop poison from taking effect for that turn. This ability will not cure an affected unit of poison, however, only delay its effect."
+msgstr ""
+
+#. [regenerate]: id=regenerates
+#: War_of_Legends/macros/abilities-new.cfg:364
+msgid "regenerates +6"
+msgstr ""
+
+#. [regenerate]: id=regenerates
+#: War_of_Legends/macros/abilities-new.cfg:365
+msgid "female^regenerates +6"
+msgstr ""
+
+#. [regenerate]: id=regenerates
+#: War_of_Legends/macros/abilities-new.cfg:366
+msgid "The unit will heal itself 6 HP per turn. If it is poisoned, it will remove the poison instead of healing."
+msgstr ""
+
+#. [regenerate]: id=regenerates
+#: War_of_Legends/macros/abilities-new.cfg:367
+msgid "This unit heals itself each turn, though slightly less as if stationed in a village."
+msgstr ""
+
+#. [leadership]: id=allied_leadership
+#: War_of_Legends/macros/abilities-rpg.cfg:10
+msgid "allied leadership"
+msgstr ""
+
+#. [leadership]: id=allied_leadership
+#: War_of_Legends/macros/abilities-rpg.cfg:11
+msgid "female^allied leadership"
+msgstr ""
+
+#. [leadership]: id=allied_leadership
+#: War_of_Legends/macros/abilities-rpg.cfg:12
+msgid "This unit can lead other (and allied) lower-level troops in battle. All adjacent lower-level units from the unit side and allied side deal 25% more damage for each difference in level. Units (own and allied) of the same level will get half of this bonus."
+msgstr ""
+
+#. [leadership]: id=allied_inspires
+#: War_of_Legends/macros/abilities-rpg.cfg:31
+msgid "allied inspires"
+msgstr ""
+
+#. [leadership]: id=allied_inspires
+#: War_of_Legends/macros/abilities-rpg.cfg:32
+msgid "female^allied inspires"
+msgstr ""
+
+#. [leadership]: id=allied_inspires
+#: War_of_Legends/macros/abilities-rpg.cfg:33
+msgid "This unit can inspire own and allied units that are next to it, making them fight better. Adjacent own units of lower or equal level will deal 10% more damage plus 10% for each level they are below the inspiring unit."
+msgstr ""
+
+#. [leadership]: id=allied_inspires
+#: War_of_Legends/macros/abilities-rpg.cfg:37
+msgid "The presence of this unit inspires own and allied units next to it to deal more damage in combat, though this only applies to units of lower or equal level."
 msgstr ""
 
 #: War_of_Legends/macros/abilities.cfg:8
@@ -925,6 +994,26 @@ msgstr ""
 msgid " That unit mutates depending on the terrain she is moving to, taking a form that result in better defense and movement."
 msgstr ""
 
+#. [set_menu_item]: id=leader_control_option_{SIDE}_freeze_on
+#: War_of_Legends/macros/ai_leader_controller.cfg:150
+msgid "Tell $stored_leader.name not to move."
+msgstr ""
+
+#. [set_menu_item]: id=leader_control_option_{SIDE}_freeze_off
+#: War_of_Legends/macros/ai_leader_controller.cfg:173
+msgid "Allow $stored_leader.name to move."
+msgstr ""
+
+#. [set_menu_item]: id=leader_control_option_{SIDE}_target_on
+#: War_of_Legends/macros/ai_leader_controller.cfg:195
+msgid "Tell $stored_leader.name to move here."
+msgstr ""
+
+#. [set_menu_item]: id=leader_control_option_{SIDE}_target_off
+#: War_of_Legends/macros/ai_leader_controller.cfg:260
+msgid "Cancel $stored_leader.name|'s movement order."
+msgstr ""
+
 #. [advancement]: id=amla_monster
 #: War_of_Legends/macros/amla.cfg:8
 msgid "Monster: Max HP bonus +5, +1 damage to all attacks, max XP +20%"
@@ -1016,35 +1105,35 @@ msgstr ""
 msgid "Many creatures of the world of Wesnoth are partly animated through magic. They perceive the world with more than simply their reason and instinct and are consequently less affected by this sort of mental attack."
 msgstr ""
 
-#. [dummy]: id=weapon_special_jinx
+#. [jinx]: id=weapon_special_jinx
 #: War_of_Legends/macros/nightmare-utils.cfg:84
 #: War_of_Legends/macros/nightmare-utils.cfg:86
 msgid "jinx"
 msgstr ""
 
-#. [dummy]: id=weapon_special_jinx
+#. [jinx]: id=weapon_special_jinx
 #: War_of_Legends/macros/nightmare-utils.cfg:85
 #: War_of_Legends/macros/nightmare-utils.cfg:87
 msgid "female^jinx"
 msgstr ""
 
-#. [dummy]: id=weapon_special_jinx
+#. [jinx]: id=weapon_special_jinx
 #: War_of_Legends/macros/nightmare-utils.cfg:88
 #: War_of_Legends/macros/nightmare-utils.cfg:89
 msgid "Curses the hit unit. The cursed unit gets a 15% defence penalty on every terrain until it ends a turn in a village. Does not affect undead, and the defence value can't go lower than 10%."
 msgstr ""
 
-#. [dummy]: id=weapon_special_jinx
+#. [jinx]: id=weapon_special_jinx
 #: War_of_Legends/macros/nightmare-utils.cfg:90
 msgid "This unit can curse its enemies, reducing defense until they rest at a village."
 msgstr ""
 
-#. [dummy]: id=daze
+#. [daze]: id=daze
 #: War_of_Legends/macros/nightmare-utils.cfg:99
 msgid "daze"
 msgstr ""
 
-#. [dummy]: id=daze
+#. [daze]: id=daze
 #: War_of_Legends/macros/nightmare-utils.cfg:100
 msgid "When hit with this attack, an enemy suffers a 10% penalty both to their defense and chance to hit for one turn. Other specials that affect chance to hit (e.g. magical and marksman) take precedence over this special. Magical attacks will still have a 70% chance to hit. Marksman attacks are only affected if the chance to hit is greater than 60%."
 msgstr ""
@@ -1379,7 +1468,7 @@ msgstr ""
 
 #. [trait]: id=trait_elite
 #: War_of_Legends/macros/traits.cfg:220
-msgid "+50% HP, +20% damage"
+msgid "+50% HP, +20% damage, +1 level"
 msgstr ""
 
 #. [trait]: id=trait_elite
@@ -1399,7 +1488,7 @@ msgstr ""
 
 #. [trait]: id=trait_supreme
 #: War_of_Legends/macros/traits.cfg:241
-msgid "+80% HP, +30% damage"
+msgid "+80% HP, +30% damage, +2 level"
 msgstr ""
 
 #. [trait]: id=trait_supreme
@@ -1730,7 +1819,7 @@ msgid "Blood Magic"
 msgstr ""
 
 #. [trainer]: type=Oathkeeper
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:396
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:405
 msgid "Windsong Tutelage"
 msgstr ""
 
@@ -1797,6 +1886,36 @@ msgstr ""
 msgid "Amount of XP given to units on turn refresh"
 msgstr ""
 
+#. [modification]: id=knyght_wol_recall_cost_modifier_mod, type=hybrid
+#: War_of_Legends/mods/campaigns/recall_cost_modifier.cfg:5
+msgid "Recall Cost Modification"
+msgstr ""
+
+#. [modification]: id=knyght_wol_recall_cost_modifier_mod, type=hybrid
+#: War_of_Legends/mods/campaigns/recall_cost_modifier.cfg:6
+msgid "Recall cost can now be a percentage of gold (recruitment) cost."
+msgstr ""
+
+#. [slider]: id=knyght_recall_cost_perc
+#: War_of_Legends/mods/campaigns/recall_cost_modifier.cfg:18
+msgid "Percentage"
+msgstr ""
+
+#. [slider]: id=knyght_recall_cost_perc
+#: War_of_Legends/mods/campaigns/recall_cost_modifier.cfg:19
+msgid "Select percentage of the gold cost to be the recall cost"
+msgstr ""
+
+#. [modification]: id=knyght_wol_nightmare_AI, type=mp
+#: War_of_Legends/mods/multiplayer/WOL_Nightmare_AI.cfg:5
+msgid "Enable Nightmares of Meloen AI"
+msgstr ""
+
+#. [modification]: id=knyght_wol_nightmare_AI, type=mp
+#: War_of_Legends/mods/multiplayer/WOL_Nightmare_AI.cfg:6
+msgid "Adds a new AI that can play the <i>Nightmares of Melon</i> faction."
+msgstr ""
+
 #. [modification]: id=knyght_wol_wc_enemy_data_array, type=mp
 #: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:5
 msgid "Legends Conquest"
@@ -1820,6 +1939,21 @@ msgstr ""
 #. [modification]: id=knyght_wol_wc_heroes_commanders_deserters, type=mp
 #: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:67
 msgid "Legends Heroes, Commanders and Deserters"
+msgstr ""
+
+#. [modification]: id=knyght_wol_wc_heroes_commanders_deserters, type=mp
+#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:68
+msgid "Adds new World Conquest heroes, commanders and deserters."
+msgstr ""
+
+#. [modification]: id=knyght_wol_wc_AI_recruit_and_performance, type=mp
+#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:84
+msgid "Legends Conquest AI: Recruit Random"
+msgstr ""
+
+#. [modification]: id=knyght_wol_wc_AI_recruit_and_performance, type=mp
+#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:85
+msgid "Randomises recruitment patterns of AI sides in World Conquest."
 msgstr ""
 
 #. [race]: id=aberration
@@ -1858,7 +1992,7 @@ msgstr ""
 #: War_of_Legends/units/aberrations/Rash_One.cfg:31
 #: War_of_Legends/units/aberrations/Reckless_One.cfg:32
 #: War_of_Legends/units/aberrations/Unhatched.cfg:37
-#: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:38
+#: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:43
 #: War_of_Legends/units/steelhive/steel_dreadnought.cfg:77
 #: War_of_Legends/units/steelhive/steel_serpent.cfg:27
 #: War_of_Legends/units/steelhive/steel_wyrm.cfg:26
@@ -2210,6 +2344,27 @@ msgstr ""
 msgid "Drake Ranger is a light weaponed fighter. He has been trained as well to fight at night and caves. Although his maximum speed is slower than Sky Drake, the extra mobility in caves and ability to strike with fire in melee is useful in combat."
 msgstr ""
 
+#. [unit_type]: id=Dwarvish Annalist, race=dwarf
+#: War_of_Legends/units/dwarves/Annalist.cfg:4
+msgid "Dwarvish Annalist"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Annalist, race=dwarf
+#: War_of_Legends/units/dwarves/Annalist.cfg:21
+msgid "Dwarvish Annalists are the historians of this ancient and proud race. They are few in number, and their very existence is not generally known to the other peoples of the Great Continent. To the abilities of the Witness they add, through the study of herb and mineral lore, the ability to cure poison."
+msgstr ""
+
+#. [attack]: type=impact
+#: War_of_Legends/units/dwarves/Annalist.cfg:62
+#: War_of_Legends/units/dwarves/Loremaster.cfg:65
+#: War_of_Legends/units/dwarves/Witness.cfg:62
+#: War_of_Legends/units/elves-quenoth/Outrider.cfg:44
+#: War_of_Legends/units/elves-wood/Prowler.cfg:52
+#: War_of_Legends/units/elves-wood/Trapper.cfg:48
+#: War_of_Legends/units/elves-wood/Wayfarer.cfg:49
+msgid "bolas"
+msgstr ""
+
 #. [unit_type]: id=Dwarvish Arbalestier, race=dwarf
 #: War_of_Legends/units/dwarves/Arbalestier.cfg:4
 msgid "Dwarvish Arbalestier"
@@ -2250,24 +2405,46 @@ msgstr ""
 msgid "lightning"
 msgstr ""
 
+#. [unit_type]: id=Dwarvish Loremaster, race=dwarf
+#: War_of_Legends/units/dwarves/Loremaster.cfg:4
+msgid "Dwarvish Loremaster"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Loremaster, race=dwarf
+#: War_of_Legends/units/dwarves/Loremaster.cfg:23
+msgid "Loremasters are the sages of the dwarvish race. Their counsel is greatly valued by war-leaders and chieftains, and they are viewed with awe by ordinary dwarves, for they alone have plumbed the deepest and most closely-held secrets of dwarven knowledge. It is said that where a loremaster stands, there is the soul of the dwarves. To the abilities of the Annalist they add a limited ability to heal."
+msgstr ""
+
 #. [unit_type]: id=Dwarvish Marksman, race=dwarf
 #: War_of_Legends/units/dwarves/Marksman.cfg:4
 msgid "Dwarvish Marksman"
 msgstr ""
 
 #. [unit_type]: id=Dwarvish Marksman, race=dwarf
-#. [unit_type]: id=Shassagoth, race=monster
+#. [unit_type]: id=Shassagoth, race=dragon
 #. [unit_type]: id=Legion Medic, race=human
 #. [unit_type]: id=Steel Larva, race=steelhive
 #. [unit_type]: id=Steel Nymph, race=steelhive
 #. [unit_type]: id=Steel Syren, race=steelhive
+#. [unit_type]: id=Apparition, race=undead
 #: War_of_Legends/units/dwarves/Marksman.cfg:23
 #: War_of_Legends/units/elves-deep/Shassagoth.cfg:19
-#: War_of_Legends/units/human-legion/Medic.cfg:18
+#: War_of_Legends/units/human-legion/Medic.cfg:17
 #: War_of_Legends/units/steelhive/steel_larva.cfg:12
 #: War_of_Legends/units/steelhive/steel_nymph.cfg:13
 #: War_of_Legends/units/steelhive/steel_syren.cfg:13
+#: War_of_Legends/units/undead/Spirit_Wraith_Lich.cfg:18
 msgid "TODO"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Witness, race=dwarf
+#: War_of_Legends/units/dwarves/Witness.cfg:5
+msgid "Dwarvish Witness"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Witness, race=dwarf
+#: War_of_Legends/units/dwarves/Witness.cfg:22
+msgid "A Witness functions as the eyes of the dwarves’ history, a deep lore that they never share with outsiders. The presence of a Witness inspires dwarvish warriors with the knowledge that their deeds (and their deaths) will not go unrecorded. They learn a fighting style deliberately unlike that of their fellows, one designed to turn the vaunted strength of the dwarves against itself. The person of a Witness is considered sacred, and Witnesses are often used as envoys between dwarvish clans."
 msgstr ""
 
 #. [race]: id=elemental
@@ -2360,7 +2537,7 @@ msgstr ""
 #: War_of_Legends/units/elementals/stable/Kobold.cfg:40
 #: War_of_Legends/units/elementals/stable/Stone_Golem.cfg:40
 #: War_of_Legends/units/elementals/stable/Stone_Titan.cfg:41
-#: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:28
+#: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:33
 #: War_of_Legends/units/nightmares-elementals/Nature_Wrath.cfg:455
 #: War_of_Legends/units/nightmares-elementals/Unstable_Elemental.cfg:454
 #: War_of_Legends/units/trolls/Boulderlobber.cfg:30
@@ -2867,8 +3044,8 @@ msgstr ""
 #: War_of_Legends/units/elves-deep/Nightmaiden.cfg:39
 #: War_of_Legends/units/elves-deep/Nightstalker.cfg:39
 #: War_of_Legends/units/elves-deep/Vault_Lurker.cfg:41
-#: War_of_Legends/units/human-legion/Arbalestier.cfg:36
-#: War_of_Legends/units/human-legion/Arbalestier.cfg:48
+#: War_of_Legends/units/human-legion/Arbalestier.cfg:39
+#: War_of_Legends/units/human-legion/Arbalestier.cfg:51
 #: War_of_Legends/units/human-legion/Crossbowman.cfg:34
 #: War_of_Legends/units/human-legion/Crossbowman.cfg:46
 #: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:35
@@ -2899,7 +3076,7 @@ msgstr ""
 
 #. [damage]: id=relentless_assault
 #: War_of_Legends/units/elves-deep/Baroness.cfg:67
-msgid "relentless aussault"
+msgid "relentless assault"
 msgstr ""
 
 #. [damage]: id=relentless_assault
@@ -2949,8 +3126,8 @@ msgstr ""
 
 #. [unstore_unit]
 #: War_of_Legends/units/elves-deep/Bloodmaiden.cfg:80
-#: War_of_Legends/units/elves-deep/Predator.cfg:82
-#: War_of_Legends/units/elves-deep/Vengeance.cfg:83
+#: War_of_Legends/units/elves-deep/Predator.cfg:83
+#: War_of_Legends/units/elves-deep/Vengeance.cfg:84
 msgid "The hunt is on!"
 msgstr ""
 
@@ -3012,12 +3189,12 @@ msgid "As opposed to the Phades, an Eltare chooses to remain in the physical wor
 msgstr ""
 
 #. [attack]: type=energy
-#: War_of_Legends/units/elves-deep/Elthare.cfg:39
+#: War_of_Legends/units/elves-deep/Elthare.cfg:43
 msgid "magical sword"
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/elves-deep/Elthare.cfg:51
+#: War_of_Legends/units/elves-deep/Elthare.cfg:55
 #: War_of_Legends/units/elves-deep/Irr.cfg:63
 #: War_of_Legends/units/elves-deep/Lightborn.cfg:61
 #: War_of_Legends/units/elves-deep/Phade.cfg:62
@@ -3179,7 +3356,7 @@ msgstr ""
 msgid "The rare Shadow Tyr‘Hai is a gigantic version of the lesser Tyr’Hai whose natural habitat is unknown. Some believe they lurk in the deepest part of the depths, while others say, they reside in the very realm of Shassagoth. Sharing a deep connection with Shassagoth, the Shadow Tyr’Hai defend the Priestesses from the darkness and protect them from harm in their travels. They are believed to feast on the souls of their prey, consuming spirit along with body in their mighty jaws."
 msgstr ""
 
-#. [unit_type]: id=Shassagoth, race=monster
+#. [unit_type]: id=Shassagoth, race=dragon
 #: War_of_Legends/units/elves-deep/Shassagoth.cfg:5
 msgid "Shassagoth"
 msgstr ""
@@ -3357,6 +3534,294 @@ msgstr ""
 msgid "arcane barrage"
 msgstr ""
 
+#. [race]: id=quenoth
+#: War_of_Legends/units/elves-quenoth.cfg:9
+msgid "race^Quenoth Elf"
+msgstr ""
+
+#. [race]: id=quenoth
+#: War_of_Legends/units/elves-quenoth.cfg:10
+msgid "race+female^Quenoth Elf"
+msgstr ""
+
+#. [race]: id=quenoth
+#: War_of_Legends/units/elves-quenoth.cfg:11
+msgid "race^Quenoth Elves"
+msgstr ""
+
+#. [race]: id=quenoth
+#: War_of_Legends/units/elves-quenoth.cfg:12
+msgid "Having adapted to the harsh climate of the barren deserts, these elves have long forgotten their previous home of the evergreen forests. Unlike their forest counterparts, most of their troops have dropped the bow in favour of either the bolas or the shield. The bow is still used by their archers, but they lack the accuracy of their ancestors."
+msgstr ""
+
+#. [unit_type]: id=Quenoth Archer, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Archer.cfg:5
+msgid "Quenoth Archer"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Archer, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Archer.cfg:22
+msgid "With the open sands providing much less protection than the old forests did, the wide ranks of elvish archers that once formed the core of the elvish military have all but disappeared. Instead, the few who still dedicate themselves to the traditional weapon of their ancestors practice the art from the saddle, allowing them to more easily avoid the perils of melee combat."
+msgstr ""
+
+#. [unit_type]: id=Quenoth Champion, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Champion.cfg:5
+msgid "Quenoth Champion"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Champion, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Champion.cfg:24
+msgid "Standing at the forefront of most Quenoth spear lines, Champions are those who have mastered the use of the glaive to near perfection. Perhaps only slightly lacking in finesse in strategy, these elves more than compensate with raw power and can force their way through all but the most secure of defenses."
+msgstr ""
+
+#. [attack]: type=pierce
+#. [attack]: type=blade
+#: War_of_Legends/units/elves-quenoth/Champion.cfg:33
+#: War_of_Legends/units/elves-quenoth/Champion.cfg:45
+#: War_of_Legends/units/elves-quenoth/Warrior.cfg:32
+#: War_of_Legends/units/elves-quenoth/Warrior.cfg:44
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Flagbearer.cfg:35
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Slayer.cfg:27
+#: War_of_Legends/units/human-loyalists/Loyalist_Custodian.cfg:27
+#: War_of_Legends/units/human-loyalists/Loyalist_Sentry.cfg:26
+#: War_of_Legends/units/windsong/Pathfinder.cfg:28
+#: War_of_Legends/units/windsong/Pathfinder.cfg:40
+msgid "glaive"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Druid, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Druid.cfg:5
+msgid "female^Quenoth Druid"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Druid, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Druid.cfg:22
+msgid "Worshippers of the Goddess of Light, Eloh, Druids are considered mysterious even by other elves of the same order. Part of this stems from the Druids’ unusual connection with nature, something nearly wholly absent in a world pervaded by scorched sand. In a brutish world where others train themselves for combat and survival, these elves are the few who remain as healers and caretakers."
+msgstr ""
+
+#. [attack]: type=impact
+#: War_of_Legends/units/elves-quenoth/Druid.cfg:41
+#: War_of_Legends/units/elves-quenoth/Mystic.cfg:40
+#: War_of_Legends/units/elves-quenoth/Shaman.cfg:41
+#: War_of_Legends/units/elves-quenoth/Shyde.cfg:45
+msgid "sand"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Dustbok, race=monster, description=
+#. Made-up animal name derived from 'dust' (sand) and 'bok' as in real-world steenbok or springbok antelope
+#: War_of_Legends/units/elves-quenoth/Dustbok.cfg:6
+msgid "Dustbok"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Fighter, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Fighter.cfg:5
+msgid "Quenoth Fighter"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Fighter, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Fighter.cfg:23
+msgid "Long ago, during more prosperous times, Elven warriors favored the use of swords as more elegant, versatile weapons compared to other melee armaments. However, in recent times, the dearth of supplies for smithing has reduced the availability of blade-crafting, necessitating the fashioning of cheaper, more easily repaired weaponry. Quenoth Fighters are remarkably skilled in coordinated groups, where they can counteract the lack of more sophisticated weaponry by forming robust spear ranks capable of repelling nearly any frontal assault."
+msgstr ""
+
+#. [unit_type]: id=Quenoth Flanker, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Flanker.cfg:5
+msgid "Quenoth Flanker"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Flanker, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Flanker.cfg:23
+msgid "Some fighters find that their true talents lie not within rigid spear ranks, but out in the sands, striking at the flanks and rear of enemy forces. Fast and nimble, these elves make use of the weaknesses in enemy formations to disrupt their lines and sow chaos on the battlefield. In more cutthroat conflicts, Flankers even rely on the use of poison — a tool whose use was frowned on by their ancestors — to cripple their foes before charging in for the finish."
+msgstr ""
+
+#. [attack]: type=pierce
+#: War_of_Legends/units/elves-quenoth/Flanker.cfg:42
+#: War_of_Legends/units/elves-quenoth/Ranger.cfg:43
+msgid "blowgun"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Marksman, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Marksman.cfg:5
+msgid "Quenoth Marksman"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Marksman, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Marksman.cfg:23
+msgid ""
+"In times past, the elves’ supremacy at archery was unquestioned among the other races of the Great Continent. With archery being less viable in a land of scarce cover, however, the skills of the few remaining elven bowmen became suspect, to the point that even their brethren began to believe that archery was more of an outdated relic than a practical tool for battle.\n"
+"\n"
+"A simple glance at a Quenoth Marksman in action would be enough to dispel this foolish train of thought. Capable of the same legendary feats as their ancestors, these master archers can achieve the same speed and precision as the Sharpshooters of old, all while in full gallop on horseback."
+msgstr ""
+
+#. [unit_type]: id=Quenoth Mystic, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Mystic.cfg:5
+msgid "female^Quenoth Mystic"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Mystic, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Mystic.cfg:22
+msgid "Like their ancestors, Quenoth Mystics are those who devote themselves to the natural energies that flow through body of Irdya. In the harsh, barren wastelands, however, these elves can no longer rely on the once vast forests from which their forebears drew much of their strength. Instead, sand and sun are the source of the elves’ new powers, which they employ to great effect in their homes in the deserts."
+msgstr ""
+
+#. [unit_type]: id=Quenoth Outrider, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Outrider.cfg:5
+msgid "Quenoth Outrider"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Outrider, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Outrider.cfg:23
+msgid "Described as riders who ‘rush like the wind’, Outriders breeze across the sands at unmatched speeds. Unlike their lesser brethren, Outriders train themselves for direct combat, wielding sword and bola to strike at injured units and exposed flanks where enemy lines are weakest. A group of these riders is especially dangerous, for against them, both retreat and attrition are futile, a prospect that is only ruinous in the inhospitable desert."
+msgstr ""
+
+#. [unit_type]: id=Quenoth Pathfinder, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Pathfinder.cfg:5
+msgid "Quenoth Pathfinder"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Pathfinder, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Pathfinder.cfg:22
+msgid "In times past, turning and fleeing from an engagement was a risky tactic, for there were few means to avoid or block enemy archers shooting from behind. In the desert, however, unstable footing and lack of cover make it far more challenging for most fighters to strike from range. The elusive Pathfinders make use of this by riding the exceptionally agile dustboks, who are highly adapted to traversing the dunes and can evade most attacks with their swift movements. The difficulty in pinning these riders down often tries the patience of their enemies, who are provoked into recklessly giving chase — inevitably into many a deadly trap."
+msgstr ""
+
+#. [unit_type]: id=Quenoth Ranger, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Ranger.cfg:5
+msgid "Quenoth Ranger"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Ranger, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Ranger.cfg:24
+msgid "The title ‘Ranger’ is a little misleading, for these agile elves have little in common with the more pacifistic explorers of nature that once bore the same title. They, instead, are expert fighters who specifically seek combat in order to better hone their skirmishing skills. While they do not possess the brute force of their warrior counterparts, Quenoth Rangers are more proficient at navigating through chaotic fights and are capable of darting in and out of enemy lines to assassinate injured targets. Their masterful use of poison and formidable swordsmanship make these elves especially deadly in the harsh desert terrain, where fewer options to retreat are available."
+msgstr ""
+
+#. [unit_type]: id=Quenoth Scout, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Scout.cfg:5
+msgid "Quenoth Scout"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Scout, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Scout.cfg:19
+msgid "Riding the graceful, agile dustboks, Quenoth Scouts move with unmatched speed across the sands. Their practiced skill with sword and sling are useful abilities to harry enemies and allows them to act as effective hunters and patrolmen."
+msgstr ""
+
+#. [unit_type]: id=Quenoth Shaman, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Shaman.cfg:5
+msgid "female^Quenoth Shaman"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Shaman, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Shaman.cfg:22
+msgid "Like the elves of old, many Quenoth elves seek to study the art of medicine and healing rather than hone their abilities in direct battle. Shamans are highly knowledgeable about the sparse plant-life scattered across the deserts and even possess some ability to bolster crop growth, an invaluable skill in a land with few resources. The capacity to foster flora in such an inhospitable environment is a sign of hope as well, a chance that nature might one day rise from its sandy grave and bloom again."
+msgstr ""
+
+#. [unit_type]: id=Quenoth Shyde, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Shyde.cfg:5
+msgid "female^Quenoth Shyde"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Shyde, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Shyde.cfg:24
+msgid ""
+"From the teachings of Analia, the healer of the Emerald Blossom:\n"
+"\n"
+"“... by embracing the path to the faerie, we must step past the boundary of flesh and magic to become a being of them both. As surely as the physical form binds the blood that gives us life, it must bind the energy that governs our world, that which is the flowing wind, the cycle of day and night, the endless march of time... We are the physical form, but we are timeless spirits as well, beings touched by that which is faerie. That realm is one that endures through the aeons, whether it takes on the form of nature, of fire, or of sand, it is always there. As it is mutable, so must we be, for the power of faerie is that to transmute the flesh of our world, from sand to earth, from scorched wasteland to life.”"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Sun Singer, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Sun_Singer.cfg:5
+msgid "female^Quenoth Sun Singer"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Sun Singer, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Sun_Singer.cfg:22
+msgid "Faerie and elven magic have oft been aptly associated with life, from which they draw the majority of their power. However, with the death of much of Irdya’s flora, the Quenoth Elves were forced to seek another source for their sorcery. In time, they learned to harness the power of the suns Sela and Naia - the twin stars that had razed the forests of Irdya to ashes, yet still spring forth the energy required for sparking life. Those who master this new magic sing of the dual nature of these embodiments of fire: flames that are both life and life’s demise."
+msgstr ""
+
+#. [unit_type]: id=Quenoth Sun Sylph, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Sun_Sylph.cfg:5
+msgid "female^Quenoth Sun Sylph"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Sun Sylph, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Sun_Sylph.cfg:25
+msgid "In times past, those who stepped beyond the boundary of the worlds of elf and faerie were called Sylphs, mystics with unparalleled knowledge of the secrets of the natural sphere. However, in the harsh new world, the path into the realm of the faerie became no longer a journey into the heart of nature, but a diverging path between light and darkness. Those elves who embrace the burning suns as the fulcrum of life and death learn also to harness their power, transforming into beings imbued with radiant fire. These Sun Sylphs very much embody the power that they wield: light that heals and protects, and flames that smolder with destruction."
+msgstr ""
+
+#. [unit_type]: id=Tauroch, race=monster
+#: War_of_Legends/units/elves-quenoth/Tauroch.cfg:5
+msgid "Tauroch"
+msgstr ""
+
+#. [unit_type]: id=Tauroch, race=monster
+#: War_of_Legends/units/elves-quenoth/Tauroch.cfg:19
+msgid "Taurochs are huge, hardened beasts of the desert, considered untamable by most surviving races. However, the elves’ affinity with nature has allowed them to form an unlikely bond with these unruly animals. While Taurochs can easily carry or pull heavy loads, their thick hides and unwavering resolution also make them formidable mounts in battle."
+msgstr ""
+
+#. [unit_type]: id=Tauroch Flagbearer, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Tauroch_Flagbearer.cfg:5
+msgid "Tauroch Flagbearer"
+msgstr ""
+
+#. [unit_type]: id=Tauroch Flagbearer, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Tauroch_Flagbearer.cfg:33
+msgid "The prestigious Flagbearers spend years out in the open deserts leading their brethren on patrols and hunts, where they forage for supplies while defending their villages from brigands. They are invariably masters of skirmishes and tactics, highly proficient at roaming through the inhospitable sands. Rarely the leaders of large villages or armies, Flagbearers nonetheless have the skill and charisma to act as generals in times of need, when the elves are threatened by something more than mere scavengers or wild beasts."
+msgstr ""
+
+#. [unit_type]: id=Tauroch Protector, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Tauroch_Protector.cfg:5
+msgid "Tauroch Protector"
+msgstr ""
+
+#. [unit_type]: id=Tauroch Protector, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Tauroch_Protector.cfg:38
+msgid ""
+"From the journal of Syniel, the Sand Skipper:\n"
+"\n"
+"The orcs ambushed me near the oasis at twilight. I had to flee into the desert, but even there, the wolves were nearly fast enough to keep up with me. I ran and ran for hours until I could barely feel my legs and still, they hounded me under the bright moonlight. I thought that I was dead for sure, but as Eloh would have it, I came across a young Tauroch that had wandered away from her pack. She must have sensed my trouble, for she came to me swiftly and fought beside me all through the long night; beyond exhaustion, we somehow managed to drive off dozens of orcs and wolves by ourselves. By dawn, we were alone, but wounded and weary to our bones with nothing but sand in sight. I used what little remained of my supplies to tend to the Tauroch’s wounds, then I succumbed to fatigue and I remember little after that.\n"
+"\n"
+"-----------------------\n"
+"\n"
+"I woke up today in the village, tired, but alive. My friends told me that the Tauroch had carried me through the desert for many hours at no little cost to herself, for she was in worse condition than I by the time we had arrived. I can only be grateful that I managed to survive that dreadful night, for it is only by Eloh’s grace that I happened upon such a loyal companion. She is my savior, my watchful guardian, a blessing from the Goddess herself. I think I will call her Nala, meaning ‘Protector’ in our tongue. I am sure we will have many more adventures together."
+msgstr ""
+
+#. [unit_type]: id=Tauroch Rider, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Tauroch_Rider.cfg:5
+msgid "Tauroch Rider"
+msgstr ""
+
+#. [unit_type]: id=Tauroch Rider, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Tauroch_Rider.cfg:28
+msgid "Taurochs are huge, hardened beasts of the desert, considered untamable by most surviving races. However, the elves’ affinity with nature has allowed them to form an unlikely bond with these unruly animals. While Taurochs can easily carry or pull heavy loads, their thick hides and unwavering resolution also make them formidable mounts in battle. A Tauroch guided by a skilled rider can hold off multiple enemies by itself and serves as a powerful warden to protect elven villages and carvans."
+msgstr ""
+
+#. [unit_type]: id=Tauroch Stalwart, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Tauroch_Stalwart.cfg:5
+msgid "Tauroch Stalwart"
+msgstr ""
+
+#. [unit_type]: id=Tauroch Stalwart, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Tauroch_Stalwart.cfg:37
+msgid "When encountering wild Taurochs, Quenoth hunters often observe the curious behavior of particularly stubborn beasts, who will brace their rugged bodies and absolutely refuse to budge when provoked. Though difficult to placate, these Taurochs are sometimes selected by skilled riders for their exceptional resilience. Any warrior who finds their advance blocked by a Stalwart would undoubtedly be wise to seek another path, for trying to displace the beast would be akin to trying to fight a stone wall."
+msgstr ""
+
+#. [unit_type]: id=Tauroch Vanguard, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Tauroch_Vanguard.cfg:5
+msgid "Tauroch Vanguard"
+msgstr ""
+
+#. [unit_type]: id=Tauroch Vanguard, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Tauroch_Vanguard.cfg:32
+msgid "The massive and fearless Taurochs are often employed not only to charge and break through enemy formations, but to rally and inspire infantry to hold their ground. Vanguards are hardy riders, adept at surviving in the thick of battle and leading their brethren from the front lines. Towering above the rolling dunes, the Vanguards bear great flags that fly brightly in the desert skies, a distinctive sight even from far away across the sands. The presence of these riders is a heartening one for most elves and a deterrent for the many pillagers that rove the deserts."
+msgstr ""
+
+#. [unit_type]: id=Quenoth Warrior, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Warrior.cfg:5
+msgid "Quenoth Warrior"
+msgstr ""
+
+#. [unit_type]: id=Quenoth Warrior, race=quenoth
+#: War_of_Legends/units/elves-quenoth/Warrior.cfg:23
+msgid "When compared to a spear, a glaive is often a shorter weapon with less reach, but more versatile in use. An experienced fighter can use the head to hook or pin enemy weapons and strike from unusual angles, allowing them to catch an unwary opponent by surprise. In formation, Quenoth Warriors bear these somewhat unorthodox weapons to both strike with great power and to support their nearby brethren."
+msgstr ""
+
 #. [unit_type]: id=Elvish Acolyte, race=elf
 #: War_of_Legends/units/elves-wood/Acolyte.cfg:5
 msgid "female^Elvish Acolyte"
@@ -3372,7 +3837,7 @@ msgstr ""
 #: War_of_Legends/units/elves-wood/Ascetic.cfg:32
 #: War_of_Legends/units/elves-wood/Mystic.cfg:31
 #: War_of_Legends/units/human-legion/Healer.cfg:47
-#: War_of_Legends/units/human-legion/Medic.cfg:44
+#: War_of_Legends/units/human-legion/Medic.cfg:43
 #: War_of_Legends/units/human-mages/Mage_Adept_of_Light.cfg:98
 #: War_of_Legends/units/human-mages/Mage_Cleric.cfg:35
 #: War_of_Legends/units/human-mages/Mage_Forest.cfg:43
@@ -3489,13 +3954,6 @@ msgid ""
 "This is one of the various reasons that the wood elves are respected and feared by most races."
 msgstr ""
 
-#. [attack]: type=impact
-#: War_of_Legends/units/elves-wood/Prowler.cfg:52
-#: War_of_Legends/units/elves-wood/Trapper.cfg:48
-#: War_of_Legends/units/elves-wood/Wayfarer.cfg:49
-msgid "bolas"
-msgstr ""
-
 #. [female]
 #: War_of_Legends/units/elves-wood/Prowler.cfg:131
 msgid "female^Elvish Prowler"
@@ -3582,7 +4040,7 @@ msgstr ""
 
 #. [attack]: type=fire
 #: War_of_Legends/units/faeries/Faerie_Dryad.cfg:41
-#: War_of_Legends/units/faeries/Faerie_Spirit.cfg:47
+#: War_of_Legends/units/faeries/Faerie_Spirit.cfg:48
 #: War_of_Legends/units/faeries/Faerie_Sprite.cfg:30
 #: War_of_Legends/units/faeries/Fire_Faerie.cfg:42
 msgid "fire aura"
@@ -3590,7 +4048,7 @@ msgstr ""
 
 #. [attack]: type=fire
 #: War_of_Legends/units/faeries/Faerie_Dryad.cfg:50
-#: War_of_Legends/units/faeries/Faerie_Spirit.cfg:59
+#: War_of_Legends/units/faeries/Faerie_Spirit.cfg:60
 #: War_of_Legends/units/faeries/Faerie_Sprite.cfg:39
 #: War_of_Legends/units/faeries/Fire_Faerie.cfg:51
 msgid "mystic fire"
@@ -3602,7 +4060,7 @@ msgid "Forest Spirit"
 msgstr ""
 
 #. [unit_type]: id=Faerie Spirit, race=faerie
-#: War_of_Legends/units/faeries/Faerie_Spirit.cfg:39
+#: War_of_Legends/units/faeries/Faerie_Spirit.cfg:40
 msgid "Faeries may eventually become one with the fire element, turning into spirits of flame and might, which they will use to relentlessly protect the forests they inhabit or people to which they have swore allegiance. However, seeing one of these spirits is more rare than stumbling upon a Wose, even for elves."
 msgstr ""
 
@@ -3838,7 +4296,7 @@ msgid "female^Adept"
 msgstr ""
 
 #. [unit_type]: id=Aragwaith Adept, race=aragwaith
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Adept.cfg:37
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Adept.cfg:38
 msgid "The increasingly rare magically-gifted noblewomen of the Aragwaithi function as the lorekeepers of their unique civilization, possessing vast knowledge about the history of Irdya and the many trials faced by their ancestors. But the path to reach their status and earn the Grand Council's trust and respect is arduous, and much of their lives is spent training in the marches, far away from their kin. In those parts, the ability to create and control flames is highly versatile, as well as the mastery of the arts of healing."
 msgstr ""
 
@@ -3911,7 +4369,7 @@ msgid "female^Enchantress"
 msgstr ""
 
 #. [unit_type]: id=Aragwaith Enchantress, race=aragwaith
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Enchantress.cfg:19
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Enchantress.cfg:20
 msgid "Having gathered field experience to further augment their expertise in conjuring projectiles of flames and healing their allies, the Enchantresses maintain a more active presence in skirmishes and utilise their skills to the best result for their armies."
 msgstr ""
 
@@ -3923,17 +4381,6 @@ msgstr ""
 #. [unit_type]: id=Aragwaith Flagbearer, race=aragwaith
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Flagbearer.cfg:23
 msgid "The best spearmen always learn on the battlefield the importance of fighting side-by-side with their comrades, but some learn a more special lesson: that a group of soldiers fighting as one being can overcome even the greatest odds. To these warriors is given the banner of command; the sight of one billowing in the wind, surrounded by spearman, archers, swordsmen and riders, is one the neemy of the Aragwaithi have quickly learned to fear."
-msgstr ""
-
-#. [attack]: type=pierce
-#. [attack]: type=blade
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Flagbearer.cfg:35
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Slayer.cfg:27
-#: War_of_Legends/units/human-loyalists/Loyalist_Custodian.cfg:27
-#: War_of_Legends/units/human-loyalists/Loyalist_Sentry.cfg:26
-#: War_of_Legends/units/windsong/Pathfinder.cfg:28
-#: War_of_Legends/units/windsong/Pathfinder.cfg:40
-msgid "glaive"
 msgstr ""
 
 #. [unit_type]: id=Aragwaith Greatbow, race=aragwaith
@@ -3948,7 +4395,7 @@ msgstr ""
 
 #. [variation]
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Greatbow.cfg:123
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Longswordsman.cfg:51
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Longswordsman.cfg:54
 msgid "Unhooded"
 msgstr ""
 
@@ -3998,8 +4445,8 @@ msgid "While Aragwaithi Swordsmen seem uncannily skilled to blade-wielders of ot
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Longswordsman.cfg:26
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Swordsmaster.cfg:29
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Longswordsman.cfg:29
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Swordsmaster.cfg:32
 msgid "long sword"
 msgstr ""
 
@@ -4035,7 +4482,7 @@ msgstr ""
 
 #. [variation]
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Shield_Guard.cfg:49
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Sorceress.cfg:87
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Sorceress.cfg:88
 msgid "Alternate"
 msgstr ""
 
@@ -4072,7 +4519,7 @@ msgid "female^Sorceress"
 msgstr ""
 
 #. [unit_type]: id=Aragwaith Sorceress, race=aragwaith
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Sorceress.cfg:20
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Sorceress.cfg:21
 msgid "The mighty Aragwaith Sorceresses are agile like the wind. They can confound their opponents by standing in front of them seemingly defenseless; once the attacker hits, they realize their victim is actually behind them, ready to land her own killing blow. Because of their vast and intimate knowledge of both defensive and offensive magic, even the higher ranks of the Aragwaithi regard these women with great respect and caution."
 msgstr ""
 
@@ -4244,12 +4691,12 @@ msgid "Legion Arbalestier"
 msgstr ""
 
 #. [unit_type]: id=Legion Arbalestier, race=human
-#: War_of_Legends/units/human-legion/Arbalestier.cfg:21
+#: War_of_Legends/units/human-legion/Arbalestier.cfg:24
 msgid "The elite of the Legion crossbowmen prefer axes and crossbows, as the weapons make an effective combination and are good for both range and melee combat."
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/human-legion/Arbalestier.cfg:27
+#: War_of_Legends/units/human-legion/Arbalestier.cfg:30
 #: War_of_Legends/units/human-legion/Crossbowman.cfg:25
 #: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:26
 #: War_of_Legends/units/human-outlaws/Axeman.cfg:21
@@ -4354,12 +4801,12 @@ msgid "Legion Crusher"
 msgstr ""
 
 #. [unit_type]: id=Legion Crusher, race=human
-#: War_of_Legends/units/human-legion/Crusher.cfg:17
+#: War_of_Legends/units/human-legion/Crusher.cfg:20
 msgid "Not every crusher chooses to don heavier armor and take up a defensive role."
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/human-legion/Crusher.cfg:23
+#: War_of_Legends/units/human-legion/Crusher.cfg:26
 msgid "sledgehammer"
 msgstr ""
 
@@ -4384,7 +4831,7 @@ msgstr ""
 #. [attack]: type=arcane
 #: War_of_Legends/units/human-legion/Doctor.cfg:58
 #: War_of_Legends/units/human-legion/Healer.cfg:56
-#: War_of_Legends/units/human-legion/Medic.cfg:53
+#: War_of_Legends/units/human-legion/Medic.cfg:52
 msgid "lightbeam"
 msgstr ""
 
@@ -4445,13 +4892,13 @@ msgid "Legion Guardian"
 msgstr ""
 
 #. [unit_type]: id=Legion Guardian, race=human
-#: War_of_Legends/units/human-legion/Guardian.cfg:16
+#: War_of_Legends/units/human-legion/Guardian.cfg:19
 msgid "Guardians of the Legion are the defensive guardians and the sight of these warriors make foes tremble with fear."
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/human-legion/Guardian.cfg:21
-#: War_of_Legends/units/human-legion/Sentinel.cfg:22
+#: War_of_Legends/units/human-legion/Guardian.cfg:24
+#: War_of_Legends/units/human-legion/Sentinel.cfg:25
 msgid "war hammer"
 msgstr ""
 
@@ -4543,7 +4990,7 @@ msgid "Legion Sentinel"
 msgstr ""
 
 #. [unit_type]: id=Legion Sentinel, race=human
-#: War_of_Legends/units/human-legion/Sentinel.cfg:17
+#: War_of_Legends/units/human-legion/Sentinel.cfg:20
 msgid "The sight of these Terrors approaching the battlefield means the sign of retreating to any foe."
 msgstr ""
 
@@ -5147,6 +5594,11 @@ msgstr ""
 #. [unit_type]: id=Forgotten Minotaur, race=minotaur
 #: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:18
 msgid "Minotaurs are bulky creatures that were once cursed by an unknown force. For eons, Minotaurs turn to stone when the light of the sun touches their skin, forcing them to inhabit the depths of the Great Continent. Shassagoth promised to lift the curse of the Minotaurs if they would bend themselves to his will and fight his foes. For this reason, the Minotaurs decided to serve Shassagoth and are often seen in the vast realm of the Deep Elves."
+msgstr ""
+
+#. [special_note]
+#: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:21
+msgid "This unit demands one less gold in upkeep."
 msgstr ""
 
 #. [unit_type]: id=Minotaur Gore, race=minotaur
@@ -5995,7 +6447,7 @@ msgstr ""
 
 #. [unit_type]: id=Steel Leviathan, race=steelhive
 #: War_of_Legends/units/steelhive/steel_leviathan.cfg:18
-msgid "The Alzebisk society was matriarchical, ruled by the female Leviathans of their race. This became their downfall, as each Leviathan was ambushed individually and their corpses metallized one by one, until in the end none remained to oppose the Steelhive. Now, the Leviathans' design serves as a model to which a rare few are upgraded."
+msgid "The Alzebisk society was matriarchal, ruled by the female Leviathans of their race. This became their downfall, as each Leviathan was ambushed individually and their corpses metallized one by one, until in the end none remained to oppose the Steelhive. Now, the Leviathans' design serves as a model to which a rare few are upgraded."
 msgstr ""
 
 #. [attack]: type=impact
@@ -6161,12 +6613,14 @@ msgstr ""
 #. [attack]: type=arcane
 #: War_of_Legends/units/undead/Necro_Elder_Lich_Lord.cfg:45
 #: War_of_Legends/units/undead/Necro_Lich_Lord.cfg:43
+#: War_of_Legends/units/undead/Spirit_Wraith_Lich.cfg:37
 msgid "touch"
 msgstr ""
 
 #. [attack]: type=cold
 #: War_of_Legends/units/undead/Necro_Elder_Lich_Lord.cfg:57
 #: War_of_Legends/units/undead/Necro_Lich_Lord.cfg:55
+#: War_of_Legends/units/undead/Spirit_Wraith_Lich.cfg:50
 msgid "chill tempest"
 msgstr ""
 
@@ -6260,6 +6714,11 @@ msgstr ""
 #. [attack]: type=cold
 #: War_of_Legends/units/undead/Spirit_Shadowback.cfg:44
 msgid "wail"
+msgstr ""
+
+#. [unit_type]: id=Apparition, race=undead
+#: War_of_Legends/units/undead/Spirit_Wraith_Lich.cfg:4
+msgid "Apparition"
 msgstr ""
 
 #: War_of_Legends/units/vampires.cfg:5
@@ -6609,7 +7068,7 @@ msgid "female^Ascendant"
 msgstr ""
 
 #. [unit_type]: id=Ascendant, race=windsong
-#: War_of_Legends/units/windsong/Ascendant.cfg:24
+#: War_of_Legends/units/windsong/Ascendant.cfg:26
 msgid ""
 "Few Weavers and Prophetesses reach the rank of Ascendant. Not just because of the difficult in reaching this goal, but also because of the danger and sacrifice necessary. The path to becoming an Ascendant begins when a Weaver-born binds themselves to their accompanying spirit in the same manner that the spirit bound itself to her on her birth. A successful binding will slowly, over the course of two years, pull her body into The Raw. If the Ascending fails, she faces a slow death. As the Spirit cares for her well-being above all else, it will reject the binding unless she can convince it that she is powerful enough to Ascend. If successful, her physical form will slowly be converted into The Raw itself, granting her immortality and great, though not infallible, insight into the nature of events, both current and of those to come.\n"
 "\n"
@@ -6619,7 +7078,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=energy
-#: War_of_Legends/units/windsong/Ascendant.cfg:69
+#: War_of_Legends/units/windsong/Ascendant.cfg:71
 #: War_of_Legends/units/windsong/Prophetess.cfg:65
 msgid "chronostasis cipher"
 msgstr ""
@@ -6817,22 +7276,22 @@ msgid "female^Rune Forger"
 msgstr ""
 
 #. [unit_type]: id=Rune Forger, race=windsong
-#: War_of_Legends/units/windsong/Rune_Forger.cfg:34
+#: War_of_Legends/units/windsong/Rune_Forger.cfg:37
 msgid "Instead of becoming Arbiters, some savants may chose to master all forms of the Cipher. The Rune Forgers are experienced in all forms of the Cipher and they can use this knowledge to inflict catastrophic damage to the enemies who were foolish enough to cross paths with the Windsong."
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/windsong/Rune_Forger.cfg:39
+#: War_of_Legends/units/windsong/Rune_Forger.cfg:42
 msgid "sorrow"
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/windsong/Rune_Forger.cfg:53
+#: War_of_Legends/units/windsong/Rune_Forger.cfg:56
 msgid "memory"
 msgstr ""
 
 #. [attack]: type=pierce
-#: War_of_Legends/units/windsong/Rune_Forger.cfg:67
+#: War_of_Legends/units/windsong/Rune_Forger.cfg:70
 msgid "death"
 msgstr ""
 
