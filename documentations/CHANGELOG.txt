@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.7.30
+Change-Log v1.2.7.30.1
+
+version 1.2.7.30.1
+--> Updated .pot file
+--> Fixed some misplaced textdomains
 
 version 1.2.7.30
 --> Aragwaithi:
@@ -74,7 +78,11 @@ version 1.2.7.30
 --> Misc: 
    --> Updated trait descriptions
 --> Legends Conquest:
-   -->
+   --> New Policy: OOS/Lua error feedback due to external mods conflicting will be ignored. Tell the modification authors to fix their shit.
+   --> Added secondary traits to most of the WoL units 
+   --> Added secondary trait slots for the remaining default units
+   --> Removed ALL level 0 units from hero and commander pool.
+   --> Buffed existing Trainings available
 
 version 1.2.7.29
 --> Deep Elves:
