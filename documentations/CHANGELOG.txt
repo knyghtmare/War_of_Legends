@@ -1,5 +1,10 @@
 War of Legends
-Change-Log v1.2.7.30
+Change-Log v1.2.7.31
+
+version 1.2.7.31
+--> Legends Conquest
+   --> Add information text to explain players that they cannot use the Legends Conquest Commanders, Heroeos and Deserters modification with the Legends Conquest Era (it's internally enabled).
+--> Fixed a bug that stopped loading of eras in MP Create Game if UWS is installed. (I have no effing clue how this happened)
 
 version 1.2.7.30
 --> Aragwaithi:
