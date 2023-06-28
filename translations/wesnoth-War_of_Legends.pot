@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-06-02 15:33 UTC\n"
+"POT-Creation-Date: 2023-06-28 21:37 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,8 +145,8 @@ msgstr ""
 #: War_of_Legends/eras/Legends_Conquest_Era.cfg:185
 msgid ""
 "A remixed variant of the War of Legends era tailored to be played in World Conquest (preferably with Legends Conquest modificiations enabled). There are seven factions, each conforming to the World Conquest era rule as well as the the story setting of the Dark Irdya timeline.\n"
-" \n"
-" After the first decade of ceaseless attacks by the forces of the Dark Elementalist, various factions across Irdya have been compelled to band together to form an united front against their new and persistent adversaries. Certain allegiances could only be made due to geographical possibilities and some being former enemies casting aside their differences. The goal of all factions is survival as there seems to be no end to the enemy forces."
+"\n"
+"After the first decade of ceaseless attacks by the forces of the Dark Elementalist, various factions across Irdya have been compelled to band together to form an united front against their new and persistent adversaries. Certain allegiances could only be made due to geographical possibilities and some being former enemies casting aside their differences. The goal of all factions is survival as there seems to be no end to the enemy forces."
 msgstr ""
 
 #. [Heroes_Alliance]
@@ -1942,17 +1942,17 @@ msgid "Legends Heroes, Commanders and Deserters"
 msgstr ""
 
 #. [modification]: id=knyght_wol_wc_heroes_commanders_deserters, type=mp
-#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:68
-msgid "Adds new World Conquest heroes, commanders and deserters."
+#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:70
+msgid "Adds new World Conquest heroes, commanders and deserters. <b>Note:</b> The Legends Conquest Multiplayer Era already comes with this modification enabled internally, and this is <b>only</b> for <i>War of Legends</i> and <i>Empowered Legends</i> Multiplayer Eras. Due to some restrictions, this modifications cannot be used with the core World Conquest Multiplayer Era either."
 msgstr ""
 
 #. [modification]: id=knyght_wol_wc_AI_recruit_and_performance, type=mp
-#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:84
+#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:86
 msgid "Legends Conquest AI: Recruit Random"
 msgstr ""
 
 #. [modification]: id=knyght_wol_wc_AI_recruit_and_performance, type=mp
-#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:85
+#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:87
 msgid "Randomises recruitment patterns of AI sides in World Conquest."
 msgstr ""
 
