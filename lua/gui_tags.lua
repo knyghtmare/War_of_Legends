@@ -312,11 +312,11 @@ function wml_actions.choice_box( cfg )
 						}
 					},
 					T.column {
-						horizontal_alignment = "right",
+						horizontal_alignment = "left",
 						border = "all",
 						border_size = 5,
 						T.label {
-							text_alignment = "right",
+							text_alignment = "left",
 							id = "choice_note",
 							linked_group = "note"
 						}

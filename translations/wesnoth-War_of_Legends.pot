@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-18 03:44 UTC\n"
+"POT-Creation-Date: 2023-06-28 21:38 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,12 +30,7 @@ msgstr ""
 
 #. [ai]: id=ai_default_rca_wol
 #: War_of_Legends/ai/additional-actions/lua_ai_curse.cfg:9
-msgid "Multiplayer_AI^Default AI (RCA)"
-msgstr ""
-
-#. [ai]: id=default_lua_ai_curse
-#: War_of_Legends/ai/additional-actions/lua_ai_curse.cfg:37
-msgid "Default AI with curse lua"
+msgid "Multiplayer_AI^Default AI (WoL)"
 msgstr ""
 
 #. [era]: id=core_legends
@@ -150,27 +145,27 @@ msgstr ""
 #: War_of_Legends/eras/Legends_Conquest_Era.cfg:185
 msgid ""
 "A remixed variant of the War of Legends era tailored to be played in World Conquest (preferably with Legends Conquest modificiations enabled). There are seven factions, each conforming to the World Conquest era rule as well as the the story setting of the Dark Irdya timeline.\n"
-" \n"
-" After the first decade of ceaseless attacks by the forces of the Dark Elementalist, various factions across Irdya have been compelled to band together to form an united front against their new and persistent adversaries. Certain allegiances could only be made due to geographical possibilities and some being former enemies casting aside their differences. The goal of all factions is survival as there seems to be no end to the enemy forces."
+"\n"
+"After the first decade of ceaseless attacks by the forces of the Dark Elementalist, various factions across Irdya have been compelled to band together to form an united front against their new and persistent adversaries. Certain allegiances could only be made due to geographical possibilities and some being former enemies casting aside their differences. The goal of all factions is survival as there seems to be no end to the enemy forces."
 msgstr ""
 
 #. [Heroes_Alliance]
-#: War_of_Legends/eras/Legends_Conquest_Era.cfg:209
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:214
 msgid "Alliance"
 msgstr ""
 
 #. [Heroes_Horde]
-#: War_of_Legends/eras/Legends_Conquest_Era.cfg:221
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:227
 msgid "Horde"
 msgstr ""
 
 #. [Heroes_Darkness]
-#: War_of_Legends/eras/Legends_Conquest_Era.cfg:229
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:238
 msgid "Darkness"
 msgstr ""
 
 #. [era]: id=legends_conquest_era, description={LEGENDS_CONQUEST_ERA_DESCRIPTION}
-#: War_of_Legends/eras/Legends_Conquest_Era.cfg:296
+#: War_of_Legends/eras/Legends_Conquest_Era.cfg:361
 msgid "Legends Conquest Era"
 msgstr ""
 
@@ -192,6 +187,21 @@ msgstr ""
 #. [era]: id=wol_rpg
 #: War_of_Legends/eras/War_of_Legends_RPG.cfg:9
 msgid "An era with lower level units: with level one leaders, with no units for recruitment. Consists of thirteen factions and is meant to be played in scenarios, which involve roleplaying elements (RPG)."
+msgstr ""
+
+#. [multiplayer_side]: id=Knalgan Alliance, type=random
+#: War_of_Legends/eras/War_of_Legends_RPG.cfg:34
+msgid "Knalgan Alliance"
+msgstr ""
+
+#. [multiplayer_side]: id=Dunefolk, type=random
+#: War_of_Legends/eras/War_of_Legends_RPG.cfg:47
+msgid "Dunefolk"
+msgstr ""
+
+#. [multiplayer_side]: id=Drakes, type=random
+#: War_of_Legends/eras/War_of_Legends_RPG.cfg:60
+msgid "Drakes"
 msgstr ""
 
 #. [multiplayer_side]: id=Aragwaithi_EL, type=random
@@ -513,18 +523,18 @@ msgid " This unit has a reduced chance to be hit."
 msgstr ""
 
 #. [spurt]: id=spurt
-#: War_of_Legends/macros/abilities-deep-elves.cfg:193
+#: War_of_Legends/macros/abilities-deep-elves.cfg:174
 msgid "This unit regains movement points after an attack. Only works at night."
 msgstr ""
 
 #. [spurt]: id=spurt
-#: War_of_Legends/macros/abilities-deep-elves.cfg:194
+#: War_of_Legends/macros/abilities-deep-elves.cfg:175
 msgid " This unit is able to move again after a nightly attack."
 msgstr ""
 
 #. [attacks]: id=trample
 #. [attack]: type=impact
-#: War_of_Legends/macros/abilities-deep-elves.cfg:201
+#: War_of_Legends/macros/abilities-deep-elves.cfg:182
 #: War_of_Legends/units/elves-deep/Black_Tyrhai.cfg:38
 #: War_of_Legends/units/elves-deep/Shadow_Tyrhai.cfg:43
 #: War_of_Legends/units/elves-deep/Tyrhai_Cavalry.cfg:49
@@ -536,12 +546,12 @@ msgid "trample"
 msgstr ""
 
 #. [attacks]: id=trample
-#: War_of_Legends/macros/abilities-deep-elves.cfg:202
+#: War_of_Legends/macros/abilities-deep-elves.cfg:183
 msgid "This unit ignores the retaliation of the enemy and overruns it."
 msgstr ""
 
 #. [attacks]: id=trample
-#: War_of_Legends/macros/abilities-deep-elves.cfg:206
+#: War_of_Legends/macros/abilities-deep-elves.cfg:187
 msgid " This unit is able to overrun an enemy. Whenever it attacks, it moves across the field of the defending unit."
 msgstr ""
 
@@ -737,24 +747,24 @@ msgstr ""
 msgid "This unit damages adjacent undead/vampire at the beginning of its side's turn. It cannot kill a unit, it can only lower its health to 1 HP"
 msgstr ""
 
-#. [dummy]: id=wol_radiance
+#. [radiance]: id=wol_radiance
 #: War_of_Legends/macros/abilities-new.cfg:241
 msgid "radiance"
 msgstr ""
 
-#. [dummy]: id=wol_radiance
+#. [radiance]: id=wol_radiance
 #. [special_note]
 #: War_of_Legends/macros/abilities-new.cfg:242
 #: War_of_Legends/macros/abilities-new.cfg:254
 msgid "This unit slows and deals 8 arcane damage all nearby enemy units on the start of every new turn."
 msgstr ""
 
-#. [dummy]: id=wol_death_cloud
+#. [death_cloud]: id=wol_death_cloud
 #: War_of_Legends/macros/abilities-new.cfg:298
 msgid "death cloud"
 msgstr ""
 
-#. [dummy]: id=wol_death_cloud
+#. [death_cloud]: id=wol_death_cloud
 #: War_of_Legends/macros/abilities-new.cfg:299
 msgid "This unit poisons all nearby enemy units on the start of every new turn."
 msgstr ""
@@ -772,6 +782,61 @@ msgstr ""
 #. [heals]: id=heals_minotaur
 #: War_of_Legends/macros/abilities-new.cfg:346
 msgid "This unit combines herbal remedies with magic to heal units more quickly than is normally possible on the battlefield. A minotaur unit cared for by this healer may heal up to 12 HP per turn, or stop poison from taking effect for that turn. This ability will not cure an affected unit of poison, however, only delay its effect."
+msgstr ""
+
+#. [regenerate]: id=regenerates
+#: War_of_Legends/macros/abilities-new.cfg:364
+msgid "regenerates +6"
+msgstr ""
+
+#. [regenerate]: id=regenerates
+#: War_of_Legends/macros/abilities-new.cfg:365
+msgid "female^regenerates +6"
+msgstr ""
+
+#. [regenerate]: id=regenerates
+#: War_of_Legends/macros/abilities-new.cfg:366
+msgid "The unit will heal itself 6 HP per turn. If it is poisoned, it will remove the poison instead of healing."
+msgstr ""
+
+#. [regenerate]: id=regenerates
+#: War_of_Legends/macros/abilities-new.cfg:367
+msgid "This unit heals itself each turn, though slightly less as if stationed in a village."
+msgstr ""
+
+#. [leadership]: id=allied_leadership
+#: War_of_Legends/macros/abilities-rpg.cfg:10
+msgid "allied leadership"
+msgstr ""
+
+#. [leadership]: id=allied_leadership
+#: War_of_Legends/macros/abilities-rpg.cfg:11
+msgid "female^allied leadership"
+msgstr ""
+
+#. [leadership]: id=allied_leadership
+#: War_of_Legends/macros/abilities-rpg.cfg:12
+msgid "This unit can lead other (and allied) lower-level troops in battle. All adjacent lower-level units from the unit side and allied side deal 25% more damage for each difference in level. Units (own and allied) of the same level will get half of this bonus."
+msgstr ""
+
+#. [leadership]: id=allied_inspires
+#: War_of_Legends/macros/abilities-rpg.cfg:31
+msgid "allied inspire"
+msgstr ""
+
+#. [leadership]: id=allied_inspires
+#: War_of_Legends/macros/abilities-rpg.cfg:32
+msgid "female^allied inspire"
+msgstr ""
+
+#. [leadership]: id=allied_inspires
+#: War_of_Legends/macros/abilities-rpg.cfg:33
+msgid "This unit can inspire own and allied units that are next to it, making them fight better. Adjacent own units of lower or equal level will deal 10% more damage plus 10% for each level they are below the inspiring unit."
+msgstr ""
+
+#. [leadership]: id=allied_inspires
+#: War_of_Legends/macros/abilities-rpg.cfg:37
+msgid "The presence of this unit inspires own and allied units next to it to deal more damage in combat, though this only applies to units of lower or equal level."
 msgstr ""
 
 #: War_of_Legends/macros/abilities.cfg:8
@@ -1070,35 +1135,35 @@ msgstr ""
 msgid "Many creatures of the world of Wesnoth are partly animated through magic. They perceive the world with more than simply their reason and instinct and are consequently less affected by this sort of mental attack."
 msgstr ""
 
-#. [dummy]: id=weapon_special_jinx
+#. [jinx]: id=weapon_special_jinx
 #: War_of_Legends/macros/nightmare-utils.cfg:84
 #: War_of_Legends/macros/nightmare-utils.cfg:86
 msgid "jinx"
 msgstr ""
 
-#. [dummy]: id=weapon_special_jinx
+#. [jinx]: id=weapon_special_jinx
 #: War_of_Legends/macros/nightmare-utils.cfg:85
 #: War_of_Legends/macros/nightmare-utils.cfg:87
 msgid "female^jinx"
 msgstr ""
 
-#. [dummy]: id=weapon_special_jinx
+#. [jinx]: id=weapon_special_jinx
 #: War_of_Legends/macros/nightmare-utils.cfg:88
 #: War_of_Legends/macros/nightmare-utils.cfg:89
 msgid "Curses the hit unit. The cursed unit gets a 15% defence penalty on every terrain until it ends a turn in a village. Does not affect undead, and the defence value can't go lower than 10%."
 msgstr ""
 
-#. [dummy]: id=weapon_special_jinx
+#. [jinx]: id=weapon_special_jinx
 #: War_of_Legends/macros/nightmare-utils.cfg:90
 msgid "This unit can curse its enemies, reducing defense until they rest at a village."
 msgstr ""
 
-#. [dummy]: id=daze
+#. [daze]: id=daze
 #: War_of_Legends/macros/nightmare-utils.cfg:99
 msgid "daze"
 msgstr ""
 
-#. [dummy]: id=daze
+#. [daze]: id=daze
 #: War_of_Legends/macros/nightmare-utils.cfg:100
 msgid "When hit with this attack, an enemy suffers a 10% penalty both to their defense and chance to hit for one turn. Other specials that affect chance to hit (e.g. magical and marksman) take precedence over this special. Magical attacks will still have a 70% chance to hit. Marksman attacks are only affected if the chance to hit is greater than 60%."
 msgstr ""
@@ -1278,7 +1343,7 @@ msgid "End scenario by going to southern edge of map."
 msgstr ""
 
 #. [message]: speaker=Seller
-#: War_of_Legends/macros/system-inv2-shop.cfg:180
+#: War_of_Legends/macros/system-inv2-shop.cfg:179
 msgid "Good-bye..."
 msgstr ""
 
@@ -1458,7 +1523,7 @@ msgstr ""
 
 #. [trait]: id=trait_elite
 #: War_of_Legends/macros/traits.cfg:220
-msgid "+50% HP, +20% damage"
+msgid "+50% HP, +20% damage, +1 level"
 msgstr ""
 
 #. [trait]: id=trait_elite
@@ -1478,7 +1543,7 @@ msgstr ""
 
 #. [trait]: id=trait_supreme
 #: War_of_Legends/macros/traits.cfg:245
-msgid "+80% HP, +30% damage"
+msgid "+80% HP, +30% damage, +2 level"
 msgstr ""
 
 #. [trait]: id=trait_supreme
@@ -1820,13 +1885,48 @@ msgid "This unit attacks relentlessly until the opponent is dead, or three round
 msgstr ""
 
 #. [trainer]: type=Blood Manipulator
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:356
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:365
 msgid "Blood Magic"
 msgstr ""
 
 #. [trainer]: type=Oathkeeper
-#: War_of_Legends/macros/wol-legends-artifacts.cfg:396
+#: War_of_Legends/macros/wol-legends-artifacts.cfg:414
 msgid "Windsong Tutelage"
+msgstr ""
+
+#. [advancement]
+#: War_of_Legends/macros/wol-resource-tags.cfg:1135
+msgid "Gain +8 hitpoints."
+msgstr ""
+
+#. [advancement]
+#: War_of_Legends/macros/wol-resource-tags.cfg:1148
+msgid "Gain +4 melee damage."
+msgstr ""
+
+#. [advancement]
+#: War_of_Legends/macros/wol-resource-tags.cfg:1158
+msgid "Gain +2 melee damage."
+msgstr ""
+
+#. [advancement]
+#: War_of_Legends/macros/wol-resource-tags.cfg:1168
+msgid "Gain +1 melee damage."
+msgstr ""
+
+#. [advancement]
+#: War_of_Legends/macros/wol-resource-tags.cfg:1182
+msgid "Gain +4 ranged damage."
+msgstr ""
+
+#. [advancement]
+#: War_of_Legends/macros/wol-resource-tags.cfg:1192
+msgid "Gain +2 ranged damage."
+msgstr ""
+
+#. [advancement]
+#: War_of_Legends/macros/wol-resource-tags.cfg:1202
+msgid "Gain +1 ranged damage."
 msgstr ""
 
 #: War_of_Legends/mods/campaigns/amla_wol_mod.cfg:4
@@ -1892,6 +1992,36 @@ msgstr ""
 msgid "Amount of XP given to units on turn refresh"
 msgstr ""
 
+#. [modification]: id=knyght_wol_recall_cost_modifier_mod, type=hybrid
+#: War_of_Legends/mods/campaigns/recall_cost_modifier.cfg:5
+msgid "Recall Cost Modification"
+msgstr ""
+
+#. [modification]: id=knyght_wol_recall_cost_modifier_mod, type=hybrid
+#: War_of_Legends/mods/campaigns/recall_cost_modifier.cfg:6
+msgid "Recall cost can now be a percentage of gold (recruitment) cost."
+msgstr ""
+
+#. [slider]: id=knyght_recall_cost_perc
+#: War_of_Legends/mods/campaigns/recall_cost_modifier.cfg:18
+msgid "Percentage"
+msgstr ""
+
+#. [slider]: id=knyght_recall_cost_perc
+#: War_of_Legends/mods/campaigns/recall_cost_modifier.cfg:19
+msgid "Select percentage of the gold cost to be the recall cost"
+msgstr ""
+
+#. [modification]: id=knyght_wol_nightmare_AI, type=mp
+#: War_of_Legends/mods/multiplayer/WOL_Nightmare_AI.cfg:5
+msgid "Enable Nightmares of Meloen AI"
+msgstr ""
+
+#. [modification]: id=knyght_wol_nightmare_AI, type=mp
+#: War_of_Legends/mods/multiplayer/WOL_Nightmare_AI.cfg:6
+msgid "Adds a new AI that can play the <i>Nightmares of Melon</i> faction."
+msgstr ""
+
 #. [modification]: id=knyght_wol_wc_enemy_data_array, type=mp
 #: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:5
 msgid "Legends Conquest"
@@ -1915,6 +2045,21 @@ msgstr ""
 #. [modification]: id=knyght_wol_wc_heroes_commanders_deserters, type=mp
 #: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:67
 msgid "Legends Heroes, Commanders and Deserters"
+msgstr ""
+
+#. [modification]: id=knyght_wol_wc_heroes_commanders_deserters, type=mp
+#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:70
+msgid "Adds new World Conquest heroes, commanders and deserters. <b>Note:</b> The Legends Conquest Multiplayer Era already comes with this modification enabled internally, and this is <b>only</b> for <i>War of Legends</i> and <i>Empowered Legends</i> Multiplayer Eras. Due to some restrictions, this modifications cannot be used with the core World Conquest Multiplayer Era either."
+msgstr ""
+
+#. [modification]: id=knyght_wol_wc_AI_recruit_and_performance, type=mp
+#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:86
+msgid "Legends Conquest AI: Recruit Random"
+msgstr ""
+
+#. [modification]: id=knyght_wol_wc_AI_recruit_and_performance, type=mp
+#: War_of_Legends/mods/multiplayer/War_of_Legends_World_Conquest.cfg:87
+msgid "Randomises recruitment patterns of AI sides in World Conquest."
 msgstr ""
 
 #. [race]: id=aberration
@@ -1953,7 +2098,7 @@ msgstr ""
 #: War_of_Legends/units/aberrations/Rash_One.cfg:31
 #: War_of_Legends/units/aberrations/Reckless_One.cfg:32
 #: War_of_Legends/units/aberrations/Unhatched.cfg:37
-#: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:38
+#: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:43
 #: War_of_Legends/units/steelhive/steel_dreadnought.cfg:77
 #: War_of_Legends/units/steelhive/steel_serpent.cfg:27
 #: War_of_Legends/units/steelhive/steel_wyrm.cfg:26
@@ -1981,6 +2126,7 @@ msgstr ""
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Eagle_Master.cfg:31
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Eagle_Rider.cfg:27
 #: War_of_Legends/units/monsters/Elder_Gryphon.cfg:30
+#: War_of_Legends/units/monsters/Great_Sea_Dragon.cfg:43
 #: War_of_Legends/units/monsters/Young_Gryphon.cfg:31
 #: War_of_Legends/units/vampires/Flesh_Artisan.cfg:27
 msgid "claws"
@@ -2102,6 +2248,8 @@ msgstr ""
 #: War_of_Legends/units/goblins/Goblin_Lancer.cfg:28
 #: War_of_Legends/units/monsters/Cave_Wyrm.cfg:77
 #: War_of_Legends/units/monsters/Cave_Wyrmlet.cfg:75
+#: War_of_Legends/units/monsters/Great_Sea_Dragon.cfg:30
+#: War_of_Legends/units/monsters/Sea_Wyrm.cfg:29
 #: War_of_Legends/units/monsters/Wyrm.cfg:70
 #: War_of_Legends/units/vampires/Blood_Apprentice.cfg:25
 #: War_of_Legends/units/vampires/Blood_Manipulator.cfg:25
@@ -2260,7 +2408,7 @@ msgid "female^Spearmaiden"
 msgstr ""
 
 #. [unit_type]: id=Centaur Spearmaiden, race=centaur
-#: War_of_Legends/units/centaurs/Spearmaiden.cfg:20
+#: War_of_Legends/units/centaurs/Spearmaiden.cfg:21
 msgid "Centaur Spearmaidens are centaur maidens who wield spears."
 msgstr ""
 
@@ -2321,7 +2469,7 @@ msgstr ""
 
 #. [unit_type]: id=Dwarvish Arbalestier, race=dwarf
 #: War_of_Legends/units/dwarves/Arbalestier.cfg:19
-msgid "The dwarven engineers have an obsession to tinker with their gadgets incessantly until they achieve perfection. Considering the aforementioned fact, the dwarven arbalest is one of the most finest weapons every created; beautifully crafted for the sole intention of devastating shots."
+msgid "The dwarven engineers have an obsession for tinkering with their gadgets incessantly until they achieve perfection. Considering the aforementioned fact, the dwarven arbalest is one of the finest weapons ever created: beautifully crafted for the sole intention of devastating shots."
 msgstr ""
 
 #. [unit_type]: id=Dwarvish Crossbowman, race=dwarf
@@ -2331,7 +2479,7 @@ msgstr ""
 
 #. [unit_type]: id=Dwarvish Crossbowman, race=dwarf
 #: War_of_Legends/units/dwarves/Crossbowman.cfg:23
-msgid "Even though thundersticks are usually the better weapon, some dwarves prefer to use the crossbow. As the crossbow is a faster reloading, lighter weapon, they can be more mobile, while still retaining high lethality at a distance."
+msgid "Even though thundersticks are usually the better weapon, some dwarves prefer to use the crossbow. As the crossbow is a faster-reloading, lighter weapon, they can be more mobile, while still retaining high lethality at a distance."
 msgstr ""
 
 #. [unit_type]: id=Gryphon Thunderlord, race=gryphon
@@ -2360,18 +2508,8 @@ msgid "Dwarvish Marksman"
 msgstr ""
 
 #. [unit_type]: id=Dwarvish Marksman, race=dwarf
-#. [unit_type]: id=Shassagoth, race=monster
-#. [unit_type]: id=Legion Medic, race=human
-#. [unit_type]: id=Steel Larva, race=steelhive
-#. [unit_type]: id=Steel Nymph, race=steelhive
-#. [unit_type]: id=Steel Syren, race=steelhive
 #: War_of_Legends/units/dwarves/Marksman.cfg:23
-#: War_of_Legends/units/elves-deep/Shassagoth.cfg:19
-#: War_of_Legends/units/human-legion/Medic.cfg:18
-#: War_of_Legends/units/steelhive/steel_larva.cfg:12
-#: War_of_Legends/units/steelhive/steel_nymph.cfg:13
-#: War_of_Legends/units/steelhive/steel_syren.cfg:13
-msgid "TODO"
+msgid "Dwarvish Marksmen are... (TODO)"
 msgstr ""
 
 #. [race]: id=elemental
@@ -2464,7 +2602,7 @@ msgstr ""
 #: War_of_Legends/units/elementals/stable/Kobold.cfg:40
 #: War_of_Legends/units/elementals/stable/Stone_Golem.cfg:40
 #: War_of_Legends/units/elementals/stable/Stone_Titan.cfg:41
-#: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:28
+#: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:33
 #: War_of_Legends/units/nightmares-elementals/Nature_Wrath.cfg:455
 #: War_of_Legends/units/nightmares-elementals/Unstable_Elemental.cfg:454
 #: War_of_Legends/units/trolls/Boulderlobber.cfg:30
@@ -2970,9 +3108,9 @@ msgstr ""
 #: War_of_Legends/units/elves-deep/Baroness.cfg:40
 #: War_of_Legends/units/elves-deep/Nightmaiden.cfg:39
 #: War_of_Legends/units/elves-deep/Nightstalker.cfg:39
-#: War_of_Legends/units/elves-deep/Vault_Lurker.cfg:41
-#: War_of_Legends/units/human-legion/Arbalestier.cfg:36
-#: War_of_Legends/units/human-legion/Arbalestier.cfg:48
+#: War_of_Legends/units/elves-deep/Vault_Lurker.cfg:47
+#: War_of_Legends/units/human-legion/Arbalestier.cfg:39
+#: War_of_Legends/units/human-legion/Arbalestier.cfg:51
 #: War_of_Legends/units/human-legion/Crossbowman.cfg:34
 #: War_of_Legends/units/human-legion/Crossbowman.cfg:46
 #: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:35
@@ -3002,7 +3140,7 @@ msgstr ""
 
 #. [damage]: id=relentless_assault
 #: War_of_Legends/units/elves-deep/Baroness.cfg:67
-msgid "relentless aussault"
+msgid "relentless assault"
 msgstr ""
 
 #. [damage]: id=relentless_assault
@@ -3015,7 +3153,7 @@ msgstr ""
 #: War_of_Legends/units/elves-deep/Nightmaiden.cfg:126
 #: War_of_Legends/units/elves-deep/Nightstalker.cfg:126
 #: War_of_Legends/units/elves-deep/Shassagoth.cfg:194
-#: War_of_Legends/units/elves-deep/Vault_Lurker.cfg:169
+#: War_of_Legends/units/elves-deep/Vault_Lurker.cfg:175
 msgid "Spurt!"
 msgstr ""
 
@@ -3052,8 +3190,8 @@ msgstr ""
 
 #. [unstore_unit]
 #: War_of_Legends/units/elves-deep/Bloodmaiden.cfg:80
-#: War_of_Legends/units/elves-deep/Predator.cfg:82
-#: War_of_Legends/units/elves-deep/Vengeance.cfg:83
+#: War_of_Legends/units/elves-deep/Predator.cfg:83
+#: War_of_Legends/units/elves-deep/Vengeance.cfg:84
 msgid "The hunt is on!"
 msgstr ""
 
@@ -3115,12 +3253,12 @@ msgid "As opposed to the Phades, an Elthare chooses to remain in the physical wo
 msgstr ""
 
 #. [attack]: type=energy
-#: War_of_Legends/units/elves-deep/Elthare.cfg:39
+#: War_of_Legends/units/elves-deep/Elthare.cfg:43
 msgid "magical sword"
 msgstr ""
 
 #. [attack]: type=arcane
-#: War_of_Legends/units/elves-deep/Elthare.cfg:51
+#: War_of_Legends/units/elves-deep/Elthare.cfg:55
 #: War_of_Legends/units/elves-deep/Irr.cfg:63
 #: War_of_Legends/units/elves-deep/Lightborn.cfg:61
 #: War_of_Legends/units/elves-deep/Phade.cfg:62
@@ -3282,9 +3420,24 @@ msgstr ""
 msgid "The rare Shadow Tyr‘Hai is a gigantic version of the lesser Tyr’Hai whose natural habitat is unknown. Some believe they lurk in the deepest part of the depths, while others say, they reside in the very realm of Shassagoth. Sharing a deep connection with Shassagoth, the Shadow Tyr’Hai defend the Priestesses from the darkness and protect them from harm in their travels. They are believed to feast on the souls of their prey, consuming spirit along with body in their mighty jaws."
 msgstr ""
 
-#. [unit_type]: id=Shassagoth, race=monster
+#. [unit_type]: id=Shassagoth, race=dragon
 #: War_of_Legends/units/elves-deep/Shassagoth.cfg:5
 msgid "Shassagoth"
+msgstr ""
+
+#. [unit_type]: id=Shassagoth, race=dragon
+#. [unit_type]: id=Legion Medic, race=human
+#. [unit_type]: id=Steel Larva, race=steelhive
+#. [unit_type]: id=Steel Nymph, race=steelhive
+#. [unit_type]: id=Steel Syren, race=steelhive
+#. [unit_type]: id=Apparition, race=undead
+#: War_of_Legends/units/elves-deep/Shassagoth.cfg:19
+#: War_of_Legends/units/human-legion/Medic.cfg:17
+#: War_of_Legends/units/steelhive/steel_larva.cfg:12
+#: War_of_Legends/units/steelhive/steel_nymph.cfg:13
+#: War_of_Legends/units/steelhive/steel_syren.cfg:13
+#: War_of_Legends/units/undead/Spirit_Wraith_Lich.cfg:18
+msgid "TODO"
 msgstr ""
 
 #. [attack]: type=blade
@@ -3350,12 +3503,12 @@ msgid "Vault Lurker"
 msgstr ""
 
 #. [unit_type]: id=Vault Lurker, race=deep_elf
-#: War_of_Legends/units/elves-deep/Vault_Lurker.cfg:20
+#: War_of_Legends/units/elves-deep/Vault_Lurker.cfg:23
 msgid "The Vault Lurker is a being that emerged from the Black Lake itself and is filled with the essence of Shassagoth. As an entity born of darkness, it can meld perfectly with any shadow, allowing it to perfectly stalk its enemies without fear of detection. This ability makes the Vault Lurkers among the most feared of the Deep Elves, for against the Deep Elves, one’s own shadow may become their own worst enemy."
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/elves-deep/Vault_Lurker.cfg:31
+#: War_of_Legends/units/elves-deep/Vault_Lurker.cfg:34
 #: War_of_Legends/units/elves-wood/Noble.cfg:28
 #: War_of_Legends/units/elves-wood/Prowler.cfg:43
 #: War_of_Legends/units/elves-wood/Trapper.cfg:39
@@ -3475,7 +3628,7 @@ msgstr ""
 #: War_of_Legends/units/elves-wood/Ascetic.cfg:32
 #: War_of_Legends/units/elves-wood/Mystic.cfg:31
 #: War_of_Legends/units/human-legion/Healer.cfg:47
-#: War_of_Legends/units/human-legion/Medic.cfg:44
+#: War_of_Legends/units/human-legion/Medic.cfg:43
 #: War_of_Legends/units/human-mages/Mage_Adept_of_Light.cfg:96
 #: War_of_Legends/units/human-mages/Mage_Cleric.cfg:33
 #: War_of_Legends/units/human-mages/Mage_Forest.cfg:42
@@ -3685,7 +3838,7 @@ msgstr ""
 
 #. [attack]: type=fire
 #: War_of_Legends/units/faeries/Faerie_Dryad.cfg:41
-#: War_of_Legends/units/faeries/Faerie_Spirit.cfg:47
+#: War_of_Legends/units/faeries/Faerie_Spirit.cfg:48
 #: War_of_Legends/units/faeries/Faerie_Sprite.cfg:30
 #: War_of_Legends/units/faeries/Fire_Faerie.cfg:42
 msgid "fire aura"
@@ -3693,7 +3846,7 @@ msgstr ""
 
 #. [attack]: type=fire
 #: War_of_Legends/units/faeries/Faerie_Dryad.cfg:50
-#: War_of_Legends/units/faeries/Faerie_Spirit.cfg:59
+#: War_of_Legends/units/faeries/Faerie_Spirit.cfg:60
 #: War_of_Legends/units/faeries/Faerie_Sprite.cfg:39
 #: War_of_Legends/units/faeries/Fire_Faerie.cfg:51
 msgid "mystic fire"
@@ -3705,7 +3858,7 @@ msgid "Forest Spirit"
 msgstr ""
 
 #. [unit_type]: id=Faerie Spirit, race=faerie
-#: War_of_Legends/units/faeries/Faerie_Spirit.cfg:39
+#: War_of_Legends/units/faeries/Faerie_Spirit.cfg:40
 msgid "Faeries may eventually become one with the fire element, turning into spirits of flame and might, which they will use to relentlessly protect the forests they inhabit or people to which they have swore allegiance. However, seeing one of these spirits is more rare than stumbling upon a Wose, even for elves."
 msgstr ""
 
@@ -3910,23 +4063,31 @@ msgstr ""
 msgid "Only the best of rousers can hope to become a trumpeter. Trumpeters spend many hours studying the subtleties of the complex orc war signals. For the orcs, such signals are much more than a simple message of advance or retreat, they inspire their entire army and reinforce their bloodthirsty nature. Many orc warlords consider their trumpeter a trusted confidante and sometimes a trumpeter may be allowed to consult with the warlord on his battle plan."
 msgstr ""
 
+#: War_of_Legends/units/human-aragwaithi.cfg:4
+msgid "Akahito,Aki,Akihiko,Akihiro,Akihisa,Akihito,Akikazu,Akinari,Akinori,Akio,Akira,Amane,Anzai,Arata,Arinori,Aritomo,Ashihei,Atasuke,Atshushi,Atsumichi,Atsumori,Atsutane,Azumamaro,Baiko,Bairei,Bakin,Basho,Benjiro,Benkei,Bokkai,Buncho,Bunjiro,Bunrakuken,Bunzo,Bussho,Chikafusa,Chikao,Chojiro,Chomei,Chuichi,Daisetsu,Daisuke,Danjuro,Dayu,Denbe,Doi,Dokuohtei,Doppo,Ebizo,Eichi,Eichiro,Eien,Eiichi,Eiji,Eijiro,Eikichi,Eisaku,Eisen,Eishi,Eisuke,Eitoku,Eizan,Eizo,Ekiken,Ennosuke,Etsuya,Fujimaro,Fujio,Fukusaburu,Fumiaki,Fumihiko,Fumihiro,Fumimaro,Fumio,Gaho,Gekko,Gempachi,Gengyo,Genichi,Genjo,Gennai,Gennosuke,Genpaku,Gesshin,Gidayu,Gihei,Giichi,Go,Goemon,Gombei,Gonkuro,Gonnohyoe,Gonshiro,Goro,Gyokusho,Gyukudo,Hachemon,Hachigoro,Hachiro,Hajime,Hakuseki,Hanshiro,Haranobu,Haru,Haruhiko,Haruhiro,Haruki,Harumi,Harunobu,Hayato,Heihachiro,Heiji,Heikichi,Heizo,Hideaki,Hidehira,Hidekazu,Hideki,Hidemichi,Hideo,Hidetada,Hidetora,Hidetoshi,Hidetsugu,Hideyori,Hideyoshi,Higashikuni,Hikaru,Hikosaburo,Hikozaemon,Hiro,Hiroaki,Hirobumi,Hirofumi,Hiroharu,Hirohisa,Hiroji,Hirokazu,Hirokichi,Hirokumi,Hiroshi,Hiroshige,Hirotada,Hirotaka,Hirotsugu,Hiroya,Hiroyasu,Hiroyuki,Hisahsi,Hisaki,Hisamitsu,Hisanobu,Hisashi,Hisato,Hisayuki,Hitomaro,Hitoshi,Hogai,Hoitsu,Hokichi,Hokusai,Honzo,Horiuchi,Hoshi,Hoshiko,Hyobe,Hyosuke,Hyotaru,Ichibei,Ichiro,Ichisake,Ichiyo,Ichizo,Iemitsu,Iemochi,Ienobu,Iesada,Ieshige,Ietsuna,Ieyasu,Ieyoshi,Ikemoto,Ikki,Ikku,Inejiro,Ippei,Isamu,Isao,Isei,Isoruko,Isoshi,Iwane,Iwao,Izo,Izumo,Jakuchu,Jin,Jinzaburo,Jiro,Jo,Joji,Josuke,Jotaro,Jou,Juichi,Jun,Junichi,Junichiro,Junji,Junnosuke,Junzo,Juro,Jurobei,Juzaburo,Juzo,Kadonomaro,Kafu,Kagehisa,Kagetoki,Kageyasu,Kaii,Kakuei,Kakuzo,Kamatari,Kan,Kanbe,Kaneie,Kanezane,Kanjiro,Kanko,Kansuke,Kantaro,Kanzaburo,Kaoru,Kata,Katai,Katsuhiko,Katsuhito,Katsumi,Katsumoto,Katsunan,Katsunosuki,Katsuyoshi,Katsuyuki,Katzumi,Kawanari,Kaz,Kazu,Kazuhiko,Kazuhiro,Kazuki,Kazuko,Kazuma,Kazunari,Kazunori,Kazuo,Kazushi,Kazushige,Kazutoshi,Kazuyoshi,Kazuyuki,Kei,Keiji,Keiki,Keishi,Keisuke,Keita,Keitaro,Keizo,Ken,Kenichi,Kenji,Kenjiro,Kenkichi,Kenko,Kensaku,Kenshin,Kenzaburo,Kenzan,Kenzo,Kichibei,Kichisaburo,Kiemon,Kiichi,Kijuro,Kikaku,Kikugoro,Kikunojo,Kimi,Kiminobu,Kimitada,Kingo,Kinji,Kinmochi,Kinnojo,Kinnosuke,Kinzo,Kisho,Kitahachi,Kiyoemon,Kiyohira,Kiyohisa,Kiyomasu,Kiyomitsu,Kiyomori,Kiyonaga,Kiyonobu,Kiyonori,Kiyoshi,Kiyotaka,Koan,Kobo,Koetsu,Kohei,Koichi,Koin,Koji,Kojiro,Kojuro,Kokan,Kokei,Koki,Kokushi,Konosuke,Konoye,Konyo,Korechika,Korekiyo,Korenaga,Korin,Koryusai,Kosaku,Kosami,Koshiro,Kosho,Kotaro,Koto,Koyo,Kozue,Kuemon,Kuma,Kumanosuke,Kuniaki,Kunihiko,Kunimatsu,Kunimichi,Kunio,Kunisada,Kunitaro,Kuniyoshi,Kuniyuki,Kyoden,Kyoichi,Kyoji,Kyoshi,Kyuichi,Kyushichi,Kyuso,Kyuwa,Mabuchi,Magbei,Magobei,Magohachi,Makoto,Mamoru,Manabu,Manobu,Maresuke,Marihito,Masaaki,Masafumi,Masaharu,Masahide,Masahiko,Masahiro,Masakado,Masakazu,Masaki,Masami,Masamichi,Masamune,Masanobu,Masanori,Masao,Masaru,Masashi,Masashige,Masatake,Masato,Masayoshi,Masayuki,Masazumi,Mashai,Mashashi,Masu,Masuhiro,Masujiro,Masutaro,Matabei,Matashichi,Matsu,Matsudaira,Matsuo,Matsusuke,Matsuta,Matsuyo,Meiji,Michihiro,Michinaga,Michinori,Michio,Michizane,Minoru,Misao,Mito,Mitsuharu,Mitsuhide,Mitsukuni,Mitsunari,Mitsuo,Mitsuoki,Mitsuzuka,Miyazaki,Miyoko,Mobumasu,Mochihito,Mokichi,Mokuami,Momoru,Monzaemon,Morie,Morihiro,Morimasa,Moromao,Moronobu,Motoichi,Motoki,Motonobu,Motoshige,Mototsune,Motoyasu,Motoyuki,Munemitsu,Munemori,Munenori,Muneyaki,Munoto,Murai,Mushanokoji,Mutsohito,Mutsuhito,Naganori,Naizen,Nakamaro,Nakazo,Namboku,Nampo,Naoaki,Naofumi,Naohiro,Naoki,Naomi,Naomichi,Naonobu,Naosuke,Naoya,Naozane,Narahiko,Nariaki,Nariakira,Narihari,Narihira,Naruhiko,Natsu,Natsume,Natsuo,Nichiren,Ninsei,Niou,Nissho,Noboru,Nobuatsu,Nobuharu,Nobuhiko,Nobuhisa,Nobuhito,Nobukazu,Nobuo,Noburo,Nobusuke,Nobuyoki,Nobuyori,Nobuyoshi,Nori,Noriaki,Norihide,Norihisa,Norinaga,Norio,Norishige,Noritada,Noritoshi,Noriyori,Noriyuki,Norogumi,Oda,Ogai,Okakura,Okitsugu,Okura,Okyoito,Omezo,Oniji,Orinosuke,Osamu,Otojiro,Razan,Reijiro,Rikiya,Rikyu,Rintaro,Rkuemon,Robun,Roku,Rosanjin,Ryo,Ryobe,Ryoichi,Ryoko,Ryoma,Ryosei,Ryozo,Ryu,Ryuichi,Ryunosuke,Ryushi,Ryutaro,Ryuzaburo,Saburo,Sachi,Sadaharu,Sadahige,Sadakuno,Sadanobu,Sadao,Sadatake,Sadayoshi,Saemon,Saikaku,Saionji,Sakutaro,Samba,Saneatsu,Sanetomo,Sanjiro,Sanjuro,Sanraku,Sanzo,Satoru,Satoshi,Sawao,Seibei,Seiesnsui,Seihachi,Seiho,Seiichi,Seiji,Seika,Seiki,Seinosuke,Seiryo,Seishiro,Seishisai,Seison,Seitaro,Sekien,Sen,Senichi,Senzo,Sessue,Settan,Sharaku,Shiba,Shichirobei,Shigeaki,Shigekazu,Shigeki,Shigeko,Shigemasa,Shigematsu,Shigemori,Shigenaga,Shigenobu,Shigeru,Shigetaka,Shigetoki,Shigochiyo,Shihei,Shihi,Shiki,Shiko,Shimei,Shimpei,Shingen,Shinichi,Shinji,Shinkichi,Shino,Shinobu,ShinriKiyaru,Shinsaku,Shinsui,Shintaro,Shinzo,Shirai,Shirosama,Shizue,Sho,Shogo,Shohei,Shoichi,Shoin,Shoji,Shojiro,Shoko,Shoraku,Shosuke,Shotaro,Shoyo,Shozaburo,Shozo,Shuichi,Shuji,Shukishi,Shuko,Shumei,Shumkichi,Shun,Shuncho,Shungyosai,Shunichi,Shunji,Shunko,Shunmyo,Shunsen,Shunsho,Shunso,Shunsuke,Shusake,Shusaku,Shusui,Shuzo,Soetsu,Sofu,Soh,Soichiro,Sojuro,Sorai,Sosa,Soseki,Soshitsu,Soshu,Sosuke,Sotan,Sotaro,Sotatsu,Sozen,Sozui,Ssekien,Subaru,Suezo,Sugimoto,Sugita,Sukejuro,Sukenobu,Suketsune,Sukeyasu,Sumio,Sumiteru,Sumitomo,Susumu,Tabito,Tadahisa,Tadakuni,Tadamasa,Tadamichi,Tadao,Tadashi,Tadasu,Tadasuke,Tadataka,Tadayoshi,Tadayuki,Tadiyuki,Taheiji,Taikan,Taisho,Taisuke,Takaaki,Takafumi,Takahashi,Takahiro,Takakazu,Takamasa,Takamori,Takamuku,Takanibu,Takanobu,Takanori,Takao,Takashi,Takauji,Takayuki,Takechi,Takehide,Takeichi,Takeji,Takejiro,Takenao,Takeo,Takeru,Takeshi,Takesi,Taki,Takiji,Takuboku,Takuji,Takuma,Takuro,Takuya,Tamasaburo,Tameyoshi,Tamotsu,Tamuramaro,Tango,Tanosuke,Tanyu,Tanzan,Taro,Taroemon,Tarozaemon,Tashiaki,Tashiro,Tasuku,Tatsui,Tatsukichi,Tatsuya,Tatsuzo,Taysuke,Teika,Teinosuke,Tekkan,Tenshin,Terao,Teriuihi,Terumoto,Teruo,Tessai,Tetsu,Tetsuhiko,Tetsui,Tetsunori,Tetsuo,Tetsuya,Tetsuyuki,Tetsuzan,Thoki,Tobei,Togai,Tohaku,Toichi,Toin,Toju,Tokaji,Toki,Tokichiro,Tokimasa,Tokimune,Tokugawa,Tokuhei,Tokuma,Tokutomi,Tomiichi,Tomiji,Tomoaki,Tomohiko,Tomokazu,Tomomi,Tomoyuki,Ton,Torajiro,Torazo,Toru,Toshiaki,Toshiharu,Toshikasu,Toshikazu,Toshiki,Toshikuni,Toshimichi,Toshinobu,Toshio,Toshiro,Toshitsugu,Toshiyuki,Toson,Totoya,Toyoaki,Toyoharu,Toyokazu,Toyokuni,Toyonobu,Toyoshige,Toyotomi,Toyozo,Tsugahara,Tsugiharu,Tsuginori,Tsugumichi,Tsukasa,Tsumemasa,Tsunayoshi,Tsuneari,Tsuneo,Tsunesaburo,Tsuneyo,Tsuramatsu,Tsurayaki,Tsurayuki,Tsuruki,Tsutomu,Tsuyoshi,Ukon,Ukyo,Unkei,Utaemon,Utamara,Utamuro,Utemaro,Waotaka,Washi,Washichi,Yachi,Yaichiro,Yajirobei,Yakamochi,Yakumo,Yamato,Yasotaro,Yasuhide,Yasuhiko,Yasuhiro,Yasujiro,Yasukazu,Yasunari,Yasunobu,Yasuo,Yasuoka,Yasushi,Yasutake,Yasutoki,Yasuyuki,Yataro,Yatsuhiro,Yeijiro,Yo,Yodo,Yohachi,Yoichi,Yoichibei,Yoriie,Yorikane,Yoringa,Yoritoki,Yoritomo,Yoriyoshi,Yoriyuki,Yosai,Yoshi,Yoshiaga,Yoshiaki,Yoshida,Yoshifumi,Yoshifusa,Yoshihide,Yoshihiro,Yoshihisa,Yoshihito,Yoshii,Yoshiiku,Yoshikazu,Yoshiki,Yoshimasa,Yoshimatsu,Yoshimi,Yoshimitsu,Yoshimochi,Yoshimune,Yoshinaka,Yoshino,Yoshinobu,Yoshinori,Yoshio,Yoshisada,Yoshitaka,Yoshitake,Yoshiteru,Yoshitoki,Yoshitomo,Yoshitora,Yoshitoshi,Yoshitsune,Yoshiyuki,Yoson,Yosuke,Yozo,Yugoro,Yuichi,Yuifum,Yuji,Yujiro,Yuki,Yukichi,Yukinaga,Yukio,Yuko,Yunosuke,Yushiro,Yusuke,Yutaka,Zenko,Zeshin"
+msgstr ""
+
+#: War_of_Legends/units/human-aragwaithi.cfg:5
+msgid "Ai,Aiko,Akane,Akemi,Aki,Akiko,Akuro,Ami,Arisa,Asako,Asami,Atsuko,Aya,Ayako,Ayame,Ayano,Chiaki,Chie,Chieko,Chika,Chikako,Chikuma,Chinatsu,Chisato,Chitose,Chiyeko,Chiyo,Echiko,Eiko,Ema,Emi,Emiko,Eri,Eriko,Etsuko,Euiko,Fujiko,Fumi,Fumie,Fumiki,Fumiko,Fumiyo,Fusae,Fuyuko,Gemmei,Ginko,Hama,Hana,Hanae,Hanako,Haniko,Harukichi,Haruko,Harumi,Hatsue,Hatsuyo,Hideko,Hikaru,Hiroe,Hiroko,Hiromi,Hiroshi,Hisa,Hisae,Hisako,Hitomi,Hitomo,Hitoshi,Honami,Hoshi,Hoshie,Hoshiko,Hoshiyo,Ichi,Iku,Ikue,Ikuko,Ikuyo,Inoue,Isako,Ise,Itsuko,Izumi,Joruri,Jun,Junko,Juri,Kadiri,Kaede,Kahori,Kameko,Kaneko,Kaori,Kaoru,Kasuga,Katsue,Katsuko,Katsumi,Kayoko,Kazue,Kazuko,Kazumi,Keiko,Kichi,Kiko,Kimie,Kimiko,Kin,Kinuko,Kinuye,Kinuyo,Kioko,Kishi,Kit,Kita,Kiyo,Kiyoko,Kiyomi,Kochiyo,Koi,Koiso,Koken,Komachi,Kumi,Kumiko,Kunie,Kuniko,Kyoko,Machi,Machiko,Madoka,Mae,Maeko,Maemi,Mai,Maiko,Maki,Makiko,Mako,Mami,Mamiko,Man,Mana,Manami,Mari,Mariko,Maru,Masae,Masako,Masami,Masumi,Matsu,Maya,Mayako,Mayo,Mayoko,Mayu,Mayuko,Mayumi,Megu,Megumi,Michi,Michiko,Midori,Mieko,Miho,Mihoko,Miiko,Miki,Miliko,Mina,Minako,Mineko,Mino,Mio,Misa,Misako,Misato,Mitsu,Mitsuko,Mitsuyo,Miwako,Miya,Miyako,Miyo,Miyoko,Miyoshi,Mizuki,Momoko,Mutsuko,Mutsumi,Naho,Nahoko,Nami,Namie,Namika,Namiko,Namiyo,Nana,Nanako,Nanami,Nao,Naoko,Naomi,Naora,Nari,Nariko,Narumi,Natsuko,Natsumi,Nayoko,Nene,Nomi,Nori,Norie,Noriko,Nozomi,Nyoko,Ochiyo,Oharu,Oki,Okichi,Okiku,Omitsu,Otsu,Otsune,Raicho,Raku,Rei,Reiko,Remi,Rie,Rieko,Rika,Rikako,Riku,Rina,Rinako,Risa,Risako,Ritsuko,Romi,Rui,Rumiko,Ruri,Ruriko,Ryo,Ryoko,Sachi,Sachiko,Sadako,Sae,Saeko,Saito,Sakamae,Saki,Sakiko,Sakue,Sakuko,Sakura,Sakurako,Sakuro,Sama,Sanako,Saori,Sata,Satoko,Satomi,Sawako,Saya,Sayo,Sayoko,Sayuri,Sei,Seiko,Seka,Seki,Sen,Setsuko,Shige,Shinobu,Shioko,Shiori,Shizu,Shizue,Shizuka,Shoken,Shoko,Sui,Suko,Sumi,Sumie,Sumiko,Suzue,Suzuko,Sué,Tadako,Tae,Tai,Takako,Tama,Tamafune,Tamaki,Tamami,Tamiko,Tamiyo,Taniko,Tansho,Tara,Teruyo,Tokie,Tokiko,Tokiyo,Toku,Tomi,Tomiko,Tomoe,Tomoko,Tomomi,Toshie,Toshiko,Toyoko,Tsuki,Tsukiyama,Tsuya,Ume,Umeka,Umeko,Urako,Utako,Wazuka,Yae,Yaeko,Yasu,Yasuko,Yayoi,Yodo,Yoko,Yori,Yoriko,Yoshi,Yoshike,Yoshiko,Yu,Yui,Yuka,Yukako,Yukari,Yuki,Yukiko,Yukiyo,Yuko,Yuma,Yumako,Yumi,Yumiko,Yuri,Yuriko,Yusuke,Yutsuko,Yuya"
+msgstr ""
+
 #. [race]: id=aragwaith
-#: War_of_Legends/units/human-aragwaithi.cfg:11
+#: War_of_Legends/units/human-aragwaithi.cfg:23
 msgid "race^Aragwaith"
 msgstr ""
 
 #. [race]: id=aragwaith
-#: War_of_Legends/units/human-aragwaithi.cfg:12
+#: War_of_Legends/units/human-aragwaithi.cfg:24
 msgid "race+female^Aragwaith"
 msgstr ""
 
 #. [race]: id=aragwaith
-#: War_of_Legends/units/human-aragwaithi.cfg:13
+#: War_of_Legends/units/human-aragwaithi.cfg:25
 msgid "race^Aragwaithi"
 msgstr ""
 
 #. [race]: id=aragwaith
-#: War_of_Legends/units/human-aragwaithi.cfg:17
+#: War_of_Legends/units/human-aragwaithi.cfg:29
 msgid ""
 "During most of the Golden Age, the humans who inhabited the Great Continent were mostly Wesnothians, divided across various territories such as the Northlands, Elensefar and the kingdom of Wesnoth itself. However, there was once a time of great strife during which a new race of humans started to appear from nowhere. They were the 'Aragwaithi', which meant 'noble' in their native language.\n"
 "\n"
@@ -3941,8 +4102,8 @@ msgid "female^Adept"
 msgstr ""
 
 #. [unit_type]: id=Aragwaith Adept, race=aragwaith
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Adept.cfg:37
-msgid "The magically inclined ones among the Aragwaith receive not only the martial training so common in Aragwaithi society, but also in the art of healing, and of course in magic. Wielding powerful fire, competent with their staves, possessing a healing touch, Adepts are the noblest of a noble people."
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Adept.cfg:38
+msgid "The increasingly rare magically-gifted noblewomen of the Aragwaithi function as the lorekeepers of their unique civilization, possessing vast knowledge about the history of Irdya and the many trials faced by their ancestors. But the path to reach their status and earn the Grand Council's trust and respect is arduous, and much of their lives is spent training in the marches, far away from their kin. In those parts, the ability to create and control flames is highly versatile, as well as the mastery of the arts of healing."
 msgstr ""
 
 #. [unit_type]: id=Aragwaith Ancient Banner, race=aragwaith
@@ -4014,7 +4175,7 @@ msgid "female^Enchantress"
 msgstr ""
 
 #. [unit_type]: id=Aragwaith Enchantress, race=aragwaith
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Enchantress.cfg:19
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Enchantress.cfg:20
 msgid "Having gathered field experience to further augment their expertise in conjuring projectiles of flames and healing their allies, the Enchantresses maintain a more active presence in skirmishes and utilise their skills to the best result for their armies."
 msgstr ""
 
@@ -4051,7 +4212,7 @@ msgstr ""
 
 #. [variation]
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Greatbow.cfg:123
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Longswordsman.cfg:52
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Longswordsman.cfg:55
 msgid "Unhooded"
 msgstr ""
 
@@ -4101,8 +4262,8 @@ msgid "While Aragwaithi Swordsmen seem uncannily skilled to blade-wielders of ot
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Longswordsman.cfg:27
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Swordsmaster.cfg:29
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Longswordsman.cfg:30
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Swordsmaster.cfg:32
 msgid "long sword"
 msgstr ""
 
@@ -4138,7 +4299,7 @@ msgstr ""
 
 #. [variation]
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Shield_Guard.cfg:49
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Sorceress.cfg:87
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Sorceress.cfg:88
 msgid "Alternate"
 msgstr ""
 
@@ -4175,8 +4336,8 @@ msgid "female^Sorceress"
 msgstr ""
 
 #. [unit_type]: id=Aragwaith Sorceress, race=aragwaith
-#: War_of_Legends/units/human-aragwaithi/Aragwaith_Sorceress.cfg:20
-msgid "The mighty Aragwaith Sorceresses are gracile like wind. They can confuse their opponents by standing in front of them, seemingly defenseless; after the attacker hits, they notice their victim is behind them, ready to perform his own killing strike. On the battlefield these sorcerers are fearsome enemies; even their comrades keep an eye on them, carefully, from a safe distance. And so it happens that even the Royal orders of Wesnothian magi treat these noble lores with respect and caution."
+#: War_of_Legends/units/human-aragwaithi/Aragwaith_Sorceress.cfg:21
+msgid "The mighty Aragwaith Sorceresses are agile like the wind. They can confound their opponents by standing in front of them seemingly defenseless; once the attacker hits, they realize their victim is actually behind them, ready to land her own killing blow. Because of their vast and intimate knowledge of both defensive and offensive magic, even the higher ranks of the Aragwaithi regard these women with great respect and caution."
 msgstr ""
 
 #. [unit_type]: id=Aragwaith Spearman, race=aragwaith
@@ -4347,12 +4508,12 @@ msgid "Legion Arbalestier"
 msgstr ""
 
 #. [unit_type]: id=Legion Arbalestier, race=human
-#: War_of_Legends/units/human-legion/Arbalestier.cfg:21
+#: War_of_Legends/units/human-legion/Arbalestier.cfg:24
 msgid "The elite of the Legion crossbowmen prefer axes and crossbows, as the weapons make an effective combination and are good for both range and melee combat."
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/human-legion/Arbalestier.cfg:27
+#: War_of_Legends/units/human-legion/Arbalestier.cfg:30
 #: War_of_Legends/units/human-legion/Crossbowman.cfg:25
 #: War_of_Legends/units/human-loyalists/Loyalist_Crossbowman.cfg:26
 #: War_of_Legends/units/human-outlaws/Axeman.cfg:21
@@ -4455,12 +4616,12 @@ msgid "Legion Crusher"
 msgstr ""
 
 #. [unit_type]: id=Legion Crusher, race=human
-#: War_of_Legends/units/human-legion/Crusher.cfg:17
+#: War_of_Legends/units/human-legion/Crusher.cfg:20
 msgid "Not every crusher chooses to don heavier armor and take up a defensive role."
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/human-legion/Crusher.cfg:23
+#: War_of_Legends/units/human-legion/Crusher.cfg:26
 msgid "sledgehammer"
 msgstr ""
 
@@ -4485,7 +4646,7 @@ msgstr ""
 #. [attack]: type=arcane
 #: War_of_Legends/units/human-legion/Doctor.cfg:58
 #: War_of_Legends/units/human-legion/Healer.cfg:56
-#: War_of_Legends/units/human-legion/Medic.cfg:53
+#: War_of_Legends/units/human-legion/Medic.cfg:52
 msgid "lightbeam"
 msgstr ""
 
@@ -4546,13 +4707,13 @@ msgid "Legion Guardian"
 msgstr ""
 
 #. [unit_type]: id=Legion Guardian, race=human
-#: War_of_Legends/units/human-legion/Guardian.cfg:16
+#: War_of_Legends/units/human-legion/Guardian.cfg:19
 msgid "Guardians of the Legion are the defensive guardians and the sight of these warriors make foes tremble with fear."
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/human-legion/Guardian.cfg:21
-#: War_of_Legends/units/human-legion/Sentinel.cfg:22
+#: War_of_Legends/units/human-legion/Guardian.cfg:24
+#: War_of_Legends/units/human-legion/Sentinel.cfg:25
 msgid "war hammer"
 msgstr ""
 
@@ -4644,7 +4805,7 @@ msgid "Legion Sentinel"
 msgstr ""
 
 #. [unit_type]: id=Legion Sentinel, race=human
-#: War_of_Legends/units/human-legion/Sentinel.cfg:17
+#: War_of_Legends/units/human-legion/Sentinel.cfg:20
 msgid "The sight of these Terrors approaching the battlefield means the sign of retreating to any foe."
 msgstr ""
 
@@ -5250,6 +5411,11 @@ msgstr ""
 msgid "Minotaurs are bulky creatures that were once cursed by an unknown force. For eons, Minotaurs turn to stone when the light of the sun touches their skin, forcing them to inhabit the depths of the Great Continent. Shassagoth promised to lift the curse of the Minotaurs if they would bend themselves to his will and fight his foes. For this reason, the Minotaurs decided to serve Shassagoth and are often seen in the vast realm of the Deep Elves."
 msgstr ""
 
+#. [special_note]
+#: War_of_Legends/units/minotaurs/Forgotten_Minotaur.cfg:21
+msgid "This unit demands one less gold in upkeep."
+msgstr ""
+
 #. [unit_type]: id=Minotaur Gore, race=minotaur
 #: War_of_Legends/units/minotaurs/Gore.cfg:5
 msgid "Gore"
@@ -5471,6 +5637,16 @@ msgstr ""
 msgid "cleaver"
 msgstr ""
 
+#. [unit_type]: id=Great Sea Dragon, race=monster
+#: War_of_Legends/units/monsters/Great_Sea_Dragon.cfg:5
+msgid "Great Sea Dragon"
+msgstr ""
+
+#. [unit_type]: id=Great Sea Dragon, race=monster
+#: War_of_Legends/units/monsters/Great_Sea_Dragon.cfg:19
+msgid "The great sea dragon is a massive creature that dominates the depths of the ocean. Its body is covered in shimmering scales that reflect the colors of the sea, and it has two clawed fore legs and two clawed hind legs that propel it through the water with incredible speed. Its jaws are lined with razor-sharp teeth, and its bite is powerful enough to crush even the strongest of ships. Despite its fearsome reputation, the great sea dragon is also revered by some cultures as a symbol of strength and resilience, and its image is often depicted in art and mythology."
+msgstr ""
+
 #. [unit_type]: id=Ice Ghost, race=elemental
 #: War_of_Legends/units/monsters/Ice_Ghost.cfg:4
 msgid "Ice Ghost"
@@ -5521,6 +5697,16 @@ msgstr ""
 #. [unit_type]: id=Great Owl, race=monster
 #: War_of_Legends/units/monsters/Owl_Great.cfg:37
 msgid "The Great Owls are larger and have shaggier plumage than the more common Owls. As a result, they are better insulated against the cold and even have some protection against being struck, though a well-placed piercing arrow will pass through their feathers. Like the common owls, they tend to follow wold-packs, picking off the wounded or panicked prey flushed out by the canine predators."
+msgstr ""
+
+#. [unit_type]: id=Sea Wyrm, race=monster
+#: War_of_Legends/units/monsters/Sea_Wyrm.cfg:5
+msgid "Sea Wyrm"
+msgstr ""
+
+#. [unit_type]: id=Sea Wyrm, race=monster
+#: War_of_Legends/units/monsters/Sea_Wyrm.cfg:19
+msgid "The sea wyrm is a mythical creature that dwells in the depths of the ocean. It has a long, serpentine body covered in shimmering scales that reflect the colors of the sea. Its head is adorned with sharp, curved horns and its eyes glow with an otherworldly light. The sea wyrm is a fearsome predator, capable of swallowing ships whole and dragging sailors down into the abyss. Despite its ferocity, the sea wyrm is also revered by some cultures as a symbol of power and wisdom, and its image is often depicted in art and mythology."
 msgstr ""
 
 #. [unit_type]: id=Sky Crystal, race=abstraction
@@ -6242,12 +6428,14 @@ msgstr ""
 #. [attack]: type=arcane
 #: War_of_Legends/units/undead/Necro_Elder_Lich_Lord.cfg:43
 #: War_of_Legends/units/undead/Necro_Lich_Lord.cfg:41
+#: War_of_Legends/units/undead/Spirit_Wraith_Lich.cfg:37
 msgid "touch"
 msgstr ""
 
 #. [attack]: type=cold
 #: War_of_Legends/units/undead/Necro_Elder_Lich_Lord.cfg:55
 #: War_of_Legends/units/undead/Necro_Lich_Lord.cfg:53
+#: War_of_Legends/units/undead/Spirit_Wraith_Lich.cfg:50
 msgid "chill tempest"
 msgstr ""
 
@@ -6321,6 +6509,11 @@ msgstr ""
 #. [attack]: type=cold
 #: War_of_Legends/units/undead/Spirit_Shadowback.cfg:44
 msgid "wail"
+msgstr ""
+
+#. [unit_type]: id=Apparition, race=undead
+#: War_of_Legends/units/undead/Spirit_Wraith_Lich.cfg:4
+msgid "Apparition"
 msgstr ""
 
 #: War_of_Legends/units/vampires.cfg:5
@@ -6670,7 +6863,7 @@ msgid "female^Ascendant"
 msgstr ""
 
 #. [unit_type]: id=Ascendant, race=windsong
-#: War_of_Legends/units/windsong/Ascendant.cfg:24
+#: War_of_Legends/units/windsong/Ascendant.cfg:26
 msgid ""
 "Few Weavers and Prophetesses reach the rank of Ascendant. Not just because of the difficult in reaching this goal, but also because of the danger and sacrifice necessary. The path to becoming an Ascendant begins when a Weaver-born binds themselves to their accompanying spirit in the same manner that the spirit bound itself to her on her birth. A successful binding will slowly, over the course of two years, pull her body into The Raw. If the Ascending fails, she faces a slow death. As the Spirit cares for her well-being above all else, it will reject the binding unless she can convince it that she is powerful enough to Ascend. If successful, her physical form will slowly be converted into The Raw itself, granting her immortality and great, though not infallible, insight into the nature of events, both current and of those to come.\n"
 "\n"
@@ -6680,7 +6873,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=energy
-#: War_of_Legends/units/windsong/Ascendant.cfg:69
+#: War_of_Legends/units/windsong/Ascendant.cfg:71
 #: War_of_Legends/units/windsong/Prophetess.cfg:65
 msgid "chronostasis cipher"
 msgstr ""
@@ -6878,22 +7071,22 @@ msgid "female^Rune Forger"
 msgstr ""
 
 #. [unit_type]: id=Rune Forger, race=windsong
-#: War_of_Legends/units/windsong/Rune_Forger.cfg:34
+#: War_of_Legends/units/windsong/Rune_Forger.cfg:37
 msgid "Instead of becoming Arbiters, some savants may chose to master all forms of the Cipher. The Rune Forgers are experienced in all forms of the Cipher and they can use this knowledge to inflict catastrophic damage to the enemies who were foolish enough to cross paths with the Windsong."
 msgstr ""
 
 #. [attack]: type=blade
-#: War_of_Legends/units/windsong/Rune_Forger.cfg:39
+#: War_of_Legends/units/windsong/Rune_Forger.cfg:42
 msgid "sorrow"
 msgstr ""
 
 #. [attack]: type=impact
-#: War_of_Legends/units/windsong/Rune_Forger.cfg:53
+#: War_of_Legends/units/windsong/Rune_Forger.cfg:56
 msgid "memory"
 msgstr ""
 
 #. [attack]: type=pierce
-#: War_of_Legends/units/windsong/Rune_Forger.cfg:67
+#: War_of_Legends/units/windsong/Rune_Forger.cfg:70
 msgid "death"
 msgstr ""
 

@@ -12,27 +12,22 @@ This add-on is a multiplayer era featuring my favourite factions.
 |1.16|[![WMLlint](https://github.com/knyghtmare/War_of_Legends/actions/workflows/lint.yml/badge.svg?branch=wesnoth-1.16-branch)](https://github.com/knyghtmare/War_of_Legends/actions/workflows/lint.yml?query=branch%wesnoth-1.16-branch)|
 
 ## Current Faction Line-Up:
-1. Aragwaithi
-2. Vampires
-3. Windsong
-4. Minotaurs
-5. Drakes
-6. Sylvans
-7. Quenoth Elves
-8. Dunefolk
-9. Deep Elves
-10. Steel Hive
-11. Loyalists
-12. Dark Legion
-13. Northerners
-14. Undead
-15. Knalgan Alliance
-16. Nightmares of Meleon
+--------------------------------------------------------------------------------
+
+| Faction           | Faction           | Faction          | Faction             |
+| ------------------|-------------------|------------------|---------------------|
+| Aragwaithi        | Vampires          | Windsong         | Minotaurs           |
+| Drakes            | Sylvans           | Quenoth Elves    | Dunefolk            |
+| Deep Elves        | Steel Hive        | Loyalists        | Dark Legion         |
+| Northerners       | Undead            | Knalgan Alliance | Nightmares of Meleon|
 
 ## Extra Units (for Campaign usage):
-1. Elementals
-2. Monsters
+--------------------------------------------------------------------------------
+| Faction           | Faction           |
+| ------------------|-------------------|
+| Elementals        | Monsters          |
 
+--------------------------------------------------------------------------------
 It is required as a dependency to play the following campaigns:
 ## War of Legends Campaign List:
 ### By [knyghtmare](https://github.com/knyghtmare):

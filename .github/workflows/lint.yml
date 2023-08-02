@@ -3,7 +3,7 @@ name: lint
 on: [push, pull_request]
 
 env:
-  WESNOTH_VERSION: 1.17.6
+  WESNOTH_VERSION: 1.17.14
 
 jobs:
   lint:

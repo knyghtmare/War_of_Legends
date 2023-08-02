@@ -1,7 +1,198 @@
 War of Legends
-Change-Log v1.2.7.26
+Change-Log v1.2.7.32
+
+version 1.2.7.32
+
+
+version 1.2.7.31
+--> Legends Conquest
+   --> Add information text to explain players that they cannot use the Legends Conquest Commanders, Heroeos and Deserters modification with the Legends Conquest Era (it's internally enabled).
+--> Fixed a bug that stopped loading of eras in MP Create Game if UWS is installed. (I have no effing clue how this happened)
+--> Passive XP mod: adjusted to be for all sides
+
+version 1.2.7.30
+--> Aragwaithi:
+   --> Ancient Banner: +15 cost
+   --> Captain: -60 XP
+   --> Eagle Master: +3 HP, +3 cost
+   --> Enchantress: -4 cost
+   --> Flagbearer: -5 XP
+   --> Greatbow: +4 HP, +7 cost
+   --> Guard: +3 cost
+   --> Guardian: +3 HP
+   --> Longswordsman: +3 cost, +10 flat defence
+   --> Pikeman: -1 cost
+   --> Shield Guard: +12 cost
+   --> Silver Shield: +2 cost
+   --> Slayer: -9 cost
+   --> Sorceress: +3 HP, -6 cost
+   --> Strongbow: -2 XP
+   --> Swordsmaster: +10 flat DEF, +12 cost
+--> Deep Elves:
+   --> Fixed Corrupted's Ethergrip not working for all damage types
+--> Sylvans:
+   --> Ascetic: XP set to 88, +4 cost
+   --> Mystic: +6 cost, gossamer 9-2 -> 8-3, faerie fire 12-3 -> 11-4
+   --> Avatar: +40 cost, gossamer is 10-3, faerie fire 11-5
+--> Minotaurs:
+   --> Gnoll Marksman: +2 HP, -4 cost
+   --> Boar Cataphract: +6 cost
+   --> Boar Knight: -30 XP, +2 cost
+   --> Cutthroat: -5 XP
+   --> Elder: -5 cost
+   --> Gore: -3 XP
+   --> Mystic: -7 cost
+   --> Rouser: -4 cost
+   --> Savage: -4 cost
+   --> Slayer: -6 cost
+   --> Warlock: -10 cost
+--> Windsong:
+   --> Arbiter: -50 XP
+   --> Ascendant: +2 HP, +10 fire and cold RES
+   --> Sky Crystal: +20% arcane RES
+   --> Savant: -3 cost
+   --> Dreadnought: +4 cost
+   --> Envoy: +2 HP, -6 XP, -4 cost 
+   --> Lorekeeper: -9 cost
+   --> Oathkeeper: +5 cost
+   --> Pathfinder: -2 XP, +2 cost
+   --> Farstrider: +6 cost, +1 HP
+   --> Runeforger: +2 HP, +10 flat defence, +1 MP, -5 cost
+   --> Reaver: -2 cost
+   --> Prophetess: -4 XP, -6 cost
+   --> Herald: -3 cost
+   --> Emissary: +1 cost
+   --> Heretic: -9 cost
+   --> Warmonger: +7 cost
+--> Vampires:
+   --> Blood Apprentice: -7 XP
+   --> Blood Manipulator: -13 XP, -4 cost
+   --> Day Hunter: +8 cost
+   --> Duelist: -9 XP
+   --> Fledgeling: -2 XP
+   --> Flesh Artisan: -1 cost
+   --> Half Blood: -2 cost
+   --> Malborn: +5% parry
+   --> Methusalem: +40 cost
+   --> Noble: -3 XP
+   --> Sangel: +4 cost
+   --> Sire: -30 XP, +15 cost
+   --> Sword Dancer: +10 cost
+   --> Thin Blood: -3 XP
+   --> Twilight Walker: +5 XP
+--> Misc: 
+   --> Updated trait descriptions
+--> Legends Conquest:
+   --> New Policy: OOS/Lua error feedback due to external mods conflicting will be ignored. Tell the modification authors to fix their shit.
+   --> Added secondary traits to most of the WoL units 
+   --> Added secondary trait slots for the remaining default units
+   --> Removed ALL level 0 units from hero and commander pool.
+   --> Buffed existing Trainings available
+
+version 1.2.7.29
+--> Deep Elves:
+   --> Harbinger: add magical to ranged attack
+      (This was a bug which has been noticed by IPS)
+   --> Harbinger: cost from 95 to 101
+   --> Patroness: cost from 45 to 55, XP 150 to 120
+   --> Tyrhai Rider: +1 MP, XP 45 to 40
+   --> Forgotten Minotaur: -1 upkeep (unit is still level 2)
+   --> Nightmaiden: +4 HP
+   --> Nightstalker: +8 HP, -4 cost
+   --> Baroness: +9 HP, +4 cost
+   --> Vault Lurker: +20% cold RES, melee: +firststrike
+   --> Blood Maiden: +3 XP
+   --> Vengeance: +5 XP, +5% parry on melee
+   --> Predator: +5% parry on melee
+   --> Elthare: +4 HP, +1 ranged damage
+   --> Phade:  +4 HP, +1 ranged damage, -10 XP (90 -> 80)
+   --> Irr: +1 HP, +2 ranged damage, +15 cost
+--> Minotaurs:
+   --> Gore-line: +regenerates6, -regenerates4
+   --> Shaman-line: +regenerates6, -regenerates4
+   --> Cutthroat-line: +regenerates6, -regenerates4
+   --> Boar Rider-line: +regenerates6, -regenerates4
+   --> Behemoth-line: +regenerates6, -regenerates4
+   --> Mystic: -10% DEF on forest and mountains
+   --> Mystic: -1 melee damage, cost 55 -> 48
+--> Sylvans:
+   --> Faerie Spirit: adjusted fire/arcane/cold RES to 20/-10/0 (from 0/-20/70)
+   --> Faerie Spirit: -3 cost (63 -> 60), -2 HP
+--> Windsong:
+   --> Prophetess: melee damage changed from 10-2 to 6-3, ranged damage -1
+   --> Ascendant: melee damage changed from 11-3 to 8-3, ranged damage -1
+--> Quenoth:
+   --> Replace Fire Guardian with Dust Devil
+--> Dark Legion
+   --> Archer: XP 39 -> 36, poison ranged attack damage -1
+   --> Crossbowman: +1 fire ranged damage, +3 HP, -1 cost
+   --> Arbalastier: +1 fire ranged damage, +4 HP, +10% fire RES, +4 cost
+   --> Longbowman: -1 cost, -3 XP, poison ranged attack changed to 5-3
+   --> Elite Longbowman: poison ranged attack changed to 6-4
+   --> Gunner: -1 cost
+   --> Enforcer: + 7 HP, + 3 cost
+   --> Halberdier: -1 cost
+   --> Pillager: -4 cost (34->30)
+   --> Crusher: +7 HP, +20% impact RES
+   --> Guardian: XP 110 -> 80, +10 impact RES, -6 cost
+   --> Sentinel: +10% impact RES
+   --> Medic-line: animations updated
+       (you no longer see it changing to White Mage)
+   --> Medic: -2 XP
+   --> Healer: XP 136 -> 80, -7 cost
+--> Outlaws:
+   --> Axethrower: +2 HP, -2 ranged damage
+   --> Axeman: +6 HP, +1 cost, -1 melee damage, -3 ranged damage
+   --> Axemaster: +4 HP, +18 cost, -1 melee damage, -3 ranged damage
+--> Steelhive:
+   --> Steel Splicer: -1 melee damage, -1 cost
+   --> Steel Vector: -1 melee damage, -2 cost
+   --> Steel Vorpal: -1 melee blade damage, -2 cost, XP set to 150
+   --> Steel Fideliant: -1 melee blade damage, -2 cost
+   --> Steel Wyrm: +4 HP, -1 ranged damage
+   --> Steel Serpent: +4 HP, -1 ranged damage
+   --> Steel Leviathan: -1 ranged damage
+--> Loyalists: (1.17.x branch only)
+   --> Infantryman: new base frame and animations
+--> Legends Conquest:
+   --> Fixed a bug where units were getting duplicated traits
+   --> New Modification available: AI random recruitment
+
+
+version 1.2.7.28
+--> Aragwaithi
+   --> Add custom names for units
+   --> Adept-line now has her portrait (contributed by egallager)
+   --> Adept: XP (50 -> 44), Cost (22 -> 21)
+   --> Archer: XP (38 -> 32)
+   --> Eagle Rider: Cost (23 -> 20)
+   --> Scout: XP (40 -> 36)
+   --> Spearman: XP (43 -> 35)
+   --> Swordsman: XP (39 -> 34), Cost (14 -> 13)
+   --> Enchantress: XP (122 -> 88)
+   --> Flagbearer: XP (100 -> 80)
+   --> Longswordsman: XP (88 -> 78)
+   --> Strongbow: XP (85 -> 77)
+   --> Swordsmaster: HP (52 -> 58)
+--> Minotaurs:
+   --> Fix the swamp prowl ability being outdated
+--> Advancements:
+   --> removed instances of {ENABLE_NIGHTBLADE}
+   --> This advancement has been enabled as default
+--> RPG eras
+   --> Units with leadership/inspire lose the ability
+   --> but gain allied leadership/allied inspire instead
+   --> which are more utilisable and stronger variants
+
+version 1.2.7.27
+--> Nightmares of Melon:
+   --> Curse now heals on scenario victory/completion 
 
 version 1.2.7.26:
+Nightmares of Melon:
+--> Ensured Terrain Link and Cursing are working in MP
+--> Added Special AI for playing Nightmares
+
 Legends Conquest:
 --> Add Nightmares faction as the 18th faction of Legends Conquest.
 --> Fixed a bug that gave wrong enemy selection to the enemy factions
@@ -9,6 +200,7 @@ Legends Conquest:
 version 1.2.7.23:
 Quenoth Elves:
 --> Added missing undead variations for Quenoth Scout and the Tauroch Rider unit trees
+
 Nightmares:
 --> Made available for MP usage
 --> Added Vampire Bat recruits
