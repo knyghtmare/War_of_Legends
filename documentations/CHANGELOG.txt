@@ -2,7 +2,9 @@ War of Legends
 Change-Log v1.2.7.32
 
 version 1.2.7.32
-
+--> Northerners:
+   --> Orcish Shaman-line is now available in both male and female variants
+   --> Credits to Mechanical of the WMG for this
 
 version 1.2.7.31
 --> Legends Conquest
