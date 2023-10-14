@@ -1,5 +1,10 @@
 War of Legends
-Change-Log v1.2.7.32
+Change-Log v1.2.7.33
+
+version 1.2.7.33
+--> Drakes:
+    --> Removed Saurian Seer and Prophet units
+    --> as they have been added to Wesnoth Core
 
 version 1.2.7.32
 --> Northerners:
