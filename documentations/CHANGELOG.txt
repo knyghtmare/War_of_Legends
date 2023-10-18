@@ -5,6 +5,9 @@ version 1.2.7.33
 --> Drakes:
     --> Removed Saurian Seer and Prophet units
     --> as they have been added to Wesnoth Core
+--> Windsong
+    --> New Portrait for Weaver-line
+        --> Contributed by egallager (PR) and artist Mells (art)
 
 version 1.2.7.32
 --> Northerners:
