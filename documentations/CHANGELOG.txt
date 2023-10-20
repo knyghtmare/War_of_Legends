@@ -8,6 +8,8 @@ version 1.2.7.33
 --> Windsong
     --> New Portrait for Weaver-line
         --> Contributed by egallager (PR) and artist Mells (art)
+    --> Updated descriptions: 
+        --> Rune Forger, Arbiter, Librarian and Harbinger
 
 version 1.2.7.32
 --> Northerners:
