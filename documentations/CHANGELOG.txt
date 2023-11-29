@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.7.33
+Change-Log v1.2.7.34
+
+version 1.2.7.34
+--> Quenoth:
+    --> Add new icon for blowgun of Quenoth Flanker and Quenoth Ranger
 
 version 1.2.7.33
 --> Drakes:
