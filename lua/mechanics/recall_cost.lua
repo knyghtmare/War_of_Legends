@@ -19,6 +19,6 @@ end
 function wesnoth.wml_actions.recall_gold_cost(cfg)
     local percentage = tonumber( cfg.percentage ) or wml.error( "Missing or wrong percentage= value in [recall_gold_cost]" )
     for _, unit in pairs(wesnoth.units.find_on_recall {}) do
-        unit.recall_cost = unit.cost * (percentage/100)
+        unit.recall_cost = math.floor(unit.cost * (percentage/100))
     end
 end
