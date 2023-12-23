@@ -1,4 +1,4 @@
-local _ = wesnoth.textdomain "wesnoth-celmin-bcoa"
+local _ = wesnoth.textdomain "wesnoth-War_of_Legends"
 
 local haste_total = wml.variables.haste_potion
 local healing_total = wml.variables.healing_potion
