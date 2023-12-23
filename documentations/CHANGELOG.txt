@@ -98,7 +98,7 @@ version 1.2.7.30
    --> Sword Dancer: +10 cost
    --> Thin Blood: -3 XP
    --> Twilight Walker: +5 XP
---> Misc: 
+--> Misc:
    --> Updated trait descriptions
 --> Legends Conquest:
    --> New Policy: OOS/Lua error feedback due to external mods conflicting will be ignored. Tell the modification authors to fix their shit.
