@@ -52,5 +52,14 @@ function wesnoth.interface.game_display.unit_status()
 		} } )
 	end
 
+	-- for potions
+
+	if u.status.hasted then
+		table.insert(s, { "element", { image = "misc/hasted.png",
+			tooltip = _ "hasted: Hasted units get 4 more movement points than usual. It lasts until the end of the current scenario."
+		} } )
+	end
+
+
 	return s
 end
