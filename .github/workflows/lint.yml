@@ -1,32 +1,30 @@
-name: optimize
+name: lint
 
-on:
-  push:
-    branches: [ master ]
-  workflow_dispatch:
-
-permissions:
-  contents: write
+on: [push, pull_request]
 
 env:
-  WESNOTH_VERSION: 1.17.23
+  WESNOTH_VERSION: 1.17.14
 
 jobs:
-  optimize:
+  lint:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
-    - name: Optimize images
-      uses: czyzby/wesnoth-png-optimizer@v1
-      continue-on-error: true
+      uses: actions/checkout@v2
+    - name: Lint WML
+      uses: czyzby/wesnoth-wml-linter@v1
       with:
         wesnoth-version: ${{ env.WESNOTH_VERSION }}
-        threshold: 0
-    - name: Commit images
-      run: |
-        git config --global user.name "github-actions"
-        git config --global user.email "actions@users.noreply.github.com"
-        git commit -am "🤖 Optimize $GITHUB_REPOSITORY@$GITHUB_SHA"
-        git push
+        spellcheck: false
+    #- name: Verify resources scope
+    #  uses: czyzby/wesnoth-wml-scope@v1
+    #  if: always()
+    #  with:
+    #    wesnoth-version: ${{ env.WESNOTH_VERSION }}
+    #- name: Verify images
+    #  uses: czyzby/wesnoth-png-optimizer@v1
+    #  if: always()
+    #  with:
+    #    wesnoth-version: ${{ env.WESNOTH_VERSION }}
+    #    threshold: 5
