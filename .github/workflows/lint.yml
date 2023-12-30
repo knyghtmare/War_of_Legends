@@ -26,7 +26,9 @@ jobs:
         threshold: 0
     - name: Commit images
       run: |
+        git checkout -b optimize-images-by-github-actions
         git config --global user.name "github-actions"
         git config --global user.email "actions@users.noreply.github.com"
         git commit -am "🤖 Optimize $GITHUB_REPOSITORY@$GITHUB_SHA"
-        git push
+        git push origin optimize-images-by-github-actions
+        gh pr create --base master --head optimize-images-by-github-actions --title "Optimize Images" --body "🤖 Optimize $GITHUB_REPOSITORY@$GITHUB_SHA"
