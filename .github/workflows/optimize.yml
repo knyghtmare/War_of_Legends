@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 env:
-  WESNOTH_VERSION: 1.17.14
+  WESNOTH_VERSION: 1.17.24
 
 jobs:
   optimize:
@@ -20,15 +20,35 @@ jobs:
       uses: actions/checkout@v4
       with:
         ssh-key: ${{ secrets.DEPLOY_SECRET_KEY }}
+        persist-credentials: false
+
     - name: Optimize images
       uses: czyzby/wesnoth-png-optimizer@v1
       continue-on-error: true
       with:
         wesnoth-version: ${{ env.WESNOTH_VERSION }}
         threshold: 0
-    - name: Commit images
+
+    - name: Set up Git
       run: |
         git config --global user.name "GitHub Action"
         git config --global user.email "actions@users.noreply.github.com"
-        git commit -am "🤖 Optimize $GITHUB_REPOSITORY@$GITHUB_SHA"
-        git push
+
+    - name: Create and checkout a new branch
+      run: git checkout -b optimize-images-branch
+
+    - name: Commit images
+      run: |
+        git commit -am "🤖 Optimize $GITHUB_REPOSITORY@$GITHUB_SHA" || echo "No changes to commit"
+        git push --set-upstream origin optimize-images-branch
+
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        branch: optimize-images-branch
+        title: 'Optimize Images'
+        body: 'This pull request is to optimize images.'
+        commit-message: 'Optimize images'
+        labels: image-optimization
+        signoff: false
