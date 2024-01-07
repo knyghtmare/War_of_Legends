@@ -2,7 +2,7 @@ name: optimize
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
@@ -18,37 +18,23 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      with:
-        ssh-key: ${{ secrets.DEPLOY_SECRET_KEY }}
-        persist-credentials: false
-
     - name: Optimize images
       uses: czyzby/wesnoth-png-optimizer@v1
       continue-on-error: true
       with:
         wesnoth-version: ${{ env.WESNOTH_VERSION }}
         threshold: 0
-
-    - name: Set up Git
+    - name: Commit changes
+      continue-on-error: true
       run: |
-        git config --global user.name "GitHub Action"
-        git config --global user.email "actions@users.noreply.github.com"
+        git config user.name "GitHub Action"
+        git config user.email "actions@users.noreply.github.com"
+        git config --add --bool push.autoSetupRemote true
+        git checkout -b "optimize/$GITHUB_SHA"
+        git commit -am "🤖 Optimize $GITHUB_REPOSITORY@$GITHUB_SHA" && git push
 
-    - name: Create and checkout a new branch
-      run: git checkout -b optimize-images-branch
-
-    - name: Commit images
-      run: |
-        git commit -am "🤖 Optimize $GITHUB_REPOSITORY@$GITHUB_SHA" || echo "No changes to commit"
-        git push --set-upstream origin optimize-images-branch
-
-    - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v3
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        branch: optimize-images-branch
-        title: 'Optimize Images'
-        body: 'This pull request is to optimize images.'
-        commit-message: 'Optimize images'
-        labels: image-optimization
-        signoff: false
+    - name: Create pull request
+      run: gh pr create -B main -H "optimize/$GITHUB_SHA" --title "Optimize images from @${GITHUB_SHA::7}" --body "Images from $GITHUB_REPOSITORY@$GITHUB_SHA optimized with `woptipng`."
+      continue-on-error: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.PRIVATE_ACCESS_TOKEN }}
