@@ -2,7 +2,7 @@ name: optimize
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:
 
 permissions:
@@ -34,7 +34,7 @@ jobs:
         git commit -am "🤖 Optimize $GITHUB_REPOSITORY@$GITHUB_SHA" && git push
 
     - name: Create pull request
-      run: gh pr create -B main -H "optimize/$GITHUB_SHA" --title "Optimize images from @${GITHUB_SHA::7}" --body "Images from $GITHUB_REPOSITORY@$GITHUB_SHA optimized with `woptipng`."
+      run: gh pr create -B master -H "optimize/$GITHUB_SHA" --title "Optimize images from @${GITHUB_SHA::7}" --body "Images from $GITHUB_REPOSITORY@$GITHUB_SHA optimized with `woptipng`."
       continue-on-error: true
       env:
         GITHUB_TOKEN: ${{ secrets.PRIVATE_ACCESS_TOKEN }}
