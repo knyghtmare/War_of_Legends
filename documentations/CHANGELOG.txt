@@ -1,5 +1,20 @@
 War of Legends
-Change-Log v1.2.7.34
+Change-Log v1.2.7.35
+
+version v1.2.7.35
+--> Arcane Resistances Readjustment
+   --> Aberrants: +20% arcane RES
+   --> carapaces: +10% arcane RES
+   --> Aragwaith: -10% arcane RES
+   --> Minotaurs: +20% arcane RES
+   --> Unstable Elementals: arcane RES set to -10%
+   --> steelhive: healer: +20% arcane RES, ranged +10% arcane RES
+   --> vampires: +10% arcane RES
+   --> windsong: -10% arcane RES
+   --> undead mounted foot: -10% arcane RES
+--> Traits:
+   --> Heroic: 50% -> 40% less XP to advance and 5% -> 10% more HP
+
 
 version 1.2.7.34
 --> Quenoth:
