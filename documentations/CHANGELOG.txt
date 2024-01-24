@@ -12,6 +12,16 @@ version v1.2.7.35
    --> vampires: +10% arcane RES
    --> windsong: -10% arcane RES
    --> undead mounted foot: -10% arcane RES
+   --> Elvish Avatar: -10% arcane RES
+   --> Legion Medic: arcane RES set to 10%
+   --> Legion Healer: arcane RES set to 30%
+   --> Legion Doctor: arcane RES set to 50%
+   --> Loyalist Chevalier: arcane RES set to 20%
+   --> Loyalist Crusader: arcane RES set to 30%
+   --> Elder Lich Lord: arcane RES set to -20%
+   --> Lich Lord: arcame RES set to -20%
+   --> Windsong Librarian: arcane RES set to 20%
+   --> Windsong Scribe: arcane RES set to 10%
 --> Traits:
    --> Heroic: 50% -> 40% less XP to advance and 5% -> 10% more HP
 
