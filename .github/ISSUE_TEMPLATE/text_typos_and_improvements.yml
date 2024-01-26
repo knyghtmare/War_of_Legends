@@ -17,12 +17,6 @@ body:
         dashes. These will appear as three byte sequences if you are not using a viewer that supports UTF-8.
 
   - type: input
-    id: language
-    attributes:
-      label: Language
-      description: What language does the typo appear in?
-
-  - type: input
     id: location
     attributes:
       label: Source
