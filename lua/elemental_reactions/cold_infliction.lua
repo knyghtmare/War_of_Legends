@@ -1,3 +1,5 @@
+local T = wml.tag
+
 function wesnoth.wml_actions.WOL_add_cold_status(cfg)	
 	local units = wesnoth.units.find_on_map(cfg)
 	for _,u in pairs(units) do
