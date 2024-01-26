@@ -7,10 +7,10 @@ assignee: ['knyghtmare']
 body:
 
 - type: input
-    id: location
+    # id: location
     attributes:
       label: Source
-      description: Where does the typo appear? If part of a campaign, specify the scenario.
+      description: Where does the typo appear?
     validations:
       required: true
 
