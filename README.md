@@ -70,7 +70,7 @@ It is required as a dependency to play the following campaigns:
 
 ### By [Ihybrideur](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=185844)
 
-1. [Legends of Idaamub]
+1. Legends of Idaamub
     - [Forum](https://forums.wesnoth.org/viewtopic.php?p=644433#p644433)
     - [GitHub Repo](https://github.com/rodolphecombe/idaamub)
 
