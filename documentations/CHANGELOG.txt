@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.7.35
+Change-Log v1.2.7.36
+
+version v1.2.7.36
+--> Elementals:
+   --> Greater Water Daemon: fix missing attack icon issue
 
 version v1.2.7.35
 --> AI:
