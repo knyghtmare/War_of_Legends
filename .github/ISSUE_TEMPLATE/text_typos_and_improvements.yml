@@ -7,7 +7,7 @@ assignee: ['knyghtmare']
 body:
 
 - type: input
-    # id: location
+    id: typo_location
     attributes:
       label: Source
       description: Where does the typo appear?
