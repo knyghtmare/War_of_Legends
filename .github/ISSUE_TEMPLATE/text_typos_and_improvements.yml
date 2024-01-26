@@ -1,7 +1,7 @@
 
 name: Text Typos or Improvements
 description: Any typo fixes or improvement suggestions for campaign dialog, unit descriptions, or other game text.
-labels: ['Text', 'enhancement, 'UX']
+labels: ['Text', 'enhancement', 'UX']
 assignee: ['knyghtmare']
 
 body:
