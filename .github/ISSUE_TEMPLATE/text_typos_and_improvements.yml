@@ -1,6 +1,6 @@
 
 name: Text Typos or Improvements
-description: Any typo fixes or improvement suggestions for campaign dialog, unit descriptions, or other game text.
+description: Any typo fixes or improvement suggestions for unit descriptions or other game text.
 labels: ['Text', 'enhancement', 'UX']
 assignees: ['knyghtmare']
 
