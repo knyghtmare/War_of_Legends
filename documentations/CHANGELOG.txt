@@ -2,6 +2,9 @@ War of Legends
 Change-Log v1.2.7.35
 
 version v1.2.7.35
+--> AI:
+   --> Adjust NoM AI to not break if used with Deep Elves
+   --> A temporary solution until the Engine Bug is fixed
 --> Arcane Resistances Readjustment
    --> Aberrants: +20% arcane RES
    --> carapaces: +10% arcane RES
