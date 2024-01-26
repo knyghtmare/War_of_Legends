@@ -1,0 +1,28 @@
+
+name: Text Typos or Improvements
+description: Any typo fixes or improvement suggestions for campaign dialog, unit descriptions, or other game text.
+labels: ['Text', 'enhancement, 'UX']
+assignee: knyghtmare
+
+body:
+
+- type: input
+    id: location
+    attributes:
+      label: Source
+      description: Where does the typo appear? If part of a campaign, specify the scenario.
+    validations:
+      required: true
+
+- type: textarea
+    id: original_text
+    attributes:
+      label: Original Text
+      description: Quote the text verbatim. You can use `**bold**` to highlight the issue.
+    validations:
+      required: true
+
+- type: textarea
+    id: new_text
+    attributes:
+      label: Proposed Change
