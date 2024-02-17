@@ -4,6 +4,10 @@ Change-Log v1.2.7.36
 version v1.2.7.36
 --> Elementals:
    --> Greater Water Daemon: fix missing attack icon issue
+   --> Air Daemons: fix missing projectile bug
+--> Dwarves:
+   --> Dwarvish Marksman: 
+       --> ranged attack: +marksman
 
 version v1.2.7.35
 --> AI:
