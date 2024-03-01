@@ -1,5 +1,13 @@
 War of Legends
-Change-Log v1.2.7.36
+Change-Log v1.2.7.37
+
+version v1.2.7.37
+--> Aragwaith:
+   --> Enchantress: XP 88 -> 85
+   --> Silver Shield: HP 62 -> 65, +10% cold RES
+   --> Slayer: +1 ranged damage ( 9-4 -> 10-4 )
+   --> Sorceress: +20% fire RES
+   --> Guardian: HP 65 -> 67
 
 version v1.2.7.36
 --> Elementals:
