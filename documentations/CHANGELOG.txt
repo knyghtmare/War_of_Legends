@@ -8,6 +8,12 @@ version v1.2.7.37
    --> Slayer: +1 ranged damage ( 9-4 -> 10-4 )
    --> Sorceress: +20% fire RES
    --> Guardian: HP 65 -> 67
+--> Deep Elves
+   --> Night Maiden line: +nocturnal regenerates+4
+   --> Night Maiden: -3 XP
+   --> Lightborn: -3 XP
+   --> Priestess: -3 XP
+   --> Matriach: +1 HP and +1 melee damage
 
 version v1.2.7.36
 --> Elementals:
