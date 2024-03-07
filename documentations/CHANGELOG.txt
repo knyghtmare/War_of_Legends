@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.7.37
+Change-Log v1.2.7.38
+
+version v1.2.7.38
+--> Sylvans
+   --> 
 
 version v1.2.7.37
 --> Aragwaith:
