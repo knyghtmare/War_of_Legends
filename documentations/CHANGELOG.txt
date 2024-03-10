@@ -3,7 +3,7 @@ Change-Log v1.2.7.38
 
 version v1.2.7.38
 --> Sylvans
-   --> 
+   --> Elvish Ascetic: +1 gold cost, +1 ranged damage (faerie fire)
 
 version v1.2.7.37
 --> Aragwaith:
