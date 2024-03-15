@@ -8,6 +8,34 @@ version v1.2.7.39
         --> MP: 5  -> 4
         --> RES: more tanky crab like now
         --> Cost: 17 -> 19
+--> Outlaws:
+    --> Shadow Initiate-line: added female version
+
+    --> Arcane Enforcer: new alternate advancement for Shadow Initiate
+
+    --> Shadow Initiate:
+        HP: 30 -> 27
+        MP: 5 -> 6
+        alignment: chaotic -> liminal
+        cost: 18 -> 19
+        melee: damage +1
+        ranged: damage +1
+
+    --> Shadow Mage:
+        HP: 42 -> 39
+        MP: 5 -> 6
+        XP: 120 -> 95
+        alignment: chaotic -> liminal
+        cost: 39 -> 38
+        ability: +nightstalk
+        ranged: +1 damage
+
+    --> Shadow Lord
+        HP: 53 -> 49
+        alignment: chaotic -> liminal
+        ability: +nightstalk
+        melee/type: blade -> energy
+        ranged/special: -slow
 
 version v1.2.7.38
 --> Sylvans
