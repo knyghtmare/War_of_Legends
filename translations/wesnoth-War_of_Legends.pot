@@ -5663,14 +5663,14 @@ msgstr ""
 msgid "frost claws"
 msgstr ""
 
-#. [unit_type]: id=Monster Crab, race=monster
+#. [unit_type]: id=Giant Crab, race=monster
 #: War_of_Legends/units/monsters/Monster_Crab.cfg:4
-msgid "Monster Crab"
+msgid "Giant Crab"
 msgstr ""
 
-#. [unit_type]: id=Monster Crab, race=monster
+#. [unit_type]: id=Giant Crab, race=monster
 #: War_of_Legends/units/monsters/Monster_Crab.cfg:19
-msgid "The Monster Crab is a semi-sentient crab the size of a horse. It is one of many twisted monsters recorded by the sages of Wesnoth and probably the creation of some twisted mage. These monstrosities have spread into the wild and prefer to live around coastal waters, preying on both humans and animals."
+msgid "The Giant Crab is a semi-sentient crab the size of a horse. It is one of many twisted monsters recorded by the sages of Wesnoth and probably the creation of some twisted mage. These monstrosities have spread into the wild and prefer to live around coastal waters, preying on both humans and animals."
 msgstr ""
 
 #. [unit_type]: id=Owl, race=monster
