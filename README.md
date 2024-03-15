@@ -51,6 +51,7 @@ It is required as a dependency to play the following campaigns:
 12. [Hordes of Darkness](https://github.com/knyghtmare/Hordes_of_Darkness)
 13. [The Eight of Cembulad](https://github.com/knyghtmare/The_Eight_of_Cembulad)
 14. [War of Legends RPG Scenario Pack](https://github.com/knyghtmare/WoL_RPG_Pack)
+15. [Electrifyre](https://github.com/knyghtmare/Electrifyre)
 
 ### By [revansurik](https://github.com/revansurik)
 
