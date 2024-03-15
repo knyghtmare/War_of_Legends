@@ -2,6 +2,9 @@ War of Legends
 Change-Log v1.2.7.39
 
 version v1.2.7.39
+--> Default RPG Era:
+    --> Rebels: fix missing faction icon
+    --> yeah, another bug by doofus-01's core changes.
 --> Monsters:
     --> Monster Crab: renamed to Giant Crab
         --> HP: 29 -> 33
