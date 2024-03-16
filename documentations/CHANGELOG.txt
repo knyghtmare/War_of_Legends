@@ -5,6 +5,16 @@ version v1.2.7.40
 --> Empowered Legends Era:
     --> Add Outlaws faction to Era
         --> just how long has this gone unnoticed?
+--> Outlaws:
+    --> Shadow Initiate:
+        --> fix animation bug with melee and ranged attacks
+    --> Shadow Mage:
+    --> Shadow Lord:
+--> Codebase:
+    --> Remove mentions of the macros:
+        --> {ENABLE_NIGHTBLADE}
+        --> {ENABLE_SAURIAN_SEER}
+        --> {ENABLE_SAURIAN_PROPHET}
 
 version v1.2.7.39
 --> Default RPG Era:
