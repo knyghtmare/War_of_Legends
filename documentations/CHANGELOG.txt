@@ -1,5 +1,10 @@
 War of Legends
-Change-Log v1.2.7.39
+Change-Log v1.2.7.40
+
+version v1.2.7.40
+--> Empowered Legends Era:
+    --> Add Outlaws faction to Era
+        --> just how long has this gone unnoticed?
 
 version v1.2.7.39
 --> Default RPG Era:
