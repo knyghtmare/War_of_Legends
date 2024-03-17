@@ -9,7 +9,9 @@ version v1.2.7.40
     --> Shadow Initiate:
         --> fix animation bug with melee and ranged attacks
     --> Shadow Mage:
+        --> fix animation bug with melee and ranged attacks
     --> Shadow Lord:
+        --> fix animation bug with melee and ranged attacks
 --> Codebase:
     --> Remove mentions of the macros:
         --> {ENABLE_NIGHTBLADE}
