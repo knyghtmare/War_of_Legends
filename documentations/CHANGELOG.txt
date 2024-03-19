@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.7.40
+Change-Log v1.2.7.41
+
+version v1.2.7.41
+--> Sylvans
+    --> Fix broken Ambush component of Sylvan Essence
 
 version v1.2.7.40
 --> Empowered Legends Era:
