@@ -1,5 +1,10 @@
 War of Legends
-Change-Log v1.2.7.41
+Change-Log v1.2.7.42
+
+version v1.2.7.42
+--> Monsters
+    --> Added Queen Scorpion (lvl 4)
+    --> Will be featured in Electrifyre: An Aragwaith Story
 
 version v1.2.7.41
 --> Sylvans
