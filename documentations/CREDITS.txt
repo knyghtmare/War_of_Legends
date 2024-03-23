@@ -104,3 +104,6 @@ Kwandulin
 Dalas
 --> Arcane Enforcer
 --> Shadow Initiate (female variant)
+
+Mechanical
+--> Queen Scorpion
