@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.7.42
+Change-Log v1.2.7.43
+
+version v1.2.7.43
+--> Northerners:
+    --> Spearmaster: added defend and ranged frames
 
 version v1.2.7.42
 --> Monsters

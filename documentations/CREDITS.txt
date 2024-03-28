@@ -107,3 +107,4 @@ Dalas
 
 Mechanical
 --> Queen Scorpion
+--> Goblin Spearmaster (defend + ranged)
