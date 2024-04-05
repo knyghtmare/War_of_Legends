@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.7.43
+Change-Log v1.2.7.44
+
+version v1.2.7.44
+--> Era: added Classic Default Era
+    --> If you dont like the new Default Era having 7 factions
 
 version v1.2.7.43
 --> Northerners:
