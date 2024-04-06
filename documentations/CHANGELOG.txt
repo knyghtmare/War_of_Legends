@@ -1,5 +1,10 @@
 War of Legends
-Change-Log v1.2.7.44
+Change-Log v1.2.7.45
+
+version v1.2.7.45
+--> Aragwaithi:
+    --> Fixed bug with Sorceress getting 80% fire RES
+    --> should be 20% fire RES
 
 version v1.2.7.44
 --> Era: added Classic Default Era
