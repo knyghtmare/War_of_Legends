@@ -1,5 +1,15 @@
 War of Legends
-Change-Log v1.2.7.45
+Change-Log v1.2.7.46
+
+version v1.2.7.46
+--> Code
+    --> Better UX: you can pick all dropped gear in one go now.
+    --> Changed formula for type: arcane_focus
+--> Northerners:
+    --> Orcish Shaman-line: boosted magical resistance
+    --> Orcish Marauder-line: added portrait
+--> Nightmares:
+    --> Scornful Watcher: fixed portrait not showing up
 
 version v1.2.7.45
 --> Aragwaithi:
