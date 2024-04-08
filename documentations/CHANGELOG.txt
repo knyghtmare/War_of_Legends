@@ -1,5 +1,11 @@
 War of Legends
-Change-Log v1.2.7.46
+Change-Log v1.2.7.47
+
+version v1.2.7.47
+--> Outlaws:
+    --> New unit tree: Rogue Hunter
+        --> role: ranged damage specialist (poison)
+        --> note: might superseed Huntsman at level 3
 
 version v1.2.7.46
 --> Code
