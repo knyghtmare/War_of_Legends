@@ -1,12 +1,15 @@
 ## Contributing
 
 ### Artists
+
 If you are good at pixel artist and would like to animate some of the units, do get in touch.
 
 ### Translations
+
 The POT file is ready and can be translated. I do not attend on adding any new content soon, so it is more or less stable in terms of content.
 
 ### Lore discussions
+
 _War of Legends_ is set on the fantasy world of Irdya and follows the _Dark Irdya_ timeline of events. Any discussions or inquires can be answered by contacting me.
 
 ## Bug Reports
