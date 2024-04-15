@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.7.47
+Change-Log v1.2.7.48
+
+version v1.2.7.48
+--> Outlaws:
+    --> Arcane Enforcer: -10% cold RES, +10% blade/pierce/impact RES
 
 version v1.2.7.47
 --> Outlaws:
