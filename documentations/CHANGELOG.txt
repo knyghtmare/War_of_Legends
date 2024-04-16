@@ -4,6 +4,9 @@ Change-Log v1.2.7.48
 version v1.2.7.48
 --> Outlaws:
     --> Arcane Enforcer: -10% cold RES, +10% blade/pierce/impact RES
+--> Deep Elves:
+    --> Forgotten Minotaur:
+        --> Fixed incorrect movement type and adjusted defence and resistance
 
 version v1.2.7.47
 --> Outlaws:
