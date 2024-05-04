@@ -108,3 +108,10 @@ Dalas
 Mechanical
 --> Queen Scorpion
 --> Goblin Spearmaster (defend + ranged)
+--> Female Orcish Shaman-line
+
+Kordov
+--> Orcish Shaman female portrait
+
+ihybriedur
+--> Steel Dominant
