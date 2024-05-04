@@ -8,6 +8,7 @@ version v1.2.7.51:
     --> Add Steel Dominant, a boss class campaign-only unit
 --> Loyalists:
     --> Chevalier: add weapon special holy
+    --> Javelin Master: +2 ranged damage
 
 version v1.2.7.48
 --> Outlaws:
