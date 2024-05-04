@@ -1,5 +1,13 @@
 War of Legends
-Change-Log v1.2.7.48
+Change-Log v1.2.7.50
+
+version v1.2.7.51:
+--> Outlaws:
+    --> rebalance the Shadow Initiate-line
+--> Steelhive:
+    --> Add Steel Dominant, a boss class campaign-only unit
+--> Loyalists:
+    --> Chevalier: add weapon special holy
 
 version v1.2.7.48
 --> Outlaws:
