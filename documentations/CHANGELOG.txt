@@ -9,6 +9,10 @@ version v1.2.7.51:
 --> Loyalists:
     --> Chevalier: add weapon special holy
     --> Javelin Master: +2 ranged damage
+--> Campaigns:
+    --> New trait: summoned
+    --> New ability: conjuror (+20% to units with summoned trait)
+        --> This might be for the upcoming elemental units setup
 
 version v1.2.7.48
 --> Outlaws:
