@@ -60,6 +60,13 @@ function wesnoth.interface.game_display.unit_status()
 		} } )
 	end
 
+	-- for elementals
+	if u.status.summoned then
+		table.insert(s, { "element", { image = "misc/summoned-status-icon.png~CROP_TRANSPARENT()",
+			tooltip = _ "summoned: Summoned units are stronger next to units with the conjuror ability."
+		} } )
+	end
+
 
 	return s
 end
