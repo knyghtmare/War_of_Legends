@@ -1,5 +1,8 @@
 War of Legends
-Change-Log v1.2.7.50
+Change-Log v1.2.7.52
+
+version v1.2.7.52:
+--> 
 
 version v1.2.7.51:
 --> Outlaws:
