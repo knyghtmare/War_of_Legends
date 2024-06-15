@@ -2,7 +2,20 @@ War of Legends
 Change-Log v1.2.7.52
 
 version v1.2.7.52:
---> 
+--> Minotaurs:
+    --> Ancient Behemoth: +2 gold cost
+    --> Boar Cataphract: +1 spear damage
+    --> Boar Knight: -5 XP (90 -> 85)
+    --> Cutthroat: +4 HP (38 -> 42), -1 XP (44), -1 gold cost, +firststrike melee
+    --> Slayer: +4 HP (54), +2 cost, +firststrike melee
+    --> Executioner: +7 HP (69), +1 MP, +1 cost, +firststrike melee, +5% melee parry
+    --> Elder: +2 fireball damage
+    --> Warlock: +5 HP (55), -15 XP (85), -2 cost
+    --> Mystic: +3 cost (44)
+    --> Gore: -3 XP (39)
+    --> Savage: +5 HP, +2 cost
+    --> Rouser: +7 HP, -1 cost, +1 melee damage
+    --> Overlord: +8 HP, +6 cost, +1 melee damage
 
 version v1.2.7.51:
 --> Outlaws:
