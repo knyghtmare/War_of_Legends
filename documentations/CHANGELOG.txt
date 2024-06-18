@@ -1,7 +1,10 @@
 War of Legends
-Change-Log v1.2.7.52
+Change-Log v1.2.7.53
 
 version v1.2.7.52:
+--> Core:
+    --> 3 new damage types: natural, light and water
+    --> better icon for existing new damage types 
 --> Minotaurs:
     --> Ancient Behemoth: +2 gold cost
     --> Boar Cataphract: +1 spear damage
