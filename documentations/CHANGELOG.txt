@@ -1,6 +1,12 @@
 War of Legends
 Change-Log v1.2.7.53
 
+version v1.2.7.53:
+--> Mechanizinf Virus:
+    --> same races have been made immune to the mechanzing Virus
+    --> (this is a SP specific change)
+    --> elementals, abstractions, nightmares, gargoyles and undead are no longer affected.
+
 version v1.2.7.52:
 --> Core:
     --> 3 new damage types: natural, light and water
