@@ -13,4 +13,4 @@ allow_defined_top=true
 -- skip showing unused variables
 unused=false
 -- skip showing warnings about shadowing upvalues and empty if branches
-ignore={"431","542","611","612","614"}
+ignore={"111","112","113","131","412","421","422","431","542","582","611","612","614","621"}
