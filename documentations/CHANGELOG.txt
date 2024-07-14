@@ -1,5 +1,10 @@
 War of Legends
-Change-Log v1.2.7.53
+Change-Log v1.2.7.58
+
+version v1.2.7.58:
+--> Loyalists:
+    --> Add existing portrait for Crossbowman
+    --> Add existing portrait for Infantryman
 
 version v1.2.7.53:
 --> Mechanizinf Virus:
