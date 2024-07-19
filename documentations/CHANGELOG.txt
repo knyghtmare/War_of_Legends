@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.7.58
+Change-Log v1.2.7.59
+
+version v1.2.7.59:
+--> Sylvans:
+    --> Add Elvish Civilian by Shield
 
 version v1.2.7.58:
 --> Loyalists:
