@@ -115,3 +115,6 @@ Kordov
 
 ihybriedur
 --> Steel Dominant
+
+Shield
+--> Elvish Civilian
