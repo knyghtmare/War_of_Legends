@@ -15,7 +15,7 @@ version v1.2.7.58:
 
 version v1.2.7.53:
 --> Mechanizing Virus:
-    --> same races have been made immune to the mechanzing Virus
+    --> some races have been made immune to the mechanzing Virus
     --> (this is a SP specific change)
     --> elementals, abstractions, nightmares, gargoyles and undead are no longer affected.
 
