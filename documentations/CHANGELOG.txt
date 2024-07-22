@@ -2,6 +2,9 @@ War of Legends
 Change-Log v1.2.7.59
 
 version v1.2.7.59:
+--> New MP Modification: Heroic Leaders
+   --> All side leaders will get the heroic trait
+   --> heroic: +6 HP, +2 HP per level, +1 damage, -20% max XP
 --> Sylvans:
     --> Add Elvish Civilian by Shield
 
