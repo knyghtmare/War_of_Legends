@@ -7,6 +7,9 @@ version v1.2.7.59:
    --> heroic: +6 HP, +2 HP per level, +1 damage, -20% max XP
 --> Sylvans:
     --> Add Elvish Civilian by Shield
+--> Northerners
+    --> increased XP requirements to advance to Orcish High Warlord from 110 to 178
+    --> decreased XP requirements to advance to Troll Warmonger from 210 to 198
 
 version v1.2.7.58:
 --> Loyalists:
