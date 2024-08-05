@@ -1,5 +1,24 @@
 War of Legends
-Change-Log v1.2.7.59
+Change-Log v1.2.7.60
+
+version v1.2.7.60:
+--> Deep Elves:
+    --> Tyrhai Rider line now have names on recruitment/spawning
+    --> Forgotten Minotaur ability lithic idol now works correctly
+--> Drakes
+    --> stats adjustment to Drake Adventurer and Drake Ranger
+    --> Drake Fighter: alternate advancement to Drake Smasher-line
+        --> impact stun damage based drake
+    --> Drake Apprentice: female-only Drake ranged-specialist/support
+        --> Drakes now have mages
+--> Legends Conquest:
+    --> New factions: 
+        --> Deep Elves + Sylvans
+        --> Undead + Nightmares
+        --> Nightmares + Steelhive
+--> Modification:
+    --> Heroic Leaders: wont stack with existing instances of trait heroic
+
 
 version v1.2.7.59:
 --> New MP Modification: Heroic Leaders
