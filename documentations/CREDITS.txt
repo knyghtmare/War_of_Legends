@@ -53,6 +53,7 @@ Skyone (Fate of a Princess / Brave Wings / Return of the Monster)
 ---> Archer Knight
 ---> Black Knight
 ---> Carapaces
+---> Drake Smasher and Drake Shockbringer
 
 Zerovirus (Under the Burning Suns - Revision)
 
@@ -118,3 +119,8 @@ ihybriedur
 
 Shield
 --> Elvish Civilian
+
+LumiousE/babaisarkar
+--> Drake Smasher and Drake Shockbringer updates
+--> New damage type icons
+--> wyrm dragon portrait
