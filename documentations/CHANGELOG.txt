@@ -1,5 +1,11 @@
 War of Legends
-Change-Log v1.2.7.60
+Change-Log v1.2.7.61
+
+version v1.2.7.61:
+--> Drakes:
+    --> Updates to Drake Smasher and Drake Shockbringer
+        --> They now wield warhammers
+        --> special thanks to @LumiousE for these.
 
 version v1.2.7.60:
 --> Deep Elves:
