@@ -108,8 +108,8 @@ function wesnoth.wml_actions.character_action_dialog(cfg)
 			end
 
 			if can_dismiss then
-				-- #textdomain wesnoth-After_the_Storm
-				local _ = wesnoth.textdomain "wesnoth-After_the_Storm"
+				-- #textdomain wesnoth-War_of_Legends
+				local _ = wesnoth.textdomain "wesnoth-War_of_Legends"
 				local tstring = _ "Continue."
 
 				-- The mandatory "carry on" option.
