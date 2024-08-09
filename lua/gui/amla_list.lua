@@ -383,8 +383,9 @@ local amla_dlg = {
 				border = "all",
 				border_size = 5,
 				T.label {
-					label = _("Unit Advancements"),
-					definition = "title"
+					label = _("<span face='OldaniaADFStd'><big>Unit Advancements</big></span>"),
+					definition = "title",
+					use_markup = true
 				}
 			}
 		},
@@ -411,7 +412,7 @@ local amla_dlg = {
 							border_size = 5,
 							T.toggle_button {
 								id = "preview_toggle",
-								label = _("advancements^Preview selected")
+								label = _("advancements^Show effects of selected AMLA")
 							}
 						},
 
@@ -541,7 +542,7 @@ function naia_do_amla_menu(cfg)
 	local u = nil
 
 	if pos.x and pos.y then
-		u = wesnoth.get_unit(pos.x, pos.y)
+		u = wesnoth.units.get(pos.x, pos.y)
 	end
 
 	if not u then
@@ -628,7 +629,7 @@ function naia_do_amla_menu(cfg)
 	-- Set-up the actual dialog
 	--
 
-	wesnoth.show_dialog(amla_dlg, function()
+	gui.show_dialog(amla_dlg, function(dialog)
 		-- Variables
 
 		local current_filter = ADV_FILTERS.adv_display_all
@@ -723,11 +724,11 @@ function naia_do_amla_menu(cfg)
 		end
 
 		local function clear_advancements_listbox()
-			wesnoth.remove_dialog_item(1, 0, "adv_list")
+			dialog:find("adv_list"):remove_items_at(1, 0)
 		end
 
 		local function get_current_type()
-			local row = wesnoth.get_dialog_value("adv_list")
+			local row = dialog:find("adv_list").selected_index
 			if row < 1 then
 				return ADV_NONE
 			end
@@ -735,7 +736,7 @@ function naia_do_amla_menu(cfg)
 		end
 
 		local function get_current_advancement()
-			local row = wesnoth.get_dialog_value("adv_list")
+			local row = dialog:find("adv_list").selected_index
 			if row < 1 then
 				return nil
 			end
@@ -775,7 +776,7 @@ function naia_do_amla_menu(cfg)
 		end
 
 		local function preview_toggle()
-			return wesnoth.get_dialog_value("preview_toggle")
+			return dialog:find("preview_toggle").selected
 		end
 
 		local function refresh_unit_preview()
@@ -787,15 +788,15 @@ function naia_do_amla_menu(cfg)
 			-- advancement the unit has already acquired, or if the preview is
 			-- disabled.
 			if not preview_toggle() or get_current_type() == ADV_AMLA_ACQUIRED then
-				wesnoth.set_dialog_value(preview_unit, "unit_display")
-				wesnoth.set_dialog_visible(true, "unit_display")
+				dialog:find("unit_display").unit = preview_unit
+				dialog:find("unit_display").visible = true
 				return
 			end
 
 			local adv = get_current_advancement()
 			if not adv then
 				-- Nothing's selected or the selection is invalid somehow
-				wesnoth.set_dialog_visible("hidden", "unit_display")
+				dialog:find("unit_display").visible = "hidden"
 				return
 			elseif not adv.amla then
 				local promotion_ut = adv.unit_type
@@ -805,8 +806,8 @@ function naia_do_amla_menu(cfg)
 				recursive_apply_amla(adv.amla.id)
 			end
 
-			wesnoth.set_dialog_value(preview_unit, "unit_display")
-			wesnoth.set_dialog_visible(true, "unit_display")
+			dialog:find("unit_display").unit = preview_unit
+			dialog:find("unit_display").visible = true
 		end
 
 		local function rebuild()
@@ -817,7 +818,6 @@ function naia_do_amla_menu(cfg)
 			state = state_factory(current_filter)
 
 			-- Repopulate the listbox
-
 			for i = 1, #state.entries do
 				local id, type, icon, text = state.entries[i][1],
 											 state.entries[i][4],
@@ -898,12 +898,13 @@ function naia_do_amla_menu(cfg)
 					display_text = pango_colorize(tostring(_("advancements^Advance to: %s")):format(text), ADV_PROMOTION_COLOR)
 				end
 
-				wesnoth.set_dialog_value(icon, "adv_list", i, "adv_icon")
-				wesnoth.set_dialog_value(display_text, "adv_list", i, "adv_label")
-				wesnoth.set_dialog_markup(true, "adv_list", i, "adv_label")
-				wesnoth.set_dialog_value(times, "adv_list", i, "adv_times")
-				wesnoth.set_dialog_markup(true, "adv_list", i, "adv_times")
-				wesnoth.set_dialog_visible(show_times, "adv_list", i, "adv_times")
+				local list_item = dialog:find("adv_list")[i]
+				list_item:find("adv_icon").label = icon
+				list_item:find("adv_label").use_markup = true
+				list_item:find("adv_label").label = display_text
+				list_item:find("adv_times").use_markup = true
+				list_item:find("adv_times").label = times
+				list_item:find("adv_times").visible = show_times
 			end
 
 			refresh_unit_preview()
@@ -912,7 +913,7 @@ function naia_do_amla_menu(cfg)
 		local function do_update_filter_options(new_filter)
 			-- Reflect current selection on the radio buttons
 			for id, mask in pairs(ADV_FILTERS) do
-				wesnoth.set_dialog_value(new_filter == mask, id)
+				dialog:find(id).selected = (new_filter == mask)
 			end
 
 			-- Rebuild view
@@ -921,25 +922,23 @@ function naia_do_amla_menu(cfg)
 		end
 
 		for id, mask in pairs(ADV_FILTERS) do
-			wesnoth.set_dialog_callback(function() do_update_filter_options(mask) end, id)
+			dialog:find(id).on_modified = (function() do_update_filter_options(mask) end)
 		end
 
-		wesnoth.set_dialog_value(true, "preview_toggle")
-
-		wesnoth.set_dialog_callback(refresh_unit_preview, "adv_list")
-
-		wesnoth.set_dialog_callback(refresh_unit_preview, "preview_toggle")
+		dialog:find("adv_list").on_modified = refresh_unit_preview
+		dialog:find("adv_list"):focus()
+		
+		dialog:find("preview_toggle").selected = true
+		dialog:find("preview_toggle").on_modified = refresh_unit_preview
 
 		-- This will repopulate the list at the start of the dialog's lifecycle
 		do_update_filter_options(ADV_FILTERS.adv_display_all)
 
 		-- Disable options that don't apply. We need to do this after calling
 		-- do_update_filter_options() once in order for state not to be nil.
-		wesnoth.set_dialog_active(state.num_acquired_amlas > 0, "adv_display_current")
-
-		wesnoth.set_dialog_visible(has_hidden_adv, "hidden_adv_notice")
-
-		wesnoth.set_dialog_focus("adv_list")
+		dialog:find("adv_display_current").enabled = (state.num_acquired_amlas > 0)
+		
+		dialog:find("hidden_adv_notice").visible = has_hidden_adv
 	end)
 end
 
@@ -958,7 +957,7 @@ function wesnoth.wml_actions.amla_list(cfg)
 	-- [amla_list] is not meant to modify the gamestate, but it makes heavy use
 	-- of unit cloning for the preview pane functionality. All that code needs
 	-- to execute in an unsynced context so replays don't come out weird.
-	wesnoth.unsynced(function() naia_do_amla_menu(cfg) end)
+	wesnoth.sync.run_unsynced(function() naia_do_amla_menu(cfg) end)
 end
 
 --
