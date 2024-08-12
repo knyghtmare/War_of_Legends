@@ -1,6 +1,12 @@
 War of Legends
 Change-Log v1.2.7.61
 
+version v1.2.7.61.2:
+--> Drakes:
+    --> Updates to Drake Smasher and Drake Shockbringer
+        --> Updated defense animations
+        --> special thanks to @LumiousE for these.
+
 version v1.2.7.61:
 --> Drakes:
     --> Updates to Drake Smasher and Drake Shockbringer
