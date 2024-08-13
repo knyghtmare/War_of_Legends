@@ -5,6 +5,7 @@ version v1.2.7.62:
 --> Nightmares:
     --> Shredder Spawn/Ripper Beast: -berserk +frenzy, -3 cost
         --> Frenzy special is just berserk special but lasts for 5 rounds instead of 30
+    --> adjusted costs of level 2 and level 3 units
 
 version v1.2.7.61.2:
 --> Drakes:
