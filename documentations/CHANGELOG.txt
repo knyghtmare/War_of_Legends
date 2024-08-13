@@ -1,5 +1,10 @@
 War of Legends
-Change-Log v1.2.7.61
+Change-Log v1.2.7.62
+
+version v1.2.7.62:
+--> Nightmares:
+    --> Shredder Spawn/Ripper Beast: -berserk +frenzy, -3 cost
+        --> Frenzy special is just berserk special but lasts for 5 rounds instead of 30
 
 version v1.2.7.61.2:
 --> Drakes:
