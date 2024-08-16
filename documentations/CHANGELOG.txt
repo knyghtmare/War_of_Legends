@@ -1,5 +1,11 @@
 War of Legends
-Change-Log v1.2.7.62
+Change-Log v1.2.7.63
+
+version v1.2.7.63:
+--> Drakes:
+    --> Adventurer and Ranger:
+        --> alignment: lawful -> neutral
+        --> they are supposed to be like that
 
 version v1.2.7.62:
 --> Nightmares:
