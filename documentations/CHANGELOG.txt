@@ -6,6 +6,14 @@ version v1.2.7.63:
     --> Adventurer and Ranger:
         --> alignment: lawful -> neutral
         --> they are supposed to be like that
+    --> Deep Elves
+        --> Balance Patch
+        --> Night Maiden-line: +10% impact RES
+        --> Blood Maiden-line: +10% fire and cold RES
+        --> Tyrhai: added proper cavalry-like resistances
+        --> Seer: regen+4, +1 HP
+        --> Wisp Mother: +18 cost, +cures, +heals+8
+        --> Elthare: +regen+4, +10% cold and fire RES 
 
 version v1.2.7.62:
 --> Nightmares:
