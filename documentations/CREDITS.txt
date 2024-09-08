@@ -89,6 +89,7 @@ megane
 
 A Whim of Fate:
 ---> Elder Gryphon
+---> Elvish Noble Animations
 
 Talentless
 --> Saurian Spearthrower
