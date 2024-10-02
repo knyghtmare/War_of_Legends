@@ -724,7 +724,11 @@ function naia_do_amla_menu(cfg)
 		end
 
 		local function clear_advancements_listbox()
-			dialog:find("adv_list"):remove_items_at(1, 0)
+			-- don't try to clear empty list
+			local adv_list = dialog:find("adv_list")
+			if adv_list.item_count > 0 then
+				adv_list:remove_items_at(1, 0)
+			end
 		end
 
 		local function get_current_type()
