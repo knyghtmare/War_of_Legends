@@ -53,6 +53,7 @@ Skyone (Fate of a Princess / Brave Wings / Return of the Monster)
 ---> Archer Knight
 ---> Black Knight
 ---> Carapaces
+---> Drake Smasher and Drake Shockbringer
 
 Zerovirus (Under the Burning Suns - Revision)
 
@@ -88,6 +89,7 @@ megane
 
 A Whim of Fate:
 ---> Elder Gryphon
+---> Elvish Noble Animations
 
 Talentless
 --> Saurian Spearthrower
@@ -115,3 +117,11 @@ Kordov
 
 ihybriedur
 --> Steel Dominant
+
+Shield
+--> Elvish Civilian
+
+LumiousE/babaisarkar
+--> Drake Smasher and Drake Shockbringer updates
+--> New damage type icons
+--> wyrm dragon portrait

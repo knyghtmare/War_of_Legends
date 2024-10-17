@@ -1,17 +1,30 @@
 -- original code credits to fluffbeast
 -- modified by Lord-Knightmare to accomodate lvl 1 and lvl 0 units
 
-local cost_lvl_zero = 10 
-local cost_lvl_one = 15
-
 function wesnoth.wml_actions.adjust_recall_costs(cfg)
+    -- currently revised recall costs
+    -- | Unit Level | Recall Cost |
+    -- | ---------- | ----------- |
+    -- |     0      |     10      |
+    -- |     1      |     15      |
+    -- |     2      |     20      |
+    -- |     3      |     30      |
+    -- |     4      |     40      |
+    -- |     5+     |     50      |
+    -- | ---------- | ----------- |
     for _, unit in ipairs(wesnoth.units.find_on_recall {}) do
         if unit.level == 0 then
-            unit.recall_cost = cost_lvl_zero
-        end
-
-        if unit.level == 1 then
-            unit.recall_cost = cost_lvl_one
+            unit.recall_cost = 10
+        elseif unit.level == 1 then
+            unit.recall_cost = 15
+        elseif unit.level == 2 then
+            unit.recall_cost = 20
+        elseif unit.level == 3 then
+            unit.recall_cost = 30
+        elseif unit.level == 4 then
+            unit.recall_cost = 40
+        else 
+            unit.recall_cost = 50
         end
     end
 end

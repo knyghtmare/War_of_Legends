@@ -6,7 +6,7 @@ local T = wml.tag
 
 -- support for translatable strings, custom textdomain
 local _ = wesnoth.textdomain "wesnoth-War_of_Legends"
--- #textdomain wesnoth-AotW
+-- #textdomain wesnoth-War_of_Legends
 
 -- [item_dialog]
 -- an alternative interface to pick items

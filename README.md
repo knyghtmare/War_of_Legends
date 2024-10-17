@@ -87,6 +87,10 @@ It is required as a dependency to play the following campaigns:
 
 1. [Migration of Aragwaithi](https://forums.wesnoth.org/viewtopic.php?t=56248)
 
+### By [LumiousE](https://github.com/babaissarkar)
+
+1. [Journey of a Frost Mage](https://github.com/babaissarkar/frost-mage)
+
 ## Installing '**War of Legends**'
 
 --------------------------------------------------------------------------------

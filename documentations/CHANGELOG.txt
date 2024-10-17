@@ -1,9 +1,75 @@
 War of Legends
-Change-Log v1.2.7.53
+Change-Log v1.2.7.63
+
+version v1.2.7.63:
+--> Drakes:
+    --> Adventurer and Ranger:
+        --> alignment: lawful -> neutral
+        --> they are supposed to be like that
+    --> Deep Elves
+        --> Balance Patch
+        --> Night Maiden-line: +10% impact RES
+        --> Blood Maiden-line: +10% fire and cold RES
+        --> Tyrhai: added proper cavalry-like resistances
+        --> Seer: regen+4, +1 HP
+        --> Wisp Mother: +18 cost, +cures, +heals+8
+        --> Elthare: +regen+4, +10% cold and fire RES 
+
+version v1.2.7.62:
+--> Nightmares:
+    --> Shredder Spawn/Ripper Beast: -berserk +frenzy, -3 cost
+        --> Frenzy special is just berserk special but lasts for 5 rounds instead of 30
+    --> adjusted costs of level 2 and level 3 units
+
+version v1.2.7.61.2:
+--> Drakes:
+    --> Updates to Drake Smasher and Drake Shockbringer
+        --> Updated defense animations
+        --> special thanks to @LumiousE for these.
+
+version v1.2.7.61:
+--> Drakes:
+    --> Updates to Drake Smasher and Drake Shockbringer
+        --> They now wield warhammers
+        --> special thanks to @LumiousE for these.
+
+version v1.2.7.60:
+--> Deep Elves:
+    --> Tyrhai Rider line now have names on recruitment/spawning
+    --> Forgotten Minotaur ability lithic idol now works correctly
+--> Drakes
+    --> stats adjustment to Drake Adventurer and Drake Ranger
+    --> Drake Fighter: alternate advancement to Drake Smasher-line
+        --> impact stun damage based drake
+    --> Drake Apprentice: female-only Drake ranged-specialist/support
+        --> Drakes now have mages
+--> Legends Conquest:
+    --> New factions: 
+        --> Deep Elves + Sylvans
+        --> Undead + Nightmares
+        --> Nightmares + Steelhive
+--> Modification:
+    --> Heroic Leaders: wont stack with existing instances of trait heroic
+
+
+version v1.2.7.59:
+--> New MP Modification: Heroic Leaders
+   --> All side leaders will get the heroic trait
+   --> heroic: +6 HP, +2 HP per level, +1 damage, -20% max XP
+--> Sylvans:
+    --> Add Elvish Civilian by Shield
+--> Northerners
+    --> increased XP requirements to advance to Orcish High Warlord from 110 to 178
+    --> decreased XP requirements to advance to Troll Warmonger from 210 to 198
+
+version v1.2.7.58:
+--> Loyalists:
+    --> Add existing portrait for Crossbowman
+    --> Add existing portrait for Infantryman
 
 version v1.2.7.53:
---> Mechanizinf Virus:
-    --> same races have been made immune to the mechanzing Virus
+--> METALLIZING Virus:
+    --> some races have been made immune to the mechanzing Virus
     --> (this is a SP specific change)
     --> elementals, abstractions, nightmares, gargoyles and undead are no longer affected.
 
