@@ -1,5 +1,13 @@
 War of Legends
-Change-Log v1.2.7.63
+Change-Log v1.2.7.67
+
+version v1.2.7.67:
+--> Windsong
+   --> Ascendant: +5 HP
+   --> Herald: +1 MP
+   --> Heretic: +1 HP
+   --> Rune Forger: +2 HP, +10% blade and arcane RES, +1 sorrow dmg, +2 cost
+   --> Warmonger: +1 MP
 
 version v1.2.7.63:
 --> Drakes:
