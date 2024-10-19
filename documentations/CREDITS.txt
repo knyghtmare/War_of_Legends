@@ -125,3 +125,8 @@ LumiousE/babaisarkar
 --> Drake Smasher and Drake Shockbringer updates
 --> New damage type icons
 --> wyrm dragon portrait
+
+Refumee:
+--> Quenoth Acolyte
+--> Quenoth Brave
+--> Quenoth Sword Dancer
