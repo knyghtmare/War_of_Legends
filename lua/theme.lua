@@ -8,13 +8,13 @@ function wesnoth.interface.game_display.unit_status()
 	local s = old_unit_status()
 
 	if u.status.dazed then
-		table.insert(s, { "element", { image = "misc/dazed-status-icon.png~CROP_TRANSPARENT()",
+		table.insert(s, { "element", { image = "misc/dazed-status-icon.png~CROP_TRANSPARENCY()",
 			tooltip = _ "dazed: This unit is dazed. It suffers a -10% penalty to both its defense and chance to hit (except for magical attacks)."
 		} } )
 	end
 
 	if u.status.WOL_curse then
-		table.insert(s, { "element", { image = "misc/curse-status-icon.png~CROP_TRANSPARENT()",
+		table.insert(s, { "element", { image = "misc/curse-status-icon.png~CROP_TRANSPARENCY()",
 			tooltip = _ "cursed: This unit is cursed. This unit gets a 15% defence penalty on every terrain."
 		} } )
 	end
@@ -22,19 +22,19 @@ function wesnoth.interface.game_display.unit_status()
 	-- new elemental abilities
 
 	if u.status.fire_status then
-		table.insert(s, { "element", { image = "misc/fire-status-icon.png~CROP_TRANSPARENT()",
+		table.insert(s, { "element", { image = "misc/fire-status-icon.png~CROP_TRANSPARENCY()",
 			tooltip = _ "fire affliction: This unit has been affected by fire. Attack with another element of a different type to trigger some reaction."
 		} } )
 	end
 
 	if u.status.cold_status then
-		table.insert(s, { "element", { image = "misc/cold-status-icon.png~CROP_TRANSPARENT()",
+		table.insert(s, { "element", { image = "misc/cold-status-icon.png~CROP_TRANSPARENCY()",
 			tooltip = _ "cold affliction: This unit has been affected by cold. Attack with another element of a different type to trigger some reaction."
 		} } )
 	end
 
 	if u.status.electric_status then
-		table.insert(s, { "element", { image = "misc/electric-status-icon.png~CROP_TRANSPARENT()",
+		table.insert(s, { "element", { image = "misc/electric-status-icon.png~CROP_TRANSPARENCY()",
 			tooltip = _ "electric affliction: This unit has been affected by electric. Attack with another element of a different type to trigger some reaction."
 		} } )
 	end
@@ -42,14 +42,14 @@ function wesnoth.interface.game_display.unit_status()
 	-- for potions
 
 	if u.status.hasted then
-		table.insert(s, { "element", { image = "misc/hasted.png~CROP_TRANSPARENT()",
+		table.insert(s, { "element", { image = "misc/hasted.png~CROP_TRANSPARENCY()",
 			tooltip = _ "hasted: Hasted units get 4 more movement points than usual. It lasts until the end of the current scenario."
 		} } )
 	end
 
 	-- for elementals
 	if u.status.summoned then
-		table.insert(s, { "element", { image = "misc/summoned-status-icon.png~CROP_TRANSPARENT()",
+		table.insert(s, { "element", { image = "misc/summoned-status-icon.png~CROP_TRANSPARENCY()",
 			tooltip = _ "summoned: Summoned units are stronger next to units with the conjuror ability."
 		} } )
 	end
