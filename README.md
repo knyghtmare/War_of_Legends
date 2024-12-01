@@ -10,7 +10,6 @@ This add-on is a multiplayer era featuring my favourite factions.
 |Branch|WMLlint Status|
 |------|---------|
 |Master|[![WMLlint](https://github.com/knyghtmare/War_of_Legends/actions/workflows/lint.yml/badge.svg)](https://github.com/knyghtmare/War_of_Legends/actions/workflows/lint.yml?query=branch%master)|
-|1.16|[![WMLlint](https://github.com/knyghtmare/War_of_Legends/actions/workflows/lint.yml/badge.svg?branch=wesnoth-1.16-branch)](https://github.com/knyghtmare/War_of_Legends/actions/workflows/lint.yml?query=branch%wesnoth-1.16-branch)|
 
 ## Current Faction Line-Up
 
