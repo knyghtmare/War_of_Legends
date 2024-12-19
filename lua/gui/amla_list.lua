@@ -213,7 +213,7 @@ local ADV_AMLA_DEFAULT = "amla_default"
 
 local T = wml.tag
 
--- #textdomain wesnoth-Naia
+-- #textdomain wesnoth-War_of_Legends
 local _ = wesnoth.textdomain "wesnoth-Naia"
 
 -- NOTE: The radio button ids must match the keys of ADV_FILTERS above.
