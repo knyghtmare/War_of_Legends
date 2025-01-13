@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-12-19 11:12 UTC\n"
+"POT-Creation-Date: 2025-01-13 10:54 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,7 +107,7 @@ msgstr ""
 
 #. [multiplayer_side]: id=Knalgan Alliance, type=random
 #: War_of_Legends/eras/Default_Era-RPG.cfg:90
-#: War_of_Legends/eras/War_of_Legends_RPG.cfg:35
+#: War_of_Legends/eras/War_of_Legends_RPG.cfg:36
 msgid "Knalgan Alliance"
 msgstr ""
 
@@ -124,7 +124,7 @@ msgstr ""
 
 #. [multiplayer_side]: id=Dunefolk, type=random
 #: War_of_Legends/eras/Default_Era-RPG.cfg:128
-#: War_of_Legends/eras/War_of_Legends_RPG.cfg:48
+#: War_of_Legends/eras/War_of_Legends_RPG.cfg:49
 msgid "Dunefolk"
 msgstr ""
 
@@ -314,6 +314,15 @@ msgstr ""
 #: War_of_Legends/factions/RPG/Deep-Elves-RPG.cfg:5
 #: War_of_Legends/factions/WOL/Deep-Elves-WOL.cfg:5
 msgid "Deep Elves"
+msgstr ""
+
+#. [multiplayer_side]: id=Harpies_EL, type=Harpy Enchantress
+#. [multiplayer_side]: id=Harpies_RPG, type=Harpy Minstrel
+#. [multiplayer_side]: id=Harpies_WOL, type=Harpy Enchantress
+#: War_of_Legends/factions/EL/Harpies-EL.cfg:5
+#: War_of_Legends/factions/RPG/Harpies-RPG.cfg:5
+#: War_of_Legends/factions/WOL/Harpies-WOL.cfg:5
+msgid "Harpies"
 msgstr ""
 
 #. [multiplayer_side]: id=Loyalists_EL, type=random
@@ -787,12 +796,12 @@ msgid "This unit can attacks that can cause elemental reactions with electric."
 msgstr ""
 
 #. [leadership]: id=conjuror
-#: War_of_Legends/macros/abilities-elemental.cfg:398
+#: War_of_Legends/macros/abilities-elemental.cfg:397
 msgid "conjuror"
 msgstr ""
 
 #. [leadership]: id=conjuror
-#: War_of_Legends/macros/abilities-elemental.cfg:399
+#: War_of_Legends/macros/abilities-elemental.cfg:398
 msgid "Adjacent units with the summoned trait will do 20% more damage"
 msgstr ""
 
@@ -1345,6 +1354,119 @@ msgstr ""
 #. [set_menu_item]: id=amla_menu
 #: War_of_Legends/macros/amla.cfg:171
 msgid "Unit Advancements"
+msgstr ""
+
+#. [advancement]: id=amla_shrieker_ranged
+#: War_of_Legends/macros/harpies_amla.cfg:11
+msgid "Increased shriek damage"
+msgstr ""
+
+#. [advancement]: id=amla_shrieker_ambush
+#. [advancement]: id=amla_phantom_ambush
+#: War_of_Legends/macros/harpies_amla.cfg:41
+#: War_of_Legends/macros/harpies_amla.cfg:115
+msgid "Better evasion in forests and ambush"
+msgstr ""
+
+#. [advancement]: id=amla_phantom_melee
+#: War_of_Legends/macros/harpies_amla.cfg:85
+msgid "Increased claw damage"
+msgstr ""
+
+#. [advancement]: id=amla_songstressofstorms_ranged
+#: War_of_Legends/macros/harpies_amla.cfg:160
+msgid "Level up and more ranged strikes"
+msgstr ""
+
+#. [advancement]: id=amla_songstressofstorms_damage
+#: War_of_Legends/macros/harpies_amla.cfg:199
+msgid "More ranged damage"
+msgstr ""
+
+#. [advancement]: id=amla_songstressofstorms_move
+#: War_of_Legends/macros/harpies_amla.cfg:234
+msgid "Increased movement and evasion in mountains and at sea"
+msgstr ""
+
+#. [advancement]: id=amla_siren_ranged
+#: War_of_Legends/macros/harpies_amla.cfg:280
+msgid "Increased wail damage (also gives 1 song damage every second time you take this AMLA)"
+msgstr ""
+
+#. [advancement]: id=amla_siren_mistcloak
+#: War_of_Legends/macros/harpies_amla.cfg:352
+msgid "Increased evasion in deep water, reefs, swamps, forests, mountains, castles and deserts"
+msgstr ""
+
+#. [advancement]: id=amla_siren_mistarmor
+#: War_of_Legends/macros/harpies_amla.cfg:390
+msgid "Increased cold, fire and arcane resistance"
+msgstr ""
+
+#. [advancement]: id=amla_siren_heal
+#: War_of_Legends/macros/harpies_amla.cfg:423
+msgid "Increased healing"
+msgstr ""
+
+#. [advancement]: id=amla_ashtail_ranged
+#. [advancement]: id=amla_flockmaster_ranged
+#: War_of_Legends/macros/harpies_amla.cfg:467
+#: War_of_Legends/macros/harpies_amla.cfg:656
+msgid "Increased ranged damage"
+msgstr ""
+
+#. [advancement]: id=amla_ashtail_ranged2
+#: War_of_Legends/macros/harpies_amla.cfg:502
+msgid "One more ranged hit"
+msgstr ""
+
+#. [advancement]: id=amla_emissary_melee
+#. [advancement]: id=amla_flockmaster_melee
+#. [advancement]: id=amla_featherlord_damage
+#: War_of_Legends/macros/harpies_amla.cfg:544
+#: War_of_Legends/macros/harpies_amla.cfg:716
+#: War_of_Legends/macros/harpies_amla.cfg:851
+msgid "Increased melee damage"
+msgstr ""
+
+#. [advancement]: id=amla_emissary_swift
+#: War_of_Legends/macros/harpies_amla.cfg:579
+msgid "Increased speed and evasion in deep water, forests and chasms"
+msgstr ""
+
+#. [advancement]: id=amla_emissary_armor
+#: War_of_Legends/macros/harpies_amla.cfg:617
+msgid "Increased cold and impact resistances"
+msgstr ""
+
+#. [advancement]: id=amla_flockmaster_morefalcons
+#: War_of_Legends/macros/harpies_amla.cfg:686
+msgid "One more falcon!"
+msgstr ""
+
+#. [advancement]: id=amla_featherlord_lance
+#: War_of_Legends/macros/harpies_amla.cfg:754
+msgid "Better melee and first strike"
+msgstr ""
+
+#. [advancement]: id=amla_featherlord_falcon
+#: War_of_Legends/macros/harpies_amla.cfg:788
+msgid "Fiercer falcon"
+msgstr ""
+
+#. [advancement]: id=amla_featherlord_armor
+#: War_of_Legends/macros/harpies_amla.cfg:818
+msgid "Increased physical resistances"
+msgstr ""
+
+#. [advancement]: id=amla_raider_melee
+#: War_of_Legends/macros/harpies_amla.cfg:887
+msgid "Increased melee damage (also gives an addition 1 pierce damage every second time you take this AMLA)"
+msgstr ""
+
+#. [advancement]: id=amla_raider_armor
+#: War_of_Legends/macros/harpies_amla.cfg:964
+msgid "Better protection against blade, pierce and impact"
 msgstr ""
 
 #. [advancement]: id=HOI_jahin_amla_HP_I
@@ -2342,37 +2464,37 @@ msgid "Windsong Tutelage"
 msgstr ""
 
 #. [advancement]
-#: War_of_Legends/macros/wol-resource-tags.cfg:1189
+#: War_of_Legends/macros/wol-resource-tags.cfg:1184
 msgid "Gain +8 hitpoints."
 msgstr ""
 
 #. [advancement]
-#: War_of_Legends/macros/wol-resource-tags.cfg:1202
+#: War_of_Legends/macros/wol-resource-tags.cfg:1197
 msgid "Gain +4 melee damage."
 msgstr ""
 
 #. [advancement]
-#: War_of_Legends/macros/wol-resource-tags.cfg:1212
+#: War_of_Legends/macros/wol-resource-tags.cfg:1207
 msgid "Gain +2 melee damage."
 msgstr ""
 
 #. [advancement]
-#: War_of_Legends/macros/wol-resource-tags.cfg:1222
+#: War_of_Legends/macros/wol-resource-tags.cfg:1217
 msgid "Gain +1 melee damage."
 msgstr ""
 
 #. [advancement]
-#: War_of_Legends/macros/wol-resource-tags.cfg:1236
+#: War_of_Legends/macros/wol-resource-tags.cfg:1231
 msgid "Gain +4 ranged damage."
 msgstr ""
 
 #. [advancement]
-#: War_of_Legends/macros/wol-resource-tags.cfg:1246
+#: War_of_Legends/macros/wol-resource-tags.cfg:1241
 msgid "Gain +2 ranged damage."
 msgstr ""
 
 #. [advancement]
-#: War_of_Legends/macros/wol-resource-tags.cfg:1256
+#: War_of_Legends/macros/wol-resource-tags.cfg:1251
 msgid "Gain +1 ranged damage."
 msgstr ""
 
@@ -2582,6 +2704,11 @@ msgstr ""
 #: War_of_Legends/units/dwarves/Gryphon_Thunderlord.cfg:29
 #: War_of_Legends/units/elementals/stable/Vine_Beast.cfg:38
 #: War_of_Legends/units/elementals/stable/Vine_Tiger.cfg:41
+#: War_of_Legends/units/harpies/Galesinger.cfg:57
+#: War_of_Legends/units/harpies/Nightharpy.cfg:99
+#: War_of_Legends/units/harpies/Shrieker.cfg:108
+#: War_of_Legends/units/harpies/Songstressofstorms.cfg:58
+#: War_of_Legends/units/harpies/Stalkerwing.cfg:100
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Eagle_Master.cfg:31
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Eagle_Rider.cfg:27
 #: War_of_Legends/units/monsters/Elder_Gryphon.cfg:30
@@ -3555,8 +3682,13 @@ msgid "As winds spirits stay in their physical form, they grow stronger, as does
 msgstr ""
 
 #. [attack]: type=blade
+#. [attack]: type=pierce
 #: War_of_Legends/units/elementals/stable/Sylph.cfg:25
 #: War_of_Legends/units/gnolls/Regular.cfg:28
+#: War_of_Legends/units/harpies/Captivator.cfg:112
+#: War_of_Legends/units/harpies/Enchantress.cfg:106
+#: War_of_Legends/units/harpies/Minstrel.cfg:93
+#: War_of_Legends/units/harpies/Siren.cfg:146
 #: War_of_Legends/units/orcs/Flamebow.cfg:29
 #: War_of_Legends/units/vampires/Bloodborn.cfg:32
 #: War_of_Legends/units/vampires/Day_Hunter.cfg:34
@@ -3635,7 +3767,10 @@ msgid "Being swift and ferocious Vine Tigers are not to be trifled with, due to 
 msgstr ""
 
 #. [attack]: type=impact
+#. [attack]: type=arcane
 #: War_of_Legends/units/elementals/stable/Vine_Tiger.cfg:58
+#: War_of_Legends/units/harpies/Captivator.cfg:121
+#: War_of_Legends/units/harpies/Enchantress.cfg:115
 msgid "ensnare"
 msgstr ""
 
@@ -4013,6 +4148,7 @@ msgid "Tyr‘Hai Riders who have proven themselves in battle are granted a lance
 msgstr ""
 
 #. [attack]: type=pierce
+#. [attack]: type=blade
 #: War_of_Legends/units/elves-deep/Tyrhai_Cavalry.cfg:33
 #: War_of_Legends/units/elves-deep/Tyrhai_Cavalry.cfg:43
 #: War_of_Legends/units/elves-deep/Tyrhai_Rider.cfg:30
@@ -4024,6 +4160,8 @@ msgstr ""
 #: War_of_Legends/units/goblins/Spearmaster.cfg:31
 #: War_of_Legends/units/goblins/Spearmaster.cfg:43
 #: War_of_Legends/units/goblins/Trumpeter.cfg:35
+#: War_of_Legends/units/harpies/Pirate.cfg:59
+#: War_of_Legends/units/harpies/Pirate.cfg:69
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Ancient_Banner.cfg:41
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Captain.cfg:34
 #: War_of_Legends/units/human-aragwaithi/Aragwaith_Guardian.cfg:30
@@ -4947,6 +5085,402 @@ msgstr ""
 msgid "Only the best of rousers can hope to become a trumpeter. Trumpeters spend many hours studying the subtleties of the complex orc war signals. For the orcs, such signals are much more than a simple message of advance or retreat, they inspire their entire army and reinforce their bloodthirsty nature. Many orc warlords consider their trumpeter a trusted confidante and sometimes a trumpeter may be allowed to consult with the warlord on his battle plan."
 msgstr ""
 
+#: War_of_Legends/units/harpies.cfg:7
+msgid "Chichichi,Chirpei,Chirralui,Chileichi,Chirchiluin,Chirtililin,Eftiit,Eftiut,Fiufiu,Fiunei,Fiulit,Fielin,Fiuleilei,Felilit,Firlilirrin,Frruoh,Iorrit, Hrrit,Kfrri,Lurroura,Lurrei,Lulilit,Luftierrei,Luiluilinei,Miirh,Miineh,Ourrlueliei,Ourrouei,Ourrlealit,Ourrouei,Outielin,Ouka,Ouluu,Ourrou,Rahuitt,Ruho,Ruhru,Rorrit,Ruhrit,Rroah,Rriuu,Siani,Sirlit,Sielit,Sieliterrou,Sialua,Srri,Sreeil,Sursurr,Soussou,Sootei,Suitou,Tou,Turru,Turrutei,Tsita,Tsitei,Tsirpi,Tsilului,Tioh-tiin,Tuituin,Tsituin,Tsitsitrrin,Tuina,Tuinit,Uitia,Uitin"
+msgstr ""
+
+#: War_of_Legends/units/harpies.cfg:8
+msgid ""
+"\n"
+"    main={prefix}{suffix}|{prefix}{centre}{suffix}|{prefix}-{suffix}|{prefix}{centre}-{suffix}|{prefix}-{centre}{suffix}\n"
+"\n"
+"    prefix=Chi|Chichi|Chir|Ef|Fiu|Fiur|Fie|Fir|Fe|Fr|Io|Hr|Kfr|Lu|Lur|Luf|Lui|Luir|Mi|Our|Ou|Ra|Rah|Ru|Ruh|Rro|Rri|Sia|Sir|Sie|Sr|Sur|Sou|Soo|Sui|Tou|Tu|Tur|Tsi|Tsitsi|Tsir|Ti|Tui|Ui\n"
+"\n"
+"    centre=chi|hee|hin|li|lili|lite|lei|leilei|lea|lue|lu|lui|hou|rra|rrou|ru|ri|ti|titi|tii|tie|tier|tsi|tsitsi|tsit\n"
+"\n"
+"    suffix=chi|ei|fiu|ho|it|irh|ka|luu|lei|liei|lua|lui|luin|li|lili|lin|lilin|lir|lilir|lit|lilit|na|nei|ne|nit|pei|pi|rei|rin|rit|ritt|rou|ru|ssou|sur|surr|ta|tia|tei|tou|tin|tuin|tsit|uit|uitt|uin\n"
+"    "
+msgstr ""
+
+#. [race]: id=harpy
+#: War_of_Legends/units/harpies.cfg:24
+msgid "race^Harpy"
+msgstr ""
+
+#. [race]: id=harpy
+#: War_of_Legends/units/harpies.cfg:25
+msgid "race+female^Harpy"
+msgstr ""
+
+#. [race]: id=harpy
+#: War_of_Legends/units/harpies.cfg:26
+msgid "race+plural^Harpies"
+msgstr ""
+
+#. [race]: id=harpy
+#: War_of_Legends/units/harpies.cfg:27
+msgid ""
+"Harpies, often called bird-people, are humanlike creatures endowed with winged arms. They are thinner and much lighter than humans, and would be shorter than them if not for their long legs. They also bear other birdlikes features, like a feathered tail and clawed, scaly hands and feet. Harpies are prudent creatures, aware of their frailty and quick to flee when they sense danger. \n"
+"\n"
+"Harpies build simple villages high in cliffs and mountains, sometimes forests, out of reach of most animals and people. Harpy communities are located in isolated places, set either on the shores of the continent or in islands far from the land. They feed on fishes that they catch by plunging or with nets. Harpies that live inland will instead hunt small game and birds, and may also scavenge for fruits. \n"
+"Harpies do not sell a lot of goods, as they mostly craft simple tools, weapons and clothes. Their musical instruments are however highly valued by performers and connoisseurs alike. They trade feathers and food to merchants of other races for tools or materials, but most of the time they prefer to use their talents as courriers or scouts. \n"
+"\n"
+"Harpies use powerful calls and songs to relay messages to other communities. Due to this way of communicating and their fast winged messengers, information travels extremely fast between harpy groups. \n"
+"Their tradition is mostly oral. The history and tales of their people are kept by tellers and songstresses held in high regard by the community. Harpies all possess some amount of magic that they can express through their voice. The ones who train to become mages start as minstrels or tellers, training their voice for different purposes, be it mastering the elements or other's minds. \n"
+"\n"
+"Harpies have a bad reputation among humans, as they have a history of raiding ships and stealing from villages. As they travel by flight, they rarely interact with other races, adding to the existing distrust."
+msgstr ""
+
+#. [unit_type]: id=Harpy Ashtail, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Ashtail.cfg:4
+msgid "Harpy Ashtail"
+msgstr ""
+
+#. [unit_type]: id=Harpy Ashtail, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Ashtail.cfg:21
+msgid "Numerous battles of dousing foes in flames have left scars on the plumage of these veterans. Their peers have named them Ashtails, as their talons and feathers turned grey from their grim duties."
+msgstr ""
+
+#. [attack]: type=blade
+#: War_of_Legends/units/harpies/Ashtail.cfg:60
+#: War_of_Legends/units/harpies/Bomber.cfg:56
+#: War_of_Legends/units/harpies/Emissary.cfg:103
+#: War_of_Legends/units/harpies/Falconeer.cfg:94
+#: War_of_Legends/units/harpies/Fighter.cfg:59
+#: War_of_Legends/units/harpies/Flockmaster.cfg:35
+#: War_of_Legends/units/harpies/Messenger.cfg:98
+#: War_of_Legends/units/harpies/Raptortongue.cfg:31
+#: War_of_Legends/units/harpies/Rockthrower.cfg:56
+#: War_of_Legends/units/harpies/Traveller.cfg:94
+#: War_of_Legends/units/monsters/Owl.cfg:46
+#: War_of_Legends/units/monsters/Owl_Great.cfg:48
+msgid "talons"
+msgstr ""
+
+#. [attack]: type=impact
+#: War_of_Legends/units/harpies/Ashtail.cfg:69
+#: War_of_Legends/units/harpies/Bomber.cfg:65
+#: War_of_Legends/units/harpies/Rockthrower.cfg:65
+msgid "rock drop"
+msgstr ""
+
+#. [attack]: type=fire
+#: War_of_Legends/units/harpies/Ashtail.cfg:78
+#: War_of_Legends/units/harpies/Bomber.cfg:74
+msgid "fiery hail"
+msgstr ""
+
+#. [unit_type]: id=Harpy Bomber, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Bomber.cfg:4
+msgid "Harpy Bomber"
+msgstr ""
+
+#. [unit_type]: id=Harpy Bomber, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Bomber.cfg:20
+msgid "Harpy bombers are involved in more serious conflicts than simple defense of their colony and as such, they have upgraded their equipment, flying and throwing techniques. In addition to the classic rocks, they also use lighter, flaming projectiles, that earned them their current name."
+msgstr ""
+
+#. [unit_type]: id=Harpy Captivator, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Captivator.cfg:4
+msgid "Harpy Captivator"
+msgstr ""
+
+#. [unit_type]: id=Harpy Captivator, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Captivator.cfg:20
+msgid ""
+"The voice of the most famous harpy minstrels is said to be able to both break and mend hearts. People usually regard these stories as mere legends, but some of them suspect there is magic at work. The captivator's first aim is precisely to avoid that people think this.\n"
+"They weave magic within their melodies, warping others' perception of the world and disguising their looks to better charm them. When their power is strong enough, their illusions start to occur from nearly inaudible sounds like low humming or breathing, allowing them to change how they look to please their audience."
+msgstr ""
+
+#. [attack]: type=cold
+#: War_of_Legends/units/harpies/Captivator.cfg:134
+#: War_of_Legends/units/harpies/Enchantress.cfg:128
+#: War_of_Legends/units/harpies/Siren.cfg:172
+#: War_of_Legends/units/undead/Spirit_Shadowback.cfg:44
+msgid "wail"
+msgstr ""
+
+#. [unit_type]: id=Harpy Emissary, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Emissary.cfg:4
+msgid "Harpy Emissary"
+msgstr ""
+
+#. [unit_type]: id=Harpy Emissary, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Emissary.cfg:21
+msgid "Elite messengers become the quick emissaries of powerful leaders, whom they gained the trust of after decades of work. Swift as the wind, they are matched in speed only by the griffins of the high peaks. As they often carry messages of high importance in troubled times, they can defend themselves quite well by using their sharp talons and unrivalled air mobility. "
+msgstr ""
+
+#. [attack]: type=pierce
+#: War_of_Legends/units/harpies/Emissary.cfg:113
+#: War_of_Legends/units/harpies/Messenger.cfg:108
+#: War_of_Legends/units/harpies/Traveller.cfg:104
+msgid "sky dive"
+msgstr ""
+
+#. [unit_type]: id=Harpy Enchantress, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Enchantress.cfg:4
+msgid "Harpy Enchantress"
+msgstr ""
+
+#. [unit_type]: id=Harpy Enchantress, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Enchantress.cfg:21
+msgid "The legendary harpy enchantresses are beings admired by the majority of people. They carry themselves with grace and confidence, knowing full well the power they hold over the ordinary folk. Thanks to their influence, they develop a network of connections to support their own goals or those they are given by harpy lorekeepers."
+msgstr ""
+
+#. [unit_type]: id=Harpy Falconeer, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Falconeer.cfg:4
+msgid "Harpy Falconeer"
+msgstr ""
+
+#. [unit_type]: id=Harpy Falconeer, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Falconeer.cfg:20
+msgid "Various birds are popular among harpies as pets. Among them, falcons are used for hunting, and warfare when the need arises. Some harpies can easily mimic their calls, granting the bird and its wielder excellent coordination. "
+msgstr ""
+
+#. [attack]: type=blade
+#: War_of_Legends/units/harpies/Falconeer.cfg:104
+#: War_of_Legends/units/harpies/Featherlord.cfg:126
+#: War_of_Legends/units/harpies/Flagbearer.cfg:120
+msgid "falcon"
+msgstr ""
+
+#. [unit_type]: id=Harpy Featherlord, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Featherlord.cfg:4
+msgid "Harpy Featherlord"
+msgstr ""
+
+#. [unit_type]: id=Harpy Featherlord, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Featherlord.cfg:21
+msgid "Harpy commanders use their bird companion and specific calls to quickly transmit orders on the battlefield. Their brightly colored flag helps them catch their allies' attention to redirect troops wherever necessary. "
+msgstr ""
+
+#. [attack]: type=pierce
+#. [attack]: type=blade
+#: War_of_Legends/units/harpies/Featherlord.cfg:116
+#: War_of_Legends/units/harpies/Flagbearer.cfg:110
+#: War_of_Legends/units/harpies/Raider.cfg:61
+#: War_of_Legends/units/harpies/Raider.cfg:71
+#: War_of_Legends/units/human-campaigns/Horse_Black_Knight.cfg:58
+#: War_of_Legends/units/human-legion/Cavalier.cfg:33
+#: War_of_Legends/units/steelhive/steel_fideliant.cfg:25
+msgid "lance"
+msgstr ""
+
+#. [unit_type]: id=Harpy Fighter, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Fighter.cfg:4
+msgid "Harpy Fighter"
+msgstr ""
+
+#. [unit_type]: id=Harpy Fighter, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Fighter.cfg:20
+msgid "Harpies can already cause harm with their sharp talons. However, those tasked to fight the colony's foes often reinforce their claws with small blades. Their light gambeson allows them to resist hits slightly better while retaining their kind's mobility. "
+msgstr ""
+
+#. [unit_type]: id=Harpy Flagbearer, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Flagbearer.cfg:4
+msgid "Harpy Flagbearer"
+msgstr ""
+
+#. [unit_type]: id=Harpy Flagbearer, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Flagbearer.cfg:20
+msgid "The habit of guiding their bird around gives harpies skills in observing and giving out orders, which are applicable in wide scale combat as well. Some falconeers take up the flag-bearing spear to lead their peers in battle, and while their fighting strength is lesser than others', the coordination they bring to the squadron makes it much more deadly. "
+msgstr ""
+
+#. [unit_type]: id=Harpy Flockmaster, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Flockmaster.cfg:4
+msgid "Harpy Flockmaster"
+msgstr ""
+
+#. [unit_type]: id=Harpy Flockmaster, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Flockmaster.cfg:21
+msgid "Harpies whose love for birds is extreme spend their life with them, flying and hunting together. With their skilled calls they bring together small flocks of hawks to help them, directing them to reach their goal more efficiently. "
+msgstr ""
+
+#. [attack]: type=blade
+#: War_of_Legends/units/harpies/Flockmaster.cfg:45
+#: War_of_Legends/units/harpies/Raptortongue.cfg:41
+msgid "falcon storm"
+msgstr ""
+
+#. [unit_type]: id=Harpy Galesinger, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Galesinger.cfg:4
+msgid "Harpy Galesinger"
+msgstr ""
+
+#. [unit_type]: id=Harpy Galesinger, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Galesinger.cfg:19
+msgid "Experienced minstrels may decide to become the keepers of harpy knowledge. They spend years learning from their masters the thousands of songs that relate harpy lore. Among these chants are magic spells that allow them to bend the winds to their will, that harpies have used since olden times to travel across the ocean. "
+msgstr ""
+
+#. [attack]: type=cold
+#: War_of_Legends/units/harpies/Galesinger.cfg:66
+#: War_of_Legends/units/harpies/Songstressofstorms.cfg:67
+msgid "song of gale"
+msgstr ""
+
+#. [unit_type]: id=Harpy Messenger, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Messenger.cfg:4
+msgid "Harpy Messenger"
+msgstr ""
+
+#. [unit_type]: id=Harpy Messenger, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Messenger.cfg:20
+msgid "Due to their numerous travels, harpy wanderers end up mingling with other races a lot more. Often they will offer their service as long range messengers to various folk. The time spent hunting in the wild has given them keen eyes which serve them well in battle also. "
+msgstr ""
+
+#. [unit_type]: id=Harpy Minstrel, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Minstrel.cfg:4
+msgid "Harpy Minstrel"
+msgstr ""
+
+#. [unit_type]: id=Harpy Minstrel, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Minstrel.cfg:19
+msgid ""
+"Harpies avoid other races whenever possible, and are seldom welcomed warmly. There is however an exception : minstrels are renowned for their incredible singing. Some say their voice can make anyone fall in awe and completely forget their surroundings. Although the public usually admires their talent, people sometimes fear their supposed powers.\n"
+"They wander between towns, living off their art or flying away quickly when they feel threatened. Some of them end up settling down in human cities, but more often than not they keep traveling and act as informants for harpy communities."
+msgstr ""
+
+#. [attack]: type=arcane
+#: War_of_Legends/units/harpies/Minstrel.cfg:102
+#: War_of_Legends/units/harpies/Siren.cfg:158
+msgid "beguiling song"
+msgstr ""
+
+#. [unit_type]: id=Harpy Nightgaunt, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Nightgaunt.cfg:4
+msgid "Harpy Phantom"
+msgstr ""
+
+#. [unit_type]: id=Harpy Nightgaunt, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Nightgaunt.cfg:20
+msgid "<i>When the night is at its darkest, are the shadows not more enticing than ever? Hide in the night, enjoy it, use it, but never forget it is not your friend. Those that fear not the shadows will in time join their ranks.</i> - Tales of the owl hunters"
+msgstr ""
+
+#. [attack]: type=blade
+#: War_of_Legends/units/harpies/Nightgaunt.cfg:64
+msgid "deathclaws"
+msgstr ""
+
+#. [unit_type]: id=Night Harpy, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Nightharpy.cfg:4
+msgid "Night Harpy"
+msgstr ""
+
+#. [unit_type]: id=Night Harpy, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Nightharpy.cfg:19
+msgid "While most harpies prefer to build their homes in the caves dotting seashore cliffs and tall mountains, some have chosen to seek shelter in forests. This new environment has made them change their hunting techniques, which now rely on stealth a lot more. Over time their body evolved and they can now fly silently, which makes them extremely hard to notice at night. "
+msgstr ""
+
+#. [unit_type]: id=Harpy Pirate, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Pirate.cfg:4
+msgid "Harpy Pirate"
+msgstr ""
+
+#. [unit_type]: id=Harpy Pirate, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Pirate.cfg:20
+msgid "Oftentimes harpy warriors band together to attack trade ships. They use long pikes to attack in a safer way and stay out of reach of melee fighters with their wings. Pirate groups nest on isolated craggy islands where they store their loot before trading it with other harpy colonies. "
+msgstr ""
+
+#. [unit_type]: id=Harpy Raider, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Raider.cfg:4
+msgid "Harpy Raider"
+msgstr ""
+
+#. [unit_type]: id=Harpy Raider, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Raider.cfg:21
+msgid "The seasoned harpy soldiers often come from former bandit crews. They lend their talent as mercenaries to various armed forces, who make good use of their ability to strike anywhere quickly. "
+msgstr ""
+
+#. [unit_type]: id=Harpy Raptortongue, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Raptortongue.cfg:4
+msgid "Harpy Raptortongue"
+msgstr ""
+
+#. [unit_type]: id=Harpy Raptortongue, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Raptortongue.cfg:20
+msgid "Over time falconeers efficiently learn the falcons' language. As the bird ages their tamer often will bring in new recruits for taming. "
+msgstr ""
+
+#. [unit_type]: id=Harpy Rockthrower, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Rockthrower.cfg:4
+msgid "Harpy Rockthrower"
+msgstr ""
+
+#. [unit_type]: id=Harpy Rockthrower, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Rockthrower.cfg:20
+msgid "One of the simplest tactics that harpies use to defend their homes is to drop rocks on the threat, which is often grounded and dangerous. This method may be tiring and somewhat ineffective due to the relative precision of the shots, but harpies value their safety enough to employ it often."
+msgstr ""
+
+#. [unit_type]: id=Harpy Shrieker, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Shrieker.cfg:4
+msgid "Shrieker"
+msgstr ""
+
+#. [unit_type]: id=Harpy Shrieker, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Shrieker.cfg:20
+msgid ""
+"As the moon hides behind the peaks, the wind in the gloom calls.\n"
+"Answer it fast! Answer it quick! Quiet shall be your fall.\n"
+"To uncover the night's secrets, won't you heed this soft howl?\n"
+"Answer it fast, trust the spirits, run with the winds and wolves.\n"
+"Won't you come deeper the forest, in the shadows with us to dance?\n"
+"'Til the morrow, the wind shall rest, and wait for you, for its next chance.\n"
+"As the moon returns in white flame, it shall be back for your regrets.\n"
+"Answer it well, it knows your name, and certainly never forgets."
+msgstr ""
+
+#. [attack]: type=pierce
+#: War_of_Legends/units/harpies/Shrieker.cfg:118
+msgid "shriek"
+msgstr ""
+
+#. [unit_type]: id=Harpy Siren, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Siren.cfg:4
+msgid "Harpy Siren"
+msgstr ""
+
+#. [unit_type]: id=Harpy Siren, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Siren.cfg:21
+msgid "Harpies have a strong belief that their kind was born from a magical song, sung from what they call the World of Mist. When the wind song feels sorrowful, it is because we hear the laments of beings that got lost in that illusory land."
+msgstr ""
+
+#. [unit_type]: id=Harpy Songstress of Storms, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Songstressofstorms.cfg:4
+msgid "Songstress of Storms"
+msgstr ""
+
+#. [unit_type]: id=Harpy Songstress of Storms, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Songstressofstorms.cfg:20
+msgid "Some harpy singers chose to live away from land, secluded in places where they can become one with the wind. They spend days meditating at sea to listen to the song of the gales. When their kin calls for help however, their mastery of weather lets them summon fierce storms that scatter enemy troops. "
+msgstr ""
+
+#. [attack]: type=fire
+#: War_of_Legends/units/harpies/Songstressofstorms.cfg:79
+msgid "song of storm"
+msgstr ""
+
+#. [unit_type]: id=Harpy Stalkerwing, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Stalkerwing.cfg:4
+msgid "Harpy Stalkerwing"
+msgstr ""
+
+#. [unit_type]: id=Harpy Stalkerwing, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Stalkerwing.cfg:19
+msgid ""
+"The owl harpies' unparalleled stealth makes them a great asset in wars and skirmishes, where they spy and strike in the midst of enemy lines.\n"
+"As they tread further down this path of stalking and hunt, the wisps of magic they possess make them fade more and more within the darkness. "
+msgstr ""
+
+#. [unit_type]: id=Harpy Traveller, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Traveller.cfg:4
+msgid "Harpy Traveller"
+msgstr ""
+
+#. [unit_type]: id=Harpy Traveller, race=harpy, gender=female
+#: War_of_Legends/units/harpies/Traveller.cfg:20
+msgid "Harpies by nature see more of the world than non winged folks, and some of them long to see what is beyond the horizon. Those that follow this path are among the fastest and most agile flyers in the sky. "
+msgstr ""
+
 #: War_of_Legends/units/human-aragwaithi.cfg:4
 msgid "Akahito,Aki,Akihiko,Akihiro,Akihisa,Akihito,Akikazu,Akinari,Akinori,Akio,Akira,Amane,Anzai,Arata,Arinori,Aritomo,Ashihei,Atasuke,Atshushi,Atsumichi,Atsumori,Atsutane,Azumamaro,Baiko,Bairei,Bakin,Basho,Benjiro,Benkei,Bokkai,Buncho,Bunjiro,Bunrakuken,Bunzo,Bussho,Chikafusa,Chikao,Chojiro,Chomei,Chuichi,Daisetsu,Daisuke,Danjuro,Dayu,Denbe,Doi,Dokuohtei,Doppo,Ebizo,Eichi,Eichiro,Eien,Eiichi,Eiji,Eijiro,Eikichi,Eisaku,Eisen,Eishi,Eisuke,Eitoku,Eizan,Eizo,Ekiken,Ennosuke,Etsuya,Fujimaro,Fujio,Fukusaburu,Fumiaki,Fumihiko,Fumihiro,Fumimaro,Fumio,Gaho,Gekko,Gempachi,Gengyo,Genichi,Genjo,Gennai,Gennosuke,Genpaku,Gesshin,Gidayu,Gihei,Giichi,Go,Goemon,Gombei,Gonkuro,Gonnohyoe,Gonshiro,Goro,Gyokusho,Gyukudo,Hachemon,Hachigoro,Hachiro,Hajime,Hakuseki,Hanshiro,Haranobu,Haru,Haruhiko,Haruhiro,Haruki,Harumi,Harunobu,Hayato,Heihachiro,Heiji,Heikichi,Heizo,Hideaki,Hidehira,Hidekazu,Hideki,Hidemichi,Hideo,Hidetada,Hidetora,Hidetoshi,Hidetsugu,Hideyori,Hideyoshi,Higashikuni,Hikaru,Hikosaburo,Hikozaemon,Hiro,Hiroaki,Hirobumi,Hirofumi,Hiroharu,Hirohisa,Hiroji,Hirokazu,Hirokichi,Hirokumi,Hiroshi,Hiroshige,Hirotada,Hirotaka,Hirotsugu,Hiroya,Hiroyasu,Hiroyuki,Hisahsi,Hisaki,Hisamitsu,Hisanobu,Hisashi,Hisato,Hisayuki,Hitomaro,Hitoshi,Hogai,Hoitsu,Hokichi,Hokusai,Honzo,Horiuchi,Hoshi,Hoshiko,Hyobe,Hyosuke,Hyotaru,Ichibei,Ichiro,Ichisake,Ichiyo,Ichizo,Iemitsu,Iemochi,Ienobu,Iesada,Ieshige,Ietsuna,Ieyasu,Ieyoshi,Ikemoto,Ikki,Ikku,Inejiro,Ippei,Isamu,Isao,Isei,Isoruko,Isoshi,Iwane,Iwao,Izo,Izumo,Jakuchu,Jin,Jinzaburo,Jiro,Jo,Joji,Josuke,Jotaro,Jou,Juichi,Jun,Junichi,Junichiro,Junji,Junnosuke,Junzo,Juro,Jurobei,Juzaburo,Juzo,Kadonomaro,Kafu,Kagehisa,Kagetoki,Kageyasu,Kaii,Kakuei,Kakuzo,Kamatari,Kan,Kanbe,Kaneie,Kanezane,Kanjiro,Kanko,Kansuke,Kantaro,Kanzaburo,Kaoru,Kata,Katai,Katsuhiko,Katsuhito,Katsumi,Katsumoto,Katsunan,Katsunosuki,Katsuyoshi,Katsuyuki,Katzumi,Kawanari,Kaz,Kazu,Kazuhiko,Kazuhiro,Kazuki,Kazuko,Kazuma,Kazunari,Kazunori,Kazuo,Kazushi,Kazushige,Kazutoshi,Kazuyoshi,Kazuyuki,Kei,Keiji,Keiki,Keishi,Keisuke,Keita,Keitaro,Keizo,Ken,Kenichi,Kenji,Kenjiro,Kenkichi,Kenko,Kensaku,Kenshin,Kenzaburo,Kenzan,Kenzo,Kichibei,Kichisaburo,Kiemon,Kiichi,Kijuro,Kikaku,Kikugoro,Kikunojo,Kimi,Kiminobu,Kimitada,Kingo,Kinji,Kinmochi,Kinnojo,Kinnosuke,Kinzo,Kisho,Kitahachi,Kiyoemon,Kiyohira,Kiyohisa,Kiyomasu,Kiyomitsu,Kiyomori,Kiyonaga,Kiyonobu,Kiyonori,Kiyoshi,Kiyotaka,Koan,Kobo,Koetsu,Kohei,Koichi,Koin,Koji,Kojiro,Kojuro,Kokan,Kokei,Koki,Kokushi,Konosuke,Konoye,Konyo,Korechika,Korekiyo,Korenaga,Korin,Koryusai,Kosaku,Kosami,Koshiro,Kosho,Kotaro,Koto,Koyo,Kozue,Kuemon,Kuma,Kumanosuke,Kuniaki,Kunihiko,Kunimatsu,Kunimichi,Kunio,Kunisada,Kunitaro,Kuniyoshi,Kuniyuki,Kyoden,Kyoichi,Kyoji,Kyoshi,Kyuichi,Kyushichi,Kyuso,Kyuwa,Mabuchi,Magbei,Magobei,Magohachi,Makoto,Mamoru,Manabu,Manobu,Maresuke,Marihito,Masaaki,Masafumi,Masaharu,Masahide,Masahiko,Masahiro,Masakado,Masakazu,Masaki,Masami,Masamichi,Masamune,Masanobu,Masanori,Masao,Masaru,Masashi,Masashige,Masatake,Masato,Masayoshi,Masayuki,Masazumi,Mashai,Mashashi,Masu,Masuhiro,Masujiro,Masutaro,Matabei,Matashichi,Matsu,Matsudaira,Matsuo,Matsusuke,Matsuta,Matsuyo,Meiji,Michihiro,Michinaga,Michinori,Michio,Michizane,Minoru,Misao,Mito,Mitsuharu,Mitsuhide,Mitsukuni,Mitsunari,Mitsuo,Mitsuoki,Mitsuzuka,Miyazaki,Miyoko,Mobumasu,Mochihito,Mokichi,Mokuami,Momoru,Monzaemon,Morie,Morihiro,Morimasa,Moromao,Moronobu,Motoichi,Motoki,Motonobu,Motoshige,Mototsune,Motoyasu,Motoyuki,Munemitsu,Munemori,Munenori,Muneyaki,Munoto,Murai,Mushanokoji,Mutsohito,Mutsuhito,Naganori,Naizen,Nakamaro,Nakazo,Namboku,Nampo,Naoaki,Naofumi,Naohiro,Naoki,Naomi,Naomichi,Naonobu,Naosuke,Naoya,Naozane,Narahiko,Nariaki,Nariakira,Narihari,Narihira,Naruhiko,Natsu,Natsume,Natsuo,Nichiren,Ninsei,Niou,Nissho,Noboru,Nobuatsu,Nobuharu,Nobuhiko,Nobuhisa,Nobuhito,Nobukazu,Nobuo,Noburo,Nobusuke,Nobuyoki,Nobuyori,Nobuyoshi,Nori,Noriaki,Norihide,Norihisa,Norinaga,Norio,Norishige,Noritada,Noritoshi,Noriyori,Noriyuki,Norogumi,Oda,Ogai,Okakura,Okitsugu,Okura,Okyoito,Omezo,Oniji,Orinosuke,Osamu,Otojiro,Razan,Reijiro,Rikiya,Rikyu,Rintaro,Rkuemon,Robun,Roku,Rosanjin,Ryo,Ryobe,Ryoichi,Ryoko,Ryoma,Ryosei,Ryozo,Ryu,Ryuichi,Ryunosuke,Ryushi,Ryutaro,Ryuzaburo,Saburo,Sachi,Sadaharu,Sadahige,Sadakuno,Sadanobu,Sadao,Sadatake,Sadayoshi,Saemon,Saikaku,Saionji,Sakutaro,Samba,Saneatsu,Sanetomo,Sanjiro,Sanjuro,Sanraku,Sanzo,Satoru,Satoshi,Sawao,Seibei,Seiesnsui,Seihachi,Seiho,Seiichi,Seiji,Seika,Seiki,Seinosuke,Seiryo,Seishiro,Seishisai,Seison,Seitaro,Sekien,Sen,Senichi,Senzo,Sessue,Settan,Sharaku,Shiba,Shichirobei,Shigeaki,Shigekazu,Shigeki,Shigeko,Shigemasa,Shigematsu,Shigemori,Shigenaga,Shigenobu,Shigeru,Shigetaka,Shigetoki,Shigochiyo,Shihei,Shihi,Shiki,Shiko,Shimei,Shimpei,Shingen,Shinichi,Shinji,Shinkichi,Shino,Shinobu,ShinriKiyaru,Shinsaku,Shinsui,Shintaro,Shinzo,Shirai,Shirosama,Shizue,Sho,Shogo,Shohei,Shoichi,Shoin,Shoji,Shojiro,Shoko,Shoraku,Shosuke,Shotaro,Shoyo,Shozaburo,Shozo,Shuichi,Shuji,Shukishi,Shuko,Shumei,Shumkichi,Shun,Shuncho,Shungyosai,Shunichi,Shunji,Shunko,Shunmyo,Shunsen,Shunsho,Shunso,Shunsuke,Shusake,Shusaku,Shusui,Shuzo,Soetsu,Sofu,Soh,Soichiro,Sojuro,Sorai,Sosa,Soseki,Soshitsu,Soshu,Sosuke,Sotan,Sotaro,Sotatsu,Sozen,Sozui,Ssekien,Subaru,Suezo,Sugimoto,Sugita,Sukejuro,Sukenobu,Suketsune,Sukeyasu,Sumio,Sumiteru,Sumitomo,Susumu,Tabito,Tadahisa,Tadakuni,Tadamasa,Tadamichi,Tadao,Tadashi,Tadasu,Tadasuke,Tadataka,Tadayoshi,Tadayuki,Tadiyuki,Taheiji,Taikan,Taisho,Taisuke,Takaaki,Takafumi,Takahashi,Takahiro,Takakazu,Takamasa,Takamori,Takamuku,Takanibu,Takanobu,Takanori,Takao,Takashi,Takauji,Takayuki,Takechi,Takehide,Takeichi,Takeji,Takejiro,Takenao,Takeo,Takeru,Takeshi,Takesi,Taki,Takiji,Takuboku,Takuji,Takuma,Takuro,Takuya,Tamasaburo,Tameyoshi,Tamotsu,Tamuramaro,Tango,Tanosuke,Tanyu,Tanzan,Taro,Taroemon,Tarozaemon,Tashiaki,Tashiro,Tasuku,Tatsui,Tatsukichi,Tatsuya,Tatsuzo,Taysuke,Teika,Teinosuke,Tekkan,Tenshin,Terao,Teriuihi,Terumoto,Teruo,Tessai,Tetsu,Tetsuhiko,Tetsui,Tetsunori,Tetsuo,Tetsuya,Tetsuyuki,Tetsuzan,Thoki,Tobei,Togai,Tohaku,Toichi,Toin,Toju,Tokaji,Toki,Tokichiro,Tokimasa,Tokimune,Tokugawa,Tokuhei,Tokuma,Tokutomi,Tomiichi,Tomiji,Tomoaki,Tomohiko,Tomokazu,Tomomi,Tomoyuki,Ton,Torajiro,Torazo,Toru,Toshiaki,Toshiharu,Toshikasu,Toshikazu,Toshiki,Toshikuni,Toshimichi,Toshinobu,Toshio,Toshiro,Toshitsugu,Toshiyuki,Toson,Totoya,Toyoaki,Toyoharu,Toyokazu,Toyokuni,Toyonobu,Toyoshige,Toyotomi,Toyozo,Tsugahara,Tsugiharu,Tsuginori,Tsugumichi,Tsukasa,Tsumemasa,Tsunayoshi,Tsuneari,Tsuneo,Tsunesaburo,Tsuneyo,Tsuramatsu,Tsurayaki,Tsurayuki,Tsuruki,Tsutomu,Tsuyoshi,Ukon,Ukyo,Unkei,Utaemon,Utamara,Utamuro,Utemaro,Waotaka,Washi,Washichi,Yachi,Yaichiro,Yajirobei,Yakamochi,Yakumo,Yamato,Yasotaro,Yasuhide,Yasuhiko,Yasuhiro,Yasujiro,Yasukazu,Yasunari,Yasunobu,Yasuo,Yasuoka,Yasushi,Yasutake,Yasutoki,Yasuyuki,Yataro,Yatsuhiro,Yeijiro,Yo,Yodo,Yohachi,Yoichi,Yoichibei,Yoriie,Yorikane,Yoringa,Yoritoki,Yoritomo,Yoriyoshi,Yoriyuki,Yosai,Yoshi,Yoshiaga,Yoshiaki,Yoshida,Yoshifumi,Yoshifusa,Yoshihide,Yoshihiro,Yoshihisa,Yoshihito,Yoshii,Yoshiiku,Yoshikazu,Yoshiki,Yoshimasa,Yoshimatsu,Yoshimi,Yoshimitsu,Yoshimochi,Yoshimune,Yoshinaka,Yoshino,Yoshinobu,Yoshinori,Yoshio,Yoshisada,Yoshitaka,Yoshitake,Yoshiteru,Yoshitoki,Yoshitomo,Yoshitora,Yoshitoshi,Yoshitsune,Yoshiyuki,Yoson,Yosuke,Yozo,Yugoro,Yuichi,Yuifum,Yuji,Yujiro,Yuki,Yukichi,Yukinaga,Yukio,Yuko,Yunosuke,Yushiro,Yusuke,Yutaka,Zenko,Zeshin"
 msgstr ""
@@ -5276,13 +5810,6 @@ msgstr ""
 #: War_of_Legends/units/human-campaigns/Horse_Black_Knight.cfg:49
 #: War_of_Legends/units/human-legion/Doctor.cfg:49
 msgid "flail"
-msgstr ""
-
-#. [attack]: type=pierce
-#: War_of_Legends/units/human-campaigns/Horse_Black_Knight.cfg:58
-#: War_of_Legends/units/human-legion/Cavalier.cfg:33
-#: War_of_Legends/units/steelhive/steel_fideliant.cfg:25
-msgid "lance"
 msgstr ""
 
 #. [unit_type]: id=Cataphract, race=human
@@ -6655,12 +7182,6 @@ msgstr ""
 msgid "Owls are winged predators of the northern tundra and forests. They are usually solitary and hunt small animals such as rats, but when a wolf-pack is taking down larger prey, the owls take advantage of the situation and join in the kill."
 msgstr ""
 
-#. [attack]: type=blade
-#: War_of_Legends/units/monsters/Owl.cfg:46
-#: War_of_Legends/units/monsters/Owl_Great.cfg:48
-msgid "talons"
-msgstr ""
-
 #. [unit_type]: id=Great Owl, race=monster
 #: War_of_Legends/units/monsters/Owl_Great.cfg:8
 msgid "Great Owl"
@@ -7555,11 +8076,6 @@ msgstr ""
 #. [unit_type]: id=Shadowback, race=undead
 #: War_of_Legends/units/undead/Spirit_Shadowback.cfg:20
 msgid "These shades of what were once warriors are among the most terrifying things a necromancer can create, for a sword will cleave right through them as if through air, seemingly without doing harm. It is the thought that these foes are invincible which is so frightening, a notion that is fortunately far from the truth."
-msgstr ""
-
-#. [attack]: type=cold
-#: War_of_Legends/units/undead/Spirit_Shadowback.cfg:44
-msgid "wail"
 msgstr ""
 
 #. [unit_type]: id=Apparition, race=undead
