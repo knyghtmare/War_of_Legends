@@ -1,0 +1,13 @@
+-there are harpy full names in the units.cfg file in addition to the name generator. 
+
+Quick summary of their lore and how you can use harpies as allies/foes in your own scenarios : 
+
+-harpies primarily live in mountains, forests, and cliffs/islands by the seaside. You won't meet them underground. You may also come across a loner/minstrel/messenger anywhere, including places like plains, swamps, or big cities. They reason pretty much like humans and will seize opportunities which benefit them. 
+
+-harpies may resort to theft, banditry and piracy in any of the places you can encounter them. This can give them a poor reputation among other races (except dwarves because they seldom interact) and may cause useless conflicts. 
+
+-harpies can be encountered as mercenaries working for towns or armies. 
+
+-harpies do a small bit of trade, mostly with humans. They don't produce a lot of goods aside from musical instruments. 
+
+Technical note: if you want to load the Harpies faction as a dependency instead of copying files, add {~add-ons/Harpies/load_harpies.cfg} to your _main.cfg and add Harpies to your add-on's dependencies list in the _server.pbl

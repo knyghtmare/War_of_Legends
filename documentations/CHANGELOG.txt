@@ -1,5 +1,14 @@
 War of Legends
-Change-Log v1.2.7.67
+Change-Log v1.2.7.72
+
+version v1.2.7.72
+--> MP Faction:
+    --> New Faction: Harpies
+    --> This might be the final WoL faction
+--> Legends Conquest
+    --> Unbalanced Monsters enemy list replaced with Harpies
+--> Added Empowered Legends and War of Legends RPG factions for the Harpies
+--> Added harpies campaign lore by Asmybelle
 
 version v1.2.7.67:
 --> Windsong
