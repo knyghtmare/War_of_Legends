@@ -1,5 +1,10 @@
 War of Legends
-Change-Log v1.2.7.72
+Change-Log v1.2.7.73
+
+version v1.2.7.74
+--> Northerners:
+    --> Goblin Cutthroat: ranged 8-2 to 6-3
+        --> to better utilise the net attack
 
 version v1.2.7.72
 --> MP Faction:
