@@ -70,7 +70,7 @@ Era of Chaos development team
 ---> Naga Shield Guard
 ---> Naga High Guard
 
-gooby, revansurik
+gooby, revansurik, LumiousE
 
 ---> Unit description updates.
 
@@ -123,9 +123,12 @@ Shield
 --> Elvish Civilian
 
 LumiousE/babaisarkar
---> Drake Smasher and Drake Shockbringer updates
 --> New damage type icons
---> wyrm dragon portrait
+--> Units: Aqua Initiate line
+--> Unit Art: Drake Smasher and Drake Shockbringer (base frames), Aqua Initiate line, Ember Mage line, Infantryman
+--> Portraits:
+-->   Based on existing art: Elf Mystic, Elf Avatar, Aqua Initiate line, Mage of Storms (female), Frostfire Monarch
+-->   Original art: Windsong Courier
 
 Refumee:
 --> Quenoth Acolyte
