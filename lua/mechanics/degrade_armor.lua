@@ -10,7 +10,7 @@ function wesnoth.interface.game_display.unit_status()
     if u.status.degraded then
         table.insert(s, wml.tag.element{
             image = "misc/degraded-status-icon.png",
-            tooltip = _"degraded: This unit is degraded. It cannot enforce its Zone of Control."
+            tooltip = _"degraded: This unit is degraded. Its physical resistances have been weakened."
         })
     end
 
@@ -36,12 +36,12 @@ local function on_hit(weapon, opponent)
         },
         wml.tag.effect{
             apply_to = 'resistance',
-            replace = false
-            wml.tag.resistance({
+            replace = false,
+            wml.tag.resistance{
                 blade = 10,
                 pierce = 10,
                 impact = 10
-            })
+            }
         },
         wml.tag.effect{
             apply_to = 'status',
