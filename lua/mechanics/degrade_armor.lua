@@ -10,7 +10,7 @@ function wesnoth.interface.game_display.unit_status()
     if u.status.degraded then
         table.insert(s, wml.tag.element{
             image = "misc/degraded-status-icon.png",
-            tooltip = _"degraded: This unit is degraded. Its physical resistances have been weakened."
+            tooltip = _"degraded: This unit has been degraded. Its physical resistances have been weakened."
         })
     end
 
