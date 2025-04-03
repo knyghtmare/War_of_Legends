@@ -462,7 +462,7 @@ end
 -- StandardSideFilter
 -- amount, raises error if not number
 function wml_actions.loot( cfg )
-	local gold_amount = tonumber( cfg.amount ) or wml.error( "Missing or wrong amount= value in [loot]" )
+	local gold_amount = math.floor(tonumber(cfg.amount)) or wml.error( "Missing or wrong amount= value in [loot]" )
 	local sides = wesnoth.sides.find( cfg )
 	for index, side in ipairs( sides ) do
 		wml_actions.message {
