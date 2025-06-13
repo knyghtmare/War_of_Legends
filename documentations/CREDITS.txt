@@ -137,3 +137,6 @@ Refumee:
 
 Asmybelle
 --> Harpies
+
+Renlie_Cocoa
+--> Faerie Spirit defend, standing and movement animations
