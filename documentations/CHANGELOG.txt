@@ -5,6 +5,8 @@ version v1.2.7.75
 --> Sylvans
     --> Faerie Spirit:
         --> Movement, Defend, and Standing animations by Renlie_Cocoa
+--> Windsong
+    --> Most level 1 units now have standing animations by Renlie_Cocoa
 
 version v1.2.7.74
 --> Northerners:
