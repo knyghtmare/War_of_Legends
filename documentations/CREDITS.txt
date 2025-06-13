@@ -123,4 +123,19 @@ Shield
 LumiousE/babaisarkar
 --> Drake Smasher and Drake Shockbringer updates
 --> New damage type icons
---> wyrm dragon portrait
+--> Units: Aqua Initiate line
+--> Unit Art: Drake Smasher and Drake Shockbringer (base frames), Aqua Initiate line, Ember Mage line, Infantryman
+--> Portraits:
+-->   Based on existing art: Elf Mystic, Elf Avatar, Aqua Initiate line, Mage of Storms (female), Frostfire Monarch, Prophetess of Light
+-->   Original art: Windsong Courier
+
+Refumee:
+--> Quenoth Acolyte
+--> Quenoth Swiftfoot
+--> Quenoth Night Hunter
+
+Asmybelle
+--> Harpies
+
+Renlie_Cocoa
+--> Faerie Spirit defend, standing and movement animations
