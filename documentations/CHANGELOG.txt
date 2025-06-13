@@ -1,5 +1,10 @@
 War of Legends
-Change-Log v1.2.7.73
+Change-Log v1.2.7.75
+
+version v1.2.7.75
+--> Sylvans
+    --> Faerie Spirit:
+        --> Movement, Defend, and Standing animations by Renlie_Cocoa
 
 version v1.2.7.74
 --> Northerners:
