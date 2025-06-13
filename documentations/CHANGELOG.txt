@@ -1,5 +1,10 @@
 War of Legends
-Change-Log v1.2.7.63
+Change-Log v1.2.7.71
+
+version v1.2.7.71:
+--> Sylvans
+    --> added defend, standing and movement animations for Faerie Spirit unit
+    --> credits to Renlie_Cocoa 
 
 version v1.2.7.63:
 --> Drakes:
