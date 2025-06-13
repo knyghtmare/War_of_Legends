@@ -139,3 +139,4 @@ Asmybelle
 
 Renlie_Cocoa
 --> Faerie Spirit defend, standing and movement animations
+--> level 1 Windsong standing animations
