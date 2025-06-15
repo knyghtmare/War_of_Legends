@@ -1,5 +1,10 @@
 War of Legends
-Change-Log v1.2.7.75
+Change-Log v1.2.7.76
+
+version v1.2.7.76
+--> Vampires
+    --> Blood Manipulator:
+        --> Defense, standing, ranged attack animations by Renlie_Cocoa
 
 version v1.2.7.75
 --> Sylvans
