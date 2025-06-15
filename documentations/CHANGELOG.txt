@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.7.72
+Change-Log v1.2.7.76
+
+version v1.2.7.76:
+--> Vampires:
+    --> Blood Manipulator: defend, standing and ranged attack animations by Renlie_Cocoa
 
 version v1.2.7.72:
 --> Windsong
