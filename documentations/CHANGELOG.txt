@@ -1,5 +1,11 @@
 War of Legends
-Change-Log v1.2.7.76
+Change-Log v1.2.7.77
+
+version v1.2.7.77:
+--> Misc:
+    --> Naga Hunter: Portrait from UtBS added in
+    --> Naga Marksman: Portrait from UtBS added in
+--> More contributions from Renlie_Cocoa
 
 version v1.2.7.76
 --> Vampires
