@@ -142,3 +142,5 @@ Renlie_Cocoa
 --> Faerie Spirit defend, standing and movement animations
 --> Windsong level 1 standing animations
 --> Blood Manipulator Defense, standing, ranged attack animations
+--> Damage type icons
+--> WoL race icons
