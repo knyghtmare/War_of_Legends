@@ -51,6 +51,12 @@ It is required as a dependency to play the following campaigns:
 13. [The Eight of Cembulad](https://github.com/knyghtmare/The_Eight_of_Cembulad)
 14. [War of Legends RPG Scenario Pack](https://github.com/knyghtmare/WoL_RPG_Pack)
 15. [Electrifyre](https://github.com/knyghtmare/Electrifyre)
+16. [Legends Quest](https://github.com/knyghtmare/Legends_Quest)
+17. [Whispers from the Sands](https://github.com/knyghtmare/Whispers_from_the_Sands)
+18. [A Knight's Tale](https://github.com/knyghtmare/A_Knights_Tale)
+19. [Through Veiled Eyes](https://github.com/knyghtmare/Through_Veiled_Eyes)
+20. [Sovereign of Runes](https://github.com/knyghtmare/Sovereign_of_Runes)
+21. [Argea - the Old Continent](https://github.com/knyghtmare/Argea_the_Old_Continent)
 
 ### By [revansurik](https://github.com/revansurik)
 
