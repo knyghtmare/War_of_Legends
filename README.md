@@ -43,7 +43,7 @@ It is required as a dependency to play the following campaigns:
 5. [Survivals (War of Legends)](https://github.com/knyghtmare/Survivals_WoL)
 6. [Struggle for Freedom](https://github.com/knyghtmare/Struggle_For_Freedom)
 7. [Cataclysm](https://github.com/knyghtmare/Cataclysm)
-8. [Blades of Steel](https://github.com/knyghtmare/Aragwaithi_of_the_West)
+8. [Blades of Steel](https://github.com/knyghtmare/Blades_of_Steel)
 9. **Legends Conquest** (built-in MP Modification Add-on)
 10. [Blackfire](https://github.com/knyghtmare/Blackfire)
 11. [Untitled Aragwaithi Campaign](https://github.com/knyghtmare/The_Settlers_of_Light)
@@ -57,6 +57,7 @@ It is required as a dependency to play the following campaigns:
 19. [Through Veiled Eyes](https://github.com/knyghtmare/Through_Veiled_Eyes)
 20. [Sovereign of Runes](https://github.com/knyghtmare/Sovereign_of_Runes)
 21. [Argea - the Old Continent](https://github.com/knyghtmare/Argea_the_Old_Continent)
+22. [Defending Halostrand](https://github.com/knyghtmare/Defending_Halostrand)
 
 ### By [revansurik](https://github.com/revansurik)
 
