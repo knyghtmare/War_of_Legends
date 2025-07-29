@@ -140,7 +140,7 @@ end
 ---
 function wesnoth.wml_actions.set_facing(cfg)
 	local suf = wml.get_child(cfg, "filter") or
-		helper.wml_error("[set_facing] Missing unit filter")
+		wml.error("[set_facing] Missing unit filter")
 
 	local facing = cfg.facing
 	local target_suf = wml.get_child(cfg, "filter_second")
@@ -152,16 +152,16 @@ function wesnoth.wml_actions.set_facing(cfg)
 
 	if not facing then
 		if target_suf then
-			target_u = wesnoth.get_units(target_suf)[1] or
-				helper.wml_error("[set_facing] Could not match the specified [filter_second] unit")
+			target_u = wesnoth.units.find_on_map(target_suf)[1] or
+				wml.error("[set_facing] Could not match the specified [filter_second] unit")
 		elseif target_slf then
 			target_loc = wesnoth.get_locations(target_slf)[1] or
-				helper.wml_error("[set_facing] Could not match the specified [filter_location] location")
+				wml.error("[set_facing] Could not match the specified [filter_location] location")
 		end
 	end
 
-	local units = wesnoth.get_units(suf) or
-		helper.wml_error("[set_facing] Could not match any on-map units with [filter]")
+	local units = wesnoth.units.find_on_map(suf) or
+		wml.error("[set_facing] Could not match any on-map units with [filter]")
 
 	for i, u in ipairs(units) do
 		local new_facing
@@ -179,7 +179,7 @@ function wesnoth.wml_actions.set_facing(cfg)
 				{ x = target_loc[1], y = target_loc[2] }
 			)
 		else
-			helper.wml_error("[set_facing] Missing facing or [filter_second] or [filter_location]")
+			wml.error("[set_facing] Missing facing or [filter_second] or [filter_location]")
 		end
 
 		if opposite then
