@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.7.77
+Change-Log v1.2.7.78
+
+version 1.2.7.78:
+--> Quenoth Elves:
+    --> Misc Balance changes
 
 version v1.2.7.77:
 --> Misc:
