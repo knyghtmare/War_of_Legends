@@ -144,3 +144,8 @@ Renlie_Cocoa
 --> Blood Manipulator Defense, standing, ranged attack animations
 --> Damage type icons
 --> WoL race icons
+
+Decitor_Raven
+--> Windsong Farstrider alt
+--> Windsong Hero-variant unit sprites
+--> Windsong Grand Librarian
