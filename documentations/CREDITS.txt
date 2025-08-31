@@ -54,6 +54,7 @@ Skyone (Fate of a Princess / Brave Wings / Return of the Monster)
 ---> Black Knight
 ---> Carapaces
 ---> Drake Smasher and Drake Shockbringer
+---> Hunter Carapace and Tracker Carapace
 
 Zerovirus (Under the Burning Suns - Revision)
 
@@ -144,6 +145,7 @@ Renlie_Cocoa
 --> Blood Manipulator Defense, standing, ranged attack animations
 --> Damage type icons
 --> WoL race icons
+--> Sand Strider, Sand Striker, Soldier Scorpion, Warrior Scorpion
 
 Decitor_Raven
 --> Windsong Farstrider alt
