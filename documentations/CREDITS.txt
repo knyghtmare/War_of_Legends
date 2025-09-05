@@ -135,6 +135,7 @@ Refumee:
 --> Quenoth Acolyte
 --> Quenoth Swiftfoot
 --> Quenoth Night Hunter
+--> Chevalier: new animations
 
 Asmybelle
 --> Harpies
