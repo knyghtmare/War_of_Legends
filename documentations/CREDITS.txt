@@ -153,3 +153,6 @@ Decitor_Raven
 --> Windsong Farstrider alt
 --> Windsong Hero-variant unit sprites
 --> Windsong Grand Librarian
+
+Green_Scarab
+--> Troll Mystic
