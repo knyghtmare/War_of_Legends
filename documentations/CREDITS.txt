@@ -27,7 +27,7 @@ Elvish_Hunter, Eros and Mars (Sojournings of Grog)
 
 ---> Adept of Light
 
-Iris/shadowm/shikadiqueen (Invasion from the Unknown / After the Storm)
+Iris/shadowm/shikadiqueen/Irydacea (Invasion from the Unknown / After the Storm)
 
 ---> Death Baron
 ---> Skeleton Rider
@@ -36,6 +36,7 @@ Iris/shadowm/shikadiqueen (Invasion from the Unknown / After the Storm)
 ---> Elvish Prowler
 ---> Elvish Acolyte-line
 ---> Faerie Sprite-line
+---> Faerie Shaman-line (they just use the old Sprite-line graphics for Sprite, Faerie and Dryad)
 
 (The Dark Hordes)
 
