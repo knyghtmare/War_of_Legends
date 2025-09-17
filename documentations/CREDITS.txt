@@ -35,8 +35,9 @@ Iris/shadowm/shikadiqueen/Irydacea (Invasion from the Unknown / After the Storm)
 ---> Elvish Trapper
 ---> Elvish Prowler
 ---> Elvish Acolyte-line
----> Faerie Sprite-line
----> Faerie Shaman-line (they just use the old Sprite-line graphics for Sprite, Faerie and Dryad)
+---> Faerie Sprite-line (CC BY-SA 4.0)
+---> Faerie Shaman-line (CC BY-SA 4.0)
+    ---> Note: they just use the old Sprite-line graphics for Sprite, Faerie and Dryad
 
 (The Dark Hordes)
 
