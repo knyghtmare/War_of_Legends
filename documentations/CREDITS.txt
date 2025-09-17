@@ -34,7 +34,7 @@ Iris/shadowm/shikadiqueen/Irydacea (Invasion from the Unknown / After the Storm)
 ---> Bone Knight
 ---> Elvish Trapper
 ---> Elvish Prowler
----> Elvish Acolyte-line
+---> Elvish Acolyte-line (CC BY-SA 4.0)
 ---> Faerie Sprite-line (CC BY-SA 4.0)
 ---> Faerie Shaman-line (CC BY-SA 4.0)
     ---> Note: they just use the old Sprite-line graphics for Sprite, Faerie and Dryad
@@ -138,6 +138,8 @@ Refumee:
 --> Quenoth Swiftfoot
 --> Quenoth Night Hunter
 --> Chevalier: new animations
+--> Black Knight
+--> Mounted Bowman
 
 Asmybelle
 --> Harpies
