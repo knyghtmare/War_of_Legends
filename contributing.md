@@ -8,7 +8,7 @@ If you are good at pixel artist and would like to animate some of the units, do 
 
 ## Translations
 
-The POT file is ready and can be translated. I do not attend on adding any new content soon, so it is more or less stable in terms of content.
+The POT file is ready and can be translated. I do not intend on adding any new content soon, so it is more or less stable in terms of content.
 
 ## Lore discussions
 
@@ -16,7 +16,7 @@ _War of Legends_ is set on the fantasy world of Irdya and follows the _Dark Irdy
 
 ## Bug Reports
 
-Please report any bugs here on GitHub or on the forums (preferred).
+Please report any bugs here on GitHub or in the Wesnoth Modders Guild Discord server.
 
 ### Bugs in User-Made Content
 
