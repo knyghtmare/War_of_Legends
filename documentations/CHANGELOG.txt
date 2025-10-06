@@ -1,5 +1,9 @@
 War of Legends
-Change-Log v1.2.7.78
+Change-Log v1.2.7.79
+
+version 1.2.7.79:
+--> Vampires
+    --> Fledgeling animations by Renlie_Cocoa
 
 version 1.2.7.78:
 --> Quenoth Elves:
