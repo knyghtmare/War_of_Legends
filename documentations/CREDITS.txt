@@ -151,6 +151,7 @@ Renlie_Cocoa
 --> Damage type icons
 --> WoL race icons
 --> Sand Strider, Sand Striker, Soldier Scorpion, Warrior Scorpion
+--> Vampire Flegeling attack aniimations
 
 Decitor_Raven
 --> Windsong Farstrider alt
