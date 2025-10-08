@@ -58,6 +58,8 @@ It is required as a dependency to play the following campaigns:
 20. [Sovereign of Runes](https://github.com/knyghtmare/Sovereign_of_Runes)
 21. [Argea - the Old Continent](https://github.com/knyghtmare/Argea_the_Old_Continent)
 22. [Defending Halostrand](https://github.com/knyghtmare/Defending_Halostrand)
+23. [Insurrection](https://github.com/knyghtmare/Insurrection)
+24. [Fate of the Feathers](https://github.com/knyghtmare/Fate_of_the_Feathers)
 
 ### By [revansurik](https://github.com/revansurik)
 
