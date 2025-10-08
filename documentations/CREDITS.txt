@@ -1,3 +1,7 @@
+This file is a list of art licenses of assets in this add-on.
+Unless otherwise stated, the license is GNU GENERAL PUBLIC LICENSE Version 2.
+If otherwise, the stated license is mentioned next to the art credit.
+
 Creators of the Era of Myths
 
 ---> Elementals
@@ -72,6 +76,9 @@ Era of Chaos development team
 ---> Naga Guard
 ---> Naga Shield Guard
 ---> Naga High Guard
+
+Thand
+---> Elvish Vanquisher
 
 gooby, revansurik, LumiousE
 
