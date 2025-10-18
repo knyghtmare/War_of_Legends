@@ -1,5 +1,13 @@
 War of Legends
-Change-Log v1.2.7.79
+Change-Log v1.2.80
+
+versiion 1.2.7.80:
+--> Quenoth Swiftfoot
+   --> adjusted custom pool of traits
+       --> cannot be strong but can have quick or vigilant instead
+   --> Quenoth Night Hunter: capped to 6 MP (-1 MP)
+       --> secondary melee attack only and can backstab
+       --> secondary melee has chaptioc alignment
 
 version 1.2.7.79:
 --> Vampires
