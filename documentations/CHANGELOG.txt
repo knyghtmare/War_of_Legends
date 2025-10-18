@@ -8,6 +8,8 @@ versiion 1.2.7.80:
    --> Quenoth Night Hunter: capped to 6 MP (-1 MP)
        --> secondary melee attack only and can backstab
        --> secondary melee has chaptioc alignment
+--> Shadow Mage and Shadow Lord
+   --> -nightstalk, +shadowdash
 
 version 1.2.7.79:
 --> Vampires
