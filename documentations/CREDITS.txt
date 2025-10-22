@@ -144,6 +144,7 @@ Refumee:
 --> Quenoth Acolyte
 --> Quenoth Swiftfoot
 --> Quenoth Night Hunter
+--> Quenoth Night Slayer
 --> Chevalier: new animations
 --> Black Knight
 --> Mounted Bowman
