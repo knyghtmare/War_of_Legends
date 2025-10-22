@@ -10,7 +10,7 @@ versiion 1.2.7.80:
        --> secondary melee has chaptioc alignment
        --> New advancement: Quenoth Night Slayer
 --> Shadow Mage and Shadow Lord
-   --> -nightstalk, +shadowdash
+   --> new ability: +shadowdash
 
 version 1.2.7.79:
 --> Vampires
