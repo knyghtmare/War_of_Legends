@@ -11,6 +11,8 @@ versiion 1.2.7.80:
        --> New advancement: Quenoth Night Slayer
 --> Shadow Mage and Shadow Lord
    --> new ability: +shadowdash
+--> Goblin Grunt
+   --> Fixed incorrectly set max XP value
 
 version 1.2.7.79:
 --> Vampires
