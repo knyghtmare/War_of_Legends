@@ -116,6 +116,9 @@ Kwandulin
 Dalas
 --> Arcane Enforcer
 --> Shadow Initiate (female variant)
+--> Dark Invader animations
+--> Dark Rider animations
+--> Umbral Sovereign animations
 
 Mechanical
 --> Queen Scorpion
