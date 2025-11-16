@@ -143,6 +143,9 @@ LumiousE/babaisarkar
 -->   Based on existing art: Elf Mystic, Elf Avatar, Aqua Initiate line, Mage of Storms (female), Frostfire Monarch, Prophetess of Light
 -->   Original art: Windsong Courier
 
+dingo_7:
+--> Grim Knight (base only)
+
 Refumee:
 --> Quenoth Acolyte
 --> Quenoth Swiftfoot
