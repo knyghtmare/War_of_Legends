@@ -13,6 +13,10 @@ versiion 1.2.7.80:
    --> new ability: +shadowdash
 --> Goblin Grunt
    --> Fixed incorrectly set max XP value
+--> Steelhive:
+   --> Steel Serpent and Steel Leviathan are no longer in the faction leader or random leader pools
+   --> AI is horribly exploited if this unit is set as leader
+   --> Players gain unfair advantage when this unit is set as leader and player side is Steelhive
 
 version 1.2.7.79:
 --> Vampires
