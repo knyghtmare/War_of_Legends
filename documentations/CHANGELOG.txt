@@ -17,6 +17,10 @@ versiion 1.2.7.80:
    --> Steel Serpent and Steel Leviathan are no longer in the faction leader or random leader pools
    --> AI is horribly exploited if this unit is set as leader
    --> Players gain unfair advantage when this unit is set as leader and player side is Steelhive
+--> Undead
+   --> Add Grim Knight as advancement to the Chocobone
+      --> Mostly just improved stats compared to the level 2 Chocobone
+      --> but the melee attack is increased marginally to account for the Dread weapon special
 
 version 1.2.7.79:
 --> Vampires
