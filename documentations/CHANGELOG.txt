@@ -1,5 +1,19 @@
 War of Legends
-Change-Log v1.2.7.77
+Change-Log v1.2.80
+
+versiion 1.2.7.80 (1.18.x version):
+--> Steelhive:
+   --> Steel Serpent and Steel Leviathan are no longer in the faction leader or random leader pools
+   --> AI is horribly exploited if this unit is set as leader
+   --> Players gain unfair advantage when this unit is set as leader and player side is Steelhive
+
+version 1.2.7.79:
+--> Vampires
+    --> Fledgeling animations by Renlie_Cocoa
+
+version 1.2.7.78:
+--> Quenoth Elves:
+    --> Misc Balance changes
 
 version v1.2.7.77:
 --> Misc:
