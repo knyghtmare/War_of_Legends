@@ -1,4 +1,4 @@
-------- Spread Poison CA --------------
+------- Spread Curse CA --------------
 
 local AH = wesnoth.require "ai/lua/ai_helper.lua"
 local BC = wesnoth.require "ai/lua/battle_calcs.lua"
