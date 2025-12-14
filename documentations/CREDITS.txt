@@ -177,3 +177,10 @@ Green_Scarab
 
 AlbinLePaladin
 --> Dwarvish Shaman unit line
+
+doofus-01
+--> Owl
+--> Great Owl
+--> Giant Crab
+--> Snow Imp
+--> Snow Golem
