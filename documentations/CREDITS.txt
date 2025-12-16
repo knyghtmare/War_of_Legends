@@ -154,6 +154,7 @@ Refumee:
 --> Chevalier: new animations
 --> Black Knight
 --> Mounted Bowman
+--> Warrior Ant
 
 Asmybelle
 --> Harpies
