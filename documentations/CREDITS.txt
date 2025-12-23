@@ -185,3 +185,6 @@ doofus-01
 --> Giant Crab
 --> Snow Imp
 --> Snow Golem
+
+Angelonius
+--> Mounted Warden base frame
