@@ -179,6 +179,9 @@ Green_Scarab
 AlbinLePaladin
 --> Dwarvish Shaman unit line
 
+Turin
+--> Dwarvish Bloodaxe (GPL v2.0 or later)
+
 doofus-01
 --> Owl
 --> Great Owl
