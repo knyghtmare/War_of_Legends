@@ -1,7 +1,13 @@
 War of Legends
-Change-Log v1.2.80
+Change-Log v1.2.81
 
-versiion 1.2.7.80:
+version 1.2.7.81:
+--> Minotaurs:
+    --> all lvl 1 and lvl 2 minotaurs:
+        --> -regen+6, +regen+4
+    --> Centaur Spearmaiden: +3 cost
+
+version 1.2.7.80:
 --> Quenoth Swiftfoot
    --> adjusted custom pool of traits
        --> cannot be strong but can have quick or vigilant instead
