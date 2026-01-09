@@ -5,6 +5,7 @@ version 1.2.7.81:
 --> Minotaurs:
     --> all lvl 1 and lvl 2 minotaurs:
         --> -regen+6, +regen+4
+    --> minotaur mystic: -"minotaur heals"
     --> Centaur Spearmaiden: +3 cost
 
 version 1.2.7.80:
