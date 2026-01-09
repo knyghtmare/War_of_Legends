@@ -1,7 +1,8 @@
 War of Legends
-Change-Log v1.2.81
+Change-Log v1.2.85
 
-version 1.2.7.81:
+version 1.2.7.85
+--> mass min version update
 --> Minotaurs:
     --> all lvl 1 and lvl 2 minotaurs:
         --> -regen+6, +regen+4
