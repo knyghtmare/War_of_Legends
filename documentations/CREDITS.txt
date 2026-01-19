@@ -125,6 +125,7 @@ Mechanical
 --> Goblin Spearmaster (defend + ranged)
 --> Female Orcish Shaman-line
 --> Goblin Grunt (sprites and portrait)
+--> Troll Mentor and Troll Ancientstone
 
 Kordov
 --> Orcish Shaman female portrait
