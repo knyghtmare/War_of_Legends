@@ -157,8 +157,9 @@ Refumee:
 --> Mounted Bowman
 --> Warrior Ant
 
-Asmybelle
+Asmybelle/Asmodeus
 --> Harpies
+--> Rogue Mage/Arcane Enforcer portrait
 
 Renlie_Cocoa
 --> Faerie Spirit defend, standing and movement animations
