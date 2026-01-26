@@ -50,6 +50,10 @@ Iris/shadowm/shikadiqueen/Irydacea (Invasion from the Unknown / After the Storm)
 ---> Demilich (Lich Lord)
 ---> Dread Lich (Elder Lich Lord)
 
+KameRamen (The Dark Hordes)
+
+--> Crypt Hierophant base
+
 Aethaeryn & Neoskel
 
 ---> Dark Legion
