@@ -7,6 +7,11 @@ function wesnoth.wml_actions.give_experience(cfg)
         if unit.valid then
             wesnoth.interface.float_label( unit.x, unit.y, string.format("<span color='cyan'>+%s XP</span>", tostring(amount) ) )
             unit.experience = unit.experience + amount
+            -- if the experience you get is equal to or exceeds the maximum experience amount
+            -- advance the unit
+            if unit.experience >= unit.max_experience then
+                unit:advance(true, true)
+            end
         end
     end    
 end
