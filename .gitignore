@@ -1,6 +1,8 @@
 *.swp
 *.cfg-bak
 
+.vscode/
+
 # adopt to new style
 _server.pbl
 
