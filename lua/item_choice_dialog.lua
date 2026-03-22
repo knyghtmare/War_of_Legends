@@ -80,6 +80,8 @@ function wesnoth.wml_actions.item_choice_dialog(cfg)
 		}
 	}
 
+	-- #textdomain wesnoth-War_of_Legends
+	local _ = wesnoth.textdomain "wesnoth-War_of_Legends"
 	if not can_dismiss then
 		control_buttons_row[2] = T.column {
 			border = "all", border_size = 5,
