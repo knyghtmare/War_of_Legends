@@ -19,7 +19,7 @@ function wesnoth.wml_actions.recall_highest(cfg)
             y = y,
         })
 
-        local unit = wesnoth.get_unit(x, y)
+        local unit = wesnoth.units.get(x, y)
         if unit ~= nil then
             return
         end
