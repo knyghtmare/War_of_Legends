@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-05-07 10:17\n"
+"POT-Creation-Date: 2026-05-11 11:05\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -899,20 +899,37 @@ msgid "Adjacent units with the summoned trait will do 20% more damage"
 msgstr ""
 
 #. [leadership], id=inspire
-#: .\macros\abilities-new.cfg:17
+#: .\macros\abilities-new.cfg:14
+msgid "inspire"
+msgstr ""
+
+#. [leadership], id=inspire
+#: .\macros\abilities-new.cfg:15
+msgid "female^inspire"
+msgstr ""
+
+#. [leadership], id=inspire
+#: .\macros\abilities-new.cfg:16
 msgid ""
 "This unit can inspire own units that are next to it, making them fight "
 "better. Adjacent own units of lower or equal level will deal 15% more damage "
 "plus 15% for each level they are below the inspiring unit."
 msgstr ""
 
+#. [leadership], id=inspire
+#: .\macros\abilities-new.cfg:19
+msgid ""
+"The presence of this unit inspires own units next to it to deal more damage "
+"in combat, though this only applies to units of lower or equal level."
+msgstr ""
+
 #. [illuminates], id=obscure
-#: .\macros\abilities-new.cfg:38
+#: .\macros\abilities-new.cfg:35
 msgid "obscures"
 msgstr ""
 
 #. [illuminates], id=obscure
-#: .\macros\abilities-new.cfg:39
+#: .\macros\abilities-new.cfg:36
 msgid ""
 "This unit darkens the surrounding area, making chaotic units fight better, "
 "and lawful units fight worse.\n"
@@ -921,26 +938,26 @@ msgid ""
 msgstr ""
 
 #. [illuminates], id=obscure
-#: .\macros\abilities-new.cfg:42
+#: .\macros\abilities-new.cfg:39
 msgid ""
 "This unit darkens the surrounding area, making chaotic units fight better, "
 "and lawful units fight worse."
 msgstr ""
 
 #. [resistance], id=protection
-#: .\macros\abilities-new.cfg:56
+#: .\macros\abilities-new.cfg:53
 msgid "protection"
 msgstr ""
 
 #. [resistance], id=protection
-#: .\macros\abilities-new.cfg:57
+#: .\macros\abilities-new.cfg:54
 msgid ""
 "Adjacent units of lower level from this side receive a +20% bonus to all "
 "resistances (up to a maximum of 50%)."
 msgstr ""
 
 #. [leadership], id=terror
-#: .\macros\abilities-new.cfg:82
+#: .\macros\abilities-new.cfg:79
 msgid ""
 "This unit can frighten enemy units that are next to it, making them fight "
 "worse.\n"
@@ -950,17 +967,17 @@ msgid ""
 msgstr ""
 
 #. [heals], id=healing_6
-#: .\macros\abilities-new.cfg:218
+#: .\macros\abilities-new.cfg:215
 msgid "heals +6"
 msgstr ""
 
 #. [heals], id=healing_6
-#: .\macros\abilities-new.cfg:219
+#: .\macros\abilities-new.cfg:216
 msgid "female^heals +6"
 msgstr ""
 
 #. [heals], id=healing_6
-#: .\macros\abilities-new.cfg:220
+#: .\macros\abilities-new.cfg:217
 msgid ""
 "This unit combines herbal remedies with magic to heal units more quickly than"
 " is normally possible on the battlefield.\n"
@@ -971,17 +988,17 @@ msgid ""
 msgstr ""
 
 #. [heals], id=divine_aura
-#: .\macros\abilities-new.cfg:238
+#: .\macros\abilities-new.cfg:235
 msgid "divine aura"
 msgstr ""
 
 #. [heals], id=divine_aura
-#: .\macros\abilities-new.cfg:239
+#: .\macros\abilities-new.cfg:236
 msgid "female^divine aura"
 msgstr ""
 
 #. [heals], id=divine_aura
-#: .\macros\abilities-new.cfg:241
+#: .\macros\abilities-new.cfg:238
 msgid ""
 "Allows the unit to damage adjacent undead/vampire at the beginning of its "
 "side's turn. It cannot kill a unit, it can only lower its health to 1 HP.\n"
@@ -990,53 +1007,53 @@ msgid ""
 msgstr ""
 
 #. [special_note]
-#: .\macros\abilities-new.cfg:259
+#: .\macros\abilities-new.cfg:256
 msgid ""
 "This unit damages adjacent undead/vampire at the beginning of its side's "
 "turn. It cannot kill a unit, it can only lower its health to 1 HP"
 msgstr ""
 
 #. [radiance]
-#: .\macros\abilities-new.cfg:266
+#: .\macros\abilities-new.cfg:263
 msgid "radiance"
 msgstr ""
 
 #. [radiance]
-#: .\macros\abilities-new.cfg:267
+#: .\macros\abilities-new.cfg:264
 msgid ""
 "This unit slows and deals 8 arcane damage all nearby enemy units on the start"
 " of every new turn."
 msgstr ""
 
 #. [special_note]
-#: .\macros\abilities-new.cfg:279
+#: .\macros\abilities-new.cfg:276
 msgid ""
 "This unit slows and deals 4 arcane damage all nearby enemy units on the start"
 " of every new turn."
 msgstr ""
 
 #. [death_cloud]
-#: .\macros\abilities-new.cfg:323
+#: .\macros\abilities-new.cfg:320
 msgid "death cloud"
 msgstr ""
 
 #. [death_cloud]
-#: .\macros\abilities-new.cfg:324
+#: .\macros\abilities-new.cfg:321
 msgid "This unit poisons all nearby enemy units on the start of every new turn."
 msgstr ""
 
 #. [heals], id=heals_minotaur
-#: .\macros\abilities-new.cfg:369
+#: .\macros\abilities-new.cfg:366
 msgid "heals minotaur +4"
 msgstr ""
 
 #. [heals], id=heals_minotaur
-#: .\macros\abilities-new.cfg:370
+#: .\macros\abilities-new.cfg:367
 msgid "female^heals minotaur +4"
 msgstr ""
 
 #. [heals], id=heals_minotaur
-#: .\macros\abilities-new.cfg:371
+#: .\macros\abilities-new.cfg:368
 msgid ""
 "This unit combines herbal remedies with magic to heal units more quickly than"
 " is normally possible on the battlefield. A minotaur unit cared for by this "
@@ -1046,82 +1063,82 @@ msgid ""
 msgstr ""
 
 #. [regenerate], id=regenerates
-#: .\macros\abilities-new.cfg:389
+#: .\macros\abilities-new.cfg:386
 msgid "regenerates +6"
 msgstr ""
 
 #. [regenerate], id=regenerates
-#: .\macros\abilities-new.cfg:390
+#: .\macros\abilities-new.cfg:387
 msgid "female^regenerates +6"
 msgstr ""
 
 #. [regenerate], id=regenerates
-#: .\macros\abilities-new.cfg:391
+#: .\macros\abilities-new.cfg:388
 msgid ""
 "The unit will heal itself 6 HP per turn. If it is poisoned, it will remove "
 "the poison instead of healing."
 msgstr ""
 
 #. [regenerate], id=regenerates
-#: .\macros\abilities-new.cfg:392
+#: .\macros\abilities-new.cfg:389
 msgid ""
 "This unit heals itself each turn, though slightly less as if stationed in a "
 "village."
 msgstr ""
 
 #. [resistance], id=spellguard
-#: .\macros\abilities-new.cfg:455
+#: .\macros\abilities-new.cfg:452
 msgid "spellguard"
 msgstr ""
 
 #. [resistance], id=spellguard
-#: .\macros\abilities-new.cfg:456
+#: .\macros\abilities-new.cfg:453
 msgid ""
 "Adjacent units receive a +10%/+20%/+30% (varies by the ability user level) "
 "bonus to all magical resistances (up to a maximum of 30%)."
 msgstr ""
 
 #. [resistance], id=shield_help
-#: .\macros\abilities-new.cfg:472
+#: .\macros\abilities-new.cfg:469
 msgid "shield help"
 msgstr ""
 
 #. [resistance], id=shield_help
-#: .\macros\abilities-new.cfg:473
+#: .\macros\abilities-new.cfg:470
 msgid ""
 "Allies standing next to this unit recieve +15% physical resistances (up to "
 "30%)"
 msgstr ""
 
 #. [skirmisher], id=shadowdash
-#: .\macros\abilities-new.cfg:491
+#: .\macros\abilities-new.cfg:488
 msgid "shadowdash"
 msgstr ""
 
 #. [skirmisher], id=shadowdash
-#: .\macros\abilities-new.cfg:492
+#: .\macros\abilities-new.cfg:489
 msgid "female^shadowdash"
 msgstr ""
 
 #. [skirmisher], id=shadowdash
-#: .\macros\abilities-new.cfg:493
+#: .\macros\abilities-new.cfg:490
 msgid ""
 "During the night or in dark underground areas, this unit can move past "
 "enemies quickly, and ignores all enemy Zones of Control."
 msgstr ""
 
 #. [heals], id=heals_undead_6hp
-#: .\macros\abilities-new.cfg:509
+#: .\macros\abilities-new.cfg:506
 msgid "heals undead +6"
 msgstr ""
 
 #. [heals], id=heals_undead_6hp
-#: .\macros\abilities-new.cfg:510
+#: .\macros\abilities-new.cfg:507
 msgid "female^heals undead +6"
 msgstr ""
 
 #. [heals], id=heals_undead_6hp
-#: .\macros\abilities-new.cfg:511
+#: .\macros\abilities-new.cfg:508
 msgid ""
 "This unit uses necromantic magic to restore nearby undead allies each turn, "
 "healing them by up to 6 HP."
@@ -1512,13 +1529,8 @@ msgid "Melee: +4 vanquishing slash damage."
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1465
-msgid "ethereal web"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=arcane, range=ranged
-#: .\macros\amlas-wol.cfg:1503
+#: .\macros\amlas-wol.cfg:1502
 #: .\units\elves-wood\Ascetic.cfg:54
 #: .\units\elves-wood\Avatar.cfg:63
 #: .\units\elves-wood\Mystic.cfg:53
@@ -1527,8 +1539,8 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=fire, range=melee
-#: .\macros\amlas-wol.cfg:1514
-#: .\macros\amlas-wol.cfg:1525
+#: .\macros\amlas-wol.cfg:1513
+#: .\macros\amlas-wol.cfg:1524
 #: .\units\faeries\Faerie_Dryad.cfg:41
 #: .\units\faeries\Faerie_Spirit.cfg:66
 #: .\units\faeries\Faerie_Sprite.cfg:30
@@ -1538,23 +1550,13 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=fire, range=ranged
-#: .\macros\amlas-wol.cfg:1515
-#: .\macros\amlas-wol.cfg:1526
+#: .\macros\amlas-wol.cfg:1514
+#: .\macros\amlas-wol.cfg:1525
 #: .\units\faeries\Faerie_Dryad.cfg:50
 #: .\units\faeries\Faerie_Spirit.cfg:78
 #: .\units\faeries\Faerie_Sprite.cfg:39
 #: .\units\faeries\Fire_Faerie.cfg:51
 msgid "mystic fire"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2168
-msgid "rope dart"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2216
-msgid "trishula"
 msgstr ""
 
 #. [advancement], id=amla_shrieker_ranged
@@ -1757,44 +1759,44 @@ msgid ""
 msgstr ""
 
 #. [message], speaker=narrator
-#: .\macros\scenario-utils.cfg:35
+#: .\macros\scenario-utils.cfg:34
 msgid "To use a potion, right-click on any unit and select the appropriate option."
 msgstr ""
 
-#: .\macros\scenario-utils.cfg:40
+#: .\macros\scenario-utils.cfg:39
 msgid "(Remaining doses: $healing_potion)"
 msgstr ""
 
-#: .\macros\scenario-utils.cfg:43
+#: .\macros\scenario-utils.cfg:42
 msgid "(Remaining doses: $haste_potion)"
 msgstr ""
 
-#: .\macros\scenario-utils.cfg:46
+#: .\macros\scenario-utils.cfg:45
 msgid "Use healing potion"
 msgstr ""
 
-#: .\macros\scenario-utils.cfg:49
+#: .\macros\scenario-utils.cfg:48
 msgid "Use haste potion"
 msgstr ""
 
 #. [message], speaker=narrator
-#: .\macros\scenario-utils.cfg:93
-#: .\macros\scenario-utils.cfg:101
+#: .\macros\scenario-utils.cfg:92
+#: .\macros\scenario-utils.cfg:100
 msgid "Potions"
 msgstr ""
 
 #. [message], speaker=narrator
-#: .\macros\scenario-utils.cfg:94
+#: .\macros\scenario-utils.cfg:93
 msgid "You have found $potion_totals."
 msgstr ""
 
 #. [message], speaker=narrator
-#: .\macros\scenario-utils.cfg:102
+#: .\macros\scenario-utils.cfg:101
 msgid "You have found $potion_details, for a total of $potion_totals."
 msgstr ""
 
 #. [unstore_unit]
-#: .\macros\scenario-utils.cfg:149
+#: .\macros\scenario-utils.cfg:148
 msgid "hasted!"
 msgstr ""
 
@@ -10137,11 +10139,6 @@ msgid ""
 "battle, mentors are capable of causing destructive landslides. Mentors rarely"
 " use their fists, but all trolls know that their blows carry something more "
 "terrible than pain — the wrath of the entire tribe!"
-msgstr ""
-
-#. [attack], type=impact, range=ranged
-#: .\units\trolls\Troll_Mentor.cfg:40
-msgid "mud glob"
 msgstr ""
 
 #. [unit_type], id=Troll Warbanner, race=troll
