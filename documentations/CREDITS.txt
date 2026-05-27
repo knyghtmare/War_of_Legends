@@ -54,6 +54,10 @@ KameRamen (The Dark Hordes)
 
 --> Crypt Hierophant base
 
+Neoriceisgood
+
+--> Risen Serf, Risen Hulk and Risen Collosus
+
 Aethaeryn & Neoskel
 
 ---> Dark Legion
@@ -116,6 +120,7 @@ Zerovirus
 
 Kwandulin
 --> Deep Elves
+--> Skeleton Custodian
 
 Dalas
 --> Arcane Enforcer
@@ -130,6 +135,7 @@ Mechanical
 --> Female Orcish Shaman-line
 --> Goblin Grunt (sprites and portrait)
 --> Troll Mentor and Troll Ancientstone
+--> Bone Skeleton
 
 Kordov
 --> Orcish Shaman female portrait
@@ -160,6 +166,9 @@ Refumee:
 --> Black Knight
 --> Mounted Bowman
 --> Warrior Ant
+--> Reptilian Husk
+--> Reptilian Stalker
+--> Reptilian Trapper
 
 Asmybelle/Asmodeus
 --> Harpies
@@ -197,3 +206,13 @@ doofus-01
 
 Angelonius
 --> Mounted Warden base frame
+
+WhiteWolf
+--> Bone Ranger
+--> Death Stalker
+
+Durmoth
+--> Grave Titan
+--> Grave Sentinel
+--> Skull Barrager
+--> Skull Slinger
