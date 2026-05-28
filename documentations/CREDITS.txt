@@ -95,6 +95,7 @@ gooby, revansurik, LumiousE
 Under the Burning Suns
 
 ---> Quenoth Elves, weapon specials and abilities
+---> Flesh Golem
 
 ghype
 ---> Axethrower-line
