@@ -8,9 +8,11 @@ function wesnoth.interface.game_display.unit_status()
 	local s = old_unit_status()
 
 	if u.status.dazed then
+		local _ = wesnoth.textdomain "wesnoth-utbs"
 		table.insert(s, { "element", { image = "misc/dazed-status-icon.png~CROP_TRANSPARENCY()",
 			tooltip = _ "dazed: This unit is dazed. It suffers a -10% penalty to both its defense and chance to hit (except for magical attacks)."
 		} } )
+		local _ = wesnoth.textdomain "wesnoth-War_of_Legends"
 	end
 
 	if u.status.WOL_curse then

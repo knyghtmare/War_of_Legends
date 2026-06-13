@@ -270,6 +270,7 @@ function wml_actions.choice_box( cfg )
 	local variable = cfg.variable or wml.error( "Missing variable= key in [choice_box]" )
 	local choice_values = {} -- it will be populated by preshow, and supply values to postshow
 
+	local _ = wesnoth.textdomain "wesnoth-lib"
 	local buttonbox = T.grid {
 				T.row {
 					T.column {
@@ -289,7 +290,8 @@ function wml_actions.choice_box( cfg )
 					}
 				}
 			}
-
+	local _ = wesnoth.textdomain "wesnoth-War_of_Legends"		
+	
 	local toggle_grid = T.grid {
 				T.row {
 					T.column {
