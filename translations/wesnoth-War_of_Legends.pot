@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-06-16 14:35\n"
+"POT-Creation-Date: 2026-06-22 09:07\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1086,59 +1086,78 @@ msgid ""
 "village."
 msgstr ""
 
+#. [firststrike], id=initiative
+#: .\macros\abilities-new.cfg:398
+msgid "initiative"
+msgstr ""
+
+#. [firststrike], id=initiative
+#: .\macros\abilities-new.cfg:399
+msgid ""
+"All adjacent friendly units will strike first in melee combat, even when "
+"defending."
+msgstr ""
+
+#. [firststrike], id=initiative
+#: .\macros\abilities-new.cfg:400
+msgid ""
+"This unit’s grasp of melee tactics allows adjacent allies to strike the first"
+" blow even when defending."
+msgstr ""
+
 #. [resistance], id=spellguard
-#: .\macros\abilities-new.cfg:452
+#: .\macros\abilities-new.cfg:450
 msgid "spellguard"
 msgstr ""
 
 #. [resistance], id=spellguard
-#: .\macros\abilities-new.cfg:453
+#: .\macros\abilities-new.cfg:451
 msgid ""
 "Adjacent units receive a +10%/+20%/+30% (varies by the ability user level) "
 "bonus to all magical resistances (up to a maximum of 30%)."
 msgstr ""
 
 #. [resistance], id=shield_help
-#: .\macros\abilities-new.cfg:469
+#: .\macros\abilities-new.cfg:467
 msgid "shield help"
 msgstr ""
 
 #. [resistance], id=shield_help
-#: .\macros\abilities-new.cfg:470
+#: .\macros\abilities-new.cfg:468
 msgid ""
 "Allies standing next to this unit recieve +15% physical resistances (up to "
 "30%)"
 msgstr ""
 
 #. [skirmisher], id=shadowdash
-#: .\macros\abilities-new.cfg:488
+#: .\macros\abilities-new.cfg:486
 msgid "shadowdash"
 msgstr ""
 
 #. [skirmisher], id=shadowdash
-#: .\macros\abilities-new.cfg:489
+#: .\macros\abilities-new.cfg:487
 msgid "female^shadowdash"
 msgstr ""
 
 #. [skirmisher], id=shadowdash
-#: .\macros\abilities-new.cfg:490
+#: .\macros\abilities-new.cfg:488
 msgid ""
 "During the night or in dark underground areas, this unit can move past "
 "enemies quickly, and ignores all enemy Zones of Control."
 msgstr ""
 
 #. [heals], id=heals_undead_6hp
-#: .\macros\abilities-new.cfg:506
+#: .\macros\abilities-new.cfg:504
 msgid "heals undead +6"
 msgstr ""
 
 #. [heals], id=heals_undead_6hp
-#: .\macros\abilities-new.cfg:507
+#: .\macros\abilities-new.cfg:505
 msgid "female^heals undead +6"
 msgstr ""
 
 #. [heals], id=heals_undead_6hp
-#: .\macros\abilities-new.cfg:508
+#: .\macros\abilities-new.cfg:506
 msgid ""
 "This unit uses necromantic magic to restore nearby undead allies each turn, "
 "healing them by up to 6 HP."
