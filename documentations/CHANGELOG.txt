@@ -1,5 +1,8 @@
 War of Legends
-Change-Log v1.2.85
+Change-Log v1.2.86
+
+version 1.2.7.86
+--> Translation: clean translatable strings to use more mainline strings.
 
 version 1.2.7.85
 --> mass min version update
