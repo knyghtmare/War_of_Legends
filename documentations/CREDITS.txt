@@ -137,6 +137,7 @@ Mechanical
 --> Goblin Grunt (sprites and portrait)
 --> Troll Mentor and Troll Ancientstone
 --> Bone Skeleton
+--> Rime Wisp, Rime Wraith and Rime Reaver
 
 Kordov
 --> Orcish Shaman female portrait
