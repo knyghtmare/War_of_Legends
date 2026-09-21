@@ -1,7 +1,12 @@
 War of Legends
-Change-Log v1.2.80
+Change-Log v1.2.85
 
-versiion 1.2.7.80 (1.18.x version):
+version 1.2.85 (1.18.x version):
+--> Nightmares:
+    --> Unstable Elemental: +2 cost
+    --> Nature Wrath: +5 cost
+
+version 1.2.7.80 (1.18.x version):
 --> Steelhive:
    --> Steel Serpent and Steel Leviathan are no longer in the faction leader or random leader pools
    --> AI is horribly exploited if this unit is set as leader
