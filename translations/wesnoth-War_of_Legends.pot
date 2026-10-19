@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-10-19 09:46\n"
+"POT-Creation-Date: 2026-10-19 13:55\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1544,7 +1544,7 @@ msgstr ""
 #. [modify_unit_type]
 #. [attack], type=blade, range=melee
 #: .\macros\amlas-wol.cfg:227
-#: .\macros\amlas-wol.cfg:2580
+#: .\macros\amlas-wol.cfg:2588
 #: .\units\human-aragwaithi\Aragwaith_Ancient_Banner.cfg:49
 #: .\units\windsong\Arbiter.cfg:35
 #: .\units\windsong\Librarian.cfg:36
@@ -1574,26 +1574,6 @@ msgid "rip"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:347
-#: .\macros\amlas-wol.cfg:421
-#: .\macros\amlas-wol.cfg:864
-#: .\macros\amlas-wol.cfg:870
-#: .\macros\amlas-wol.cfg:898
-#: .\macros\amlas-wol.cfg:925
-#: .\macros\amlas-wol.cfg:952
-#: .\macros\amlas-wol.cfg:2140
-#: .\macros\amlas-wol.cfg:2668
-#: .\macros\amlas-wol.cfg:2830
-msgid "crossbow"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:356
-#: .\macros\amlas-wol.cfg:383
-msgid "faerie touch"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=cold, range=melee
 #: .\macros\amlas-wol.cfg:357
 #: .\units\elves-deep\Corrupted.cfg:46
@@ -1605,13 +1585,6 @@ msgstr ""
 #: .\macros\amlas-wol.cfg:365
 #: .\units\elves-deep\Elthare.cfg:44
 msgid "magical sword"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:366
-#: .\macros\amlas-wol.cfg:384
-#: .\macros\amlas-wol.cfg:1927
-msgid "faerie fire"
 msgstr ""
 
 #. [modify_unit_type]
@@ -1637,39 +1610,6 @@ msgid "discharge"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:393
-#: .\macros\amlas-wol.cfg:1327
-#: .\macros\amlas-wol.cfg:2275
-#: .\macros\amlas-wol.cfg:2326
-#: .\macros\amlas-wol.cfg:2336
-#: .\macros\amlas-wol.cfg:2346
-#: .\macros\amlas-wol.cfg:2375
-#: .\macros\amlas-wol.cfg:2395
-#: .\macros\amlas-wol.cfg:2405
-#: .\macros\amlas-wol.cfg:3357
-#: .\macros\amlas-wol.cfg:3367
-#: .\macros\amlas-wol.cfg:3436
-#: .\macros\amlas-wol.cfg:3446
-msgid "fangs"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:394
-#: .\macros\amlas-wol.cfg:1229
-#: .\macros\amlas-wol.cfg:2215
-msgid "trample"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:402
-#: .\macros\amlas-wol.cfg:1410
-#: .\macros\amlas-wol.cfg:1441
-#: .\macros\amlas-wol.cfg:1701
-#: .\macros\amlas-wol.cfg:1717
-msgid "blade"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=impact, range=ranged
 #: .\macros\amlas-wol.cfg:411
 #: .\units\elves-deep\Seer.cfg:43
@@ -1677,66 +1617,10 @@ msgid "will of Shassagoth"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:420
-#: .\macros\amlas-wol.cfg:878
-#: .\macros\amlas-wol.cfg:906
-#: .\macros\amlas-wol.cfg:942
-#: .\macros\amlas-wol.cfg:1028
-#: .\macros\amlas-wol.cfg:1037
-#: .\macros\amlas-wol.cfg:1128
-#: .\macros\amlas-wol.cfg:1249
-#: .\macros\amlas-wol.cfg:1475
-#: .\macros\amlas-wol.cfg:2325
-#: .\macros\amlas-wol.cfg:2335
-#: .\macros\amlas-wol.cfg:2345
-#: .\macros\amlas-wol.cfg:2471
-#: .\macros\amlas-wol.cfg:2829
-#: .\macros\amlas-wol.cfg:2865
-#: .\macros\amlas-wol.cfg:2951
-msgid "sword"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:429
-msgid "orb"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=arcane, range=ranged
 #: .\macros\amlas-wol.cfg:430
 #: .\units\elves-deep\Wisp_Mother.cfg:66
 msgid "arcane barrage"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:459
-#: .\macros\amlas-wol.cfg:472
-msgid "battle claws"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:460
-#: .\macros\amlas-wol.cfg:473
-#: .\macros\amlas-wol.cfg:483
-#: .\macros\amlas-wol.cfg:495
-#: .\macros\amlas-wol.cfg:505
-#: .\macros\amlas-wol.cfg:552
-#: .\macros\amlas-wol.cfg:562
-#: .\macros\amlas-wol.cfg:575
-#: .\macros\amlas-wol.cfg:1798
-#: .\macros\amlas-wol.cfg:3458
-msgid "fire breath"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:482
-msgid "war blade"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:494
-#: .\macros\amlas-wol.cfg:538
-msgid "war talon"
 msgstr ""
 
 #. [modify_unit_type]
@@ -1748,113 +1632,12 @@ msgid "warhammer"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:522
-#: .\macros\amlas-wol.cfg:529
-#: .\macros\amlas-wol.cfg:830
-#: .\macros\amlas-wol.cfg:837
-msgid "halberd"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:539
-#: .\macros\amlas-wol.cfg:2481
-#: .\macros\amlas-wol.cfg:2739
-#: .\macros\amlas-wol.cfg:3210
-#: .\macros\amlas-wol.cfg:3211
-msgid "trident"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:540
-#: .\macros\amlas-wol.cfg:1356
-#: .\macros\amlas-wol.cfg:1364
-#: .\macros\amlas-wol.cfg:1728
-msgid "ram"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:551
-#: .\macros\amlas-wol.cfg:2414
-msgid "slam"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:561
-#: .\macros\amlas-wol.cfg:1029
-msgid "torch"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:573
-#: .\macros\amlas-wol.cfg:632
-#: .\macros\amlas-wol.cfg:642
-#: .\macros\amlas-wol.cfg:1195
-#: .\macros\amlas-wol.cfg:1206
-#: .\macros\amlas-wol.cfg:1420
-#: .\macros\amlas-wol.cfg:1925
-#: .\macros\amlas-wol.cfg:2110
-#: .\macros\amlas-wol.cfg:2782
-#: .\macros\amlas-wol.cfg:2901
-#: .\macros\amlas-wol.cfg:2927
-#: .\macros\amlas-wol.cfg:3231
-#: .\macros\amlas-wol.cfg:3242
-#: .\macros\amlas-wol.cfg:3253
-#: .\macros\amlas-wol.cfg:3272
-#: .\macros\amlas-wol.cfg:3294
-#: .\macros\amlas-wol.cfg:3303
-msgid "staff"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=cold, range=ranged
 #: .\macros\amlas-wol.cfg:574
 #: .\units\drakes\Apprentice.cfg:41
 #: .\units\drakes\Caster.cfg:42
 #: .\units\drakes\Sorceress.cfg:42
 msgid "ice shot"
-msgstr ""
-
-#. [modify_unit_type]
-#. [attack], type=pierce, range=melee
-#: .\macros\amlas-wol.cfg:592
-#: .\macros\amlas-wol.cfg:599
-#: .\macros\amlas-wol.cfg:614
-#: .\macros\amlas-wol.cfg:621
-#: .\macros\amlas-wol.cfg:814
-#: .\macros\amlas-wol.cfg:1228
-#: .\macros\amlas-wol.cfg:1260
-#: .\macros\amlas-wol.cfg:2091
-#: .\macros\amlas-wol.cfg:2204
-#: .\macros\amlas-wol.cfg:2695
-#: .\macros\amlas-wol.cfg:2747
-#: .\macros\amlas-wol.cfg:2773
-#: .\macros\amlas-wol.cfg:2774
-#: .\units\undead\Bone_Guardian.cfg:33
-#: .\units\undead\Skeleton_Custodian.cfg:34
-msgid "spear"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:633
-#: .\macros\amlas-wol.cfg:643
-msgid "curse"
-msgstr ""
-
-#. [modify_unit_type]
-#. [attack], type=blade, range=melee
-#: .\macros\amlas-wol.cfg:680
-#: .\macros\amlas-wol.cfg:701
-#: .\macros\amlas-wol.cfg:1336
-#: .\macros\amlas-wol.cfg:2082
-#: .\macros\amlas-wol.cfg:2233
-#: .\macros\amlas-wol.cfg:2394
-#: .\macros\amlas-wol.cfg:2648
-#: .\macros\amlas-wol.cfg:3339
-#: .\macros\amlas-wol.cfg:3358
-#: .\units\undead\Reptilian_Husk.cfg:40
-#: .\units\undead\Reptilian_Stalker.cfg:40
-#: .\units\undead\Reptilian_Terror.cfg:41
-msgid "claws"
 msgstr ""
 
 #. [modify_unit_type]
@@ -1873,20 +1656,6 @@ msgid "song of storm"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:690
-#: .\macros\amlas-wol.cfg:1431
-#: .\macros\amlas-wol.cfg:2165
-#: .\macros\amlas-wol.cfg:2316
-#: .\macros\amlas-wol.cfg:2356
-#: .\macros\amlas-wol.cfg:2365
-#: .\macros\amlas-wol.cfg:2667
-#: .\macros\amlas-wol.cfg:2686
-#: .\macros\amlas-wol.cfg:2854
-#: .\macros\amlas-wol.cfg:2913
-msgid "dagger"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=arcane, range=ranged
 #: .\macros\amlas-wol.cfg:691
 #: .\units\harpies\Minstrel.cfg:102
@@ -1895,44 +1664,17 @@ msgid "beguiling song"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:692
-#: .\macros\amlas-wol.cfg:2065
-#: .\macros\amlas-wol.cfg:2074
-msgid "wail"
-msgstr ""
-
-#. [modify_unit_type]
-#. [attack], type=pierce, range=ranged
-#: .\macros\amlas-wol.cfg:702
-#: .\units\harpies\Shrieker.cfg:118
-msgid "shriek"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=blade, range=melee
-#: .\macros\amlas-wol.cfg:710
+#: .\macros\amlas-wol.cfg:712
 #: .\units\harpies\Nightgaunt.cfg:64
 msgid "deathclaws"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:719
-#: .\macros\amlas-wol.cfg:720
-#: .\macros\amlas-wol.cfg:738
-#: .\macros\amlas-wol.cfg:847
-#: .\macros\amlas-wol.cfg:889
-#: .\macros\amlas-wol.cfg:907
-#: .\macros\amlas-wol.cfg:915
-#: .\macros\amlas-wol.cfg:1038
-#: .\macros\amlas-wol.cfg:1700
-msgid "lance"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=blade, range=melee
-#: .\macros\amlas-wol.cfg:729
-#: .\macros\amlas-wol.cfg:748
-#: .\macros\amlas-wol.cfg:758
+#: .\macros\amlas-wol.cfg:731
+#: .\macros\amlas-wol.cfg:750
+#: .\macros\amlas-wol.cfg:760
 #: .\units\harpies\Ashtail.cfg:60
 #: .\units\harpies\Bomber.cfg:56
 #: .\units\harpies\Emissary.cfg:103
@@ -1950,20 +1692,15 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=blade, range=ranged
-#: .\macros\amlas-wol.cfg:730
+#: .\macros\amlas-wol.cfg:732
 #: .\units\harpies\Flockmaster.cfg:45
 #: .\units\harpies\Raptortongue.cfg:41
 msgid "falcon storm"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:739
-msgid "falcon"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=pierce, range=melee
-#: .\macros\amlas-wol.cfg:749
+#: .\macros\amlas-wol.cfg:751
 #: .\units\harpies\Emissary.cfg:113
 #: .\units\harpies\Messenger.cfg:108
 #: .\units\harpies\Traveller.cfg:104
@@ -1972,7 +1709,7 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=impact, range=ranged
-#: .\macros\amlas-wol.cfg:759
+#: .\macros\amlas-wol.cfg:761
 #: .\units\harpies\Ashtail.cfg:69
 #: .\units\harpies\Bomber.cfg:65
 #: .\units\harpies\Rockthrower.cfg:65
@@ -1981,31 +1718,15 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=fire, range=ranged
-#: .\macros\amlas-wol.cfg:760
+#: .\macros\amlas-wol.cfg:762
 #: .\units\harpies\Ashtail.cfg:78
 #: .\units\harpies\Bomber.cfg:74
 msgid "fiery hail"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:787
-msgid "glaive"
-msgstr ""
-
-#. [modify_unit_type]
-#. [attack], type=impact, range=melee
-#: .\macros\amlas-wol.cfg:788
-#: .\macros\amlas-wol.cfg:857
-#: .\macros\amlas-wol.cfg:1176
-#: .\macros\amlas-wol.cfg:2131
-#: .\macros\amlas-wol.cfg:3490
-#: .\units\undead\Grave_Titan.cfg:46
-msgid "shield"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=blade, range=melee
-#: .\macros\amlas-wol.cfg:796
+#: .\macros\amlas-wol.cfg:800
 #: .\units\human-loyalists\Loyalist_Chevalier.cfg:37
 #: .\units\human-loyalists\Loyalist_Crusader.cfg:38
 msgid "divine sword"
@@ -2013,90 +1734,22 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=arcane, range=ranged
-#: .\macros\amlas-wol.cfg:797
+#: .\macros\amlas-wol.cfg:801
 #: .\units\human-loyalists\Loyalist_Chevalier.cfg:49
 #: .\units\human-loyalists\Loyalist_Crusader.cfg:50
 msgid "divine lightning"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:805
-#: .\macros\amlas-wol.cfg:888
-#: .\macros\amlas-wol.cfg:897
-#: .\macros\amlas-wol.cfg:951
-#: .\macros\amlas-wol.cfg:1137
-msgid "longsword"
-msgstr ""
-
-#. [modify_unit_type]
-#. [attack], type=pierce, range=ranged
-#: .\macros\amlas-wol.cfg:815
-#: .\macros\amlas-wol.cfg:1261
-#: .\macros\amlas-wol.cfg:2205
-#: .\macros\amlas-wol.cfg:2696
-#: .\units\undead\Bone_Guardian.cfg:45
-#: .\units\undead\Skeleton_Custodian.cfg:45
-msgid "javelin"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:846
-#: .\macros\amlas-wol.cfg:969
-#: .\macros\amlas-wol.cfg:1118
-#: .\macros\amlas-wol.cfg:2619
-#: .\macros\amlas-wol.cfg:2638
-#: .\macros\amlas-wol.cfg:3312
-msgid "flail"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:879
-msgid "longbow"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:924
-msgid "saber"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:934
-#: .\macros\amlas-wol.cfg:2878
-#: .\macros\amlas-wol.cfg:2889
-msgid "morning star"
-msgstr ""
-
-#. [modify_unit_type]
-#. [attack], type=pierce, range=ranged
-#: .\macros\amlas-wol.cfg:943
-#: .\macros\amlas-wol.cfg:1250
-#: .\macros\amlas-wol.cfg:1401
-#: .\macros\amlas-wol.cfg:1432
-#: .\macros\amlas-wol.cfg:2166
-#: .\macros\amlas-wol.cfg:2357
-#: .\macros\amlas-wol.cfg:2366
-#: .\macros\amlas-wol.cfg:2452
-#: .\macros\amlas-wol.cfg:2843
-#: .\macros\amlas-wol.cfg:2855
-#: .\macros\amlas-wol.cfg:2866
-#: .\macros\amlas-wol.cfg:2952
-#: .\units\undead\Bone_Ranger.cfg:41
-#: .\units\undead\Bone_Ranger.cfg:51
-#: .\units\undead\Death_Stalker.cfg:41
-#: .\units\undead\Death_Stalker.cfg:51
-msgid "bow"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=impact, range=melee
-#: .\macros\amlas-wol.cfg:961
+#: .\macros\amlas-wol.cfg:965
 #: .\units\human-loyalists\Loyalist_Titanium_Decimator.cfg:31
 msgid "reinforced flail"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=impact, range=melee
-#: .\macros\amlas-wol.cfg:1011
+#: .\macros\amlas-wol.cfg:1015
 #: .\units\human-legion\Guardian.cfg:24
 #: .\units\human-legion\Sentinel.cfg:25
 msgid "war hammer"
@@ -2104,114 +1757,59 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=impact, range=melee
-#: .\macros\amlas-wol.cfg:1019
+#: .\macros\amlas-wol.cfg:1023
 #: .\units\human-legion\Crusher.cfg:26
 msgid "sledgehammer"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1053
+#: .\macros\amlas-wol.cfg:1057
 msgid "Melee: +1 halberd damage."
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1059
+#: .\macros\amlas-wol.cfg:1063
 msgid "Melee: +2 halberd damage."
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1067
-msgid "pike"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1068
-msgid "thunderstick"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1077
-#: .\macros\amlas-wol.cfg:2678
-msgid "hatchet"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1083
-#: .\macros\amlas-wol.cfg:1088
-#: .\macros\amlas-wol.cfg:2190
+#: .\macros\amlas-wol.cfg:1087
+#: .\macros\amlas-wol.cfg:1092
+#: .\macros\amlas-wol.cfg:2198
 msgid "Ranged: +1 bow damage."
 msgstr ""
 
 #. [modify_unit_type]
-#. [attack], type=blade, range=melee
-#: .\macros\amlas-wol.cfg:1096
-#: .\macros\amlas-wol.cfg:2130
-#: .\macros\amlas-wol.cfg:2148
-#: .\macros\amlas-wol.cfg:2214
-#: .\macros\amlas-wol.cfg:2386
-#: .\macros\amlas-wol.cfg:2939
-#: .\units\undead\Grave_Titan.cfg:36
-msgid "axe"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1103
-#: .\macros\amlas-wol.cfg:1460
+#: .\macros\amlas-wol.cfg:1107
+#: .\macros\amlas-wol.cfg:1464
 msgid "Ranged: +1 crossbow damage."
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1109
-#: .\macros\amlas-wol.cfg:1466
+#: .\macros\amlas-wol.cfg:1113
+#: .\macros\amlas-wol.cfg:1470
 msgid "Ranged: +2 fire crossbow damage."
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1119
-#: .\macros\amlas-wol.cfg:2783
-#: .\macros\amlas-wol.cfg:3313
-msgid "lightbeam"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=blade, range=ranged
-#: .\macros\amlas-wol.cfg:1129
+#: .\macros\amlas-wol.cfg:1133
 #: .\units\human-legion\Commander.cfg:48
 msgid "razor chakram"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=blade, range=melee
-#: .\macros\amlas-wol.cfg:1145
+#: .\macros\amlas-wol.cfg:1149
 #: .\units\human-legion\Berserker.cfg:24
 msgid "broadsword"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1175
-#: .\macros\amlas-wol.cfg:2139
-#: .\macros\amlas-wol.cfg:2676
-msgid "battle axe"
-msgstr ""
-
-#. [modify_unit_type]
-#. [attack], type=impact, range=melee
-#: .\macros\amlas-wol.cfg:1185
-#: .\macros\amlas-wol.cfg:2224
-#: .\macros\amlas-wol.cfg:2628
-#: .\macros\amlas-wol.cfg:3200
-#: .\macros\amlas-wol.cfg:3489
-#: .\units\undead\Risen_Colossus.cfg:24
-#: .\units\undead\Risen_Hulk.cfg:23
-#: .\units\undead\Risen_Serf.cfg:23
-msgid "mace"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=arcane, range=ranged
-#: .\macros\amlas-wol.cfg:1196
-#: .\macros\amlas-wol.cfg:1207
-#: .\macros\amlas-wol.cfg:3232
+#: .\macros\amlas-wol.cfg:1200
+#: .\macros\amlas-wol.cfg:1211
+#: .\macros\amlas-wol.cfg:3240
 #: .\units\human-mages\Mage_Cleric.cfg:42
 #: .\units\human-mages\Mage_Prophetess_of_Light.cfg:46
 #: .\units\minotaurs\Elder.cfg:40
@@ -2222,20 +1820,10 @@ msgid "sacred fire"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1197
-#: .\macros\amlas-wol.cfg:2529
-#: .\macros\amlas-wol.cfg:2560
-#: .\macros\amlas-wol.cfg:2928
-#: .\macros\amlas-wol.cfg:3258
-#: .\macros\amlas-wol.cfg:3295
-msgid "fireball"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=blade, range=melee
 #. [attack], type=impact, range=ranged
-#: .\macros\amlas-wol.cfg:1217
-#: .\macros\amlas-wol.cfg:1218
+#: .\macros\amlas-wol.cfg:1221
+#: .\macros\amlas-wol.cfg:1222
 #: .\units\minotaurs\Cutthroat.cfg:27
 #: .\units\minotaurs\Cutthroat.cfg:38
 #: .\units\minotaurs\Executioner.cfg:33
@@ -2247,7 +1835,7 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=blade, range=melee
-#: .\macros\amlas-wol.cfg:1239
+#: .\macros\amlas-wol.cfg:1243
 #: .\units\minotaurs\Behemoth.cfg:28
 #: .\units\minotaurs\Behemoth_Ancient.cfg:29
 msgid "maul"
@@ -2255,7 +1843,7 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=cold, range=melee
-#: .\macros\amlas-wol.cfg:1293
+#: .\macros\amlas-wol.cfg:1297
 #: .\units\nightmares\Cloud_of_Gloom.cfg:38
 #: .\units\nightmares\Eternal_Night.cfg:39
 msgid "cold aura"
@@ -2263,7 +1851,7 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=cold, range=ranged
-#: .\macros\amlas-wol.cfg:1294
+#: .\macros\amlas-wol.cfg:1298
 #: .\units\nightmares\Cloud_of_Gloom.cfg:51
 #: .\units\nightmares\Eternal_Night.cfg:52
 #: .\units\nightmares\Howling_Darkness.cfg:36
@@ -2272,7 +1860,7 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=arcane, range=melee
-#: .\macros\amlas-wol.cfg:1303
+#: .\macros\amlas-wol.cfg:1307
 #: .\units\nightmares\Death_Spectre.cfg:36
 #: .\units\nightmares\Life_Thief.cfg:32
 #: .\units\nightmares\Soul_Snatcher.cfg:34
@@ -2280,18 +1868,18 @@ msgid "soul grasp"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1315
+#: .\macros\amlas-wol.cfg:1319
 msgid "melee damage"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1318
+#: .\macros\amlas-wol.cfg:1322
 msgid "ranged damage"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=arcane, range=ranged
-#: .\macros\amlas-wol.cfg:1337
+#: .\macros\amlas-wol.cfg:1341
 #: .\units\aberrations\Black_Cat.cfg:43
 #: .\units\aberrations\Calamity.cfg:48
 #: .\units\aberrations\Jinx_Beast.cfg:45
@@ -2299,14 +1887,8 @@ msgid "ill omen"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1346
-#: .\macros\amlas-wol.cfg:1442
-msgid "kick"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=arcane_focus, range=ranged
-#: .\macros\amlas-wol.cfg:1347
+#: .\macros\amlas-wol.cfg:1351
 #: .\units\aberrations\Inquisitor.cfg:44
 #: .\units\aberrations\Scornful_Watcher.cfg:49
 #: .\units\aberrations\Spiteful_Watcher.cfg:42
@@ -2316,8 +1898,8 @@ msgstr ""
 #. [modify_unit_type]
 #. [attack], type=cold, range=melee
 #. [attack], type=blade, range=melee
-#: .\macros\amlas-wol.cfg:1373
-#: .\macros\amlas-wol.cfg:1739
+#: .\macros\amlas-wol.cfg:1377
+#: .\macros\amlas-wol.cfg:1747
 #: .\units\monsters\Ice_Ghost.cfg:28
 #: .\units\nightmares-elementals\Rime_Reaver.cfg:29
 #: .\units\nightmares-elementals\Rime_Wisp.cfg:29
@@ -2327,25 +1909,15 @@ msgid "frost claws"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1400
-msgid "greatsword"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=impact, range=melee
-#: .\macros\amlas-wol.cfg:1409
+#: .\macros\amlas-wol.cfg:1413
 #: .\units\orcs\Subjugator.cfg:29
 msgid "chain flail"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1411
-msgid "knife"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=arcane, range=ranged
-#: .\macros\amlas-wol.cfg:1421
+#: .\macros\amlas-wol.cfg:1425
 #: .\units\orcs\Shaman.cfg:43
 #: .\units\orcs\Sorcerer.cfg:42
 #: .\units\orcs\Warlock.cfg:43
@@ -2354,8 +1926,8 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=fire, range=ranged
-#: .\macros\amlas-wol.cfg:1422
-#: .\macros\amlas-wol.cfg:3243
+#: .\macros\amlas-wol.cfg:1426
+#: .\macros\amlas-wol.cfg:3251
 #: .\units\human-mages\Mage_Forest.cfg:51
 #: .\units\human-mages\Mage_Nature.cfg:49
 #: .\units\human-mages\Mage_Wood.cfg:49
@@ -2366,74 +1938,29 @@ msgid "nature flare"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1443
-#: .\macros\amlas-wol.cfg:2914
-msgid "throwing knives"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1453
-#: .\macros\amlas-wol.cfg:2842
-msgid "short sword"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1484
-#: .\macros\amlas-wol.cfg:2677
-#: .\macros\amlas-wol.cfg:2704
-#: .\macros\amlas-wol.cfg:2712
-msgid "hammer"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=impact, range=melee
-#: .\macros\amlas-wol.cfg:1492
+#: .\macros\amlas-wol.cfg:1496
 #: .\units\trolls\Troll_Ancientstone.cfg:32
 msgid "monolith"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=impact, range=ranged
-#: .\macros\amlas-wol.cfg:1493
+#: .\macros\amlas-wol.cfg:1497
 #: .\units\trolls\Troll_Ancientstone.cfg:42
 msgid "landslide"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=impact, range=melee
-#: .\macros\amlas-wol.cfg:1501
-#: .\macros\amlas-wol.cfg:1787
-#: .\macros\amlas-wol.cfg:2174
-#: .\macros\amlas-wol.cfg:2537
-#: .\macros\amlas-wol.cfg:2755
-#: .\units\undead\Grave_Sentinel.cfg:34
-#: .\units\undead\Skull_Barrager.cfg:33
-#: .\units\undead\Skull_Slinger.cfg:33
-msgid "fist"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1502
-#: .\macros\amlas-wol.cfg:2890
-#: .\macros\amlas-wol.cfg:2902
-msgid "sling"
-msgstr ""
-
-#. [modify_unit_type]
-#. [attack], type=impact, range=melee
-#: .\macros\amlas-wol.cfg:1511
+#: .\macros\amlas-wol.cfg:1515
 #: .\units\trolls\Warbanner.cfg:40
 msgid "banner"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1512
-msgid "flame blast"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=blade, range=melee
-#: .\macros\amlas-wol.cfg:1670
+#: .\macros\amlas-wol.cfg:1678
 #: .\units\steelhive\steel_astigmatic.cfg:24
 #: .\units\steelhive\steel_cataract.cfg:23
 #: .\units\steelhive\steel_oculus.cfg:23
@@ -2442,14 +1969,14 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=impact, range=melee
-#: .\macros\amlas-wol.cfg:1671
+#: .\macros\amlas-wol.cfg:1679
 #: .\units\steelhive\steel_astigmatic.cfg:33
 msgid "collide"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=electric, range=ranged
-#: .\macros\amlas-wol.cfg:1672
+#: .\macros\amlas-wol.cfg:1680
 #: .\units\steelhive\steel_astigmatic.cfg:42
 #: .\units\steelhive\steel_cataract.cfg:32
 #: .\units\steelhive\steel_dominant.cfg:155
@@ -2459,30 +1986,22 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=pierce, range=melee
-#: .\macros\amlas-wol.cfg:1681
+#: .\macros\amlas-wol.cfg:1689
 #: .\units\steelhive\steel_choron.cfg:27
 msgid "pincer"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=fire, range=ranged
-#: .\macros\amlas-wol.cfg:1682
+#: .\macros\amlas-wol.cfg:1690
 #: .\units\steelhive\steel_choron.cfg:39
 msgid "plasma weld"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1691
-#: .\macros\amlas-wol.cfg:1718
-#: .\macros\amlas-wol.cfg:2461
-#: .\macros\amlas-wol.cfg:2470
-msgid "crush"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=pierce, range=ranged
-#: .\macros\amlas-wol.cfg:1692
-#: .\macros\amlas-wol.cfg:1729
+#: .\macros\amlas-wol.cfg:1700
+#: .\macros\amlas-wol.cfg:1737
 #: .\units\steelhive\steel_dominant.cfg:103
 #: .\units\steelhive\steel_dominant.cfg:143
 #: .\units\steelhive\steel_dreadnought.cfg:86
@@ -2493,28 +2012,28 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=blade, range=melee
-#: .\macros\amlas-wol.cfg:1709
+#: .\macros\amlas-wol.cfg:1717
 #: .\units\steelhive\steel_splicer.cfg:25
 msgid "shred"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=pierce, range=melee
-#: .\macros\amlas-wol.cfg:1727
+#: .\macros\amlas-wol.cfg:1735
 #: .\units\steelhive\steel_dreadnought.cfg:68
 msgid "spine"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=impact, range=melee
-#: .\macros\amlas-wol.cfg:1738
+#: .\macros\amlas-wol.cfg:1746
 #: .\units\steelhive\steel_leviathan.cfg:29
 msgid "constrict"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=cold, range=ranged
-#: .\macros\amlas-wol.cfg:1740
+#: .\macros\amlas-wol.cfg:1748
 #: .\units\steelhive\steel_leviathan.cfg:47
 #: .\units\steelhive\steel_serpent.cfg:36
 #: .\units\steelhive\steel_wyrm.cfg:35
@@ -2523,7 +2042,7 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=blade, range=melee
-#: .\macros\amlas-wol.cfg:1749
+#: .\macros\amlas-wol.cfg:1757
 #: .\units\steelhive\steel_nymph.cfg:25
 #: .\units\steelhive\steel_slasher.cfg:23
 #: .\units\steelhive\steel_syren.cfg:30
@@ -2532,7 +2051,7 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=electric, range=ranged
-#: .\macros\amlas-wol.cfg:1750
+#: .\macros\amlas-wol.cfg:1758
 #: .\units\steelhive\steel_larva.cfg:28
 #: .\units\steelhive\steel_nymph.cfg:59
 #: .\units\steelhive\steel_syren.cfg:64
@@ -2541,14 +2060,14 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=blade, range=melee
-#: .\macros\amlas-wol.cfg:1776
+#: .\macros\amlas-wol.cfg:1784
 #: .\units\elementals\Air_Daemon_3.cfg:100
 msgid "slashing gale"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=impact, range=ranged
-#: .\macros\amlas-wol.cfg:1777
+#: .\macros\amlas-wol.cfg:1785
 #: .\units\elementals\Air_Daemon_3.cfg:122
 #: .\units\elementals\stable\Mistral.cfg:47
 #: .\units\elementals\stable\Zephyr.cfg:45
@@ -2556,16 +2075,8 @@ msgid "tornado"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1778
-#: .\macros\amlas-wol.cfg:2649
-#: .\macros\amlas-wol.cfg:3233
-#: .\macros\amlas-wol.cfg:3273
-msgid "lightning"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=impact, range=ranged
-#: .\macros\amlas-wol.cfg:1788
+#: .\macros\amlas-wol.cfg:1796
 #: .\units\elementals\Earth_Daemon_2.cfg:44
 #: .\units\elementals\Earth_Daemon_3.cfg:45
 msgid "stone"
@@ -2573,14 +2084,14 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=fire, range=melee
-#: .\macros\amlas-wol.cfg:1797
+#: .\macros\amlas-wol.cfg:1805
 #: .\units\elementals\Fire_Daemon_3.cfg:108
 msgid "eruption"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=cold, range=melee
-#: .\macros\amlas-wol.cfg:1811
+#: .\macros\amlas-wol.cfg:1819
 #: .\units\elementals\Water_Daemon_1.cfg:140
 #: .\units\elementals\Water_Daemon_2.cfg:122
 #: .\units\elementals\Water_Daemon_3.cfg:154
@@ -2589,31 +2100,26 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=cold, range=melee
-#: .\macros\amlas-wol.cfg:1816
+#: .\macros\amlas-wol.cfg:1824
 #: .\units\elementals\Water_Daemon_3.cfg:166
 msgid "deep sea embrace"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=pierce, range=ranged
-#: .\macros\amlas-wol.cfg:1817
+#: .\macros\amlas-wol.cfg:1825
 #: .\units\elementals\Water_Daemon_3.cfg:179
 msgid "rain storm"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1856
+#: .\macros\amlas-wol.cfg:1864
 msgid "Melee: +4 vanquishing slash damage."
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1926
-msgid "ethereal web"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=arcane, range=ranged
-#: .\macros\amlas-wol.cfg:1963
+#: .\macros\amlas-wol.cfg:1971
 #: .\units\elves-wood\Ascetic.cfg:54
 #: .\units\elves-wood\Avatar.cfg:63
 #: .\units\elves-wood\Mystic.cfg:53
@@ -2622,8 +2128,8 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=fire, range=melee
-#: .\macros\amlas-wol.cfg:1974
-#: .\macros\amlas-wol.cfg:1985
+#: .\macros\amlas-wol.cfg:1982
+#: .\macros\amlas-wol.cfg:1993
 #: .\units\faeries\Faerie_Dryad.cfg:41
 #: .\units\faeries\Faerie_Spirit.cfg:66
 #: .\units\faeries\Faerie_Sprite.cfg:30
@@ -2633,8 +2139,8 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=fire, range=ranged
-#: .\macros\amlas-wol.cfg:1975
-#: .\macros\amlas-wol.cfg:1986
+#: .\macros\amlas-wol.cfg:1983
+#: .\macros\amlas-wol.cfg:1994
 #: .\units\faeries\Faerie_Dryad.cfg:50
 #: .\units\faeries\Faerie_Spirit.cfg:78
 #: .\units\faeries\Faerie_Sprite.cfg:39
@@ -2643,66 +2149,29 @@ msgid "mystic fire"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2046
-#: .\macros\amlas-wol.cfg:2055
-#: .\macros\amlas-wol.cfg:2100
-#: .\macros\amlas-wol.cfg:2251
-#: .\macros\amlas-wol.cfg:2442
-msgid "touch"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=arcane, range=ranged
-#: .\macros\amlas-wol.cfg:2047
+#: .\macros\amlas-wol.cfg:2055
 #: .\units\undead\Umbral_Sovereign.cfg:44
 msgid "dark tempest"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2056
-#: .\macros\amlas-wol.cfg:2101
-#: .\macros\amlas-wol.cfg:2252
-msgid "chill tempest"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2064
-#: .\macros\amlas-wol.cfg:2073
-#: .\macros\amlas-wol.cfg:2121
-msgid "baneblade"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2102
-#: .\macros\amlas-wol.cfg:2253
-#: .\macros\amlas-wol.cfg:2263
-#: .\macros\amlas-wol.cfg:2831
-msgid "shadow wave"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2111
-#: .\macros\amlas-wol.cfg:2262
-msgid "chill wave"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=arcane, range=ranged
-#: .\macros\amlas-wol.cfg:2112
+#: .\macros\amlas-wol.cfg:2120
 #: .\units\undead\Necro_Crypt_Hierophant.cfg:60
 msgid "soul reap"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=impact, range=melee
-#: .\macros\amlas-wol.cfg:2156
+#: .\macros\amlas-wol.cfg:2164
 #: .\units\undead\Bone_Skeleton.cfg:40
 msgid "bone mace"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=impact, range=ranged
-#: .\macros\amlas-wol.cfg:2175
+#: .\macros\amlas-wol.cfg:2183
 #: .\units\undead\Grave_Sentinel.cfg:44
 #: .\units\undead\Skull_Barrager.cfg:43
 #: .\units\undead\Skull_Slinger.cfg:43
@@ -2711,7 +2180,7 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=impact, range=ranged
-#: .\macros\amlas-wol.cfg:2176
+#: .\macros\amlas-wol.cfg:2184
 #: .\units\undead\Grave_Sentinel.cfg:54
 #: .\units\undead\Skull_Barrager.cfg:53
 #: .\units\undead\Skull_Slinger.cfg:53
@@ -2720,32 +2189,21 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=impact, range=melee
-#: .\macros\amlas-wol.cfg:2184
+#: .\macros\amlas-wol.cfg:2192
 #: .\units\undead\Bone_Ranger.cfg:32
 #: .\units\undead\Death_Stalker.cfg:32
 msgid "bone dagger"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2195
+#: .\macros\amlas-wol.cfg:2203
 msgid "Ranged: +2 bow damage."
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2242
-#: .\macros\amlas-wol.cfg:3456
-msgid "bite"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2261
-msgid "plague staff"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=arcane, range=ranged
-#: .\macros\amlas-wol.cfg:2327
-#: .\macros\amlas-wol.cfg:2337
+#: .\macros\amlas-wol.cfg:2335
+#: .\macros\amlas-wol.cfg:2345
 #: .\units\vampires\Duchess.cfg:54
 #: .\units\vampires\Methusalem.cfg:54
 #: .\units\vampires\Mistress.cfg:53
@@ -2755,15 +2213,15 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=blade, range=melee
-#: .\macros\amlas-wol.cfg:2355
+#: .\macros\amlas-wol.cfg:2363
 #: .\units\vampires\Twilight_Walker.cfg:35
 msgid "poisoned dagger"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=fire, range=ranged
-#: .\macros\amlas-wol.cfg:2376
-#: .\macros\amlas-wol.cfg:2396
+#: .\macros\amlas-wol.cfg:2384
+#: .\macros\amlas-wol.cfg:2404
 #: .\units\vampires\Blood_Apprentice.cfg:37
 #: .\units\vampires\Blood_Manipulator.cfg:46
 #: .\units\vampires\Flesh_Artisan.cfg:48
@@ -2774,7 +2232,7 @@ msgstr ""
 #. [modify_unit_type]
 #. [attack], type=impact, range=ranged
 #. [attack], type=arcane, range=ranged
-#: .\macros\amlas-wol.cfg:2377
+#: .\macros\amlas-wol.cfg:2385
 #: .\units\elementals\stable\Wisp.cfg:56
 #: .\units\vampires\Blood_Apprentice.cfg:49
 #: .\units\vampires\Blood_Manipulator.cfg:59
@@ -2784,7 +2242,7 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=energy, range=ranged
-#: .\macros\amlas-wol.cfg:2443
+#: .\macros\amlas-wol.cfg:2451
 #: .\units\windsong\Ascendant.cfg:71
 #: .\units\windsong\Prophetess.cfg:65
 msgid "chronostasis cipher"
@@ -2792,8 +2250,8 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=cold, range=melee
-#: .\macros\amlas-wol.cfg:2451
-#: .\macros\amlas-wol.cfg:2590
+#: .\macros\amlas-wol.cfg:2459
+#: .\macros\amlas-wol.cfg:2598
 #: .\units\monsters\Sky_Crystal.cfg:45
 #: .\units\monsters\Sky_Shard.cfg:44
 #: .\units\windsong\Envoy.cfg:35
@@ -2803,15 +2261,15 @@ msgid "purge"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2462
-#: .\macros\amlas-wol.cfg:2472
+#: .\macros\amlas-wol.cfg:2470
+#: .\macros\amlas-wol.cfg:2480
 msgid "sharp rocks"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=fire, range=ranged
-#: .\macros\amlas-wol.cfg:2482
-#: .\macros\amlas-wol.cfg:2505
+#: .\macros\amlas-wol.cfg:2490
+#: .\macros\amlas-wol.cfg:2513
 #: .\units\windsong\Farstrider.cfg:50
 #: .\units\windsong\Pathfinder.cfg:51
 #: .\units\windsong\Seeker.cfg:47
@@ -2821,47 +2279,47 @@ msgid "lightning cipher"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2496
-#: .\macros\amlas-wol.cfg:2503
+#: .\macros\amlas-wol.cfg:2504
+#: .\macros\amlas-wol.cfg:2511
 msgid "Melee: +1 polearm damage."
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2520
-#: .\macros\amlas-wol.cfg:2551
+#: .\macros\amlas-wol.cfg:2528
+#: .\macros\amlas-wol.cfg:2559
 msgid "Melee: +1 sword damage."
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2527
-#: .\macros\amlas-wol.cfg:2558
+#: .\macros\amlas-wol.cfg:2535
+#: .\macros\amlas-wol.cfg:2566
 msgid "Melee: +1 berserker frenzy damage."
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=blade, range=ranged
-#: .\macros\amlas-wol.cfg:2569
+#: .\macros\amlas-wol.cfg:2577
 #: .\units\windsong\Rune_Forger.cfg:42
 msgid "sorrow"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=impact, range=ranged
-#: .\macros\amlas-wol.cfg:2570
+#: .\macros\amlas-wol.cfg:2578
 #: .\units\windsong\Rune_Forger.cfg:56
 msgid "memory"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=pierce, range=ranged
-#: .\macros\amlas-wol.cfg:2571
+#: .\macros\amlas-wol.cfg:2579
 #: .\units\windsong\Rune_Forger.cfg:70
 msgid "death"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=arcane, range=ranged
-#: .\macros\amlas-wol.cfg:2581
+#: .\macros\amlas-wol.cfg:2589
 #: .\units\windsong\Arbiter.cfg:43
 #: .\units\windsong\Librarian.cfg:44
 #: .\units\windsong\Savant.cfg:35
@@ -2871,8 +2329,8 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=impact, range=ranged
-#: .\macros\amlas-wol.cfg:2620
-#: .\macros\amlas-wol.cfg:2629
+#: .\macros\amlas-wol.cfg:2628
+#: .\macros\amlas-wol.cfg:2637
 #: .\units\dwarves\Rune_Caster.cfg:38
 #: .\units\dwarves\Rune_Enchantress.cfg:38
 #: .\units\dwarves\Rune_Healer.cfg:37
@@ -2883,56 +2341,15 @@ msgid "runic blast"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2639
-msgid "bolas"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=blade, range=melee
-#: .\macros\amlas-wol.cfg:2658
+#: .\macros\amlas-wol.cfg:2666
 #: .\units\dwarves\Dwarvish_Bloodaxe.cfg:31
 msgid "bloodaxe"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2687
-msgid "dragonstaff"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2756
-#: .\macros\amlas-wol.cfg:3457
-msgid "tail"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2764
-msgid "club"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2765
-msgid "net"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2791
-msgid "naia touch"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2792
-msgid "water spray"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:2818
-msgid "astral blade"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=arcane, range=ranged
-#: .\macros\amlas-wol.cfg:2819
+#: .\macros\amlas-wol.cfg:2827
 #: .\units\human-outlaws\Shadow_Lord.cfg:54
 msgid "noctum"
 msgstr ""
@@ -2940,7 +2357,7 @@ msgstr ""
 #. [modify_unit_type]
 #. [effect], apply_to=new_attack, type=blade, range=ranged
 #. [attack], type=blade, range=ranged
-#: .\macros\amlas-wol.cfg:2940
+#: .\macros\amlas-wol.cfg:2948
 #: .\macros\wol-legends-artifacts.cfg:493
 #: .\units\human-outlaws\Axeman.cfg:30
 #: .\units\human-outlaws\Axemaster.cfg:31
@@ -2950,8 +2367,8 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=impact, range=ranged
-#: .\macros\amlas-wol.cfg:3201
-#: .\macros\amlas-wol.cfg:3212
+#: .\macros\amlas-wol.cfg:3209
+#: .\macros\amlas-wol.cfg:3220
 #: .\units\carapaces\Guard.cfg:35
 #: .\units\carapaces\Hunter.cfg:32
 #: .\units\carapaces\Protector.cfg:32
@@ -2962,14 +2379,14 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=arcane, range=ranged
-#: .\macros\amlas-wol.cfg:3244
+#: .\macros\amlas-wol.cfg:3252
 #: .\units\human-mages\Mage_Nature.cfg:62
 msgid "terra orbis"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=fire, range=ranged
-#: .\macros\amlas-wol.cfg:3263
+#: .\macros\amlas-wol.cfg:3271
 #: .\units\human-mages\Mage_Ember.cfg:49
 #: .\units\human-mages\Mage_Firestorm.cfg:50
 msgid "intensified fire"
@@ -2977,7 +2394,7 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=impact, range=ranged
-#: .\macros\amlas-wol.cfg:3274
+#: .\macros\amlas-wol.cfg:3282
 #: .\units\human-mages\Mage_Storm.cfg:55
 #: .\units\human-mages\Mage_Tempest.cfg:50
 #: .\units\human-mages\Mage_Thunder.cfg:49
@@ -2986,76 +2403,48 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=impact, range=melee
-#: .\macros\amlas-wol.cfg:3283
+#: .\macros\amlas-wol.cfg:3291
 #: .\units\human-mages\Frost_Mage.cfg:52
 msgid "frost staff"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=cold, range=ranged
-#: .\macros\amlas-wol.cfg:3284
+#: .\macros\amlas-wol.cfg:3292
 #: .\units\human-mages\Frost_Mage.cfg:61
 msgid "ice blast"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=impact, range=ranged
-#: .\macros\amlas-wol.cfg:3285
+#: .\macros\amlas-wol.cfg:3293
 #: .\units\human-mages\Frost_Mage.cfg:74
 msgid "crashing wave"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:3304
-msgid "missile"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:3348
-msgid "cleaver"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:3376
-#: .\macros\amlas-wol.cfg:3386
-#: .\macros\amlas-wol.cfg:3396
-#: .\macros\amlas-wol.cfg:3406
-#: .\macros\amlas-wol.cfg:3416
-msgid "sting"
-msgstr ""
-
-#. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:3377
-#: .\macros\amlas-wol.cfg:3387
-#: .\macros\amlas-wol.cfg:3397
-#: .\macros\amlas-wol.cfg:3407
-#: .\macros\amlas-wol.cfg:3417
-msgid "pincers"
-msgstr ""
-
-#. [modify_unit_type]
 #. [attack], type=blade, range=melee
-#: .\macros\amlas-wol.cfg:3426
+#: .\macros\amlas-wol.cfg:3434
 #: .\units\monsters\Voidglow_Monarch.cfg:35
 msgid "shadow claw"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=fire, range=ranged
-#: .\macros\amlas-wol.cfg:3427
+#: .\macros\amlas-wol.cfg:3435
 #: .\units\monsters\Voidglow_Monarch.cfg:44
 msgid "shadow breath"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=cold, range=ranged
-#: .\macros\amlas-wol.cfg:3437
+#: .\macros\amlas-wol.cfg:3445
 #: .\units\monsters\Frostfire_Monarch.cfg:83
 msgid "arctic breath"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:3447
+#: .\macros\amlas-wol.cfg:3455
 msgid "breath"
 msgstr ""
 
@@ -7777,6 +7166,11 @@ msgid ""
 "'Til the morrow, the wind shall rest, and wait for you, for its next chance.\n"
 "As the moon returns in white flame, it shall be back for your regrets.\n"
 "Answer it well, it knows your name, and certainly never forgets."
+msgstr ""
+
+#. [attack], type=pierce, range=ranged
+#: .\units\harpies\Shrieker.cfg:118
+msgid "shriek"
 msgstr ""
 
 #. [unit_type], id=Harpy Siren, race=harpy, gender=female
