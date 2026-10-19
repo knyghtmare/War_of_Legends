@@ -1,8 +1,11 @@
 War of Legends
-Change-Log v1.2.86
+Change-Log v1.2.87
+
+version 1.2.7.87
+--> Translation: clean translatable strings to use more mainline strings.
 
 version 1.2.7.86
---> Translation: clean translatable strings to use more mainline strings.
+--> bug fix on Fugitive and Highwayman AMLAs
 
 version 1.2.7.85
 --> mass min version update
