@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-08-27 08:53\n"
+"POT-Creation-Date: 2026-10-19 09:46\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -235,10 +235,10 @@ msgid ""
 "on the newly established Kingdom of Wesnoth, not much of it was left "
 "standing. Not just Wesnoth, but the Orcish tribes who had just begun to "
 "settle in the Far North were caught in the conflict as well. Both factions "
-"had suffered insurmountable casaulties. The monarch of the Wesnothians had "
+"had suffered insurmountable casualties. The monarch of the Wesnothians had "
 "been defeated by one of the Dark Elementalist's chosen. Pushed to the brink "
 "of annihilation, the horde and loyalists set aside their past hospitalities "
-"and joined forces to survive the never ending hordes of Darkness."
+"and joined forces to survive the never-ending hordes of Darkness."
 msgstr ""
 
 #: .\eras\Legends_Conquest_Era.cfg:170
@@ -283,17 +283,16 @@ msgstr ""
 #: .\eras\Legends_Conquest_Era.cfg:250
 msgid ""
 "A remixed variant of the War of Legends era tailored to be played in World "
-"Conquest (preferably with Legends Conquest modificiations enabled). There are"
-" seven factions, each conforming to the World Conquest era rule as well as "
-"the the story setting of the Dark Irdya timeline.\n"
+"Conquest (preferably with Legends Conquest modifications enabled). There are "
+"seven factions, each conforming to the World Conquest era rule as well as the"
+" story setting of the Dark Irdya timeline.\n"
 "\n"
 "After the first decade of ceaseless attacks by the forces of the Dark "
 "Elementalist, various factions across Irdya have been compelled to band "
-"together to form an united front against their new and persistent "
-"adversaries. Certain allegiances could only be made due to geographical "
-"possibilities and some being former enemies casting aside their differences. "
-"The goal of all factions is survival as there seems to be no end to the enemy"
-" forces."
+"together to form a united front against their new and persistent adversaries."
+" Certain allegiances could only be made due to geographical possibilities and"
+" some being former enemies casting aside their differences. The goal of all "
+"factions is survival as there seems to be no end to the enemy forces."
 msgstr ""
 
 #. [Heroes_Horde]
@@ -331,7 +330,7 @@ msgstr ""
 #. [era], id=wol_rpg
 #: .\eras\War_of_Legends_RPG.cfg:9
 msgid ""
-"An era with lower level units: with level one leaders, with no units for "
+"An era with lower-level units: with level one leaders, with no units for "
 "recruitment. Consists of thirteen factions and is meant to be played in "
 "scenarios, which involve roleplaying elements (RPG)."
 msgstr ""
@@ -482,7 +481,7 @@ msgstr ""
 
 #: .\lua\gui_tags.lua:266
 #: .\lua\gui_tags.lua:437
-msgid "Error, return value :"
+msgid "Error, return value:"
 msgstr ""
 
 #: .\lua\gui_tags.lua:437
@@ -756,8 +755,8 @@ msgstr ""
 #. [attacks]
 #: .\macros\abilities-deep-elves.cfg:428
 msgid ""
-"When used in defense, this attacks reduces the attacker's number of strikes "
-"by 1."
+"When used in defense, this attack reduces the attacker's number of strikes by"
+" 1."
 msgstr ""
 
 #. [attacks]
@@ -868,7 +867,7 @@ msgstr ""
 
 #. [damage], id=WOL_thermal_shock
 #: .\macros\abilities-elemental.cfg:63
-msgid "This unit can attacks that can cause elemental reactions with fire."
+msgid "This unit has attacks that can trigger elemental reactions with fire."
 msgstr ""
 
 #. [damage], id=WOL_overload
@@ -885,7 +884,7 @@ msgstr ""
 
 #. [damage], id=WOL_overload
 #: .\macros\abilities-elemental.cfg:77
-msgid "This unit can attacks that can cause elemental reactions with electric."
+msgid "This unit has attacks that can trigger elemental reactions with electricity."
 msgstr ""
 
 #. [leadership], id=conjuror
@@ -1125,7 +1124,7 @@ msgstr ""
 #. [resistance], id=shield_help
 #: .\macros\abilities-new.cfg:468
 msgid ""
-"Allies standing next to this unit recieve +15% physical resistances (up to "
+"Allies standing next to this unit receive +15% physical resistances (up to "
 "30%)"
 msgstr ""
 
@@ -1179,7 +1178,7 @@ msgid ""
 "This unit can lead other (and allied) lower-level troops in battle. All "
 "adjacent lower-level units from the unit side and allied side deal 25% more "
 "damage for each difference in level. Units (own and allied) of the same level"
-" will get half of this bonus."
+" will deal 15% more damage."
 msgstr ""
 
 #. [leadership], id=allied_inspires
@@ -1277,7 +1276,7 @@ msgstr ""
 #. [regenerate], id=healing
 #: .\macros\abilities.cfg:146
 #: .\macros\abilities.cfg:148
-msgid "ice convalesence"
+msgid "ice convalescence"
 msgstr ""
 
 #. [regenerate], id=healing
@@ -1371,7 +1370,7 @@ msgstr ""
 
 #. [regenerate], id=healing
 #: .\macros\abilities.cfg:291
-msgid "terra resucitation"
+msgid "terra resuscitation"
 msgstr ""
 
 #. [regenerate], id=healing
@@ -1407,7 +1406,7 @@ msgstr ""
 #: .\macros\abilities.cfg:322
 msgid ""
 "This unit emits a swarm of steel particles fortifying adjacent units with a "
-"temporary 20-HP boost that dissapears at the beginning of the following turn."
+"temporary 20-HP boost that disappears at the beginning of the following turn."
 msgstr ""
 
 #. [reprogram]
@@ -1545,6 +1544,7 @@ msgstr ""
 #. [modify_unit_type]
 #. [attack], type=blade, range=melee
 #: .\macros\amlas-wol.cfg:227
+#: .\macros\amlas-wol.cfg:2580
 #: .\units\human-aragwaithi\Aragwaith_Ancient_Banner.cfg:49
 #: .\units\windsong\Arbiter.cfg:35
 #: .\units\windsong\Librarian.cfg:36
@@ -1560,13 +1560,1060 @@ msgid "prey crush"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1406
-msgid "Melee: +4 vanquishing slash damage."
+#. [attack], type=blade, range=melee
+#: .\macros\amlas-wol.cfg:345
+#: .\units\elves-deep\Baroness.cfg:34
+msgid "twin blades"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=blade, range=melee
+#: .\macros\amlas-wol.cfg:346
+#: .\units\elves-deep\Baroness.cfg:62
+msgid "rip"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:347
+#: .\macros\amlas-wol.cfg:421
+#: .\macros\amlas-wol.cfg:864
+#: .\macros\amlas-wol.cfg:870
+#: .\macros\amlas-wol.cfg:898
+#: .\macros\amlas-wol.cfg:925
+#: .\macros\amlas-wol.cfg:952
+#: .\macros\amlas-wol.cfg:2140
+#: .\macros\amlas-wol.cfg:2668
+#: .\macros\amlas-wol.cfg:2830
+msgid "crossbow"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:356
+#: .\macros\amlas-wol.cfg:383
+msgid "faerie touch"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=cold, range=melee
+#: .\macros\amlas-wol.cfg:357
+#: .\units\elves-deep\Corrupted.cfg:46
+msgid "nether grip"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=energy, range=melee
+#: .\macros\amlas-wol.cfg:365
+#: .\units\elves-deep\Elthare.cfg:44
+msgid "magical sword"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:366
+#: .\macros\amlas-wol.cfg:384
+#: .\macros\amlas-wol.cfg:1927
+msgid "faerie fire"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=arcane, range=melee
+#: .\macros\amlas-wol.cfg:374
+#: .\macros\amlas-wol.cfg:410
+#: .\units\elves-deep\Harbinger.cfg:26
+#: .\units\elves-deep\Matriarch.cfg:25
+#: .\units\elves-deep\Patroness.cfg:25
+#: .\units\elves-deep\Priestess.cfg:24
+#: .\units\elves-deep\Seer.cfg:34
+msgid "nether touch"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=electric, range=ranged
+#: .\macros\amlas-wol.cfg:375
+#: .\units\elves-deep\Harbinger.cfg:35
+#: .\units\elves-deep\Matriarch.cfg:35
+#: .\units\elves-deep\Patroness.cfg:34
+#: .\units\elves-deep\Priestess.cfg:33
+msgid "discharge"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:393
+#: .\macros\amlas-wol.cfg:1327
+#: .\macros\amlas-wol.cfg:2275
+#: .\macros\amlas-wol.cfg:2326
+#: .\macros\amlas-wol.cfg:2336
+#: .\macros\amlas-wol.cfg:2346
+#: .\macros\amlas-wol.cfg:2375
+#: .\macros\amlas-wol.cfg:2395
+#: .\macros\amlas-wol.cfg:2405
+#: .\macros\amlas-wol.cfg:3357
+#: .\macros\amlas-wol.cfg:3367
+#: .\macros\amlas-wol.cfg:3436
+#: .\macros\amlas-wol.cfg:3446
+msgid "fangs"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:394
+#: .\macros\amlas-wol.cfg:1229
+#: .\macros\amlas-wol.cfg:2215
+msgid "trample"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:402
+#: .\macros\amlas-wol.cfg:1410
+#: .\macros\amlas-wol.cfg:1441
+#: .\macros\amlas-wol.cfg:1701
+#: .\macros\amlas-wol.cfg:1717
+msgid "blade"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=ranged
+#: .\macros\amlas-wol.cfg:411
+#: .\units\elves-deep\Seer.cfg:43
+msgid "will of Shassagoth"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:420
+#: .\macros\amlas-wol.cfg:878
+#: .\macros\amlas-wol.cfg:906
+#: .\macros\amlas-wol.cfg:942
+#: .\macros\amlas-wol.cfg:1028
+#: .\macros\amlas-wol.cfg:1037
+#: .\macros\amlas-wol.cfg:1128
+#: .\macros\amlas-wol.cfg:1249
+#: .\macros\amlas-wol.cfg:1475
+#: .\macros\amlas-wol.cfg:2325
+#: .\macros\amlas-wol.cfg:2335
+#: .\macros\amlas-wol.cfg:2345
+#: .\macros\amlas-wol.cfg:2471
+#: .\macros\amlas-wol.cfg:2829
+#: .\macros\amlas-wol.cfg:2865
+#: .\macros\amlas-wol.cfg:2951
+msgid "sword"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:429
+msgid "orb"
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=arcane, range=ranged
+#: .\macros\amlas-wol.cfg:430
+#: .\units\elves-deep\Wisp_Mother.cfg:66
+msgid "arcane barrage"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:459
+#: .\macros\amlas-wol.cfg:472
+msgid "battle claws"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:460
+#: .\macros\amlas-wol.cfg:473
+#: .\macros\amlas-wol.cfg:483
+#: .\macros\amlas-wol.cfg:495
+#: .\macros\amlas-wol.cfg:505
+#: .\macros\amlas-wol.cfg:552
+#: .\macros\amlas-wol.cfg:562
+#: .\macros\amlas-wol.cfg:575
+#: .\macros\amlas-wol.cfg:1798
+#: .\macros\amlas-wol.cfg:3458
+msgid "fire breath"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:482
+msgid "war blade"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:494
+#: .\macros\amlas-wol.cfg:538
+msgid "war talon"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=melee
+#: .\macros\amlas-wol.cfg:504
+#: .\units\drakes\Shockbringer.cfg:106
+#: .\units\drakes\Smasher.cfg:105
+msgid "warhammer"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:522
+#: .\macros\amlas-wol.cfg:529
+#: .\macros\amlas-wol.cfg:830
+#: .\macros\amlas-wol.cfg:837
+msgid "halberd"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:539
+#: .\macros\amlas-wol.cfg:2481
+#: .\macros\amlas-wol.cfg:2739
+#: .\macros\amlas-wol.cfg:3210
+#: .\macros\amlas-wol.cfg:3211
+msgid "trident"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:540
+#: .\macros\amlas-wol.cfg:1356
+#: .\macros\amlas-wol.cfg:1364
+#: .\macros\amlas-wol.cfg:1728
+msgid "ram"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:551
+#: .\macros\amlas-wol.cfg:2414
+msgid "slam"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:561
+#: .\macros\amlas-wol.cfg:1029
+msgid "torch"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:573
+#: .\macros\amlas-wol.cfg:632
+#: .\macros\amlas-wol.cfg:642
+#: .\macros\amlas-wol.cfg:1195
+#: .\macros\amlas-wol.cfg:1206
+#: .\macros\amlas-wol.cfg:1420
+#: .\macros\amlas-wol.cfg:1925
+#: .\macros\amlas-wol.cfg:2110
+#: .\macros\amlas-wol.cfg:2782
+#: .\macros\amlas-wol.cfg:2901
+#: .\macros\amlas-wol.cfg:2927
+#: .\macros\amlas-wol.cfg:3231
+#: .\macros\amlas-wol.cfg:3242
+#: .\macros\amlas-wol.cfg:3253
+#: .\macros\amlas-wol.cfg:3272
+#: .\macros\amlas-wol.cfg:3294
+#: .\macros\amlas-wol.cfg:3303
+msgid "staff"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=cold, range=ranged
+#: .\macros\amlas-wol.cfg:574
+#: .\units\drakes\Apprentice.cfg:41
+#: .\units\drakes\Caster.cfg:42
+#: .\units\drakes\Sorceress.cfg:42
+msgid "ice shot"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=pierce, range=melee
+#: .\macros\amlas-wol.cfg:592
+#: .\macros\amlas-wol.cfg:599
+#: .\macros\amlas-wol.cfg:614
+#: .\macros\amlas-wol.cfg:621
+#: .\macros\amlas-wol.cfg:814
+#: .\macros\amlas-wol.cfg:1228
+#: .\macros\amlas-wol.cfg:1260
+#: .\macros\amlas-wol.cfg:2091
+#: .\macros\amlas-wol.cfg:2204
+#: .\macros\amlas-wol.cfg:2695
+#: .\macros\amlas-wol.cfg:2747
+#: .\macros\amlas-wol.cfg:2773
+#: .\macros\amlas-wol.cfg:2774
+#: .\units\undead\Bone_Guardian.cfg:33
+#: .\units\undead\Skeleton_Custodian.cfg:34
+msgid "spear"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:633
+#: .\macros\amlas-wol.cfg:643
+msgid "curse"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=blade, range=melee
+#: .\macros\amlas-wol.cfg:680
+#: .\macros\amlas-wol.cfg:701
+#: .\macros\amlas-wol.cfg:1336
+#: .\macros\amlas-wol.cfg:2082
+#: .\macros\amlas-wol.cfg:2233
+#: .\macros\amlas-wol.cfg:2394
+#: .\macros\amlas-wol.cfg:2648
+#: .\macros\amlas-wol.cfg:3339
+#: .\macros\amlas-wol.cfg:3358
+#: .\units\undead\Reptilian_Husk.cfg:40
+#: .\units\undead\Reptilian_Stalker.cfg:40
+#: .\units\undead\Reptilian_Terror.cfg:41
+msgid "claws"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=cold, range=ranged
+#: .\macros\amlas-wol.cfg:681
+#: .\units\harpies\Galesinger.cfg:66
+#: .\units\harpies\Songstressofstorms.cfg:67
+msgid "song of gale"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=fire, range=ranged
+#: .\macros\amlas-wol.cfg:682
+#: .\units\harpies\Songstressofstorms.cfg:79
+msgid "song of storm"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:690
+#: .\macros\amlas-wol.cfg:1431
+#: .\macros\amlas-wol.cfg:2165
+#: .\macros\amlas-wol.cfg:2316
+#: .\macros\amlas-wol.cfg:2356
+#: .\macros\amlas-wol.cfg:2365
+#: .\macros\amlas-wol.cfg:2667
+#: .\macros\amlas-wol.cfg:2686
+#: .\macros\amlas-wol.cfg:2854
+#: .\macros\amlas-wol.cfg:2913
+msgid "dagger"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=arcane, range=ranged
+#: .\macros\amlas-wol.cfg:691
+#: .\units\harpies\Minstrel.cfg:102
+#: .\units\harpies\Siren.cfg:158
+msgid "beguiling song"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:692
+#: .\macros\amlas-wol.cfg:2065
+#: .\macros\amlas-wol.cfg:2074
+msgid "wail"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=pierce, range=ranged
+#: .\macros\amlas-wol.cfg:702
+#: .\units\harpies\Shrieker.cfg:118
+msgid "shriek"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=blade, range=melee
+#: .\macros\amlas-wol.cfg:710
+#: .\units\harpies\Nightgaunt.cfg:64
+msgid "deathclaws"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:719
+#: .\macros\amlas-wol.cfg:720
+#: .\macros\amlas-wol.cfg:738
+#: .\macros\amlas-wol.cfg:847
+#: .\macros\amlas-wol.cfg:889
+#: .\macros\amlas-wol.cfg:907
+#: .\macros\amlas-wol.cfg:915
+#: .\macros\amlas-wol.cfg:1038
+#: .\macros\amlas-wol.cfg:1700
+msgid "lance"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=blade, range=melee
+#: .\macros\amlas-wol.cfg:729
+#: .\macros\amlas-wol.cfg:748
+#: .\macros\amlas-wol.cfg:758
+#: .\units\harpies\Ashtail.cfg:60
+#: .\units\harpies\Bomber.cfg:56
+#: .\units\harpies\Emissary.cfg:103
+#: .\units\harpies\Falconeer.cfg:94
+#: .\units\harpies\Fighter.cfg:59
+#: .\units\harpies\Flockmaster.cfg:35
+#: .\units\harpies\Messenger.cfg:98
+#: .\units\harpies\Raptortongue.cfg:31
+#: .\units\harpies\Rockthrower.cfg:56
+#: .\units\harpies\Traveller.cfg:94
+#: .\units\monsters\Owl.cfg:46
+#: .\units\monsters\Owl_Great.cfg:48
+msgid "talons"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=blade, range=ranged
+#: .\macros\amlas-wol.cfg:730
+#: .\units\harpies\Flockmaster.cfg:45
+#: .\units\harpies\Raptortongue.cfg:41
+msgid "falcon storm"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:739
+msgid "falcon"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=pierce, range=melee
+#: .\macros\amlas-wol.cfg:749
+#: .\units\harpies\Emissary.cfg:113
+#: .\units\harpies\Messenger.cfg:108
+#: .\units\harpies\Traveller.cfg:104
+msgid "sky dive"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=ranged
+#: .\macros\amlas-wol.cfg:759
+#: .\units\harpies\Ashtail.cfg:69
+#: .\units\harpies\Bomber.cfg:65
+#: .\units\harpies\Rockthrower.cfg:65
+msgid "rock drop"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=fire, range=ranged
+#: .\macros\amlas-wol.cfg:760
+#: .\units\harpies\Ashtail.cfg:78
+#: .\units\harpies\Bomber.cfg:74
+msgid "fiery hail"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:787
+msgid "glaive"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=melee
+#: .\macros\amlas-wol.cfg:788
+#: .\macros\amlas-wol.cfg:857
+#: .\macros\amlas-wol.cfg:1176
+#: .\macros\amlas-wol.cfg:2131
+#: .\macros\amlas-wol.cfg:3490
+#: .\units\undead\Grave_Titan.cfg:46
+msgid "shield"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=blade, range=melee
+#: .\macros\amlas-wol.cfg:796
+#: .\units\human-loyalists\Loyalist_Chevalier.cfg:37
+#: .\units\human-loyalists\Loyalist_Crusader.cfg:38
+msgid "divine sword"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=arcane, range=ranged
+#: .\macros\amlas-wol.cfg:797
+#: .\units\human-loyalists\Loyalist_Chevalier.cfg:49
+#: .\units\human-loyalists\Loyalist_Crusader.cfg:50
+msgid "divine lightning"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:805
+#: .\macros\amlas-wol.cfg:888
+#: .\macros\amlas-wol.cfg:897
+#: .\macros\amlas-wol.cfg:951
+#: .\macros\amlas-wol.cfg:1137
+msgid "longsword"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=pierce, range=ranged
+#: .\macros\amlas-wol.cfg:815
+#: .\macros\amlas-wol.cfg:1261
+#: .\macros\amlas-wol.cfg:2205
+#: .\macros\amlas-wol.cfg:2696
+#: .\units\undead\Bone_Guardian.cfg:45
+#: .\units\undead\Skeleton_Custodian.cfg:45
+msgid "javelin"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:846
+#: .\macros\amlas-wol.cfg:969
+#: .\macros\amlas-wol.cfg:1118
+#: .\macros\amlas-wol.cfg:2619
+#: .\macros\amlas-wol.cfg:2638
+#: .\macros\amlas-wol.cfg:3312
+msgid "flail"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:879
+msgid "longbow"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:924
+msgid "saber"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:934
+#: .\macros\amlas-wol.cfg:2878
+#: .\macros\amlas-wol.cfg:2889
+msgid "morning star"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=pierce, range=ranged
+#: .\macros\amlas-wol.cfg:943
+#: .\macros\amlas-wol.cfg:1250
+#: .\macros\amlas-wol.cfg:1401
+#: .\macros\amlas-wol.cfg:1432
+#: .\macros\amlas-wol.cfg:2166
+#: .\macros\amlas-wol.cfg:2357
+#: .\macros\amlas-wol.cfg:2366
+#: .\macros\amlas-wol.cfg:2452
+#: .\macros\amlas-wol.cfg:2843
+#: .\macros\amlas-wol.cfg:2855
+#: .\macros\amlas-wol.cfg:2866
+#: .\macros\amlas-wol.cfg:2952
+#: .\units\undead\Bone_Ranger.cfg:41
+#: .\units\undead\Bone_Ranger.cfg:51
+#: .\units\undead\Death_Stalker.cfg:41
+#: .\units\undead\Death_Stalker.cfg:51
+msgid "bow"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=melee
+#: .\macros\amlas-wol.cfg:961
+#: .\units\human-loyalists\Loyalist_Titanium_Decimator.cfg:31
+msgid "reinforced flail"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=melee
+#: .\macros\amlas-wol.cfg:1011
+#: .\units\human-legion\Guardian.cfg:24
+#: .\units\human-legion\Sentinel.cfg:25
+msgid "war hammer"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=melee
+#: .\macros\amlas-wol.cfg:1019
+#: .\units\human-legion\Crusher.cfg:26
+msgid "sledgehammer"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1053
+msgid "Melee: +1 halberd damage."
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1059
+msgid "Melee: +2 halberd damage."
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1067
+msgid "pike"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1068
+msgid "thunderstick"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1077
+#: .\macros\amlas-wol.cfg:2678
+msgid "hatchet"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1083
+#: .\macros\amlas-wol.cfg:1088
+#: .\macros\amlas-wol.cfg:2190
+msgid "Ranged: +1 bow damage."
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=blade, range=melee
+#: .\macros\amlas-wol.cfg:1096
+#: .\macros\amlas-wol.cfg:2130
+#: .\macros\amlas-wol.cfg:2148
+#: .\macros\amlas-wol.cfg:2214
+#: .\macros\amlas-wol.cfg:2386
+#: .\macros\amlas-wol.cfg:2939
+#: .\units\undead\Grave_Titan.cfg:36
+msgid "axe"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1103
+#: .\macros\amlas-wol.cfg:1460
+msgid "Ranged: +1 crossbow damage."
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1109
+#: .\macros\amlas-wol.cfg:1466
+msgid "Ranged: +2 fire crossbow damage."
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1119
+#: .\macros\amlas-wol.cfg:2783
+#: .\macros\amlas-wol.cfg:3313
+msgid "lightbeam"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=blade, range=ranged
+#: .\macros\amlas-wol.cfg:1129
+#: .\units\human-legion\Commander.cfg:48
+msgid "razor chakram"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=blade, range=melee
+#: .\macros\amlas-wol.cfg:1145
+#: .\units\human-legion\Berserker.cfg:24
+msgid "broadsword"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1175
+#: .\macros\amlas-wol.cfg:2139
+#: .\macros\amlas-wol.cfg:2676
+msgid "battle axe"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=melee
+#: .\macros\amlas-wol.cfg:1185
+#: .\macros\amlas-wol.cfg:2224
+#: .\macros\amlas-wol.cfg:2628
+#: .\macros\amlas-wol.cfg:3200
+#: .\macros\amlas-wol.cfg:3489
+#: .\units\undead\Risen_Colossus.cfg:24
+#: .\units\undead\Risen_Hulk.cfg:23
+#: .\units\undead\Risen_Serf.cfg:23
+msgid "mace"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=arcane, range=ranged
+#: .\macros\amlas-wol.cfg:1196
+#: .\macros\amlas-wol.cfg:1207
+#: .\macros\amlas-wol.cfg:3232
+#: .\units\human-mages\Mage_Cleric.cfg:42
+#: .\units\human-mages\Mage_Prophetess_of_Light.cfg:46
+#: .\units\minotaurs\Elder.cfg:40
+#: .\units\minotaurs\Mystic.cfg:38
+#: .\units\minotaurs\Shaman.cfg:39
+#: .\units\minotaurs\Warlock.cfg:37
+msgid "sacred fire"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1197
+#: .\macros\amlas-wol.cfg:2529
+#: .\macros\amlas-wol.cfg:2560
+#: .\macros\amlas-wol.cfg:2928
+#: .\macros\amlas-wol.cfg:3258
+#: .\macros\amlas-wol.cfg:3295
+msgid "fireball"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=blade, range=melee
+#. [attack], type=impact, range=ranged
+#: .\macros\amlas-wol.cfg:1217
+#: .\macros\amlas-wol.cfg:1218
+#: .\units\minotaurs\Cutthroat.cfg:27
+#: .\units\minotaurs\Cutthroat.cfg:38
+#: .\units\minotaurs\Executioner.cfg:33
+#: .\units\minotaurs\Executioner.cfg:46
+#: .\units\minotaurs\Slayer.cfg:32
+#: .\units\minotaurs\Slayer.cfg:43
+msgid "kusarigama"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=blade, range=melee
+#: .\macros\amlas-wol.cfg:1239
+#: .\units\minotaurs\Behemoth.cfg:28
+#: .\units\minotaurs\Behemoth_Ancient.cfg:29
+msgid "maul"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=cold, range=melee
+#: .\macros\amlas-wol.cfg:1293
+#: .\units\nightmares\Cloud_of_Gloom.cfg:38
+#: .\units\nightmares\Eternal_Night.cfg:39
+msgid "cold aura"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=cold, range=ranged
+#: .\macros\amlas-wol.cfg:1294
+#: .\units\nightmares\Cloud_of_Gloom.cfg:51
+#: .\units\nightmares\Eternal_Night.cfg:52
+#: .\units\nightmares\Howling_Darkness.cfg:36
+msgid "howl"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=arcane, range=melee
+#: .\macros\amlas-wol.cfg:1303
+#: .\units\nightmares\Death_Spectre.cfg:36
+#: .\units\nightmares\Life_Thief.cfg:32
+#: .\units\nightmares\Soul_Snatcher.cfg:34
+msgid "soul grasp"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1315
+msgid "melee damage"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1318
+msgid "ranged damage"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=arcane, range=ranged
+#: .\macros\amlas-wol.cfg:1337
+#: .\units\aberrations\Black_Cat.cfg:43
+#: .\units\aberrations\Calamity.cfg:48
+#: .\units\aberrations\Jinx_Beast.cfg:45
+msgid "ill omen"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1346
+#: .\macros\amlas-wol.cfg:1442
+msgid "kick"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=arcane_focus, range=ranged
+#: .\macros\amlas-wol.cfg:1347
+#: .\units\aberrations\Inquisitor.cfg:44
+#: .\units\aberrations\Scornful_Watcher.cfg:49
+#: .\units\aberrations\Spiteful_Watcher.cfg:42
+msgid "stare"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=cold, range=melee
+#. [attack], type=blade, range=melee
+#: .\macros\amlas-wol.cfg:1373
+#: .\macros\amlas-wol.cfg:1739
+#: .\units\monsters\Ice_Ghost.cfg:28
+#: .\units\nightmares-elementals\Rime_Reaver.cfg:29
+#: .\units\nightmares-elementals\Rime_Wisp.cfg:29
+#: .\units\nightmares-elementals\Rime_Wraith.cfg:28
+#: .\units\steelhive\steel_leviathan.cfg:38
+msgid "frost claws"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1400
+msgid "greatsword"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=melee
+#: .\macros\amlas-wol.cfg:1409
+#: .\units\orcs\Subjugator.cfg:29
+msgid "chain flail"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1411
+msgid "knife"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=arcane, range=ranged
+#: .\macros\amlas-wol.cfg:1421
+#: .\units\orcs\Shaman.cfg:43
+#: .\units\orcs\Sorcerer.cfg:42
+#: .\units\orcs\Warlock.cfg:43
+msgid "siphon"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=fire, range=ranged
+#: .\macros\amlas-wol.cfg:1422
+#: .\macros\amlas-wol.cfg:3243
+#: .\units\human-mages\Mage_Forest.cfg:51
+#: .\units\human-mages\Mage_Nature.cfg:49
+#: .\units\human-mages\Mage_Wood.cfg:49
+#: .\units\orcs\Shaman.cfg:56
+#: .\units\orcs\Sorcerer.cfg:55
+#: .\units\orcs\Warlock.cfg:56
+msgid "nature flare"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1443
+#: .\macros\amlas-wol.cfg:2914
+msgid "throwing knives"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1453
+#: .\macros\amlas-wol.cfg:2842
+msgid "short sword"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1484
+#: .\macros\amlas-wol.cfg:2677
+#: .\macros\amlas-wol.cfg:2704
+#: .\macros\amlas-wol.cfg:2712
+msgid "hammer"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=melee
+#: .\macros\amlas-wol.cfg:1492
+#: .\units\trolls\Troll_Ancientstone.cfg:32
+msgid "monolith"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=ranged
+#: .\macros\amlas-wol.cfg:1493
+#: .\units\trolls\Troll_Ancientstone.cfg:42
+msgid "landslide"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=melee
+#: .\macros\amlas-wol.cfg:1501
+#: .\macros\amlas-wol.cfg:1787
+#: .\macros\amlas-wol.cfg:2174
+#: .\macros\amlas-wol.cfg:2537
+#: .\macros\amlas-wol.cfg:2755
+#: .\units\undead\Grave_Sentinel.cfg:34
+#: .\units\undead\Skull_Barrager.cfg:33
+#: .\units\undead\Skull_Slinger.cfg:33
+msgid "fist"
+msgstr ""
+
+#. [modify_unit_type]
 #: .\macros\amlas-wol.cfg:1502
+#: .\macros\amlas-wol.cfg:2890
+#: .\macros\amlas-wol.cfg:2902
+msgid "sling"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=melee
+#: .\macros\amlas-wol.cfg:1511
+#: .\units\trolls\Warbanner.cfg:40
+msgid "banner"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1512
+msgid "flame blast"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=blade, range=melee
+#: .\macros\amlas-wol.cfg:1670
+#: .\units\steelhive\steel_astigmatic.cfg:24
+#: .\units\steelhive\steel_cataract.cfg:23
+#: .\units\steelhive\steel_oculus.cfg:23
+msgid "spin"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=melee
+#: .\macros\amlas-wol.cfg:1671
+#: .\units\steelhive\steel_astigmatic.cfg:33
+msgid "collide"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=electric, range=ranged
+#: .\macros\amlas-wol.cfg:1672
+#: .\units\steelhive\steel_astigmatic.cfg:42
+#: .\units\steelhive\steel_cataract.cfg:32
+#: .\units\steelhive\steel_dominant.cfg:155
+#: .\units\steelhive\steel_oculus.cfg:32
+msgid "shock"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=pierce, range=melee
+#: .\macros\amlas-wol.cfg:1681
+#: .\units\steelhive\steel_choron.cfg:27
+msgid "pincer"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=fire, range=ranged
+#: .\macros\amlas-wol.cfg:1682
+#: .\units\steelhive\steel_choron.cfg:39
+msgid "plasma weld"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1691
+#: .\macros\amlas-wol.cfg:1718
+#: .\macros\amlas-wol.cfg:2461
+#: .\macros\amlas-wol.cfg:2470
+msgid "crush"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=pierce, range=ranged
+#: .\macros\amlas-wol.cfg:1692
+#: .\macros\amlas-wol.cfg:1729
+#: .\units\steelhive\steel_dominant.cfg:103
+#: .\units\steelhive\steel_dominant.cfg:143
+#: .\units\steelhive\steel_dreadnought.cfg:86
+#: .\units\steelhive\steel_impaler.cfg:23
+#: .\units\steelhive\steel_skewer.cfg:23
+msgid "quill"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=blade, range=melee
+#: .\macros\amlas-wol.cfg:1709
+#: .\units\steelhive\steel_splicer.cfg:25
+msgid "shred"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=pierce, range=melee
+#: .\macros\amlas-wol.cfg:1727
+#: .\units\steelhive\steel_dreadnought.cfg:68
+msgid "spine"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=melee
+#: .\macros\amlas-wol.cfg:1738
+#: .\units\steelhive\steel_leviathan.cfg:29
+msgid "constrict"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=cold, range=ranged
+#: .\macros\amlas-wol.cfg:1740
+#: .\units\steelhive\steel_leviathan.cfg:47
+#: .\units\steelhive\steel_serpent.cfg:36
+#: .\units\steelhive\steel_wyrm.cfg:35
+msgid "ion beam"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=blade, range=melee
+#: .\macros\amlas-wol.cfg:1749
+#: .\units\steelhive\steel_nymph.cfg:25
+#: .\units\steelhive\steel_slasher.cfg:23
+#: .\units\steelhive\steel_syren.cfg:30
+msgid "slash"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=electric, range=ranged
+#: .\macros\amlas-wol.cfg:1750
+#: .\units\steelhive\steel_larva.cfg:28
+#: .\units\steelhive\steel_nymph.cfg:59
+#: .\units\steelhive\steel_syren.cfg:64
+msgid "jolt"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=blade, range=melee
+#: .\macros\amlas-wol.cfg:1776
+#: .\units\elementals\Air_Daemon_3.cfg:100
+msgid "slashing gale"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=ranged
+#: .\macros\amlas-wol.cfg:1777
+#: .\units\elementals\Air_Daemon_3.cfg:122
+#: .\units\elementals\stable\Mistral.cfg:47
+#: .\units\elementals\stable\Zephyr.cfg:45
+msgid "tornado"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1778
+#: .\macros\amlas-wol.cfg:2649
+#: .\macros\amlas-wol.cfg:3233
+#: .\macros\amlas-wol.cfg:3273
+msgid "lightning"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=ranged
+#: .\macros\amlas-wol.cfg:1788
+#: .\units\elementals\Earth_Daemon_2.cfg:44
+#: .\units\elementals\Earth_Daemon_3.cfg:45
+msgid "stone"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=fire, range=melee
+#: .\macros\amlas-wol.cfg:1797
+#: .\units\elementals\Fire_Daemon_3.cfg:108
+msgid "eruption"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=cold, range=melee
+#: .\macros\amlas-wol.cfg:1811
+#: .\units\elementals\Water_Daemon_1.cfg:140
+#: .\units\elementals\Water_Daemon_2.cfg:122
+#: .\units\elementals\Water_Daemon_3.cfg:154
+msgid "deep sea water"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=cold, range=melee
+#: .\macros\amlas-wol.cfg:1816
+#: .\units\elementals\Water_Daemon_3.cfg:166
+msgid "deep sea embrace"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=pierce, range=ranged
+#: .\macros\amlas-wol.cfg:1817
+#: .\units\elementals\Water_Daemon_3.cfg:179
+msgid "rain storm"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1856
+msgid "Melee: +4 vanquishing slash damage."
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:1926
+msgid "ethereal web"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=arcane, range=ranged
+#: .\macros\amlas-wol.cfg:1963
 #: .\units\elves-wood\Ascetic.cfg:54
 #: .\units\elves-wood\Avatar.cfg:63
 #: .\units\elves-wood\Mystic.cfg:53
@@ -1575,8 +2622,8 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=fire, range=melee
-#: .\macros\amlas-wol.cfg:1513
-#: .\macros\amlas-wol.cfg:1524
+#: .\macros\amlas-wol.cfg:1974
+#: .\macros\amlas-wol.cfg:1985
 #: .\units\faeries\Faerie_Dryad.cfg:41
 #: .\units\faeries\Faerie_Spirit.cfg:66
 #: .\units\faeries\Faerie_Sprite.cfg:30
@@ -1586,13 +2633,430 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=fire, range=ranged
-#: .\macros\amlas-wol.cfg:1514
-#: .\macros\amlas-wol.cfg:1525
+#: .\macros\amlas-wol.cfg:1975
+#: .\macros\amlas-wol.cfg:1986
 #: .\units\faeries\Faerie_Dryad.cfg:50
 #: .\units\faeries\Faerie_Spirit.cfg:78
 #: .\units\faeries\Faerie_Sprite.cfg:39
 #: .\units\faeries\Fire_Faerie.cfg:51
 msgid "mystic fire"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2046
+#: .\macros\amlas-wol.cfg:2055
+#: .\macros\amlas-wol.cfg:2100
+#: .\macros\amlas-wol.cfg:2251
+#: .\macros\amlas-wol.cfg:2442
+msgid "touch"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=arcane, range=ranged
+#: .\macros\amlas-wol.cfg:2047
+#: .\units\undead\Umbral_Sovereign.cfg:44
+msgid "dark tempest"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2056
+#: .\macros\amlas-wol.cfg:2101
+#: .\macros\amlas-wol.cfg:2252
+msgid "chill tempest"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2064
+#: .\macros\amlas-wol.cfg:2073
+#: .\macros\amlas-wol.cfg:2121
+msgid "baneblade"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2102
+#: .\macros\amlas-wol.cfg:2253
+#: .\macros\amlas-wol.cfg:2263
+#: .\macros\amlas-wol.cfg:2831
+msgid "shadow wave"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2111
+#: .\macros\amlas-wol.cfg:2262
+msgid "chill wave"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=arcane, range=ranged
+#: .\macros\amlas-wol.cfg:2112
+#: .\units\undead\Necro_Crypt_Hierophant.cfg:60
+msgid "soul reap"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=melee
+#: .\macros\amlas-wol.cfg:2156
+#: .\units\undead\Bone_Skeleton.cfg:40
+msgid "bone mace"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=ranged
+#: .\macros\amlas-wol.cfg:2175
+#: .\units\undead\Grave_Sentinel.cfg:44
+#: .\units\undead\Skull_Barrager.cfg:43
+#: .\units\undead\Skull_Slinger.cfg:43
+msgid "skull"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=ranged
+#: .\macros\amlas-wol.cfg:2176
+#: .\units\undead\Grave_Sentinel.cfg:54
+#: .\units\undead\Skull_Barrager.cfg:53
+#: .\units\undead\Skull_Slinger.cfg:53
+msgid "barrage"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=melee
+#: .\macros\amlas-wol.cfg:2184
+#: .\units\undead\Bone_Ranger.cfg:32
+#: .\units\undead\Death_Stalker.cfg:32
+msgid "bone dagger"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2195
+msgid "Ranged: +2 bow damage."
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2242
+#: .\macros\amlas-wol.cfg:3456
+msgid "bite"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2261
+msgid "plague staff"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=arcane, range=ranged
+#: .\macros\amlas-wol.cfg:2327
+#: .\macros\amlas-wol.cfg:2337
+#: .\units\vampires\Duchess.cfg:54
+#: .\units\vampires\Methusalem.cfg:54
+#: .\units\vampires\Mistress.cfg:53
+#: .\units\vampires\Sire.cfg:54
+msgid "dementia gaze"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=blade, range=melee
+#: .\macros\amlas-wol.cfg:2355
+#: .\units\vampires\Twilight_Walker.cfg:35
+msgid "poisoned dagger"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=fire, range=ranged
+#: .\macros\amlas-wol.cfg:2376
+#: .\macros\amlas-wol.cfg:2396
+#: .\units\vampires\Blood_Apprentice.cfg:37
+#: .\units\vampires\Blood_Manipulator.cfg:46
+#: .\units\vampires\Flesh_Artisan.cfg:48
+#: .\units\vampires\Sangel.cfg:38
+msgid "blood boil"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=ranged
+#. [attack], type=arcane, range=ranged
+#: .\macros\amlas-wol.cfg:2377
+#: .\units\elementals\stable\Wisp.cfg:56
+#: .\units\vampires\Blood_Apprentice.cfg:49
+#: .\units\vampires\Blood_Manipulator.cfg:59
+#: .\units\vampires\Sangel.cfg:50
+msgid "aura wave"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=energy, range=ranged
+#: .\macros\amlas-wol.cfg:2443
+#: .\units\windsong\Ascendant.cfg:71
+#: .\units\windsong\Prophetess.cfg:65
+msgid "chronostasis cipher"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=cold, range=melee
+#: .\macros\amlas-wol.cfg:2451
+#: .\macros\amlas-wol.cfg:2590
+#: .\units\monsters\Sky_Crystal.cfg:45
+#: .\units\monsters\Sky_Shard.cfg:44
+#: .\units\windsong\Envoy.cfg:35
+#: .\units\windsong\Herald.cfg:36
+#: .\units\windsong\Weaver.cfg:47
+msgid "purge"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2462
+#: .\macros\amlas-wol.cfg:2472
+msgid "sharp rocks"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=fire, range=ranged
+#: .\macros\amlas-wol.cfg:2482
+#: .\macros\amlas-wol.cfg:2505
+#: .\units\windsong\Farstrider.cfg:50
+#: .\units\windsong\Pathfinder.cfg:51
+#: .\units\windsong\Seeker.cfg:47
+#: .\units\windsong\Skyrunner.cfg:45
+#: .\units\windsong\Stormbringer.cfg:46
+msgid "lightning cipher"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2496
+#: .\macros\amlas-wol.cfg:2503
+msgid "Melee: +1 polearm damage."
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2520
+#: .\macros\amlas-wol.cfg:2551
+msgid "Melee: +1 sword damage."
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2527
+#: .\macros\amlas-wol.cfg:2558
+msgid "Melee: +1 berserker frenzy damage."
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=blade, range=ranged
+#: .\macros\amlas-wol.cfg:2569
+#: .\units\windsong\Rune_Forger.cfg:42
+msgid "sorrow"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=ranged
+#: .\macros\amlas-wol.cfg:2570
+#: .\units\windsong\Rune_Forger.cfg:56
+msgid "memory"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=pierce, range=ranged
+#: .\macros\amlas-wol.cfg:2571
+#: .\units\windsong\Rune_Forger.cfg:70
+msgid "death"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=arcane, range=ranged
+#: .\macros\amlas-wol.cfg:2581
+#: .\units\windsong\Arbiter.cfg:43
+#: .\units\windsong\Librarian.cfg:44
+#: .\units\windsong\Savant.cfg:35
+#: .\units\windsong\Scribe.cfg:46
+msgid "cipher"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=ranged
+#: .\macros\amlas-wol.cfg:2620
+#: .\macros\amlas-wol.cfg:2629
+#: .\units\dwarves\Rune_Caster.cfg:38
+#: .\units\dwarves\Rune_Enchantress.cfg:38
+#: .\units\dwarves\Rune_Healer.cfg:37
+#: .\units\dwarves\Rune_Novice.cfg:37
+#: .\units\dwarves\Rune_Sorceress.cfg:39
+#: .\units\dwarves\Rune_Warden.cfg:38
+msgid "runic blast"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2639
+msgid "bolas"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=blade, range=melee
+#: .\macros\amlas-wol.cfg:2658
+#: .\units\dwarves\Dwarvish_Bloodaxe.cfg:31
+msgid "bloodaxe"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2687
+msgid "dragonstaff"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2756
+#: .\macros\amlas-wol.cfg:3457
+msgid "tail"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2764
+msgid "club"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2765
+msgid "net"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2791
+msgid "naia touch"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2792
+msgid "water spray"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:2818
+msgid "astral blade"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=arcane, range=ranged
+#: .\macros\amlas-wol.cfg:2819
+#: .\units\human-outlaws\Shadow_Lord.cfg:54
+msgid "noctum"
+msgstr ""
+
+#. [modify_unit_type]
+#. [effect], apply_to=new_attack, type=blade, range=ranged
+#. [attack], type=blade, range=ranged
+#: .\macros\amlas-wol.cfg:2940
+#: .\macros\wol-legends-artifacts.cfg:493
+#: .\units\human-outlaws\Axeman.cfg:30
+#: .\units\human-outlaws\Axemaster.cfg:31
+#: .\units\human-outlaws\Axethrower.cfg:31
+msgid "throwing axe"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=ranged
+#: .\macros\amlas-wol.cfg:3201
+#: .\macros\amlas-wol.cfg:3212
+#: .\units\carapaces\Guard.cfg:35
+#: .\units\carapaces\Hunter.cfg:32
+#: .\units\carapaces\Protector.cfg:32
+#: .\units\carapaces\Sentinel.cfg:36
+#: .\units\carapaces\Tracker.cfg:48
+msgid "water breath"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=arcane, range=ranged
+#: .\macros\amlas-wol.cfg:3244
+#: .\units\human-mages\Mage_Nature.cfg:62
+msgid "terra orbis"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=fire, range=ranged
+#: .\macros\amlas-wol.cfg:3263
+#: .\units\human-mages\Mage_Ember.cfg:49
+#: .\units\human-mages\Mage_Firestorm.cfg:50
+msgid "intensified fire"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=ranged
+#: .\macros\amlas-wol.cfg:3274
+#: .\units\human-mages\Mage_Storm.cfg:55
+#: .\units\human-mages\Mage_Tempest.cfg:50
+#: .\units\human-mages\Mage_Thunder.cfg:49
+msgid "ravage"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=melee
+#: .\macros\amlas-wol.cfg:3283
+#: .\units\human-mages\Frost_Mage.cfg:52
+msgid "frost staff"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=cold, range=ranged
+#: .\macros\amlas-wol.cfg:3284
+#: .\units\human-mages\Frost_Mage.cfg:61
+msgid "ice blast"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=impact, range=ranged
+#: .\macros\amlas-wol.cfg:3285
+#: .\units\human-mages\Frost_Mage.cfg:74
+msgid "crashing wave"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:3304
+msgid "missile"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:3348
+msgid "cleaver"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:3376
+#: .\macros\amlas-wol.cfg:3386
+#: .\macros\amlas-wol.cfg:3396
+#: .\macros\amlas-wol.cfg:3406
+#: .\macros\amlas-wol.cfg:3416
+msgid "sting"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:3377
+#: .\macros\amlas-wol.cfg:3387
+#: .\macros\amlas-wol.cfg:3397
+#: .\macros\amlas-wol.cfg:3407
+#: .\macros\amlas-wol.cfg:3417
+msgid "pincers"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=blade, range=melee
+#: .\macros\amlas-wol.cfg:3426
+#: .\units\monsters\Voidglow_Monarch.cfg:35
+msgid "shadow claw"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=fire, range=ranged
+#: .\macros\amlas-wol.cfg:3427
+#: .\units\monsters\Voidglow_Monarch.cfg:44
+msgid "shadow breath"
+msgstr ""
+
+#. [modify_unit_type]
+#. [attack], type=cold, range=ranged
+#: .\macros\amlas-wol.cfg:3437
+#: .\units\monsters\Frostfire_Monarch.cfg:83
+msgid "arctic breath"
+msgstr ""
+
+#. [modify_unit_type]
+#: .\macros\amlas-wol.cfg:3447
+msgid "breath"
 msgstr ""
 
 #. [advancement], id=amla_shrieker_ranged
@@ -2530,94 +3994,113 @@ msgstr ""
 
 #. [damage_type]
 #: .\macros\weapon-specials.cfg:150
-msgid "netherchill"
+msgid "searing"
 msgstr ""
 
 #. [damage_type]
 #: .\macros\weapon-specials.cfg:151
+msgid ""
+"This attack can deal either blade or fire damage, depending on which would be"
+" more effective."
+msgstr ""
+
+#. [damage_type]
+#: .\macros\weapon-specials.cfg:152
+msgid ""
+"This unit’s melee attack can deal either blade or fire damage, depending on "
+"which would be more effective."
+msgstr ""
+
+#. [damage_type]
+#: .\macros\weapon-specials.cfg:160
+msgid "netherchill"
+msgstr ""
+
+#. [damage_type]
+#: .\macros\weapon-specials.cfg:161
 msgid ""
 "This attack can deal either arcane or cold damage, depending on which would "
 "be more effective."
 msgstr ""
 
 #. [damage_type]
-#: .\macros\weapon-specials.cfg:152
+#: .\macros\weapon-specials.cfg:162
 msgid ""
 "This unit’s ranged attack can deal either arcane or cold damage, depending on"
 " which would be more effective."
 msgstr ""
 
 #. [damage_type]
-#: .\macros\weapon-specials.cfg:160
+#: .\macros\weapon-specials.cfg:170
 msgid "holy"
 msgstr ""
 
 #. [damage_type]
-#: .\macros\weapon-specials.cfg:161
+#: .\macros\weapon-specials.cfg:171
 msgid ""
 "This attack can deal either blade or arcane damage, depending on which would "
 "be more effective."
 msgstr ""
 
 #. [damage_type]
-#: .\macros\weapon-specials.cfg:162
+#: .\macros\weapon-specials.cfg:172
 msgid ""
 "This unit’s melee attack can deal either blade or arcane damage, depending on"
 " which would be more effective."
 msgstr ""
 
 #. [damage_type]
-#: .\macros\weapon-specials.cfg:170
+#: .\macros\weapon-specials.cfg:180
 msgid "natural"
 msgstr ""
 
 #. [damage_type]
-#: .\macros\weapon-specials.cfg:171
+#: .\macros\weapon-specials.cfg:181
 msgid ""
 "This attack can deal either arcane or natural damage, depending on which "
 "would be more effective."
 msgstr ""
 
 #. [damage_type]
-#: .\macros\weapon-specials.cfg:172
+#: .\macros\weapon-specials.cfg:182
 msgid ""
 "This unit’s melee attack can deal either arcane or natural damage, depending "
 "on which would be more effective."
 msgstr ""
 
 #. [drains]
-#: .\macros\weapon-specials.cfg:182
+#: .\macros\weapon-specials.cfg:192
 msgid "reap"
 msgstr ""
 
 #. [drains]
-#: .\macros\weapon-specials.cfg:184
+#: .\macros\weapon-specials.cfg:194
 msgid ""
 "This unit drains health from living units, healing itself for 70% of the "
 "damage dealt (rounded down)."
 msgstr ""
 
 #. [damage_type]
-#: .\macros\weapon-specials.cfg:192
+#: .\macros\weapon-specials.cfg:202
 msgid "energized"
 msgstr ""
 
 #. [damage_type]
-#: .\macros\weapon-specials.cfg:193
-#: .\macros\weapon-specials.cfg:194
+#: .\macros\weapon-specials.cfg:203
+#: .\macros\weapon-specials.cfg:204
 msgid ""
 "This attack can deal either fire or energy damage, depending on which would "
 "be more effective."
 msgstr ""
 
 #. [degrade]
-#: .\macros\weapon-specials.cfg:202
+#: .\macros\weapon-specials.cfg:212
 msgid "degrade"
 msgstr ""
 
 #. [degrade]
-#: .\macros\weapon-specials.cfg:203
-#: .\macros\weapon-specials.cfg:204
+#: .\macros\weapon-specials.cfg:213
+#: .\macros\weapon-specials.cfg:214
 msgid ""
 "This attack can temporarily corrode armor, lowering physical resistances by "
 "10% for a turn. This can be stacked."
@@ -2669,7 +4152,7 @@ msgstr ""
 #. [+multiplayer_side]
 #: .\macros\wol-legends-artifacts.cfg:42
 msgid ""
-"The durable plate of this heavy armor increase the user’s physical "
+"The durable plate of this heavy armor increases the user’s physical "
 "resistances (to a maximum of 15%) as well as raising their HP by 10. However,"
 " the user is slowed a bit due to its immense weight."
 msgstr ""
@@ -2731,7 +4214,7 @@ msgstr ""
 #. [artifact]
 #: .\macros\wol-legends-artifacts.cfg:222
 msgid ""
-"An waraxe which once belonged to Jotender of the Minotaurs. Equipping it, "
+"A waraxe which once belonged to Jotender of the Minotaurs. Equipping it, "
 "grants the user stronger melee blows and as well as the ferocity of its "
 "original wielder."
 msgstr ""
@@ -2746,8 +4229,8 @@ msgstr ""
 #: .\macros\wol-legends-artifacts.cfg:249
 #: .\macros\wol-legends-artifacts.cfg:250
 msgid ""
-"Attacking with this weapon increases damage by 50%, but reduces strikes by "
-"1.This effect is only action on offense."
+"Attacking with this weapon increases damage by 50%, but reduces strikes by 1."
+" This effect is only action on offense."
 msgstr ""
 
 #. [artifact]
@@ -2891,15 +4374,6 @@ msgid ""
 "combat experience."
 msgstr ""
 
-#. [effect], apply_to=new_attack, type=blade, range=ranged
-#. [attack], type=blade, range=ranged
-#: .\macros\wol-legends-artifacts.cfg:493
-#: .\units\human-outlaws\Axeman.cfg:30
-#: .\units\human-outlaws\Axemaster.cfg:31
-#: .\units\human-outlaws\Axethrower.cfg:31
-msgid "throwing axe"
-msgstr ""
-
 #. [artifact]
 #: .\macros\wol-legends-artifacts.cfg:520
 msgid "Ring of the Abyss"
@@ -2922,7 +4396,7 @@ msgstr ""
 
 #. [artifact]
 #: .\macros\wol-legends-artifacts.cfg:553
-msgid "This hammer has been enhanted to cause stun if a hit lands."
+msgid "This hammer has been enchanted to cause stun if a hit lands."
 msgstr ""
 
 #. [trainer]
@@ -3039,7 +4513,7 @@ msgstr ""
 
 #. [modification], id=knyght_wol_wc_enemy_data_array
 #: .\mods\multiplayer\War_of_Legends_World_Conquest.cfg:6
-msgid "World Conquest Enemy Data is overriden with War of Legends factions."
+msgid "World Conquest Enemy Data is overridden with War of Legends factions."
 msgstr ""
 
 #. [modification], id=knyght_wol_wc_legend_artifacts
@@ -3074,7 +4548,7 @@ msgid ""
 "Legends Conquest Multiplayer Era already comes with this modification enabled"
 " internally, and this is <b>only</b> for <i>War of Legends</i> and "
 "<i>Empowered Legends</i> Multiplayer Eras. Due to some restrictions, this "
-"modifications cannot be used with the core World Conquest Multiplayer Era "
+"modification cannot be used with the core World Conquest Multiplayer Era "
 "either."
 msgstr ""
 
@@ -3331,7 +4805,7 @@ msgid ""
 "Great, dark forests and caves are excellent places for mysterious creatures "
 "to live and hide in. Rarely seen, the mischievous fairies are some of the "
 "most beautiful beings who inhabit those parts. Their protective attitude "
-"towards nature make them friends of the elves who often share their "
+"towards nature makes them friends of the elves who often share their "
 "territory, but their whimsical personality and control over the fire element "
 "are characteristics that any creature foreign to their forests should fear "
 "and respect."
@@ -3403,7 +4877,7 @@ msgstr ""
 msgid ""
 "Harpies, often called bird-people, are humanlike creatures endowed with "
 "winged arms. They are thinner and much lighter than humans, and would be "
-"shorter than them if not for their long legs. They also bear other birdlikes "
+"shorter than them if not for their long legs. They also bear other birdlike "
 "features, like a feathered tail and clawed, scaly hands and feet. Harpies are"
 " prudent creatures, aware of their frailty and quick to flee when they sense "
 "danger. \n"
@@ -3418,7 +4892,7 @@ msgid ""
 "weapons and clothes. Their musical instruments are however highly valued by "
 "performers and connoisseurs alike. They trade feathers and food to merchants "
 "of other races for tools or materials, but most of the time they prefer to "
-"use their talents as courriers or scouts. \n"
+"use their talents as couriers or scouts. \n"
 "\n"
 "Harpies use powerful calls and songs to relay messages to other communities. "
 "Due to this way of communicating and their fast winged messengers, "
@@ -3498,9 +4972,10 @@ msgid ""
 "The Minotaurs are fearful creatures which are of ancient origin. They used to"
 " be humans which lived in the ancient times on the Great Continent, but a "
 "curse was placed upon the ancient civilization of these humans due to their "
-"disobedience towards their deity and creator. However some of the cursed ones"
-" prayed to their deity for forgiveness and therefore were rewarded with the "
-"inability to die by aging and therefore could only be killed by other means.\n"
+"disobedience towards their deity and creator. However, some of the cursed "
+"ones prayed to their deity for forgiveness and therefore were rewarded with "
+"the inability to die by aging and therefore could only be killed by other "
+"means.\n"
 "\n"
 "A minotaur's body is basically a fusion between that of a bull and a human. "
 "They also possess immense strength and some possess magical abilities granted"
@@ -3521,6 +4996,20 @@ msgstr ""
 #. [race], id=dragon
 #: .\units\monsters.cfg:7
 msgid "race+plural^Dragons"
+msgstr ""
+
+#. [race], id=dragon
+#: .\units\monsters.cfg:11
+msgid ""
+"A dragon is a cataclysm given form, an ancient power wrapped in scales, a "
+"legend spoken of in awe and dread and glimpsed only in the blackest hours of "
+"history. So rare are these titans that, absent the ruin they leave in their "
+"wake, they might be dismissed as mere myth born of old nightmares. Yet the "
+"shattered cities, the scorched battlefields, and the mountains cracked to "
+"their roots bear witness to a truth older than any kingdom: in the First "
+"Elemental War, when the world itself was rent asunder in cataclysm, it was "
+"the dragons who reigned as its apex, unrivaled and unchallenged, gods walking"
+" among lesser beings."
 msgstr ""
 
 #: .\units\nightmares-elementals.cfg:4
@@ -3577,7 +5066,7 @@ msgid ""
 "A literal example of the inefficiency inherent in power increase is the "
 "growth of Unstable Elementals, beings found in the south of the Wesnoth "
 "region. In their late stage the creatures become incarnations of the very "
-"wrath of nature. Far from exerting greater control over their ever increasing"
+"wrath of nature. Far from exerting greater control over their ever-increasing"
 " energy, the elemental becomes the puppet of its own excess emotion, like a "
 "child trapped within the overgrown body of a man, changing from one wild "
 "state to another in response to its environment.'"
@@ -3724,7 +5213,7 @@ msgstr ""
 msgid ""
 "The Windsong are a mysterious people, consisting completely of abducted "
 "female humans. Their numbers are few, and their goals and motives obscure. "
-"However they have demonstrated in the past that they are not to be trifled "
+"However, they have demonstrated in the past that they are not to be trifled "
 "with. They have strange powers, and massive libraries and towers full of "
 "books of ancient lore. Their armies though few in number have defeated all of"
 " the many who've attacked them, or whom they've decided to attack. Humans "
@@ -3770,13 +5259,6 @@ msgid ""
 "is struck by misfortune."
 msgstr ""
 
-#. [attack], type=arcane, range=ranged
-#: .\units\aberrations\Black_Cat.cfg:43
-#: .\units\aberrations\Calamity.cfg:48
-#: .\units\aberrations\Jinx_Beast.cfg:45
-msgid "ill omen"
-msgstr ""
-
 #. [unit_type], id=Calamity, race=aberration
 #: .\units\aberrations\Calamity.cfg:6
 msgid "Calamity"
@@ -3806,13 +5288,6 @@ msgid ""
 "left took the full force of the attack, and though I risked my own life "
 "dragging him back to the village, the healers could do nothing to save the "
 "wretch.'"
-msgstr ""
-
-#. [attack], type=arcane_focus, range=ranged
-#: .\units\aberrations\Inquisitor.cfg:44
-#: .\units\aberrations\Scornful_Watcher.cfg:49
-#: .\units\aberrations\Spiteful_Watcher.cfg:42
-msgid "stare"
 msgstr ""
 
 #. [unit_type], id=Jinx Beast, race=aberration
@@ -3879,8 +5354,8 @@ msgid ""
 "Dazed, Artingale staggered across the clearing, stepping over the shattered "
 "bones and dismembered limbs that littered the ground. The creature had burst "
 "suddenly from the undergrowth, giving his men no time to prepare a defense. "
-"In a matter of moments a third of the company had been mashed into paste, and"
-" the beast had raged off down the trail, evidently unconcerned with the "
+"In a matter of moments, a third of the company had been mashed into paste, "
+"and the beast had raged off down the trail, evidently unconcerned with the "
 "terrible wounds it had taken in return."
 msgstr ""
 
@@ -3955,15 +5430,6 @@ msgid ""
 "combat, gives them even more protection. Changing their clubs for maces, they"
 " are more dangerous, and thus most foes avoid these braves if they have the "
 "choice to do so."
-msgstr ""
-
-#. [attack], type=impact, range=ranged
-#: .\units\carapaces\Guard.cfg:35
-#: .\units\carapaces\Hunter.cfg:32
-#: .\units\carapaces\Protector.cfg:32
-#: .\units\carapaces\Sentinel.cfg:36
-#: .\units\carapaces\Tracker.cfg:48
-msgid "water breath"
 msgstr ""
 
 #. [unit_type], id=Hunter Carapace, race=carapace
@@ -4111,13 +5577,6 @@ msgid ""
 "female drakes."
 msgstr ""
 
-#. [attack], type=cold, range=ranged
-#: .\units\drakes\Apprentice.cfg:41
-#: .\units\drakes\Caster.cfg:42
-#: .\units\drakes\Sorceress.cfg:42
-msgid "ice shot"
-msgstr ""
-
 #. [unit_type], id=Drake Caster, race=drake, gender=female
 #: .\units\drakes\Caster.cfg:5
 msgid "Drake Caster"
@@ -4164,18 +5623,12 @@ msgstr ""
 #. [unit_type], id=Drake Shockbringer, race=drake
 #: .\units\drakes\Shockbringer.cfg:20
 msgid ""
-"The armored drakes wielding warhammers with nearly dragonlike strength are "
+"The armored drakes wielding warhammers with nearly dragon-like strength are "
 "terrifyingly titled Shockbringers. The force generated by a single hammer "
 "blow from these intimidating warriors of the Fighter Caste is often "
 "sufficient to shatter any fortified defense. In contrast to the black armor "
 "of the Drake Blademasters, the Drake Shockbringers retain their distinctive "
 "golden armor."
-msgstr ""
-
-#. [attack], type=impact, range=melee
-#: .\units\drakes\Shockbringer.cfg:106
-#: .\units\drakes\Smasher.cfg:105
-msgid "warhammer"
 msgstr ""
 
 #. [female]
@@ -4285,11 +5738,6 @@ msgid ""
 " from the fallen even at great cost."
 msgstr ""
 
-#. [attack], type=blade, range=melee
-#: .\units\dwarves\Dwarvish_Bloodaxe.cfg:31
-msgid "bloodaxe"
-msgstr ""
-
 #. [unit_type], id=Gryphon Thunderlord, race=gryphon
 #: .\units\dwarves\Gryphon_Thunderlord.cfg:5
 msgid "Gryphon Thunderlord"
@@ -4317,7 +5765,7 @@ msgid ""
 "valued by war-leaders and chieftains, and they are viewed with awe by "
 "ordinary dwarves, for they alone have plumbed the deepest and most "
 "closely-held secrets of dwarven knowledge. It is said that where a loremaster"
-" stands, there is the soul of the dwarves. To the abilities of the Annalist "
+" stands, there is the soul of the dwarves. To the abilities of the Annalist, "
 "they add a limited ability to heal."
 msgstr ""
 
@@ -4350,16 +5798,6 @@ msgid ""
 "shards, tremors of earth or even volcanic heat. Traditional dwarves detest "
 "this as mimicry of ‘soft magic’, yet none can deny their disciplined mastery "
 "over volatile power and the devastating effectiveness at the times of need."
-msgstr ""
-
-#. [attack], type=impact, range=ranged
-#: .\units\dwarves\Rune_Caster.cfg:38
-#: .\units\dwarves\Rune_Enchantress.cfg:38
-#: .\units\dwarves\Rune_Healer.cfg:37
-#: .\units\dwarves\Rune_Novice.cfg:37
-#: .\units\dwarves\Rune_Sorceress.cfg:39
-#: .\units\dwarves\Rune_Warden.cfg:38
-msgid "runic blast"
 msgstr ""
 
 #. [unit_type], id=Dwarvish Rune Enchantress, race=dwarfess, gender=female
@@ -4505,18 +5943,6 @@ msgstr ""
 msgid "Greater Air Daemon"
 msgstr ""
 
-#. [attack], type=blade, range=melee
-#: .\units\elementals\Air_Daemon_3.cfg:100
-msgid "slashing gale"
-msgstr ""
-
-#. [attack], type=impact, range=ranged
-#: .\units\elementals\Air_Daemon_3.cfg:122
-#: .\units\elementals\stable\Mistral.cfg:47
-#: .\units\elementals\stable\Zephyr.cfg:45
-msgid "tornado"
-msgstr ""
-
 #. [unit_type], id=Lesser Earth Daemon, race=elemental
 #: .\units\elementals\Earth_Daemon_1.cfg:5
 msgid "Lesser Earth Daemon"
@@ -4525,8 +5951,8 @@ msgstr ""
 #. [unit_type], id=Lesser Earth Daemon, race=elemental
 #: .\units\elementals\Earth_Daemon_1.cfg:27
 msgid ""
-"Rocks appear to have assembled themselves into some sort of animal... The are"
-" somewhat like a troll whelp, though more misshapen and they can belch "
+"Rocks appear to have assembled themselves into some sort of animal... They "
+"are somewhat like a troll whelp, though more misshapen and they can belch "
 "scratching dust. These things are nothing like the mudcrawlers, there is "
 "something much more sinister at work."
 msgstr ""
@@ -4548,12 +5974,6 @@ msgstr ""
 msgid ""
 "Rocks appear to have assembled themselves into some sort of animal... These "
 "beasts are better formed and agile than their younger kin."
-msgstr ""
-
-#. [attack], type=impact, range=ranged
-#: .\units\elementals\Earth_Daemon_2.cfg:44
-#: .\units\elementals\Earth_Daemon_3.cfg:45
-msgid "stone"
 msgstr ""
 
 #. [unit_type], id=Greater Earth Daemon, race=elemental
@@ -4582,21 +6002,9 @@ msgstr ""
 msgid "Greater Fire Daemon"
 msgstr ""
 
-#. [attack], type=fire, range=melee
-#: .\units\elementals\Fire_Daemon_3.cfg:108
-msgid "eruption"
-msgstr ""
-
 #. [unit_type], id=Lesser Water Daemon, race=elemental
 #: .\units\elementals\Water_Daemon_1.cfg:4
 msgid "Lesser Water Daemon"
-msgstr ""
-
-#. [attack], type=cold, range=melee
-#: .\units\elementals\Water_Daemon_1.cfg:140
-#: .\units\elementals\Water_Daemon_2.cfg:122
-#: .\units\elementals\Water_Daemon_3.cfg:154
-msgid "deep sea water"
 msgstr ""
 
 #. [unit_type], id=Water Daemon, race=elemental
@@ -4612,16 +6020,6 @@ msgstr ""
 #. [unit_type], id=Greater Water Daemon, race=elemental
 #: .\units\elementals\Water_Daemon_3.cfg:4
 msgid "Greater Water Daemon"
-msgstr ""
-
-#. [attack], type=cold, range=melee
-#: .\units\elementals\Water_Daemon_3.cfg:166
-msgid "deep sea embrace"
-msgstr ""
-
-#. [attack], type=pierce, range=ranged
-#: .\units\elementals\Water_Daemon_3.cfg:179
-msgid "rain storm"
 msgstr ""
 
 #. [unit_type], id=Brazier Imp, race=elemental
@@ -4648,8 +6046,8 @@ msgstr ""
 #: .\units\elementals\stable\Brazier_Whelpling.cfg:23
 msgid ""
 "Brazier Whelplings are Brazier Imps which have not completely hardened yet, "
-"thus they are weaker than their older siblings. Not an imposing threat, but "
-"once they harden they are much more of a threat."
+"thus they are weaker than their older siblings. Not an imposing threat but, "
+"once they harden, they are much more of a threat."
 msgstr ""
 
 #. [unit_type], id=Furnace Beast, race=elemental
@@ -4762,7 +6160,7 @@ msgstr ""
 #. [unit_type], id=Mistral, race=elemental
 #: .\units\elementals\stable\Mistral.cfg:22
 msgid ""
-"Mistrals are truly mighty windspirits who can decimate armies with their "
+"Mistrals are truly mighty wind spirits who can decimate armies with their "
 "powerful winds, and strike down men with their glistening scimitar."
 msgstr ""
 
@@ -4803,7 +6201,7 @@ msgstr ""
 #. [unit_type], id=Razorbird, race=elemental
 #: .\units\elementals\stable\Razorbird.cfg:22
 msgid ""
-"Lightning is not an element, however air elementals can take the form of a "
+"Lightning is not an element; however, air elementals can take the form of a "
 "bird which can control it. These birds have razor feathers which can slice "
 "anything but they need more energy to generate a lightning bolt."
 msgstr ""
@@ -4855,7 +6253,7 @@ msgstr ""
 msgid ""
 "As winds spirits stay in their physical form, they grow stronger, as does "
 "their power over winds. The advanced ability to control or herd winds allows "
-"the elemental to attack with more force. In addition they are now strong "
+"the elemental to attack with more force. In addition, they are now strong "
 "enough to hold a dagger."
 msgstr ""
 
@@ -4872,7 +6270,7 @@ msgstr ""
 #. [unit_type], id=Thunderbird, race=elemental
 #: .\units\elementals\stable\Thunderbird.cfg:23
 msgid ""
-"Using its metal feathers the Thunderbird is able to create powerfull sparks "
+"Using its metal feathers, the Thunderbird is able to create powerful sparks "
 "that can be thrown at long range."
 msgstr ""
 
@@ -4930,7 +6328,7 @@ msgstr ""
 msgid ""
 "Being swift and ferocious Vine Tigers are not to be trifled with, due to the "
 "fact that they can hide well in forested areas and are very powerful. In "
-"addition, these beast can blast barrages of thorns at prey and can ensnare "
+"addition, these beasts can blast barrages of thorns at prey and can ensnare "
 "their victims with the vines which compose this beast's body. To make matters"
 " even worse these beasts seem to have the ability to heal themselves by "
 "sapping the energy from forested areas, thus healing themselves."
@@ -4945,17 +6343,8 @@ msgstr ""
 #: .\units\elementals\stable\Wisp.cfg:33
 msgid ""
 "These mysterious beings are composed of pure, yet unstable arcane magic. "
-"Although they are weak they are easy to create and can bind to an element "
+"Although they are weak, they are easy to create and can bind to an element "
 "once they gather enough power to do so."
-msgstr ""
-
-#. [attack], type=impact, range=ranged
-#. [attack], type=arcane, range=ranged
-#: .\units\elementals\stable\Wisp.cfg:56
-#: .\units\vampires\Blood_Apprentice.cfg:49
-#: .\units\vampires\Blood_Manipulator.cfg:59
-#: .\units\vampires\Sangel.cfg:50
-msgid "aura wave"
 msgstr ""
 
 #. [unit_type], id=Zephyr, race=elemental
@@ -4987,11 +6376,6 @@ msgid ""
 "they least expect her."
 msgstr ""
 
-#. [attack], type=blade, range=melee
-#: .\units\elves-deep\Baroness.cfg:34
-msgid "twin blades"
-msgstr ""
-
 #. [chance_to_hit], id=eagle eye
 #: .\units\elves-deep\Baroness.cfg:53
 #: .\units\elves-deep\Nightmaiden.cfg:52
@@ -5001,14 +6385,7 @@ msgstr ""
 
 #. [chance_to_hit], id=eagle eye
 #: .\units\elves-deep\Baroness.cfg:55
-#: .\units\elves-deep\Nightmaiden.cfg:54
-#: .\units\elves-deep\Nightstalker.cfg:54
-msgid "has always a 80% chance to hit"
-msgstr ""
-
-#. [attack], type=blade, range=melee
-#: .\units\elves-deep\Baroness.cfg:62
-msgid "rip"
+msgid "has always an 80% chance to hit"
 msgstr ""
 
 #. [damage], id=relentless_assault
@@ -5077,11 +6454,6 @@ msgid ""
 "units will receive an additional +20% damage until the end of the turn."
 msgstr ""
 
-#. [attack], type=cold, range=melee
-#: .\units\elves-deep\Corrupted.cfg:46
-msgid "nether grip"
-msgstr ""
-
 #. [unit_type], id=Elthare, race=deep_elf, gender=female
 #: .\units\elves-deep\Elthare.cfg:5
 msgid "Elthare"
@@ -5095,11 +6467,6 @@ msgid ""
 "sword-like extension of purifying light which can slash enemies. Their "
 "transformation sort of makes them slightly resistant to mysterious magics and"
 " allows better footing on arctic terrain."
-msgstr ""
-
-#. [attack], type=energy, range=melee
-#: .\units\elves-deep\Elthare.cfg:44
-msgid "magical sword"
 msgstr ""
 
 #. [unit_type], id=Harbinger, race=deep_elf, gender=female
@@ -5117,23 +6484,6 @@ msgid ""
 "everything in its path and leaving nothing but blood and death. It believed "
 "that the Harbinger channels the energies of Shassagoth himself, providing her"
 " a potent means to further spread the influence of the darkness."
-msgstr ""
-
-#. [attack], type=arcane, range=melee
-#: .\units\elves-deep\Harbinger.cfg:26
-#: .\units\elves-deep\Matriarch.cfg:25
-#: .\units\elves-deep\Patroness.cfg:25
-#: .\units\elves-deep\Priestess.cfg:24
-#: .\units\elves-deep\Seer.cfg:34
-msgid "nether touch"
-msgstr ""
-
-#. [attack], type=electric, range=ranged
-#: .\units\elves-deep\Harbinger.cfg:35
-#: .\units\elves-deep\Matriarch.cfg:35
-#: .\units\elves-deep\Patroness.cfg:34
-#: .\units\elves-deep\Priestess.cfg:33
-msgid "discharge"
 msgstr ""
 
 #. [unit_type], id=Irr, race=deep_elf, gender=female
@@ -5207,6 +6557,12 @@ msgstr ""
 msgid "nether blade"
 msgstr ""
 
+#. [chance_to_hit], id=eagle eye
+#: .\units\elves-deep\Nightmaiden.cfg:54
+#: .\units\elves-deep\Nightstalker.cfg:54
+msgid "has always a 80% chance to hit"
+msgstr ""
+
 #. [unit_type], id=Night Stalker, race=deep_elf, gender=female
 #: .\units\elves-deep\Nightstalker.cfg:5
 msgid "Night Stalker"
@@ -5264,13 +6620,13 @@ msgstr ""
 #. [unit_type], id=Predator, race=deep_elf, gender=female
 #: .\units\elves-deep\Predator.cfg:24
 msgid ""
-"Whoever has incurred the hatred of the ghostly apparition that is the Seeker "
-"will find death. Immune to both swords and arrows, Seekers are said to be "
-"able freely traverse through walls, relentlessly pursing their marked "
-"quarries. The hunted prey is plagued with nightmares of its own death until "
-"the Seeker’s blade transforms its visions into reality. It is said that the "
-"Seeker’s sword consumes the souls of its marks, imprisoning them within a "
-"cage of cold steel."
+"Whoever has incurred the hatred of the ghostly apparition that is the "
+"Predator will find death. Immune to both swords and arrows, Predators are "
+"said to be able freely traverse through walls, relentlessly pursing their "
+"marked quarries. The hunted prey is plagued with nightmares of its own death "
+"until the Predator’s blade transforms its visions into reality. It is said "
+"that the Predator’s sword consumes the souls of its marks, imprisoning them "
+"within a cage of cold steel."
 msgstr ""
 
 #. [unit_type], id=Priestess of the Vault, race=deep_elf, gender=female
@@ -5305,11 +6661,6 @@ msgid ""
 " enemies’ intentions. Although blind and unable to speak, it is often said "
 "that in the absence of the Harbinger, the Seers are the true leaders of the "
 "Deep Elves."
-msgstr ""
-
-#. [attack], type=impact, range=ranged
-#: .\units\elves-deep\Seer.cfg:43
-msgid "will of Shassagoth"
 msgstr ""
 
 #. [unit_type], id=Shadow Tyrhai, race=deep_elf, gender=female
@@ -5435,8 +6786,8 @@ msgstr ""
 #: .\units\elves-deep\Wisp_Mother.cfg:24
 msgid ""
 "Wispmothers are rare beings that glow with mysterious, eerie energy that "
-"simultaneously appears as light, but also melds with the darkness. Often they"
-" are surrounded by many Wisps and Greater Wisps, who are attracted and "
+"simultaneously appears as light, but also melds with the darkness. Often, "
+"they are surrounded by many Wisps and Greater Wisps, who are attracted and "
 "empowered by the energy that the Wispmothers emit. The Wispmother, in turn, "
 "controls the lesser Wisps like the queen of a hive, directing them with "
 "unknown purpose. It is rumored that Wispmothers are not related to the "
@@ -5459,11 +6810,6 @@ msgstr ""
 #. [leadership], id=wisp mother
 #: .\units\elves-deep\Wisp_Mother.cfg:39
 msgid "female^wisp mother"
-msgstr ""
-
-#. [attack], type=arcane, range=ranged
-#: .\units\elves-deep\Wisp_Mother.cfg:66
-msgid "arcane barrage"
 msgstr ""
 
 #. [unit_type], id=Quenoth Acolyte, race=quenoth, gender=female
@@ -5827,8 +7173,8 @@ msgstr ""
 msgid ""
 "Faeries may eventually become one with the fire element, turning into spirits"
 " of flame and might, which they will use to relentlessly protect the forests "
-"they inhabit or people to which they have swore allegiance. However, seeing "
-"one of these spirits is more rare than stumbling upon a Wose, even for elves."
+"they inhabit or people to which they have sworn allegiance. However, seeing "
+"one of these spirits is rarer than stumbling upon a Wose, even for elves."
 msgstr ""
 
 #. [unit_type], id=Faerie Sprite, race=faerie, gender=female
@@ -5896,8 +7242,8 @@ msgid ""
 "Marlgoyles are simply Gargoyles whose magic has caused it to grow more "
 "powerful after absorbing enough blood. Marlgoyles appear to have a lustrous "
 "gold coating which makes it more durable and such, the magic will continue to"
-" strengthen the Marlgoyle as long as it gets more blood; however it will only"
-" increase its durability."
+" strengthen the Marlgoyle as long as it gets more blood; however, it will "
+"only increase its durability."
 msgstr ""
 
 #. [unit_type], id=Gnoll Deadeye, race=gnoll
@@ -6045,7 +7391,7 @@ msgid ""
 "within their tribe. Their methods are often crude and involve more chanting "
 "and strange poultices than actual medicine, but they're better than nothing "
 "in the heat of battle. Orcs tolerate them, seeing their abilities as a quirky"
-" benefit rather than true skill"
+" benefit rather than true skill."
 msgstr ""
 
 #. [unit_type], id=Hellwolf Rider, race=wolf
@@ -6153,35 +7499,6 @@ msgid ""
 "feathers turned grey from their grim duties."
 msgstr ""
 
-#. [attack], type=blade, range=melee
-#: .\units\harpies\Ashtail.cfg:60
-#: .\units\harpies\Bomber.cfg:56
-#: .\units\harpies\Emissary.cfg:103
-#: .\units\harpies\Falconeer.cfg:94
-#: .\units\harpies\Fighter.cfg:59
-#: .\units\harpies\Flockmaster.cfg:35
-#: .\units\harpies\Messenger.cfg:98
-#: .\units\harpies\Raptortongue.cfg:31
-#: .\units\harpies\Rockthrower.cfg:56
-#: .\units\harpies\Traveller.cfg:94
-#: .\units\monsters\Owl.cfg:46
-#: .\units\monsters\Owl_Great.cfg:48
-msgid "talons"
-msgstr ""
-
-#. [attack], type=impact, range=ranged
-#: .\units\harpies\Ashtail.cfg:69
-#: .\units\harpies\Bomber.cfg:65
-#: .\units\harpies\Rockthrower.cfg:65
-msgid "rock drop"
-msgstr ""
-
-#. [attack], type=fire, range=ranged
-#: .\units\harpies\Ashtail.cfg:78
-#: .\units\harpies\Bomber.cfg:74
-msgid "fiery hail"
-msgstr ""
-
 #. [unit_type], id=Harpy Bomber, race=harpy, gender=female
 #: .\units\harpies\Bomber.cfg:4
 msgid "Harpy Bomber"
@@ -6228,13 +7545,6 @@ msgid ""
 "matched in speed only by the griffins of the high peaks. As they often carry "
 "messages of high importance in troubled times, they can defend themselves "
 "quite well by using their sharp talons and unrivalled air mobility. "
-msgstr ""
-
-#. [attack], type=pierce, range=melee
-#: .\units\harpies\Emissary.cfg:113
-#: .\units\harpies\Messenger.cfg:108
-#: .\units\harpies\Traveller.cfg:104
-msgid "sky dive"
 msgstr ""
 
 #. [unit_type], id=Harpy Enchantress, race=harpy, gender=female
@@ -6321,12 +7631,6 @@ msgid ""
 "efficiently. "
 msgstr ""
 
-#. [attack], type=blade, range=ranged
-#: .\units\harpies\Flockmaster.cfg:45
-#: .\units\harpies\Raptortongue.cfg:41
-msgid "falcon storm"
-msgstr ""
-
 #. [unit_type], id=Harpy Galesinger, race=harpy, gender=female
 #: .\units\harpies\Galesinger.cfg:4
 msgid "Harpy Galesinger"
@@ -6342,12 +7646,6 @@ msgid ""
 "travel across the ocean. "
 msgstr ""
 
-#. [attack], type=cold, range=ranged
-#: .\units\harpies\Galesinger.cfg:66
-#: .\units\harpies\Songstressofstorms.cfg:67
-msgid "song of gale"
-msgstr ""
-
 #. [unit_type], id=Harpy Messenger, race=harpy, gender=female
 #: .\units\harpies\Messenger.cfg:4
 msgid "Harpy Messenger"
@@ -6357,7 +7655,7 @@ msgstr ""
 #: .\units\harpies\Messenger.cfg:20
 msgid ""
 "Due to their numerous travels, harpy wanderers end up mingling with other "
-"races a lot more. Often they will offer their service as long range "
+"races a lot more. Often, they will offer their service as long-range "
 "messengers to various folk. The time spent hunting in the wild has given them"
 " keen eyes which serve them well in battle also. "
 msgstr ""
@@ -6371,7 +7669,7 @@ msgstr ""
 #: .\units\harpies\Minstrel.cfg:19
 msgid ""
 "Harpies avoid other races whenever possible, and are seldom welcomed warmly. "
-"There is however an exception : minstrels are renowned for their incredible "
+"There is however an exception: minstrels are renowned for their incredible "
 "singing. Some say their voice can make anyone fall in awe and completely "
 "forget their surroundings. Although the public usually admires their talent, "
 "people sometimes fear their supposed powers.\n"
@@ -6379,12 +7677,6 @@ msgid ""
 "they feel threatened. Some of them end up settling down in human cities, but "
 "more often than not they keep traveling and act as informants for harpy "
 "communities."
-msgstr ""
-
-#. [attack], type=arcane, range=ranged
-#: .\units\harpies\Minstrel.cfg:102
-#: .\units\harpies\Siren.cfg:158
-msgid "beguiling song"
 msgstr ""
 
 #. [unit_type], id=Harpy Nightgaunt, race=harpy, gender=female
@@ -6399,11 +7691,6 @@ msgid ""
 "ever? Hide in the night, enjoy it, use it, but never forget it is not your "
 "friend. Those that fear not the shadows will in time join their ranks.</i> - "
 "Tales of the owl hunters"
-msgstr ""
-
-#. [attack], type=blade, range=melee
-#: .\units\harpies\Nightgaunt.cfg:64
-msgid "deathclaws"
 msgstr ""
 
 #. [unit_type], id=Night Harpy, race=harpy, gender=female
@@ -6456,8 +7743,8 @@ msgstr ""
 #. [unit_type], id=Harpy Raptortongue, race=harpy, gender=female
 #: .\units\harpies\Raptortongue.cfg:20
 msgid ""
-"Over time falconeers efficiently learn the falcons' language. As the bird "
-"ages their tamer often will bring in new recruits for taming. "
+"Over time falconers efficiently learn the falcons' language. As the bird ages"
+" their tamer often will bring in new recruits for taming. "
 msgstr ""
 
 #. [unit_type], id=Harpy Rockthrower, race=harpy, gender=female
@@ -6492,11 +7779,6 @@ msgid ""
 "Answer it well, it knows your name, and certainly never forgets."
 msgstr ""
 
-#. [attack], type=pierce, range=ranged
-#: .\units\harpies\Shrieker.cfg:118
-msgid "shriek"
-msgstr ""
-
 #. [unit_type], id=Harpy Siren, race=harpy, gender=female
 #: .\units\harpies\Siren.cfg:4
 msgid "Harpy Siren"
@@ -6521,14 +7803,8 @@ msgstr ""
 msgid ""
 "Some harpy singers chose to live away from land, secluded in places where "
 "they can become one with the wind. They spend days meditating at sea to "
-"listen to the song of the gales. When their kin calls for help however, their"
-" mastery of weather lets them summon fierce storms that scatter enemy troops."
-" "
-msgstr ""
-
-#. [attack], type=fire, range=ranged
-#: .\units\harpies\Songstressofstorms.cfg:79
-msgid "song of storm"
+"listen to the song of the gales. When their kin call for help however, their "
+"mastery of weather lets them summon fierce storms that scatter enemy troops. "
 msgstr ""
 
 #. [unit_type], id=Harpy Stalkerwing, race=harpy, gender=female
@@ -6547,13 +7823,13 @@ msgstr ""
 
 #. [unit_type], id=Harpy Traveller, race=harpy, gender=female
 #: .\units\harpies\Traveller.cfg:4
-msgid "Harpy Traveller"
+msgid "Harpy Traveler"
 msgstr ""
 
 #. [unit_type], id=Harpy Traveller, race=harpy, gender=female
 #: .\units\harpies\Traveller.cfg:20
 msgid ""
-"Harpies by nature see more of the world than non winged folks, and some of "
+"Harpies by nature see more of the world than non-winged folks, and some of "
 "them long to see what is beyond the horizon. Those that follow this path are "
 "among the fastest and most agile flyers in the sky. "
 msgstr ""
@@ -6608,7 +7884,7 @@ msgstr ""
 #: .\units\human-aragwaithi\Aragwaith_Archer.cfg:18
 msgid ""
 "The Aragwaithi are a noble people, fragile in body, but their training makes "
-"them among the most deadly denizens of this world. Their archers are no "
+"them among the deadliest denizens of this world. Their archers are no "
 "exception. Their skills with a bow are comparable to those of some elves, and"
 " they are remarkably quick with their daggers."
 msgstr ""
@@ -6629,7 +7905,7 @@ msgid ""
 "And, paradoxically, it is a skill that is useless on its own; for its true "
 "value lies in those who stand by those who have it. It is, as that king goes "
 "on to say, an ability that belongs to others as much to oneself. Such lesson "
-"is one that a flagbearer learns across the years; once he fully understand "
+"is one that a flagbearer learns across the years; once he fully understands "
 "it, he finds himself surrounded by those whose hearts he's earned, whose "
 "souls have been filled with his bravery, and who have learned to become "
 "greater than they are through his example. With banners embroidered with "
@@ -6828,7 +8104,7 @@ msgid ""
 "hold the line in the great battles until the reinforcements arrived, but they"
 " paid a high price, not many survived the battle and many others died through"
 " their strong wounds. Now only the best warriors are allowed to carry these "
-"ancient shields to remind the world and to honour these brave man and their "
+"ancient shields to remind the world and to honour these brave men and their "
 "sacrifice."
 msgstr ""
 
@@ -7092,13 +8368,8 @@ msgstr ""
 #: .\units\human-legion\Berserker.cfg:18
 msgid ""
 "Some soldiers of the Legion decide that it would be better if they went "
-"berserk on their foes. For this purpose they leave behind their shield and "
+"berserk on their foes. For this purpose, they leave behind their shield and "
 "sword and take up a broadsword."
-msgstr ""
-
-#. [attack], type=blade, range=melee
-#: .\units\human-legion\Berserker.cfg:24
-msgid "broadsword"
 msgstr ""
 
 #. [unit_type], id=Legion Cavalier, race=human
@@ -7142,11 +8413,6 @@ msgid ""
 " captains, or in some cases, commanders, in the Legion."
 msgstr ""
 
-#. [attack], type=blade, range=ranged
-#: .\units\human-legion\Commander.cfg:48
-msgid "razor chakram"
-msgstr ""
-
 #. [unit_type], id=Legion Crossbowman, race=human, gender=male
 #: .\units\human-legion\Crossbowman.cfg:4
 msgid "Legion Crossbowman"
@@ -7169,11 +8435,6 @@ msgstr ""
 msgid "Not every crusher chooses to don heavier armor and take up a defensive role."
 msgstr ""
 
-#. [attack], type=impact, range=melee
-#: .\units\human-legion\Crusher.cfg:26
-msgid "sledgehammer"
-msgstr ""
-
 #. [unit_type], id=Legion Doctor, race=human, gender=male
 #: .\units\human-legion\Doctor.cfg:5
 msgid "Legion Doctor"
@@ -7186,7 +8447,7 @@ msgid ""
 " expertise and knowledge. At this point, they often focus on teaching novice "
 "medics so that the skill they so meticulously honed does not get lost in the "
 "passage of time. Many of them might even write one or two treatises on "
-"medical lore, copies of which are often seen as prized posessions. Many of "
+"medical lore, copies of which are often seen as prized possessions. Many of "
 "them expand their expertise to not only physical but also mental and "
 "spiritual domain as well, capable of channeling arcane magic into massive "
 "beams of holy light, used to banish the most dangerous of spirits.\n"
@@ -7250,12 +8511,6 @@ msgstr ""
 msgid ""
 "Guardians of the Legion are the defensive guardians and the sight of these "
 "warriors make foes tremble with fear."
-msgstr ""
-
-#. [attack], type=impact, range=melee
-#: .\units\human-legion\Guardian.cfg:24
-#: .\units\human-legion\Sentinel.cfg:25
-msgid "war hammer"
 msgstr ""
 
 #. [unit_type], id=Legion Gunner, race=human
@@ -7366,8 +8621,9 @@ msgid ""
 "travel the world, ministering to sickness and injury, for this is what truly "
 "sets their heart at peace.\n"
 "Though not trained for combat, they are a potent ally against magical or "
-"unnatural things, due to sheer amount of magical knowledge they posess. Often"
-" they use magical beams of light to deal with spirtual threats as well."
+"unnatural things, due to sheer amount of magical knowledge they possess. "
+"Often, they use magical beams of light to deal with spiritual threats as "
+"well."
 msgstr ""
 
 #. [unit_type], id=Legion Pillager, race=human
@@ -7522,18 +8778,6 @@ msgid ""
 "foes who deny the Light."
 msgstr ""
 
-#. [attack], type=blade, range=melee
-#: .\units\human-loyalists\Loyalist_Chevalier.cfg:37
-#: .\units\human-loyalists\Loyalist_Crusader.cfg:38
-msgid "divine sword"
-msgstr ""
-
-#. [attack], type=arcane, range=ranged
-#: .\units\human-loyalists\Loyalist_Chevalier.cfg:49
-#: .\units\human-loyalists\Loyalist_Crusader.cfg:50
-msgid "divine lightning"
-msgstr ""
-
 #. [unit_type], id=Crossbowman, race=human, gender=male
 #: .\units\human-loyalists\Loyalist_Crossbowman.cfg:4
 msgid "Crossbowman"
@@ -7634,11 +8878,6 @@ msgid ""
 " fight superbly better in situations where they are outnumbered."
 msgstr ""
 
-#. [attack], type=impact, range=melee
-#: .\units\human-loyalists\Loyalist_Titanium_Decimator.cfg:31
-msgid "reinforced flail"
-msgstr ""
-
 #. [unit_type], id=Aqua Initiate, race=human, gender=female
 #: .\units\human-mages\Aqua_Initiate.cfg:16
 msgid ""
@@ -7708,29 +8947,15 @@ msgid ""
 "Long time spent on understanding the properties of water and the "
 "corresponding magic can eventually grant the mage valuable insights on the "
 "properties on matter itself. No longer limited to manipulation of liquids, "
-"they are now capable of modifying the intrinsic coldness of surronding matter"
-" itself. When challenged, they can easily turn their opponents into a living "
-"statue of ice or decimate them with massive water waves out of nowhere."
+"they are now capable of modifying the intrinsic coldness of surrounding "
+"matter itself. When challenged, they can easily turn their opponents into a "
+"living statue of ice or decimate them with massive water waves out of "
+"nowhere."
 msgstr ""
 
 #. [unit_type], id=Frost Mage, race=human, gender=female
 #: .\units\human-mages\Frost_Mage.cfg:19
 msgid "female^Frost Mage"
-msgstr ""
-
-#. [attack], type=impact, range=melee
-#: .\units\human-mages\Frost_Mage.cfg:52
-msgid "frost staff"
-msgstr ""
-
-#. [attack], type=cold, range=ranged
-#: .\units\human-mages\Frost_Mage.cfg:61
-msgid "ice blast"
-msgstr ""
-
-#. [attack], type=impact, range=ranged
-#: .\units\human-mages\Frost_Mage.cfg:74
-msgid "crashing wave"
 msgstr ""
 
 #. [unit_type], id=Adept of Light, race=human, gender=female
@@ -7743,7 +8968,7 @@ msgstr ""
 msgid ""
 "Certain female apprentices are chosen from their admission into the academies"
 " to study the magic art of light. After graduation, they become Adepts, "
-"capable of giving a phyical form to the light itself. These magi can summon "
+"capable of giving a physical form to the light itself. These magi can summon "
 "the Light in the form of energy balls and are able slightly heal wounded "
 "allies."
 msgstr ""
@@ -7767,25 +8992,9 @@ msgid ""
 "also use their powers to guide allies to fight better."
 msgstr ""
 
-#. [attack], type=arcane, range=ranged
-#: .\units\human-mages\Mage_Cleric.cfg:42
-#: .\units\human-mages\Mage_Prophetess_of_Light.cfg:46
-#: .\units\minotaurs\Elder.cfg:40
-#: .\units\minotaurs\Mystic.cfg:38
-#: .\units\minotaurs\Shaman.cfg:39
-#: .\units\minotaurs\Warlock.cfg:37
-msgid "sacred fire"
-msgstr ""
-
 #. [unit_type], id=Ember Mage, race=human, gender=male
 #: .\units\human-mages\Mage_Ember.cfg:4
 msgid "Ember Mage"
-msgstr ""
-
-#. [attack], type=fire, range=ranged
-#: .\units\human-mages\Mage_Ember.cfg:49
-#: .\units\human-mages\Mage_Firestorm.cfg:50
-msgid "intensified fire"
 msgstr ""
 
 #. [unit_type], id=Mage of Firestorms, race=human, gender=male
@@ -7809,16 +9018,6 @@ msgid ""
 "devastating ball of fire, the awe-inspiring nature flare."
 msgstr ""
 
-#. [attack], type=fire, range=ranged
-#: .\units\human-mages\Mage_Forest.cfg:51
-#: .\units\human-mages\Mage_Nature.cfg:49
-#: .\units\human-mages\Mage_Wood.cfg:49
-#: .\units\orcs\Shaman.cfg:56
-#: .\units\orcs\Sorcerer.cfg:55
-#: .\units\orcs\Warlock.cfg:56
-msgid "nature flare"
-msgstr ""
-
 #. [unit_type], id=Mage of Nature, race=human, gender=female
 #: .\units\human-mages\Mage_Nature.cfg:4
 msgid "Mage of Nature"
@@ -7832,11 +9031,6 @@ msgid ""
 "\n"
 "Having full control of nature's power, they can use it effectively in battles"
 " and can heal themselves and nearby allies."
-msgstr ""
-
-#. [attack], type=arcane, range=ranged
-#: .\units\human-mages\Mage_Nature.cfg:62
-msgid "terra orbis"
 msgstr ""
 
 #. [unit_type], id=Prophetess of Light, race=human, gender=female
@@ -7875,13 +9069,6 @@ msgstr ""
 msgid ""
 "Storm Magi are well-attuned to their magical natures and are highly resistant"
 " to non-physical damage."
-msgstr ""
-
-#. [attack], type=impact, range=ranged
-#: .\units\human-mages\Mage_Storm.cfg:55
-#: .\units\human-mages\Mage_Tempest.cfg:50
-#: .\units\human-mages\Mage_Thunder.cfg:49
-msgid "ravage"
 msgstr ""
 
 #. [female]
@@ -8032,9 +9219,9 @@ msgstr ""
 #. [unit_type], id=Shaman, race=human, gender=male
 #: .\units\human-outlaws\Rogue_Shaman.cfg:18
 msgid ""
-"The study of magic followed by the these mages is based on both healing and "
-"fire. The shamans are skilled in both close and long ranged combat but "
-"proficient in neither."
+"The study of magic followed by these mages is based on both healing and fire."
+" The shamans are skilled in both close and long ranged combat but proficient "
+"in neither."
 msgstr ""
 
 #. [unit_type], id=Rogue Slayer, race=human
@@ -8115,11 +9302,6 @@ msgid ""
 "they lord over."
 msgstr ""
 
-#. [attack], type=arcane, range=ranged
-#: .\units\human-outlaws\Shadow_Lord.cfg:54
-msgid "noctum"
-msgstr ""
-
 #. [female]
 #: .\units\human-outlaws\Shadow_Lord.cfg:100
 msgid "female^Shadow Lady"
@@ -8156,7 +9338,7 @@ msgstr ""
 #: .\units\human-outlaws\Tracker.cfg:21
 msgid ""
 "Frontier villages or towns do not always have a garrison watching over them. "
-"Thus, it is required for every able-bodied men and even women to take up arms"
+"Thus, it is required for every able-bodied man and even woman to take up arms"
 " in times of a raid on their homes. While the men take clubs, daggers, or "
 "bows, women have to make due with staffs and slings. Though not strong enough"
 " to defeat an enemy by themselves, these women are extremely hard to hit due "
@@ -8182,12 +9364,6 @@ msgid ""
 "person to whom the behemoth has been ordered to obey is able to control them."
 " In addition, due to the modifications caused by the ritual, the Behemoths "
 "tend to move more swiftly than the rest of their brethren."
-msgstr ""
-
-#. [attack], type=blade, range=melee
-#: .\units\minotaurs\Behemoth.cfg:28
-#: .\units\minotaurs\Behemoth_Ancient.cfg:29
-msgid "maul"
 msgstr ""
 
 #. [unit_type], id=Minotaur Ancient Behemoth, race=minotaur
@@ -8238,8 +9414,8 @@ msgstr ""
 msgid ""
 "Boar Riders who know how to use their companions to their full potential are "
 "promoted to Boar Knights. While Boar Knights carry regular weapons, their "
-"real potential lies in the strength of their companion, due to their ever "
-"growing bond."
+"real potential lies in the strength of their companion, due to their "
+"ever-growing bond."
 msgstr ""
 
 #. [unit_type], id=Boar Rider, race=minotaur
@@ -8266,18 +9442,7 @@ msgid ""
 "Kusarigamas are noble and highly useful weapons that are difficult to master."
 " The cutthroats have gazed upon the power of a kusarigama master and they "
 "wish to achieve such mastery. Although cutthroats lack experience with their "
-"weapon they can still make some use of it."
-msgstr ""
-
-#. [attack], type=blade, range=melee
-#. [attack], type=impact, range=ranged
-#: .\units\minotaurs\Cutthroat.cfg:27
-#: .\units\minotaurs\Cutthroat.cfg:38
-#: .\units\minotaurs\Executioner.cfg:33
-#: .\units\minotaurs\Executioner.cfg:46
-#: .\units\minotaurs\Slayer.cfg:32
-#: .\units\minotaurs\Slayer.cfg:43
-msgid "kusarigama"
+"weapon, they can still make some use of it."
 msgstr ""
 
 #. [unit_type], id=Minotaur Elder, race=minotaur
@@ -8312,7 +9477,7 @@ msgid ""
 "wielding it; instead of wielding it like a scythe, they prefer to wield it "
 "like a claw. Even though these powerful warriors will kill most of the "
 "enemies they face, they like to play it safe by poisoning their weapon. Most "
-"foolhardy archers think they can easily defeat an Executioner, however they "
+"foolhardy archers think they can easily defeat an Executioner; however, they "
 "likely have not been acquainted with the weight and chain that makes the "
 "kusarigama such an effective weapon."
 msgstr ""
@@ -8339,9 +9504,9 @@ msgstr ""
 msgid ""
 "Although the Warlocks and the Elders are more famous for their very lofty "
 "role, more powerful magic and the mysterious crystals which they wield, the "
-"Mystics are superior to the Warlocks and the Elders in a few ways. First they"
-" can levitate, such an ability is very useful in battle; second they are "
-"physically stronger than their counterparts; third they possess healing "
+"Mystics are superior to the Warlocks and the Elders in a few ways. First, "
+"they can levitate, such an ability is very useful in battle; second, they are"
+" physically stronger than their counterparts; third, they possess healing "
 "abilities. All these qualities make the Mystics a terrifying force on the "
 "battle field, therefore they should not be taken lightly."
 msgstr ""
@@ -8355,9 +9520,9 @@ msgstr ""
 #: .\units\minotaurs\Overlord.cfg:20
 msgid ""
 "A minotaur that has been recognized for their skill, leadership ability and "
-"intelligence is bestowed the title of 'overlord'. Basically the overlord rank"
-" is the minotaur equivalent to the human rank of general. Overlords plan all "
-"the battle strategies and whatnot, and unlike human generals, overlords "
+"intelligence is bestowed the title of 'overlord'. Basically, the overlord "
+"rank is the minotaur equivalent to the human rank of general. Overlords plan "
+"all the battle strategies and whatnot, and unlike human generals, overlords "
 "sometimes willingly participate directly in battle in order to further "
 "inspire their comrades to perform their best."
 msgstr ""
@@ -8404,10 +9569,10 @@ msgstr ""
 #: .\units\minotaurs\Slayer.cfg:19
 msgid ""
 "Learning how to properly and effectively wield a kusarigama is pure drudgery;"
-" however that does not stop those eager to eventually gain the power and "
+" however, that does not stop those eager to eventually gain the power and "
 "skill of a master. Since slayers are still learning how to have near-perfect "
 "control of their weapon they choose not to use poison like the executioners "
-"do. Slayers are not quite masters yet; however they are still quite skilled "
+"do. Slayers are not quite masters yet; however, they are still quite skilled "
 "with their kusarigamas; therefore, slayers are not to be underestimated."
 msgstr ""
 
@@ -8477,6 +9642,26 @@ msgid ""
 "smoldering earth."
 msgstr ""
 
+#. [unit_type], id=Flesh Golem, race=undead
+#: .\units\monsters\Flesh_Golem.cfg:5
+msgid "Flesh Golem"
+msgstr ""
+
+#. [unit_type], id=Flesh Golem, race=undead
+#: .\units\monsters\Flesh_Golem.cfg:26
+msgid ""
+"Incredibly strong constructs, flesh golems are created by powerful "
+"necromancers from the bodies of fallen warriors. Though these golems "
+"dutifully follow every command, and attack their enemies with ceaseless rage,"
+" the madness that possesses them has occasionally caused them to turn on "
+"their masters."
+msgstr ""
+
+#. [attack], type=impact, range=melee
+#: .\units\monsters\Flesh_Golem.cfg:31
+msgid "smashing frenzy"
+msgstr ""
+
 #. [unit_type], id=Forgotten Minotaur, race=minotaur
 #: .\units\monsters\Forgotten_Minotaur.cfg:5
 msgid "Forgotten Minotaur"
@@ -8515,11 +9700,6 @@ msgid ""
 "and powerful as their distant relatives, they are still formidable predators "
 "that hunt even mammoths and can be deadly even to larger groups of "
 "adventurers."
-msgstr ""
-
-#. [attack], type=cold, range=ranged
-#: .\units\monsters\Frostfire_Monarch.cfg:83
-msgid "arctic breath"
 msgstr ""
 
 #. [unit_type], id=Ancient Shroom, race=monster
@@ -8624,12 +9804,6 @@ msgid ""
 " regions of Wesnoth."
 msgstr ""
 
-#. [attack], type=cold, range=melee
-#: .\units\monsters\Ice_Ghost.cfg:28
-#: .\units\steelhive\steel_leviathan.cfg:38
-msgid "frost claws"
-msgstr ""
-
 #. [unit_type], id=Owl, race=monster
 #: .\units\monsters\Owl.cfg:8
 msgid "Owl"
@@ -8656,7 +9830,7 @@ msgid ""
 "Owls. As a result, they are better insulated against the cold and even have "
 "some protection against being struck, though a well-placed piercing arrow "
 "will pass through their feathers. Like the common owls, they tend to follow "
-"wold-packs, picking off the wounded or panicked prey flushed out by the "
+"wolf-packs, picking off the wounded or panicked prey flushed out by the "
 "canine predators."
 msgstr ""
 
@@ -8725,19 +9899,10 @@ msgid ""
 "\n"
 "Crystals are bound to the will of whoever controls 'The Mandate'. As they are"
 " barely present in reality, they can teleport between areas of high cipher "
-"activity (friendly towns). Also a consequence of this is their immunity to "
+"activity (friendly towns). Also, a consequence of this is their immunity to "
 "Drain, Poison and Plague. Crystals are crystalline in nature and so have "
 "unusual resistances. Crystals are never destroyed, they are merely 'pushed "
 "out' of reality."
-msgstr ""
-
-#. [attack], type=cold, range=melee
-#: .\units\monsters\Sky_Crystal.cfg:45
-#: .\units\monsters\Sky_Shard.cfg:44
-#: .\units\windsong\Envoy.cfg:35
-#: .\units\windsong\Herald.cfg:36
-#: .\units\windsong\Weaver.cfg:47
-msgid "purge"
 msgstr ""
 
 #. [unit_type], id=Sky Shard, race=abstraction
@@ -8756,15 +9921,15 @@ msgid ""
 "could travel quickly and were able to perform a variety of tasks. The cipher,"
 " the only power used by the Windsong, was capable of carving such servants "
 "from The Raw and binding them into reality. But this required the full "
-"attention of an Ascendant to maintain even a handful of these Shards. And so "
-"the Windsong gathered the most powerful Cryptographers (those who use "
+"attention of an Ascendant to maintain even a handful of these Shards. And so,"
+" the Windsong gathered the most powerful Cryptographers (those who use "
 "ciphers) to the Foundation, and had them construct an artifact of "
 "unimaginable, though very defined, power to do it for them. It took centuries"
 " to create, but with it the Windsong were finally complete.\n"
 "\n"
 "Shards are bound to the will of whoever controls 'The Mandate'. As they are "
 "barely present in reality, they can teleport between areas of high cipher "
-"activity (friendly towns). Also a consequence of this is their immunity to "
+"activity (friendly towns). Also, a consequence of this is their immunity to "
 "Drain, Poison and Plague. Shards are crystalline in nature and so have "
 "unusual resistances. Shards are never destroyed, they are merely 'pushed out'"
 " of reality."
@@ -8785,9 +9950,9 @@ msgid ""
 "monsters are simply a manifestation of that danger.\n"
 "\n"
 "As they are constructs of snow and ice, they can repair and regenerate when "
-"in a favorable envirnoment.  However, the icy regrowth seems prone to errors,"
+"in a favorable environment.  However, the icy regrowth seems prone to errors,"
 " so while they were likely formed in the image of ideal warriors, they have "
-"become mishapen and their movement thus compromised.  This malformation is "
+"become misshapen and their movement thus compromised.  This malformation is "
 "most obvious in their hand and arms, which take the most damage."
 msgstr ""
 
@@ -8839,16 +10004,6 @@ msgid ""
 "unquestioningly, and he, in turn, smites their foes."
 msgstr ""
 
-#. [attack], type=blade, range=melee
-#: .\units\monsters\Voidglow_Monarch.cfg:35
-msgid "shadow claw"
-msgstr ""
-
-#. [attack], type=fire, range=ranged
-#: .\units\monsters\Voidglow_Monarch.cfg:44
-msgid "shadow breath"
-msgstr ""
-
 #. [unit_type], id=Warrior Scorpion, race=monster
 #: .\units\monsters\Warrior_Scorpion.cfg:4
 msgid "Warrior Scorpion"
@@ -8880,7 +10035,7 @@ msgstr ""
 msgid ""
 "Naga Hunters are Naga who are skilled at hunting with a bow. Since the naga "
 "are naturally resistant to poison, they have no qualms about hunting with "
-"poisoned arrows. These two foot long shafts, tipped with a potent poison, "
+"poisoned arrows. These two-foot-long shafts, tipped with a potent poison, "
 "have been known to slay many kinds of prey."
 msgstr ""
 
@@ -8912,19 +10067,6 @@ msgid ""
 "shadows, something blacker yet, like a hole in the night.'"
 msgstr ""
 
-#. [attack], type=cold, range=melee
-#: .\units\nightmares\Cloud_of_Gloom.cfg:38
-#: .\units\nightmares\Eternal_Night.cfg:39
-msgid "cold aura"
-msgstr ""
-
-#. [attack], type=cold, range=ranged
-#: .\units\nightmares\Cloud_of_Gloom.cfg:51
-#: .\units\nightmares\Eternal_Night.cfg:52
-#: .\units\nightmares\Howling_Darkness.cfg:36
-msgid "howl"
-msgstr ""
-
 #. [unit_type], id=Death Spectre, race=nightmare
 #: .\units\nightmares\Death_Spectre.cfg:6
 msgid "Death Spectre"
@@ -8938,13 +10080,6 @@ msgid ""
 "That fascinates us and makes us pass way\n"
 "Without a complaint in the midst of the battle?\n"
 "Our soul, waiting that instant for itself to display.'"
-msgstr ""
-
-#. [attack], type=arcane, range=melee
-#: .\units\nightmares\Death_Spectre.cfg:36
-#: .\units\nightmares\Life_Thief.cfg:32
-#: .\units\nightmares\Soul_Snatcher.cfg:34
-msgid "soul grasp"
 msgstr ""
 
 #. [unit_type], id=Eternal Night, race=nightmare
@@ -8989,8 +10124,8 @@ msgstr ""
 #: .\units\nightmares\Life_Thief.cfg:20
 msgid ""
 "In her moments of happiness, Meloen enjoyed gazing at butterflies. In these "
-"rare moments of meditation she became conscious of their short lives and felt"
-" her own mortality deeply.\n"
+"rare moments of meditation, she became conscious of their short lives and "
+"felt her own mortality deeply.\n"
 "\n"
 "While pregnant, Meloen dreamed of an eerie spirit shaped like a butterfly, "
 "floating above her and the child she was holding. She immediately identified "
@@ -9102,6 +10237,51 @@ msgstr ""
 msgid "toxic spray"
 msgstr ""
 
+#. [unit_type], id=Rime Reaver, race=elemental
+#: .\units\nightmares-elementals\Rime_Reaver.cfg:5
+msgid "Rime Reaver"
+msgstr ""
+
+#. [unit_type], id=Rime Reaver, race=elemental
+#: .\units\nightmares-elementals\Rime_Reaver.cfg:20
+msgid ""
+"The Reaver has drifted so long it no longer resembles the aimless thing it "
+"once was, its passage through countless skirmishes hardening it into "
+"something that mends itself as readily as it wounds others. It stands as much"
+" a monument to Panarbori's spent rage as the wildfires and storms that share "
+"its origin — not through fury, but through a cold that simply refuses to end."
+msgstr ""
+
+#. [unit_type], id=Rime Wisp, race=elemental
+#: .\units\nightmares-elementals\Rime_Wisp.cfg:5
+msgid "Rime Wisp"
+msgstr ""
+
+#. [unit_type], id=Rime Wisp, race=elemental
+#: .\units\nightmares-elementals\Rime_Wisp.cfg:20
+msgid ""
+"A scrap of frost left behind when a greater fury burns itself out, the Rime "
+"Wisp is barely more than drifting cold given the vaguest sense of shape. It "
+"skitters just out of reach of anything that might harm it, and what little "
+"damage does land only slows it for a moment — the cold in it simply reforms, "
+"the way frost does on a windowpane no matter how many times it's wiped away."
+msgstr ""
+
+#. [unit_type], id=Rime Wraith, race=elemental
+#: .\units\nightmares-elementals\Rime_Wraith.cfg:5
+msgid "Rime Wraith"
+msgstr ""
+
+#. [unit_type], id=Rime Wraith, race=elemental
+#: .\units\nightmares-elementals\Rime_Wraith.cfg:19
+msgid ""
+"Lingering longer than most of its kind, the Rime Wraith has sharpened its "
+"drift into something closer to purpose, striking and slipping away before "
+"real harm can catch up to it. Its claws don't cut so much as chill, leaving a"
+" cold behind that settles into flesh and stays there long after the wound "
+"itself has healed."
+msgstr ""
+
 #. [unit_type], id=Unstable Elemental, race=elemental
 #: .\units\nightmares-elementals\Unstable_Elemental.cfg:316
 msgid "Unstable Elemental"
@@ -9162,13 +10342,6 @@ msgid ""
 "Orcish Shamans have a moderate ability in using their nature magic."
 msgstr ""
 
-#. [attack], type=arcane, range=ranged
-#: .\units\orcs\Shaman.cfg:43
-#: .\units\orcs\Sorcerer.cfg:42
-#: .\units\orcs\Warlock.cfg:43
-msgid "siphon"
-msgstr ""
-
 #. [female]
 #: .\units\orcs\Shaman.cfg:170
 msgid "female^Orcish Shaman"
@@ -9207,11 +10380,6 @@ msgid ""
 "thought to do this sooner."
 msgstr ""
 
-#. [attack], type=impact, range=melee
-#: .\units\orcs\Subjugator.cfg:29
-msgid "chain flail"
-msgstr ""
-
 #. [unit_type], id=Orcish Warlock, race=orc
 #: .\units\orcs\Warlock.cfg:5
 msgid "Orcish Warlock"
@@ -9243,26 +10411,6 @@ msgid ""
 "lightning bolts were the bane of many a now-extinct species. The first "
 "Retinari to be converted have now been upgraded beyond recognition, in "
 "pursuit of even further electrical output."
-msgstr ""
-
-#. [attack], type=blade, range=melee
-#: .\units\steelhive\steel_astigmatic.cfg:24
-#: .\units\steelhive\steel_cataract.cfg:23
-#: .\units\steelhive\steel_oculus.cfg:23
-msgid "spin"
-msgstr ""
-
-#. [attack], type=impact, range=melee
-#: .\units\steelhive\steel_astigmatic.cfg:33
-msgid "collide"
-msgstr ""
-
-#. [attack], type=electric, range=ranged
-#: .\units\steelhive\steel_astigmatic.cfg:42
-#: .\units\steelhive\steel_cataract.cfg:32
-#: .\units\steelhive\steel_dominant.cfg:155
-#: .\units\steelhive\steel_oculus.cfg:32
-msgid "shock"
 msgstr ""
 
 #. [unit_type], id=Steel Cataract, race=steelhive, gender=female
@@ -9298,16 +10446,6 @@ msgid ""
 "these machines are not quite dead in their entirety."
 msgstr ""
 
-#. [attack], type=pierce, range=melee
-#: .\units\steelhive\steel_choron.cfg:27
-msgid "pincer"
-msgstr ""
-
-#. [attack], type=fire, range=ranged
-#: .\units\steelhive\steel_choron.cfg:39
-msgid "plasma weld"
-msgstr ""
-
 #. [unit_type], id=Steel Dominant, race=steelhive, gender=female
 #: .\units\steelhive\steel_dominant.cfg:4
 msgid "Steel Dominant"
@@ -9316,22 +10454,13 @@ msgstr ""
 #. [unit_type], id=Steel Dominant, race=steelhive, gender=female
 #: .\units\steelhive\steel_dominant.cfg:19
 msgid ""
-"Leading such a proteiformus army as the steelhive is a task that cannot be "
+"Leading such a protean army as the steelhive is a task that cannot be "
 "achieved by a single organism. The Steelhive therefore takes its best "
-"elements and fuse them into a single model profitient in multi-tasking. This "
+"elements and fuse them into a single model proficient in multi-tasking. This "
 "mastery allows it to command the Steelhive as well as making it a formidable "
 "enemy able to attack multiple targets at once. However, injuring the Dominant"
 " makes it loose part of its multi-tasking ability, making it less deadly "
 "while still dangerous."
-msgstr ""
-
-#. [attack], type=pierce, range=ranged
-#: .\units\steelhive\steel_dominant.cfg:103
-#: .\units\steelhive\steel_dominant.cfg:143
-#: .\units\steelhive\steel_dreadnought.cfg:86
-#: .\units\steelhive\steel_impaler.cfg:23
-#: .\units\steelhive\steel_skewer.cfg:23
-msgid "quill"
 msgstr ""
 
 #. [unit_type], id=Steel Dreadnought, race=steelhive, gender=female
@@ -9347,11 +10476,6 @@ msgid ""
 "then, was necessary when the Steelhive took control of their armies and sent "
 "them back to attack their own homeworld. Even now, the Dreadnought model "
 "remains a reliable and effective front-lines combatant for the Steelhive."
-msgstr ""
-
-#. [attack], type=pierce, range=melee
-#: .\units\steelhive\steel_dreadnought.cfg:68
-msgid "spine"
 msgstr ""
 
 #. [unit_type], id=Steel Fideliant, race=steelhive, gender=female
@@ -9423,13 +10547,6 @@ msgid ""
 " further conversion and expansion."
 msgstr ""
 
-#. [attack], type=electric, range=ranged
-#: .\units\steelhive\steel_larva.cfg:28
-#: .\units\steelhive\steel_nymph.cfg:59
-#: .\units\steelhive\steel_syren.cfg:64
-msgid "jolt"
-msgstr ""
-
 #. [unit_type], id=Steel Leviathan, race=steelhive, gender=female
 #: .\units\steelhive\steel_leviathan.cfg:4
 msgid "Steel Leviathan"
@@ -9443,18 +10560,6 @@ msgid ""
 "individually and their corpses metallized one by one, until in the end none "
 "remained to oppose the Steelhive. Now, the Leviathans' design serves as a "
 "model to which a rare few are upgraded."
-msgstr ""
-
-#. [attack], type=impact, range=melee
-#: .\units\steelhive\steel_leviathan.cfg:29
-msgid "constrict"
-msgstr ""
-
-#. [attack], type=cold, range=ranged
-#: .\units\steelhive\steel_leviathan.cfg:47
-#: .\units\steelhive\steel_serpent.cfg:36
-#: .\units\steelhive\steel_wyrm.cfg:35
-msgid "ion beam"
 msgstr ""
 
 #. [unit_type], id=Steel Nymph, race=steelhive, gender=female
@@ -9472,13 +10577,6 @@ msgid ""
 "units begin to display the collective's signature behavior of cataloguing and"
 " analyzing encountered lifeforms, often capturing specimens alive for further"
 " study and eventual assimilation into the growing hive network."
-msgstr ""
-
-#. [attack], type=blade, range=melee
-#: .\units\steelhive\steel_nymph.cfg:25
-#: .\units\steelhive\steel_slasher.cfg:23
-#: .\units\steelhive\steel_syren.cfg:30
-msgid "slash"
 msgstr ""
 
 #. [unit_type], id=Steel Oculus, race=steelhive, gender=female
@@ -9557,11 +10655,6 @@ msgid ""
 "hunger."
 msgstr ""
 
-#. [attack], type=blade, range=melee
-#: .\units\steelhive\steel_splicer.cfg:25
-msgid "shred"
-msgstr ""
-
 #. [unit_type], id=Steel Syren, race=steelhive, gender=female
 #: .\units\steelhive\steel_syren.cfg:4
 msgid "Steel Syren"
@@ -9605,9 +10698,9 @@ msgid ""
 "Experimentation with the Kalkunids resulted in several new model strains; as "
 "usual, the Steelhive engaged in its practice of conjoining multiple instances"
 " of the same species to create elite forms. These designs were rightly "
-"regarded as abominations by the Kalkunids, and while they brought great "
-"firepower to the field they also served to galvanized the Kalkunids to unite "
-"against the Steelhive at last. This would not save them, in the end."
+"regarded as abominations by the Kalkunids and, while they brought great "
+"firepower to the field, they also served to galvanized the Kalkunids to unite"
+" against the Steelhive at last. This would not save them, in the end."
 msgstr ""
 
 #. [unit_type], id=Steel Wyrm, race=steelhive, gender=female
@@ -9670,16 +10763,6 @@ msgid ""
 "balance known only to them."
 msgstr ""
 
-#. [attack], type=impact, range=melee
-#: .\units\trolls\Troll_Ancientstone.cfg:32
-msgid "monolith"
-msgstr ""
-
-#. [attack], type=impact, range=ranged
-#: .\units\trolls\Troll_Ancientstone.cfg:42
-msgid "landslide"
-msgstr ""
-
 #. [unit_type], id=Troll Mentor, race=troll
 #: .\units\trolls\Troll_Mentor.cfg:4
 msgid "Troll Mentor"
@@ -9710,11 +10793,6 @@ msgid ""
 "protecting their allies in a mystical aura, weakening the foe's attacks."
 msgstr ""
 
-#. [attack], type=impact, range=melee
-#: .\units\trolls\Warbanner.cfg:40
-msgid "banner"
-msgstr ""
-
 #. [attack], type=cold, range=ranged
 #: .\units\trolls\Warbanner.cfg:62
 msgid "chill sphere"
@@ -9738,6 +10816,104 @@ msgid ""
 "troll with proper armament is entirely unsettling."
 msgstr ""
 
+#. [unit_type], id=Bone Guardian, race=undead
+#: .\units\undead\Bone_Guardian.cfg:4
+msgid "Bone Guardian"
+msgstr ""
+
+#. [unit_type], id=Bone Guardian, race=undead
+#: .\units\undead\Bone_Guardian.cfg:17
+msgid ""
+"Stripped of all flesh by age or deliberate design, the Bone Guardian is the "
+"hardened remnant of a once-dutiful custodian. Its bones, bleached and "
+"seasoned by centuries beneath scorching sands, resist both fire and the "
+"crushing weight of battle. Where others might falter or flee, a Bone Guardian"
+" stands resolute — an unyielding wall of rattling death that no master need "
+"ever fear will abandon its post."
+msgstr ""
+
+#. [unit_type], id=Bone Ranger, race=undead
+#: .\units\undead\Bone_Ranger.cfg:5
+msgid "Bone Ranger"
+msgstr ""
+
+#. [unit_type], id=Bone Ranger, race=undead
+#: .\units\undead\Bone_Ranger.cfg:18
+msgid ""
+"Once skilled hunters and rangers in life, these skeletal remnants have been "
+"raised by dark sorcery and bound to an oath never spoken in life. Driven by a"
+" cold, unrelenting hunger for vengeance, they stalk their quarry across "
+"marshland and ruin — drawing back fleshless fingers upon a bowstring and "
+"loosing arrows that carry the chill of the grave."
+msgstr ""
+
+#. [unit_type], id=Bone Skeleton, race=undead
+#: .\units\undead\Bone_Skeleton.cfg:5
+msgid "Bone Skeleton"
+msgstr ""
+
+#. [unit_type], id=Bone Skeleton, race=undead
+#: .\units\undead\Bone_Skeleton.cfg:28
+msgid ""
+"Bone Skeletons, clad in bone armour and armed with two bone maces, are an "
+"awe-inspiring tool of doom imployed by the great undead overlords. They are "
+"slower than the most of undead but that only adds to the horror of meeting "
+"one. Lagging behind the ranks of front-liners, these monsters wait for a "
+"perfect moment to strike the victims in any breach in their formation. Their "
+"armour makes them even less vulnerable to any kind of physical damage and "
+"their big bone maces deal heavy blows to their confused enemies."
+msgstr ""
+
+#. [unit_type], id=Death Stalker, race=undead
+#: .\units\undead\Death_Stalker.cfg:5
+msgid "Death Stalker"
+msgstr ""
+
+#. [unit_type], id=Death Stalker, race=undead
+#: .\units\undead\Death_Stalker.cfg:18
+msgid ""
+"The most feared of undead archers, these ancient hunters have haunted the "
+"wastelands so long that no memory of their former lives remains. They move "
+"without thought or mercy, guided only by their master's will and an instinct "
+"sharpened by centuries of death. Their soul-arrows are dreaded above all else"
+" — for what the body survives, the spirit may not."
+msgstr ""
+
+#. [unit_type], id=Grave Sentinel, race=undead
+#: .\units\undead\Grave_Sentinel.cfg:5
+msgid "Grave Sentinel"
+msgstr ""
+
+#. [unit_type], id=Grave Sentinel, race=undead
+#: .\units\undead\Grave_Sentinel.cfg:18
+msgid ""
+"Before the great cities crumbled and the desert swallowed their names, Grave "
+"Sentinels stood watch over the thresholds the living were never meant to "
+"cross. They were made to last — and they have. An age of windblown sand has "
+"done nothing to weaken their throws or dull the cold certainty that drives "
+"them. When a Grave Sentinel rises, it does not rage. It simply resumes. The "
+"vigil never ended; the intruders merely paused."
+msgstr ""
+
+#. [unit_type], id=Grave Titan, race=undead
+#: .\units\undead\Grave_Titan.cfg:5
+msgid "Grave Titan"
+msgstr ""
+
+#. [unit_type], id=Grave Titan, race=undead
+#: .\units\undead\Grave_Titan.cfg:19
+msgid ""
+"Ascending the chains of undeath, Draugs metamorphose into the formidable "
+"Grave Titans, an embodiment of the macabre fusion of raw physical power and "
+"relentless spirit. These skeletal leviathans bear the battle scars of "
+"countless combats, their strength surpassing the norms for their undead "
+"brethren. Donning imposing steel shields, these monoliths of the battlefield "
+"act as unyielding barriers against their foes, their dark battleaxes "
+"reverberating with an ominous hum, spreading terror and destruction across "
+"the battlefield. The structural changes in their bones make them particularly"
+" resistant to physical damage."
+msgstr ""
+
 #. [unit_type], id=Crypt Hierophant, race=undead
 #: .\units\undead\Necro_Crypt_Hierophant.cfg:5
 msgid "Crypt Hierophant"
@@ -9750,11 +10926,6 @@ msgid ""
 "not granted to mortals, but with a terrible cost: the servants that he gave "
 "his soul to are gradually claiming his mortal shell too, and with time, he "
 "will be a true undead and a terror to all that lives."
-msgstr ""
-
-#. [attack], type=arcane, range=ranged
-#: .\units\undead\Necro_Crypt_Hierophant.cfg:60
-msgid "soul reap"
 msgstr ""
 
 #. [unit_type], id=Deathmaster, race=undead
@@ -9813,6 +10984,126 @@ msgid ""
 "feared by all alike."
 msgstr ""
 
+#. [unit_type], id=Reptilian Husk, race=undead
+#: .\units\undead\Reptilian_Husk.cfg:4
+msgid "Reptilian Husk"
+msgstr ""
+
+#. [unit_type], id=Reptilian Husk, race=undead
+#: .\units\undead\Reptilian_Husk.cfg:32
+msgid ""
+"The practice of necromancy is unknown among the reptilians, but their augurs "
+"practice other arts, older and equally vile. The most terrible of these uses "
+"an elixir of rare herbs and dark rituals to induce a deathlike trance in "
+"their still-living brethren; in this state the lifeless husks act as "
+"barely-sentient slaves, commanded by their creators' dark magics. It is "
+"speculated by some loremasters that these creatures are a precursor to the "
+"vile ghoul, and that human necromancers learned such craft from the "
+"reptilians. Few have a chance to study these unliving abominations in detail,"
+" however; while alone these shambling forms may seem slow and clumsy, they "
+"retain a deadly pack instinct and once they have their prey surrounded they "
+"rip into it with astonishing speed and viciousness."
+msgstr ""
+
+#. [unit_type], id=Reptilian Stalker, race=undead
+#: .\units\undead\Reptilian_Stalker.cfg:4
+msgid "Reptilian Stalker"
+msgstr ""
+
+#. [unit_type], id=Reptilian Stalker, race=undead
+#: .\units\undead\Reptilian_Stalker.cfg:32
+msgid ""
+"The practice of necromancy is unknown among the reptilians, but their augurs "
+"practice other arts, older and equally vile. The most terrible of these uses "
+"an elixir of rare herbs and dark rituals to induce a deathlike trance in "
+"their still-living brethren; in this state the lifeless lurkers act as "
+"barely-sentient slaves, commanded by their creators' dark magics. It is "
+"speculated by some loremasters that these creatures are a precursor to the "
+"vile ghoul, and that human necromancers learned such craft from the "
+"reptilians. Few have a chance to study these unliving abominations in detail,"
+" however; while alone these shambling forms may seem slow and clumsy, they "
+"retain a deadly pack instinct and once they have their prey surrounded they "
+"rip into it with astonishing speed and viciousness."
+msgstr ""
+
+#. [unit_type], id=Reptilian Terror, race=undead
+#: .\units\undead\Reptilian_Terror.cfg:4
+msgid "Reptilian Terror"
+msgstr ""
+
+#. [unit_type], id=Reptilian Terror, race=undead
+#: .\units\undead\Reptilian_Terror.cfg:33
+msgid ""
+"The practice of necromancy is unknown among the reptilians, but their augurs "
+"practice other arts, older and equally vile. The most terrible of these uses "
+"an elixir of rare herbs and dark rituals to induce a deathlike trance in "
+"their still-living brethren; in this state the lifeless terrors act as "
+"barely-sentient slaves, commanded by their creators' dark magics. It is "
+"speculated by some loremasters that these creatures are a precursor to the "
+"vile ghoul, and that human necromancers learned such craft from the "
+"reptilians. Few have a chance to study these unliving abominations in detail,"
+" however; while alone these shambling forms may seem slow and clumsy, they "
+"retain a deadly pack instinct and once they have their prey surrounded they "
+"rip into it with astonishing speed and viciousness."
+msgstr ""
+
+#. [unit_type], id=Risen Colossus, race=undead
+#: .\units\undead\Risen_Colossus.cfg:4
+msgid "Risen Colossus"
+msgstr ""
+
+#. [unit_type], id=Risen Colossus, race=undead
+#: .\units\undead\Risen_Colossus.cfg:18
+msgid ""
+"An abomination only conceivably worked on by experienced necromancers, the "
+"black thrall towers over its master's enemies with a combination of hunger "
+"and rage atypical of their creations. Its unusual behaviour and ghoul-like "
+"attitude makes even most of their masters fearful of even calling upon their "
+"help."
+msgstr ""
+
+#. [unit_type], id=Risen Hulk, race=undead
+#: .\units\undead\Risen_Hulk.cfg:4
+msgid "Risen Hulk"
+msgstr ""
+
+#. [unit_type], id=Risen Hulk, race=undead
+#: .\units\undead\Risen_Hulk.cfg:17
+msgid ""
+"Although their ever increasing size and suffocating stench of decay hinders "
+"their ability to pass as a human in any kind of situation, the iron thrall "
+"exibhits enough strengh to be armed with a strong weapon capable of crushing "
+"even the most valiant of knights."
+msgstr ""
+
+#. [unit_type], id=Risen Serf, race=undead
+#: .\units\undead\Risen_Serf.cfg:4
+msgid "Risen Serf"
+msgstr ""
+
+#. [unit_type], id=Risen Serf, race=undead
+#: .\units\undead\Risen_Serf.cfg:17
+msgid ""
+"The life-like appearance of the thrall can confuse people when seen from afar"
+" or in the darkness. Nerverthless, the sighting of its swollen and blackened "
+"body reveals his true nature as a creation of an evil mind."
+msgstr ""
+
+#. [unit_type], id=Skeleton Custodian, race=undead
+#: .\units\undead\Skeleton_Custodian.cfg:5
+msgid "Skeleton Custodian"
+msgstr ""
+
+#. [unit_type], id=Skeleton Custodian, race=undead
+#: .\units\undead\Skeleton_Custodian.cfg:22
+msgid ""
+"From a distance, a custodian might be mistaken for a living soldier — until "
+"the stench of decay and its bloated, blackened flesh betray what it truly is."
+" Bound to guard the sacred places of the dead, these ancient sentinels patrol"
+" their posts with a relentless, unthinking devotion that no living soldier "
+"could sustain."
+msgstr ""
+
 #. [unit_type], id=Dark Invader, race=undead
 #: .\units\undead\Skele_Dark_Invader.cfg:5
 msgid "Dark Invader"
@@ -9863,7 +11154,7 @@ msgid "Grim Knight"
 msgstr ""
 
 #. [unit_type], id=Grim Knight, race=undead
-#: .\units\undead\Skele_Grim_Knight.cfg:31
+#: .\units\undead\Skele_Grim_Knight.cfg:33
 msgid ""
 "When a Chocobone has served long enough in the undead legions, the dark magic"
 " that animates it begins to seep into the very bones of both rider and mount,"
@@ -9875,6 +11166,36 @@ msgid ""
 "of the lost civilization's undead armies, striking with the precision of "
 "death itself as they charge into battle with a dread that chills the hearts "
 "of the living."
+msgstr ""
+
+#. [unit_type], id=Skull Barrager, race=undead
+#: .\units\undead\Skull_Barrager.cfg:5
+msgid "Skull Barrager"
+msgstr ""
+
+#. [unit_type], id=Skull Barrager, race=undead
+#: .\units\undead\Skull_Barrager.cfg:17
+msgid ""
+"A Skull Slinger fights from instinct; a Skull Barrager fights from habit "
+"ground into its bones across decades of undeath. Its throws are not frantic "
+"but measured — a rapid, precisely spaced volley that lets no formation "
+"advance without cost. The dry desert preserves them well. There is nothing to"
+" rot, nothing to weaken — only the patient accumulation of lethal repetition."
+msgstr ""
+
+#. [unit_type], id=Skull Slinger, race=undead
+#: .\units\undead\Skull_Slinger.cfg:5
+msgid "Skull Slinger"
+msgstr ""
+
+#. [unit_type], id=Skull Slinger, race=undead
+#: .\units\undead\Skull_Slinger.cfg:17
+msgid ""
+"Skull Slingers do not forge weapons — they scavenge them from the dead. A "
+"skull hurled by skeletal arms strikes harder than it has any right to, and "
+"these undead never want for ammunition. Between battles they lie dormant "
+"beneath the dunes, indistinguishable from buried rubble, waiting in perfect "
+"silence for the tremor of boots on sand to drag them back into purpose."
 msgstr ""
 
 #. [unit_type], id=Shadowback, race=undead
@@ -9930,11 +11251,6 @@ msgid ""
 "ever be."
 msgstr ""
 
-#. [attack], type=arcane, range=ranged
-#: .\units\undead\Umbral_Sovereign.cfg:44
-msgid "dark tempest"
-msgstr ""
-
 #. [unit_type], id=Bloodborn, race=vampire
 #: .\units\vampires\Bloodborn.cfg:5
 msgid "Bloodborn"
@@ -9974,14 +11290,6 @@ msgid ""
 "is able to damage the nonliving."
 msgstr ""
 
-#. [attack], type=fire, range=ranged
-#: .\units\vampires\Blood_Apprentice.cfg:37
-#: .\units\vampires\Blood_Manipulator.cfg:46
-#: .\units\vampires\Flesh_Artisan.cfg:48
-#: .\units\vampires\Sangel.cfg:38
-msgid "blood boil"
-msgstr ""
-
 #. [unit_type], id=Blood Hulk, race=vampire
 #: .\units\vampires\Blood_Hulk.cfg:5
 msgid "Blood Hulk"
@@ -10004,10 +11312,10 @@ msgstr ""
 #. [unit_type], id=Blood Manipulator, race=vampire
 #: .\units\vampires\Blood_Manipulator.cfg:19
 msgid ""
-"It is horrifying what an skilled manipulator of blood can do to you.. He can "
-"cause your every vein to burn. He can strip you of food, or cause you to "
-"vomit, or burn through your brain. Horrifying as as that is what he can do to"
-" your spirit is worse."
+"It is revolting, what a skilled manipulator of blood can do to you. He can "
+"cause your every vein to sear. He can starve your flesh, twist your gut, or "
+"char your very thoughts from the inside. Horrifying as that is, what he can "
+"do to your spirit is worse."
 msgstr ""
 
 #. [unit_type], id=Day Hunter, race=vampire
@@ -10041,17 +11349,9 @@ msgid ""
 "A Duchess is a powerful, yet elegant vampiress who is often the wife of a "
 "Methusalem. Even though a Duchess is feared for all the minions she controls,"
 " she is capable of ravaging her enemies with her graceful swordsmanship and "
-"her dementing gaze; in addition she has a powerful bite. It is wise not to "
+"her dementing gaze; in addition, she has a powerful bite. It is wise not to "
 "get in her way due to her dreadful power and the vast number of minions she "
 "controls."
-msgstr ""
-
-#. [attack], type=arcane, range=ranged
-#: .\units\vampires\Duchess.cfg:54
-#: .\units\vampires\Methusalem.cfg:54
-#: .\units\vampires\Mistress.cfg:53
-#: .\units\vampires\Sire.cfg:54
-msgid "dementia gaze"
 msgstr ""
 
 #. [unit_type], id=Vampire Duelist, race=vampire
@@ -10086,7 +11386,7 @@ msgid ""
 "Most vampires are weak ones in service of the lords and more powerful ones, "
 "hoping and waiting that they will rise into a position of power for "
 "themselves. Until then they serve him in exchange for blood. When there are "
-"no more humans and half bloods, these vampires are the next most expendable "
+"no more humans and halfbloods, these vampires are the next most expendable "
 "thing a vampire lord has."
 msgstr ""
 
@@ -10118,8 +11418,8 @@ msgstr ""
 #. [unit_type], id=Half Blood, race=vampire
 #: .\units\vampires\Half_Blood.cfg:27
 msgid ""
-"halfbloods vampire blood grows stronger as they kill. When they are balanced "
-"roughly evenly between both bloods, they are known as half bloods."
+"Halfbloods vampire blood grows stronger as they kill. When they are balanced "
+"roughly evenly between both bloods, they are known as halfbloods."
 msgstr ""
 
 #. [female]
@@ -10135,7 +11435,7 @@ msgstr ""
 #. [unit_type], id=Malborn, race=vampire
 #: .\units\vampires\Malborn.cfg:23
 msgid ""
-"Some people are simply to weak to handle the blood, and it leaves them a "
+"Some people are simply too weak to handle the blood, and it leaves them a "
 "mindless mess. This gives the vampire lord complete control over what is left"
 " of them. Because of this control, the vampire lord is quite willing to arm "
 "these creatures with poisoned daggers. Unlike his other servants, these ones "
@@ -10171,7 +11471,7 @@ msgid ""
 "vampiresses are capable of unleashing a world of pain and suffering upon "
 "their enemies with their twin daggers and their dementing gaze. The minions "
 "and mercenaries which serve her fight significantly better whenever they "
-"around her, sometimes it is unknown wether she is leading them or the "
+"around her, sometimes it is unknown whether she is leading them or the "
 "mercenaries and minions are protecting her in order to protect themselves "
 "from the wrath of the Mistress' husband."
 msgstr ""
@@ -10188,10 +11488,10 @@ msgid ""
 "land they can hold. They use charm, terror, and ruthlessness to uphold their "
 "reign. They will surround themselves with their loyal vampires, whom they "
 "keep in check with the promise of continual blood, and subject any lesser "
-"creature to be the surfs of their society, and to provide blood or "
+"creature to be the serfs of their society, and to provide blood or "
 "cannon-fodder in an emergency. They do not feed on them directly in most "
 "circumstances, because that tends to lead to rebellion, but rather force the "
-"surfs to provide animals for their weekly blood."
+"serfs to provide animals for their weekly blood."
 msgstr ""
 
 #. [female]
@@ -10253,9 +11553,9 @@ msgstr ""
 msgid ""
 "Not all bloodborn grow towards their vampire side. Some lean on the human "
 "side, and can stand the daylight, and use a bow, which most vampires disdain "
-"as a peasant weapon. However they still have the vampires curse of blood "
+"as a peasant weapon. However, they still have the vampires curse of blood "
 "thirst on them, giving them a reason to continue to serve their lord. These "
-"qualities make them a valuable support for a vampires army."
+"qualities make them a valuable support for a vampire's army."
 msgstr ""
 
 #. [female]
@@ -10272,16 +11572,11 @@ msgstr ""
 #: .\units\vampires\Twilight_Walker.cfg:29
 msgid ""
 "After reaching the halfway point, a halfblood can choose to go back, but many"
-" prefer not too. Those who don't are known as twilight walkers, and are among"
-" a lords most trusted servants, because they could have chosen day, but did "
+" prefer not to. Those who don't are known as twilight walkers, and are among "
+"a lords most trusted servants, because they could have chosen day, but did "
 "not. As such they are often entrusted with poisons, and assassinations. For a"
 " vampire lord will always have enemies some of which are better slain with "
 "poison in the twilight, than with an army at night."
-msgstr ""
-
-#. [attack], type=blade, range=melee
-#: .\units\vampires\Twilight_Walker.cfg:35
-msgid "poisoned dagger"
 msgstr ""
 
 #. [female]
@@ -10304,14 +11599,6 @@ msgid ""
 "scythes are a testament to their martial prowess, it is their profound "
 "knowledge of the Cipher that makes them formidable. They stand as the final "
 "word in disputes, and their judgments are both respected and feared."
-msgstr ""
-
-#. [attack], type=arcane, range=ranged
-#: .\units\windsong\Arbiter.cfg:43
-#: .\units\windsong\Librarian.cfg:44
-#: .\units\windsong\Savant.cfg:35
-#: .\units\windsong\Scribe.cfg:46
-msgid "cipher"
 msgstr ""
 
 #. [unit_type], id=Ascendant, race=windsong, gender=female
@@ -10347,12 +11634,6 @@ msgid ""
 "obeying them with fervor."
 msgstr ""
 
-#. [attack], type=energy, range=ranged
-#: .\units\windsong\Ascendant.cfg:71
-#: .\units\windsong\Prophetess.cfg:65
-msgid "chronostasis cipher"
-msgstr ""
-
 #. [unit_type], id=Courier, race=windsong, gender=female
 #: .\units\windsong\Courier.cfg:5
 msgid "female^Courier"
@@ -10368,9 +11649,9 @@ msgid ""
 "levitation ciphers. There are many benefits to this. Rough terrain possesses "
 "little impediment, as do ice and water, and delicate loads can be carried "
 "quickly. However, their devotion to levitation denies them access to the more"
-" offensive ciphers. Instead, they tend to carry sharpned rocks and hit their "
-"opponents with them if they come too close. Their skill at manipulating "
-"gravity makes their long distance attacks uncannily accurate."
+" offensive ciphers. Instead, they tend to carry sharpened rocks and hit their"
+" opponents with them if they come too close. Their skill at manipulating "
+"gravity makes their long-distance attacks uncannily accurate."
 msgstr ""
 
 #. [unit_type], id=Dreadnought, race=windsong, gender=female
@@ -10420,12 +11701,12 @@ msgid ""
 "guard against this, some Weavers focus their attention on the Sky Shards, "
 "learning to emulate the Shard's detachment from reality. Once submersed in "
 "The Raw, they can move long distances just as the Shards can. The Council "
-"relies on these Envoys to asses operations or be the field advisers in an "
+"relies on these Envoys to assess operations or be the field advisers in an "
 "emergency. This amazing power comes at the cost of their studies in other "
 "areas like healing and battle, so while they can advise and coordinate field "
 "agents, they cannot lead them in battle or heal them afterwards. Furthermore,"
 " to remain in The Raw for more than an instant is dangerous, so Envoys cannot"
-" use it to protect themselves in the same was as the Shards.\n"
+" use it to protect themselves in the same way as the Shards.\n"
 "\n"
 "Envoys can move instantly between areas of high cipher activity (friendly "
 "towns). Envoys cannot heal any more."
@@ -10456,15 +11737,6 @@ msgstr ""
 msgid "polearm"
 msgstr ""
 
-#. [attack], type=fire, range=ranged
-#: .\units\windsong\Farstrider.cfg:50
-#: .\units\windsong\Pathfinder.cfg:51
-#: .\units\windsong\Seeker.cfg:47
-#: .\units\windsong\Skyrunner.cfg:45
-#: .\units\windsong\Stormbringer.cfg:46
-msgid "lightning cipher"
-msgstr ""
-
 #. [unit_type], id=Gatekeeper, race=windsong, gender=female
 #: .\units\windsong\Gatekeeper.cfg:5
 msgid "female^Gatekeeper"
@@ -10483,12 +11755,12 @@ msgid ""
 "blindfolds."
 msgstr ""
 
-#. [unit_type], id=Harbinger, race=windsong, gender=female
+#. [unit_type], id=Windsong Harbinger, race=windsong, gender=female
 #: .\units\windsong\Harbinger.cfg:12
 msgid "female^Harbinger"
 msgstr ""
 
-#. [unit_type], id=Harbinger, race=windsong, gender=female
+#. [unit_type], id=Windsong Harbinger, race=windsong, gender=female
 #: .\units\windsong\Harbinger.cfg:46
 msgid ""
 "Harbingers symbolise the fiery spirit of the Heretic caste. They are not just"
@@ -10626,11 +11898,11 @@ msgid ""
 "possibilities change. Through her accompanying spirit, some Weavers learn to "
 "interpret flows in The Raw as predictions for future events. With time and "
 "experience, her predictions become more accurate and dependable. Eventually, "
-"if she is of quality, she will be invited to join the ranks of the Prophets. "
-"Unlike the farseers of other peoples, the Windsong Prophetesses do not "
-"'witness' events so much as apply an expanded form of cause and effect. "
-"Knowing all flows are open to interpretation, Prophets are discouraged from "
-"making predictions without the council of her peers.\n"
+"if she is of quality, she will be invited to join the ranks of the "
+"Prophetesses. Unlike the farseers of other peoples, the Windsong Prophetesses"
+" do not 'witness' events so much as apply an expanded form of cause and "
+"effect. Knowing all flows are open to interpretation, Prophetesses are "
+"discouraged from making predictions without the council of her peers.\n"
 "\n"
 "Unlike Envoys, Prophetesses have much time to study the arts of leadership "
 "and healing, and she has now learned to cure poison. Such is the respect of "
@@ -10668,21 +11940,6 @@ msgid ""
 "unimaginable to others, often manipulating the very essence of battles. To "
 "face a Rune Forger is to challenge the primal forces channeled through the "
 "wisdom of the Windsong."
-msgstr ""
-
-#. [attack], type=blade, range=ranged
-#: .\units\windsong\Rune_Forger.cfg:42
-msgid "sorrow"
-msgstr ""
-
-#. [attack], type=impact, range=ranged
-#: .\units\windsong\Rune_Forger.cfg:56
-msgid "memory"
-msgstr ""
-
-#. [attack], type=pierce, range=ranged
-#: .\units\windsong\Rune_Forger.cfg:70
-msgid "death"
 msgstr ""
 
 #. [unit_type], id=Savant, race=windsong, gender=female
