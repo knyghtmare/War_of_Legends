@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 env:
-  WESNOTH_VERSION: 1.18.2
+  WESNOTH_VERSION: 1.19.24
 
 jobs:
   optimize:
