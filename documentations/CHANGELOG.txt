@@ -1,5 +1,13 @@
 War of Legends
-Change-Log v1.2.86
+Change-Log v1.2.87
+
+version 1.2.7.87
+--> added the AMLA sets missing
+--> created AMLA modification for WoL factions in MP
+--> units:
+    --> Unstable Elemental: +2 cost and +11 XP
+    --> Nature Wrath: +4 cost
+--> fixed a bug where obscures did not become active on neutral ToD
 
 version 1.2.7.86
 --> bug fix on Fugitive and Highwayman AMLAs
