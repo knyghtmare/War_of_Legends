@@ -4,7 +4,7 @@ This is a document regarding contributions.
 
 ## Artists
 
-If you are good at pixel artist and would like to animate some of the units, do get in touch.
+If you are a good pixel artist and would like to animate some of the units, do get in touch.
 
 ## Translations
 
