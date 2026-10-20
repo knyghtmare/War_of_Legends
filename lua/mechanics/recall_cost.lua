@@ -1,5 +1,5 @@
 -- original code credits to fluffbeast
--- modified by Lord-Knightmare to accomodate lvl 1 and lvl 0 units
+-- modified by Lord-Knightmare to accommodate lvl 1 and lvl 0 units
 
 function wesnoth.wml_actions.adjust_recall_costs(cfg)
     -- currently revised recall costs

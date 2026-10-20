@@ -1,8 +1,16 @@
 War of Legends
-Change-Log v1.2.87
+Change-Log v1.2.88
+
+version 1.2.7.88
+--> Translation: clean translatable strings to use more mainline strings.
 
 version 1.2.7.87
---> Translation: clean translatable strings to use more mainline strings.
+--> added the AMLA sets missing
+--> created AMLA modification for WoL factions in MP
+--> units:
+    --> Unstable Elemental: +2 cost and +11 XP
+    --> Nature Wrath: +4 cost
+--> fixed a bug where obscures did not become active on neutral ToD
 
 version 1.2.7.86
 --> bug fix on Fugitive and Highwayman AMLAs

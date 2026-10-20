@@ -370,7 +370,7 @@ function wml_actions.scatter_units(cfg) -- replacement for SCATTER_UNITS macro
 				-- apparently, a reversed ipairs like below is the best way to check every location
 				-- and remove those that are too close
 				-- using standard ipairs jumps some locations
-				for index = #locations, 1, -1 do --lenght of locations, until 1, step -1
+				for index = #locations, 1, -1 do --length of locations, until 1, step -1
 					local distance = wesnoth.map.distance_between( where_to_place[1], where_to_place[2], locations[index][1], locations[index][2] )
 
 					if distance < scatter_radius then
