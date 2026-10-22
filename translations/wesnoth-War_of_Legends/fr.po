@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: War of Legends\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-10-20 09:28\n"
+"POT-Creation-Date: 2026-10-22 11:16\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Rodolphe Combe-Colas\n"
 "Language-Team: lhybrideur\n"
@@ -66,6 +66,11 @@ msgstr "IA par Défaut (GdL)"
 #: .\eras\Classic_Default.cfg:5
 msgid "Default Era (Classic)"
 msgstr "Ere par Défaut (Classique)"
+
+#. [era], id=era_default_classic
+#: .\eras\Classic_Default.cfg:9
+msgid "The standard era for Wesnoth multiplayer. Consists of six factions and is generally balanced."
+msgstr "L'ère standard pour les jeux multijoueurs. Contient six factions plutôt bien équilibrées."
 
 #. [era], id=core_legends
 #: .\eras\Core_Legends.cfg:5
@@ -245,8 +250,8 @@ msgstr "Ere Guerre des Légendes"
 
 #. [era], id=war_of_legends
 #: .\eras\War_of_Legends.cfg:7
-msgid "An era consisting of sixteen of my most favourite MP factions. Mostly balanced."
-msgstr "Une ère composée de seize de vos factions multijoueur favorites. Globalement équilibrée."
+msgid "An era consisting of sixteen of my favourite MP factions. Mostly balanced."
+msgstr "Une ère composée de seize de mes factions multijoueur favorites. Globalement équilibrée."
 
 #. [era], id=wol_rpg
 #: .\eras\War_of_Legends_RPG.cfg:7
@@ -699,8 +704,8 @@ msgstr "embuscade de grotte"
 #: .\macros\abilities-elemental.cfg:7
 #: .\macros\abilities-elemental.cfg:9
 msgid ""
-"This unit can hide in cave, and remain undetected by its enemies.\n"
-"Enemy units cannot see this unit while it is in cave, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
+"This unit can hide in a cave, and remain undetected by its enemies.\n"
+"Enemy units cannot see this unit while it is in a cave, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
 msgstr ""
 "Cette unité peut se cacher dans les grottes et y rester invisible.\n"
 "Les ennemis ne peuvent pas voir cette unité tant qu'elle se trouve en grotte, sauf s'ils sont juste à côté. Le premier à découvrir cette unité perd immédiatement tous ses points de mouvement."
@@ -3977,8 +3982,8 @@ msgstr "Gnolls"
 
 #. [race], id=gnoll
 #: .\units\gnolls.cfg:26
-msgid "Gnolls are humanoid hyenas which live in the swamps of the Silver Lands. They are known for their aptitude in the fine art of archery and for their ability to conceal themselves in swampy terrain. Gnolls are often associated with the Minotaurs, mainly due to the fact Minotaurs often hire them as mercenaries."
-msgstr "les Gnolls sont des hyènes humanoïdes qui vivent dans les marais des Landes d'Argent. Ils sont connus pour leur aptitude à l'art délicat de l'archerie et pour leur capacité à se cacher en terrain marécageux. Les Gnolls sont souvent associés aux Minotaures, principalement à cause du fait que les Minotaures les embauchent souvent comme mercenaires."
+msgid "Gnolls are humanoid hyenas which live in the swamps of the Silver Lands. They are known for their aptitude in the fine art of archery and for their ability to conceal themselves in swampy terrain. Gnolls are often associated with the Minotaurs, mainly due to the fact that Minotaurs often hire them as mercenaries."
+msgstr "Les Gnolls sont des hyènes humanoïdes qui vivent dans les marais des Landes d'Argent. Ils sont connus pour leur aptitude à l'art délicat de l'archerie et pour leur capacité à se cacher en terrain marécageux. Les Gnolls sont souvent associés aux Minotaures, principalement à cause du fait que les Minotaures les embauchent souvent comme mercenaires."
 
 #: .\units\harpies.cfg:7
 msgid "Chichichi,Chirpei,Chirralui,Chileichi,Chirchiluin,Chirtililin,Eftiit,Eftiut,Fiufiu,Fiunei,Fiulit,Fielin,Fiuleilei,Felilit,Firlilirrin,Frruoh,Iorrit, Hrrit,Kfrri,Lurroura,Lurrei,Lulilit,Luftierrei,Luiluilinei,Miirh,Miineh,Ourrlueliei,Ourrouei,Ourrlealit,Ourrouei,Outielin,Ouka,Ouluu,Ourrou,Rahuitt,Ruho,Ruhru,Rorrit,Ruhrit,Rroah,Rriuu,Siani,Sirlit,Sielit,Sieliterrou,Sialua,Srri,Sreeil,Sursurr,Soussou,Sootei,Suitou,Tou,Turru,Turrutei,Tsita,Tsitei,Tsirpi,Tsilului,Tioh-tiin,Tuituin,Tsituin,Tsitsitrrin,Tuina,Tuinit,Uitia,Uitin"
@@ -5445,13 +5450,6 @@ msgstr "Champion de Quenoth"
 msgid "Standing at the forefront of most Quenoth spear lines, Champions are those who have mastered the use of the glaive to near perfection. Perhaps only slightly lacking in finesse in strategy, these elves more than compensate with raw power and can force their way through all but the most secure of defenses."
 msgstr "Positionnés au front de la plupart des lignes de lances de Quenoth, les Champions ont maitrisé le glaive à la limite de la perfection. Avec, peut-être, une lacune dans la finesse de leur stratégie, ces elfes ont compensé avec une force brute et peuvent tracer leur chemin à travers les plus sécurisées des défenses."
 
-#. [attack], type=pierce, range=melee
-#. [attack], type=blade, range=melee
-#: .\units\elves-quenoth\Champion.cfg:31
-#: .\units\elves-quenoth\Champion.cfg:43
-msgid "glaive"
-msgstr "glaive"
-
 #. wesnoth-utbs
 #. [unit_type], id=Quenoth Druid, race=quenoth, gender=female
 #: .\units\elves-quenoth\Druid.cfg:6
@@ -6312,7 +6310,7 @@ msgstr "Harpie nocturne"
 
 #. [unit_type], id=Night Harpy, race=harpy, gender=female
 #: .\units\harpies\Nightharpy.cfg:19
-msgid "While most harpies prefer to build their homes in the caves dotting seashore cliffs and tall mountains, some have chosen to seek shelter in forests. This new environment has made them change their hunting techniques, which now rely on stealth a lot more. Over time their body evolved and they can now fly silently, which makes them extremely hard to notice at night. "
+msgid "While most harpies prefer to build their homes in the caves dotting seashore cliffs and tall mountains, some have chosen to seek shelter in forests. This new environment has made them change their hunting techniques, which now rely on stealth a lot more. Over time their bodies evolved and they can now fly silently, which makes them extremely hard to notice at night. "
 msgstr "Si la plupart des harpies préfèrent construire leurs maisons dans les grottes qui parsèment les falaises du bord de mer et les hautes montagnes, certaines ont choisi de s'abriter dans les forêts. Ce nouvel environnement leur a fait changer leurs techniques de chasse, qui reposent désormais bien plus sur la discrétion. Au fil du temps, leur corps a évolué et elles peuvent désormais voler silencieusement, ce qui les rend extrêmement difficiles à repérer de nuit. "
 
 #. [unit_type], id=Harpy Pirate, race=harpy, gender=female
@@ -6393,7 +6391,7 @@ msgstr "Sirène harpie"
 
 #. [unit_type], id=Harpy Siren, race=harpy, gender=female
 #: .\units\harpies\Siren.cfg:21
-msgid "Harpies have a strong belief that their kind was born from a magical song, sung from what they call the World of Mist. When the wind song feels sorrowful, it is because we hear the laments of beings that got lost in that illusory land."
+msgid "Harpies have a strong belief that their kind was born from a magical song, sung from what they call the World of Mist. When the wind song feels sorrowful, it is because they hear the laments of beings that got lost in that illusory land."
 msgstr "Les harpies croient fermement que leur espèce est née d'un chant magique, chanté depuis ce qu'elles appellent le Monde des Brumes. Lorsque le chant du vent semble triste, c'est car nous entendons les lamentations d'êtres qui se sont perdus dans ce pays illusoire."
 
 #. [unit_type], id=Harpy Songstress of Storms, race=harpy, gender=female
@@ -7677,7 +7675,7 @@ msgstr "Contrairement aux Agitateurs, les sauvages on décider d'acquérir une r
 
 #. [unit_type], id=Minotaur Shaman, race=minotaur
 #: .\units\minotaurs\Shaman.cfg:21
-msgid "The Minotaur Shamans hold a lofty position in minotaur society, they either pursue the quest as representatives of the minotaur's goddess or they pursue the amazing ability to levitate and healing. Even though these mages are lacking a bit of experience they are still powerful."
+msgid "The Minotaur Shamans hold a lofty position in minotaur society. They either pursue the quest as representatives of the minotaur's goddess or they pursue the amazing ability to levitation and healing. Even though these mages are lacking a bit of experience they are still powerful."
 msgstr "Les Shamans Minotaures détiennent une position noble dans la société minotaure, ils poursuivent soit une quête en tant que représentants de la déesse des minotaures ou recherche la capacité de léviter et de soigner. Bien que ces mages manquent un peu d'expérience, ils sont néanmoins puissants."
 
 #. [unit_type], id=Minotaur Slayer, race=minotaur
@@ -9326,7 +9324,7 @@ msgstr "Gardienne des Traditions"
 
 #. [unit_type], id=Lorekeeper, race=windsong, gender=female
 #: .\units\windsong\Lorekeeper.cfg:41
-msgid "The Great Library, the enormous complex that forms the heart of the Windsong Foundation, is the home of what may the oldest texts still existing in the world, many of which have been copied down by generations of Scribes as their original bindings dissolved into dust. Most of the Windsong are forbidden from entering its hallowed halls, and only the most loyal and skilled Gatekeepers are allowed to join the ranks of the Lorekeepers and become its guards."
+msgid "The Great Library, the enormous complex that forms the heart of the Windsong Foundation, is the home of what may be the oldest texts still existing in the world, many of which have been copied down by generations of Scribes as their original bindings dissolved into dust. Most of the Windsong are forbidden from entering its hallowed halls, and only the most loyal and skilled Gatekeepers are allowed to join the ranks of the Lorekeepers and become its guards."
 msgstr "La Grande Bibliothèque, l'énorme complexe qui forme le cœur de la Fondation Chant du Vent, est la demeure de ce qui sont peut-être les plus anciens textes existant au monde, nombre d'entre eux ayant été copiés par des générations de Scribes tandis que reliure originale tombait en poussière. La plupart des Chant du Vent ont interdiction d'entrer dans ses salles saintes et seules les Gardiennes les plus loyales et talentueuses sont autorisées à rejoindre le rang des Gardiennes des Traditions et à devenir ses gardiennes."
 
 #. [unit_type], id=Oathkeeper, race=windsong, gender=female
@@ -9476,4 +9474,7 @@ msgstr ""
 "Une fois adulte, les Tisserandes remplissent nombre de différents rôles dans la société Chant du Vent : elles sont les soigneuses, les planificatrices, les devins et les commandantes militaires. Elles poursuivent l'art de l'archerie, le voyant comme une forme de méditation, et sont aidées à la fois dans la vie de tous les jours et au combat par leur esprit accompagnateur.\n"
 "\n"
 "Les premières leçons qu'une Tisserande-née apprend sont les arts du soin, bien qu'elle ne puisse pas encore guérir le poison."
+
+#~ msgid "glaive"
+#~ msgstr "glaive"
 

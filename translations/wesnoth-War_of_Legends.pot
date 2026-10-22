@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-10-20 10:20\n"
+"POT-Creation-Date: 2026-10-22 11:16\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,6 +67,13 @@ msgstr ""
 #. [era], id=era_default_classic
 #: .\eras\Classic_Default.cfg:5
 msgid "Default Era (Classic)"
+msgstr ""
+
+#. [era], id=era_default_classic
+#: .\eras\Classic_Default.cfg:9
+msgid ""
+"The standard era for Wesnoth multiplayer. Consists of six factions and is "
+"generally balanced."
 msgstr ""
 
 #. [era], id=core_legends
@@ -317,9 +324,7 @@ msgstr ""
 
 #. [era], id=war_of_legends
 #: .\eras\War_of_Legends.cfg:7
-msgid ""
-"An era consisting of sixteen of my most favourite MP factions. Mostly "
-"balanced."
+msgid "An era consisting of sixteen of my favourite MP factions. Mostly balanced."
 msgstr ""
 
 #. [era], id=wol_rpg
@@ -816,8 +821,8 @@ msgstr ""
 #: .\macros\abilities-elemental.cfg:7
 #: .\macros\abilities-elemental.cfg:9
 msgid ""
-"This unit can hide in cave, and remain undetected by its enemies.\n"
-"Enemy units cannot see this unit while it is in cave, except if they have "
+"This unit can hide in a cave, and remain undetected by its enemies.\n"
+"Enemy units cannot see this unit while it is in a cave, except if they have "
 "units next to it. Any enemy unit that first discovers this unit immediately "
 "loses all its remaining movement."
 msgstr ""
@@ -4425,7 +4430,7 @@ msgid ""
 "Gnolls are humanoid hyenas which live in the swamps of the Silver Lands. They"
 " are known for their aptitude in the fine art of archery and for their "
 "ability to conceal themselves in swampy terrain. Gnolls are often associated "
-"with the Minotaurs, mainly due to the fact Minotaurs often hire them as "
+"with the Minotaurs, mainly due to the fact that Minotaurs often hire them as "
 "mercenaries."
 msgstr ""
 
@@ -7685,7 +7690,7 @@ msgid ""
 "While most harpies prefer to build their homes in the caves dotting seashore "
 "cliffs and tall mountains, some have chosen to seek shelter in forests. This "
 "new environment has made them change their hunting techniques, which now rely"
-" on stealth a lot more. Over time their body evolved and they can now fly "
+" on stealth a lot more. Over time their bodies evolved and they can now fly "
 "silently, which makes them extremely hard to notice at night. "
 msgstr ""
 
@@ -7775,8 +7780,8 @@ msgstr ""
 msgid ""
 "Harpies have a strong belief that their kind was born from a magical song, "
 "sung from what they call the World of Mist. When the wind song feels "
-"sorrowful, it is because we hear the laments of beings that got lost in that "
-"illusory land."
+"sorrowful, it is because they hear the laments of beings that got lost in "
+"that illusory land."
 msgstr ""
 
 #. [unit_type], id=Harpy Songstress of Storms, race=harpy, gender=female
@@ -9544,9 +9549,9 @@ msgstr ""
 #. [unit_type], id=Minotaur Shaman, race=minotaur
 #: .\units\minotaurs\Shaman.cfg:21
 msgid ""
-"The Minotaur Shamans hold a lofty position in minotaur society, they either "
+"The Minotaur Shamans hold a lofty position in minotaur society. They either "
 "pursue the quest as representatives of the minotaur's goddess or they pursue "
-"the amazing ability to levitate and healing. Even though these mages are "
+"the amazing ability to levitation and healing. Even though these mages are "
 "lacking a bit of experience they are still powerful."
 msgstr ""
 
@@ -11888,12 +11893,12 @@ msgstr ""
 #: .\units\windsong\Lorekeeper.cfg:41
 msgid ""
 "The Great Library, the enormous complex that forms the heart of the Windsong "
-"Foundation, is the home of what may the oldest texts still existing in the "
-"world, many of which have been copied down by generations of Scribes as their"
-" original bindings dissolved into dust. Most of the Windsong are forbidden "
-"from entering its hallowed halls, and only the most loyal and skilled "
-"Gatekeepers are allowed to join the ranks of the Lorekeepers and become its "
-"guards."
+"Foundation, is the home of what may be the oldest texts still existing in the"
+" world, many of which have been copied down by generations of Scribes as "
+"their original bindings dissolved into dust. Most of the Windsong are "
+"forbidden from entering its hallowed halls, and only the most loyal and "
+"skilled Gatekeepers are allowed to join the ranks of the Lorekeepers and "
+"become its guards."
 msgstr ""
 
 #. [unit_type], id=Oathkeeper, race=windsong, gender=female
