@@ -1,5 +1,8 @@
 War of Legends
-Change-Log v1.2.87
+Change-Log v1.2.88
+
+version 1.2.7.88
+--> Translation: clean translatable strings to use more mainline strings.
 
 version 1.2.7.87
 --> added the AMLA sets missing

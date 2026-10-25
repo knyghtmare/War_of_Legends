@@ -263,13 +263,14 @@ function wml_actions.prompt( cfg )
 		wml.variables[variable] = return_table.input
 	elseif return_value == 2 or return_value == -2 then -- if user pressed Cancel or Esc
 		wml.variables[variable] = "null" -- any better choice?
-	else wml.error( ( tostring( _"Prompt" ) .. ": " .. tostring( _"Error, return value :" ) .. tostring( return_value ) ) ) end -- any unhandled case is handled here
+	else wml.error( ( tostring( _"Prompt" ) .. ": " .. tostring( _"Error, return value:" ) .. tostring( return_value ) ) ) end -- any unhandled case is handled here
 end
 
 function wml_actions.choice_box( cfg )
 	local variable = cfg.variable or wml.error( "Missing variable= key in [choice_box]" )
 	local choice_values = {} -- it will be populated by preshow, and supply values to postshow
 
+	local _ = wesnoth.textdomain "wesnoth-lib"
 	local buttonbox = T.grid {
 				T.row {
 					T.column {
@@ -289,7 +290,8 @@ function wml_actions.choice_box( cfg )
 					}
 				}
 			}
-
+	local _ = wesnoth.textdomain "wesnoth-War_of_Legends"		
+	
 	local toggle_grid = T.grid {
 				T.row {
 					T.column {
@@ -432,5 +434,5 @@ function wml_actions.choice_box( cfg )
 		wml.variables[variable] = return_table.choice
 	elseif return_value == 2 or return_value == -2 then -- if user pressed Cancel or Esc
 		wml.variables[variable] = "null" -- any better choice?
-	else wml.error( ( tostring( _"Choice box" ) .. ": " .. tostring( _"Error, return value :" ) .. tostring( return_value ) ) ) end -- any unhandled case is handled here
+	else wml.error( ( tostring( _"Choice box" ) .. ": " .. tostring( _"Error, return value:" ) .. tostring( return_value ) ) ) end -- any unhandled case is handled here
 end
