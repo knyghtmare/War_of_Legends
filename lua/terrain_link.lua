@@ -107,3 +107,23 @@ wesnoth.game_events.add{
         end
     end
 }
+
+wesnoth.game_events.add{
+    name = 'scenario_end',
+    first_time_only = false,
+    action = function()
+        -- find every unit on the map that has the terrain link ability
+        local terrain_linked_units = wesnoth.units.find_on_map { ability = "WOL_terrain_link" }
+
+        for i, terrain_linked_unit in ipairs(terrain_linked_units) do
+            -- reset to the base variation so units carry over cleanly
+            terrain_linked_unit:add_modification("object", {
+                id = "WOL_terrain_link_base",
+                T.effect{
+                    apply_to = "variation",
+                    name = "tornado"
+                }
+            })
+        end
+    end
+}
