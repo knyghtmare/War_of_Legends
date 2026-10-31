@@ -1,5 +1,11 @@
 War of Legends
-Change-Log v1.2.88
+Change-Log v1.2.89
+
+version 1.2.7.89
+--> Units:
+    --> Nightmares: Unstable Elemental and Nature Wrath revert to their base variations on scenario end
+    --> Windsong: Skyrunner and Stormbringer RES oversight patched
+    --> Loyalists: Mounted Warden no longer penalized with lower defence on hills.
 
 version 1.2.7.88
 --> Translation: clean translatable strings to use more mainline strings.
