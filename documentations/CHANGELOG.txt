@@ -1,11 +1,17 @@
 War of Legends
-Change-Log v1.2.90
+Change-Log v1.2.90.1
 
-version 1.2.7.90
+version 1.2.7.90.1
 --> Units:
     --> Vampires:
-        --> Sangel: +1 blood boil damage
+        --> Sangel: +1 blood boil damage, +1 HP
             -->  Note: some bloke commented that Sangel was too weak compared to Arch Mage
+        --> Flesh Artisan: +1 HP
+        --> Blood Manipulator: +2 HP
+    --> Loyalists:
+        --> Infantryman: -1 melee damage, +2 HP, -1 cost, -2 XP
+    --> Dark Legion
+        --> Legion Crusher: +10% blade and +10% impact RES. +2 cost
 
 version 1.2.7.89
 --> Units:
