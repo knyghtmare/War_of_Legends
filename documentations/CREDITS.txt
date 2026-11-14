@@ -218,3 +218,6 @@ Durmoth
 --> Grave Sentinel
 --> Skull Barrager
 --> Skull Slinger
+
+lordlewis
+--> Carapace Hunter portrait
